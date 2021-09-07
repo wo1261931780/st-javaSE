@@ -40,3 +40,4 @@ public class aaa013while循环和随机数 {
 
     }
 }
+
