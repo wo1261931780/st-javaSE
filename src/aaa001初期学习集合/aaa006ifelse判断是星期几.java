@@ -37,8 +37,11 @@ public class aaa006ifelse判断是星期几 {
             System.out.println("考试结束屁股开花");
         } else if (90 < x1 && x1 <= 100) {
             System.out.println("考试结束去欧洲旅游");
-        } else
+        } else {
             System.out.println("分数错误。");
+        }
+        //数据测试：正确数据，边界数据，错误数据
+
 		/*if (0 <= x1 <= 60){
 			System.out.println("小明被活活打死");
 		}else if (60 < x1 <= 75){
@@ -49,8 +52,5 @@ public class aaa006ifelse判断是星期几 {
 			System.out.println("考试结束去欧洲旅游");
 		}else
 			System.out.println("分数错误。");*/
-
     }
-
-
 }

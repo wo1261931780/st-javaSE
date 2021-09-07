@@ -10,6 +10,7 @@ public class aaa010计算水仙花数 {
 
         int count = 0;
         for (System.out.println("循环开始于:" + xx); xx < 1000; xx++) {
+            //下面分别获取每个数位上的数字，2021年9月7日14:28:49
             int x1 = xx / 100;
             int x2 = xx / 10 % 10;
             int x3 = xx % 10;

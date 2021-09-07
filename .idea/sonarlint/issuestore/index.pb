@@ -25,8 +25,6 @@ a
 1src/aaa001初期学习集合/aaa012计时器.java,7\e\7e3f75b8125f6f0436ac39308f2deaa796e7be57
 b
 2src/aaa001初期学习集合/bbb002逢7跳过.java,5\7\57a3d91630c9c2f37a514a9df8ee9d8054911c0b
-g
-7src/aaa001初期学习集合/aaa005判断奇偶性.java,c\4\c4d4a9de9b1935613a63195c741b31dbcd2ddc8a
 j
 :src/aaa001初期学习集合/bbb005数组元素求和.java,d\e\de7f2a022482d25cee0fc9ad0199274c9218676f
 J
@@ -48,14 +46,12 @@ E
 T
 $src/aaa000helloworld/aaa001demo.java,4\5\45a32b2affbcdd8e87bbd0839213bb985f6b5e0c
 T
-$src/aaa000helloworld/aaa002demo.java,8\d\8d6cded3299e5721b31b3745409d7b4017697410
-T
 $src/aaa000helloworld/aaa003demo.java,7\5\755c53ac0a7a355197e3ae1e3f1ad68d3e7392d3
 T
 $src/aaa000helloworld/aaa004demo.java,5\9\597ead292dcdbbbf84ca850d708615306eee7ed4
-l
-<src/aaa001初期学习集合/aaa004if语句大小对比.java,8\4\84dd0552a0fd98c398c49f308c36ac2437ae905d
 g
 7src/aaa001初期学习集合/aaa001三元运算符.java,f\8\f8bd5aabceea90d000e14fb05d22271ce15e56b0
 T
 $src/aaa000helloworld/aaa005demo.java,4\4\4477023d93eb5e55ca5d47e791b537a411a4a9e1
+h
+8src/aaa001初期学习集合/aaa002三元运算符2.java,d\b\dbfbd2be629926cbc2d38e0b958e301e80966bc8
