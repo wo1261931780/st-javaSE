@@ -71,9 +71,3 @@ T
 $src/aaa000helloworld/aaa002demo.java,8\d\8d6cded3299e5721b31b3745409d7b4017697410
 j
 :src/aaa001初期学习集合/aaa010计算水仙花数.java,b\d\bdd6c35bad36f8a505e7cfce86df8dce237e6e78
-e
-5src/aaa001初期学习集合/aaa011dowhile循环.java,3\c\3cdd5669262d68e2a06acbea68811f9b7cd807a3
-a
-1src/aaa001初期学习集合/aaa012计时器.java,7\e\7e3f75b8125f6f0436ac39308f2deaa796e7be57
-o
-?src/aaa001初期学习集合/aaa013while循环和随机数.java,5\f\5fe86f62553c78fa89e6e2c3e76b453ad17f8059

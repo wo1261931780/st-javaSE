@@ -1,7 +1,7 @@
 package aaa001初期学习集合;
 
-import java.util.Scanner;
 import java.util.Random;
+import java.util.Scanner;
 
 public class aaa014水仙花数和随机猜测 {
     public static void main(String[] args) {
@@ -43,9 +43,7 @@ public class aaa014水仙花数和随机猜测 {
 		}
 
 		}*/
-
         //下面的计算没问题，问题数字是随机的，一开始就不是水仙花数
-
         for (System.out.println("测试计算开始："); xs < 1000; xs++) {
             if (xr == x1 * x1 * x1 + x2 * x2 * x2 + x3 * x3 * x3) {
                 System.out.println("得到水仙花数" + xr);
@@ -56,7 +54,12 @@ public class aaa014水仙花数和随机猜测 {
             }
         }
         System.out.println("测试结束");
-
-
+        /*
+        多行注释，直接Ctrl+shift+/
+        Ctrl+alt+space，直接弹出辅助输入框
+        1
+        2
+        3
+        */
     }
 }
