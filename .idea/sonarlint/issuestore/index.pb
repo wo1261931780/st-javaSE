@@ -1,10 +1,6 @@
 
 J
 src/ccc038time/ccc039.java,1\7\179ae385ae87c0fd09d169983b78a89f778368ac
-y
-Isrc/aaa001初期学习集合/aaa022比较输入和随机数的大小.java,c\f\cf9e3699bb9929cad5131b980abc54040d3af9c7
-y
-Isrc/aaa001初期学习集合/aaa025调用方法获取数组最大值.java,5\d\5d62b058ea5a6460c9568f958fdb15ca42644688
 g
 7src/bbb032学生储存然后遍历/bbb036学生类.java,0\8\084b522f98afde6fead85167531e50f15f50bdc8
 j
@@ -17,10 +13,6 @@ j
 :src/bbb010学生类和方法/bbb010面向对象基础.java,7\8\78758a5225e636dfc1976ba5d51497d98e283f1f
 d
 4src/aaa001初期学习集合/bbb001减肥计划.java,6\1\616fb32185b4bc8f69320fb2d64e009746df4fa4
-d
-4src/aaa001初期学习集合/aaa017数组长度.java,7\6\76f3cfdfefca85e64f54a94b2fd847ef2e0b55eb
-d
-4src/aaa001初期学习集合/aaa024数组遍历.java,2\f\2f2deb921f6f5fb1d560584cc45c8b1e085787a0
 b
 2src/aaa001初期学习集合/bbb002逢7跳过.java,5\7\57a3d91630c9c2f37a514a9df8ee9d8054911c0b
 j
