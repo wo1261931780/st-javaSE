@@ -2,6 +2,15 @@ package aaa001初期学习集合;
 
 import java.util.Scanner;
 
+/**
+ * 导包：
+ * 1:手动导包  import java.util.Scanner;
+ * 手动输入语句
+ * 2:快捷键导包 Alt+Enter
+ * 在scanner上面按快捷键
+ * 3:自动导包
+ * 不导包，直接输入scanner，会自动导包+创建对象
+ */
 public class bbb001减肥计划 {
     public static void main(String[] args) {
         Scanner b11 = new Scanner(System.in);

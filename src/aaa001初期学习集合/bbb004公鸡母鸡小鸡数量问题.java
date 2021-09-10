@@ -6,10 +6,11 @@ public class bbb004公鸡母鸡小鸡数量问题 {
             for (int y = 0; y <= 33; y++) {
                 int z = 100 - x - y;
                 if (z % 3 == 0 && 5 * x + 3 * y + z / 3 == 100) {
-                    System.out.println(x + "," + y + "," + z);
+                    System.out.println("公鸡" + x + ",母鸡" + y + ",小鸡" + z + "");
                 }
             }
         }
     }
+
 }
 

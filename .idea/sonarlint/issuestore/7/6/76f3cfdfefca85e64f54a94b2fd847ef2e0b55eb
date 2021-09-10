@@ -1,0 +1,15 @@
+
+V	java:S125"<This block of commented-out lines of code should be removed.(§ßßœÿÿÿÿÿ
+L
+java:S1854#"6Remove this useless assignment to local variable "x2".(·Á¶
+N	java:S106"9Replace this use of System.out or System.err by a logger.(°û…ü
+=
+java:S1481#"'Remove this unused "x2" local variable.(·Á¶
+V	java:S125("<This block of commented-out lines of code should be removed.(×‚ã×øÿÿÿÿ
+S	java:S1060"9Replace this use of System.out or System.err by a logger.(õñ¥úùÿÿÿÿ
+N	java:S1067"9Replace this use of System.out or System.err by a logger.(®Èëİ
+S	java:S1068"9Replace this use of System.out or System.err by a logger.(šÂ„”ùÿÿÿÿ
+N	java:S1069"9Replace this use of System.out or System.err by a logger.(ÛƒˆÍ
+N	java:S106:"9Replace this use of System.out or System.err by a logger.(®¹Ş³
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ĞùÇ¨ıÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÃşÊÿÿÿÿÿ

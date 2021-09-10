@@ -1,17 +1,0 @@
-
-N	java:S106"9Replace this use of System.out or System.err by a logger.(Šå¦º
-S	java:S106"9Replace this use of System.out or System.err by a logger.(”‰Ö¹ùÿÿÿÿ
-S	java:S106"9Replace this use of System.out or System.err by a logger.(½‹ ıÿÿÿÿ
-V	java:S125"<This block of commented-out lines of code should be removed.(“Åêøÿÿÿÿ
->	java:S108")Either remove or fill this block of code.(å¥‡
-N	java:S106#"9Replace this use of System.out or System.err by a logger.(ğâİË
-V	java:S125!"<This block of commented-out lines of code should be removed.(²àÔıÿÿÿÿ
-N	java:S106%"9Replace this use of System.out or System.err by a logger.(äÜîß
-N	java:S106'"9Replace this use of System.out or System.err by a logger.(äÜîß
-N	java:S106)"9Replace this use of System.out or System.err by a logger.(ÜŞÅî
-S	java:S106*"9Replace this use of System.out or System.err by a logger.(ÎŸ±øÿÿÿÿ
-k
-java:S1192"PDefine a constant instead of duplicating this literal "é‡åˆ°æ•°å­—ï¼š" 3 times.(”‰Ö¹ùÿÿÿÿ
-r	java:S127"XRefactor the code in order to not assign to this loop counter from within the loop body.(Æ˜¿Ğüÿÿÿÿ
-b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(‰îõ
-t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÃşÊÿÿÿÿÿ
