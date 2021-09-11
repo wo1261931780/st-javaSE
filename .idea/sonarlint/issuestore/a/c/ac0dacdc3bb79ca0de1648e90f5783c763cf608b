@@ -1,14 +1,12 @@
 
-V	java:S125"<This block of commented-out lines of code should be removed.(»•ûÿÿÿÿ
-V	java:S125	"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ
-S	java:S106"9Replace this use of System.out or System.err by a logger.(¢ÙÚùÿÿÿÿ
-B
-java:S1481"'Remove this unused "jb" local variable.(ø’‡Æúÿÿÿÿ
-N	java:S106"9Replace this use of System.out or System.err by a logger.(È•—
-?
-java:S1172")Remove this unused method parameter "nn".(ãÂÛÎ
-S	java:S106"9Replace this use of System.out or System.err by a logger.(ë¹¯šüÿÿÿÿ
-B
-java:S1481"'Remove this unused "mm" local variable.(å×‡¥şÿÿÿÿ
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(¢ÙÚùÿÿÿÿ8ï­Ç™½/
+D
+java:S1481"'Remove this unused "jb" local variable.(‰±ÓÛ8ğ­Ç™½/
+U	java:S106"9Replace this use of System.out or System.err by a logger.(È•—8ğ­Ç™½/
+K
+java:S1172&")Remove this unused method parameter "nn".(º÷©™ûÿÿÿÿ8ñ­Ç™½/
+Z	java:S106("9Replace this use of System.out or System.err by a logger.(ë¹¯šüÿÿÿÿ8ñ­Ç™½/
+D
+java:S1481*"'Remove this unused "mm" local variable.(Á’Èõ8ò­Ç™½/
 g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(‹Ğ¤©üÿÿÿÿ
 o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(˜ÆÈ¤
