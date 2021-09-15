@@ -16,9 +16,9 @@ public class bbb012学生测试类 {
         x.age = 300;
         x.name = "sss";
         System.out.println(x.name + "--" + x.age);
-        //使用方法，就是对象x，后面加上方法名称dos，而dos已经在类中定义过了
-        x.dos();
-        //定义dos的格式就是public void dos（）{
+        //使用方法，就是对象x，后面加上方法名称showdemo，而showdemo已经在类中定义过了
+        x.showdemo();
+        //定义showdemo的格式就是public void showdemo（）{
         //sout......
         // }
         //对象x，使用类bbb011中的方法study，
@@ -41,6 +41,6 @@ public class bbb012学生测试类 {
         // main方法中，对类的操作，是基于在学生类中创建了不同的对象
         // 举个例子，我有学生类，学生类中有若干不同的对象x1，x2
         // x1和x2都可以使用学生类中的方法
-        
+
     }
 }

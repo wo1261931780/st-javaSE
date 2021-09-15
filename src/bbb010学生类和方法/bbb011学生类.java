@@ -24,7 +24,7 @@ public class bbb011学生类 {//一个class就是一个类。
         System.out.println("study");
     }
 
-    public void dos() {
+    public void showdemo() {
         //这个变量在方法中，就是局部变量
         int jb;
         System.out.println("do sth.");

@@ -4,8 +4,6 @@ J
 g
 7src/bbb032学生储存然后遍历/bbb036学生类.java,0\8\084b522f98afde6fead85167531e50f15f50bdc8
 J
-src/bbb015this/bbb015.java,b\0\b0232bfe1a2d0743113814b9792bcbb0414d0ae1
-J
 src/ccc037date/ccc038.java,5\e\5e783fe0468e0fc101b597b6ffaf9bf03e4b98bd
 X
 (src/bbb020输入学校人数/bbb021.java,b\a\ba9533b8c1d33d359e4648b3fed8fed359ab2e60
