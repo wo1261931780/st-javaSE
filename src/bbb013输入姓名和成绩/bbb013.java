@@ -4,10 +4,15 @@ import java.util.Scanner;
 
 public class bbb013 {
     Scanner xx = new Scanner(System.in);
-    //    String name;
-    //    int age;
+    /**
+     * String name;
+     * int age;
+     */
     private int name;
-    private int age;//private是前缀，设定变量不可直接访问。
+    /**
+     * private是前缀，设定变量不可直接访问。
+     */
+    private int age;
 
     public void setName(int x1) {
         System.out.println("请输入名称：");
