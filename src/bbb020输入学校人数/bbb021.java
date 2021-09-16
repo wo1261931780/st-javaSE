@@ -31,7 +31,6 @@ public class bbb021 {
         public String getSchool() {
             return school;
         }
-
         public int getAbound() {
             return abound;
         }
