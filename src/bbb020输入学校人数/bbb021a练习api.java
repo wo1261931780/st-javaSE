@@ -24,5 +24,16 @@ public class bbb021a练习api {
         System.out.println("s1数据为：" + a1);
         System.out.println("s2数据为：" + a2);
         System.out.println(a3);
+        // 需要说明的是，两个字符串之间的双等号，只是比较地址是否相同，内容相同必须使用equals
+        // 但是有下面这种特殊情况：
+        String d1 = "ss";
+        String d2 = "ss";
+        // 下面的结果为true
+        System.out.println(d1 == d2);
+        // 解释一下原理：
+        // 1.在堆内存中生成一个ss字符串，同时字符串自动搭配一个地址数值，
+        // 将内容和地址数值同时给d1
+        // 2.同样的操作对d2进行一次，最终导致d1和d2的地址相同
+
     }
 }
