@@ -1,0 +1,54 @@
+
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ðÂÃÅ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(±úÛä
+S	java:S106""9Replace this use of System.out or System.err by a logger.(­õÑ“ÿÿÿÿÿ
+N	java:S106+"9Replace this use of System.out or System.err by a logger.(ŠÍ´Ë
+D
+java:S1172/".Remove this unused method parameter "student".(îâÇ
+N	java:S1060"9Replace this use of System.out or System.err by a logger.(Á¡Ã¶
+N	java:S1061"9Replace this use of System.out or System.err by a logger.(×ÿÆÌ
+S	java:S1062"9Replace this use of System.out or System.err by a logger.(ÞïÐ¿ûÿÿÿÿ
+N	java:S1063"9Replace this use of System.out or System.err by a logger.(Öˆ†å
+M	java:S1064"9Replace this use of System.out or System.err by a logger.(Ë®î
+S	java:S1065"9Replace this use of System.out or System.err by a logger.( ÐÐõùÿÿÿÿ
+S	java:S1066"9Replace this use of System.out or System.err by a logger.(Õ¬°´þÿÿÿÿ
+S	java:S106?"9Replace this use of System.out or System.err by a logger.(ÌÐÅÍýÿÿÿÿ
+N	java:S106E"9Replace this use of System.out or System.err by a logger.(æØ±¸
+>	java:S108G")Either remove or fill this block of code.(å¥ž‡
+S	java:S106P"9Replace this use of System.out or System.err by a logger.(Ÿ£éûÿÿÿÿ
+N	java:S106W"9Replace this use of System.out or System.err by a logger.(æØ±¸
+>	java:S108Y")Either remove or fill this block of code.(å¥ž‡
+S	java:S106]"9Replace this use of System.out or System.err by a logger.(õ¿¿úÿÿÿÿ
+N	java:S106_"9Replace this use of System.out or System.err by a logger.(„ç‰Ž
+M	java:S106a"9Replace this use of System.out or System.err by a logger.(Ðñ–
+S	java:S106c"9Replace this use of System.out or System.err by a logger.(šÙ¼Çúÿÿÿÿ
+S	java:S106n"9Replace this use of System.out or System.err by a logger.(Œ˜þûÿÿÿÿ
+N	java:S106w"9Replace this use of System.out or System.err by a logger.(Ý”þ
+N	java:S106y"9Replace this use of System.out or System.err by a logger.(Í‘‹Ú
+T	java:S106„"9Replace this use of System.out or System.err by a logger.(Ìëº–ýÿÿÿÿ
+O	java:S106Š"9Replace this use of System.out or System.err by a logger.(É‚¦ü
+T	java:S106‹"9Replace this use of System.out or System.err by a logger.(õ¿¿úÿÿÿÿ
+O	java:S106"9Replace this use of System.out or System.err by a logger.(„ç‰Ž
+N	java:S106"9Replace this use of System.out or System.err by a logger.(Ðñ–
+T	java:S106‘"9Replace this use of System.out or System.err by a logger.(Ÿ©é£úÿÿÿÿ
+O	java:S106—"9Replace this use of System.out or System.err by a logger.(èøÔÝ
+N	java:S106Ÿ"9Replace this use of System.out or System.err by a logger.(”Çán
+O	java:S106£"9Replace this use of System.out or System.err by a logger.(ø²—Ñ
+T	java:S106­"9Replace this use of System.out or System.err by a logger.(£õÊžúÿÿÿÿ
+n	java:S135"YReduce the total number of break and continue statements in this loop to use at most one.(ðÂÃÅ
+}
+java:S1319/"gThe type of "student" should be an interface such as "List" rather than the implementation "ArrayList".(îâÇ
+}
+java:S1319="gThe type of "student" should be an interface such as "List" rather than the implementation "ArrayList".(®òÌ¼
+}
+java:S1319N"gThe type of "student" should be an interface such as "List" rather than the implementation "ArrayList".(ƒÓ»Ì
+}
+java:S1319l"gThe type of "student" should be an interface such as "List" rather than the implementation "ArrayList".(±êºÞ
+ƒ
+java:S1319‚"gThe type of "student" should be an interface such as "List" rather than the implementation "ArrayList".(îÜÇÿýÿÿÿÿ
+ƒ
+java:S1319"gThe type of "student" should be an interface such as "List" rather than the implementation "ArrayList".(ÌÈœøÿÿÿÿ
+U
+java:S1155ž">Use isEmpty() to check whether the collection is empty or not.(…Ê„Þ
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ë½õÆüÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(žœ…Æ

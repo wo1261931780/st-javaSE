@@ -1,4 +1,4 @@
-package bbb099自己写的学生管理系统;
+package bbb055自己写的学生管理系统;
 
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -48,7 +48,7 @@ public class bbb067 {
         System.out.println("4.查看所有学生");
         System.out.println("5.退出");
         System.out.println("请输入你的选择：");
-//        int sr=shuru.nextInt();
+        //        int sr=shuru.nextInt();
     }
 
     //11111111111111111
@@ -75,7 +75,7 @@ public class bbb067 {
         System.out.println("学生地址：");
         String srdz = shuru.nextLine();
         bbb066lei xs = new bbb066lei(srsz, srxm, srxl, srdz);
-//        bbb066lei x1=xs.getNumber();
+        //        bbb066lei x1=xs.getNumber();
         ceshi.add(xs);
         System.out.println(xs);
         System.out.println(ceshi.get(0).getAddress());
@@ -145,7 +145,7 @@ public class bbb067 {
     //444444444444444444444444
     public static void ck(ArrayList<bbb066lei> ceshi) {
         Scanner shuru = new Scanner(System.in);
-//        String sr=shuru.nextLine();
+        //        String sr=shuru.nextLine();
         if (ceshi.size() != 0) {
             for (int xx = 0; xx < ceshi.size(); xx++) {
                 System.out.println("开始遍历");
