@@ -9,7 +9,7 @@ import java.util.ArrayList;
  * public boolean add(E e)：将指定的元素追加到此集合的末尾
  * public void add(int index,E element)：在此集合中的指定位置插入指定的元素
  */
-public class bbb030 {
+public class bbb030ArrayList {
     public static void main(String[] args) {
         // 需要导包
         ArrayList<String> xx = new ArrayList<>();
@@ -18,6 +18,8 @@ public class bbb030 {
         xx.add("SS");
         xx.add("SSS");
         // 结果为：[S, SS, SSS]
+        // 这里是在字符后面自动顺延添加字符串，
+        // 比如[1,2]，add添加以后，自动变成[1,2,3]
         System.out.println(xx);
         System.out.println("-----------------------------------------");
         // 结果为：[S, SS, sada, SSS]

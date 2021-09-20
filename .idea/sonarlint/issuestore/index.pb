@@ -1,8 +1,6 @@
 
 J
 src/ccc038time/ccc039.java,1\7\179ae385ae87c0fd09d169983b78a89f778368ac
-g
-7src/bbb032学生储存然后遍历/bbb036学生类.java,0\8\084b522f98afde6fead85167531e50f15f50bdc8
 J
 src/ccc037date/ccc038.java,5\e\5e783fe0468e0fc101b597b6ffaf9bf03e4b98bd
 X
@@ -155,3 +153,21 @@ i
 9src/bbb028Stringuild相关/bbb034字符串拼接plus.java,7\a\7ab6c38af359b5c092164e87b10813f530131331
 i
 9src/bbb028Stringuild相关/bbb035字符串反转plus.java,6\f\6fc926fb59094bf2a2ab7bc397dd01e08ab2d537
+q
+Asrc/bbb029储存然后遍历的操作/bbb030a测试ArrayList.java,3\c\3cb44ecf6af7bba1a6186e612c632f56004a520b
+j
+:src/bbb029储存然后遍历的操作/bbb030ArrayList.java,4\9\498141f6525ec16973c3d338e1f8f58f170f925a
+t
+Dsrc/bbb029储存然后遍历的操作/bbb030b集合remove方法.java,2\4\2458da118d4bdd7d8a578032088f0d1652fe7601
+q
+Asrc/bbb029储存然后遍历的操作/bbb030c集合set方法.java,e\c\ec079415342e696a415b819ace4da833e2b9485c
+x
+Hsrc/bbb029储存然后遍历的操作/bbb030d集合get和size方法.java,c\a\ca055ba2d9170374cfc7decee357cff8621c7485
+y
+Isrc/bbb029储存然后遍历的操作/bbb031储存然后遍历集合.java,6\1\6114dca314b4b81f81415b7fdc5196d2d404be18
+g
+7src/bbb032集合练习/bbb035输入元素并遍历.java,1\2\128a69bbaad17d5bc0a5172505d247352532aa28
+d
+4src/bbb032集合练习/bbb034存储然后遍历.java,f\0\f0deaa0b32c1c7dd8a5374aa3342b1668c90c63d
+g
+7src/bbb035学生储存然后遍历/bbb036学生类.java,f\f\ff4c7cdc9de8af663846bf23d1371c967d4217b7
