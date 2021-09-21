@@ -6,6 +6,8 @@ import java.util.Scanner;
 
 public class bbb058学生测试类 {
     public static void main(String[] args) {
+        // while (true){};
+        // 这里直接用while循环改进，暂定为死循环，直到选择程序结束
         // System.out.println("--------------");
         // Scanner x = new Scanner(System.in);
         // int x1 = x.nextInt();
@@ -48,6 +50,8 @@ public class bbb058学生测试类 {
                 showme(xx1);
             } else if (i == 5) {
                 // quits();
+                System.exit(0);
+                // 这里是jvm虚拟机退出命令
             } else {
             }
         }
@@ -71,7 +75,16 @@ public class bbb058学生测试类 {
         return x1;
     }
 
-    // 添加方法
+    /**
+     * 添加方法
+     * 键盘录入学生对象所需要的数据,显示提示信息，提示要输入何种信息
+     * 为了让sid在while循环外面被访问到，我们就把它定义在了循环外
+     * 为了让程序能够回到这里，我们使用循环实现
+     * 创建学生对象，把键盘录入的数据赋值给学生对象的成员变量
+     * 将学生对象添加到集合中
+     * 给出添加成功提示
+     */
+    // public static void adds(ArrayList<bbb057学生类> xx1) {
     public static void adds(ArrayList<bbb057学生类> xx1) {
         Scanner x0 = new Scanner(System.in);
         Scanner x1 = new Scanner(System.in);
@@ -99,15 +112,22 @@ public class bbb058学生测试类 {
         Scanner x = new Scanner(System.in);
         System.out.println("请输入学生学号：");
         int x1 = x.nextInt();
+        // 判断是否找到对应账号，找到就设置=1，否则设置为0
+        int u = 0;
         for (int i = 0; i < xx1.size(); i++) {
             bbb057学生类 x2 = xx1.get(i);
             if (x1 == x2.getNun()) {
                 xx1.remove(i);
                 System.out.println("找到账号，执行删除操作");
+                u = 1;
                 break;
             }
         }
-        System.out.println("搜索结束");
+        if (u == 0) {
+            System.out.println("删除失败，未找到学号");
+        } else {
+            System.out.println("删除成功");
+        }
 
     }
 
@@ -117,6 +137,7 @@ public class bbb058学生测试类 {
         Scanner xx2 = new Scanner(System.in);
         Scanner xx3 = new Scanner(System.in);
         Scanner xx4 = new Scanner(System.in);
+        // 这里其实可以只用一个输入命令，int类型全部使用textline操作
         System.out.println("请输入学号：");
         int x1 = xx0.nextInt();
         for (int i = 0; i < xx1.size(); i++) {
@@ -131,6 +152,8 @@ public class bbb058学生测试类 {
                 String x4 = xx4.nextLine();
                 xx1.get(i).setCity(x4);
                 System.out.println("修改成功,回到首页");
+                // 找到就直接退出，不需要继续遍历
+                break;
             }
         }
         System.out.println("搜索结束");
@@ -139,10 +162,16 @@ public class bbb058学生测试类 {
     // 查看所有学生
     public static void showme(ArrayList<bbb057学生类> xx1) {
         System.out.println("执行集合遍历");
-        System.out.println("学号\t" + "姓名\t" + "年龄\t" + "居住地\t");
-        for (int i = 0; i < xx1.size(); i++) {
-            bbb057学生类 a = xx1.get(i);
-            System.out.println(a.getNun() + "\t" + a.getName() + "\t" + a.getAge() + "\t" + a.getCity());
+        if (xx1.size() == 0) {
+            System.out.println("无信息，请先执行添加操作");
+            // return;
+            // 给出return，程序就不再往下执行
+        } else {
+            System.out.println("学号\t" + "姓名\t" + "年龄\t" + "居住地\t");
+            for (int i = 0; i < xx1.size(); i++) {
+                bbb057学生类 a = xx1.get(i);
+                System.out.println(a.getNun() + "\t" + a.getName() + "\t" + a.getAge() + "\t" + a.getCity());
+            }
         }
     }
 
