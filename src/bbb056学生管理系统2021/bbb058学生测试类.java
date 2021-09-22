@@ -93,18 +93,33 @@ public class bbb058学生测试类 {
         bbb057学生类 a1 = new bbb057学生类();
         System.out.println("请输入学号：");
         int nun = x0.nextInt();
-        a1.setNun(nun);
-        System.out.println("请输入姓名：");
-        String xname = x1.nextLine();
-        a1.setName(xname);
-        System.out.println("请输入年龄：");
-        int xage = x2.nextInt();
-        a1.setAge(xage);
-        System.out.println("请输入居住地：");
-        String xcity = x3.nextLine();
-        a1.setCity(xcity);
-        xx1.add(a1);
-        System.out.println("添加结束------------------");
+        //-----------------------------
+        // 虚线内的可以提取出来，作为一个方法封装
+        int demo = 0;
+        // 教程内使用的方法，需要在结果重复的情况下，返回输入学号过程
+        for (int i = 0; i < xx1.size(); i++) {
+            if (xx1.get(i).getNun() == nun) {
+                System.out.println("学号已存在，请重新输入");
+                demo = 1;
+                break;
+            }
+        }
+        if (demo == 1) {
+        } else {
+            //-----------------------------
+            a1.setNun(nun);
+            System.out.println("请输入姓名：");
+            String xname = x1.nextLine();
+            a1.setName(xname);
+            System.out.println("请输入年龄：");
+            int xage = x2.nextInt();
+            a1.setAge(xage);
+            System.out.println("请输入居住地：");
+            String xcity = x3.nextLine();
+            a1.setCity(xcity);
+            xx1.add(a1);
+            System.out.println("添加结束------------------");
+        }
     }
 
     // 删除方法
@@ -142,6 +157,7 @@ public class bbb058学生测试类 {
         int x1 = xx0.nextInt();
         for (int i = 0; i < xx1.size(); i++) {
             if (x1 == xx1.get(i).getNun()) {
+                // 这里可以先接收结果，然后使用equals方法去判断和x1是否相等
                 System.out.println("请重新输入姓名");
                 String x2 = xx2.nextLine();
                 xx1.get(i).setName(x2);
