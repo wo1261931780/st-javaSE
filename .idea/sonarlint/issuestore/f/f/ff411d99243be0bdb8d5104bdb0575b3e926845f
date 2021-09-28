@@ -1,0 +1,11 @@
+
+s
+java:S1104"QMake comef a static final constant or non-public and provide accessors if needed.(Œâš‡üÿÿÿÿ8äàðÛÂ/
+j
+java:S1104"OMake age a static final constant or non-public and provide accessors if needed.(‹« ¼ýÿÿÿÿ
+f
+java:S1104"PMake name a static final constant or non-public and provide accessors if needed.(›û¢Ë
+M
+java:S1444"+Make this "public static comef" field final(Œâš‡üÿÿÿÿ8äàðÛÂ/
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(¸¦÷Ëÿÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ì‹âôþÿÿÿÿ
