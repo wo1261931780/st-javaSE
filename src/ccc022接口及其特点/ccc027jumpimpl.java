@@ -1,6 +1,9 @@
 package ccc022接口及其特点;
 
-public class ccc027jumpimpl implements ccc026jump {//接口名+impl=接口后面的实现类
+/**
+ * 接口名+impl=接口后面的实现类
+ */
+public class ccc027jumpimpl implements ccc026jump {
 
     @Override
     public void jump() {

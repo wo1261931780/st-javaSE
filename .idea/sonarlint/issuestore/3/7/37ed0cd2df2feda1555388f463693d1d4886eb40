@@ -1,0 +1,9 @@
+
+X
+java:S1854%"6Remove this useless assignment to local variable "cc".(º“ÞÝþÿÿÿÿ8ó³ƒúÂ/
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ç‘ë®üÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ç‘ë®üÿÿÿÿ
+I
+java:S1481%"'Remove this unused "cc" local variable.(º“ÞÝþÿÿÿÿ8õ³ƒúÂ/
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Êö±±ùÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.( öñ½ûÿÿÿÿ
