@@ -1,4 +1,5 @@
 package ccc015多态和编译执行;
+
 //作为父类
 public class ccc016animal {
     int age = 10;
