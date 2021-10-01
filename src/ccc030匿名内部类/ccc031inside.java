@@ -3,13 +3,15 @@ package ccc030匿名内部类;
 public class ccc031inside {
     public void show2() {
         System.out.println("内部类中的sout");
-        new ccc032ceshi() {//匿名内部类需要存在于方法中，
+        //匿名内部类需要存在于方法中，
+        new ccc032ceshi() {
             //同时需要重写继承的方法
             @Override
             public void show() {
                 System.out.println("内部类中的show方法");
             }
-        };//需要分号，本质上匿名内部类是一个对象
+        };
+        //需要分号，本质上匿名内部类是一个对象
         //继承了该类/实现了该接口的，子类匿名对象
         //这里概括一下——————————————————————————
         //new 匿名内部类(){};这是匿名内部类的完整格式
@@ -20,7 +22,8 @@ public class ccc031inside {
             public void show() {
                 System.out.println("重写测试中的方法");
             }
-        }.show();//这样才算调用
+        }.show();
+        //这样才算调用
         //——————————————————————————
         //new 匿名内部类(){}.show();匿名内部类的调用
         //上面等于：对象x.show();
@@ -30,7 +33,8 @@ public class ccc031inside {
             public void show() {
                 System.out.println("");
             }
-        };//作为一个整体送过去
+        };
+        //作为一个整体送过去
         xx.show();
     }
 }
