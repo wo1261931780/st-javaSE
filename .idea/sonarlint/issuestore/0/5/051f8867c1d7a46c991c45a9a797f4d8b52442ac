@@ -1,0 +1,18 @@
+
+K
+java:S1854"5Remove this useless assignment to local variable "a".(”ğ‡
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Ïñ´ºüÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(æå£¦
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Şë‡Ùÿÿÿÿÿ
+<
+java:S1481"&Remove this unused "a" local variable.(”ğ‡
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ÎÃ†¯
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ÎÃ†¯
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ÎÃ†¯
+N	java:S106"9Replace this use of System.out or System.err by a logger.(óğ†Å
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(œˆ´¸øÿÿÿÿ8ÏÚÎ·Ã/
+U	java:S106""9Replace this use of System.out or System.err by a logger.(¯àêµ8ÑÚÎ·Ã/
+u
+java:S1192"XDefine a constant instead of duplicating this literal "-----------------stripe" 3 times.(ÎÃ†¯8ÒÚÎ·Ã/
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(×ãüûÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ìª¿ƒùÿÿÿÿ

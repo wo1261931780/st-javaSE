@@ -5,7 +5,8 @@ public abstract class ccc030教练 extends ccc028人 {
     }
 
     public ccc030教练(int age, String name) {
-        super(age, name);//直接传递参数给父类
+        //直接传递参数给父类
+        super(age, name);
     }
 
     @Override
