@@ -3,8 +3,9 @@ package ccc032常用api;
 public class ccc036objectdemo {
     public static void main(String[] args) {
         System.out.println("--------------");
-        ccc035object s=new ccc035object(20,"junw");
-        System.out.println(s);//给出的是x的地址值:ccc032常用api.ccc035object@776ec8df
+        ccc035object s = new ccc035object(20, "junw");
+        //给出的是x的地址值:ccc032常用api.ccc035object@776ec8df
+        System.out.println(s);
         //原文给出的结果不方便阅读，
         //所以需要重写tostring命令，
         //重写操作在object中进行
@@ -45,6 +46,6 @@ public class ccc036objectdemo {
         //tostring方法的作用是返回的是类名+@+代码的哈希值
         //所以我直接得到结果：“ccc032常用api.ccc035object@776ec8df”
         //代码的内部有判断流程，但最终使用的还是object中的tostring方法，所以结果一致
-
+ 
     }
 }

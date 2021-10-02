@@ -1,0 +1,9 @@
+
+[
+java:S5993"9Change the visibility of this constructor to "protected".(¢›Ú¹ıÿÿÿÿ8ö»—¹Ã/
+[
+java:S5993"9Change the visibility of this constructor to "protected".(ûµÆ¯şÿÿÿÿ8ö»—¹Ã/
+U	java:S106"9Replace this use of System.out or System.err by a logger.(•¨ıÕ8ëòˆ¹Ã/
+U	java:S106"9Replace this use of System.out or System.err by a logger.(Ÿë‰8¤‚Š¹Ã/
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(œÔï—ûÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(óşğÅ

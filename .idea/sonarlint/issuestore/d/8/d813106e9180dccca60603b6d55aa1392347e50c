@@ -1,0 +1,12 @@
+
+V
+java:S5993"9Change the visibility of this constructor to "protected".(ä‡Â½8³ÿŒ¹Ã/
+[
+java:S5993
+"9Change the visibility of this constructor to "protected".(ÂÇøøúÿÿÿÿ8öà¹Ã/
+m
+java:S1104"PMake name a static final constant or non-public and provide accessors if needed.( şÍ¾8èˆÿ¸Ã/
+l
+java:S1104"OMake age a static final constant or non-public and provide accessors if needed.(×Áò¿8èˆÿ¸Ã/
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ôöÎşÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(óşğÅ

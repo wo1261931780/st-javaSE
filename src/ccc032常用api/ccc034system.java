@@ -22,7 +22,9 @@ public class ccc034system {
         }
         long x2 = System.currentTimeMillis();
         System.out.println("total:" + (x2 - x1) + "ms");
-
-
+        // 简单说明：
+        // System.out.println();也是system的输出语句
+        // System.currentTimeMillis();是类似语句
+        // System属于不需要导包的类型
     }
 }

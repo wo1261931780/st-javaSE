@@ -1,0 +1,27 @@
+
+N	java:S106"9Replace this use of System.out or System.err by a logger.(Ç°‘¡
+:
+java:S2185"$Remove this silly call to "Math.abs"(Ç°‘¡
+N	java:S106"9Replace this use of System.out or System.err by a logger.(„Ñì
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ÅªäŞ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(™±è£
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ÓöÕıÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ÅªäŞ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(à­×¸
+N	java:S106 "9Replace this use of System.out or System.err by a logger.(ìÍ‰
+N	java:S106!"9Replace this use of System.out or System.err by a logger.(ÅªäŞ
+S	java:S106#"9Replace this use of System.out or System.err by a logger.(ÛÔú¬úÿÿÿÿ
+N	java:S106%"9Replace this use of System.out or System.err by a logger.(ä“¦®
+S	java:S106'"9Replace this use of System.out or System.err by a logger.(ïÃĞîûÿÿÿÿ
+N	java:S106("9Replace this use of System.out or System.err by a logger.(ÅªäŞ
+S	java:S106*"9Replace this use of System.out or System.err by a logger.(ûõ¼ùÿÿÿÿ
+S	java:S106,"9Replace this use of System.out or System.err by a logger.(Ë©­äüÿÿÿÿ
+N	java:S106-"9Replace this use of System.out or System.err by a logger.(ÅªäŞ
+N	java:S106/"9Replace this use of System.out or System.err by a logger.(“½“
+N	java:S1060"9Replace this use of System.out or System.err by a logger.(ÅªäŞ
+N	java:S1062"9Replace this use of System.out or System.err by a logger.(£¤œà
+N	java:S1064"9Replace this use of System.out or System.err by a logger.(…óÛ‹
+?
+java:S21404")Use "java.util.Random.nextInt()" instead.(…óÛ‹
+a	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Ìš
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ú–ê»
