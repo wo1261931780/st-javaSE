@@ -12,9 +12,11 @@ public class ccc040 {
         SimpleDateFormat x = new SimpleDateFormat();
         // 用完了之后，需要w来接收结果
         String w = x.format(x1);
-        //2021/5/10 下午4:58
+        // 结果为：2021/5/10 下午4:58
         System.out.println(w);
-        System.out.println("------------------");
+        // ----------------------------------------------
+        // ----------------------------------------------
+        // ----------------------------------------------
 
         // Date x2=new Date();不需要新建一个时间
         SimpleDateFormat xx = new SimpleDateFormat("yyyy年MM月dd日 HH:mm:ss");
