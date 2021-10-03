@@ -1,13 +1,0 @@
-
-S	java:S106"9Replace this use of System.out or System.err by a logger.( ¥ÿÿÿÿÿ
-N	java:S106"9Replace this use of System.out or System.err by a logger.(¾õÏ•
-S	java:S106"9Replace this use of System.out or System.err by a logger.(òä®¿üÿÿÿÿ
-S	java:S106""9Replace this use of System.out or System.err by a logger.(ŞÒ—üÿÿÿÿ
-C
-java:S1604"(Make this anonymous inner class a lambda(«Áôüÿÿÿÿ
-C
-java:S1604"(Make this anonymous inner class a lambda(«Áôüÿÿÿÿ
-C
-java:S1604"(Make this anonymous inner class a lambda(…Ş³¯ıÿÿÿÿ
-g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(•¡…õıÿÿÿÿ
-o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(©©Ù¾

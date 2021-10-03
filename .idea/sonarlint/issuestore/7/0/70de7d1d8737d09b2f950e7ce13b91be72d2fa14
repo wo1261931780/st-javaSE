@@ -1,18 +1,0 @@
-
-]	java:S125"<This block of commented-out lines of code should be removed.(»•ûÿÿÿÿ8¯Áâ§¼/
-U	java:S106"9Replace this use of System.out or System.err by a logger.(×Æáî8±Áâ§¼/
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(óƒ™úÿÿÿÿ8±Áâ§¼/
-U	java:S106"9Replace this use of System.out or System.err by a logger.(¿Ù8±Áâ§¼/
-U	java:S106"9Replace this use of System.out or System.err by a logger.(çÏò³8±Áâ§¼/
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(¤öÒııÿÿÿÿ8±Áâ§¼/
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(œöçÈøÿÿÿÿ8³Áâ§¼/
-U	java:S106"9Replace this use of System.out or System.err by a logger.(•çİ£8³Áâ§¼/
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(œöçÈøÿÿÿÿ8³Áâ§¼/
-T	java:S106"9Replace this use of System.out or System.err by a logger.(šâŒ*8³Áâ§¼/
-Z	java:S106 "9Replace this use of System.out or System.err by a logger.(œöçÈøÿÿÿÿ8³Áâ§¼/
-U	java:S106!"9Replace this use of System.out or System.err by a logger.(Øû¿ö8³Áâ§¼/
-]	java:S125$"<This block of commented-out lines of code should be removed.(ù´öÃşÿÿÿÿ8´Áâ§¼/
-r
-java:S1192"PDefine a constant instead of duplicating this literal "éšæœºæ•°ä¸ºï¼š" 3 times.(œöçÈøÿÿÿÿ8´Áâ§¼/
-n	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ÄÊ¸İûÿÿÿÿ8´Áâ§¼/
-{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÃşÊÿÿÿÿÿ8µÁâ§¼/

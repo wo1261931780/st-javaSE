@@ -1,0 +1,10 @@
+
+c	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Äª±‹
+C
+java:S1128"-Remove this unused import 'java.text.Format'.(¨Ô¬ş
+u
+java:S1488"ZImmediately return this expression instead of assigning it to the temporary variable "x2".(÷ãıùÿÿÿÿ
+u
+java:S1488"ZImmediately return this expression instead of assigning it to the temporary variable "x2".(¡õÀûÿÿÿÿ
+b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(º£ÿ«
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ñšÁ®úÿÿÿÿ

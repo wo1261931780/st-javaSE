@@ -1,8 +1,0 @@
-
-t	java:S115
-"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Ήρ”΄ωÿÿÿÿ
-o	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(–ιπα
-t	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(΅γΎ§ώÿÿÿÿ
-t	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ΫΨήΉψÿÿÿÿ
-o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ή―ΐ
-k	java:S114"QRename this interface name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(όΒΫύÿÿÿÿ

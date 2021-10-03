@@ -1,27 +1,0 @@
-
-S	java:S106"9Replace this use of System.out or System.err by a logger.(êš‘ûÿÿÿÿ
-N	java:S106	"9Replace this use of System.out or System.err by a logger.(­ –
-S	java:S106
-"9Replace this use of System.out or System.err by a logger.(° »‘ıÿÿÿÿ
-S	java:S106"9Replace this use of System.out or System.err by a logger.(ç‘ë®üÿÿÿÿ
-N	java:S106"9Replace this use of System.out or System.err by a logger.(ª€Ş
-S	java:S106"9Replace this use of System.out or System.err by a logger.(ÿ’‘Îıÿÿÿÿ
-S	java:S106"9Replace this use of System.out or System.err by a logger.(ç‘ë®üÿÿÿÿ
-V	java:S125"<This block of commented-out lines of code should be removed.(áæñéıÿÿÿÿ
-N	java:S106"9Replace this use of System.out or System.err by a logger.(èúšƒ
-N	java:S106"9Replace this use of System.out or System.err by a logger.(áÌôÙ
-S	java:S106"9Replace this use of System.out or System.err by a logger.(íö–ûÿÿÿÿ
-S	java:S106"9Replace this use of System.out or System.err by a logger.(ç‘ë®üÿÿÿÿ
-S	java:S106"9Replace this use of System.out or System.err by a logger.(«¯ëıüÿÿÿÿ
-S	java:S106"9Replace this use of System.out or System.err by a logger.(˜ÿ¤ûÿÿÿÿ
-N	java:S106"9Replace this use of System.out or System.err by a logger.(”Ğ­
-S	java:S106"9Replace this use of System.out or System.err by a logger.(ãÀ¦Úıÿÿÿÿ
-S	java:S106"9Replace this use of System.out or System.err by a logger.(ç‘ë®üÿÿÿÿ
-N	java:S106"9Replace this use of System.out or System.err by a logger.(°ÿñş
-N	java:S106"9Replace this use of System.out or System.err by a logger.(œîˆŠ
-N	java:S106"9Replace this use of System.out or System.err by a logger.(ëÄ±•
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(ïâµ“ÿÿÿÿÿ8ÜÜ–Óº/
-{
-java:S1192"`Define a constant instead of duplicating this literal "-------------------------------" 4 times.(ç‘ë®üÿÿÿÿ
-g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(àÊóüüÿÿÿÿ
-t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ôı¼ëÿÿÿÿÿ

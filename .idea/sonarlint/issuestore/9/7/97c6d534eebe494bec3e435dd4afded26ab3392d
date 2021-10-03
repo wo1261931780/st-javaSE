@@ -1,8 +1,0 @@
-
-O
-java:S5993"9Change the visibility of this constructor to "protected".(’úƒ¡
-T
-java:S5993
-"9Change the visibility of this constructor to "protected".(ôıÖ¹ùÿÿÿÿ
-b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ÌÈÉ
-o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(µ©·

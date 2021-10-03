@@ -1,15 +1,0 @@
-
-S	java:S106"9Replace this use of System.out or System.err by a logger.(ç‘ë®üÿÿÿÿ
-S	java:S106"9Replace this use of System.out or System.err by a logger.(ì–ÅÇüÿÿÿÿ
-S	java:S106	"9Replace this use of System.out or System.err by a logger.(ç‘ë®üÿÿÿÿ
-Z	java:S106
-"9Replace this use of System.out or System.err by a logger.(ì–ÅÇüÿÿÿÿ8Òº…×¼/
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(ç‘ë®üÿÿÿÿ8ø×‹×¼/
-U	java:S106"9Replace this use of System.out or System.err by a logger.(à­ÆÇ8ø×‹×¼/
-U	java:S106"9Replace this use of System.out or System.err by a logger.(ö—Éà8ŞÊ×¼/
-‚
-java:S1192"`Define a constant instead of duplicating this literal "-------------------------------" 3 times.(ç‘ë®üÿÿÿÿ8ßÊ×¼/
-b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ï¬Ğı
-t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÃşÊÿÿÿÿÿ
-T
-java:S1226"?Introduce a new variable instead of reusing the parameter "x1".(Œ‚ƒ

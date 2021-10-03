@@ -1,6 +1,0 @@
-
-R
-java:S1610"<Convert the abstract class "ccc021æŠ½è±¡" into an interface.(ƒ»ÔŒ
-N	java:S106"9Replace this use of System.out or System.err by a logger.(›õ¦Ì
-b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ƒ»ÔŒ
-o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(½Ëƒ
