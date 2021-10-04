@@ -63,6 +63,5 @@ public class ddd015异常处理2 {
         // 在构造方法中，detailMessage的数据来源于message，
         // 2021年10月3日15:09:08，这里总感觉有问题
 
-
     }
 }
