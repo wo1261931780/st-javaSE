@@ -14,8 +14,16 @@ public class eee001泛型方法<T> {
         System.out.println(x);
     }
 
-    public void show(T x) {
+    // public void show(T x) {
+    //     System.out.println(x);
+    // }
+
+    /**
+     * 必须设置为非static方法才可以运行
+     */
+    public <T> void show(T x) {
+        // 这里就是泛型方法
         System.out.println(x);
+
     }
-    // 必须设置为非static方法才可以运行
 }
