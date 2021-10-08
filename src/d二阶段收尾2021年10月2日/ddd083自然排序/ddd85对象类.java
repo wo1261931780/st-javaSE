@@ -43,9 +43,11 @@ public class ddd85对象类 implements Comparable<ddd85对象类> {
         int num = this.age - o.age;
         // 比较两个数据的大小，正数就按照升序排列
         int num2 = num == 0 ? this.name.compareTo(o.name) : num;
-        // 这里判断年龄是否相等，相等就根据姓名顺序判断
-        // 否则就根据年龄差距判断
+        // num == 0
+        // 1.判断年龄是否相等，相等就根据姓名顺序判断
+        // this.name.compareTo(o.name)
+        // 2.用name和对象name对比内容是否相同
+        // 3.name不相同的时候，根据年龄差距排序
         return num2;
-
     }
 }

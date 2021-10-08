@@ -13,7 +13,7 @@ public class ddd078hashset存储学生对象后遍历 {
         // 在不重写方法的情况下，
         // 直接添加会导致添加重复对象
         // hashset的底层方法是hashcode和equals，
-        // 这里重写可以将两个变量包含在内，避免出现name和age重复的变量
+        // 这里重写可以将两个变量包含在内，避免出现name和age重复的对象
         x.add(x1);
         x.add(x2);
         x.add(x3);
