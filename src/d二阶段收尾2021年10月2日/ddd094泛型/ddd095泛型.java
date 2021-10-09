@@ -16,7 +16,7 @@ public class ddd095泛型 {
         x.add(200);
         // 有自动装箱的操作，int自动封装为integer类型
         // 我觉得泛型的好处在于，可以对不同的对象直接使用
-        // 不需要执行一次类型转换，同时避免了类型转换带来的
+        // 不需要执行一次类型转换，同时避免了类型转换带来的报错和修改，简单来说，提高易用性
         Iterator x1 = x.iterator();
         while (x1.hasNext()) {
             // String x2=(String) x1.next();

@@ -32,6 +32,7 @@ public class ddd069对象类 {
 
     /**
      * 默认情况下，哈希数据之间不重复
+     * 可以进行重写操作，使得返回的所有hashcode都等于0
      */
     // @Override
     // public int hashCode() {
