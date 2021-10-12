@@ -92,8 +92,6 @@ Psrc/d二阶段收尾2021年10月2日/ddd013异常处理/ddd015异常处理2.jav
 
 Osrc/d二阶段收尾2021年10月2日/ddd016编译异常/ddd017编译异常.java,a\d\ad48be8855692531196164cdd65ebbf5870e2eb6
 
-Osrc/d二阶段收尾2021年10月2日/ddd018异常抛出/ddd019throws异常.java,e\7\e7b85533502db6b48647f90406d4ac44e8e37127
-
 Osrc/d二阶段收尾2021年10月2日/ddd020自定义异常/ccc022对象类.java,d\6\d68b9664edf67403fd8ec48bc44664a5dbe9c086
 
 Osrc/d二阶段收尾2021年10月2日/ddd020自定义异常/ccc023测试类.java,a\3\a36d7287aea2f39de54611c8b4217bd7eaa2df72

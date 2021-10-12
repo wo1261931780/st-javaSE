@@ -1,6 +1,5 @@
-package e二阶段收尾2021年10月10日.eee058字节流;
+package e二阶段收尾2021年10月10日.eee058字节流介绍;
 
-import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
