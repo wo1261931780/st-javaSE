@@ -15,7 +15,6 @@ import java.io.IOException;
 public class eee071字节流读数据 {
     public static void main(String[] args) throws IOException {
         recycle();
-
     }
 
     public static void recycle() throws IOException {
@@ -62,6 +61,7 @@ public class eee071字节流读数据 {
         // System.out.println(new String(x2));
         // 结果为：aaaaa
         // ----------------------------------------------------------------
+        // 下面的代码是重复执行读取操作，
         System.out.println("--------------------");
         x3 = x1.read(x2);
         System.out.println(x3);

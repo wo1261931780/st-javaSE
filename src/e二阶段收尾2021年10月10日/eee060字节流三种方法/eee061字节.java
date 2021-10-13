@@ -35,7 +35,10 @@ public class eee061字节 {
         byte[] x2 = {97, 98, 99, 100, 101};
         x1.write(x2);
         // void write (byte[] b)：将 b.length字节从指定的字节数组写入此文件输出流
+        // x1.write(x2);这里实际上就是把x2这个数组全部写入了x1，
+        // 然后在x1中出现x2的字节码内容abcde
         // 一次写一个字节数组数据
+        // --
         byte[] x3 = "测试".getBytes(StandardCharsets.UTF_8);
         // 将“测试”作为一个字符串赋值给x3，
         // 然后x3作为字符串数组拿到数据
@@ -46,7 +49,8 @@ public class eee061字节 {
         // 将 len字节从指定的字节数组开始，从偏移量off开始写入此文件输出流
         // 一次写一个字节数组的部分数据
         x1.write(x4, 0, x4.length);
-        // 从索引的0号位置开始，写x4的长度的数据
+        // 从索引的0号位置开始，写入x4这个数组的数据，
+        // 写入的数据长度为x4.length
         x1.close();
     }
 }

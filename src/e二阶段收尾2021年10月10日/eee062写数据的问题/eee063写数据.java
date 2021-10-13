@@ -21,8 +21,8 @@ public class eee063写数据 {
         File x = new File("l:\\java\\demo.txt");
         // FileOutputStream x1 = new FileOutputStream(x);
         FileOutputStream x1 = new FileOutputStream(x, true);
-        // 上面，二者的不同在于后续的参数是否支持追加写入
-        // 但是这里，追加写入只能从末尾开始，
+        // 上面，二者的不同在于，后续的参数支持追加写入
+        // 但是，追加写入只能从末尾开始，
         // 例如原式123，追加000以后，只会变成123000
         for (int i = 0; i < 10; i++) {
             x1.write("demo".getBytes());
@@ -39,6 +39,5 @@ public class eee063写数据 {
         // 数据会被覆盖为我代码中写入的数据
         System.out.println("结束");
         x1.close();
-
     }
 }
