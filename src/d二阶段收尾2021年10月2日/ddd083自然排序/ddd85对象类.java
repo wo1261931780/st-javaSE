@@ -1,6 +1,6 @@
 package d二阶段收尾2021年10月2日.ddd083自然排序;
 
-import org.jetbrains.annotations.NotNull;
+//import org.jetbrains.annotations.NotNull;
 
 public class ddd85对象类 implements Comparable<ddd85对象类> {
     private String name;
@@ -31,7 +31,7 @@ public class ddd85对象类 implements Comparable<ddd85对象类> {
     }
 
     @Override
-    public int compareTo(@NotNull ddd85对象类 o) {
+    public int compareTo( ddd85对象类 o) {
         // 注意一下这里的对象类型
         // return 0;
         // return 1;

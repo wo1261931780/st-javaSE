@@ -17,12 +17,12 @@ public class eee085字符流命令 {
         // 不指定的情况下，设置为默认字符集
         // OutputStreamWriter x = new OutputStreamWriter(new FileOutputStream("l:\\java\\test.txt"));
         // 这里直接创建了一个txt对象，然后用默认编码格式，直接输出指定文字
-        OutputStreamWriter x = new OutputStreamWriter(new FileOutputStream("l:\\java\\test.txt"), "UTF-8");
+        OutputStreamWriter x = new OutputStreamWriter(new FileOutputStream("d:\\java\\test.txt"), "UTF-8");
         // 指定编码类型，，在writer中设置
         x.write("测试");
         x.close();
         System.out.println("-----------");
-        InputStreamReader x1 = new InputStreamReader(new FileInputStream("l:\\java\\test.txt"));
+        InputStreamReader x1 = new InputStreamReader(new FileInputStream("d:\\java\\test.txt"));
         int i;
         while ((i = x1.read()) != -1) {
             System.out.println((char) i);
