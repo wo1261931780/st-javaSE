@@ -1,0 +1,44 @@
+
+N	java:S106"9Replace this use of System.out or System.err by a logger.(Œ€ÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(Œ€ÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(Œ€ÿ
+W
+java:S1075%"ARefactor your code to get this URI from a customizable parameter.(¯«Íü
+S	java:S106."9Replace this use of System.out or System.err by a logger.(±è×Òøÿÿÿÿ
+S	java:S1061"9Replace this use of System.out or System.err by a logger.(µ ÅÚÿÿÿÿÿ
+W
+java:S1075:"ARefactor your code to get this URI from a customizable parameter.(¯«Íü
+S	java:S106M"9Replace this use of System.out or System.err by a logger.(¿úèÒıÿÿÿÿ
+S	java:S106O"9Replace this use of System.out or System.err by a logger.(µ ÅÚÿÿÿÿÿ
+h	java:S100U"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(š¨ù‘úÿÿÿÿ
+W
+java:S1075W"ARefactor your code to get this URI from a customizable parameter.(¯«Íü
+N	java:S106`"9Replace this use of System.out or System.err by a logger.(Õ–œ¤
+S	java:S106c"9Replace this use of System.out or System.err by a logger.(µ ÅÚÿÿÿÿÿ
+c	java:S100i"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¨Ÿ»
+W
+java:S1075k"ARefactor your code to get this URI from a customizable parameter.(¯«Íü
+S	java:S106u"9Replace this use of System.out or System.err by a logger.(ä–€¬ûÿÿÿÿ
+S	java:S106x"9Replace this use of System.out or System.err by a logger.(µ ÅÚÿÿÿÿÿ
+k
+java:S1192"UDefine a constant instead of duplicating this literal "--------------------" 3 times.(Œ€ÿ
+g
+java:S1192%"QDefine a constant instead of duplicating this literal "l:\\java\\11.mp4" 4 times.(¯«Íü
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ù¯–ÿÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÏğïÏ
+m
+java:S2095m"RUse try-with-resources or close this "BufferedOutputStream" in a "finally" clause.(‡Ãş•øÿÿÿÿ
+h
+java:S2095&"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(„«ñ‹ùÿÿÿÿ
+d
+java:S2095<"NUse try-with-resources or close this "FileOutputStream" in a "finally" clause.(şÕş§
+h
+java:S2095;"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(„«ñ‹ùÿÿÿÿ
+g
+java:S2095l"QUse try-with-resources or close this "BufferedInputStream" in a "finally" clause.(Ú›ö¦
+g
+java:S2095X"QUse try-with-resources or close this "BufferedInputStream" in a "finally" clause.(Ú›ö¦
+c
+java:S2095'"NUse try-with-resources or close this "FileOutputStream" in a "finally" clause.(…•ÈV
+m
+java:S2095Y"RUse try-with-resources or close this "BufferedOutputStream" in a "finally" clause.(ßíŸ’şÿÿÿÿ

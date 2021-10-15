@@ -1,0 +1,11 @@
+
+O
+java:S4719"9Replace charset name argument with StandardCharsets.UTF_8(ëŞá
+N	java:S106"9Replace this use of System.out or System.err by a logger.(‚ÎšÛ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(Š€ÉÍ
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(™‘Íøıÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ËÏ‰â
+f
+java:S2095"PUse try-with-resources or close this "OutputStreamWriter" in a "finally" clause.(ëŞá
+e
+java:S2095"OUse try-with-resources or close this "InputStreamReader" in a "finally" clause.(Ş¿¢
