@@ -1,0 +1,17 @@
+
+Q
+java:S1854"6Remove this useless assignment to local variable "x2".(¨ÏÈ—şÿÿÿÿ
+B
+java:S1481"'Remove this unused "x2" local variable.(¨ÏÈ—şÿÿÿÿ
+U	java:S106$"9Replace this use of System.out or System.err by a logger.(™¿ß¡8¼®•ÍÈ/
+Z	java:S106)"9Replace this use of System.out or System.err by a logger.(Ğì¶øÿÿÿÿ8Àª–ÍÈ/
+O
+java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ8ˆö–ÍÈ/
+w
+java:S1319"aThe type of "x" should be an interface such as "List" rather than the implementation "ArrayList".(®“³ë
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(„„¸èûÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(…®’©şÿÿÿÿ
+g
+java:S2095"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(¨ÏÈ—şÿÿÿÿ
+b
+java:S2095"LUse try-with-resources or close this "BufferedWriter" in a "finally" clause.(÷ñÅ‘
