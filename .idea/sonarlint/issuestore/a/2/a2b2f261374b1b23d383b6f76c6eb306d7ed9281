@@ -1,0 +1,19 @@
+
+S	java:S106-"9Replace this use of System.out or System.err by a logger.(þú±Ÿûÿÿÿÿ
+N	java:S1066"9Replace this use of System.out or System.err by a logger.(ÓÁ’ù
+N	java:S1068"9Replace this use of System.out or System.err by a logger.(·Õû¦
+N	java:S106:"9Replace this use of System.out or System.err by a logger.(©Ïœ§
+S	java:S106<"9Replace this use of System.out or System.err by a logger.(Þé®Óüÿÿÿÿ
+N	java:S106>"9Replace this use of System.out or System.err by a logger.(Ù‘å€
+€
+java:S13194"eThe type of "xx" should be an interface such as "SortedSet" rather than the implementation "TreeSet".(¦‚×µþÿÿÿÿ
+€
+java:S1319F"eThe type of "xx" should be an interface such as "SortedSet" rather than the implementation "TreeSet".(´¹çŸýÿÿÿÿ
+C
+java:S1604"(Make this anonymous inner class a lambda(­…Èîúÿÿÿÿ
+r
+java:S1488%"\Immediately return this expression instead of assigning it to the temporary variable "num4".(ç³ý€
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(»Õ¢‘üÿÿÿÿ
+n	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(áˆˆ
+b
+java:S2095G"LUse try-with-resources or close this "BufferedWriter" in a "finally" clause.(Õ’Û¦

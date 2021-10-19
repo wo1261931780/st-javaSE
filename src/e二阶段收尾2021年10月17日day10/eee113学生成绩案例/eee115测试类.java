@@ -1,4 +1,4 @@
-package e二阶段收尾2021年10月17日day10;
+package e二阶段收尾2021年10月17日day10.eee113学生成绩案例;
 /*
     需求：键盘录入5个学生信息(姓名,语文成绩,数学成绩,英语成绩)。要求按照成绩总分从高到低写入文本文件
           格式：姓名,语文成绩,数学成绩,英语成绩	举例：林青霞,98,99,100
@@ -19,8 +19,6 @@ package e二阶段收尾2021年10月17日day10;
 import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.io.Writer;
-import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.Scanner;
 import java.util.TreeSet;

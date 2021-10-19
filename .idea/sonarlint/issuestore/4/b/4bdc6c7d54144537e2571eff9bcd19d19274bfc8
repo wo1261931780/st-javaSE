@@ -1,0 +1,10 @@
+
+U	java:S106%"9Replace this use of System.out or System.err by a logger.(‹şõ‰8—Û®áÈ/
+F
+java:S1128"+Remove this unused import 'java.io.Writer'.(Î”øÿÿÿÿ
+†
+java:S1319("pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(ë©˜€
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(¡õÜ­üÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(«ñ³‹ÿÿÿÿÿ
+g
+java:S2095"LUse try-with-resources or close this "BufferedWriter" in a "finally" clause.(óó«Åşÿÿÿÿ
