@@ -24,17 +24,19 @@ public class aaa022比较输入和随机数的大小 {
         //这里是main方法的收尾------------------------------
     }
 
-    /*第二次代码---------------------------------------
-public static boolean jo(int xx) {
-    if(xx%2 ==0){
-        System.out.println("数据"+xx+"是偶数");
-        return true;
-        //return之后不能继续代码，有break的功能，后面有代码也不会显示。
-    }else{
-        System.out.println("数据"+xx+"是奇数");
-        return false;
-    }
-    }*/
+    /**
+     * 第二次代码---------------------------------------
+     * public static boolean jo(int xx) {
+     * if(xx%2 ==0){
+     * System.out.println("数据"+xx+"是偶数");
+     * return true;
+     * //return之后不能继续代码，有break的功能，后面有代码也不会显示。
+     * }else{
+     * System.out.println("数据"+xx+"是奇数");
+     * return false;
+     * }
+     * }
+     */
     public static double max(double xx, double zz) {
         if (xx > zz) {
             System.out.println("方法中的最大值是：" + xx);

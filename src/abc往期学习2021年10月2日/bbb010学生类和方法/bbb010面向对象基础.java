@@ -61,6 +61,7 @@ public class bbb010面向对象基础 {
 
     public void xx1() {
         // class是一个类，xx1只是类中的一个方法罢了
+        // 20-25天
 
     }
 }

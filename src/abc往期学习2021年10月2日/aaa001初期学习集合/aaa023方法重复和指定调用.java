@@ -18,9 +18,11 @@ public class aaa023方法重复和指定调用 {
         System.out.println(xx1);
     }
 
-    //创建了四个方法，来比较x1和x2的数值
-    //每个方法定义的x1和x2数据类型不同
-    // 为了区分方法，在每个方法内部加入展示语句
+    /**
+     * 创建了四个方法，来比较x1和x2的数值
+     * 每个方法定义的x1和x2数据类型不同
+     * 为了区分方法，在每个方法内部加入展示语句
+     */
     public static boolean max(int x1, int x2) {
         System.out.println("int---------");
         return x1 == x2;

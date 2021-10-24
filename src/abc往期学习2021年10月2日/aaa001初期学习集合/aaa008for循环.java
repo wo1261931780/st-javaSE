@@ -56,7 +56,9 @@ public class b11{
 // }
 
 public class aaa008for循环 {
-    // 求偶数和，2021年9月7日14:17:41
+    /**
+     * 求偶数和，2021年9月7日14:17:41
+     */
     public static void main(String[] args) {
         Scanner xx = new Scanner(System.in);
         System.out.println("请输入初始数据：");

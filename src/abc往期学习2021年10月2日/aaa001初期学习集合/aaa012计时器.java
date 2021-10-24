@@ -24,8 +24,10 @@ package abc往期学习2021年10月2日.aaa001初期学习集合;
 
 import java.util.Scanner;
 
-// 循环嵌套，2021年9月7日16:14:45
-//自动计时器，输入时间，自动显示倒计时
+/**
+ * 循环嵌套，2021年9月7日16:14:45
+ * 自动计时器，输入时间，自动显示倒计时
+ */
 public class aaa012计时器 {
     public static void main(String[] args) {
         Scanner b11 = new Scanner(System.in);

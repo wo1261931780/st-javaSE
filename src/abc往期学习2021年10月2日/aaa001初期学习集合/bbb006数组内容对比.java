@@ -55,7 +55,8 @@ public class bbb006数组内容对比 {
                 }
             }
         }
-        return true;//上面的false没有返回，下面的自然是return，但是要记得加。
+        //上面的false没有返回，下面的自然是return，但是要记得加。
+        return true;
     }
 
     //下面全部都是demo，测试调换顺序的影响。
@@ -79,6 +80,7 @@ public class bbb006数组内容对比 {
                 return false;
             }
         }
-        return true;//上面的false没有返回，下面的自然是return，但是要记得加。
+        //上面的false没有返回，下面的自然是return，但是要记得加。
+        return true;
     }
 }

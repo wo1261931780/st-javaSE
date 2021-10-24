@@ -2,8 +2,10 @@ package abc往期学习2021年10月2日.aaa001初期学习集合;
 
 import java.util.Scanner;
 
-//2021年9月6日22:26:18，这里输入语句是需要导包的
-//1.导包  2.建立系统变量名   3.定义xx.nextInt();
+/**
+ * 2021年9月6日22:26:18，这里输入语句是需要导包的
+ * 1.导包  2.建立系统变量名   3.定义xx.nextInt();
+ */
 public class aaa003输入身高进行三元对比 {
     public static void main(String[] args) {
         /*//ceshi

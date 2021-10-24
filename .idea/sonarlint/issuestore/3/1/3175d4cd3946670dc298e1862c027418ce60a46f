@@ -1,0 +1,14 @@
+
+V	java:S125"<This block of commented-out lines of code should be removed.(äšşıÿÿÿÿ
+S	java:S106""9Replace this use of System.out or System.err by a logger.(Ö¯Á¼úÿÿÿÿ
+P	java:S125$"<This block of commented-out lines of code should be removed.(ÛÍŞ
+S	java:S106+"9Replace this use of System.out or System.err by a logger.(†‡½£şÿÿÿÿ
+N	java:S106-"9Replace this use of System.out or System.err by a logger.(¦¼ÚÓ
+N	java:S1061"9Replace this use of System.out or System.err by a logger.(Â¡®ˆ
+N	java:S1062"9Replace this use of System.out or System.err by a logger.(µÇÅ²
+N	java:S1064"9Replace this use of System.out or System.err by a logger.(Â¡®ˆ
+Q	java:S1257"<This block of commented-out lines of code should be removed.(½ì¦
+S	java:S106<"9Replace this use of System.out or System.err by a logger.(¸Âî¤ùÿÿÿÿ
+k	java:S117&"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(íøÎûÿÿÿÿ
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Î“Ôúÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(º‰ë’

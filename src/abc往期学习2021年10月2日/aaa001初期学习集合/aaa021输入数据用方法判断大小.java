@@ -5,7 +5,8 @@ import java.util.Random;
 
 public class aaa021输入数据用方法判断大小 {
     public static void main(String[] args) {
-        max(10);//mm的值是多少都不重要，最后还是x1和z1进行比较
+        //mm的值是多少都不重要，最后还是x1和z1进行比较
+        max(10);
     }
 
     public static void max(double mm) {

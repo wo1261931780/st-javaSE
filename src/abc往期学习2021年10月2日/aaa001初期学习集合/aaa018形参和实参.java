@@ -38,7 +38,9 @@ public class aaa018形参和实参 {
         System.out.println(a + b);
     }
 
-    //下面定义方法int xx的时候是形参
+    /**
+     * 下面定义方法int xx的时候是形参
+     */
     public static void max(int xx, int x2) {
         System.out.println("我是带参数的方法，比较大小");
         if (xx > x2) {
@@ -68,7 +70,9 @@ public class aaa018形参和实参 {
         System.out.println("最大值为：" + max);*/
     }
 
-    //方法中的参数，就是形参，例如下面的number
+    /**
+     * 方法中的参数，就是形参，例如下面的number
+     */
     public static void divides(int number) {
         if (number % 2 == 0 && number > 0) {
             System.out.println(number + "为偶数");

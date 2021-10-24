@@ -45,8 +45,6 @@ public class aaa004if语句大小对比 {
                 System.out.println("最大值为：" + max);
             }
         }
-
-
     }
 
 }

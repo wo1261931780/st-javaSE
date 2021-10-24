@@ -7,10 +7,11 @@ public class aaa016遍历数组数字 {
         //int[] xx = new int[]{123,13545,16541,6546748};
         //静态初始化，相当于直接给数组数字
         int[] xx = {111, 222, 333, 44, 6854, 654, 564, 31, 65, 4896, 74, 61, 4, 867, 6};
-        System.out.println(xx);//这里只会显示数组的地址
-        //        System.out.println(xx[1]);
-        //        System.out.println(xx[2]);
-        //        System.out.println(xx[0]);数组都是从0开始计数
+        // 这里只会显示数组的地址
+        System.out.println(xx);
+        // System.out.println(xx[1]);
+        // System.out.println(xx[2]);
+        // System.out.println(xx[0]);数组都是从0开始计数
         //xx.length表示的是，数组长度是一个数字，[]中的数字也可以直接定义.
         System.out.println(xx.length);
         int x = 0;

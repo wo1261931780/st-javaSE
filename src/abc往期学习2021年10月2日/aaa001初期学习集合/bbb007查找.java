@@ -49,16 +49,16 @@ public class bbb007查找 {
         for (System.out.println("方法开始查找数据------------"); x < zz.length; x++) {
             if (z1 == zz[x]) {
                 return x;
-                //                break;
+                // break;
                 //这里数组的长度是12，加上0位数字，如果11位还无法判断，可以认定不存在
             } else if (x == 11) {
                 System.out.println("数字不存在数组中");
                 //返回值-1表示不存在数字
                 return x = -1;
             } else {
-                //                System.out.println("继续遍历");
-                //                x = -1;
-                //                break;
+                // System.out.println("继续遍历");
+                // x = -1;
+                // break;
             }
         }
         return x;

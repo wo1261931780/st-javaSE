@@ -13,7 +13,8 @@ public class aaa019输入数据判断奇偶 {
         System.out.println("开始判断");
         /*max(10);
         boolean xx = max(11);
-        System.out.println(xx);*/
+        System.out.println(xx);
+        */
         xs(x1);
         jo(z1);
     }

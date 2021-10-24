@@ -18,7 +18,9 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class aaa013while循环和随机数 {
-    // 生成随机数，并根据输入进行判断大小
+    /**
+     * 生成随机数，并根据输入进行判断大小
+     */
     public static void main(String[] args) {
         Random b11 = new Random();
         Scanner b22 = new Scanner(System.in);

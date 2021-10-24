@@ -7,7 +7,6 @@ public class aaa024b引用类型的参数传递 {
         System.out.println(arr[2]);
         demo1(arr);
         System.out.println("main中的元素：" + arr[2]);
-
     }
 
     public static void demo1(int[] arr) {
