@@ -23,7 +23,7 @@ public class aaa019输入数据判断奇偶 {
     public static boolean max(int yy) {
         if (yy % 2 == 0) {
             return true;
-            //System.out.println("偶数");
+            // System.out.println("偶数");
         } else {
             return false;
             // System.out.println("奇数");

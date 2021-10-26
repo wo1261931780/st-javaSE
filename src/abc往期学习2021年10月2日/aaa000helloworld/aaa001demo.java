@@ -32,5 +32,7 @@ public class aaa001demo {
         int xx1 = (int) 88.88;
         System.out.println(xx1);
     }
+
+
 }
 

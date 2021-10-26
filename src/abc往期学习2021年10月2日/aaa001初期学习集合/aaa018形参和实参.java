@@ -49,7 +49,8 @@ public class aaa018形参和实参 {
             System.out.println("最大值为" + x2);
         }
         //定义方法，方法的名称可以随便改
-        /*Scanner xx = new Scanner(System.in);
+        /*
+        Scanner xx = new Scanner(System.in);
         System.out.println("请输入数字：");
         int x1 = xx.nextInt();
         if(x1%2 == 0){

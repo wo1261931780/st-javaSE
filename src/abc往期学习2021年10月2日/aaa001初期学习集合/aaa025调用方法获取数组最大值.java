@@ -33,6 +33,7 @@ public class aaa025调用方法获取数组最大值 {
             if (max < arr[i]) {
                 max = arr[i];
             }
+            // 对结果判断，将较大数据赋值给对象
         }
         return max;
     }

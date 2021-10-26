@@ -2,12 +2,11 @@ package abc往期学习2021年10月2日.aaa000helloworld;
 
 public class aaa004demo {
     public static void main(String[] args) {
-        //        赋值运算符
+        // 赋值运算符
         int b = 10;
         //运算符+=已经包含了类型转化过程
         b += 10;
         System.out.println("b的数据为：" + b);
-
 
         //自增自减，i++和i--。
         //i++和++i的作用完全一致。
