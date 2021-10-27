@@ -3,14 +3,15 @@ N	java:S106"9Replace this use of System.out or System.err by a logger.(Å¸Ş
 W
 java:S1075"ARefactor your code to get this URI from a customizable parameter.(ø´ÄÌ
 S	java:S106"9Replace this use of System.out or System.err by a logger.(Ğì¶øÿÿÿÿ
+X	java:S125"<This block of commented-out lines of code should be removed.( €Ë¯8ı¬œÌ/
 S	java:S106&"9Replace this use of System.out or System.err by a logger.(Ğì¶øÿÿÿÿ
 b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(’½©Ç
 o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ê¯÷‰
 e
 java:S2095"OUse try-with-resources or close this "InputStreamReader" in a "finally" clause.(Ë°˜Ê
+e
+java:S2095"OUse try-with-resources or close this "InputStreamReader" in a "finally" clause.(Ë°˜Ê
 k
 java:S2095"PUse try-with-resources or close this "OutputStreamWriter" in a "finally" clause.(²øîèùÿÿÿÿ
 k
 java:S2095"PUse try-with-resources or close this "OutputStreamWriter" in a "finally" clause.(±½Û·şÿÿÿÿ
-e
-java:S2095"OUse try-with-resources or close this "InputStreamReader" in a "finally" clause.(Ë°˜Ê

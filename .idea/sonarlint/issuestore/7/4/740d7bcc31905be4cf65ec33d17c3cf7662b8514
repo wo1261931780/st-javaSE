@@ -1,5 +1,7 @@
 
+X	java:S125"<This block of commented-out lines of code should be removed.(Ô˜ÿª8—ß×ŒÌ/
 S	java:S106+"9Replace this use of System.out or System.err by a logger.(µÏ…èùÿÿÿÿ
+]	java:S125!"<This block of commented-out lines of code should be removed.(ƒó¦ƒùÿÿÿÿ8™ß×ŒÌ/
 9
 java:S2119/"Save and re-use this "Random".(Ø¼ê„øÿÿÿÿ
 u
