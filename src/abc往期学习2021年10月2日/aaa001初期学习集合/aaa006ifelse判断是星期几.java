@@ -42,7 +42,8 @@ public class aaa006ifelse判断是星期几 {
         }
         //数据测试：正确数据，边界数据，错误数据
 
-		/*if (0 <= x1 <= 60){
+		/*
+		if (0 <= x1 <= 60){
 			System.out.println("小明被活活打死");
 		}else if (60 < x1 <= 75){
 			System.out.println("小明被活活饿死");

@@ -24,6 +24,5 @@ public class aaa004demo {
         //输出结果为3,因为x的值是2，首先加和，x=3，
         System.out.println(x2);
         //然后将x=3，赋值给x2，所以x2=3
-
     }
 }

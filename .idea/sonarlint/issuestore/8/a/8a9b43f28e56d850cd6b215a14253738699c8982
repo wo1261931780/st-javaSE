@@ -1,13 +1,0 @@
-
-C
-java:S1481
-"(Remove this unused "arr" local variable.(èñ«Ùúÿÿÿÿ
-E
-java:S1197"*Move the array designators [] to the type.(«â©şÿÿÿÿ
-D
-java:S1481")Remove this unused "arr2" local variable.(«â©şÿÿÿÿ
-V	java:S125"<This block of commented-out lines of code should be removed.(œ´åÕşÿÿÿÿ
-S	java:S106"9Replace this use of System.out or System.err by a logger.(ì–ÅÇüÿÿÿÿ
-N	java:S106"9Replace this use of System.out or System.err by a logger.(ºÌ½ 
-b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ıÿë™
-o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(º‰ë’

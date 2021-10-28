@@ -6,8 +6,8 @@ public class aaa002demo {
         int a = 14;
         int b = 5;
         System.out.print("加法：");
-        System.out.println(a + b);
-        System.out.println("有字符串，加号变连接号：" + a + b);
+        System.out.println(a + b);//19
+        System.out.println("有字符串，加号变连接号：" + a + b);//145
         System.out.println("-------------------------------");
         System.out.print("减法：");
         System.out.println(a - b);
