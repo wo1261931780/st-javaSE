@@ -46,6 +46,4 @@ public class aaa022比较输入和随机数的大小 {
             return zz;
         }
     }
-
-
 }

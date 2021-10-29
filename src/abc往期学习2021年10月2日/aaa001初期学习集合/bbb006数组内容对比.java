@@ -2,30 +2,31 @@ package abc往期学习2021年10月2日.aaa001初期学习集合;
 
 public class bbb006数组内容对比 {
     public static void main(String[] args) {
-        //        int[] x1 = {23, 1351, 8, 3, 2165, 43, 132, 1856, 4};
-        //        int[] x2 = {23, 2165, 8, 13541, 43, 3, 132, 1856, 4};
-        //        System.out.println(x1.length);
-        //        System.out.println(x2.length);
-        //        int xx=0;
-        //        下面进行了两次循环，遍历的结果比较准确。
-        //        System.out.println("开始对比------");
-        //        for (int z1 = 0; z1 < x1.length; z1++) {
-        //            System.out.println("循环2------");
-        //            for (int z2 = 0; z2 < x2.length; z2++) {
-        //                if (x1[z1] == x2[z2]) {
-        //                    System.out.println("出现数据相同,相同项为："+x2[z2]);
-        //                    xx++;
-        //                } else {
-        //                }
-        //            }
-        //        }
-        //        System.out.println("相同数据个数："+xx);
-        //        System.out.println("循环结束--------------");
+        // int[] x1 = {23, 1351, 8, 3, 2165, 43, 132, 1856, 4};
+        // int[] x2 = {23, 2165, 8, 13541, 43, 3, 132, 1856, 4};
+        // System.out.println(x1.length);
+        // System.out.println(x2.length);
+        // int xx=0;
+        // 下面进行了两次循环，遍历的结果比较准确。
+        // System.out.println("开始对比------");
+        // for (int z1 = 0; z1 < x1.length; z1++) {
+        //     System.out.println("循环2------");
+        //     for (int z2 = 0; z2 < x2.length; z2++) {
+        //         if (x1[z1] == x2[z2]) {
+        //             System.out.println("出现数据相同,相同项为："+x2[z2]);
+        //             xx++;
+        //         } else {
+        //         }
+        //     }
+        // }
+        // System.out.println("相同数据个数："+xx);
+        // System.out.println("循环结束--------------");
         boolean b11 = db();
         System.out.println(b11);
         System.out.println("分割线-------------------------");
         boolean b22 = db2();
-        System.out.println(b22);//这里调换数字顺序，结果显示数组不同，是否顺序也是数组data的一种？
+        //这里调换数字顺序，结果显示数组不同，是否顺序也是数组data的一种？
+        System.out.println(b22);
     }
 
     public static boolean db() {

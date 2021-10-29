@@ -1,6 +1,6 @@
 package abc往期学习2021年10月2日.aaa001初期学习集合;
 
-public class aaa024a方法的参数传递 {
+public class aaa018c方法的参数传递 {
     public static void main(String[] args) {
         System.out.println("-------------------------------");
         int xx = 10;

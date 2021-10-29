@@ -19,6 +19,10 @@ public class aaa015生成随机数对比数组数字 {
         System.out.println(arr[2]);
         arr[0] = 112;
         System.out.println(arr[0] + arr[5]);
+        // 不展示默认数据，arr[0]=112，而arr[5]=0,
+        // 上面结果为112
+        System.out.println(arr[0] + "" + arr[5]);
+        // 加入字符串以后，将二者拼接到一起，结果为1120
         Random b1 = new Random();
         arr[5] = b1.nextInt(100);
         int xx = b1.nextInt(100);

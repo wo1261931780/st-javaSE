@@ -37,14 +37,16 @@ public class aaa017数组长度 {
         //最大值和最小值。
         int max = x1[0];
         int min = x1[0];
-        /*for(System.out.println("开始排序：");x<x1.length;x++){
+        /*
+        for(System.out.println("开始排序：");x<x1.length;x++){
             if(min < x1[x]){
                 x2[x] = min;
             }else{
                 min = x1[x];
                 x2[x] = min;
             }
-        }代码错误*/
+        }代码错误
+        */
         for (System.out.println("开始输出："); x < x1.length; x++) {
             if (max < x1[x]) {
                 max = x1[x];

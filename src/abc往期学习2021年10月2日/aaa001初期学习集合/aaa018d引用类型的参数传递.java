@@ -1,6 +1,6 @@
 package abc往期学习2021年10月2日.aaa001初期学习集合;
 
-public class aaa024b引用类型的参数传递 {
+public class aaa018d引用类型的参数传递 {
     public static void main(String[] args) {
         System.out.println("--------------------------");
         int[] arr = {1, 1, 12, 1, 3, 12};

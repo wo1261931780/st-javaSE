@@ -19,16 +19,19 @@ public class bbb007查找 {
             }
         }
         System.out.println("主程序结果为：" + z0);
+        // 这里用了两种方法去查询
+        // 一种是使用main方法内的遍历，一种是封装成方法直接调用
         int qq = db(zz, z1);
         System.out.println("方法得到的索引是第" + qq + "位");
-/*
+        /*
         boolean xx = db(zz,z1);
         if (xx == false) {
             System.out.println("错误-1");
         } else {
-        }*/
+        }
+        */
     }
-/*
+    /*
     public static boolean db(int[] zz,int z1) {
         //这里01和1的含义相同，进制不同。
         //相同数据，优先查找靠前的。
@@ -42,7 +45,8 @@ public class bbb007查找 {
             } else {
             }
         }这一段都太啰嗦了
-        return false;*/
+        return false;
+    */
 
     public static int db(int[] zz, int z1) {
         int x = 0;
