@@ -1,8 +1,0 @@
-
-Y
-java:S1854"7Remove this useless assignment to local variable "xxs".(™¢‘Áşÿÿÿÿ8ìõ‚Ä/
-J
-java:S1481"(Remove this unused "xxs" local variable.(™¢‘Áşÿÿÿÿ8üõ‚Ä/
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(Å˜õçüÿÿÿÿ8üõ‚Ä/
-i	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(°î«8ıõ‚Ä/
-{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ªÅ£„ıÿÿÿÿ8ıõ‚Ä/

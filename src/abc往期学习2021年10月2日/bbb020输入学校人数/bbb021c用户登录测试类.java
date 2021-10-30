@@ -8,7 +8,7 @@ public class bbb021c用户登录测试类 {
         // System.out.println("请输入密码：");
         // Scanner x1 = new Scanner(System.in);
         // String pw = x1.nextLine();
-        bbb021b用户登录 xxs = new bbb021b用户登录();
+        bbb021b用户登录标准类 xxs = new bbb021b用户登录标准类();
         System.out.println("-----------------");
     }
 }

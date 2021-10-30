@@ -56,13 +56,11 @@ public class bbb010面向对象基础 {
         c.name = "1111";
         // 可以进行变量的修改，这里都是堆内存中的数据
         System.out.println(c.name);
-
     }
 
     public void xx1() {
         // class是一个类，xx1只是类中的一个方法罢了
         // 20-25天
-
     }
 }
 
