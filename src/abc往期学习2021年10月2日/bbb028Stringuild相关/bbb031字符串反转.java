@@ -17,11 +17,12 @@ public class bbb031字符串反转 {
 
     public void fz(String z1) {
         System.out.println(z1);
-        //        String s="";
+        // String s="";
+        //通过反向遍历的方法获取字符串，然后拼接即可
         for (int z = z1.length() - 1; z >= 0; z--) {
             System.out.print(z1.charAt(z) + "-");
-            //            s+=z1.charAt(z);
-            //            这里官方的方法多了一步自定义变量。
+            // s+=z1.charAt(z);
+            // 这里官方的方法多了一步自定义变量。
         }
         System.out.println("反转结束");
 
