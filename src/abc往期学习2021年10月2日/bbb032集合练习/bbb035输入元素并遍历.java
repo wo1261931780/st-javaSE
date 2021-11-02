@@ -26,5 +26,8 @@ public class bbb035输入元素并遍历 {
         for (int x = 0; x < xx.size(); x++) {
             System.out.println(xx.get(x));
         }
+        //最近可能又做了一个错误决定，希望可以真香吧
+        // 2021年11月2日20:20:46
+        // 不管怎么样，代码是一定要写的
     }
 }
