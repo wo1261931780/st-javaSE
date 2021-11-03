@@ -8,11 +8,11 @@ public class bbb044学生类 {
     }
 
     //000001无参构造方法
-    //    public void bbb044学生类(String name,int age){
-//        this.name=name;
-//        this.age=age;
-//        System.out.println("bbb044中的学生"+name+age+"已经学习完成");
-//    }
+    // public void bbb044学生类(String name,int age){
+    // this.name=name;
+    // this.age=age;
+    // System.out.println("bbb044中的学生"+name+age+"已经学习完成");
+    // }
     //000002这里是把bbb044作为一个方法进行定义
     //1000001带参构造方法
     public bbb044学生类(String name, int age) {

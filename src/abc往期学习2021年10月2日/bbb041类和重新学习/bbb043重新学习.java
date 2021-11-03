@@ -9,5 +9,7 @@ public class bbb043重新学习 {
         //直接给对象x的brand变量进行赋值。
         x.brand = "aaa";
         System.out.println(x.brand);
+        // 上面的brand没有加修饰符，默认是public，所以才能从外部访问
+        // 对于私有变量id，无法直接使用x.id进行修改
     }
 }
