@@ -1,9 +1,0 @@
-
-L
-java:S1854"6Remove this useless assignment to local variable "x1".(¼¾Íå
-]	java:S125"<This block of commented-out lines of code should be removed.(÷ØÀýÿÿÿÿ8ž“Ï°Í/
-X	java:S125"<This block of commented-out lines of code should be removed.(óäŠß8Ÿ“Ï°Í/
-]	java:S125"<This block of commented-out lines of code should be removed.(™Ö‰Éùÿÿÿÿ8¡“Ï°Í/
-Z	java:S106("9Replace this use of System.out or System.err by a logger.(†ñÀÌýÿÿÿÿ8Ž¢¯±Í/
-b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Ë¶êþ
-o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÇÆò¶

@@ -5,8 +5,8 @@ import java.util.ArrayList;
 public class bbb037b学生测试类 {
     public static void main(String[] args) {
         System.out.println("开始测试");
-        ArrayList<bbb037a学生类> x = new ArrayList<>();
         // 这里，相当于我的集合，是在学生类中创建的
+        ArrayList<bbb037a学生类> x = new ArrayList<>();
         // 下面添加的对象，也是针对学生类这个类进行的
         bbb037a学生类 x1 = new bbb037a学生类(11, "s1");
         bbb037a学生类 x2 = new bbb037a学生类(22, "s2");

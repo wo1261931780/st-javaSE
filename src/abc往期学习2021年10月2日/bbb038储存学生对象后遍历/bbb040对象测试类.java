@@ -3,27 +3,28 @@ package abc往期学习2021年10月2日.bbb038储存学生对象后遍历;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class bbb040对象测试类 {/*
+public class bbb040对象测试类 {
+    /*
     public static void main(String[] args) {
         ArrayList<bbb040测试> zz = new ArrayList<>();
         nothin(zz);
-//        nothin(zz);
-//        nothin(zz);
+        // nothin(zz);
+        // nothin(zz);
         z1.set(0,"s");
         //java: 不兼容的类型: java.lang.String无法转换为bbb038未完成的类.bbb040测试
         System.out.println("----------------------");
         for (int i = 0; i < zz.size(); i++) {
             System.out.println(zz.get(i));
         }
-//        for (int z = 0,x1 = 0,z1=0; z < 3; z++,z1++) {
-//            System.out.println(zx.getName()+zx.getAge());
-//            zz.set(z,zx);
-//        System.out.println("请输入第"+(z+1)+"位同学的姓名：");
-//        String x0 = xx.nextLine();
-//        System.out.println("请输入第"+(z+1)+"位同学的成绩：");
-//        int x1 = xx.nextInt();
-//            System.out.println(x2);
-//    }
+        //    for (int z = 0,x1 = 0,z1=0; z < 3; z++,z1++) {
+        //        System.out.println(zx.getName()+zx.getAge());
+        //        zz.set(z,zx);
+        //    System.out.println("请输入第"+(z+1)+"位同学的姓名：");
+        //    String x0 = xx.nextLine();
+        //    System.out.println("请输入第"+(z+1)+"位同学的成绩：");
+        //    int x1 = xx.nextInt();
+        //        System.out.println(x2);
+        //}
     public static void nothin(ArrayList<bbb040测试> zz) {
         Scanner xx = new Scanner(System.in);
         System.out.println("请输入同学的姓名：");
@@ -33,10 +34,10 @@ public class bbb040对象测试类 {/*
         bbb039 zx = new bbb039(x0, x1);
         System.out.println(zx.getName(x0) + zx.getAge(x1));
         zx.getName(x0);
-//        String q=zx.getName(x0);
+    // String q=zx.getName(x0);
         zx.getAge(x1);
-//        zz.set(0,"1");
-//        zz.add("x");
+    // zz.set(0,"1");
+    // zz.add("x");
     }*/
 
     public static void main(String[] args) {
