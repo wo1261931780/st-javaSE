@@ -1,0 +1,15 @@
+
+M	java:S106
+"9Replace this use of System.out or System.err by a logger.(‚ëù6
+M	java:S106"9Replace this use of System.out or System.err by a logger.(‚ëù6
+M	java:S106"9Replace this use of System.out or System.err by a logger.(‚ëù6
+N	java:S106"9Replace this use of System.out or System.err by a logger.(Šå¦º
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ï”›øÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ÓÁ’ù
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ìéÅ°ıÿÿÿÿ
+o
+java:S2293	"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÒÛüï
+x
+java:S1319"bThe type of "xx" should be an interface such as "List" rather than the implementation "ArrayList".(“öã
+b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Ê¼Ìœ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(†ëÚñÿÿÿÿÿ
