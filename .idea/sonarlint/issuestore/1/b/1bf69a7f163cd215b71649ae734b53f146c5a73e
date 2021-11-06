@@ -1,0 +1,52 @@
+
+V	java:S125	"<This block of commented-out lines of code should be removed.(°¢Ğ·ûÿÿÿÿ
+Q	java:S125"<This block of commented-out lines of code should be removed.(íºÕ
+Q	java:S125("<This block of commented-out lines of code should be removed.(ª…Ò
+P	java:S1254"<This block of commented-out lines of code should be removed.(À¬ËB
+>	java:S1087")Either remove or fill this block of code.(å¥‡
+S	java:S106:"9Replace this use of System.out or System.err by a logger.(’ü×òıÿÿÿÿ
+N	java:S106?"9Replace this use of System.out or System.err by a logger.(ôğÕ˜
+S	java:S106@"9Replace this use of System.out or System.err by a logger.(ÿ‡üïüÿÿÿÿ
+N	java:S106A"9Replace this use of System.out or System.err by a logger.(–ĞÇ†
+S	java:S106B"9Replace this use of System.out or System.err by a logger.(àÏö£ùÿÿÿÿ
+N	java:S106C"9Replace this use of System.out or System.err by a logger.(ûŠìº
+M	java:S106D"9Replace this use of System.out or System.err by a logger.(öïÖk
+S	java:S106E"9Replace this use of System.out or System.err by a logger.(£ó˜ıÿÿÿÿ
+N	java:S106I"9Replace this use of System.out or System.err by a logger.(œÁô±
+V	java:S125W"<This block of commented-out lines of code should be removed.(“Óïúûÿÿÿÿ
+N	java:S106^"9Replace this use of System.out or System.err by a logger.(·Õû¦
+S	java:S106f"9Replace this use of System.out or System.err by a logger.(¡ÎÏ›ÿÿÿÿÿ
+>	java:S108k")Either remove or fill this block of code.(£à•å
+N	java:S106o"9Replace this use of System.out or System.err by a logger.(ÓÁ’ù
+S	java:S106r"9Replace this use of System.out or System.err by a logger.(ìéÅ°ıÿÿÿÿ
+N	java:S106u"9Replace this use of System.out or System.err by a logger.(˜›­š
+S	java:S106y"9Replace this use of System.out or System.err by a logger.(ÍèüÜøÿÿÿÿ
+T	java:S106€"9Replace this use of System.out or System.err by a logger.(Ÿ£éûÿÿÿÿ
+T	java:S106ˆ"9Replace this use of System.out or System.err by a logger.(µ¾®¨şÿÿÿÿ
+O	java:S106"9Replace this use of System.out or System.err by a logger.(„­ò
+O	java:S106"9Replace this use of System.out or System.err by a logger.(İ”ş
+O	java:S106œ"9Replace this use of System.out or System.err by a logger.(·Õû¦
+O	java:S106¡"9Replace this use of System.out or System.err by a logger.(†ññÁ
+T	java:S106¤"9Replace this use of System.out or System.err by a logger.(óÿò—úÿÿÿÿ
+O	java:S106§"9Replace this use of System.out or System.err by a logger.(¡± Ì
+T	java:S106ª"9Replace this use of System.out or System.err by a logger.(âÑ»ÿıÿÿÿÿ
+O	java:S106¯"9Replace this use of System.out or System.err by a logger.(÷Æ‡ñ
+O	java:S106´"9Replace this use of System.out or System.err by a logger.(àÍÎ
+T	java:S106¶"9Replace this use of System.out or System.err by a logger.(¨¸­êıÿÿÿÿ
+R	java:S125·"<This block of commented-out lines of code should be removed.(Êşÿò
+O	java:S106º"9Replace this use of System.out or System.err by a logger.(ù«Ôƒ
+T	java:S106½"9Replace this use of System.out or System.err by a logger.(–€ëşÿÿÿÿ
+R	java:S125Â"<This block of commented-out lines of code should be removed.(ŠÖó
+r	java:S127*"XRefactor the code in order to not assign to this loop counter from within the loop body.(â–«°ûÿÿÿÿ
+~
+java:S1319X"cThe type of "xx1" should be an interface such as "List" rather than the implementation "ArrayList".(°¿Ïøÿÿÿÿ
+~
+java:S1319~"cThe type of "xx1" should be an interface such as "List" rather than the implementation "ArrayList".(‡¸·åşÿÿÿÿ
+
+java:S1319–"cThe type of "xx1" should be an interface such as "List" rather than the implementation "ArrayList".(øœË“øÿÿÿÿ
+z
+java:S1319³"cThe type of "xx1" should be an interface such as "List" rather than the implementation "ArrayList".(Í§¯š
+U
+java:S1155µ">Use isEmpty() to check whether the collection is empty or not.(ı‘Ğâ
+b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ÏÉ’º
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ö·Å¾øÿÿÿÿ

@@ -8,6 +8,5 @@ public class ccc008测试 {
         x1.show();
         // super方法必须要在子类中/继承了父类的类中，调用才会生效
         // super.show();
-
     }
 }
