@@ -1,5 +1,6 @@
 package abc往期学习2021年10月2日.aaa001初期学习集合;
 
+import java.util.Random;
 import java.util.Scanner;
 
 public class aaa006ifelse判断是星期几 {
@@ -41,7 +42,7 @@ public class aaa006ifelse判断是星期几 {
             System.out.println("分数错误。");
         }
         //数据测试：正确数据，边界数据，错误数据
-
+        show();
 		/*
 		if (0 <= x1 <= 60){
 			System.out.println("小明被活活打死");
@@ -54,4 +55,17 @@ public class aaa006ifelse判断是星期几 {
 		}else
 			System.out.println("分数错误。");*/
     }
+
+    public static void show() {
+        Random random = new Random();
+        int i = random.nextInt(200);
+        if (i >= 0 & i >= 100) {
+            System.out.println(i);
+        } else {
+            System.out.println(i + "error");
+        }
+        System.out.println("finish");
+    }
+
+
 }

@@ -1,5 +1,7 @@
+
 package abc往期学习2021年10月2日.aaa001初期学习集合;
 
+import java.util.Random;
 import java.util.Scanner;
 
 public class aaa007switch语句判断季节case {
@@ -61,6 +63,21 @@ public class aaa007switch语句判断季节case {
                 System.out.println("时间错误，程序结束");
                 // break;
                 //break就直接结束，最后的default可以直接省略，2021年9月7日11:02:05
+        }
+        show();
+    }
+
+    public static void show() {
+        Random random = new Random();
+        int x = random.nextInt(200);
+        switch (x) {
+            case 1:
+            case 2:
+                System.out.println("show");
+                break;
+            default:
+                System.out.println(x+"error");
+                break;
         }
     }
 }
