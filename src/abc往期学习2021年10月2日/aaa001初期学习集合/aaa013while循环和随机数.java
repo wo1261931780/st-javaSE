@@ -43,7 +43,9 @@ public class aaa013while循环和随机数 {
                 break;
             }
         }
+        show();
     }
+
     //2021年9月8日15:34:25
     // public static void main(String[] args) {
     //     System.out.println("开始猜测");
@@ -64,5 +66,25 @@ public class aaa013while循环和随机数 {
     //     } while (xx2 != x2);
     //     System.out.println("right number");
     // }
+    public static void show() {
+        Random x = new Random();
+        int x1 = x.nextInt(200);
+        Scanner x2 = new Scanner(System.in);
+        do {
+            int x3 = x2.nextInt();
+            if (x3 > x1) {
+                System.out.println("大于");
+
+            } else if (x3 < x1) {
+                System.out.println("小于");
+
+            } else if (x3 == x1) {
+                break;
+            }
+        } while (true);
+
+    }
+
+
 }
 
