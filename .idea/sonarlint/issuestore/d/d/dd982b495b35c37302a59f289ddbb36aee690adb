@@ -1,0 +1,13 @@
+
+Y
+java:S1854%"7Remove this useless assignment to local variable "max".(»¥Á‡ûÿÿÿÿ8¿ÖÑòØ/
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(’Œï¬üÿÿÿÿ8ËÖÑòØ/
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(¨õ¡¹úÿÿÿÿ8ÍÖÑòØ/
+Z	java:S106!"9Replace this use of System.out or System.err by a logger.(¦ìˆøÿÿÿÿ8ÏÖÑòØ/
+J
+java:S1481%"(Remove this unused "max" local variable.(»¥Á‡ûÿÿÿÿ8ÒÖÑòØ/
+T	java:S106)"9Replace this use of System.out or System.err by a logger.(½ËÑ;8ÓÖÑòØ/
+T	java:S106-"9Replace this use of System.out or System.err by a logger.(½ËÑ;8ÔÖÑòØ/
+X	java:S125,"<This block of commented-out lines of code should be removed.(Æí¯†8ÕÖÑòØ/
+i	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ì•Ãá8×ÖÑòØ/
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(º‰ë’8ØÖÑòØ/

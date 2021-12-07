@@ -1,0 +1,10 @@
+
+E
+java:S1125	"(Remove the unnecessary boolean literals.(Ïúõö8ŒÍÇòØ/
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(²Áæüÿÿÿÿ8’ÍÇòØ/
+X	java:S125"<This block of commented-out lines of code should be removed.(Î•ÖÉ8“ÍÇòØ/
+U	java:S106"9Replace this use of System.out or System.err by a logger.(™Û¶8•ÍÇòØ/
+X	java:S125"<This block of commented-out lines of code should be removed.(§äÜé8—ÍÇòØ/
+U	java:S106"9Replace this use of System.out or System.err by a logger.(”¸ ƒ8›ÍÇòØ/
+n	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(¥—•‰øÿÿÿÿ8ÍÇòØ/
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(º‰ë’8¤ÍÇòØ/
