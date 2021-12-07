@@ -1,0 +1,14 @@
+
+]	java:S125"<This block of commented-out lines of code should be removed.(äšşıÿÿÿÿ8ÿŒ’õØ/
+Z	java:S106""9Replace this use of System.out or System.err by a logger.(Ö¯Á¼úÿÿÿÿ8’õØ/
+W	java:S125$"<This block of commented-out lines of code should be removed.(ÛÍŞ8•’õØ/
+Z	java:S106+"9Replace this use of System.out or System.err by a logger.(†‡½£şÿÿÿÿ8—’õØ/
+U	java:S106-"9Replace this use of System.out or System.err by a logger.(¦¼ÚÓ8˜’õØ/
+U	java:S1061"9Replace this use of System.out or System.err by a logger.(Â¡®ˆ8™’õØ/
+U	java:S1062"9Replace this use of System.out or System.err by a logger.(µÇÅ²8™’õØ/
+U	java:S1064"9Replace this use of System.out or System.err by a logger.(Â¡®ˆ8›’õØ/
+X	java:S1257"<This block of commented-out lines of code should be removed.(½ì¦8œ’õØ/
+Z	java:S106<"9Replace this use of System.out or System.err by a logger.(¸Âî¤ùÿÿÿÿ8œ’õØ/
+r	java:S117&"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(íøÎûÿÿÿÿ8’õØ/
+n	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Î“Ôúÿÿÿÿ8Ÿ’õØ/
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(º‰ë’8 ’õØ/
