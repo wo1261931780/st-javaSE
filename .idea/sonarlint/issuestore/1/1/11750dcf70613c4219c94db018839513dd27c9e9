@@ -1,0 +1,27 @@
+
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(êš‘ûÿÿÿÿ8®ç¢ÿØ/
+Z	java:S106	"9Replace this use of System.out or System.err by a logger.(Ñüğùÿÿÿÿ8¾ç¢ÿØ/
+T	java:S106
+"9Replace this use of System.out or System.err by a logger.(æ·ö)8Ïç¢ÿØ/
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ç‘ë®üÿÿÿÿ8Õç¢ÿØ/
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ª€Ş8Úç¢ÿØ/
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ÿ’‘Îıÿÿÿÿ8İç¢ÿØ/
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ç‘ë®üÿÿÿÿ8îç¢ÿØ/
+]	java:S125"<This block of commented-out lines of code should be removed.(áæñéıÿÿÿÿ8ıç¢ÿØ/
+U	java:S106"9Replace this use of System.out or System.err by a logger.(èúšƒ8è¢ÿØ/
+U	java:S106"9Replace this use of System.out or System.err by a logger.(áÌôÙ8è¢ÿØ/
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(íö–ûÿÿÿÿ8Ÿè¢ÿØ/
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ç‘ë®üÿÿÿÿ8¥è¢ÿØ/
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(«¯ëıüÿÿÿÿ8­è¢ÿØ/
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(˜ÿ¤ûÿÿÿÿ8³è¢ÿØ/
+U	java:S106"9Replace this use of System.out or System.err by a logger.(”Ğ­8¿è¢ÿØ/
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ãÀ¦Úıÿÿÿÿ8Ãè¢ÿØ/
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ç‘ë®üÿÿÿÿ8Çè¢ÿØ/
+U	java:S106"9Replace this use of System.out or System.err by a logger.(°ÿñş8Éè¢ÿØ/
+U	java:S106"9Replace this use of System.out or System.err by a logger.(œîˆŠ8Ìè¢ÿØ/
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ëÄ±•8Ïè¢ÿØ/
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ïâµ“ÿÿÿÿÿ8Ñè¢ÿØ/
+‚
+java:S1192"`Define a constant instead of duplicating this literal "-------------------------------" 4 times.(ç‘ë®üÿÿÿÿ8Öè¢ÿØ/
+n	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(àÊóüüÿÿÿÿ8İè¢ÿØ/
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¹×8àè¢ÿØ/
