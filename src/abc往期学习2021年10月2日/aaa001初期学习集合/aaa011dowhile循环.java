@@ -89,5 +89,28 @@ public class aaa011dowhile循环 {
             System.out.println(x1);
             System.out.println("此时循环次数为：" + x2);
         }
+        show();
+    }
+    public static void show(){
+        System.out.println("show me money");
+        int i=0;
+        for (System.out.println("cycle1:");i<5;i++){
+            System.out.println("111111");
+        }
+        i=0;
+        System.out.println("****************************");
+        System.out.println("cycle2:");
+        while (i < 5) {
+            System.out.println("222222222222");
+            i++;
+        }
+        i=0;
+        System.out.println("****************************");
+        System.out.println("cycle3:");
+        do{
+            System.out.println("333333333333");
+            i++;
+        }while(i<5);
+        System.out.println("end");
     }
 }

@@ -59,5 +59,25 @@ public class aaa012计时器 {
             }
             System.out.println("时间上限，程序结束");
         }
+        show();
+    }
+    public static void show(){
+
+        int minutes=59;
+        int day=2;
+        Scanner x=new Scanner(System.in);
+        System.out.println("please type your article:");
+        int i = x.nextInt();
+        for (int hour=0;hour<day;i++){
+//            System.out.println("show me the time");
+            if (i>minutes){
+                i=0;
+                hour++;
+                System.out.println(hour+":"+i);
+            }else {
+//                i++;
+                System.out.println(hour+":"+i);
+            }
+        }
     }
 }
