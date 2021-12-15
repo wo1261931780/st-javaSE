@@ -2,6 +2,33 @@ package abc往期学习2021年10月2日.aaa000helloworld;
 
 public class aaa002demo {
     public static void main(String[] args) {
+        // 2021年12月15日17:40:09，补充学习
+        // 目标：掌握基本的算术算术运算符的使用：+ - * / %
+        int aaa = 10;
+        int bbb = 3;
+        System.out.println(aaa + bbb);
+        System.out.println(aaa - bbb);
+        System.out.println(aaa * bbb);
+        System.out.println(aaa / bbb); // 3.3333  ==>  3
+        System.out.println(aaa * 1.0 / bbb); // 3.3333
+        System.out.println(3 / 2);
+        System.out.println(3 * 1.0 / 2); // 1.5，这里必须先进行类型的转换
+        System.out.println(3  / 2 * 1.0); // 1.0
+        // 这里优先计算的是3/2，所以得到1，小数部分已经丢失，1*1.0只能得到1.0
+        System.out.println(aaa % bbb); // 1
+
+        // 目标：+符号做连接符的识别
+        int a = 5 ;
+        System.out.println("abc" + 'a'); // abca
+        System.out.println("abc" + a);   // abc5
+        System.out.println(5 + a); // 10
+        System.out.println("abc" + 5 + 'a'); // abc5a
+        System.out.println(15 + "abc" + 15); // 15abc15
+        System.out.println(a + 'a'); // 102
+        System.out.println(a + "" +'a'); // 5a
+        System.out.println(a + 'a'+" itheima "); // 102 itheima
+        System.out.println("itheima"+ a + 'a'); // itheima5a
+        System.out.println("itheima"+ ( a + 'a' ));// itheima102
         // 算数运算符
         int a = 14;
         int b = 5;

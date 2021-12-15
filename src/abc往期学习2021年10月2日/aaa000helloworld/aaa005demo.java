@@ -11,6 +11,12 @@ public class aaa005demo {
         //逻辑运算符
         //一共四种，与/或/异或/非
 
+        // 2021年12月15日22:50:06，补充学习
+        // 逻辑异或：必须两个不同结果才是true
+        System.out.println(false ^ true); // true
+        System.out.println(true ^ false); // true
+        System.out.println(true ^ true); // false
+        System.out.println(false ^ false); // false
         //短路逻辑运算符，短路与&&，短路或||
         //定义变量
         int i = 10;

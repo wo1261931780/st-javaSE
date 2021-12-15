@@ -71,7 +71,35 @@ public class aaa001demo {
         // int xx1 =88.88;这是正常流程，但是浮点数会报错
         int xx1 = (int) 88.88;
         System.out.println(xx1);
+        // 目标：理解强制类型转换，并使用。
+        int a3546 = 20;
+        byte b = (byte)a3546;
+        System.out.println(a3546);
+        System.out.println(b);
+
+        int i = 1500;
+        byte j = (byte) i;
+        System.out.println(j);//-36，这里数据已经发生变化
+        //换句话来说，数据丢失
+
+        double aasdasd = 99.5;
+        int asda15 = (int) aasdasd;
+        System.out.println(asda15); // 99，小数部分直接丢失，整数部分继续保留
+
+
+        // 2021年12月15日17:18:07，补充学习
+        // 目标：理解自动类型转换
+        byte aa1 = 20;
+        int asd56748 = aa1; // 发生了自动类型转换
+        System.out.println(aa1);
+        System.out.println(asd56748);
+
+        int age = 23;
+        double db = age; // 自动类型转换
+        System.out.println(db);
+
+        char ch1 = 'a'; // 00000000 01100001
+        int code = ch1; // 00000000 00000000 00000000 01100001
+        System.out.println(code);
     }
-
-
 }
