@@ -16,7 +16,10 @@ public class aaa003三元 {
         // int max2 = max1 > x3 ? max1 : x3;
         // System.out.println(max2);
         // System.out.println("x1:"+x1+"x2:"+x2+"x3:"+x3);
-        show();
+
+        // show();
+        show2();
+
     }
 
     public static void show() {
@@ -35,6 +38,16 @@ public class aaa003三元 {
             }
         }
         System.out.println(max);
+    }
 
+    public static void show2() {
+        Scanner x = new Scanner(System.in);
+        // 录入一个char字符，将其转化为int类型的数据输出
+        char x3 = '我';
+        char x4 = '爱';
+        char x5 = '你';
+        // System.out.println((int)x1+" "+(int)x2+" "+(int)x3+" "+(int)x4+" "+(int)x5);
+        System.out.println((int)x3+" "+(int)x4+" "+(int)x5);
+        //结果为25105 29233 20320
     }
 }
