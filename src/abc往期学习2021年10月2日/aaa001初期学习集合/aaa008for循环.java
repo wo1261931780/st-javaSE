@@ -74,4 +74,13 @@ public class aaa008for循环 {
         }
         System.out.println(x1);
     }
+    // 2021年12月16日10:57:34，补充学习
+    public static void show() {
+        System.out.println("---------------------");
+        for (int i = 1; i <= 5; i+=2) {//执行三次
+            System.out.println("HelloWorld");
+        }
+        // for+i，直接出现一个循环
+    }
+
 }

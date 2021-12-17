@@ -24,5 +24,14 @@ public class aaa001三元运算符 {
         int tallst = taller > h3 ? taller : h3;
         // 问号右边，可以是true/false，也可以是两个具体表达式
         System.out.println("max:" + tallst);
+        // 2021年12月15日23:45:01，补充知识
+        System.out.println("-------------拓展知识-------------");
+        int i=1;
+        int j=2;
+        int k=3;
+        int rsMax1 = i > j ? (i > k ? i : k) : (j > k ? j : k);
+        // 三个数据比较直接用一行代码表示
+
+        System.out.println(rsMax1);
     }
 }

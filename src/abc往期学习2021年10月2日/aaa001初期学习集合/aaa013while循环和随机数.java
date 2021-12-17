@@ -82,9 +82,11 @@ public class aaa013while循环和随机数 {
                 break;
             }
         } while (true);
-
+    }
+    public static void show2() {
+        Random x = new Random();
+        int i = x.nextInt(100);
     }
 
 
 }
-

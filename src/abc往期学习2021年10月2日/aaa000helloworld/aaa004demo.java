@@ -24,5 +24,18 @@ public class aaa004demo {
         //输出结果为3,因为x的值是2，首先加和，x=3，
         System.out.println(x2);
         //然后将x=3，赋值给x2，所以x2=3
+
+        // 2021年12月15日18:17:00，补充学习
+        System.out.println("-----------拓展案例（可以了解和参考）--------------");
+        int k = 3;
+        int p = 5;
+        // k  3 4 5 4
+        // p  5 4 3 4
+        // rs    3  +  5  -   4  + 4   - 5   +  4 + 2
+        int rs = k++ + ++k - --p + p-- - k-- + ++p + 2;
+        // 运算过程中，x++，就按照x的初试数据放入过程，否则就放入x增加以后的数据
+        System.out.println(k); // 4
+        System.out.println(p); // 4
+        System.out.println(rs); // 9
     }
 }
