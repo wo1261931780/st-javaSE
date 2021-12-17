@@ -68,7 +68,6 @@ public class aaa014水仙花数和随机猜测 {
         int si=i/10%10;
         int bi=i/100;
         for(System.out.println("show me sm");i<1000;i++){
-
         }
 
 
