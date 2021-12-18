@@ -1,0 +1,30 @@
+
+S
+java:S1854
+"6Remove this useless assignment to local variable "b1".(¹¢Ü8ıÏ¾¾Ù/
+D
+java:S1481
+"'Remove this unused "b1" local variable.(¹¢Ü8¶Ö¾¾Ù/
+]	java:S125"<This block of commented-out lines of code should be removed.(ìçãºùÿÿÿÿ8¿Ö¾¾Ù/
+]	java:S125"<This block of commented-out lines of code should be removed.(˜ïˆÿÿÿÿÿ8ÕÖ¾¾Ù/
+]	java:S125!"<This block of commented-out lines of code should be removed.(˜ïˆÿÿÿÿÿ8ØÖ¾¾Ù/
+Z	java:S106/"9Replace this use of System.out or System.err by a logger.(¡œ®Ìıÿÿÿÿ8áÖ¾¾Ù/
+Z	java:S1061"9Replace this use of System.out or System.err by a logger.(üº¥üÿÿÿÿ8çÖ¾¾Ù/
+Z	java:S1062"9Replace this use of System.out or System.err by a logger.(ë¼éŞûÿÿÿÿ8îÖ¾¾Ù/
+Z	java:S1068"9Replace this use of System.out or System.err by a logger.(¨Ö®¨ùÿÿÿÿ8õÖ¾¾Ù/
+X
+java:S1854E"6Remove this useless assignment to local variable "bi".(çªœ·ıÿÿÿÿ8ùÖ¾¾Ù/
+S
+java:S1854D"6Remove this useless assignment to local variable "si".(²Ù˜8‚×¾¾Ù/
+S
+java:S1854C"6Remove this useless assignment to local variable "gi".(—Š´8ƒ×¾¾Ù/
+D
+java:S1481C"'Remove this unused "gi" local variable.(—Š´8…×¾¾Ù/
+D
+java:S1481D"'Remove this unused "si" local variable.(²Ù˜8†×¾¾Ù/
+I
+java:S1481E"'Remove this unused "bi" local variable.(çªœ·ıÿÿÿÿ8ˆ×¾¾Ù/
+U	java:S106F"9Replace this use of System.out or System.err by a logger.(‘¤¾8Š×¾¾Ù/
+E	java:S108F")Either remove or fill this block of code.(‘¤¾8×¾¾Ù/
+i	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(¾¤¤¢8›×¾¾Ù/
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(º‰ë’8©×¾¾Ù/
