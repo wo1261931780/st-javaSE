@@ -70,7 +70,7 @@ public class aaa013while循环和随机数 {
         Random x = new Random();
         int x1 = x.nextInt(200);
         Scanner x2 = new Scanner(System.in);
-        do {
+        do {1
             int x3 = x2.nextInt();
             if (x3 > x1) {
                 System.out.println("大于");
