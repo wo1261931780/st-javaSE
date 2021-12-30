@@ -14,7 +14,11 @@
             <entry key="com.zeroturnaround.jrebel.remoting.DeleteUnindexedFiles" value="false" />
             <entry key="com.zeroturnaround.jrebel.remoting.ModuleRemoteServerSelection" value="off" />
             <entry key="jrebelEnabled" value="true" />
+<<<<<<< HEAD
             <entry key="lastExternalPluginCheckTime" value="1640845522420" />
+=======
+            <entry key="lastExternalPluginCheckTime" value="1640702237611" />
+>>>>>>> ade3808a17dae7f6f911922bcb82f079e6f6fad2
           </map>
         </option>
         <option name="version" value="4" />
