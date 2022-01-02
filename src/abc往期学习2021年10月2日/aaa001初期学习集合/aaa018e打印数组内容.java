@@ -7,11 +7,15 @@ public class aaa018e打印数组内容 {
         int[] xx = {11, 22, 33, 44, 55};
         show(xx);
         System.out.println("end");
-        Scanner x1=new Scanner(System.in);
+        Scanner x1 = new Scanner(System.in);
         System.out.println("请输入query的数据：");
         int x2 = x1.nextInt();
-        System.out.println(show2(xx,x2));
+        System.out.println(show2(xx, x2));
         System.out.println("end");
+        int[] x3 = {11, 33, 22, 44,55};
+        que(xx, x3);
+
+
     }
 
     public static void show(int[] x) {
@@ -29,15 +33,16 @@ public class aaa018e打印数组内容 {
             }
         }
     }
-    public static int show2(int[] x,int data){// 我直接设置一个对应的数据用来做返回值
+
+    public static int show2(int[] x, int data) {// 我直接设置一个对应的数据用来做返回值
         // Scanner x1=new Scanner(System.in);
         // System.out.println("请输入query的数据：");
         // int x2 = x1.nextInt();
         // int xx=-1;
         for (int i = 0; i < x.length; i++) {
             // if (x[i] == x2){
-            if (x[i] == data){
-                System.out.println("index:"+i);
+            if (x[i] == data) {
+                System.out.println("index:" + i);
                 // xx=i;
                 // break;
                 //这里完全不需要break，直接打断就可以。
@@ -49,6 +54,37 @@ public class aaa018e打印数组内容 {
         // return xx;
         return -1;
     }
+
+    public static void que(int[] xx, int[] x1) {//2022年1月2日17:08:13，第一次写
+        if (xx.length == x1.length) {
+            OUT:
+            for (int i = 0; i < xx.length; i++) {
+                if (xx[i] == x1[i]) {
+                    System.out.println("right index");
+                } else {
+                    System.out.println("someting wrong");
+                    break OUT;
+                }
+            }
+            // System.out.println("total equal");
+        }else{
+            System.out.println("error");
+        }
+        System.out.println("****");
+    }
+    public static boolean que2(int[] xx, int[] x1){//2022年1月2日17:08:23，改进以后
+        if (xx.length==x1.length){
+            for (int i = 0; i < xx.length; i++) {
+                if (xx[i]!=x1[i]){
+                    return false;
+                }
+            }
+            return true;
+        }else{
+            return false;
+        }
+    }
+
 
 
 }
