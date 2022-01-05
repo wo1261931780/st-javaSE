@@ -2,6 +2,10 @@ package abc往期学习2021年10月2日.aaa001初期学习集合;
 
 import java.util.Arrays;
 
+/**
+ * 需求：某系统的数字密码，比如1983，采用加密方式进行传输，规则如下：先得到每位数，
+ * 然后每位数都加上5再对10求余，最后将所有数字反转，得到一串新数。
+ */
 public class aaa031数字加密案例 {
     public static void main(String[] args) {
         // Scanner x = new Scanner(System.in);

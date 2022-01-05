@@ -3,6 +3,9 @@ package abc往期学习2021年10月2日.aaa001初期学习集合;
 import java.util.Arrays;
 import java.util.Random;
 
+/**
+ * 需求：把一个数组中的元素复制到另一个新数组中去。
+ */
 public class aaa029复制数组 {
     public static void main(String[] args) {
         // show();
