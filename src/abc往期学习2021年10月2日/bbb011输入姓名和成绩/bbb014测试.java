@@ -1,4 +1,4 @@
-package abc往期学习2021年10月2日.bbb013输入姓名和成绩;
+package abc往期学习2021年10月2日.bbb011输入姓名和成绩;
 
 public class bbb014测试 {
     public static void main(String[] args) {

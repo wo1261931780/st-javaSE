@@ -1,4 +1,4 @@
-package abc往期学习2021年10月2日.bbb013输入姓名和成绩;
+package abc往期学习2021年10月2日.bbb011输入姓名和成绩;
 // 成员变量和局部变量
 
 import java.util.Scanner;
