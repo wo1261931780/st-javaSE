@@ -13,8 +13,8 @@ package abc往期学习2021年10月2日.bbb017默认类和对象;
 public class bbb018b标准类的制作2 {
     public static void main(String[] args) {
         System.out.println("开始------------");
-        bbb018a标准类的制作 x1 = new bbb018a标准类的制作();
-        bbb018a标准类的制作 x2 = new bbb018a标准类的制作(11, "s");
+        bbb018a标准类的制作_javabean x1 = new bbb018a标准类的制作_javabean();
+        bbb018a标准类的制作_javabean x2 = new bbb018a标准类的制作_javabean(11, "s");
         x1.show1();
         x1.setAge(11);
         x1.setName("x111111");

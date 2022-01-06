@@ -4,17 +4,17 @@ package abc往期学习2021年10月2日.bbb017默认类和对象;
  * 成员变量
  * 使用private修饰
  * 构造方法
- * 提供一个无参构造方法
+ * 提供一个无参构造方法，实际开发中，无参构造方法更加重要
  * 提供一个带多个参数的构造方法
  * 成员方法
  * 提供每一个成员变量对应的setXxx()/getXxx()
  * 提供一个显示对象信息的show()
  */
-public class bbb018a标准类的制作 {
+public class bbb018a标准类的制作_javabean {
     private int age;
     private String name;
 
-    public bbb018a标准类的制作() {
+    public bbb018a标准类的制作_javabean() {
         System.out.println("我是无参构造方法");
     }
 
@@ -22,7 +22,7 @@ public class bbb018a标准类的制作 {
      * public void bbb017b标准类的制作(int age, String name) {}
      * 上面的方法不算构造方法，因为设定了返回值void
      */
-    public bbb018a标准类的制作(int age, String name) {
+    public bbb018a标准类的制作_javabean(int age, String name) {
         System.out.println("带参构造");
         this.age = age;
         this.name = name;
