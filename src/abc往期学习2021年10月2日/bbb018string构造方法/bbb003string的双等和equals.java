@@ -19,6 +19,7 @@ public class bbb003string的双等和equals {
         } else {
             System.out.println("please try again");
         }
+        // 忽略大小写比较内容的Api: 一般用于比较验证码这样的业务逻辑
         if (name.equalsIgnoreCase(x1) && paw.equalsIgnoreCase(x2)) {
             System.out.println("不区分大小写，内容正确");
         }
