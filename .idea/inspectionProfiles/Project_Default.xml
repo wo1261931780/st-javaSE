@@ -1,12 +1,12 @@
 <component name="InspectionProjectProfileManager">
   <profile version="1.0">
     <option name="myName" value="Project Default" />
+    <inspection_tool class="AlibabaAvoidCommentBehindStatement" enabled="false" level="MAJOR" enabled_by_default="false" />
     <inspection_tool class="AlibabaRemoveCommentedCode" enabled="false" level="MAJOR" enabled_by_default="false" />
     <inspection_tool class="CloudToolkitAbstractClassShouldStartWithAbstractNaming" enabled="true" level="CRITICAL" enabled_by_default="true" />
     <inspection_tool class="CloudToolkitAbstractMethodOrInterfaceMethodMustUseJavadoc" enabled="true" level="MAJOR" enabled_by_default="true" />
     <inspection_tool class="CloudToolkitAvoidApacheBeanUtilsCopy" enabled="true" level="BLOCKER" enabled_by_default="true" />
     <inspection_tool class="CloudToolkitAvoidCallStaticSimpleDateFormat" enabled="true" level="CRITICAL" enabled_by_default="true" />
-    <inspection_tool class="CloudToolkitAvoidCommentBehindStatement" enabled="true" level="MAJOR" enabled_by_default="true" />
     <inspection_tool class="CloudToolkitAvoidComplexCondition" enabled="true" level="MAJOR" enabled_by_default="true" />
     <inspection_tool class="CloudToolkitAvoidConcurrentCompetitionRandom" enabled="true" level="MAJOR" enabled_by_default="true" />
     <inspection_tool class="CloudToolkitAvoidDoubleOrFloatEqualCompare" enabled="true" level="CRITICAL" enabled_by_default="true" />
