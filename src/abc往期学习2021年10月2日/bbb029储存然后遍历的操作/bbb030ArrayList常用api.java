@@ -9,7 +9,7 @@ import java.util.ArrayList;
  * public boolean add(E e)：将指定的元素追加到此集合的末尾
  * public void add(int index,E element)：在此集合中的指定位置插入指定的元素
  */
-public class bbb030ArrayList {
+public class bbb030ArrayList常用api {
     public static void main(String[] args) {
         // 需要导包
         ArrayList<String> xx = new ArrayList<>();
@@ -29,11 +29,12 @@ public class bbb030ArrayList {
         System.out.println("-----------------------------------------");
         System.out.println(xx.remove("S"));
         // 去除指定内容，并返回去除是否成功
+        // 只会删除第一次出现的元素
         // 结果为：[SS, sada, SSS]
         System.out.println(xx);
         System.out.println("-----------------------------------------");
         System.out.println(xx.remove(2));
-        // 去除指定位置元素，返回被去除的内容 SSS
+        // 去除指定位置元素，返回被去除的内容 SSS，
         // 结果为：[SS, sada]
         System.out.println(xx);
         System.out.println("-----------------------------------------");
@@ -51,5 +52,12 @@ public class bbb030ArrayList {
         // 总长度：2
         // ArrayList<String> zz=new ArrayList<>("1","2","3","44","55","66","77","88","99","00");
         // System.out.println(zz);
+    }
+
+    public static void show() {
+        ArrayList x = new ArrayList<>();
+        // ArrayList<string> x=new ArrayList<>();如果指定了元素，add过程中就必须设置好对应的类型，否则
+        x.add("11");
+        x.add(22);
     }
 }
