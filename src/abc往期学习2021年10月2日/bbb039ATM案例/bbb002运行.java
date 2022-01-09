@@ -7,7 +7,8 @@ public class bbb002运行 {
     public static void main(String[] args) {
         Scanner scanner1 = new Scanner(System.in);
         ArrayList<bbb001账户类> a1 = new ArrayList();
-
+// 相比正式的系统来说，还是有很多问题，比如没有做极限情况的设置
+// 也没有做转账系统，
         while (true) {
 
             int choose_result = interface_start(scanner1);
@@ -36,7 +37,8 @@ public class bbb002运行 {
                             break out;
                         case 7:
                             logout_account(scanner1, a1, account_info);
-                            break out;
+                            // break out;
+                            return;//直接返回就可以，不需要break
                         default:
                             System.out.println("不要调皮");
 
