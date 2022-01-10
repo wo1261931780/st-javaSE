@@ -62,12 +62,13 @@ public class aaa014水仙花数和随机猜测 {
         3
         */
     }
-    public static void show(){
-        int i=0;
-        int gi=i%10;
-        int si=i/10%10;
-        int bi=i/100;
-        for(System.out.println("show me sm");i<1000;i++){
+
+    public static void show() {
+        int i = 0;
+        int gi = i % 10;
+        int si = i / 10 % 10;
+        int bi = i / 100;
+        for (System.out.println("show me sm"); i < 1000; i++) {
         }
 
 

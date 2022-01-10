@@ -61,22 +61,23 @@ public class aaa012计时器 {
         }
         show();
     }
-    public static void show(){
 
-        int minutes=59;
-        int day=2;
-        Scanner x=new Scanner(System.in);
+    public static void show() {
+
+        int minutes = 59;
+        int day = 2;
+        Scanner x = new Scanner(System.in);
         System.out.println("please type your article:");
         int i = x.nextInt();
-        for (int hour=0;hour<day;i++){
-//            System.out.println("show me the time");
-            if (i>minutes){
-                i=0;
+        for (int hour = 0; hour < day; i++) {
+// System.out.println("show me the time");
+            if (i > minutes) {
+                i = 0;
                 hour++;
-                System.out.println(hour+":"+i);
-            }else {
-//                i++;
-                System.out.println(hour+":"+i);
+                System.out.println(hour + ":" + i);
+            } else {
+// i++;
+                System.out.println(hour + ":" + i);
             }
         }
         // 2021年12月16日11:50:52，补充学习，跳转关键字
@@ -85,7 +86,7 @@ public class aaa012计时器 {
         // 但是洗碗到第三天后心软了 原谅你了不用洗了
         for (int i654 = 0; i654 < 5; i654++) {
             System.out.println("快乐的洗碗~~~~");
-            if(i654 == 2) {
+            if (i654 == 2) {
                 break; // 跳出并结束当前循环的执行~~
             }
         }
@@ -93,8 +94,8 @@ public class aaa012计时器 {
         // continue 跳出当前循环的当次执行，进入循环的下一次
         // 场景：假如你又有老婆了，然后你犯错了，你老婆罚你做5天家务，
         // 每天都是洗碗。但是洗碗到第三天后心软了 原谅你了不用洗了 但是依然不解恨 继续洗第4天 5天
-        for (int i1654 = 1; i1654 <= 5 ; i1654++) {
-            if(i1654 == 3){
+        for (int i1654 = 1; i1654 <= 5; i1654++) {
+            if (i1654 == 3) {
                 continue; // 立即跳出当次执行，进入循环的下一次！
             }
             System.out.println("洗碗：" + i1654);

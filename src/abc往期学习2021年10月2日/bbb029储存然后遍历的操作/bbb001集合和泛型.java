@@ -8,7 +8,5 @@ public class bbb001集合和泛型 {
         ArrayList<String> x1 = new ArrayList<>();//1.7开始，泛型后面的可以不写
         ArrayList<Integer> x2 = new ArrayList<>();
         ArrayList<Object> x3 = new ArrayList<>();//非要使用泛型，也必须填入object
-
-
     }
 }

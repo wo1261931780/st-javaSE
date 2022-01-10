@@ -21,7 +21,5 @@ public class bbb030b集合remove方法 {
         x.remove(1);
         System.out.println(x);
         // 结果为：[111, 222]
-
-
     }
 }

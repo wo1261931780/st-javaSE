@@ -48,14 +48,14 @@ public class aaa018a计算1n的和 {
         int min = 0;
 
         for (int i = 0; i < xx.length; i++) {
-//            if (max < xx[i]) {
-//                max = xx[i ];
-//            } else if (min > xx[i]) {
-//                min = xx[i];
-//            }
+//  if (max < xx[i]) {
+//      max = xx[i ];
+//  } else if (min > xx[i]) {
+//      min = xx[i];
+//  }
             System.out.println(xx[i]);
-            max=max<xx[i]?xx[i]:max;
-            min=min>xx[i]?xx[i]:min;
+            max = max < xx[i] ? xx[i] : max;
+            min = min > xx[i] ? xx[i] : min;
         }
         // return不能返回多个数据
 //        return max+min;
