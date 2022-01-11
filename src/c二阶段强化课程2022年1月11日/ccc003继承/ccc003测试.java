@@ -1,4 +1,4 @@
-package c二阶段强化课程2022年1月11日.ccc001;
+package c二阶段强化课程2022年1月11日.ccc003继承;
 
 public class ccc003测试 {
     public static void main(String[] args) {
