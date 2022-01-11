@@ -1,8 +1,8 @@
 package c二阶段强化课程2022年1月11日.ccc014static;
 
-public class ccc016demo {
+public class ccc016static修改变量 {
     public static void main(String[] args) {
-        ccc015static x = new ccc015static();
+        ccc015static定义 x = new ccc015static定义();
         //将aaa修改为junw
         x.name = "junw";
         //将10修改为20
@@ -13,7 +13,7 @@ public class ccc016demo {
         x.show();
         //junw,20,hw
         System.out.println("finish");
-        ccc015static x2 = new ccc015static();
+        ccc015static定义 x2 = new ccc015static定义();
         x2.age = 30;
         x2.show();
         //aaa,30,hw

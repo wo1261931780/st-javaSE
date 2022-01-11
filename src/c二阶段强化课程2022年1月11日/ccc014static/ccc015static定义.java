@@ -1,6 +1,6 @@
 package c二阶段强化课程2022年1月11日.ccc014static;
 
-public class ccc015static {
+public class ccc015static定义 {
 
     /**
      * String college="huawei";
