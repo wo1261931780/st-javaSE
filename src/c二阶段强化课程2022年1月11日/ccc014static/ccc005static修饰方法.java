@@ -1,6 +1,6 @@
 package c二阶段强化课程2022年1月11日.ccc014static;
 
-public class ccc017static修饰方法 {
+public class ccc005static修饰方法 {
     /**
      * 这里主要测试static的范围
      */
