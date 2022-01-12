@@ -1,4 +1,4 @@
-package c二阶段强化课程2022年1月11日.ccc001static;
+package c二阶段强化课程2022年1月11日.ccc002static修饰成员方法;
 
 public class ccc007调用工具类 {
     public static void main(String[] args) {

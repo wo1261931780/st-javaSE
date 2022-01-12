@@ -1,4 +1,4 @@
-package c二阶段强化课程2022年1月11日.ccc001static;
+package c二阶段强化课程2022年1月11日.ccc002static修饰成员方法;
 
 public class ccc005static修饰方法 {
     /**
@@ -15,18 +15,18 @@ public class ccc005static修饰方法 {
     }
 
     public static void show3j() {
-        //静态方法只能访问静态方法，main方法是静态
+        //静态成员方法只能访问静态变量和静态方法，main方法是静态
         System.out.println("33333333333");
         System.out.println(agej);
-        //        System.out.println(age);//动态变量无法访问
+        // System.out.println(age);//实例成员变量无法访问
         System.out.println(xj);
-        //        System.out.println(x);//动态变量无法访问
+        // System.out.println(x);//实例成员变量无法访问
         show1j();
-        //        show2();//动态方法无法访问
-        //        show4();//动态方法无法访问
+        // show2();//实例成员方法无法访问
+        // show4();//实例成员方法无法访问
     }
 
-    //动态全部可以访问
+    //实例成员全部可以访问
     public void show2() {
         System.out.println("2222222222222");
         System.out.println(agej);
