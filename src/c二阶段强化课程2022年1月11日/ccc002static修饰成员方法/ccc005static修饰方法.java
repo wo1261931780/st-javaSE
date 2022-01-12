@@ -26,7 +26,7 @@ public class ccc005static修饰方法 {
         // show4();//实例成员方法无法访问
     }
 
-    //实例成员全部可以访问
+    //实例成员可以访问静态方法+实例方法
     public void show2() {
         System.out.println("2222222222222");
         System.out.println(agej);
