@@ -1,4 +1,4 @@
-package c二阶段强化课程2022年1月11日.ccc104无参和带参构造方法;
+package c2stage_20220113.ccc011Constructors;
 
 public class ccc011测试 {
     public static void main(String[] args) {
@@ -11,4 +11,6 @@ public class ccc011测试 {
         System.out.println("---------------------------");
         ccc010zi x2 = new ccc010zi(44);
     }
+    // 有个坑，如果父类只写了带参构造，
+    // 会因为没有无参构造，导致子类数据无法初始化，进而报错
 }

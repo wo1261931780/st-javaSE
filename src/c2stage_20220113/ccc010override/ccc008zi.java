@@ -1,4 +1,4 @@
-package c二阶段强化课程2022年1月11日.ccc106方法重写和检验语句;
+package c2stage_20220113.ccc010override;
 
 public class ccc008zi extends ccc007fu {
 
@@ -6,6 +6,7 @@ public class ccc008zi extends ccc007fu {
     // override是注解
     // 检验下面的方法call，在重写的过程中是否有错误
     // 父类中的private内容，是无法被继承的，也就无法被检验
+
     public void call(String name) {
         // 语句相同，但是参数不一致，就是方法重写
         System.out.println("子类声明");
