@@ -1,4 +1,4 @@
-package c二阶段强化课程2022年1月11日.ccc112权限修饰符;
+package c2stage_20220113.ccc015Permission_modifiers;
 
 public class ccc013demo {
     private void show1() {
@@ -27,7 +27,7 @@ public class ccc013demo {
     }
 //简单概括一下：
     //1-private只能本类中访问
-    //2-void可以在同一个包中访问
+    //2-缺省可以在同一个包中访问
     //3-protect可以在导包+继承后，在不同的包中访问
     //4-public导包后，不继承也可以访问。
 }

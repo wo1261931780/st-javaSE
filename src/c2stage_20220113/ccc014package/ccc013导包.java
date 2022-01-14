@@ -1,4 +1,4 @@
-package c二阶段强化课程2022年1月11日.ccc111修饰符和包;
+package c2stage_20220113.ccc014package;
 
 import c二阶段强化课程2022年1月11日.ccc110猫和狗.ccc014animal;
 // 一般创建对象操作，在同一个包下，可以直接new出来
