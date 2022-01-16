@@ -7,5 +7,7 @@ public class ccc016demo {
         f.way();
         System.out.println("-------------------------");
         z.way();
+        // surprise mother fucker
+        // 这就是摆烂的代价，三天没写代码，我是废物
     }
 }
