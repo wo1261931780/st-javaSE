@@ -16,4 +16,5 @@ public class ccc015zi extends ccc014fu {
         super.way();
         System.out.println(age);
     }
+    // 重写的时候，直接输入方法名，就可以执行重写的操作
 }
