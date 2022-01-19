@@ -1,4 +1,4 @@
-package c二阶段强化课程2022年1月11日.ccc021猫和狗抽象类案例;
+package c2stage_20220113.ccc021abstract_catdog_case;
 
 public abstract class ccc022animal {
     private int age;
