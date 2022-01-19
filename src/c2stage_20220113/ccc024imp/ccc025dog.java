@@ -1,4 +1,4 @@
-package c二阶段强化课程2022年1月11日.ccc022接口及其特点;
+package c2stage_20220113.ccc024imp;
 
 public abstract class ccc025dog implements ccc026jump {
     // 抽象之后可以直接使用接口，不需要重写操作

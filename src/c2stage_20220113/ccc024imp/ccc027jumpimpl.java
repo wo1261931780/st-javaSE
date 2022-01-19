@@ -1,4 +1,4 @@
-package c二阶段强化课程2022年1月11日.ccc022接口及其特点;
+package c2stage_20220113.ccc024imp;
 
 /**
  * 接口名+impl=接口后面的实现类

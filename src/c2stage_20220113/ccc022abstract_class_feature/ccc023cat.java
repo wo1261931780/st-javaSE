@@ -1,4 +1,4 @@
-package c2stage_20220113.ccc021abstract_class_feature;
+package c2stage_20220113.ccc022abstract_class_feature;
 
 public class ccc023cat extends ccc021animal {
     @Override

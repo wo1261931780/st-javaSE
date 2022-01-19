@@ -1,4 +1,4 @@
-package c二阶段强化课程2022年1月11日.ccc022接口及其特点;
+package c2stage_20220113.ccc024imp;
 
 public class ccc024cat implements ccc026jump {
     //类是继承extends，接口是implements，翻译为实现
