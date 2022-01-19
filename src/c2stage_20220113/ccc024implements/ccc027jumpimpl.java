@@ -1,4 +1,4 @@
-package c2stage_20220113.ccc024imp;
+package c2stage_20220113.ccc024implements;
 
 /**
  * 接口名+impl=接口后面的实现类

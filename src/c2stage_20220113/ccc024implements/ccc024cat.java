@@ -1,4 +1,4 @@
-package c2stage_20220113.ccc024imp;
+package c2stage_20220113.ccc024implements;
 
 public class ccc024cat implements ccc026jump {
     //类是继承extends，接口是implements，翻译为实现

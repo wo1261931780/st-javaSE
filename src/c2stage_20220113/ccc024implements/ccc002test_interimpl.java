@@ -1,4 +1,4 @@
-package c2stage_20220113.ccc024imp;
+package c2stage_20220113.ccc024implements;
 
 public class ccc002test_interimpl implements ccc001test_inter {
     int age = 11;

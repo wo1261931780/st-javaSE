@@ -1,11 +1,11 @@
-package c2stage_20220113.ccc024imp;
+package c2stage_20220113.ccc024implements;
 
 public interface ccc026jump {
     /**
      * 方法是抽象的，但是接口自带抽象属性
      * 接口使用interface修饰
      * 研究成员特点，直接看有没有成员变量/构造方法/成员方法
-     * 接口中，默认final变量，所以所有的变量实际上都是常量（无法修饰）。
+     * 接口中，默认final变量，所以,所有的变量实际上都是常量（无法修饰）。
      */
     public int num = 10;
     public final int num2 = 20;
