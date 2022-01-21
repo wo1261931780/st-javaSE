@@ -20,6 +20,7 @@ public class ccc018demo {
         // 总结：变量看父类，方法看子类
         // 因为方法重写过了，但是变量没有重写
         System.out.println(xx.age);
+        // System.out.println(xx.weight);
         //变量看左边--------------------------------------------
         //左边父类中有age，所以xx.age可以访问，
         //子类有weight，但是父类没有，所以weight不可以访问
