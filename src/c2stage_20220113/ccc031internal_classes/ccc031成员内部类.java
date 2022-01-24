@@ -1,4 +1,4 @@
-package c二阶段强化课程2022年1月11日.ccc029内部类;
+package c2stage_20220113.ccc031internal_classes;
 
 public class ccc031成员内部类 {
     private int age = 22;

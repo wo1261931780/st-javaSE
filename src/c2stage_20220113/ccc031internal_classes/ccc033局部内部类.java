@@ -1,4 +1,4 @@
-package c二阶段强化课程2022年1月11日.ccc029内部类;
+package c2stage_20220113.ccc031internal_classes;
 
 public class ccc033局部内部类 {
     private int xx = 10;
