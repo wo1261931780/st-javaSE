@@ -1,4 +1,4 @@
-package c二阶段强化课程2022年1月11日.ccc016多态的好坏;
+package c2stage_20220113.ccc028Polymorphic_feature;
 //案例需要经常复习，里面很好地体现了多态的结构
 
 public class ccc020demo {
