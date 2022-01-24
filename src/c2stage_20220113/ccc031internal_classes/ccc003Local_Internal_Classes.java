@@ -1,13 +1,13 @@
 package c2stage_20220113.ccc031internal_classes;
 
-public class ccc001test_局部内部类 {
+public class ccc003Local_Internal_Classes {
     public String name;
     public int age;
 
-    public ccc001test_局部内部类() {
+    public ccc003Local_Internal_Classes() {
     }
 
-    public ccc001test_局部内部类(String name, int age) {
+    public ccc003Local_Internal_Classes(String name, int age) {
         this.name = name;
         this.age = age;
     }

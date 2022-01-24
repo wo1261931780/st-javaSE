@@ -1,4 +1,4 @@
-package c2stage_20220113.ccc031internal_classes;
+package c2stage_20220113.ccc032Local_Internal_Classes;
 
 public class ccc034demo2 {
     public static void main(String[] args) {

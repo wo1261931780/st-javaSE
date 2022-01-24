@@ -1,6 +1,6 @@
 package c2stage_20220113.ccc031internal_classes;
 
-public class ccc030outter {
+public class ccc002outter {
     private int age = 10;
 
     /**
