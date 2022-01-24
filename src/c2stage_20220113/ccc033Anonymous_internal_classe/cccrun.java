@@ -1,4 +1,4 @@
-package c二阶段强化课程2022年1月11日.ccc030匿名内部类;
+package c2stage_20220113.ccc033Anonymous_internal_classe;
 
 public class cccrun {
     public static void main(String[] args) {
