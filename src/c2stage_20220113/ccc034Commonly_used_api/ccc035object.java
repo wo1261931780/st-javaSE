@@ -1,4 +1,4 @@
-package c二阶段强化课程2022年1月11日.ccc032常用api;
+package c2stage_20220113.ccc034Commonly_used_api;
 
 public class ccc035object {
     /**
@@ -35,7 +35,7 @@ public class ccc035object {
 
     /**
      * 下面的tostring命令，在不重写的情况下，
-     * 我直接得到结果：“c二阶段强化课程2022年1月11日.ccc032常用api.ccc035object@776ec8df”
+     * 我直接得到结果：“c2stage_20220113.ccc034Commonly_used_api.ccc035object@776ec8df”
      * 为了方便展示，一般需要重写一次
      */
     @Override

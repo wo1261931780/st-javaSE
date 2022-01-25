@@ -37,4 +37,8 @@ public class ccc031inside {
         //作为一个整体送过去
         xx.show();
     }
+    public void show(ccc031inside x){
+        System.out.println("传递成功");
+        x.show2();
+    }
 }
