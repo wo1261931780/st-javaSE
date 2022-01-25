@@ -1,9 +1,9 @@
 package c2stage_20220113.ccc034Commonly_used_api;
 
-public class ccc036objectdemo {
+public class ccc002object_run_demo {
     public static void main(String[] args) {
         System.out.println("--------------");
-        ccc035object s = new ccc035object(20, "junw");
+        ccc001object s = new ccc001object(20, "junw");
         //给出的是x的地址值:c2stage_20220113.ccc034Commonly_used_api.ccc035object@776ec8df
         System.out.println(s);
         //原文给出的结果不方便阅读，
@@ -33,12 +33,6 @@ public class ccc036objectdemo {
             //进入下一步
         }
     //--------------------------------------------
-        public String toString() {
-            return getClass().getName() + "@" + Integer.toHexString(hashCode());
-            //这里是最终结果，返回的是类名+@+代码的哈希值
-            //结果为：“c2stage_20220113.ccc034Commonly_used_api.ccc035object@776ec8df”
-        }
-    //--------------------------------------------
         */
         System.out.println(s.toString());
         //综上所述，x.toString()，实际上是我的ccc035object类，继承了始祖object类
@@ -46,6 +40,9 @@ public class ccc036objectdemo {
         //tostring方法的作用是返回的是类名+@+代码的哈希值
         //所以我直接得到结果：“c2stage_20220113.ccc034Commonly_used_api.ccc035object@776ec8df”
         //代码的内部有判断流程，但最终使用的还是object中的tostring方法，所以结果一致
+        // 最终输出的结果是重写后的格式：
+        // ccc035object{age=20, name='junw'}
+
 
     }
 }
