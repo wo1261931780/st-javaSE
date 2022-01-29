@@ -42,6 +42,7 @@ public class ccc002object_run_demo {
         //代码的内部有判断流程，但最终使用的还是object中的tostring方法，所以结果一致
         // 最终输出的结果是重写后的格式：
         // ccc035object{age=20, name='junw'}
+        // 2022年1月29日23:54:10，今天没写代码，春节放假回到深圳
 
 
     }
