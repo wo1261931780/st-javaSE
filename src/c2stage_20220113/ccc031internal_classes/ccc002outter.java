@@ -20,6 +20,8 @@ public class ccc002outter {
         // 比如我innn类，是一个内部类，
         // innn中间的对象，可以访问外部的age变量，同时给出展示
         //内部类可以直接访问外部的age成员
+        // 内部类只能访问外部的静态成员，
+        // 实例成员，还是需要创建对象来访问
         public void show() {
             System.out.println(age);
         }
