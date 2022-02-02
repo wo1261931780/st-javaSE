@@ -15,6 +15,21 @@ package c2stage_20220202.ccc036object_api_math;
 
 //public static double random?()：返回值为double的正值，[0.0,1.0)
 
+/**
+ 目标：Math类的使用。
+ Math用于做数学运算。
+ Math类中的方法全部是静态方法，直接用类名调用即可。
+ 方法：
+ 方法名                                          说明
+ public static int abs(int a)                   获取参数a的绝对值：
+ public static double ceil(double a)            向上取整
+ public static double floor(double a)           向下取整
+ public static double pow(double a, double b)   获取a的b次幂
+ public static long round(double a)             四舍五入取整
+ 小结：
+ 记住。
+ */
+
 public class ccc033math {
     public static void main(String[] args) {
         //12，返回绝对值
@@ -62,4 +77,5 @@ public class ccc033math {
         // int i = (int) Math.random() * 7 + 3;
         // i就是3-9
     }
+
 }

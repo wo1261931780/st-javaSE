@@ -18,10 +18,12 @@ public class ccc001 {
         BigDecimal a1 = new BigDecimal(20);
         BigDecimal a2 = new BigDecimal(3);
         // BigDecimal a3 = a1.divide(a2);//式子20/3=6.6666，永远无法除尽，直接得到会报错
+
+        /**
+         参数一：除数 参数二：保留小数位数  参数三：舍入模式
+         */
         BigDecimal a3 = a1.divide(a2,2, RoundingMode.HALF_UP);//设置一个保留小数的条件即可
         //**********************a1除a2，保留2位小数，四舍五入的条件
         System.out.println(a3);//这里20/3=6.67，相当于四舍五入
-
-
     }
 }

@@ -2,12 +2,18 @@ package c2stage_20220202.ccc034object_api;
 
 public class ccc003object_equals {
     // 2022年1月31日20:27:35，抢红包去了
-// 2022年2月1日09:16:14，开始第一次push
-// 2022年2月2日10:00:32，开始上课
+    // 2022年2月1日09:16:14，开始第一次push
+    // 2022年2月2日10:00:32，开始上课
     public static void main(String[] args) {
         show();
     }
-
+    /**
+     定制相等规则。
+     两个对象的内容一样就认为是相等的
+     s1.equals(s2)
+     比较者：s1 == this
+     被比较者： s2 ==> o
+     */
     public static void show(){
         ccc001object x = new ccc001object(11, "aaa");
         ccc001object x1 = new ccc001object(11, "aaa");

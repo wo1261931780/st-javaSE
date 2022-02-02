@@ -3,8 +3,8 @@ package c2stage_20220202.ccc031internal_classes;
 public class ccc001static_inside_class {
     // 外部类，一般都是public或者缺省
     // public表示任何地方都可以访问
-// 但是缺省，表示只能在同个包下面访问
-// 内部类没有这种限制条件，一开始就可以使用private修饰
+    // 但是缺省，表示只能在同个包下面访问
+    // 内部类没有这种限制条件，一开始就可以使用private修饰
 
     private String name;
     public int name2=100;
