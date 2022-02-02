@@ -1,4 +1,4 @@
-package ab往期学习2021年10月2日.bbb028Stringuild相关;
+package c2stage_20220113.ccc035object_api_stringbuilder;
 // 2021年9月18日14:38:56
 // 使用stringbuilder类的意义在于：
 // 每次使用string设置字符串，都会因为新字符串，出现一个新的内存地址
@@ -18,16 +18,15 @@ public class bbb032StringBuild语句 {
         System.out.println("-------------------------------------------");
 
         StringBuilder x0 = demostring.append(222);
-        StringBuilder x1 = demostring.append(333);
-        System.out.println("x0的结果为：" + x0);
         // x0的意思是，在demostring的后面加上222，然后赋值给x0
         // 输出x0，实际上会输出已经增加长度的demostring
         // 同时，这里是把demostring赋值给x0，所以二者地址相同，
-        // 结果是111222333
+        StringBuilder x1 = demostring.append(333);
+        System.out.println("x0的结果为：" + x0);// 结果是111222333
+
         System.out.println("-------------------------------------------");
 
-        if (demostring == x0) {
-            // 结果为true
+        if (demostring == x0) {// 结果为true
             System.out.println(true);
             System.out.println("demostring和x0完全相同");
         } else {
@@ -36,19 +35,14 @@ public class bbb032StringBuild语句 {
         }
         System.out.println("-------------------------------------------");
 
-
-        //括号内是字符串需要加上双引号，其他可以直接跟结果
-        demostring.append("iii");
-        //链式编程，也说明不需要加前缀。,而且结果是直接跟在后面
-        demostring.append(555).append(666).append(777);
-        //结果为111222333iii555666777
-        System.out.println("demostring的字符为：" + demostring);
+        demostring.append("iii");//括号内是字符串需要加上双引号，其他可以直接跟结果
+        demostring.append(555).append(666).append(777);//链式编程，也说明不需要加前缀。,而且结果是直接跟在后面
+        System.out.println("demostring的字符为：" + demostring);//结果为111222333iii555666777
         System.out.println("-------------------------------------------");
 
         if (demostring == x0) {
             System.out.println(true);
-            System.out.println("现在x0的数据为：" + x0);
-            // 结果是111222333iii555666777
+            System.out.println("现在x0的数据为：" + x0);// 结果是111222333iii555666777
         } else {
             System.out.println(false);
         }
