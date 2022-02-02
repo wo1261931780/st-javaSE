@@ -1,4 +1,4 @@
-package c2stage_20220113.ccc040object_api_;
+package c2stage_20220113.ccc036object_api_math;
 //public static int abs?(int a)：返回参数的绝对值
 
 //public static double ceil?(double a)：返回大于或等于参数的最小double值，等于一个整数
@@ -51,5 +51,15 @@ public class ccc033math {
         //取整
         System.out.println((int) (Math.random() * 100));
         //System.out.println(Math.abs(-55));
+
+        // 现在要3-9的随机数：
+        // 首先-3，就得到0-6的随机数
+        // 但是直接random是左闭右开
+        // Math.random()*7;得到一个0-7的左闭右开
+        // 为了得到0-6，需要int类型，所以进行一次强转
+        // (int) Math.random()*7
+        // 现在就能得到0-6
+        // int i = (int) Math.random() * 7 + 3;
+        // i就是3-9
     }
 }

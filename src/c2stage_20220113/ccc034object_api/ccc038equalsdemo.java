@@ -1,4 +1,4 @@
-package c2stage_20220113.ccc040object_api_;
+package c2stage_20220113.ccc034object_api;
 
 public class ccc038equalsdemo {
     public static void main(String[] args) {
