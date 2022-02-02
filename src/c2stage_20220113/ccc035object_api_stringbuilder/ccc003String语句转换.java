@@ -1,6 +1,6 @@
 package c2stage_20220113.ccc035object_api_stringbuilder;
 
-public class bbb033String语句转换 {
+public class ccc003String语句转换 {
     public static void main(String[] args) {
         // StringBuilder xx= new StringBuilder();
         // xx.append(65465);
@@ -17,5 +17,11 @@ public class bbb033String语句转换 {
         String x3 = "222";
         System.out.println(x3);
         StringBuilder x4 = new StringBuilder(x3);
+        // 转换的目的在于
+        // java的方法中，字符串接收默认使用string类型的
+        // 如果传递stringbuilder类型，会不被接受
+        // 因此要用tostring做一次转化
+
+        // 不过，从内存图来看，string本身就是基于stringbuilder做的
     }
 }

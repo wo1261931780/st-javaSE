@@ -6,7 +6,7 @@ package c2stage_20220113.ccc035object_api_stringbuilder;
 // stringbuilder可以理解为一个可变容器
 
 
-public class bbb032StringBuild语句 {
+public class ccc002StringBuild注意点 {
     public static void main(String[] args) {
         // 2021年9月18日14:42:35，
         // 上面一共两种构造方法，一种带参数，一种不带参数
