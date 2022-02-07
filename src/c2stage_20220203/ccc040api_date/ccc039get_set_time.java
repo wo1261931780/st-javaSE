@@ -1,4 +1,4 @@
-package c二阶段强化课程2022年1月11日.ccc038get_set_time;
+package c2stage_20220203.ccc040api_date;
 /*
     public long getTime():获取的是日期对象从1970年1月1日 00:00:00到现在的毫秒值
     public void setTime(long time):设置时间，给的是毫秒值
