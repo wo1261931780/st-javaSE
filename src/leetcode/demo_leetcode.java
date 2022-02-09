@@ -1,4 +1,4 @@
-package c2stage_20220203.ccc050°ü×°Àà;
+package leetcode;
 
 import java.util.Scanner;
 
