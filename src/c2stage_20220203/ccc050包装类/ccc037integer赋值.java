@@ -3,6 +3,7 @@ package c2stage_20220203.ccc050包装类;
 /**
  * 装箱：把基本数据类型转换为对应的包装类类型
  * 拆箱：把包装类类型转换为对应的基本数据类型
+ * 拆箱和装箱的操作，本质上都是java为了实现一切皆对象的思想
  */
 public class ccc037integer赋值 {
     public static void main(String[] args) {

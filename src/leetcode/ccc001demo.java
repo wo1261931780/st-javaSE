@@ -1,4 +1,4 @@
-package c2stage_20220203.ccc050包装类;
+package leetcode;
 
 import java.util.ArrayList;
 import java.util.Random;
@@ -23,6 +23,7 @@ import java.util.Scanner;
 //     }
 // }
 // 2022年2月7日20:53:32，力扣刷题两道
+
 public class ccc001demo {
     public static void main(String[] args) {
         Scanner x_input = new Scanner(System.in);
