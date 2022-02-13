@@ -1,9 +1,21 @@
-package c二阶段强化课程2022年1月11日.ccc033冒泡排序和arrays命令;
+package c2stage_20220213.ccc052arrays;
 
 import java.util.Arrays;
 
-public class ccc036array {
+/**
+ * Created by Intellij IDEA.
+ * Project:index.pb
+ * Package:c2stage_20220213.ccc052arrays
+ * User:  wo1261931780@gmail.com
+ * Time:  2022-02-17-45  星期日
+ */
+public class ccc001arrays概述 {
     public static void main(String[] args) {
+        // arrays是操纵数组内容的工具
+        int[] x = {1, 2, 13, 231, 23, 1};
+        System.out.println(Arrays.toString(x));
+        Arrays.sort(x);
+        System.out.println(Arrays.toString(x));
         // array主要是各种操作数组的方法
         // 说人话就是，
         // 对于数组，想要做排序，展示等操作，直接用arrays就可以

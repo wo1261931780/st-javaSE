@@ -1,11 +1,11 @@
-package c二阶段强化课程2022年1月11日.ccc033冒泡排序和arrays命令;
+package c2stage_20220213.ccc053冒泡排序;
 
 /**
  * 冒泡排序：
  * 一种排序的方式，对要进行排序的数据中相邻的数据进行两两比较，将较大的数据放在后面，
  * 依次对所有的数据进行操作，直至所有数据按要求完成排序
  */
-public class ccc035demo {
+public class ccc035冒泡排序 {
     public static void main(String[] args) {
         int[] arr = {12, 4, 165, 1, 564, 864, 1, 5, 7, 8};
         System.out.println("start-----------");

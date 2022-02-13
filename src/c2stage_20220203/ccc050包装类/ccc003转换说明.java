@@ -1,6 +1,6 @@
-package c二阶段强化课程2022年1月11日.ccc034基本类型包装;
+package c2stage_20220203.ccc050包装类;
 
-public class ccc035demo {
+public class ccc003转换说明 {
     public static void main(String[] args) {
         // 判断数据是否在int范围内
         // public static final int MIN_VALUE

@@ -1,4 +1,4 @@
-package c二阶段强化课程2022年1月11日.ccc035字符串排序和int_string类型转换;
+package c2stage_20220213.ccc052arrays;
 /*
     需求：
         有一个字符串：“91 27 46 38 50”，请写程序实现最终输出结果是：“27 38 46 50 91”
@@ -17,7 +17,7 @@ package c二阶段强化课程2022年1月11日.ccc035字符串排序和int_string类型转换;
 
 import java.util.Arrays;
 
-public class ccc001test_run {
+public class ccc007arrays案例 {
     public static void main(String[] args) {
         // string数组中，空格也会包含在内
         String x = "12 5 456 465 968 65 4 84 8 8 748 48 668";

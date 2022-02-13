@@ -1,4 +1,4 @@
-package c二阶段强化课程2022年1月11日.ccc033冒泡排序和arrays命令;
+package c2stage_20220213.ccc052arrays;
 
 public class ccc001test_array {
     public static void main(String[] args) {
