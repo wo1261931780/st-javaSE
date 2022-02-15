@@ -17,7 +17,7 @@ package c2stage_20220213.ccc052arrays;
 
 import java.util.Arrays;
 
-public class ccc007arrays案例 {
+public class ccc007排序拼接案例2 {
     public static void main(String[] args) {
         // string数组中，空格也会包含在内
         String x = "12 5 456 465 968 65 4 84 8 8 748 48 668";
