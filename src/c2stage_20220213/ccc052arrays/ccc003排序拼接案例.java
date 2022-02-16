@@ -1,6 +1,6 @@
 package c2stage_20220213.ccc052arrays;
 
-public class ccc004排序拼接案例 {
+public class ccc003排序拼接案例 {
     public static void main(String[] args) {
         System.out.println("我是测试类");
         // int[] xx = {1, 32, 165, 4, 15, 156, 4, 46, 4};

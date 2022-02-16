@@ -2,7 +2,7 @@ package c2stage_20220213.ccc052arrays;
 
 import java.util.Arrays;
 
-public class ccc036demo {
+public class ccc005ÅÅÐò°¸Àý3 {
     public static void main(String[] args) {
         System.out.println("-----------------");
         String x = "1 354 15 5 46 854 8 546";
