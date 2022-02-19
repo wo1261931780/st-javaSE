@@ -1,7 +1,9 @@
 package c2stage_20220203.ccc040api_date;
 
 import java.util.Date;
-
+/**
+ 目标：学会使用Date类处理时间，获取时间的信息
+ */
 public class ccc001date {
     public static void main(String[] args) {
         Date x = new Date();

@@ -1,10 +1,9 @@
 package c2stage_20220203.ccc040api_date;
+import java.util.Date;
 /*
     public long getTime():获取的是日期对象从1970年1月1日 00:00:00到现在的毫秒值
     public void setTime(long time):设置时间，给的是毫秒值
  */
-
-import java.util.Date;
 
 public class ccc039get_set_time {
     public static void main(String[] args) {

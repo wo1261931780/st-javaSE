@@ -1,11 +1,11 @@
 package c2stage_20220203.ccc043calendar;
+
+import java.util.Calendar;
+
 /*
     public abstract void add?(int field, int amount):根据日历的规则，将指定的时间量添加或减去给定的日历字段
     public final void set?(int year,int month,int date):设置当前日历的年月日
  */
-
-
-import java.util.Calendar;
 
 public class ddd007add和set方法 {
     public static void main(String[] args) {
