@@ -41,5 +41,6 @@ public class ccc001collection {
         System.out.println(x1);//[run, 11, demo, true]
         // 这里自动清除内部的重复内容，同时未按照添加顺序排序
 
+
     }
 }
