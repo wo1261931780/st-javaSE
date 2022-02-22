@@ -1,9 +1,9 @@
-package d二阶段收尾2021年10月2日.ddd024集合进阶;
+package c2stage_20220220.ccc057collection;
 
 import java.util.ArrayList;
 import java.util.Collection;
 
-public class ddd027collection常用方法remove {
+public class ccc004collection常用方法remove {
     public static void main(String[] args) {
         System.out.println("开始");
         Collection<String> x = new ArrayList<>();

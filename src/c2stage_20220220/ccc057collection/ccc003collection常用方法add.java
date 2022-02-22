@@ -1,4 +1,4 @@
-package d二阶段收尾2021年10月2日.ddd024集合进阶;
+package c2stage_20220220.ccc057collection;
 /*
     Collection集合常用方法:
         boolean add(E e):添加元素
@@ -42,7 +42,7 @@ package d二阶段收尾2021年10月2日.ddd024集合进阶;
 import java.util.ArrayList;
 import java.util.Collection;
 
-public class ddd026collection常用方法add {
+public class ccc003collection常用方法add {
     public static void main(String[] args) {
         Collection<String> x = new ArrayList<>();
         x.add("aaa");

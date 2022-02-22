@@ -11,7 +11,7 @@ import java.util.HashSet;
  * User:  wo1261931780@gmail.com
  * Time:  2022-02-20-11  星期日
  */
-public class ccc001collection {
+public class ccc001collection导入 {
     public static void main(String[] args) {
         // 有序，可重复，有索引
         Collection x = new ArrayList();
