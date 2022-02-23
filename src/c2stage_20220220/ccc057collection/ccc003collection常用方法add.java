@@ -45,6 +45,8 @@ import java.util.Collection;
 public class ccc003collection常用方法add {
     public static void main(String[] args) {
         Collection<String> x = new ArrayList<>();
+        // 我们为什么要使用collection集合？
+        // 通过多态的方式创建结婚，可以使用collection中的api，换句话来说，功能更多
         x.add("aaa");
         x.add("bbb");
         // x.add("aaa");
