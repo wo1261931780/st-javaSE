@@ -25,6 +25,7 @@ public class ccc001demo {
         // 但是不能直接转换为String类型，因为会报错，
         // 中途可以添加int类型的数据，如果直接转化，会报错
         // 这样做的好处是兼容性更强
+        // 把集合转化为数组
         System.out.println(Arrays.toString(x1));// [a, b, c, demo, java]
         // *****************************************
         ArrayList<String> x2 = new ArrayList<>();
