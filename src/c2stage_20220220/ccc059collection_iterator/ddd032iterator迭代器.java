@@ -1,4 +1,4 @@
-package d二阶段收尾2021年10月2日.ddd031集合遍历;
+package c2stage_20220220.ccc059collection_iterator;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -44,7 +44,7 @@ public class ddd032iterator迭代器 {
         if (x1.hasNext()) {
             System.out.println(x1.next());
         }
-        
+
         System.out.println("执行完毕");
 
 
