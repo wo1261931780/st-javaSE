@@ -1,6 +1,6 @@
 package c2stage_20220113.ccc014package;
 
-import c二阶段强化课程2022年1月11日.ccc110猫和狗.ccc014animal;
+import ab二阶段强化课程2022年1月11日.ccc110猫和狗.ccc014animal;
 // 一般创建对象操作，在同一个包下，可以直接new出来
 // 但是对其它的包进行对象创建，就存在导包的操作
 // 上面的导包操作直接进入dog内进行导入。
