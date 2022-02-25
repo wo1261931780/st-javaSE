@@ -1,4 +1,4 @@
-package d二阶段收尾2021年10月2日.ddd035集合案例;
+package c2stage_20220220.ccc060collection_iterator_case;
 // 使用迭代器和循环，收集输入的信息，然后储存到集合中
 // 输入三个信息以后，将集合中的信息全部遍历出来
 
