@@ -1,4 +1,4 @@
-package d二阶段收尾2021年10月2日.ddd042list集合案例;
+package c2stage_20220220.ccc068list_case;
 
 public class ddd043对象类 {
     private String name;
