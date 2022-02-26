@@ -1,4 +1,4 @@
-package d二阶段收尾2021年10月2日.ddd096泛型类;
+package c2stage_20220220.ccc071genericity_case;
 
 public class ddd098老师类 {
     private int age;

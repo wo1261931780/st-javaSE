@@ -1,4 +1,4 @@
-package d二阶段收尾2021年10月2日.ddd060arraylist和linklist;
+package c2stage_20220220.ccc064arraylist和linklist;
 /*
     List集合常用子类：ArrayList，LinkedList
         ArrayList：底层数据结构是数组，查询快，增删慢
