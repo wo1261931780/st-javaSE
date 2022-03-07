@@ -23,6 +23,9 @@ public class ccc002service {
         // 进而导致服务端接收到的数据太长，实际数据很短
         String x = new String(byte_pack, 0, demo_p.getLength());// 设置字符串长度为0到字符串的末尾
         System.out.println("发送的数据为：" + x);
+        System.out.println(demo_p.getAddress());// 获取客户端的地址：/192.168.3.115
+        System.out.println(demo_p.getPort());// 获取客户端的端口59177
+
         demo_s.close();
         // 先启动服务端准备接收数据，然后启动客户端发送
     }

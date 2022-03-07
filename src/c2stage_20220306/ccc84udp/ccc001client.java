@@ -2,6 +2,7 @@ package c2stage_20220306.ccc84udp;
 
 import java.io.IOException;
 import java.net.*;
+import java.util.Scanner;
 
 /**
  * Created by Intellij IDEA.
@@ -14,8 +15,7 @@ public class ccc001client {
     public static void main(String[] args) throws IOException {
         DatagramSocket client_s = new DatagramSocket();
         // 甚至内部都不需要创建端口号，因为自带端口
-        byte[] client_pack = "123456789".getBytes();// 封装数据
-
+        byte[] client_pack = "1324564".getBytes();// 封装数据
         DatagramPacket client_p = new DatagramPacket(client_pack, client_pack.length, InetAddress.getLocalHost(), 999);
         client_s.send(client_p);// 发送端发送数据给接收端
         client_s.close();
