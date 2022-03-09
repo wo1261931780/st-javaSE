@@ -22,25 +22,24 @@ public class eee049file判断获取 {
         System.out.println(x);
         // l:java\demo
         // 运行时，该目录存在
-        System.out.println(x.isDirectory());
-        // 判断是否为目录，true
-        System.out.println(x.isFile());
-        // 判断是否为文件，false
-        System.out.println(x.exists());
-        // 判断file是否存在，true
+        System.out.println(x.isDirectory());// 判断是否为目录，true
+
+        System.out.println(x.isFile());// 判断是否为文件，false
+
+        System.out.println(x.exists());// 判断file是否存在，true
+
         // ------------------------------------------------------------
-        System.out.println(x.getAbsolutePath());
-        // l:\\java\demo,绝对路径名，形式为字符串
-        System.out.println(x.getPath());
-        // l:java\demo，路径字符串
+        System.out.println(x.getAbsolutePath());// l:\\java\demo,绝对路径名，形式为字符串
+
+        System.out.println(x.getPath());// l:java\demo，路径字符串
+
         System.out.println(x.getName());
         // demo，路径的文件和目录名称，
         // 这里只展示末位的文件夹名
         // ------------------------------------------------------------
         System.out.println("-------------------");
         File x1 = new File("l:java");
-        String[] x2 = x1.list();
-        // 返回目录中的文件和目录的名称,用名称构造一个字符串数组
+        String[] x2 = x1.list();// 返回目录中的文件和目录的名称,用名称构造一个字符串数组
         // 相当于打开一个文件夹，然后展示文件夹内部的所有文件
         for (String i : x2) {
             System.out.println(i);
