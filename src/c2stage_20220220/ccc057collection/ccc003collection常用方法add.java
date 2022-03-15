@@ -46,7 +46,7 @@ public class ccc003collection常用方法add {
     public static void main(String[] args) {
         Collection<String> x = new ArrayList<>();
         // 我们为什么要使用collection集合？
-        // 通过多态的方式创建结婚，可以使用collection中的api，换句话来说，功能更多
+        // 通过多态的方式创建，可以使用collection中的api，换句话来说，功能更多
         x.add("aaa");
         x.add("bbb");
         // x.add("aaa");
@@ -68,7 +68,5 @@ public class ccc003collection常用方法add {
         // 第一次输出两个对象，添加完成以后，输出三个
         // 进入源代码视图以后，
         // alt+7即可进入项目结构
-
-
     }
 }
