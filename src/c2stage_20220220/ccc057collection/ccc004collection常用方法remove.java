@@ -22,6 +22,5 @@ public class ccc004collection常用方法remove {
         System.out.println(x.remove("aaa1"));
         // 结果有true/false，对不存在的对象进行移除，导致失败
         // false
-
     }
 }

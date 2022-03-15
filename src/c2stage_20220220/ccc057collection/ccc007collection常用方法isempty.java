@@ -14,6 +14,5 @@ public class ccc007collection常用方法isempty {
         System.out.println(x.isEmpty());
         // false
         // 集合是否为空
-
     }
 }

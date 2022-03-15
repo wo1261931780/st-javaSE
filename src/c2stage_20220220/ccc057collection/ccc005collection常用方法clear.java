@@ -18,6 +18,5 @@ public class ccc005collection常用方法clear {
         x.clear();
         System.out.println(x);
         // []
-
     }
 }

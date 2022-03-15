@@ -36,6 +36,5 @@ public class ccc001demo {
         x.addAll(x2);
         System.out.println(x);// [a, b, c, demo, java, demo1, demo2, aaa]
         // 这里是按顺序往后添加的
-
     }
 }
