@@ -34,6 +34,5 @@ public class ddd032test_run {
         while (x1.hasNext()) {
             System.out.println(x1.next());
         }
-
     }
 }

@@ -18,7 +18,6 @@ public class ccc001iterator {
         x.add("c4");
         x.add("c3");
         x.add("c2");
-
         Iterator<String> demo = x.iterator();
         System.out.println(x);// 本身就进行过一次重写，所以直接展示结果
         // [c1, c4, c3, c2]

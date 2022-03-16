@@ -44,9 +44,6 @@ public class ddd032iteratorµü´úÆ÷ {
         if (x1.hasNext()) {
             System.out.println(x1.next());
         }
-
         System.out.println("Ö´ÐÐÍê±Ï");
-
-
     }
 }
