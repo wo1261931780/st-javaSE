@@ -33,6 +33,5 @@ public class ccc001lambda遍历 {
         x.forEach(s -> System.out.println(s));
         // 简化格式3：
         x.forEach(System.out::println);
-
     }
 }

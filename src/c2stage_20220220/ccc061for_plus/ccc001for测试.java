@@ -37,6 +37,5 @@ public class ccc001for²âÊÔ {
         for (String i : x) {
             System.out.println("¼¯ºÏÔªËØ£º" + i);
         }
-
     }
 }

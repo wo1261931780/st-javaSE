@@ -13,13 +13,13 @@ public class ddd038循环改进 {
         Collection<ddd036student> x = new ArrayList<>();
         for (int i = 0; i < 3; i++) {
             System.out.println("请输入第" + (i + 1) + "位信息：");
-            ddd036student x2 = showdemo();
+            ddd036student x2 = showdemo();// 直接调用方法创建对象
             x.add(x2);
         }
         Iterator<ddd036student> xx = x.iterator();
         while (xx.hasNext()) {
             ddd036student x5 = xx.next();
-            System.out.println(x5.getName() + "," + x5.getAge());
+            System.out.println(x5.getName() + "," + x5.getAge());// 我这里也可以直接链式编程，因为返回的就是对象，对象调用getset方法直接展示结果
         }
     }
 

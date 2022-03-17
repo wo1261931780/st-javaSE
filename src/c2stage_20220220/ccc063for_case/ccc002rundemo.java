@@ -22,7 +22,6 @@ public class ccc002rundemo {
         for (ccc001object x1 : x) {
             System.out.println(x1.getName() + "\t" + x1.getAge() + "\t" + x1.getPrice());
         }
-
         System.out.println("迭代器：");
         Iterator<ccc001object> demoit = x.iterator();
         // while (x.iterator().hasNext()) {//因为返回的是一个对象，所以可以直接链式编程
@@ -43,7 +42,5 @@ public class ccc002rundemo {
         });
         System.out.println("lambda表达式：");
         x.forEach(x1 -> System.out.println(x1.getName() + "==" + x1.getAge() + "==" + x1.getPrice()));
-
-
     }
 }
