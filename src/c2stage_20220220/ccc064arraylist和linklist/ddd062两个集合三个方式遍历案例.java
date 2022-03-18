@@ -70,5 +70,4 @@ public class ddd062两个集合三个方式遍历案例 {
             System.out.println(i.getName() + "**" + i.getAge());
         }
     }
-
 }

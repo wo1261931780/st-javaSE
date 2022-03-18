@@ -4,9 +4,6 @@ import java.util.ArrayList;
 import java.util.LinkedList;
 
 public class ddd059list {
-    public static void main(String[] args) {
-
-    }
     // ArrayList属于数组，查询快，增删慢
     // 数组的增删慢，因为每次数据长度发生变化，后续的数据都要前移
     // 举例：

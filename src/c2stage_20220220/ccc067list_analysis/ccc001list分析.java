@@ -55,8 +55,5 @@ public class ccc001list分析 {
         System.out.println(x.pop());// demo，源代码就是removefirst
 
         System.out.println(x.offerLast("lll"));//返回有没有成功，源代码就是addlast
-
-
     }
-
 }

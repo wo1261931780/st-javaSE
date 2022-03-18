@@ -29,7 +29,5 @@ public class ddd041list特有方法 {
         // x.get(i);
         // 获取指定位置的元素
         // for循环对集合进行操作，x.size()表示集合的大小
-
     }
-
 }

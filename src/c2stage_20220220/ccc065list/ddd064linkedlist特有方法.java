@@ -11,7 +11,7 @@ import java.util.LinkedList;
  * public E removeFirst()：从此列表中删除并返回第一个元素
  * public E removeLast()：从此列表中删除并返回最后一个元素
  */
-public class ddd064link {
+public class ddd064linkedlist特有方法 {
     public static void main(String[] args) {
         // 注意，这里的底层是链表
         LinkedList<String> x = new LinkedList<>();
