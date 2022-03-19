@@ -23,5 +23,4 @@ public class ddd080linkedhashset {
             System.out.println(i);
         }
     }
-
 }

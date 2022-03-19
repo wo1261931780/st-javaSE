@@ -1,0 +1,9 @@
+
+{
+java:S1210""YOverride "equals(Object obj)" to comply with the contract of the "compareTo(T o)" method.(£‹¦’þÿÿÿÿ8Þ³Î‡ú/
+]	java:S125"<This block of commented-out lines of code should be removed.(šê»¹üÿÿÿÿ8à³Î‡ú/
+]	java:S125$"<This block of commented-out lines of code should be removed.(€“ªµýÿÿÿÿ8ä³Î‡ú/
+~
+java:S1488-"\Immediately return this expression instead of assigning it to the temporary variable "num2".(ÛËÚ¦ùÿÿÿÿ8ç³Î‡ú/
+i	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ÌçŒà8ç³Î‡ú/
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(åøÍ­8ë³Î‡ú/

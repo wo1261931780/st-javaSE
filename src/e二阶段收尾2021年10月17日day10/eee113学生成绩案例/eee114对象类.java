@@ -1,8 +1,6 @@
 package e二阶段收尾2021年10月17日day10.eee113学生成绩案例;
 
 
-import d二阶段收尾2021年10月2日.ddd083自然排序.ddd85对象类;
-
 public class eee114对象类 {
     private String name;
     private String num;

@@ -1,0 +1,16 @@
+
+V	java:S125"<This block of commented-out lines of code should be removed.(Ãßïüÿÿÿÿ
+S	java:S106)"9Replace this use of System.out or System.err by a logger.(•–Íáûÿÿÿÿ
+S	java:S1063"9Replace this use of System.out or System.err by a logger.(­Ç‘òşÿÿÿÿ
+N	java:S1064"9Replace this use of System.out or System.err by a logger.(ğ»Î
+V	java:S1258"<This block of commented-out lines of code should be removed.(–İÛÄúÿÿÿÿ
+S	java:S106A"9Replace this use of System.out or System.err by a logger.(µÏ…èùÿÿÿÿ
+S	java:S106J"9Replace this use of System.out or System.err by a logger.(µÏ…èùÿÿÿÿ
+P	java:S125Q"<This block of commented-out lines of code should be removed.(©ˆèq
+S	java:S106U"9Replace this use of System.out or System.err by a logger.(µÏ…èùÿÿÿÿ
+]
+java:S1192"GDefine a constant instead of duplicating this literal "demo1" 15 times.(úí
+C
+java:S16049"(Make this anonymous inner class a lambda(²›Šóşÿÿÿÿ
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(æ—ëÑşÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(²”ª¾ùÿÿÿÿ
