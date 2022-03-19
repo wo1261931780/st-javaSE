@@ -16,7 +16,6 @@ public class ccc001set方法 {
         // 直接解耦做成linkedhashset，就会变成有序集合
         // [a2, a1, aaa3, aaa5, a0, aaa4, bbb2]
         // 按照添加顺序
-
         x.add("a2");
         x.add("a1");
         x.add("aaa3");

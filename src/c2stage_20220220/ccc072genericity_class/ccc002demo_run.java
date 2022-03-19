@@ -20,6 +20,5 @@ public class ccc002demo_run {
         System.out.println(x);//我在内部对tostring方法执行了重写
         // 所以可以直接打印结果
         // 但是本质上，我还是在使用ArrayList的api
-
     }
 }

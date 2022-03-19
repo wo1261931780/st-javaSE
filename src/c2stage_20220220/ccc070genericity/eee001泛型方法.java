@@ -1,4 +1,4 @@
-package e二阶段收尾2021年10月8日.eee001泛型方法;
+package c2stage_20220220.ccc070genericity;
 
 public class eee001泛型方法<T> {
     public void show(String x) {
@@ -20,10 +20,10 @@ public class eee001泛型方法<T> {
 
     /**
      * 必须设置为非static方法才可以运行
+     * 如果使用了static修饰，那么可以在不创建对象的情况下运行
      */
     public <T> void show(T x) {
         // 这里就是泛型方法
         System.out.println(x);
-
     }
 }

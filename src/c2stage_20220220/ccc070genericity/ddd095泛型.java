@@ -24,6 +24,5 @@ public class ddd095·ºÐÍ {
             Object x2 = x1.next();
             System.out.println(x2);
         }
-
     }
 }

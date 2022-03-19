@@ -27,7 +27,5 @@ public class ccc001genericity {
             // String demo = (String) x1;// 强转失败
             // 泛型比较灵活
         }
-
-
     }
 }

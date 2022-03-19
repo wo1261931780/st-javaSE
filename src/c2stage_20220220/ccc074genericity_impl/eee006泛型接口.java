@@ -1,4 +1,4 @@
-package e二阶段收尾2021年10月8日.eee003泛型接口;
+package c2stage_20220220.ccc074genericity_impl;
 
 public class eee006泛型接口 {
     public static void main(String[] args) {

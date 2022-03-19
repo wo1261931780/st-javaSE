@@ -47,7 +47,6 @@ public class ddd044list案例 {
             ddd043对象类 x2 = x1.next();
             System.out.print("迭代器输出：");
             System.out.println(x2.getName() + x2.getAge());
-
         }
     }
 }

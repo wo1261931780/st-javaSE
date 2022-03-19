@@ -20,6 +20,5 @@ public class ddd099运行类 {
         xx1.setT(11);
         System.out.println(xx1.getT());
         System.out.println("结束--------------------");
-
     }
 }
