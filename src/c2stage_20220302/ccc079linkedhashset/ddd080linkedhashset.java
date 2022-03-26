@@ -1,6 +1,8 @@
 package c2stage_20220302.ccc079linkedhashset;
 
 import java.util.LinkedHashSet;
+import java.util.Set;
+import java.util.TreeSet;
 
 /**
  * LinkedHashSet集合特点
@@ -22,5 +24,21 @@ public class ddd080linkedhashset {
         for (String i : x) {
             System.out.println(i);
         }
+        show();
+    }
+    public static void show(){
+        Set<Integer> x=new TreeSet<>();
+        x.add(123);
+        x.add(2345);
+        x.add(135);
+        x.add(3453);
+        x.add(34);
+        for (Integer demo:x){
+            System.out.println(demo);
+        }
+
+        System.out.println(x);
+
+
     }
 }
