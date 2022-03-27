@@ -1,0 +1,19 @@
+
+L
+java:S1854"6Remove this useless assignment to local variable "x2".(äÕì
+L
+java:S1854"6Remove this useless assignment to local variable "x1".(ğòÈ
+R
+java:S1854"5Remove this useless assignment to local variable "x".(§à‡œ8Ì‹º÷Å/
+<
+java:S1481"&Remove this unused "x" local variable.(§à‡œ
+=
+java:S1481"'Remove this unused "x1" local variable.(ğòÈ
+X	java:S125"<This block of commented-out lines of code should be removed.(›’¬Ì8Š °ƒú/
+D
+java:S1481"'Remove this unused "x2" local variable.(äÕì8Î‹º÷Å/
+]	java:S125"<This block of commented-out lines of code should be removed.(¡œ‹øÿÿÿÿ8Š °ƒú/
+o
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ğòÈ
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(©ã©¶ùÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÿ‘Ä‚øÿÿÿÿ

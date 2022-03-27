@@ -10,8 +10,23 @@ package c2stage_20220326.ccc091card_case;
 public class ccc001card {
     private String color;
     private String num;
+    private int index;
+
+    public ccc001card(String color, String num, int index) {
+        this.color = color;
+        this.num = num;
+        this.index = index;
+    }
 
     public ccc001card() {
+    }
+
+    public int getIndex() {
+        return index;
+    }
+
+    public void setIndex(int index) {
+        this.index = index;
     }
 
     public String getColor() {
