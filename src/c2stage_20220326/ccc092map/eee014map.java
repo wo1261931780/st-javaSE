@@ -17,7 +17,6 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class eee014map {
-
     public static void main(String[] args) {
         // interface Map<K,V>
         // K表示键的类型，V表示值的类型

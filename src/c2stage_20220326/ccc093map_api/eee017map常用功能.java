@@ -39,6 +39,5 @@ public class eee017map常用功能 {
         System.out.println(x2);
         // 表示这里x2就是一个collection集合
         // [a1, a2, a3, a4]
-
     }
 }

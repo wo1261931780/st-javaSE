@@ -26,6 +26,5 @@ public class ccc003lambda±í´ïÊ½ {
             }
         });
         x.forEach((s, inter) -> System.out.println(s + "" + inter));
-        
     }
 }

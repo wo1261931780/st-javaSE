@@ -43,7 +43,5 @@ public class ccc002rundemo {
         // });
         // Map<ccc001object, String> demo2 = new TreeMap<>((o1, o2) -> Double.compare(o1.getPrice(), o2.getPrice()));
         Map<ccc001object, String> demo2 = new TreeMap<>(Comparator.comparingDouble(ccc001object::getPrice));
-
-
     }
 }

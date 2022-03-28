@@ -1,4 +1,4 @@
-package c2stage_20220326.ccc092map;
+package c2stage_20220326.ccc093map_api;
 /*
     Map集合的基本功能：
         V put(K key,V value)：添加元素
@@ -41,7 +41,5 @@ public class eee015map基本功能 {
         // 判断集合是否为空
         System.out.println(x.size());
         // 判断集合长度
-
-
     }
 }

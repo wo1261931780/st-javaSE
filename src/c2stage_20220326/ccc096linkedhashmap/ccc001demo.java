@@ -20,7 +20,5 @@ public class ccc001demo {
         x.put("demo4", 444);
         System.out.println(x);// {demo1=111, demo3=333, demo2=222, demo5=555, demo4=444}
         // 按照添加顺序进行打印
-        
-
     }
 }

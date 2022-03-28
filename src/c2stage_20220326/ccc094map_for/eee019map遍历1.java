@@ -19,10 +19,7 @@ public class eee019map遍历1 {
             // 首先x1是x中的键值，
             // 使用x2对x1进行遍历，每次得到的都是x1的键值
             // 然后x.get(x2)就是根据键值获取具体的数据
-
         }
         System.out.println("结束");
-
     }
-
 }
