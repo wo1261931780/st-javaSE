@@ -29,7 +29,6 @@ public class ccc002impl {
         System.out.println("ÐÂÅÆ£º" + demo3);
     }
 
-
     public static void main(String[] args) {
         Collections.shuffle(demo3);
         List<ccc001card> x1 = new ArrayList<>();
@@ -44,7 +43,6 @@ public class ccc002impl {
             } else {
                 x3.add(demo);
             }
-
         }
         List<ccc001card> lastcard = demo3.subList(demo3.size() - 3, demo3.size());
     }
@@ -57,6 +55,4 @@ public class ccc002impl {
             }
         });
     }
-
-
 }

@@ -32,8 +32,6 @@ public class ccc001map {
         // show_value(x);
         System.out.println("******************************");
         show_add();
-
-
     }
 
     public static void show() {
@@ -107,5 +105,4 @@ public class ccc001map {
         // {a1=11, aa1=33, a2=22, aa3=55, aa2=44}
         // 最终还是按照key的顺序进行添加
     }
-
 }

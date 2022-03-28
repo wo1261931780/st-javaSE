@@ -1,0 +1,6 @@
+
+t
+java:S1210H"YOverride "equals(Object obj)" to comply with the contract of the "compareTo(T o)" method.(Œß°ÿÿÿÿÿ
+g	java:S101
+"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ã»–¦üÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¹¬‰™ÿÿÿÿÿ

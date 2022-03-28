@@ -5,8 +5,6 @@ public class eee010可变参数和参数混合 {
         System.out.println(sum(1, 16857));
         System.out.println(sum(1, 1, 1468));
         System.out.println(sum(1, 123, 123123, 5647571));
-
-
     }
 
 
