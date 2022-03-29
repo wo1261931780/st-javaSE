@@ -52,6 +52,7 @@ public class ccc001stream {
         String[] demo1 = {"a1", "a1", "a1", "a1", "a1", "a1"};
         Stream<String> demo1_stream = Arrays.stream(demo1);
         Stream<String> demo1_stream2 = Stream.of(demo1);
+        // 这样看来，stream应该本身就是一个构造类，只不过这个构造类对数组，集合，map都可以生效
     }
 
 }
