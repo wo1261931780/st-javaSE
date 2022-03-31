@@ -1,7 +1,10 @@
 package c2stage_20220331.ccc001stream_case;
 
+import java.math.BigDecimal;
+import java.math.RoundingMode;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Stream;
 
 /**
  * Created by Intellij IDEA.
@@ -16,17 +19,21 @@ public class ccc002rundemo {
     public static void main(String[] args) {
         List<ccc001object> x1 = new ArrayList<>();
         List<ccc001object> x2 = new ArrayList<>();
-        x1.add(new ccc001object("a1", 11, "y", 1));
-        x1.add(new ccc001object("a2", 20, "y", 1));
-        x1.add(new ccc001object("a3", 20, "n", 1));
-        x1.add(new ccc001object("a4", 9, "n", 1));
-        x2.add(new ccc001object("b4", 31, "n", 1));
-        x2.add(new ccc001object("b5", 31, "n", 1));
-        x2.add(new ccc001object("b1", 31, "n", 1));
-        x2.add(new ccc001object("b2", 31, "n", 1));
-        x2.add(new ccc001object("b3", 11, "y", 1));
+        x1.add(new ccc001object("a1", 33245, "y", 1));
+        x1.add(new ccc001object("a2", 8855, "y", 1));
+        x1.add(new ccc001object("a3", 321, "n", 1));
+        x1.add(new ccc001object("a4", 987, "n", 1));
+        x2.add(new ccc001object("b4", 321, "n", 1));
+        x2.add(new ccc001object("b5", 789, "n", 1));
+        x2.add(new ccc001object("b1", 654, "n", 1));
+        x2.add(new ccc001object("b2", 32161, "n", 1));
+        x2.add(new ccc001object("b3", 215, "y", 1));
         show1(x1);
         show1(x2);
+        Stream<ccc001object> x3 = Stream.concat(x1.stream(), x2.stream());
+        x3.forEach(s -> System.out.println("姓名：" + s.getName() + "--" + s.getProfit()));
+        // 得到的结果是x1的数据+x2的数据
+        // 这里相当于把内部所有的数据按照顺序合并起来，然后根据条件进行输出
     }
 
     public static void show1(List<ccc001object> x1) {
@@ -46,8 +53,19 @@ public class ccc002rundemo {
         // 限制长度为2（去掉一个最小值）
         // 接着对所有的元素遍历，因为需要在遍历期间对数据处理
         // 这里就使用{}大括号来写代码
-        
+
         money /= x1.size() - 2;
         System.out.println(money);
+        show2(money, x1.size() - 2);
     }
+
+    public static void show2(int num, int num2) {
+        BigDecimal x1 = BigDecimal.valueOf(num);
+        BigDecimal x2 = BigDecimal.valueOf(num2);
+
+        BigDecimal result = x1.divide(x2, 2, RoundingMode.HALF_UP);
+        // 大数据方法，处理精度问题
+        System.out.println("处理精度的结果：" + result);
+    }
+
 }
