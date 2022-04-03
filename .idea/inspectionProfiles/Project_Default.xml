@@ -40,7 +40,6 @@
     <inspection_tool class="CloudToolkitPojoMustOverrideToString" enabled="true" level="MAJOR" enabled_by_default="true" />
     <inspection_tool class="CloudToolkitPojoMustUsePrimitiveField" enabled="true" level="MAJOR" enabled_by_default="true" />
     <inspection_tool class="CloudToolkitPojoNoDefaultValue" enabled="true" level="MAJOR" enabled_by_default="true" />
-    <inspection_tool class="CloudToolkitRemoveCommentedCode" enabled="false" level="MAJOR" enabled_by_default="false" />
     <inspection_tool class="CloudToolkitServiceOrDaoClassShouldEndWithImpl" enabled="true" level="CRITICAL" enabled_by_default="true" />
     <inspection_tool class="CloudToolkitStringConcat" enabled="true" level="MAJOR" enabled_by_default="true" />
     <inspection_tool class="CloudToolkitSwitchStatement" enabled="true" level="CRITICAL" enabled_by_default="true" />
@@ -58,6 +57,7 @@
         <language minSize="64" name="Java" />
       </Languages>
     </inspection_tool>
+    <inspection_tool class="Eslint" enabled="true" level="WARNING" enabled_by_default="true" />
     <inspection_tool class="JavaDoc" enabled="true" level="WARNING" enabled_by_default="true">
       <option name="TOP_LEVEL_CLASS_OPTIONS">
         <value>
