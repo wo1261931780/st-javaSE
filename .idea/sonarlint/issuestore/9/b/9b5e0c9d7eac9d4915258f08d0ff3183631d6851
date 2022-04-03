@@ -1,10 +1,0 @@
-
-P
-java:S6213":Rename this variable to not match a restricted identifier.(ó´ò
-\
-java:S6213":Rename this variable to not match a restricted identifier.(ş›‘Îıÿÿÿÿ8áÒö€ş/
-W
-java:S6213.":Rename this variable to not match a restricted identifier.(âÒ¯ä8Ø ö€ş/
-b	java:S101
-"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ï¦¼
-o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¹ °û
