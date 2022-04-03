@@ -207,3 +207,9 @@ e
 5src/c2stage_20220326/ccc097treemap/ccc002rundemo.java,3\a\3a8a4323a5b86f63b534f8c7b2496d4b16aee5f5
 c
 3src/c2stage_20220326/ccc098treemap_case/ccc001.java,6\3\633ad66e980908e7b5277b5a698c7bc2a06e996f
+n
+>src/c2stage_20220403/ccc104streamlow/ccc001stream_collect.java,5\0\50b6ac34b94be02322f23c7b1dd01b4a83e7c962
+o
+?src/c2stage_20220403/ccc104streamlow/ccc002stream_collect2.java,4\d\4dd3bbf732ba5068b31f52e40636e27bd2e74346
+a
+1src/c2stage_20220403/ccc105exceptions/ccc001.java,2\9\292c5782ef7346627234fe82fce5da3a34fe11de

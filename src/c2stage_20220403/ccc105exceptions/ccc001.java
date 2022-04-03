@@ -8,4 +8,7 @@ package c2stage_20220403.ccc105exceptions;
  * Time:  2022-04-13-04  ÐÇÆÚÈÕ
  */
 public class ccc001 {
+    public static void main(String[] args) {
+        
+    }
 }
