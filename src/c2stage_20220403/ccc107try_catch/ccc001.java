@@ -19,14 +19,12 @@ public class ccc001 {
             // } catch (ParseException e) {// 这里的拦截，是针对单种异常而言的
             // 换句话说，如果上面的程序，有三个异常，就会出现三个编译错误提示
             // 为了解决三个错误提示，就需要try……catch三次异常的结果
-            // e.printStackTrace();
+            // e.printStackTrace();// 打印异常信息
             // } catch (ParseException|xxx e) {
             // 企业级写法：
             // 直接抛出异常的父类exceptions
         } catch (Exception e) {
             System.out.println("exceptions");
         }
-
-
     }
 }

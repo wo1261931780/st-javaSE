@@ -1,4 +1,4 @@
-package c2stage_20220403.ddd016编译异常;
+package c2stage_20220403.ccc106by_exceptions;
 /*
     Java 中的异常被分为两大类：编译时异常和运行时异常，也被称为受检异常和非受检异常
     所有的 RuntimeException 类及其子类的实例被称为运行时异常，其他的异常都是编译时异常
