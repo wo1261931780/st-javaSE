@@ -1,4 +1,4 @@
-package e二阶段收尾2021年10月17日day10.eee118机试题目;
+package d二阶段收尾2021年10月2日.eee118机试题目;
 
 //应用计算机处理日常事务或者是编写程序的时候，经常需要用到带有通配符的字符串匹配。
 // 比如：linux命令行下输入，ls *.txt 就是列出当前目录下所有的结尾是.txt的文件。
@@ -58,13 +58,9 @@ public class test {
         //     }
         // }
         if (istext < text_length && isnumber >= number_length) {
-            if (text.charAt(istext) == '*') {
-                return true;
-            }
+            return text.charAt(istext) == '*';
         } else {
             return false;//_____(5) _____//false
         }
-        return false;
     }
 }
-

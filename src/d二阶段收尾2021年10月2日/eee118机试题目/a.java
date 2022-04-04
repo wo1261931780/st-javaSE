@@ -1,7 +1,7 @@
-package e二阶段收尾2021年10月17日day10.eee118机试题目;
+package d二阶段收尾2021年10月2日.eee118机试题目;
 
 public class a {
-    String str = new String("good");
+    String str = "good";
     char[] ch = {'a', 'b', 'c'};
 
     public static void main(String[] args) {
@@ -12,7 +12,7 @@ public class a {
 
     }
 
-    public static void exchange(String str, char ch[]) {
+    public static void exchange(String str, char[] ch) {
         str = "test ok";
         ch[0] = 'g';
     }

@@ -1,4 +1,4 @@
-package e二阶段收尾2021年10月17日day10.eee118机试题目;
+package d二阶段收尾2021年10月2日.eee118机试题目;
 
 import java.util.Arrays;
 import java.util.Scanner;
