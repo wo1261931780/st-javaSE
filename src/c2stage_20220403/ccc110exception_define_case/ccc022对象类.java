@@ -1,4 +1,4 @@
-package c2stage_20220403.ddd020自定义异常;
+package c2stage_20220403.ccc110exception_define_case;
 
 public class ccc022对象类 {
     public void checkscore(int score) throws ccc021分数异常 {
