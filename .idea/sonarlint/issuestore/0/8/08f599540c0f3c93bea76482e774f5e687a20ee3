@@ -1,0 +1,21 @@
+
+S
+java:S1854"6Remove this useless assignment to local variable "x2".(µ¾ØÁ8âĞÿ/
+W
+java:S1075"ARefactor your code to get this URI from a customizable parameter.(Ü½»
+N	java:S106"9Replace this use of System.out or System.err by a logger.(©ÒŞ—
+\
+java:S1075"ARefactor your code to get this URI from a customizable parameter.(Û¼é¶ıÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(¼ œÍşÿÿÿÿ
+^
+java:S1075"ARefactor your code to get this URI from a customizable parameter.(µ¾ØÁ8‘âĞÿ/
+D
+java:S1481"'Remove this unused "x2" local variable.(µ¾ØÁ8‘âĞÿ/
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(û•íÖûÿÿÿÿ8‘âĞÿ/
+^
+java:S1075"ARefactor your code to get this URI from a customizable parameter.(¤•ÉÜ8ş¦öÑÿ/
+U	java:S106"9Replace this use of System.out or System.err by a logger.(»²Ù8Â üÑÿ/
+k
+java:S4042"NUse "java.nio.file.Files#delete" here for better messages on error conditions.(»²Ù8Â üÑÿ/
+b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(éÅÈØ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ğ»‘”
