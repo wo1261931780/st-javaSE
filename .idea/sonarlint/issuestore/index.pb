@@ -225,3 +225,7 @@ u
 Esrc/c2stage_20220403/ccc110exception_define_case/ccc022对象类.java,8\e\8e84fd2ce129f900ea0476004e87719bd9a141ed
 u
 Esrc/c2stage_20220403/ccc110exception_define_case/ccc023测试类.java,a\8\a8639e77ed9587394a3c4b508dfa404977ede2db
+a
+1src/c2stage_20220404/ccc111log_system/ccc001.java,8\e\8e0ee8460480f159dca8bddf26d9f626d0f5fac5
+g
+7src/c2stage_20220404/ccc112log_system2/main/logback.xml,9\6\96b940d64637905527c3bf5f439a79b6eb84a0d4
