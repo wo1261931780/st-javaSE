@@ -23,7 +23,7 @@ public class ccc002demo {
             // throw是异常对象，我新建一个异常，就是throw对象
             // throws是方法申明中的异常
             throw new ccc001exception(age + "illegal");
-            //因为是编译时异常，只要写出来就会报错
+            // 因为是编译时异常，只要写出来就会报错
         }
     }
 }

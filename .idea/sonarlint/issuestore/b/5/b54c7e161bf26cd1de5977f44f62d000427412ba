@@ -1,0 +1,52 @@
+
+S	java:S106+"9Replace this use of System.out or System.err by a logger.(‹»¸Šûÿÿÿÿ
+N	java:S1064"9Replace this use of System.out or System.err by a logger.(ˆèÑÑ
+V	java:S1256"<This block of commented-out lines of code should be removed.(­™ÿÿÿÿÿ
+S	java:S1067"9Replace this use of System.out or System.err by a logger.(•ˆìùüÿÿÿÿ
+N	java:S1068"9Replace this use of System.out or System.err by a logger.(ˆèÑÑ
+Q	java:S125:"<This block of commented-out lines of code should be removed.(¯´ğ¤
+S	java:S106;"9Replace this use of System.out or System.err by a logger.(»ú–¶ıÿÿÿÿ
+N	java:S106<"9Replace this use of System.out or System.err by a logger.(ˆèÑÑ
+S	java:S106@"9Replace this use of System.out or System.err by a logger.(û´úùÿÿÿÿ
+W
+java:S1854F"ARemove this useless assignment to local variable "demo1_stream2".(ò¥ •
+[
+java:S1854E"@Remove this useless assignment to local variable "demo1_stream".(™ãºûÿÿÿÿ
+L
+java:S1481E"1Remove this unused "demo1_stream" local variable.(™ãºûÿÿÿÿ
+H
+java:S1481F"2Remove this unused "demo1_stream2" local variable.(ò¥ •
+Z
+java:S1854["?Remove this useless assignment to local variable "nameStream2".(«ˆäÆúÿÿÿÿ
+T
+java:S1854Z">Remove this useless assignment to local variable "nameStream".(ëÔÅ
+[
+java:S1854V"ERemove this useless assignment to local variable "keyAndValueStream".(’Ì’ª
+U
+java:S1854T"?Remove this useless assignment to local variable "valueStream".(ØÈİÇ
+X
+java:S1854R"=Remove this useless assignment to local variable "keyStream".(İñºéûÿÿÿÿ
+P
+java:S1854M"5Remove this useless assignment to local variable "s".(î”—¶øÿÿÿÿ
+A
+java:S1481M"&Remove this unused "s" local variable.(î”—¶øÿÿÿÿ
+I
+java:S1481R".Remove this unused "keyStream" local variable.(İñºéûÿÿÿÿ
+F
+java:S1481T"0Remove this unused "valueStream" local variable.(ØÈİÇ
+L
+java:S1481V"6Remove this unused "keyAndValueStream" local variable.(’Ì’ª
+E
+java:S1481Z"/Remove this unused "nameStream" local variable.(ëÔÅ
+K
+java:S1481["0Remove this unused "nameStream2" local variable.(«ˆäÆúÿÿÿÿ
+f
+java:S11924"PDefine a constant instead of duplicating this literal "***************" 3 times.(ˆèÑÑ
+k	java:S117*"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(åõæÌÿÿÿÿÿ
+f	java:S1175"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(†¿Ä±
+f	java:S1179"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÇñÃ®
+f	java:S117="QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›†–‹
+k	java:S117E"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™ãºûÿÿÿÿ
+f	java:S117F"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ò¥ •
+b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(°×—†
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÄƒÈùÿÿÿÿ

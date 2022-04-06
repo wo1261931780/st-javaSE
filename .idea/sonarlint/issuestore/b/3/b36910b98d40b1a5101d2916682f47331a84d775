@@ -1,0 +1,14 @@
+
+W
+java:S1854&"5Remove this useless assignment to local variable "o".(Æ×ŸÊüÿÿÿÿ8¡İ®ùÿ/
+U	java:S106"9Replace this use of System.out or System.err by a logger.(‡Üü…8£İ®ùÿ/
+U	java:S106"9Replace this use of System.out or System.err by a logger.(çÏò³8¤İ®ùÿ/
+U	java:S106""9Replace this use of System.out or System.err by a logger.(‡æ8¤İ®ùÿ/
+H
+java:S1481&"&Remove this unused "o" local variable.(Æ×ŸÊüÿÿÿÿ8¤İ®ùÿ/
+]	java:S125*"<This block of commented-out lines of code should be removed.(æµŞÓúÿÿÿÿ8¤İ®ùÿ/
+]	java:S125-"<This block of commented-out lines of code should be removed.(Æ°ú¬şÿÿÿÿ8¥İ®ùÿ/
+Z	java:S1060"9Replace this use of System.out or System.err by a logger.(·ğ†üÿÿÿÿ8¥İ®ùÿ/
+U	java:S1062"9Replace this use of System.out or System.err by a logger.(Ñò‰ë8¥İ®ùÿ/
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(‚Œ«—ùÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ó˜ ğÿÿÿÿÿ
