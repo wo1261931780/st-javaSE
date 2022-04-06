@@ -2,6 +2,8 @@ package c2stage_20220329.ccc099mapof;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
+import java.util.Set;
 
 /**
  * Created by Intellij IDEA.
@@ -35,5 +37,25 @@ public class ccc001 {
         // 首先是链式编程，每次结果都返回一个对象
         // 将以stream流的形式开始写，添加一个筛选器，筛选器内部使用lambda表达式进行操作
         // 然后进行遍历，内部foreach加上lambda表达式进行输出
+    }
+
+    public static void show2() {
+        // 1、不可变的List集合
+        List<Double> lists = List.of(569.5, 700.5, 523.0, 570.5);
+        // lists.add(689.0);
+        // lists.set(2, 698.5);
+        // System.out.println(lists);
+        double score = lists.get(1);
+        System.out.println(score);
+
+        // 2、不可变的Set集合
+        Set<String> names = Set.of("迪丽热巴", "迪丽热九", "马尔扎哈", "卡尔眨巴");
+        // names.add("三少爷");
+        System.out.println(names);
+
+        // 3、不可变的Map集合
+        Map<String, Integer> maps = Map.of("huawei", 2, "Java开发", 1, "手表", 1);
+        // maps.put("衣服", 3);
+        System.out.println(maps);
     }
 }

@@ -24,6 +24,5 @@ public class ccc004stream合并 {
         // 如果不一致，就需要指定stream流的类型为object
         demo1.distinct();// 去除重复的方法
         // 因为demo1本身就是stream流类型，所以这里直接调用stream流的api即可
-
     }
 }

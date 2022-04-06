@@ -1,4 +1,4 @@
-package c2stage_20220331.ccc102stream_case;
+package c2stage_20220329.ccc102stream_case;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;
@@ -67,5 +67,4 @@ public class ccc002rundemo {
         // 大数据方法，处理精度问题
         System.out.println("处理精度的结果：" + result);
     }
-
 }

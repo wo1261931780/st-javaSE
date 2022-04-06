@@ -10,6 +10,19 @@ import java.util.List;
  * User:  wo1261931780@gmail.com
  * Time:  2022-03-20-47  星期四
  */
+
+/**
+ * 目标：Stream流的常用API
+ * forEach : 逐一处理(遍历)
+ * count：统计个数
+ * -- long count();
+ * filter : 过滤元素
+ * -- Stream<T> filter(Predicate<? super T> predicate)
+ * limit : 取前几个元素
+ * skip : 跳过前几个
+ * map : 加工方法
+ * concat : 合并流。
+ */
 public class ccc003rundemo {
     public static void main(String[] args) {
         List<String> x = new ArrayList<>();

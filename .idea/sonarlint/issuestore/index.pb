@@ -193,16 +193,6 @@ n
 >src/c2stage_20220403/ccc104streamlow/ccc001stream_collect.java,5\0\50b6ac34b94be02322f23c7b1dd01b4a83e7c962
 o
 ?src/c2stage_20220403/ccc104streamlow/ccc002stream_collect2.java,4\d\4dd3bbf732ba5068b31f52e40636e27bd2e74346
-s
-Csrc/c2stage_20220403/ccc105exceptions/ccc001runtime_exceptions.java,b\8\b81bce7a9d9ca3e0b40696c2aecb1e26ae03845e
-f
-6src/c2stage_20220403/ccc106by_exceptions/ccc001yc.java,4\1\410e8db572caf75438b52f0c8fb383cb78ee4df5
-e
-5src/c2stage_20220403/ccc105exceptions/ddd011demo.java,3\2\329e1a46b0fa4ecaf1b6c930270c85bac75c6cba
-p
-@src/c2stage_20220403/ccc105exceptions/ddd012jvm处理方案.java,4\a\4a35d5909c0420e3b38e762a56117714e771619d
-n
->src/c2stage_20220403/ccc106by_exceptions/ccc002exceptions.java,2\9\297c6e2211ee56c2e4d36081f3713ba79a65ee82
 `
 0src/c2stage_20220403/ccc107try_catch/ccc001.java,a\e\ae9f8cc620f12c2886c4943ee9a698fd884be6aa
 g
@@ -211,8 +201,6 @@ m
 =src/c2stage_20220403/ccc107try_catch/ddd015异常处理2.java,1\7\170114898df3e392470b5120ca25e5f538d06bce
 l
 <src/c2stage_20220403/ccc107try_catch/ddd014异常处理.java,2\f\2f4d59a92a6fffea3c4708564710cc3c19667289
-p
-@src/c2stage_20220403/ccc106by_exceptions/ddd017编译异常.java,b\b\bb60c2e8ec566c790018d608a36990b2c84aaa58
 s
 Csrc/c2stage_20220403/ccc108exception_handle/ddd019throws异常.java,3\2\32a5a22c4b03ef7168a57de89b7029e130ddb122
 p
@@ -251,5 +239,3 @@ V
 Xsrc/e二阶段收尾2021年10月10日/eee046常用file命令/eee047file创建命令.java,b\7\b7129a3e3e444c215f84bf1e8365684866c79955
 c
 3src/c2stage_20220405/ccc115file_api/ccc001file.java,9\2\920e7382de7fb0bfbe9211ebed05809ea717a458
-b
-2src/c2stage_20220405/ccc116file_create/ccc001.java,0\8\08f599540c0f3c93bea76482e774f5e687a20ee3

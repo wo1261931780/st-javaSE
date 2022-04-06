@@ -1,4 +1,4 @@
-package c2stage_20220403.ccc104streamlow;
+package c2stage_20220403.ccc104stream_flow;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -56,6 +56,5 @@ public class ccc001stream_collect {
         // 上面就是将一个stream流，指定转化为string类型的数组
         // 简化写法，就是方法引用：
         String[] demo4 = demo1.toArray(String[]::new);
-
     }
 }
