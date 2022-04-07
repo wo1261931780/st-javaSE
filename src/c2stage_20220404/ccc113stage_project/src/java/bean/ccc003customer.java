@@ -10,5 +10,4 @@ package c2stage_20220404.ccc113stage_project.src.java.bean;
 public class ccc003customer extends ccc002user {
     public ccc003customer() {
     }
-
 }

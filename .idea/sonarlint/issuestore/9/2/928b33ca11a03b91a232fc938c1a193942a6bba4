@@ -1,8 +1,11 @@
 
-i	java:S116"TRename this field "shop_name" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿Í¼¼
+b	java:S107"AConstructor has 8 parameters, which is greater than 7 authorized.(ã¸¿ğıÿÿÿÿ8ñÒ¡€0
 k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Çşİœûÿÿÿÿ
 k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ã¸¿ğıÿÿÿÿ
 e	java:S1170"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯ÇØ|
 g	java:S101
 "MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Ğ©”½ÿÿÿÿÿ
 t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(•ôĞÃûÿÿÿÿ
+i	java:S116"TRename this field "shop_name" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿Í¼¼
+o	java:S100,"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.( ÿäÂùÿÿÿÿ8†Ò¡€0
+i	java:S1000"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯ÇØ|8†Ò¡€0

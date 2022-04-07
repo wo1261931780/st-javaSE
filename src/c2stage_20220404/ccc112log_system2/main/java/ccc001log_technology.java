@@ -12,8 +12,10 @@ import org.slf4j.LoggerFactory;
  */
 public class ccc001log_technology {
     public static final Logger demorun = LoggerFactory.getLogger("demorun.class");//log对象需要调用jar包，这里为了避免调用错误
-    //首先这里要定义为常量，避免被人修改
+    // 首先这里要定义为常量，避免被人修改
     // 同时，需要设置好日志对象为类名.class，遵循规范
+    // 后续日志中，就会记录出现bug的类名，从而方便定位问题
+    // 如果不设置，默认为类名.class
 
     /**
      * 首先进行创建对象的操作
