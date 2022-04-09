@@ -20,7 +20,7 @@ public class ccc001 {
         // 而long类型的数据，代表的就是x文件的字节个数
         // File x = new File("C:/Users/1/Desktop/FPgPobEVQAMPGbF.jpg");
         // 其实这里也可以直接用正斜杠表示层级，因为不会冲突，所以也不需要转义符存在
-        // 但是正斜杠会导致文件读取的错误，开发过程如果用这种命名，需要避免文件的名称带有/
+        // 但是正斜杠会导致文件读取的错误，开发过程如果用这种命名，需要避免文件的名称带有
         File x1 = new File("C:/Users" + File.separator + "1/Desktop/FPgPobEVQAMPGbF.jpg");
         // 这种分割方式的好处在于跨平台
         // 用api代替字符，能在不同平台上自动代表不同的形式，避免出问题
