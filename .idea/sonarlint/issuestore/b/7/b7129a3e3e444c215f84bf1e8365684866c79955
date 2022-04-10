@@ -1,16 +1,0 @@
-
-^
-java:S1075"ARefactor your code to get this URI from a customizable parameter.(Î¤²ü8Æ¹ÓêÆ/
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(°ß¼œúÿÿÿÿ8Ü¹ÓêÆ/
-^
-java:S1075!"ARefactor your code to get this URI from a customizable parameter.(µ€Öú8ë¹ÓêÆ/
-U	java:S106""9Replace this use of System.out or System.err by a logger.(ÍòÎë8û¹ÓêÆ/
-c
-java:S1075'"ARefactor your code to get this URI from a customizable parameter.(ˆüÏÆúÿÿÿÿ8‹ºÓêÆ/
-U	java:S106("9Replace this use of System.out or System.err by a logger.(Ùç÷‹8šºÓêÆ/
-c
-java:S1075+"ARefactor your code to get this URI from a customizable parameter.(ÀËÕ™üÿÿÿÿ8©ºÓêÆ/
-U	java:S106."9Replace this use of System.out or System.err by a logger.(õ»Ò­8¸ºÓêÆ/
-X	java:S125,"<This block of commented-out lines of code should be removed.(ˆ·¡û8¼¤¤Îÿ/
-n	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ÒŸ°Çÿÿÿÿÿ8ÈºÓêÆ/
-v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ªØ°½8ØºÓêÆ/
