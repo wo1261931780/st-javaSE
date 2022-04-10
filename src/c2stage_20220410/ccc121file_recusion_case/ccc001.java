@@ -21,7 +21,6 @@ public class ccc001 {
             // int x1 = x - 1;
             // x *= x - 1;
             x *= f_show(x - 1);
-
         }
         return x;
     }
