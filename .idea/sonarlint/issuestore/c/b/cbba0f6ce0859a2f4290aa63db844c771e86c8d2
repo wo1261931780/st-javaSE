@@ -1,9 +1,0 @@
-
-k	java:S117<"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¡¸îÅùÿÿÿÿ
-b	java:S1019"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(¢»¶Á
-N
-java:S2130A"9Use "Integer.parseInt" for this string-to-int conversion.(¸Ş…;
-K
-java:S1854U"5Remove this useless assignment to local variable "i".(óßÊù
-<
-java:S1481U"&Remove this unused "i" local variable.(óßÊù
