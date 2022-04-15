@@ -1,8 +1,6 @@
 package leetcode.eee002deke_code.aaa009_20220414;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Scanner;
+import java.util.*;
 
 /**
  * Created by Intellij IDEA.
@@ -55,6 +53,12 @@ import java.util.Scanner;
  * ?1  ，且数字部分仅含正数
  */
 public class ccc002 {
+    public static Map<Integer, Integer> map = new HashMap<>();
+
+    static {
+        map.put(0, 0);
+    }
+
     public static void main(String[] args) {
         Scanner x = new Scanner(System.in);
         String[] init_jh = x.nextLine().split(";");
@@ -62,12 +66,20 @@ public class ccc002 {
         for (int i = init_jh.length - 1; i > 0; i--) {
             if (init_jh[i].length() == 3 || init_jh[i].length() == 2) {
                 String substring = init_jh[i].substring(0, 1);
-                int substring2 = Integer.valueOf(init_jh[i].substring(1, 2));
+                int substring2 = 0;
+                try {
+                    substring2 = Integer.valueOf(init_jh[i].substring(1, init_jh[i].length()));
+                    // 2022年4月15日13:32:11，这里做一下异常处理
+                } catch (NumberFormatException e) {
+                    throw new RuntimeException(e);
+                }
                 if (show(substring, substring2)) {
                     demo.add(init_jh[i]);
                 }
             }
         }
+        show2(demo);
+
 
     }
 
@@ -76,6 +88,7 @@ public class ccc002 {
     // 使用后面的字符除2，结果运行报错的
     // 然后对数组的元素处理，将其分割，对初始的map进行数据操作
     // 输出最终的map结果即可
+
     public static boolean show(String substring, int substring2) {
         boolean x = false;
         if (substring.equals("W") || substring.equals("A") || substring.equals("S") || substring.equals("D")) {
@@ -87,6 +100,31 @@ public class ccc002 {
             x = false;
         }
         return x;
+    }
+
+    public static void show2(List<String> demo) {
+        for (String s : demo) {
+            String str = s.substring(0, 1);
+            int str2 = Integer.parseInt(s.substring(1, s.length() - 1));
+            switch (str) {
+                case "W":
+                    map.put(0, map.get(0) + str2);
+                    break;
+                case "A":
+                    map.put(map.get(0) - str2, 0);
+                    break;
+                case "S":
+                    map.put(0, map.get(0) - str2);
+                    break;
+                case "D":
+                    map.put(map.get(0) + str2, 0);
+                    break;
+                default:
+                    break;
+            }
+        }
+        System.out.println(map);
+
     }
 
 }
