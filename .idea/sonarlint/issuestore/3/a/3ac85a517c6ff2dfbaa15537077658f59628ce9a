@@ -1,0 +1,25 @@
+
+‹
+java:S1319D"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(å—´ƒøÿÿÿÿ
+|
+java:S1319D"aThe type of "x" should be an interface such as "List" rather than the implementation "ArrayList".(å—´ƒøÿÿÿÿ
+|
+java:S1319]"aThe type of "x" should be an interface such as "List" rather than the implementation "ArrayList".(Ûé¡éúÿÿÿÿ
+v
+java:S1488`"[Immediately return this expression instead of assigning it to the temporary variable "xx3".(È–Ñ‘üÿÿÿÿ
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(®˜×±ùÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÅÏÚÖ
+Q	java:S125"<This block of commented-out lines of code should be removed.(îæûã
+N	java:S106"9Replace this use of System.out or System.err by a logger.(áÇ“Ş
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ÕÇÕûÿÿÿÿ
+Q	java:S125"<This block of commented-out lines of code should be removed.(…¥²Ê
+V	java:S125-"<This block of commented-out lines of code should be removed.(± Åıÿÿÿÿ
+Q	java:S125/"<This block of commented-out lines of code should be removed.(…‹
+N	java:S106>"9Replace this use of System.out or System.err by a logger.(¼£òû
+M	java:S106?"9Replace this use of System.out or System.err by a logger.(ş˜
+S	java:S106@"9Replace this use of System.out or System.err by a logger.(–Šı¼ûÿÿÿÿ
+S	java:S106A"9Replace this use of System.out or System.err by a logger.(«æå½ıÿÿÿÿ
+V	java:S125I"<This block of commented-out lines of code should be removed.(± Åıÿÿÿÿ
+Q	java:S125K"<This block of commented-out lines of code should be removed.(…‹
+4
+java:S2119^"Save and re-use this "Random".(ˆÅ
