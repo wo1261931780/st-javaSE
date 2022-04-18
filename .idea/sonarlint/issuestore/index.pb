@@ -425,3 +425,11 @@ h
 8src/c2stage_20220416/ccc132try_catch_finally/ccc002.java,6\c\6c377a097289a3e1889536b39271a0919158d2f8
 h
 8src/c2stage_20220416/ccc133try_with_resource/ccc001.java,a\8\a8d8b352659bed4d82dfe44c2478f377ff2a7523
+l
+<src/c2stage_20220416/ccc137Bytebufferstream_case/ccc001.java,9\c\9c3568ff88d7ce50e99773ce7a859819e11d32a9
+b
+2src/c2stage_20220417/ccc138charset_reader/demo.txt,5\0\50af4d030003391886ffcb5fdf8b0d6c636822d2
+e
+5src/c2stage_20220417/ccc138charset_reader/ccc001.java,5\2\522997ae1ad8b502986955b73f4b67982a575d09
+b
+2src/c2stage_20220417/ccc139charset_writer/demo.txt,b\5\b56f498f4fbb8fcd056c0fc8387dea82dec393b2

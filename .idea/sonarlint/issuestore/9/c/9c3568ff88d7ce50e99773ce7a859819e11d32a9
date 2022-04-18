@@ -1,0 +1,23 @@
+
+g	java:S112&"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8ÎÄÊ“ƒ0
+b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(éÅÈØ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(›¸ê–üÿÿÿÿ
+X	java:S125"<This block of commented-out lines of code should be removed.(û¢É8—®…”ƒ0
+c
+java:S1075"ARefactor your code to get this URI from a customizable parameter.(…³è†ùÿÿÿÿ8˜®…”ƒ0
+H
+java:S1481"&Remove this unused "x" local variable.(…³è†ùÿÿÿÿ8¢Ã”ƒ0
+^
+java:S1075"ARefactor your code to get this URI from a customizable parameter.(ä‚Üò8™®…”ƒ0
+D
+java:S1481"'Remove this unused "xx" local variable.(ä‚Üò8¢Ã”ƒ0
+]	java:S125"<This block of commented-out lines of code should be removed.(Ì¼ùùÿÿÿÿ8í‹·“ƒ0
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(  ×°ÿÿÿÿÿ8à¼¼“ƒ0
+Z	java:S106*"9Replace this use of System.out or System.err by a logger.(ä¿ îúÿÿÿÿ8á¼¼“ƒ0
+Z	java:S1060"9Replace this use of System.out or System.err by a logger.(  ×°ÿÿÿÿÿ8á¼¼“ƒ0
+Z	java:S106?"9Replace this use of System.out or System.err by a logger.(ä¿ îúÿÿÿÿ8â¼¼“ƒ0
+Z	java:S106E"9Replace this use of System.out or System.err by a logger.(  ×°ÿÿÿÿÿ8èÄÊ“ƒ0
+Z	java:S106S"9Replace this use of System.out or System.err by a logger.(ä¿ îúÿÿÿÿ8éÄÊ“ƒ0
+]	java:S125W"<This block of commented-out lines of code should be removed.(üÙóˆüÿÿÿÿ8ı†”ƒ0
+Z	java:S106Z"9Replace this use of System.out or System.err by a logger.(  ×°ÿÿÿÿÿ8êÄÊ“ƒ0
+Z	java:S106i"9Replace this use of System.out or System.err by a logger.(ä¿ îúÿÿÿÿ8ëÄÊ“ƒ0
