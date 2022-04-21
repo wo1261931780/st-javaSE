@@ -28,6 +28,5 @@ public class ccc001 {
         // Files.copy(Path.of("src/c2stage_20220418/ccc144IO_constructor/lib"),Path.of("src/c2stage_20220418/ccc144IO_constructor2"));
         Files.copy(Path.of("src/c2stage_20220418/ccc144IO_constructor/ccc001.txt"), Path.of("src/c2stage_20220418/ccc144IO_constructor/lib2/ccc001.txt"));
         // 这里不能复制文件夹，只能复制文件
-
     }
 }
