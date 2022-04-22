@@ -15,7 +15,7 @@ public class ccc001 {
         String[] demo = x.list();
         System.out.println(demo);// 直接获取路径下的字符串，结果为[Ljava.lang.String;@682a0b20
         for (String s : demo) {
-            System.out.println(s);// ccc001.java
+            System.out.println(s);// ccc001thread_extends.java
             // 这里才相当于去得到file路径下的所有文件内容
 
         }
@@ -38,7 +38,7 @@ public class ccc001 {
         for (File file : demo_path) {
             // 遍历得到的是数组中所有文件
             System.out.println(file);
-            // C:\Users\1\Documents\GitHub\st-java.github.io\src\c2stage_20220410\ccc119file_traversal\ccc001.java
+            // C:\Users\1\Documents\GitHub\st-java.github.io\src\c2stage_20220410\ccc119file_traversal\ccc001thread_extends.java
             // 得到的是文件的绝对路径，而且会带有文件的后缀
             // 如果是文件夹，就不会有后缀名称
             // 但是这里全部都是一级文件/文件夹，内部的内容不会返回

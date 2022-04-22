@@ -12,7 +12,7 @@ import java.io.*;
 public class ccc001 {
     public static void main(String[] args) {
         File x = new File("C:\\Users\\1\\Documents\\GitHub\\st-java.github.io\\src\\c2stage_20220416\\ccc133try_with_resource\\ccc001.txt");
-        File xx = new File("C:\\Users\\1\\Documents\\GitHub\\st-java.github.io\\src\\c2stage_20220416\\ccc133try_with_resource\\ccc001.java");
+        File xx = new File("C:\\Users\\1\\Documents\\GitHub\\st-java.github.io\\src\\c2stage_20220416\\ccc133try_with_resource\\ccc001thread_extends.java");
         try (
                 InputStream x2 = new FileInputStream(xx);
                 OutputStream x1 = new FileOutputStream(x);

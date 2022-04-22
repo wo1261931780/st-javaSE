@@ -13,7 +13,7 @@ public class ccc001 {
     public static void main(String[] args) {
         // File x = new File("C:\\Users\\1\\Downloads\\123.mp4");
         // File xx = new File("C:\\Users\\1\\Downloads\\");
-        File x = new File("C:\\Users\\1\\Documents\\GitHub\\st-java.github.io\\src\\c2stage_20220416\\ccc137Bytebufferstream_case\\ccc001.java");
+        File x = new File("C:\\Users\\1\\Documents\\GitHub\\st-java.github.io\\src\\c2stage_20220416\\ccc137Bytebufferstream_case\\ccc001thread_extends.java");
         File xx = new File("C:\\Users\\1\\Documents\\GitHub\\st-java.github.io\\src\\c2stage_20220416\\ccc137Bytebufferstream_case\\");
         // show1(x,xx);
         // show2(x, xx);
