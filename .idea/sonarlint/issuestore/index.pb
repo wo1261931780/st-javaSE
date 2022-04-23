@@ -471,5 +471,3 @@ e
 5src/c2stage_20220421/ccc145thread_extends/ccc001.java,8\9\8925111fceec9b21c39c96de0e4959fad6efdc91
 f
 6src/c2stage_20220421/ccc146thread_runnable/ccc001.java,5\a\5aab0630136b7a55ae71329babc7166b0d1d49f9
-f
-6src/c2stage_20220421/ccc146thread_runnable/ccc002.java,f\4\f400f7c185c8889a5618329ee62e51ebac2f07c5
