@@ -8,39 +8,39 @@ public class ccc004updatetime {
 
     public static void main(String[] args) {
         LocalTime nowTime = LocalTime.now();
-        System.out.println(nowTime);//µ±Ç°Ê±¼ä
-        System.out.println(nowTime.minusHours(1));//Ò»Ğ¡Ê±Ç°
-        System.out.println(nowTime.minusMinutes(1));//Ò»·ÖÖÓÇ°
-        System.out.println(nowTime.minusSeconds(1));//Ò»ÃëÇ°
-        System.out.println(nowTime.minusNanos(1));//Ò»ÄÉÃëÇ°
+        System.out.println(nowTime);//å½“å‰æ—¶é—´
+        System.out.println(nowTime.minusHours(1));//ä¸€å°æ—¶å‰
+        System.out.println(nowTime.minusMinutes(1));//ä¸€åˆ†é’Ÿå‰
+        System.out.println(nowTime.minusSeconds(1));//ä¸€ç§’å‰
+        System.out.println(nowTime.minusNanos(1));//ä¸€çº³ç§’å‰
 
         System.out.println("----------------");
 
-        System.out.println(nowTime.plusHours(1));//Ò»Ğ¡Ê±ºó
-        System.out.println(nowTime.plusMinutes(1));//Ò»·ÖÖÓºó
-        System.out.println(nowTime.plusSeconds(1));//Ò»Ãëºó
-        System.out.println(nowTime.plusNanos(1));//Ò»ÄÉÃëºó
+        System.out.println(nowTime.plusHours(1));//ä¸€å°æ—¶å
+        System.out.println(nowTime.plusMinutes(1));//ä¸€åˆ†é’Ÿå
+        System.out.println(nowTime.plusSeconds(1));//ä¸€ç§’å
+        System.out.println(nowTime.plusNanos(1));//ä¸€çº³ç§’å
 
         System.out.println("------------------");
-        // ²»¿É±ä¶ÔÏó£¬Ã¿´ÎĞŞ¸Ä²úÉúĞÂ¶ÔÏó£¡
+        // ä¸å¯å˜å¯¹è±¡ï¼Œæ¯æ¬¡ä¿®æ”¹äº§ç”Ÿæ–°å¯¹è±¡ï¼
         System.out.println(nowTime);
 
         System.out.println("---------------");
         LocalDate myDate = LocalDate.of(2018, 9, 5);
         LocalDate nowDate = LocalDate.now();
 
-        System.out.println("½ñÌìÊÇ2018-09-06Âğ£¿ " + nowDate.equals(myDate));//½ñÌìÊÇ2018-09-06Âğ£¿ false
-        System.out.println(myDate + "ÊÇ·ñÔÚ" + nowDate + "Ö®Ç°£¿ " + myDate.isBefore(nowDate));//2018-09-05ÊÇ·ñÔÚ2018-09-06Ö®Ç°£¿ true
-        System.out.println(myDate + "ÊÇ·ñÔÚ" + nowDate + "Ö®ºó£¿ " + myDate.isAfter(nowDate));//2018-09-05ÊÇ·ñÔÚ2018-09-06Ö®ºó£¿ false
+        System.out.println("ä»Šå¤©æ˜¯2018-09-06å—ï¼Ÿ " + nowDate.equals(myDate));//ä»Šå¤©æ˜¯2018-09-06å—ï¼Ÿ false
+        System.out.println(myDate + "æ˜¯å¦åœ¨" + nowDate + "ä¹‹å‰ï¼Ÿ " + myDate.isBefore(nowDate));//2018-09-05æ˜¯å¦åœ¨2018-09-06ä¹‹å‰ï¼Ÿ true
+        System.out.println(myDate + "æ˜¯å¦åœ¨" + nowDate + "ä¹‹åï¼Ÿ " + myDate.isAfter(nowDate));//2018-09-05æ˜¯å¦åœ¨2018-09-06ä¹‹åï¼Ÿ false
 
         System.out.println("---------------------------");
-        // ÅĞ¶Ï½ñÌìÊÇ·ñÊÇÄãµÄÉúÈÕ
+        // åˆ¤æ–­ä»Šå¤©æ˜¯å¦æ˜¯ä½ çš„ç”Ÿæ—¥
         LocalDate birDate = LocalDate.of(1996, 8, 5);
         LocalDate nowDate1 = LocalDate.now();
 
         MonthDay birMd = MonthDay.of(birDate.getMonthValue(), birDate.getDayOfMonth());
         MonthDay nowMd = MonthDay.from(nowDate1);
 
-        System.out.println("½ñÌìÊÇÄãµÄÉúÈÕÂğ£¿ " + birMd.equals(nowMd));//½ñÌìÊÇÄãµÄÉúÈÕÂğ£¿ false
+        System.out.println("ä»Šå¤©æ˜¯ä½ çš„ç”Ÿæ—¥å—ï¼Ÿ " + birMd.equals(nowMd));//ä»Šå¤©æ˜¯ä½ çš„ç”Ÿæ—¥å—ï¼Ÿ false
     }
 }

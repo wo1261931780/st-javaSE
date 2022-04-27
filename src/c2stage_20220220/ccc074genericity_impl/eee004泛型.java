@@ -1,6 +1,6 @@
 package c2stage_20220220.ccc074genericity_impl;
 
-public interface eee004·ºĞÍ<T> {
+public interface eee004æ³›å‹<T> {
     void show(T x);
-    // ½Ó¿ÚÊÇ³éÏó·½·¨£¬Ã»ÓĞ·½·¨Ìå
+    // æ¥å£æ˜¯æŠ½è±¡æ–¹æ³•ï¼Œæ²¡æœ‰æ–¹æ³•ä½“
 }

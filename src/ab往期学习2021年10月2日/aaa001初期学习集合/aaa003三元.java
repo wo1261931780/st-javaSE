@@ -1,15 +1,15 @@
-package abÍùÆÚÑ§Ï°2021Äê10ÔÂ2ÈÕ.aaa001³õÆÚÑ§Ï°¼¯ºÏ;
+package abå¾€æœŸå­¦ä¹ 2021å¹´10æœˆ2æ—¥.aaa001åˆæœŸå­¦ä¹ é›†åˆ;
 
 import java.util.Scanner;
 
-public class aaa003ÈýÔª {
+public class aaa003ä¸‰å…ƒ {
     public static void main(String[] args) {
         // Scanner x=new Scanner(System.in);
-        // System.out.println("ÇëÊäÈë¾ßÌåÊý¾Ý£º");
+        // System.out.println("è¯·è¾“å…¥å…·ä½“æ•°æ®ï¼š");
         // int x1 = x.nextInt();
-        // System.out.println("ÇëÊäÈë¾ßÌåÊý¾Ý£º");
+        // System.out.println("è¯·è¾“å…¥å…·ä½“æ•°æ®ï¼š");
         // int x2 = x.nextInt();
-        // System.out.println("ÇëÊäÈë¾ßÌåÊý¾Ý£º");
+        // System.out.println("è¯·è¾“å…¥å…·ä½“æ•°æ®ï¼š");
         // int x3 = x.nextInt();
         //
         // int max1 = x1 > x2 ? x1 : x2;
@@ -25,7 +25,7 @@ public class aaa003ÈýÔª {
     public static void show() {
         int[] x = new int[3];
         for (int i = 0; i < x.length; i++) {
-            System.out.println("ÇëÊäÈë¾ßÌåÊý¾Ý£º");
+            System.out.println("è¯·è¾“å…¥å…·ä½“æ•°æ®ï¼š");
             Scanner x1 = new Scanner(System.in);
             // int i1 = x1.nextInt();
             // x[i] = i1;
@@ -42,12 +42,12 @@ public class aaa003ÈýÔª {
 
     public static void show2() {
         Scanner x = new Scanner(System.in);
-        // Â¼ÈëÒ»¸öchar×Ö·û£¬½«Æä×ª»¯ÎªintÀàÐÍµÄÊý¾ÝÊä³ö
-        char x3 = 'ÎÒ';
-        char x4 = '°®';
-        char x5 = 'Äã';
+        // å½•å…¥ä¸€ä¸ªcharå­—ç¬¦ï¼Œå°†å…¶è½¬åŒ–ä¸ºintç±»åž‹çš„æ•°æ®è¾“å‡º
+        char x3 = 'æˆ‘';
+        char x4 = 'çˆ±';
+        char x5 = 'ä½ ';
         // System.out.println((int)x1+" "+(int)x2+" "+(int)x3+" "+(int)x4+" "+(int)x5);
         System.out.println((int)x3+" "+(int)x4+" "+(int)x5);
-        //½á¹ûÎª25105 29233 20320
+        //ç»“æžœä¸º25105 29233 20320
     }
 }

@@ -9,15 +9,15 @@ import java.util.Date;
  * Project:index.pb
  * Package:c2stage_20220403.ccc106by_exceptions
  * User:  wo1261931780@gmail.com
- * Time:  2022-04-17-21  ĞÇÆÚÈÕ
+ * Time:  2022-04-17-21  æ˜ŸæœŸæ—¥
  */
 public class ccc001yc {
     public static void main(String[] args) throws ParseException {
-        String x = "2022Äê4ÔÂ3ÈÕ17:21:56";
-        SimpleDateFormat x1 = new SimpleDateFormat("yyyyÄêMMÔÂddÈÕHH:mm:SS");
-        Date demo = x1.parse(x);//Õı³£ÔËĞĞ¹ı³ÌÖĞ£¬´úÂëÊÇÃ»ÎÊÌâµÄ£¬µ«ÊÇjavaÎªÁËÌáĞÑ³ÌĞòÔ±£¬¾ÍÉèÖÃÒ»¸öÒì³£
+        String x = "2022å¹´4æœˆ3æ—¥17:21:56";
+        SimpleDateFormat x1 = new SimpleDateFormat("yyyyå¹´MMæœˆddæ—¥HH:mm:SS");
+        Date demo = x1.parse(x);//æ­£å¸¸è¿è¡Œè¿‡ç¨‹ä¸­ï¼Œä»£ç æ˜¯æ²¡é—®é¢˜çš„ï¼Œä½†æ˜¯javaä¸ºäº†æé†’ç¨‹åºå‘˜ï¼Œå°±è®¾ç½®ä¸€ä¸ªå¼‚å¸¸
         System.out.println(demo);
-        // ÈÕÆÚµÄ½âÎö£¬Ïàµ±ÓÚÎÒĞÂ½¨Ò»¸öÈÕÆÚµÄ½âÎöÆ÷
-        // È»ºóÕâ¸ö½âÎöÆ÷µ÷ÓÃ½âÎö·½·¨£¬½âÎö¹Ì¶¨µÄ×Ö·û´®
+        // æ—¥æœŸçš„è§£æï¼Œç›¸å½“äºæˆ‘æ–°å»ºä¸€ä¸ªæ—¥æœŸçš„è§£æå™¨
+        // ç„¶åè¿™ä¸ªè§£æå™¨è°ƒç”¨è§£ææ–¹æ³•ï¼Œè§£æå›ºå®šçš„å­—ç¬¦ä¸²
     }
 }

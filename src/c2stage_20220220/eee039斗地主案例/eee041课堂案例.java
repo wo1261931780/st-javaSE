@@ -1,19 +1,19 @@
-package c2stage_20220220.eee039¶·µØÖ÷°¸Àı;
+package c2stage_20220220.eee039æ–—åœ°ä¸»æ¡ˆä¾‹;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Random;
 
 /**
- * ¶·µØÖ÷£¬Ò»¸±ÅÆ54ÕÅ£¬ËÄÖÖ»¨É«£¬1-13£¬Á½¸öÍõ
- * Íæ¼ÒËÄ¸öÈË£¬Ã¿¸öÈË13ÕÅ¡£Á½¸±ÅÆ¾ÍÊÇ26ÕÅ¡£
+ * æ–—åœ°ä¸»ï¼Œä¸€å‰¯ç‰Œ54å¼ ï¼Œå››ç§èŠ±è‰²ï¼Œ1-13ï¼Œä¸¤ä¸ªç‹
+ * ç©å®¶å››ä¸ªäººï¼Œæ¯ä¸ªäºº13å¼ ã€‚ä¸¤å‰¯ç‰Œå°±æ˜¯26å¼ ã€‚
  */
-public class eee041¿ÎÌÃ°¸Àı {
+public class eee041è¯¾å ‚æ¡ˆä¾‹ {
     public static void main(String[] args) {
         // String[] x1 = {"?", "?", "?", "?"};
-        String[] x1 = {"·½Æ¬", "Ã·»¨", "ºìÌÒ", "ºÚÌÒ"};
+        String[] x1 = {"æ–¹ç‰‡", "æ¢…èŠ±", "çº¢æ¡ƒ", "é»‘æ¡ƒ"};
         String[] x2 = {"2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K", "A"};
-        String[] x3 = {"´ójoker", "Ğ¡joker"};
+        String[] x3 = {"å¤§joker", "å°joker"};
         ArrayList<String> x = new ArrayList<>();
         for (String i : x1) {
             for (String i2 : x2) {
@@ -34,7 +34,7 @@ public class eee041¿ÎÌÃ°¸Àı {
         // System.out.println(fp(x));
         // System.out.println(fp(x));
         // System.out.println(fp(x));
-        // ÆäÊµÕâÀïĞèÒªÒ»¸öĞ£Ñé£¬Ò»¸±ÅÆ×î¶àËÄ¸öÒ»Ä£Ò»ÑùµÄÊı×Ö
+        // å…¶å®è¿™é‡Œéœ€è¦ä¸€ä¸ªæ ¡éªŒï¼Œä¸€å‰¯ç‰Œæœ€å¤šå››ä¸ªä¸€æ¨¡ä¸€æ ·çš„æ•°å­—
         // ArrayList<String> x4 = new ArrayList<>();
         // ArrayList<String> x5 = new ArrayList<>();
         // ArrayList<String> x6 = new ArrayList<>();

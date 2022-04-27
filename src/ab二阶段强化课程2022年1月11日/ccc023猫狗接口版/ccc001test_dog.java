@@ -1,4 +1,4 @@
-package ab¶ş½×¶ÎÇ¿»¯¿Î³Ì2022Äê1ÔÂ11ÈÕ.ccc023Ã¨¹·½Ó¿Ú°æ;
+package abäºŒé˜¶æ®µå¼ºåŒ–è¯¾ç¨‹2022å¹´1æœˆ11æ—¥.ccc023çŒ«ç‹—æ¥å£ç‰ˆ;
 
 public class ccc001test_dog implements ccc001test_animal {
     public String name = "111";
@@ -30,6 +30,6 @@ public class ccc001test_dog implements ccc001test_animal {
 
     @Override
     public void jump() {
-        System.out.println("ÎÒÊÇ¹·ÖĞµÄÌø¸ß");
+        System.out.println("æˆ‘æ˜¯ç‹—ä¸­çš„è·³é«˜");
     }
 }

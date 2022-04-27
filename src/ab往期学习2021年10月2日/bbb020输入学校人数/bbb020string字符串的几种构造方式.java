@@ -1,18 +1,18 @@
-package abÍùÆÚÑ§Ï°2021Äê10ÔÂ2ÈÕ.bbb020ÊäÈëÑ§Ğ£ÈËÊı;
+package abå¾€æœŸå­¦ä¹ 2021å¹´10æœˆ2æ—¥.bbb020è¾“å…¥å­¦æ ¡äººæ•°;
 
-public class bbb020string×Ö·û´®µÄ¼¸ÖÖ¹¹Ôì·½Ê½ {
+public class bbb020stringå­—ç¬¦ä¸²çš„å‡ ç§æ„é€ æ–¹å¼ {
     public static void main(String[] args) {
         char[] chars = {'a', 'b', 'c'};
         String x = new String(chars);
         String y = new String(chars);
-        // Í¨¹ınewµÄ·½Ê½ĞÂ½¨µÄ×Ö·û´®£¬¶¼ÄÜµÃµ½Ò»¸öĞÂµÄµØÖ·
-        // ×îÖÕ±È½ÏµÄÊ±ºò£¬==»á±È½ÏµØÖ·£¬½á¹ûÎªfalse
-        // ¶øequals±È½ÏµØÖ·¶ÔÓ¦µÄÄÚÈİ£¬½á¹ûÎªtrue
+        // é€šè¿‡newçš„æ–¹å¼æ–°å»ºçš„å­—ç¬¦ä¸²ï¼Œéƒ½èƒ½å¾—åˆ°ä¸€ä¸ªæ–°çš„åœ°å€
+        // æœ€ç»ˆæ¯”è¾ƒçš„æ—¶å€™ï¼Œ==ä¼šæ¯”è¾ƒåœ°å€ï¼Œç»“æœä¸ºfalse
+        // è€Œequalsæ¯”è¾ƒåœ°å€å¯¹åº”çš„å†…å®¹ï¼Œç»“æœä¸ºtrue
         System.out.println(x == y);//false
         System.out.println(x.equals(y));//true
 
         // Strings="abc";
-        // Ö±½Ó¸³ÖµµÄ·½Ê½´´½¨×Ö·û´®¶ÔÏó£¬ ÄÚÈİ¾ÍÊÇabc
+        // ç›´æ¥èµ‹å€¼çš„æ–¹å¼åˆ›å»ºå­—ç¬¦ä¸²å¯¹è±¡ï¼Œ å†…å®¹å°±æ˜¯abc
         String x1 = "aaa";
         String x2 = "aaa";
 

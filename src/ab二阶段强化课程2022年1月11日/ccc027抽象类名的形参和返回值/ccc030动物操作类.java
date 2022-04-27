@@ -1,26 +1,26 @@
-package ab¶þ½×¶ÎÇ¿»¯¿Î³Ì2022Äê1ÔÂ11ÈÕ.ccc027³éÏóÀàÃûµÄÐÎ²ÎºÍ·µ»ØÖµ;
+package abäºŒé˜¶æ®µå¼ºåŒ–è¯¾ç¨‹2022å¹´1æœˆ11æ—¥.ccc027æŠ½è±¡ç±»åçš„å½¢å‚å’Œè¿”å›žå€¼;
 
-public class ccc030¶¯Îï²Ù×÷Àà {
+public class ccc030åŠ¨ç‰©æ“ä½œç±» {
     /**
-     * ÒòÎª³éÏóÎÞ·¨´´½¨£¬ËùÒÔÔÚ×ÓÀàÖÐnewÁËÒ»¸öx
+     * å› ä¸ºæŠ½è±¡æ— æ³•åˆ›å»ºï¼Œæ‰€ä»¥åœ¨å­ç±»ä¸­newäº†ä¸€ä¸ªx
      */
     public void use(ccc028animal a) {
-        //À¨ºÅÄÚÏàµ±ÓÚccc028animal a=new ccc028animal¡£
-        // ÕâÀïµÄanimalÊÇ³éÏóÀà£¬ËùÒÔÆäÊµÊÇÍ¨¹ý¶àÌ¬À´´´½¨µÄ
+        //æ‹¬å·å†…ç›¸å½“äºŽccc028animal a=new ccc028animalã€‚
+        // è¿™é‡Œçš„animalæ˜¯æŠ½è±¡ç±»ï¼Œæ‰€ä»¥å…¶å®žæ˜¯é€šè¿‡å¤šæ€æ¥åˆ›å»ºçš„
         a.eat();
-        //ÕâÀï³öÏÖµÄÊÇµØÖ·Öµ£¬¶ø²»ÊÇ±äÁ¿x
+        //è¿™é‡Œå‡ºçŽ°çš„æ˜¯åœ°å€å€¼ï¼Œè€Œä¸æ˜¯å˜é‡x
         System.out.println(a);
     }
 
     /**
-     * ÎÒÃÇÍ¨³£ÉèÖÃµÄÊÇvoid£¬ÒâÎ¶×Å·µ»ØÊÇÄ¬ÈÏÀàÐÍ
-     * ÕâÀïÉèÖÃanimal£¬ÒâÎ¶×ÅÎÒ±ØÐë·µ»ØÒ»¸öanimalÀàÐÍµÄ¶ÔÏó
+     * æˆ‘ä»¬é€šå¸¸è®¾ç½®çš„æ˜¯voidï¼Œæ„å‘³ç€è¿”å›žæ˜¯é»˜è®¤ç±»åž‹
+     * è¿™é‡Œè®¾ç½®animalï¼Œæ„å‘³ç€æˆ‘å¿…é¡»è¿”å›žä¸€ä¸ªanimalç±»åž‹çš„å¯¹è±¡
      */
     public ccc028animal getanimal() {
-        //ÔÚanimalÖÐ´´½¨·½·¨£¬
-        ccc028animal a = new ccc029×ÓÀà();
-        // ÒòÎªÎÞ·¨´´½¨¶ÔÏó£¬ËùÒÔ·½·¨ÄÚ²¿¶àÌ¬µÄ·½Ê½´´½¨ÐÂµÄ¶ÔÏó
-        //´´½¨ÍêÁËÐèÒª·µ»Ø
+        //åœ¨animalä¸­åˆ›å»ºæ–¹æ³•ï¼Œ
+        ccc028animal a = new ccc029å­ç±»();
+        // å› ä¸ºæ— æ³•åˆ›å»ºå¯¹è±¡ï¼Œæ‰€ä»¥æ–¹æ³•å†…éƒ¨å¤šæ€çš„æ–¹å¼åˆ›å»ºæ–°çš„å¯¹è±¡
+        //åˆ›å»ºå®Œäº†éœ€è¦è¿”å›ž
         return a;
     }
 

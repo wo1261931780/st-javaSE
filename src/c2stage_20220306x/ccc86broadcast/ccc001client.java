@@ -10,7 +10,7 @@ import java.net.InetAddress;
  * Project:index.pb
  * Package:c2stage_20220306.ccc86broadcast
  * User:  wo1261931780@gmail.com
- * Time:  2022-03-11-13  星期一
+ * Time:  2022-03-11-13  鏄熸湡涓�
  */
 public class ccc001client {
     public static void main(String[] args) throws IOException {
@@ -18,7 +18,7 @@ public class ccc001client {
         byte[] demo_st = "123456".getBytes();
         // DatagramPacket demo_p = new DatagramPacket(demo_st, demo_st.length, InetAddress.getLocalHost(), 12356);
         DatagramPacket demo_p = new DatagramPacket(demo_st, demo_st.length, InetAddress.getByName("255.255.255.255"), 12356);
-        // 二者的不同，在于设置了广播ip
+        // 浜岃�呯殑涓嶅悓锛屽湪浜庤缃簡骞挎挱ip
         demo_s.send(demo_p);
         demo_s.close();
     }

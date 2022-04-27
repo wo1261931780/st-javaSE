@@ -1,9 +1,0 @@
-
-k
-java:S1206 "PThis class overrides "equals()" and should therefore also override "hashCode()".(Ý¢êÍýÿÿÿÿ
-f
-java:S1104"PMake name a static final constant or non-public and provide accessors if needed.( þÍ¾
-e
-java:S1104"OMake age a static final constant or non-public and provide accessors if needed.(×Áò¿
-g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(íéÂÑüÿÿÿÿ
-o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ú–ê»

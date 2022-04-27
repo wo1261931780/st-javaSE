@@ -1,11 +1,11 @@
 package c2stage_20220220.ccc071genericity_case;
 
-public class ddd100泛型测试<T> {
+public class ddd100娉涘瀷娴嬭瘯<T> {
     /**
-     * 注意，类的后面必须跟上泛型的注释
+     * 娉ㄦ剰锛岀被鐨勫悗闈㈠繀椤昏窡涓婃硾鍨嬬殑娉ㄩ噴
      */
     private T t;
-    // 这里的泛型可以用任意字母表示
+    // 杩欓噷鐨勬硾鍨嬪彲浠ョ敤浠绘剰瀛楁瘝琛ㄧず
 
     public T getT() {
         return t;

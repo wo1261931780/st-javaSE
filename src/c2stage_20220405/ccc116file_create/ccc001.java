@@ -8,21 +8,21 @@ import java.io.IOException;
  * Project:index.pb
  * Package:c2stage_20220405.ccc116file_create
  * User:  wo1261931780@gmail.com
- * Time:  2022-04-20-53  ĞÇÆÚ¶ş
+ * Time:  2022-04-20-53  æ˜ŸæœŸäºŒ
  */
 public class ccc001 {
     public static void main(String[] args) throws IOException {
         File x = new File("C:\\Users\\1\\Documents\\GitHub\\st-java.github.io\\src\\c2stage_20220405\\ccc116file_create\\demo.txt");
-        System.out.println(x.createNewFile());// ´´½¨ÎÄ¼şÒ»°ãÓÃ²»µ½£¬ÒòÎªÊµ¼Ê¿ª·¢ÖĞ¶¼ÊÇ×Ô¶¯´´½¨ÎÄ¼ş
+        System.out.println(x.createNewFile());// åˆ›å»ºæ–‡ä»¶ä¸€èˆ¬ç”¨ä¸åˆ°ï¼Œå› ä¸ºå®é™…å¼€å‘ä¸­éƒ½æ˜¯è‡ªåŠ¨åˆ›å»ºæ–‡ä»¶
         File x1 = new File("C:\\Users\\1\\Documents\\GitHub\\st-java.github.io\\src\\c2stage_20220405\\ccc116file_create\\demo2");
-        System.out.println(x1.mkdir());// ´´½¨Ä¿Â¼
-        // ´´½¨Ä¿Â¼µÄapiÄ¬ÈÏÖ»ÄÜ´´½¨Ò»¼¶Ä¿Â¼£¬¶à¼¶Ä¿Â¼»áÊ§°Ü
+        System.out.println(x1.mkdir());// åˆ›å»ºç›®å½•
+        // åˆ›å»ºç›®å½•çš„apié»˜è®¤åªèƒ½åˆ›å»ºä¸€çº§ç›®å½•ï¼Œå¤šçº§ç›®å½•ä¼šå¤±è´¥
         File x2 = new File("C:\\Users\\1\\Documents\\GitHub\\st-java.github.io\\src\\c2stage_20220405\\ccc116file_create\\demo2\\demo3\\demo4");
-        System.out.println(x1.mkdirs());// ´´½¨¶à¼¶Ä¿Â¼
-        // Êä³ö½á¹û·µ»Øtrue/false
+        System.out.println(x1.mkdirs());// åˆ›å»ºå¤šçº§ç›®å½•
+        // è¾“å‡ºç»“æœè¿”å›true/false
         File x3 = new File("C:\\Users\\1\\Documents\\GitHub\\st-java.github.io\\src\\c2stage_20220405\\ccc116file_create\\demo2");
-        System.out.println(x3.delete());// ÎÄ¼şÔÚÕ¼ÓÃ×´Ì¬ÒÀ¾É¿ÉÒÔÉ¾³ı
-        // µ«ÊÇÉ¾³ı²Ù×÷£¬²»ÄÜÉ¾³ı·Ç¿ÕÎÄ¼ş¼Ğ£¬·À´ô
+        System.out.println(x3.delete());// æ–‡ä»¶åœ¨å ç”¨çŠ¶æ€ä¾æ—§å¯ä»¥åˆ é™¤
+        // ä½†æ˜¯åˆ é™¤æ“ä½œï¼Œä¸èƒ½åˆ é™¤éç©ºæ–‡ä»¶å¤¹ï¼Œé˜²å‘†
 
     }
 }

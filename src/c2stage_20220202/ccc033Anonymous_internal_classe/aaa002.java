@@ -3,13 +3,13 @@ package c2stage_20220202.ccc033Anonymous_internal_classe;
 public class aaa002 {
     public static void main(String[] args) {
         System.out.println("-------");
-        aaa001ÄÚ²¿Àà.ceshi1 x1 = new aaa001ÄÚ²¿Àà().new ceshi1();
+        aaa001å†…éƒ¨ç±».ceshi1 x1 = new aaa001å†…éƒ¨ç±»().new ceshi1();
         x1.show();
         System.out.println("---------------------");
-        aaa001ÄÚ²¿Àà x = new aaa001ÄÚ²¿Àà();
+        aaa001å†…éƒ¨ç±» x = new aaa001å†…éƒ¨ç±»();
         x.find();
         System.out.println("---------------------");
-        aaa002test_ÄäÃûÄÚ²¿Àà xx1 = new aaa002test_ÄäÃûÄÚ²¿Àà();
+        aaa002test_åŒ¿åå†…éƒ¨ç±» xx1 = new aaa002test_åŒ¿åå†…éƒ¨ç±»();
         xx1.insm();
     }
 }

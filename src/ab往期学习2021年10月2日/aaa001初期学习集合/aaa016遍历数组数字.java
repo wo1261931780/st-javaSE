@@ -1,27 +1,27 @@
-package abÍùÆÚÑ§Ï°2021Äê10ÔÂ2ÈÕ.aaa001³õÆÚÑ§Ï°¼¯ºÏ;
+package abå¾€æœŸå­¦ä¹ 2021å¹´10æœˆ2æ—¥.aaa001åˆæœŸå­¦ä¹ é›†åˆ;
 
 import java.util.Random;
 import java.util.Scanner;
 
-public class aaa016±éÀúÊı×éÊı×Ö {
+public class aaa016éå†æ•°ç»„æ•°å­— {
     public static void main(String[] args) {
-        System.out.println("¿ªÊ¼¶¨ÒåÊı×é:");
-        //int[] xx = new int[10];¶¯Ì¬³õÊ¼»¯¡£
+        System.out.println("å¼€å§‹å®šä¹‰æ•°ç»„:");
+        //int[] xx = new int[10];åŠ¨æ€åˆå§‹åŒ–ã€‚
         //int[] xx = new int[]{123,13545,16541,6546748};
-        //¾²Ì¬³õÊ¼»¯£¬Ïàµ±ÓÚÖ±½Ó¸øÊı×éÊı×Ö
+        //é™æ€åˆå§‹åŒ–ï¼Œç›¸å½“äºç›´æ¥ç»™æ•°ç»„æ•°å­—
         int[] xx = {111, 222, 333, 44, 6854, 654, 564, 31, 65, 4896, 74, 61, 4, 867, 6};
-        // ÕâÀïÖ»»áÏÔÊ¾Êı×éµÄµØÖ·
+        // è¿™é‡Œåªä¼šæ˜¾ç¤ºæ•°ç»„çš„åœ°å€
         System.out.println(xx);
         // System.out.println(xx[1]);
         // System.out.println(xx[2]);
-        // System.out.println(xx[0]);Êı×é¶¼ÊÇ´Ó0¿ªÊ¼¼ÆÊı
-        //xx.length±íÊ¾µÄÊÇ£¬Êı×é³¤¶ÈÊÇÒ»¸öÊı×Ö£¬[]ÖĞµÄÊı×ÖÒ²¿ÉÒÔÖ±½Ó¶¨Òå.
+        // System.out.println(xx[0]);æ•°ç»„éƒ½æ˜¯ä»0å¼€å§‹è®¡æ•°
+        //xx.lengthè¡¨ç¤ºçš„æ˜¯ï¼Œæ•°ç»„é•¿åº¦æ˜¯ä¸€ä¸ªæ•°å­—ï¼Œ[]ä¸­çš„æ•°å­—ä¹Ÿå¯ä»¥ç›´æ¥å®šä¹‰.
         System.out.println(xx.length);
         int x = 0;
-        for (System.out.println("¿ªÊ¼Êä³ö£º"); x < xx.length; x++) {
-            System.out.println("µÚ" + x + "¸öÊıÊÇ£º" + xx[x]);
+        for (System.out.println("å¼€å§‹è¾“å‡ºï¼š"); x < xx.length; x++) {
+            System.out.println("ç¬¬" + x + "ä¸ªæ•°æ˜¯ï¼š" + xx[x]);
             //System.out.println(xx[x]);
-            System.out.println("ÖØ¸´ÏÔÊ¾--------------------");
+            System.out.println("é‡å¤æ˜¾ç¤º--------------------");
         }
         // show();
         // sum();
@@ -36,10 +36,10 @@ public class aaa016±éÀúÊı×éÊı×Ö {
         for (int i = 0; i < 9; i++) {
             System.out.println(x[i]);
         }
-        System.out.println("½áÊø");
+        System.out.println("ç»“æŸ");
     }
 
-    // Ö±½ÓÊ¹ÓÃÊı×éÃû.fori¾Í»á×Ô¶¯Éú³ÉÒ»¸ö±éÀúÑ­»·
+    // ç›´æ¥ä½¿ç”¨æ•°ç»„å.foriå°±ä¼šè‡ªåŠ¨ç”Ÿæˆä¸€ä¸ªéå†å¾ªç¯
     public static void sum() {
         int[] x = {1, 1, 1, 1, 1, 1, 1};
         System.out.println(x.length);
@@ -75,9 +75,9 @@ public class aaa016±éÀúÊı×éÊı×Ö {
         }
         Scanner x1 = new Scanner(System.in);
         OUT:
-// Ñ­»·½áÊøµÄÎ»ÖÃ
+// å¾ªç¯ç»“æŸçš„ä½ç½®
         while (true) {
-            System.out.println("ÇëÊä³öÄãµÄÊı:");
+            System.out.println("è¯·è¾“å‡ºä½ çš„æ•°:");
             int i = x1.nextInt();
             for (int j = 0; j < x.length; j++) {
                 if (i == x[j]) {
@@ -85,13 +85,13 @@ public class aaa016±éÀúÊı×éÊı×Ö {
                     // for (int i1 = 0; i1 < x.length; i1++) {
                     //     System.out.println(x[i1]);
                     // }
-                    break OUT;//Ö±½Ó½áÊøµ½outÎ»ÖÃ
+                    break OUT;//ç›´æ¥ç»“æŸåˆ°outä½ç½®
                 }
             }
         }
     }
 
-    public static void rank() {//Ã°ÅİÅÅĞò
+    public static void rank() {//å†’æ³¡æ’åº
         int[] x={1,1,1,321,5,54,4,85,64};
         for (int i = 0,mid=0; i < x.length-1; i++) {
             // if (x[i]>x[i+1]){
@@ -99,11 +99,11 @@ public class aaa016±éÀúÊı×éÊı×Ö {
             //     x[i]=x[i+1];
             //     x[i+1]=mid;
             // }
-            // i == 0  ±È½ÏµÄ´ÎÊı 3  j = 0 1 2
-            // i == 1  ±È½ÏµÄ´ÎÊı 2  j = 0 1
-            // i == 2  ±È½ÏµÄ´ÎÊı 1  j = 0
-            // 3¡¢¶¨ÒåÒ»¸öÑ­»·¿ØÖÆÃ¿ÂÖ±È½ÏµÄ´ÎÊı£¬Õ¼Î»
-            // Èç¹ûÖ»ÓĞµ¥¸öÑ­»·£¬Ö»»á±éÀúÒ»±é£¬Á½Á½½»»»£¬Ñ­»·Ç¶Ì×Ôò¿ÉÒÔÊµÏÖ´ÓĞ¡µ½´óµÄÅÅĞò
+            // i == 0  æ¯”è¾ƒçš„æ¬¡æ•° 3  j = 0 1 2
+            // i == 1  æ¯”è¾ƒçš„æ¬¡æ•° 2  j = 0 1
+            // i == 2  æ¯”è¾ƒçš„æ¬¡æ•° 1  j = 0
+            // 3ã€å®šä¹‰ä¸€ä¸ªå¾ªç¯æ§åˆ¶æ¯è½®æ¯”è¾ƒçš„æ¬¡æ•°ï¼Œå ä½
+            // å¦‚æœåªæœ‰å•ä¸ªå¾ªç¯ï¼Œåªä¼šéå†ä¸€éï¼Œä¸¤ä¸¤äº¤æ¢ï¼Œå¾ªç¯åµŒå¥—åˆ™å¯ä»¥å®ç°ä»å°åˆ°å¤§çš„æ’åº
             for (int j = 0; j < x.length-i-1; j++) {
                 if (x[j]>x[j+1]){
                     mid=x[j];

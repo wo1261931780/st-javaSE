@@ -1,14 +1,14 @@
-package abÍùÆÚÑ§Ï°2021Äê10ÔÂ2ÈÕ.bbb020ÊäÈëÑ§Ğ£ÈËÊı;
+package abå¾€æœŸå­¦ä¹ 2021å¹´10æœˆ2æ—¥.bbb020è¾“å…¥å­¦æ ¡äººæ•°;
 
-public class bbb021cÓÃ»§µÇÂ¼²âÊÔÀà {
+public class bbb021cç”¨æˆ·ç™»å½•æµ‹è¯•ç±» {
     public static void main(String[] args) {
-        // System.out.println("ÊäÈëÕËºÅ£º");
+        // System.out.println("è¾“å…¥è´¦å·ï¼š");
         // Scanner x = new Scanner(System.in);
         // String name = x.nextLine();
-        // System.out.println("ÇëÊäÈëÃÜÂë£º");
+        // System.out.println("è¯·è¾“å…¥å¯†ç ï¼š");
         // Scanner x1 = new Scanner(System.in);
         // String pw = x1.nextLine();
-        bbb021bÓÃ»§µÇÂ¼±ê×¼Àà xxs = new bbb021bÓÃ»§µÇÂ¼±ê×¼Àà();
+        bbb021bç”¨æˆ·ç™»å½•æ ‡å‡†ç±» xxs = new bbb021bç”¨æˆ·ç™»å½•æ ‡å‡†ç±»();
         System.out.println("-----------------");
     }
 }

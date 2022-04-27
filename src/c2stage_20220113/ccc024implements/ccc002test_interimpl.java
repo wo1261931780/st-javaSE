@@ -2,11 +2,11 @@ package c2stage_20220113.ccc024implements;
 
 public class ccc002test_interimpl implements ccc001test_inter {
     int age = 11;
-    // 就算存在变量名重复的问题，多态创建的对象也不会访问实现类中的变量
+    // 灏辩畻瀛樺湪鍙橀噺鍚嶉噸澶嶇殑闂锛屽鎬佸垱寤虹殑瀵硅薄涔熶笉浼氳闂疄鐜扮被涓殑鍙橀噺
 
     @Override
     public void demorun() {
-        System.out.println("我执行了demorun重写操作");
+        System.out.println("鎴戞墽琛屼簡demorun閲嶅啓鎿嶄綔");
         System.out.println(ccc001test_inter.age);
     }
 }

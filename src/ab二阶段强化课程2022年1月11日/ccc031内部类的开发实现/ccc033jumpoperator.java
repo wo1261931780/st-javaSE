@@ -1,13 +1,13 @@
-package ab¶ş½×¶ÎÇ¿»¯¿Î³Ì2022Äê1ÔÂ11ÈÕ.ccc031ÄÚ²¿ÀàµÄ¿ª·¢ÊµÏÖ;
+package abäºŒé˜¶æ®µå¼ºåŒ–è¯¾ç¨‹2022å¹´1æœˆ11æ—¥.ccc031å†…éƒ¨ç±»çš„å¼€å‘å®ç°;
 
 public class ccc033jumpoperator implements ccc034jump {
     @Override
     public void jump() {
-        System.out.println("²Ù×÷ÀàÖĞµÄjump");
+        System.out.println("æ“ä½œç±»ä¸­çš„jump");
     }
 
     public void method(ccc034jump j) {
-        System.out.println("²Ù×÷ÀàÖĞµÄmethod");
+        System.out.println("æ“ä½œç±»ä¸­çš„method");
         j.jump();
         //        new ccc034jump(){
         //            @Override

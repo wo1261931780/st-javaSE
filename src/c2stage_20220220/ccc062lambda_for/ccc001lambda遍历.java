@@ -9,9 +9,9 @@ import java.util.function.Consumer;
  * Project:index.pb
  * Package:c2stage_20220220.ccc062lambda_for
  * User:  wo1261931780@gmail.com
- * Time:  2022-02-13-25  ĞÇÆÚÎå
+ * Time:  2022-02-13-25  æ˜ŸæœŸäº”
  */
-public class ccc001lambda±éÀú {
+public class ccc001lambdaéå† {
     public static void main(String[] args) {
         // int[] x = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
         Collection<Integer> x = new ArrayList<>();
@@ -20,18 +20,18 @@ public class ccc001lambda±éÀú {
         x.add(3);
         x.add(4);
         x.add(5);
-        // ³õÊÔ¸ñÊ½£º
+        // åˆè¯•æ ¼å¼ï¼š
         x.forEach(new Consumer<Integer>() {
             @Override
             public void accept(Integer s) {
                 System.out.println(s);
             }
         });
-        // ¼ò»¯¸ñÊ½1£º
+        // ç®€åŒ–æ ¼å¼1ï¼š
         x.forEach((Integer s) -> System.out.println(s));
-        // ¼ò»¯¸ñÊ½2£º
+        // ç®€åŒ–æ ¼å¼2ï¼š
         x.forEach(s -> System.out.println(s));
-        // ¼ò»¯¸ñÊ½3£º
+        // ç®€åŒ–æ ¼å¼3ï¼š
         x.forEach(System.out::println);
     }
 }

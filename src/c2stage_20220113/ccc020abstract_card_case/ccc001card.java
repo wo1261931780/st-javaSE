@@ -2,8 +2,8 @@ package c2stage_20220113.ccc020abstract_card_case;
 
 public abstract class ccc001card {
     private String name;
-    // private int balance;//Óà¶î¶¼ÊÇÁ½Î»Ğ¡Êı£¬ÒÔºóÒª×¢Òâ
-    private double balance;//Óà¶î¶¼ÊÇÁ½Î»Ğ¡Êı£¬ÒÔºóÒª×¢Òâ
+    // private int balance;//ä½™é¢éƒ½æ˜¯ä¸¤ä½å°æ•°ï¼Œä»¥åè¦æ³¨æ„
+    private double balance;//ä½™é¢éƒ½æ˜¯ä¸¤ä½å°æ•°ï¼Œä»¥åè¦æ³¨æ„
 
     // public abstract void card();
 
@@ -12,7 +12,7 @@ public abstract class ccc001card {
         // System.out.println("pay something" + prices);
         // System.out.println("balance" + (this.balance-prices));
     // }
-    // ³éÏó·½·¨Ã»ÓĞ·½·¨Ìå
+    // æŠ½è±¡æ–¹æ³•æ²¡æœ‰æ–¹æ³•ä½“
 
 
     public String getName() {

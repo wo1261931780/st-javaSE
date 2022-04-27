@@ -6,29 +6,29 @@ import java.util.Date;
 
 public class ccc040 {
     public static void main(String[] args) throws ParseException {
-        // ¹¹½¨¶ÔÏóx1
+        // æ„å»ºå¯¹è±¡x1
         Date x1 = new Date();
-        //ÎªÁË²Ù×÷x1£¬ÎÒĞèÒªÊ¹ÓÃxµÄ·½·¨
+        //ä¸ºäº†æ“ä½œx1ï¼Œæˆ‘éœ€è¦ä½¿ç”¨xçš„æ–¹æ³•
         SimpleDateFormat x = new SimpleDateFormat();
-        // ÓÃÍêÁËÖ®ºó£¬ĞèÒªwÀ´½ÓÊÕ½á¹û
+        // ç”¨å®Œäº†ä¹‹åï¼Œéœ€è¦wæ¥æ¥æ”¶ç»“æœ
         String w = x.format(x1);
-        // ½á¹ûÎª£º2021/5/10 ÏÂÎç4:58
+        // ç»“æœä¸ºï¼š2021/5/10 ä¸‹åˆ4:58
         System.out.println(w);
         // ----------------------------------------------
         // ----------------------------------------------
         // ----------------------------------------------
 
-        // Date x2=new Date();²»ĞèÒªĞÂ½¨Ò»¸öÊ±¼ä
-        SimpleDateFormat xx = new SimpleDateFormat("yyyyÄêMMÔÂddÈÕ HH:mm:ss");
-        //2021Äê05ÔÂ10ÈÕ 17:04:10
+        // Date x2=new Date();ä¸éœ€è¦æ–°å»ºä¸€ä¸ªæ—¶é—´
+        SimpleDateFormat xx = new SimpleDateFormat("yyyyå¹´MMæœˆddæ—¥ HH:mm:ss");
+        //2021å¹´05æœˆ10æ—¥ 17:04:10
         String w2 = xx.format(x1);
         System.out.println(w2);
         System.out.println("-------------------");
 
-        String ss = "1564Äê56ÔÂ54ÈÕ 12:54:87";
-        SimpleDateFormat xxx = new SimpleDateFormat("yyyyÄêMMÔÂddÈÕ HH:mm:ss");
+        String ss = "1564å¹´56æœˆ54æ—¥ 12:54:87";
+        SimpleDateFormat xxx = new SimpleDateFormat("yyyyå¹´MMæœˆddæ—¥ HH:mm:ss");
         Date ss2 = xxx.parse(ss);
-        //alt+enter»áÌŞ³ıÒì³££¬ÊäÈëºó£¬¶¥À¸³öÏÖthrows ParseException
+        //alt+enterä¼šå‰”é™¤å¼‚å¸¸ï¼Œè¾“å…¥åï¼Œé¡¶æ å‡ºç°throws ParseException
         System.out.println(ss2);
 
     }

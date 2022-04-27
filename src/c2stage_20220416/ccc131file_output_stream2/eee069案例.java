@@ -1,18 +1,18 @@
 package c2stage_20220416.ccc131file_output_stream2;
 /*
-    ĞèÇó£º
-        °Ñ¡°E:\\itcast\\´°Àï´°Íâ.txt¡±¸´ÖÆµ½Ä£¿éÄ¿Â¼ÏÂµÄ¡°´°Àï´°Íâ.txt¡±
+    éœ€æ±‚ï¼š
+        æŠŠâ€œE:\\itcast\\çª—é‡Œçª—å¤–.txtâ€å¤åˆ¶åˆ°æ¨¡å—ç›®å½•ä¸‹çš„â€œçª—é‡Œçª—å¤–.txtâ€
 
-        Êı¾İÔ´£º
-            E:\\itcast\\´°Àï´°Íâ.txt --- ¶ÁÊı¾İ --- InputStream --- FileInputStream
-        Ä¿µÄµØ£º
-            myByteStream\\´°Àï´°Íâ.txt --- Ğ´Êı¾İ --- OutputStream --- FileOutputStream
+        æ•°æ®æºï¼š
+            E:\\itcast\\çª—é‡Œçª—å¤–.txt --- è¯»æ•°æ® --- InputStream --- FileInputStream
+        ç›®çš„åœ°ï¼š
+            myByteStream\\çª—é‡Œçª—å¤–.txt --- å†™æ•°æ® --- OutputStream --- FileOutputStream
 
-    Ë¼Â·£º
-        1:¸ù¾İÊı¾İÔ´´´½¨×Ö½ÚÊäÈëÁ÷¶ÔÏó
-        2:¸ù¾İÄ¿µÄµØ´´½¨×Ö½ÚÊä³öÁ÷¶ÔÏó
-        3:¶ÁĞ´Êı¾İ£¬¸´ÖÆÎÄ±¾ÎÄ¼ş(Ò»´Î¶ÁÈ¡Ò»¸ö×Ö½Ú£¬Ò»´ÎĞ´ÈëÒ»¸ö×Ö½Ú)
-        4:ÊÍ·Å×ÊÔ´
+    æ€è·¯ï¼š
+        1:æ ¹æ®æ•°æ®æºåˆ›å»ºå­—èŠ‚è¾“å…¥æµå¯¹è±¡
+        2:æ ¹æ®ç›®çš„åœ°åˆ›å»ºå­—èŠ‚è¾“å‡ºæµå¯¹è±¡
+        3:è¯»å†™æ•°æ®ï¼Œå¤åˆ¶æ–‡æœ¬æ–‡ä»¶(ä¸€æ¬¡è¯»å–ä¸€ä¸ªå­—èŠ‚ï¼Œä¸€æ¬¡å†™å…¥ä¸€ä¸ªå­—èŠ‚)
+        4:é‡Šæ”¾èµ„æº
  */
 
 import java.io.File;
@@ -20,7 +20,7 @@ import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
-public class eee069°¸Àı {
+public class eee069æ¡ˆä¾‹ {
     public static void main(String[] args) throws IOException {
         File x = new File("l:\\java\\demo.txt");
         FileInputStream x1 = new FileInputStream(x);
@@ -32,6 +32,6 @@ public class eee069°¸Àı {
         }
         x1.close();
         x2.close();
-        System.out.println("½áÊø");
+        System.out.println("ç»“æŸ");
     }
 }

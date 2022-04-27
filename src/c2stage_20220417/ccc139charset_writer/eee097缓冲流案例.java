@@ -1,18 +1,18 @@
 package c2stage_20220417.ccc139charset_writer;
 /*
-    ĞèÇó£º
-        °ÑÄ£¿éÄ¿Â¼ÏÂµÄConversionStreamDemo.java ¸´ÖÆµ½Ä£¿éÄ¿Â¼ÏÂµÄ Copy.java
+    éœ€æ±‚ï¼š
+        æŠŠæ¨¡å—ç›®å½•ä¸‹çš„ConversionStreamDemo.java å¤åˆ¶åˆ°æ¨¡å—ç›®å½•ä¸‹çš„ Copy.java
 
-    Ë¼Â·£º
-        1:¸ù¾İÊı¾İÔ´´´½¨×Ö·û»º³åÊäÈëÁ÷¶ÔÏó
-        2:¸ù¾İÄ¿µÄµØ´´½¨×Ö·û»º³åÊä³öÁ÷¶ÔÏó
-        3:¶ÁĞ´Êı¾İ£¬¸´ÖÆÎÄ¼ş
-        4:ÊÍ·Å×ÊÔ´
+    æ€è·¯ï¼š
+        1:æ ¹æ®æ•°æ®æºåˆ›å»ºå­—ç¬¦ç¼“å†²è¾“å…¥æµå¯¹è±¡
+        2:æ ¹æ®ç›®çš„åœ°åˆ›å»ºå­—ç¬¦ç¼“å†²è¾“å‡ºæµå¯¹è±¡
+        3:è¯»å†™æ•°æ®ï¼Œå¤åˆ¶æ–‡ä»¶
+        4:é‡Šæ”¾èµ„æº
  */
 
 import java.io.*;
 
-public class eee097»º³åÁ÷°¸Àı {
+public class eee097ç¼“å†²æµæ¡ˆä¾‹ {
     public static void main(String[] args) throws IOException {
         copydemo();
     }
@@ -28,7 +28,7 @@ public class eee097»º³åÁ÷°¸Àı {
         }
         x1.close();
         x2.close();
-        System.out.println("½áÊø");
+        System.out.println("ç»“æŸ");
 
     }
 }

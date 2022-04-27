@@ -7,27 +7,27 @@ import java.util.LinkedList;
  * Project:index.pb
  * Package:c2stage_20220220.ccc067list_analysis
  * User:  wo1261931780@gmail.com
- * Time:  2022-02-20-30  ĞÇÆÚÁù
+ * Time:  2022-02-20-30  æ˜ŸæœŸå…­
  */
-public class ccc001list·ÖÎö {
+public class ccc001liståˆ†æ {
     public static void main(String[] args) {
         LinkedList<String> x = new LinkedList<>();
-        // ²âÊÔÌØÓĞ¹¦ÄÜµÄÊ±ºò£¬¾Í²»ÄÜ°´ÕÕ¶àÌ¬È¥×ö
+        // æµ‹è¯•ç‰¹æœ‰åŠŸèƒ½çš„æ—¶å€™ï¼Œå°±ä¸èƒ½æŒ‰ç…§å¤šæ€å»åš
         x.addFirst("1q");
         x.addFirst("2q");
         x.addFirst("3q");
         x.addFirst("4q");
         x.addFirst("5q");
         x.addFirst("6q");
-        // ÏÈ½ø£¬ºó³ö
-        // Õ»µÄ¶ÓÁĞ½á¹¹
+        // å…ˆè¿›ï¼Œåå‡º
+        // æ ˆçš„é˜Ÿåˆ—ç»“æ„
         System.out.println(x);// [6q, 5q, 4q, 3q, 2q, 1q]
 
         // ************************
-        System.out.println("»ñÈ¡µÚÒ»¸ö×Óµ¯£º" + x.getFirst());// 6q
-        // °´ÕÕÕ»µÄ½á¹¹£¬ÏÈ½øºó³ö
-        System.out.println("´ò³öµÚÒ»¸ö×Óµ¯£º" + x.removeFirst());
-        System.out.println(x);// Ê£Óà×Óµ¯
+        System.out.println("è·å–ç¬¬ä¸€ä¸ªå­å¼¹ï¼š" + x.getFirst());// 6q
+        // æŒ‰ç…§æ ˆçš„ç»“æ„ï¼Œå…ˆè¿›åå‡º
+        System.out.println("æ‰“å‡ºç¬¬ä¸€ä¸ªå­å¼¹ï¼š" + x.removeFirst());
+        System.out.println(x);// å‰©ä½™å­å¼¹
         System.out.println("***********");
         show();
         showpush();
@@ -35,25 +35,25 @@ public class ccc001list·ÖÎö {
 
     public static void show() {
         LinkedList<String> x = new LinkedList<>();
-        x.addLast("µÚ1¸ö");
-        x.addLast("µÚ2¸ö");
-        x.addLast("µÚ3¸ö");
-        x.addLast("µÚ4¸ö");
-        x.addLast("µÚ5¸ö");
-        x.addLast("µÚ6¸ö");
-        System.out.println(x);// [µÚ1¸ö, µÚ2¸ö, µÚ3¸ö, µÚ4¸ö, µÚ5¸ö, µÚ6¸ö]
-        // °´ÕÕÉú»îµÄÌí¼ÓË³Ğò
-        System.out.println(x.removeFirst());// µÚ1¸ö
-        System.out.println(x);// [µÚ2¸ö, µÚ3¸ö, µÚ4¸ö, µÚ5¸ö, µÚ6¸ö]
+        x.addLast("ç¬¬1ä¸ª");
+        x.addLast("ç¬¬2ä¸ª");
+        x.addLast("ç¬¬3ä¸ª");
+        x.addLast("ç¬¬4ä¸ª");
+        x.addLast("ç¬¬5ä¸ª");
+        x.addLast("ç¬¬6ä¸ª");
+        System.out.println(x);// [ç¬¬1ä¸ª, ç¬¬2ä¸ª, ç¬¬3ä¸ª, ç¬¬4ä¸ª, ç¬¬5ä¸ª, ç¬¬6ä¸ª]
+        // æŒ‰ç…§ç”Ÿæ´»çš„æ·»åŠ é¡ºåº
+        System.out.println(x.removeFirst());// ç¬¬1ä¸ª
+        System.out.println(x);// [ç¬¬2ä¸ª, ç¬¬3ä¸ª, ç¬¬4ä¸ª, ç¬¬5ä¸ª, ç¬¬6ä¸ª]
     }
 
     public static void showpush() {
         LinkedList<String> x = new LinkedList<>();
         x.addFirst("1a");
-        x.push("demo");// Ô´´úÂë¾ÍÊÇaddfirst
+        x.push("demo");// æºä»£ç å°±æ˜¯addfirst
         System.out.println(x);// [demo, 1a]
-        System.out.println(x.pop());// demo£¬Ô´´úÂë¾ÍÊÇremovefirst
+        System.out.println(x.pop());// demoï¼Œæºä»£ç å°±æ˜¯removefirst
 
-        System.out.println(x.offerLast("lll"));//·µ»ØÓĞÃ»ÓĞ³É¹¦£¬Ô´´úÂë¾ÍÊÇaddlast
+        System.out.println(x.offerLast("lll"));//è¿”å›æœ‰æ²¡æœ‰æˆåŠŸï¼Œæºä»£ç å°±æ˜¯addlast
     }
 }

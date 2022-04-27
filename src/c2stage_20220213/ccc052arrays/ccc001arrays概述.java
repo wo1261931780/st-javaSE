@@ -7,27 +7,27 @@ import java.util.Arrays;
  * Project:index.pb
  * Package:c2stage_20220213.ccc052arrays
  * User:  wo1261931780@gmail.com
- * Time:  2022-02-17-45  ĞÇÆÚÈÕ
+ * Time:  2022-02-17-45  æ˜ŸæœŸæ—¥
  */
-public class ccc001arrays¸ÅÊö {
+public class ccc001arraysæ¦‚è¿° {
     public static void main(String[] args) {
-        // arraysÊÇ²Ù×İÊı×éÄÚÈİµÄ¹¤¾ß
+        // arraysæ˜¯æ“çºµæ•°ç»„å†…å®¹çš„å·¥å…·
         int[] x = {1, 2, 13, 231, 23, 1};
         System.out.println(Arrays.toString(x));
         Arrays.sort(x);
         System.out.println(Arrays.toString(x));
-        // arrayÖ÷ÒªÊÇ¸÷ÖÖ²Ù×÷Êı×éµÄ·½·¨
-        // ËµÈË»°¾ÍÊÇ£¬
-        // ¶ÔÓÚÊı×é£¬ÏëÒª×öÅÅĞò£¬Õ¹Ê¾µÈ²Ù×÷£¬Ö±½ÓÓÃarrays¾Í¿ÉÒÔ
+        // arrayä¸»è¦æ˜¯å„ç§æ“ä½œæ•°ç»„çš„æ–¹æ³•
+        // è¯´äººè¯å°±æ˜¯ï¼Œ
+        // å¯¹äºæ•°ç»„ï¼Œæƒ³è¦åšæ’åºï¼Œå±•ç¤ºç­‰æ“ä½œï¼Œç›´æ¥ç”¨arrayså°±å¯ä»¥
         int[] xx = {16, 54, 321, 4, 561, 65, 45, 136, 4};
         System.out.println(Arrays.toString(xx));
-        // sout(xx)Ö±½ÓÕ¹Ê¾£¬Ö»»á³öÏÖÊı×éµØÖ·
-        // tostringÓÃ×Ö·û´®µÄĞÎÊ½·µ»ØÊı×éµÄÄÚÈİ
+        // sout(xx)ç›´æ¥å±•ç¤ºï¼Œåªä¼šå‡ºç°æ•°ç»„åœ°å€
+        // tostringç”¨å­—ç¬¦ä¸²çš„å½¢å¼è¿”å›æ•°ç»„çš„å†…å®¹
         Arrays.sort(xx);
-        // sort½«Êı×é°´ÕÕÊı×ÖË³ĞòÅÅÁĞ
-        // ÅÅĞòºó£¬Ô­Êı×éµØÖ·²»±ä£¬Ö»ÓĞË³Ğò·¢Éú±ä»¯
+        // sortå°†æ•°ç»„æŒ‰ç…§æ•°å­—é¡ºåºæ’åˆ—
+        // æ’åºåï¼ŒåŸæ•°ç»„åœ°å€ä¸å˜ï¼Œåªæœ‰é¡ºåºå‘ç”Ÿå˜åŒ–
         System.out.println(Arrays.toString(xx));
-        // mathºÍarraysÕâÖÖ¹¤¾ßÀà£¬ºóÌ¨(Ô´Âë)ÓÃprivateĞŞÊÎ£¬·ÀÖ¹Íâ½ç´´½¨¶ÔÏó
-        // ³ÉÔ±ÓÃpublic static ĞŞÊÎ£¬Ê¹ÓÃÀàÃûÀ´·ÃÎÊ³ÉÔ±·½·¨
+        // mathå’Œarraysè¿™ç§å·¥å…·ç±»ï¼Œåå°(æºç )ç”¨privateä¿®é¥°ï¼Œé˜²æ­¢å¤–ç•Œåˆ›å»ºå¯¹è±¡
+        // æˆå‘˜ç”¨public static ä¿®é¥°ï¼Œä½¿ç”¨ç±»åæ¥è®¿é—®æˆå‘˜æ–¹æ³•
     }
 }

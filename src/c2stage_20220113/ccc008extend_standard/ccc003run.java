@@ -7,8 +7,8 @@ public class ccc003run {
         x.setAge(11);
         x.setClassnum("22");
         System.out.println(x.getName()+"--"+x.getAge()+"--"+x.getClassnum());
-        x.search_class();//ÍÆ¼öÀàÃû.·½·¨Ãû
-        // ÓÃÉÏÃæµÄ·½·¨½øĞĞ·ÃÎÊ
+        x.search_class();//æ¨èç±»å.æ–¹æ³•å
+        // ç”¨ä¸Šé¢çš„æ–¹æ³•è¿›è¡Œè®¿é—®
         x.see_class();
     }
 }

@@ -1,14 +1,14 @@
-package abÍùÆÚÑ§Ï°2021Äê10ÔÂ2ÈÕ.bbb032¼¯ºÏÁ·Ï°;
+package abå¾€æœŸå­¦ä¹ 2021å¹´10æœˆ2æ—¥.bbb032é›†åˆç»ƒä¹ ;
 
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class bbb034´æ´¢È»ºó±éÀú {
+public class bbb034å­˜å‚¨ç„¶åéå† {
     public static void main(String[] args) {
         // ArrayList<bbb033> arr=new ArrayList<>();
-        // //ÕâÀïÏàµ±ÓÚ£¬<>ÖĞ¼äÊÇÀà£¬arrÊÇ¶ÔÏó£¬ÒâË¼ÊÇ£¬ÎÒÔÚbbb033Õâ¸öÀàÖĞ£¬´´½¨ÁËarrÕâ¸ö¼¯ºÏ£¬¼¯ºÏÊÇĞÂ´´½¨µÄ¶ÔÏó¡£
+        // //è¿™é‡Œç›¸å½“äºï¼Œ<>ä¸­é—´æ˜¯ç±»ï¼Œarræ˜¯å¯¹è±¡ï¼Œæ„æ€æ˜¯ï¼Œæˆ‘åœ¨bbb033è¿™ä¸ªç±»ä¸­ï¼Œåˆ›å»ºäº†arrè¿™ä¸ªé›†åˆï¼Œé›†åˆæ˜¯æ–°åˆ›å»ºçš„å¯¹è±¡ã€‚
         // bbb033 xx=new bbb033();
-        // //Õâ¸öÖ±½Ó´´½¨ĞÂµÄ¶ÔÏó¡£
+        // //è¿™ä¸ªç›´æ¥åˆ›å»ºæ–°çš„å¯¹è±¡ã€‚
         // xx.bbb034("asd",123);
         // // xx.bbb034("bbbbb",333);
         // arr.add(xx);
@@ -17,7 +17,7 @@ public class bbb034´æ´¢È»ºó±éÀú {
         //     arr.get(x);
         //     System.out.println(arr.get(x));
         // }
-        // ÕâÀï¿ÉÒÔÀí½âÎª£¬´´½¨ÁËstringÀàĞÍµÄarr
+        // è¿™é‡Œå¯ä»¥ç†è§£ä¸ºï¼Œåˆ›å»ºäº†stringç±»å‹çš„arr
         ArrayList<String> arr = new ArrayList<>();
         // Random xx=new Random();
         Scanner xx = new Scanner(System.in);
@@ -27,21 +27,21 @@ public class bbb034´æ´¢È»ºó±éÀú {
         //   System.out.println(arr);
         // }
         String x1 = xx.nextLine();
-        //Ö±½ÓÊ¹ÓÃ£¬ÊµÏÖ¶à´ÎÊäÈë
+        //ç›´æ¥ä½¿ç”¨ï¼Œå®ç°å¤šæ¬¡è¾“å…¥
         x1 = xx.nextLine();
-        //µ«ÊÇ±ØĞë¶à´ÎÌí¼Ó½ø¼¯ºÏ
+        //ä½†æ˜¯å¿…é¡»å¤šæ¬¡æ·»åŠ è¿›é›†åˆ
         arr.add(x1);
         x1 = xx.nextLine();
         arr.add(x1);
         x1 = xx.nextLine();
-        //ÕâÀïÖ»±íÊ¾ÊÇ·ñÌí¼Ó³É¹¦
+        //è¿™é‡Œåªè¡¨ç¤ºæ˜¯å¦æ·»åŠ æˆåŠŸ
         arr.add(x1);// true
 
         System.out.println(arr);
-        //        arr.remove();//É¾Ö¸¶¨ÄÚÈİ
-        //        arr.remove();//É¾Ö¸¶¨Î»ÖÃ
-        //        arr.set();//Éè¶¨Ö¸¶¨Î»ÖÃµÄÖ¸¶¨ÄÚÈİ
-        //        arr.get();//»ñµÃÖ¸¶¨Î»ÖÃµÄÄÚÈİ
-        //        arr.size();//»ñµÃ¼¯ºÏÖĞµÄÊıÁ¿
+        //        arr.remove();//åˆ æŒ‡å®šå†…å®¹
+        //        arr.remove();//åˆ æŒ‡å®šä½ç½®
+        //        arr.set();//è®¾å®šæŒ‡å®šä½ç½®çš„æŒ‡å®šå†…å®¹
+        //        arr.get();//è·å¾—æŒ‡å®šä½ç½®çš„å†…å®¹
+        //        arr.size();//è·å¾—é›†åˆä¸­çš„æ•°é‡
     }
 }

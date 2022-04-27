@@ -1,48 +1,48 @@
-package abÍùÆÚÑ§Ï°2021Äê10ÔÂ2ÈÕ.aaa001³õÆÚÑ§Ï°¼¯ºÏ;//package abcÍùÆÚÑ§Ï°2021Äê10ÔÂ2ÈÕ.aaa001³õÆÚÑ§Ï°¼¯ºÏ;
+package abå¾€æœŸå­¦ä¹ 2021å¹´10æœˆ2æ—¥.aaa001åˆæœŸå­¦ä¹ é›†åˆ;//package abcå¾€æœŸå­¦ä¹ 2021å¹´10æœˆ2æ—¥.aaa001åˆæœŸå­¦ä¹ é›†åˆ;
 
 import java.util.Scanner;
 
 /*
 public class b11{
 	public static void main(String[] args){
-		System.out.println("ÇëÊäÈëÊıÖµ£º");
+		System.out.println("è¯·è¾“å…¥æ•°å€¼ï¼š");
 		Scanner b11 = new Scanner(System.in);
 
 		int xx = b11.nextInt();
 		int i = xx;
-		for(System.out.println("¿ªÊ¼Êı¾İÎª£º" + i); xx > 0 ; i = xx + i){
+		for(System.out.println("å¼€å§‹æ•°æ®ä¸ºï¼š" + i); xx > 0 ; i = xx + i){
 			xx = xx - 1;
 		}
-		System.out.println("Êı¾İµÄ½×³ËÊÇ£º" + i);
+		System.out.println("æ•°æ®çš„é˜¶ä¹˜æ˜¯ï¼š" + i);
 	}
 }
 */
 
-// public class aaa008forÑ­»· {
+// public class aaa008forå¾ªç¯ {
 //     public static void main(String[] args) {
 //         Scanner b11 = new Scanner(System.in);
-//         System.out.println("ĞèÒªÑ­»·¶àÉÙ±é£º");
+//         System.out.println("éœ€è¦å¾ªç¯å¤šå°‘éï¼š");
 //
 //         int xx = b11.nextInt();
 //         int i = 1;
-//         // for (System.out.println("¿ªÊ¼Ñ­»·"); i <= xx; i = i + 1) {
-//         for (System.out.println("¿ªÊ¼Ñ­»·"); i <= xx; i++) {
-//             System.out.println("Ñ­»·µÚ" + i + "±é");
+//         // for (System.out.println("å¼€å§‹å¾ªç¯"); i <= xx; i = i + 1) {
+//         for (System.out.println("å¼€å§‹å¾ªç¯"); i <= xx; i++) {
+//             System.out.println("å¾ªç¯ç¬¬" + i + "é");
 //         }
-//         System.out.println("Ñ­»·½áÊø----------------------------");
+//         System.out.println("å¾ªç¯ç»“æŸ----------------------------");
 //     }
 // }
 
-// public class aaa008forÑ­»· {
+// public class aaa008forå¾ªç¯ {
 //     public static void main(String[] args) {
-//         System.out.println("2021Äê9ÔÂ7ÈÕ11:17:07----");
+//         System.out.println("2021å¹´9æœˆ7æ—¥11:17:07----");
 //         Scanner xx = new Scanner(System.in);
-//         System.out.println("ÇëÊäÈë³õÊ¼Êı¾İ£º");
+//         System.out.println("è¯·è¾“å…¥åˆå§‹æ•°æ®ï¼š");
 //         int x1 = xx.nextInt();
 //         // int x1 = 0;
 //         // for (int i = 0; i < 5; i++) {
 //         for (int i = 0, x2 = i; i <= x1; i++) {
-//             //ÉÏÃæÓ¦¸ÃÊÇ·ÖºÅ£¬ÒâÎ¶×ÅÖĞ¼ä¿ÉÒÔÊÇÒ»¸ö±í´ïÊ½
+//             //ä¸Šé¢åº”è¯¥æ˜¯åˆ†å·ï¼Œæ„å‘³ç€ä¸­é—´å¯ä»¥æ˜¯ä¸€ä¸ªè¡¨è¾¾å¼
 //             x2 += i;
 //
 //             System.out.println(i);
@@ -51,17 +51,17 @@ public class b11{
 //             System.out.println("---");
 //         }
 //         System.out.println(x1);
-//         //ÕâÀïx1=15£¬¶ø²»ÊÇ0£¬×îÖÕÊä³öx1µÄÖµÎª×ÜºÍ
+//         //è¿™é‡Œx1=15ï¼Œè€Œä¸æ˜¯0ï¼Œæœ€ç»ˆè¾“å‡ºx1çš„å€¼ä¸ºæ€»å’Œ
 //     }
 // }
 
-public class aaa008forÑ­»· {
+public class aaa008forå¾ªç¯ {
     /**
-     * ÇóÅ¼ÊıºÍ£¬2021Äê9ÔÂ7ÈÕ14:17:41
+     * æ±‚å¶æ•°å’Œï¼Œ2021å¹´9æœˆ7æ—¥14:17:41
      */
     public static void main(String[] args) {
         Scanner xx = new Scanner(System.in);
-        System.out.println("ÇëÊäÈë³õÊ¼Êı¾İ£º");
+        System.out.println("è¯·è¾“å…¥åˆå§‹æ•°æ®ï¼š");
         int x1 = xx.nextInt();
         for (int i = 0, x2 = i; i <= x1; i++) {
             if (i % 2 == 0) {
@@ -69,18 +69,18 @@ public class aaa008forÑ­»· {
             }
             System.out.println(i);
             System.out.println(x1);
-            System.out.println("Å¼ÊıÇóºÍ½á¹û£º" + x2);
+            System.out.println("å¶æ•°æ±‚å’Œç»“æœï¼š" + x2);
             System.out.println("---");
         }
         System.out.println(x1);
     }
-    // 2021Äê12ÔÂ16ÈÕ10:57:34£¬²¹³äÑ§Ï°
+    // 2021å¹´12æœˆ16æ—¥10:57:34ï¼Œè¡¥å……å­¦ä¹ 
     public static void show() {
         System.out.println("---------------------");
-        for (int i = 1; i <= 5; i+=2) {//Ö´ĞĞÈı´Î
+        for (int i = 1; i <= 5; i+=2) {//æ‰§è¡Œä¸‰æ¬¡
             System.out.println("HelloWorld");
         }
-        // for+i£¬Ö±½Ó³öÏÖÒ»¸öÑ­»·
+        // for+iï¼Œç›´æ¥å‡ºç°ä¸€ä¸ªå¾ªç¯
     }
 
 }

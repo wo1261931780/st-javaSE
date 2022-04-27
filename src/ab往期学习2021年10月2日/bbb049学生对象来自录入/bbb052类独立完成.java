@@ -1,13 +1,13 @@
-package abÍùÆÚÑ§Ï°2021Äê10ÔÂ2ÈÕ.bbb049Ñ§Éú¶ÔÏóÀ´×ÔÂ¼Èë;
+package abå¾€æœŸå­¦ä¹ 2021å¹´10æœˆ2æ—¥.bbb049å­¦ç”Ÿå¯¹è±¡æ¥è‡ªå½•å…¥;
 
-public class bbb052Àà¶ÀÁ¢Íê³É {
+public class bbb052ç±»ç‹¬ç«‹å®Œæˆ {
     private String name = "";
     private int age = 0;
 
-    public bbb052Àà¶ÀÁ¢Íê³É() {
+    public bbb052ç±»ç‹¬ç«‹å®Œæˆ() {
     }
 
-    public bbb052Àà¶ÀÁ¢Íê³É(String name, int age) {
+    public bbb052ç±»ç‹¬ç«‹å®Œæˆ(String name, int age) {
         this.name = name;
         this.age = age;
         System.out.println(name + age);

@@ -5,8 +5,8 @@ import java.util.Scanner;
 public class demo_leetcode {
     public static void main(String[] args) {
         Scanner x = new Scanner(System.in);
-        while (x.hasNextInt()) {//自动判断是否有输入，
-            // 同时设置死循环，重复调用命令
+        while (x.hasNextInt()) {//鑷姩鍒ゆ柇鏄惁鏈夎緭鍏ワ紝
+            // 鍚屾椂璁剧疆姝诲惊鐜紝閲嶅璋冪敤鍛戒护
             int type_num = x.nextInt();
             run(type_num);
         }

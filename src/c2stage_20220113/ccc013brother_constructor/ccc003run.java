@@ -5,14 +5,14 @@ public class ccc003run {
         ccc001father x=new ccc001father();
         x.setName("aa");
         System.out.println(x.getName()+"--"+x.getAge());//aa--0
-        // ÕâÀïÃ»ÓĞ¸³Öµ£¬ËùÒÔÊ¹ÓÃµÄÊÇÎŞ²Î¹¹Ôì·½·¨
+        // è¿™é‡Œæ²¡æœ‰èµ‹å€¼ï¼Œæ‰€ä»¥ä½¿ç”¨çš„æ˜¯æ— å‚æ„é€ æ–¹æ³•
         ccc001father x1=new ccc001father("bb");
         System.out.println(x1.getName()+"--"+x1.getAge());// bb--11
-        // ÕâÀïÊ¹ÓÃµÄÊÇĞÖµÜ¹¹ÔìÆ÷£¬ËùÒÔÄ¬ÈÏ¸øÁË11
+        // è¿™é‡Œä½¿ç”¨çš„æ˜¯å…„å¼Ÿæ„é€ å™¨ï¼Œæ‰€ä»¥é»˜è®¤ç»™äº†11
 
         ccc001father x2=new ccc001father("cc",33);
         System.out.println(x2.getName()+"--"+x2.getAge());// cc--33
-        // ´ø²Î¹¹Ôì·½·¨
+        // å¸¦å‚æ„é€ æ–¹æ³•
 
 
 

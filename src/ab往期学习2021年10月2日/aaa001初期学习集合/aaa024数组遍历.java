@@ -1,20 +1,20 @@
-package abÍùÆÚÑ§Ï°2021Äê10ÔÂ2ÈÕ.aaa001³õÆÚÑ§Ï°¼¯ºÏ;
+package abå¾€æœŸå­¦ä¹ 2021å¹´10æœˆ2æ—¥.aaa001åˆæœŸå­¦ä¹ é›†åˆ;
 
-public class aaa024Êı×é±éÀú {
+public class aaa024æ•°ç»„éå† {
     public static void main(String[] args) {
         int[] xx = {1, 654, 6, 3, 54, 6, 156};
-        // ¾²Ì¬³õÊ¼»¯
+        // é™æ€åˆå§‹åŒ–
         bl(xx);
-        // µ÷ÓÃ·½·¨±éÀúÊı×é
+        // è°ƒç”¨æ–¹æ³•éå†æ•°ç»„
     }
 
     public static void bl(int[] xx) {
         int x = 0;
         System.out.print("[");
-        for (System.out.println("¿ªÊ¼±éÀú£º"); x < xx.length; x++) {
+        for (System.out.println("å¼€å§‹éå†ï¼š"); x < xx.length; x++) {
             if (x < xx.length - 1) {
                 System.out.print(xx[x] + ",");
-                // ÕâÀïÖ±½ÓÊ¹ÓÃ´òÓ¡µÄ·½Ê½Æ´½Ó
+                // è¿™é‡Œç›´æ¥ä½¿ç”¨æ‰“å°çš„æ–¹å¼æ‹¼æ¥
             } else {
                 System.out.print(xx[x]);
             }

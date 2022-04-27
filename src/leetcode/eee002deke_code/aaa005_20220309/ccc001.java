@@ -10,16 +10,16 @@ import java.util.Set;
  * Project:index.pb
  * Package:leetcode.eee002deke_code.aaa005_20220309
  * User:  wo1261931780@gmail.com
- * Time:  2022-03-11-38  ĞÇÆÚÈı
+ * Time:  2022-03-11-38  æ˜ŸæœŸä¸‰
  */
 public class ccc001 {
     public static void main(String[] args) {
         int[] x = {452, 3, 54, 98, 7, 987, 9, 7, 79, 78, 7, 894, 62, 132, 1};
 
-        // show1(x);// Ö±½ÓÊ¹ÓÃarraysÅÅĞò
-        // show2(x);// ÀûÓÃÁË²åÈëÅÅĞòµÄË¼Ïë
-        // show3(x);// ÀûÓÃÁËset¼¯ºÏµÄË¼Ïë,µ«ÊÇset¼¯ºÏÃ»ÓĞÖØ¸´ÔªËØ
-        show4(x);// ÀûÓÃÁË²åÈëÅÅĞòµÄË¼Ïë
+        // show1(x);// ç›´æ¥ä½¿ç”¨arraysæ’åº
+        // show2(x);// åˆ©ç”¨äº†æ’å…¥æ’åºçš„æ€æƒ³
+        // show3(x);// åˆ©ç”¨äº†seté›†åˆçš„æ€æƒ³,ä½†æ˜¯seté›†åˆæ²¡æœ‰é‡å¤å…ƒç´ 
+        show4(x);// åˆ©ç”¨äº†æ’å…¥æ’åºçš„æ€æƒ³
 
 
     }

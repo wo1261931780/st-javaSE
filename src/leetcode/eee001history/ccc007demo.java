@@ -7,7 +7,7 @@ import java.util.Scanner;
  * Project:index.pb
  * Package:leetcode
  * User:  wo1261931780@gmail.com
- * Time:  2022-02-23-47  ÐÇÆÚÈÕ
+ * Time:  2022-02-23-47  æ˜ŸæœŸæ—¥
  */
 public class ccc007demo {
 
@@ -17,7 +17,7 @@ public class ccc007demo {
         String x2=x.nextLine();
         int j=0;
         String demo1=x1.toUpperCase();// Converts all of the characters in this String to upper case using the rules of the default locale. This method is equivalent to toUpperCase(Locale.getDefault()).
-        // ½«ËùÓÐµÄchar×Ö·û×ª»¯Îª´óÐ´µÄStringÀàÐÍ
+        // å°†æ‰€æœ‰çš„charå­—ç¬¦è½¬åŒ–ä¸ºå¤§å†™çš„Stringç±»åž‹
         String demo2=x2.toUpperCase();
         for(int i=0;i<demo1.length();i++){
             String x3=String.valueOf(demo1.charAt(i));

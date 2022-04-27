@@ -1,13 +1,13 @@
 package c2stage_20220113.ccc016final;
 
 /**
- * public final class ccc014fu {}×îÖÕ×´Ì¬ºó£¬ÎŞ·¨±»¼Ì³Ğ¡£
+ * public final class ccc014fu {}æœ€ç»ˆçŠ¶æ€åï¼Œæ— æ³•è¢«ç»§æ‰¿ã€‚
  */
 public class ccc014fu {
     /**
-     * public final void way(){}±»¶¨Òåºó£¬ÎŞ·¨±»ÖØĞ´
+     * public final void way(){}è¢«å®šä¹‰åï¼Œæ— æ³•è¢«é‡å†™
      */
     public void way() {
-        System.out.println("ÎÒÊÇ¸¸Ààway·½·¨");
+        System.out.println("æˆ‘æ˜¯çˆ¶ç±»wayæ–¹æ³•");
     }
 }

@@ -1,28 +1,28 @@
-package ab¶ş½×¶ÎÇ¿»¯¿Î³Ì2022Äê1ÔÂ11ÈÕ.ccc026ÔË¶¯Ô±ºÍ½ÌÁ·°¸Àı;
+package abäºŒé˜¶æ®µå¼ºåŒ–è¯¾ç¨‹2022å¹´1æœˆ11æ—¥.ccc026è¿åŠ¨å‘˜å’Œæ•™ç»ƒæ¡ˆä¾‹;
 
 public class ccc035demo {
     public static void main(String[] args) {
-        ccc031Æ¹ÅÒÇòÔË¶¯Ô± p1 = new ccc031Æ¹ÅÒÇòÔË¶¯Ô±(11, "aaa");
+        ccc031ä¹’ä¹“çƒè¿åŠ¨å‘˜ p1 = new ccc031ä¹’ä¹“çƒè¿åŠ¨å‘˜(11, "aaa");
         System.out.println("player information-------------");
-        System.out.println("¶ÓÔ±ĞÕÃû£º" + p1.getName() + "---¶ÓÔ±ÄêÁä£º" + p1.getAge());
+        System.out.println("é˜Ÿå‘˜å§“åï¼š" + p1.getName() + "---é˜Ÿå‘˜å¹´é¾„ï¼š" + p1.getAge());
         p1.eat();
         p1.study();
         p1.learn();
         System.out.println("guide information-------------");
-        ccc033Æ¹ÅÒÇò½ÌÁ· g1 = new ccc033Æ¹ÅÒÇò½ÌÁ·(35, "ggg");
-        System.out.println("½ÌÁ·ĞÕÃû£º" + g1.getName() + "---½ÌÁ·ÄêÁä£º" + g1.getAge());
+        ccc033ä¹’ä¹“çƒæ•™ç»ƒ g1 = new ccc033ä¹’ä¹“çƒæ•™ç»ƒ(35, "ggg");
+        System.out.println("æ•™ç»ƒå§“åï¼š" + g1.getName() + "---æ•™ç»ƒå¹´é¾„ï¼š" + g1.getAge());
         g1.eat();
         g1.teach();
         g1.learn();
         System.out.println("-------------------------------------");
         System.out.println("player information-------------");
-        ccc032ÀºÇòÔË¶¯Ô± p2 = new ccc032ÀºÇòÔË¶¯Ô±(22, "bbb");
-        System.out.println("¶ÓÔ±ĞÕÃû£º" + p2.getName() + "---¶ÓÔ±ÄêÁä£º" + p2.getAge());
+        ccc032ç¯®çƒè¿åŠ¨å‘˜ p2 = new ccc032ç¯®çƒè¿åŠ¨å‘˜(22, "bbb");
+        System.out.println("é˜Ÿå‘˜å§“åï¼š" + p2.getName() + "---é˜Ÿå‘˜å¹´é¾„ï¼š" + p2.getAge());
         p2.eat();
         p2.study();
         System.out.println("guide information-------------");
-        ccc034ÀºÇò½ÌÁ· g2 = new ccc034ÀºÇò½ÌÁ·(45, "wwwww");
-        System.out.println("½ÌÁ·ĞÕÃû£º" + g2.getName() + "---½ÌÁ·ÄêÁä£º" + g2.getAge());
+        ccc034ç¯®çƒæ•™ç»ƒ g2 = new ccc034ç¯®çƒæ•™ç»ƒ(45, "wwwww");
+        System.out.println("æ•™ç»ƒå§“åï¼š" + g2.getName() + "---æ•™ç»ƒå¹´é¾„ï¼š" + g2.getAge());
         g2.eat();
         g2.teach();
     }

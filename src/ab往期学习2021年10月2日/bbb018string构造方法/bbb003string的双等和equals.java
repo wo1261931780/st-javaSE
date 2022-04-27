@@ -1,28 +1,28 @@
-package abÍùÆÚÑ§Ï°2021Äê10ÔÂ2ÈÕ.bbb018string¹¹Ôì·½·¨;
+package abå¾€æœŸå­¦ä¹ 2021å¹´10æœˆ2æ—¥.bbb018stringæ„é€ æ–¹æ³•;
 
 import java.util.Scanner;
 
-public class bbb003stringµÄË«µÈºÍequals {
+public class bbb003stringçš„åŒç­‰å’Œequals {
     public static void main(String[] args) {
         String name = "11A";
         String paw = "22A";
         Scanner x = new Scanner(System.in);
-        System.out.println("ÕËºÅ");
+        System.out.println("è´¦å·");
         String x1 = x.nextLine();
-        System.out.println("ÃÜÂë£º");
+        System.out.println("å¯†ç ï¼š");
         String x2 = x.nextLine();
-        // if (name == x1 && paw == x2) {//Ë«µÈºÅ±È½ÏµÄÊÇµØÖ·£¬Èç¹û±È½ÏÄÚÈİ±ØĞëÓÃequals·½·¨
-        // equalsÀ¨ºÅÄÚÎªobject£¬±íÊ¾¿ÉÒÔÊÇÈÎÒâÄÚÈİ
-        // ÕâÀï»áÇø·Ö´óĞ¡Ğ´
+        // if (name == x1 && paw == x2) {//åŒç­‰å·æ¯”è¾ƒçš„æ˜¯åœ°å€ï¼Œå¦‚æœæ¯”è¾ƒå†…å®¹å¿…é¡»ç”¨equalsæ–¹æ³•
+        // equalsæ‹¬å·å†…ä¸ºobjectï¼Œè¡¨ç¤ºå¯ä»¥æ˜¯ä»»æ„å†…å®¹
+        // è¿™é‡Œä¼šåŒºåˆ†å¤§å°å†™
         if (name.equals(x1) && paw.equals(x2)) {
             System.out.println("correct");
         } else {
             System.out.println("please try again");
         }
-        // ºöÂÔ´óĞ¡Ğ´±È½ÏÄÚÈİµÄApi: Ò»°ãÓÃÓÚ±È½ÏÑéÖ¤ÂëÕâÑùµÄÒµÎñÂß¼­
+        // å¿½ç•¥å¤§å°å†™æ¯”è¾ƒå†…å®¹çš„Api: ä¸€èˆ¬ç”¨äºæ¯”è¾ƒéªŒè¯ç è¿™æ ·çš„ä¸šåŠ¡é€»è¾‘
         if (name.equalsIgnoreCase(x1) && paw.equalsIgnoreCase(x2)) {
-            System.out.println("²»Çø·Ö´óĞ¡Ğ´£¬ÄÚÈİÕıÈ·");
+            System.out.println("ä¸åŒºåˆ†å¤§å°å†™ï¼Œå†…å®¹æ­£ç¡®");
         }
-        // »ù±¾Êı¾İÀàĞÍÓÃË«µÈ£¬ÒıÓÃÊı¾İÀàĞÍÓÃequals
+        // åŸºæœ¬æ•°æ®ç±»å‹ç”¨åŒç­‰ï¼Œå¼•ç”¨æ•°æ®ç±»å‹ç”¨equals
     }
 }

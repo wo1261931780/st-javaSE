@@ -1,59 +1,59 @@
-package abÍùÆÚÑ§Ï°2021Äê10ÔÂ2ÈÕ.aaa001³õÆÚÑ§Ï°¼¯ºÏ;
+package abå¾€æœŸå­¦ä¹ 2021å¹´10æœˆ2æ—¥.aaa001åˆæœŸå­¦ä¹ é›†åˆ;
 
 import java.util.Random;
 import java.util.Scanner;
 
-public class aaa006ifelseÅĞ¶ÏÊÇĞÇÆÚ¼¸ {
+public class aaa006ifelseåˆ¤æ–­æ˜¯æ˜ŸæœŸå‡  {
     public static void main(String[] args) {
-		/*System.out.println("ÊäÈëÊ±¼ä£º");
+		/*System.out.println("è¾“å…¥æ—¶é—´ï¼š");
 		Scanner b11 = new Scanner(System.in);
 		int x1 = b11.nextInt();
 		if (x1 == 1){
-			System.out.println("Ê±¼äÊÇ£ºĞÇÆÚÒ»");
+			System.out.println("æ—¶é—´æ˜¯ï¼šæ˜ŸæœŸä¸€");
 			}else if (x1 == 2){
-			System.out.println("Ê±¼äÊÇ£ºĞÇÆÚ¶ş");
+			System.out.println("æ—¶é—´æ˜¯ï¼šæ˜ŸæœŸäºŒ");
 			}else if (x1 == 3){
-			System.out.println("Ê±¼äÊÇ£ºĞÇÆÚÈı");
+			System.out.println("æ—¶é—´æ˜¯ï¼šæ˜ŸæœŸä¸‰");
 			}else if (x1 == 4){
-			System.out.println("Ê±¼äÊÇ£ºĞÇÆÚËÄ");
+			System.out.println("æ—¶é—´æ˜¯ï¼šæ˜ŸæœŸå››");
 			}else if (x1 == 5){
-			System.out.println("Ê±¼äÊÇ£ºĞÇÆÚÎå");
+			System.out.println("æ—¶é—´æ˜¯ï¼šæ˜ŸæœŸäº”");
 			}else if (x1 == 6){
-			System.out.println("Ê±¼äÊÇ£ºĞÇÆÚÁù");
+			System.out.println("æ—¶é—´æ˜¯ï¼šæ˜ŸæœŸå…­");
 			}else if (x1 == 7){
-			System.out.println("Ê±¼äÊÇ£ºĞÇÆÚÈÕ");
+			System.out.println("æ—¶é—´æ˜¯ï¼šæ˜ŸæœŸæ—¥");
 			}
 		else{
-			System.out.println("Ê±¼ä´íÎó");
+			System.out.println("æ—¶é—´é”™è¯¯");
 		}*/
-        System.out.println("Ğ¡Ã÷µÄÆÚÄ©³É¼¨£º");
+        System.out.println("å°æ˜çš„æœŸæœ«æˆç»©ï¼š");
         Scanner b11 = new Scanner(System.in);
         int x1 = b11.nextInt();
 
         if (0 <= x1 && x1 <= 60) {
-            System.out.println("Ğ¡Ã÷±»»î»î´òËÀ");
+            System.out.println("å°æ˜è¢«æ´»æ´»æ‰“æ­»");
         } else if (60 < x1 && x1 <= 75) {
-            System.out.println("Ğ¡Ã÷±»»î»î¶öËÀ");
+            System.out.println("å°æ˜è¢«æ´»æ´»é¥¿æ­»");
         } else if (75 < x1 && x1 < 90) {
-            System.out.println("¿¼ÊÔ½áÊøÆ¨¹É¿ª»¨");
+            System.out.println("è€ƒè¯•ç»“æŸå±è‚¡å¼€èŠ±");
         } else if (90 < x1 && x1 <= 100) {
-            System.out.println("¿¼ÊÔ½áÊøÈ¥Å·ÖŞÂÃÓÎ");
+            System.out.println("è€ƒè¯•ç»“æŸå»æ¬§æ´²æ—…æ¸¸");
         } else {
-            System.out.println("·ÖÊı´íÎó¡£");
+            System.out.println("åˆ†æ•°é”™è¯¯ã€‚");
         }
-        //Êı¾İ²âÊÔ£ºÕıÈ·Êı¾İ£¬±ß½çÊı¾İ£¬´íÎóÊı¾İ
+        //æ•°æ®æµ‹è¯•ï¼šæ­£ç¡®æ•°æ®ï¼Œè¾¹ç•Œæ•°æ®ï¼Œé”™è¯¯æ•°æ®
         show();
 		/*
 		if (0 <= x1 <= 60){
-			System.out.println("Ğ¡Ã÷±»»î»î´òËÀ");
+			System.out.println("å°æ˜è¢«æ´»æ´»æ‰“æ­»");
 		}else if (60 < x1 <= 75){
-			System.out.println("Ğ¡Ã÷±»»î»î¶öËÀ");
+			System.out.println("å°æ˜è¢«æ´»æ´»é¥¿æ­»");
 		}else if (75 < x1 <= 90){
-			System.out.println("¿¼ÊÔ½áÊøÆ¨¹É¿ª»¨");
+			System.out.println("è€ƒè¯•ç»“æŸå±è‚¡å¼€èŠ±");
 		}else if (90 < x1 <= 100){
-			System.out.println("¿¼ÊÔ½áÊøÈ¥Å·ÖŞÂÃÓÎ");
+			System.out.println("è€ƒè¯•ç»“æŸå»æ¬§æ´²æ—…æ¸¸");
 		}else
-			System.out.println("·ÖÊı´íÎó¡£");*/
+			System.out.println("åˆ†æ•°é”™è¯¯ã€‚");*/
     }
 
     public static void show() {

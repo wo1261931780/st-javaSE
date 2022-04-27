@@ -7,15 +7,15 @@ public class ccc001feature {
 
 
     }
-    // ¸Ã·½·¨¼¯ÖÐÌåÏÖÁË¶àÌ¬µÄÓÅÊÆ
-    // Ê×ÏÈshow·½·¨ÖÐ£¬ÐèÒªµÄÊÇanimalÀàÐÍµÄ¶ÔÏó
-    // µ«ÊÇÎÒÔÚÉÏÃæµ÷ÓÃµÄÊ±ºò£¬Ö±½ÓÊ¹ÓÃdogÀà¶ÔÏó
-    // ½á¹ûÊÇ£¬ÕâÀïµÄshow·½·¨ÔËÓÃÁË¶àÌ¬µÄ·½Ê½½øÐÐ´´½¨
-    // Ïàµ±ÓÚshow(ccc017animal x=new ccc018dog)
-    // ÓÚÊÇshow·½·¨ÄÚÊ¹ÓÃµÄeat£¬ÊÇdogÀàÖÐµÄ·½·¨Ìå
+    // è¯¥æ–¹æ³•é›†ä¸­ä½“çŽ°äº†å¤šæ€çš„ä¼˜åŠ¿
+    // é¦–å…ˆshowæ–¹æ³•ä¸­ï¼Œéœ€è¦çš„æ˜¯animalç±»åž‹çš„å¯¹è±¡
+    // ä½†æ˜¯æˆ‘åœ¨ä¸Šé¢è°ƒç”¨çš„æ—¶å€™ï¼Œç›´æŽ¥ä½¿ç”¨dogç±»å¯¹è±¡
+    // ç»“æžœæ˜¯ï¼Œè¿™é‡Œçš„showæ–¹æ³•è¿ç”¨äº†å¤šæ€çš„æ–¹å¼è¿›è¡Œåˆ›å»º
+    // ç›¸å½“äºŽshow(ccc017animal x=new ccc018dog)
+    // äºŽæ˜¯showæ–¹æ³•å†…ä½¿ç”¨çš„eatï¼Œæ˜¯dogç±»ä¸­çš„æ–¹æ³•ä½“
 
     // -------------------------------------
-    // ÔËÓÃÕâÖÖ·½·¨µÄºÃ´¦ÊÇ£¬showÄÚ²¿¿ÉÒÔµ÷ÓÃËùÓÐµÄ¶¯ÎïÀà¶ÔÏó
+    // è¿ç”¨è¿™ç§æ–¹æ³•çš„å¥½å¤„æ˜¯ï¼Œshowå†…éƒ¨å¯ä»¥è°ƒç”¨æ‰€æœ‰çš„åŠ¨ç‰©ç±»å¯¹è±¡
 
 
     public static void show(ccc017animal x){

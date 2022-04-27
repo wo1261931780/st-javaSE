@@ -1,4 +1,4 @@
-package ab¶ş½×¶ÎÇ¿»¯¿Î³Ì2022Äê1ÔÂ11ÈÕ.ccc031ÄÚ²¿ÀàµÄ¿ª·¢ÊµÏÖ;
+package abäºŒé˜¶æ®µå¼ºåŒ–è¯¾ç¨‹2022å¹´1æœˆ11æ—¥.ccc031å†…éƒ¨ç±»çš„å¼€å‘å®ç°;
 
 public class ccc032demo {
     public static void main(String[] args) {
@@ -12,7 +12,7 @@ public class ccc032demo {
             @Override
             public void jump() {
                 System.out.println("finish");
-            }//ÄäÃûÄÚ²¿Àà£¬¼õÉÙÁË´´½¨ÀàµÄ¹ı³Ì£¬Ö±½ÓÓÃÀàµÄĞÎÊ½´´½¨ÁË¶ÔÏó
+            }//åŒ¿åå†…éƒ¨ç±»ï¼Œå‡å°‘äº†åˆ›å»ºç±»çš„è¿‡ç¨‹ï¼Œç›´æ¥ç”¨ç±»çš„å½¢å¼åˆ›å»ºäº†å¯¹è±¡
         });
     }
 }

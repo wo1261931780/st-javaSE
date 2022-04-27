@@ -1,56 +1,56 @@
 package c2stage_20220202.ccc035object_api_stringbuilder;
-// 2021Äê9ÔÂ18ÈÕ14:38:56
-// Ê¹ÓÃstringbuilderÀàµÄÒâÒåÔÚÓÚ£º
-// Ã¿´ÎÊ¹ÓÃstringÉèÖÃ×Ö·û´®£¬¶¼»áÒòÎªĞÂ×Ö·û´®£¬³öÏÖÒ»¸öĞÂµÄÄÚ´æµØÖ·
-// ½ø¶øµ¼ÖÂÄÚ´æÕ¼ÓÃ¹ı¶à
-// stringbuilder¿ÉÒÔÀí½âÎªÒ»¸ö¿É±äÈİÆ÷
+// 2021å¹´9æœˆ18æ—¥14:38:56
+// ä½¿ç”¨stringbuilderç±»çš„æ„ä¹‰åœ¨äºï¼š
+// æ¯æ¬¡ä½¿ç”¨stringè®¾ç½®å­—ç¬¦ä¸²ï¼Œéƒ½ä¼šå› ä¸ºæ–°å­—ç¬¦ä¸²ï¼Œå‡ºç°ä¸€ä¸ªæ–°çš„å†…å­˜åœ°å€
+// è¿›è€Œå¯¼è‡´å†…å­˜å ç”¨è¿‡å¤š
+// stringbuilderå¯ä»¥ç†è§£ä¸ºä¸€ä¸ªå¯å˜å®¹å™¨
 
 
-public class ccc002StringBuild×¢Òâµã {
+public class ccc002StringBuildæ³¨æ„ç‚¹ {
     public static void main(String[] args) {
-        // 2021Äê9ÔÂ18ÈÕ14:42:35£¬
-        // ÉÏÃæÒ»¹²Á½ÖÖ¹¹Ôì·½·¨£¬Ò»ÖÖ´ø²ÎÊı£¬Ò»ÖÖ²»´ø²ÎÊı
+        // 2021å¹´9æœˆ18æ—¥14:42:35ï¼Œ
+        // ä¸Šé¢ä¸€å…±ä¸¤ç§æ„é€ æ–¹æ³•ï¼Œä¸€ç§å¸¦å‚æ•°ï¼Œä¸€ç§ä¸å¸¦å‚æ•°
         StringBuilder a1 = new StringBuilder();
-        //newÒ²¿ÉÒÔÍ¨¹ıºó×º£¬×Ô¶¯²¹³äÇ°×º
+        //newä¹Ÿå¯ä»¥é€šè¿‡åç¼€ï¼Œè‡ªåŠ¨è¡¥å……å‰ç¼€
         StringBuilder demostring = new StringBuilder("111");
-        //demostringµÄ½á¹ûÎª111
-        System.out.println("demostringµÄ×Ö·ûÎª£º" + demostring);
+        //demostringçš„ç»“æœä¸º111
+        System.out.println("demostringçš„å­—ç¬¦ä¸ºï¼š" + demostring);
         System.out.println("-------------------------------------------");
 
         StringBuilder x0 = demostring.append(222);
-        // x0µÄÒâË¼ÊÇ£¬ÔÚdemostringµÄºóÃæ¼ÓÉÏ222£¬È»ºó¸³Öµ¸øx0
-        // Êä³öx0£¬Êµ¼ÊÉÏ»áÊä³öÒÑ¾­Ôö¼Ó³¤¶ÈµÄdemostring
-        // Í¬Ê±£¬ÕâÀïÊÇ°Ñdemostring¸³Öµ¸øx0£¬ËùÒÔ¶şÕßµØÖ·ÏàÍ¬£¬
+        // x0çš„æ„æ€æ˜¯ï¼Œåœ¨demostringçš„åé¢åŠ ä¸Š222ï¼Œç„¶åèµ‹å€¼ç»™x0
+        // è¾“å‡ºx0ï¼Œå®é™…ä¸Šä¼šè¾“å‡ºå·²ç»å¢åŠ é•¿åº¦çš„demostring
+        // åŒæ—¶ï¼Œè¿™é‡Œæ˜¯æŠŠdemostringèµ‹å€¼ç»™x0ï¼Œæ‰€ä»¥äºŒè€…åœ°å€ç›¸åŒï¼Œ
         StringBuilder x1 = demostring.append(333);
-        System.out.println("x0µÄ½á¹ûÎª£º" + x0);// ½á¹ûÊÇ111222333
+        System.out.println("x0çš„ç»“æœä¸ºï¼š" + x0);// ç»“æœæ˜¯111222333
 
         System.out.println("-------------------------------------------");
 
-        if (demostring == x0) {// ½á¹ûÎªtrue
+        if (demostring == x0) {// ç»“æœä¸ºtrue
             System.out.println(true);
-            System.out.println("demostringºÍx0ÍêÈ«ÏàÍ¬");
+            System.out.println("demostringå’Œx0å®Œå…¨ç›¸åŒ");
         } else {
             System.out.println(false);
-            System.out.println("²»ÏàÍ¬");
+            System.out.println("ä¸ç›¸åŒ");
         }
         System.out.println("-------------------------------------------");
 
-        demostring.append("iii");//À¨ºÅÄÚÊÇ×Ö·û´®ĞèÒª¼ÓÉÏË«ÒıºÅ£¬ÆäËû¿ÉÒÔÖ±½Ó¸ú½á¹û
-        demostring.append(555).append(666).append(777);//Á´Ê½±à³Ì£¬Ò²ËµÃ÷²»ĞèÒª¼ÓÇ°×º¡£,¶øÇÒ½á¹ûÊÇÖ±½Ó¸úÔÚºóÃæ
-        System.out.println("demostringµÄ×Ö·ûÎª£º" + demostring);//½á¹ûÎª111222333iii555666777
+        demostring.append("iii");//æ‹¬å·å†…æ˜¯å­—ç¬¦ä¸²éœ€è¦åŠ ä¸ŠåŒå¼•å·ï¼Œå…¶ä»–å¯ä»¥ç›´æ¥è·Ÿç»“æœ
+        demostring.append(555).append(666).append(777);//é“¾å¼ç¼–ç¨‹ï¼Œä¹Ÿè¯´æ˜ä¸éœ€è¦åŠ å‰ç¼€ã€‚,è€Œä¸”ç»“æœæ˜¯ç›´æ¥è·Ÿåœ¨åé¢
+        System.out.println("demostringçš„å­—ç¬¦ä¸ºï¼š" + demostring);//ç»“æœä¸º111222333iii555666777
         System.out.println("-------------------------------------------");
 
         if (demostring == x0) {
             System.out.println(true);
-            System.out.println("ÏÖÔÚx0µÄÊı¾İÎª£º" + x0);// ½á¹ûÊÇ111222333iii555666777
+            System.out.println("ç°åœ¨x0çš„æ•°æ®ä¸ºï¼š" + x0);// ç»“æœæ˜¯111222333iii555666777
         } else {
             System.out.println(false);
         }
         System.out.println("-------------------------------------------");
-        //ÕâÀïdemostringºÍxxÒ»Æğ¸Ä±ä
+        //è¿™é‡Œdemostringå’Œxxä¸€èµ·æ”¹å˜
         demostring.reverse();
-        //Ö±½Ó½øĞĞ×Ö·û´®·´×ª£¬Ç°ÌáÒªÇódemostringÊÇstringÀàĞÍ
-        //·´×ª×Ö·û´®ÒÔºó£¬demostringÕ¹Ê¾£º777666555iii333222111
-        System.out.println("demostringµÄ×Ö·ûÎª£º" + demostring);
+        //ç›´æ¥è¿›è¡Œå­—ç¬¦ä¸²åè½¬ï¼Œå‰æè¦æ±‚demostringæ˜¯stringç±»å‹
+        //åè½¬å­—ç¬¦ä¸²ä»¥åï¼Œdemostringå±•ç¤ºï¼š777666555iii333222111
+        System.out.println("demostringçš„å­—ç¬¦ä¸ºï¼š" + demostring);
     }
 }

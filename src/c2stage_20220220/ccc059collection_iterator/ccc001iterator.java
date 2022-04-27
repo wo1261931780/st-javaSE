@@ -9,7 +9,7 @@ import java.util.Iterator;
  * Project:index.pb
  * Package:c2stage_20220220.ccc059collection_iterator
  * User:  wo1261931780@gmail.com
- * Time:  2022-02-20-13  ĞÇÆÚËÄ
+ * Time:  2022-02-20-13  æ˜ŸæœŸå››
  */
 public class ccc001iterator {
     public static void main(String[] args) {
@@ -19,16 +19,16 @@ public class ccc001iterator {
         x.add("c3");
         x.add("c2");
         Iterator<String> demo = x.iterator();
-        System.out.println(x);// ±¾Éí¾Í½øĞĞ¹ıÒ»´ÎÖØĞ´£¬ËùÒÔÖ±½ÓÕ¹Ê¾½á¹û
+        System.out.println(x);// æœ¬èº«å°±è¿›è¡Œè¿‡ä¸€æ¬¡é‡å†™ï¼Œæ‰€ä»¥ç›´æ¥å±•ç¤ºç»“æœ
         // [c1, c4, c3, c2]
-        // System.out.println(demo.hasNext());//·µ»ØÊÇ·ñÓĞ½á¹û£¬true/false
-        // System.out.println(demo.next());//·µ»Ø¾ßÌåµÄ½á¹û£¬c1
-        while (demo.hasNext()) {// ÊÇ·ñÓĞ½á¹û£¬true/false
-            // String xx= demo.next();// ½«ÔªËØÈ¡³öÀ´£¬È»ºó¸³Öµ¸øxx
-            //Í¬Ê±£¬ÒÆ¶¯µ½ÏÂÒ»¸öÔªËØ
+        // System.out.println(demo.hasNext());//è¿”å›æ˜¯å¦æœ‰ç»“æœï¼Œtrue/false
+        // System.out.println(demo.next());//è¿”å›å…·ä½“çš„ç»“æœï¼Œc1
+        while (demo.hasNext()) {// æ˜¯å¦æœ‰ç»“æœï¼Œtrue/false
+            // String xx= demo.next();// å°†å…ƒç´ å–å‡ºæ¥ï¼Œç„¶åèµ‹å€¼ç»™xx
+            //åŒæ—¶ï¼Œç§»åŠ¨åˆ°ä¸‹ä¸€ä¸ªå…ƒç´ 
             System.out.println(demo.next());
         }
-        // µü´úÆ÷£¬Èç¹ûË÷ÒıÔ½½ç£¬»áÖ±½ÓÅ×³öÒì³££¬µ¼ÖÂ³ÌĞò±ÀÀ£
+        // è¿­ä»£å™¨ï¼Œå¦‚æœç´¢å¼•è¶Šç•Œï¼Œä¼šç›´æ¥æŠ›å‡ºå¼‚å¸¸ï¼Œå¯¼è‡´ç¨‹åºå´©æºƒ
     }
     public static void show(){
         Collection<String> x = new ArrayList<>();
@@ -40,8 +40,8 @@ public class ccc001iterator {
             System.out.println(demo.next());
             System.out.println(demo.next());
         }
-        // ÉÏÃæÏàµ±ÓÚÑ¯ÎÊÒ»´Î£¬ÒÆ¶¯Á½´Î£¬
-        // Èç¹ûÊÇÅ¼ÊıÔªËØ¸öÊı£¬Ã»ÓĞÎÊÌâ
-        // Èç¹ûÊÇÆæÊıÔªËØ¸öÊı£¬»á±¨´í£¬ÒòÎªË÷ÒıÔ½½ç
+        // ä¸Šé¢ç›¸å½“äºè¯¢é—®ä¸€æ¬¡ï¼Œç§»åŠ¨ä¸¤æ¬¡ï¼Œ
+        // å¦‚æœæ˜¯å¶æ•°å…ƒç´ ä¸ªæ•°ï¼Œæ²¡æœ‰é—®é¢˜
+        // å¦‚æœæ˜¯å¥‡æ•°å…ƒç´ ä¸ªæ•°ï¼Œä¼šæŠ¥é”™ï¼Œå› ä¸ºç´¢å¼•è¶Šç•Œ
     }
 }

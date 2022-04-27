@@ -3,12 +3,12 @@ package c2stage_20220113.ccc015Permission_modifiers;
 import c2stage_20220113.ccc015Permission_modifiers.ccc013demo;
 
 /**
- * ÕâÀïÓĞÒ»¸öµ¼°ü²Ù×÷£¬µ¼Èëccc013demoµÄ°ü£¬È»ºóÔÚÀïÃæ´´½¨¶ÔÏó
+ * è¿™é‡Œæœ‰ä¸€ä¸ªå¯¼åŒ…æ“ä½œï¼Œå¯¼å…¥ccc013demoçš„åŒ…ï¼Œç„¶ååœ¨é‡Œé¢åˆ›å»ºå¯¹è±¡
  */
 public class ccc013fu2 {
     public static void main(String[] args) {
         ccc013demo f = new ccc013demo();
         f.show4();
-        //ÕâÀï¾ÍÖ»ÄÜÊ¹ÓÃ4-publicµÄ·½·¨
+        //è¿™é‡Œå°±åªèƒ½ä½¿ç”¨4-publicçš„æ–¹æ³•
     }
 }

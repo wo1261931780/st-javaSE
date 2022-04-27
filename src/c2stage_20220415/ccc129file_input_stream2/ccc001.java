@@ -10,18 +10,18 @@ import java.io.InputStream;
  * Project:index.pb
  * Package:c2stage_20220415.ccc128file_input_stream2
  * User:  wo1261931780@gmail.com
- * Time:  2022-04-22-54  ĞÇÆÚÎå
+ * Time:  2022-04-22-54  æ˜ŸæœŸäº”
  */
 public class ccc001 {
     public static void main(String[] args) throws IOException {
         File demo = new File("src/c2stage_20220415/ccc128file_input_stream2/demo.txt");
         InputStream x = new FileInputStream(demo);
-        System.out.println(demo.length());//343,ÕâÀïÊÇlongÀàĞÍµÄ
-        byte[] x1 = new byte[(int) demo.length()];// ËùÒÔÒª×ª»¯ÎªintÀàĞÍ
+        System.out.println(demo.length());//343,è¿™é‡Œæ˜¯longç±»å‹çš„
+        byte[] x1 = new byte[(int) demo.length()];// æ‰€ä»¥è¦è½¬åŒ–ä¸ºintç±»å‹
         int demo2 = x.read(x1);
         // System.out.println(new String(x1, 0, demo2));
-        // ÖĞÎÄ»¹ÊÇ¶Á²»³öÀ´
-        byte[] demobyte = x.readAllBytes();// ÊäÈëÁ÷£¬Ö±½Ó¶ÁÈ¡ËùÓĞµÄ×Ö½ÚÎÄ¼ş
+        // ä¸­æ–‡è¿˜æ˜¯è¯»ä¸å‡ºæ¥
+        byte[] demobyte = x.readAllBytes();// è¾“å…¥æµï¼Œç›´æ¥è¯»å–æ‰€æœ‰çš„å­—èŠ‚æ–‡ä»¶
         System.out.println("--" + new String(demobyte, 0, demobyte.length) + "--");//
 
     }

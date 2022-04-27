@@ -1,24 +1,24 @@
-package c2stage_20220220.ccc071genericity_case;
-
-public class ddd099ÔËĞĞÀà {
-    public static void main(String[] args) {
-        ddd097Ñ§ÉúÀà x1 = new ddd097Ñ§ÉúÀà();
-        x1.setName("a1");
-        ddd098ÀÏÊ¦Àà x2 = new ddd098ÀÏÊ¦Àà();
-        x2.setAge(11);
-        System.out.println(x1.getName() + "--" + x2.getAge());
-        // ÉÏÊöµÄÁ½ÖÖ·½·¨±ØĞëÖ¸¶¨Êı¾İÀàĞÍ£¬·ñÔò±¨´í
-        ddd100·ºĞÍ²âÊÔ<String> xx = new ddd100·ºĞÍ²âÊÔ<>();
-        // ÉÏÃæÖ¸¶¨ÀàĞÍÒÔºó£¬ÔÚset·½·¨ÖĞ£¬»á×Ô¶¯ÉèÖÃÀàĞÍ
-        // ·ºĞÍµÄºÃ´¦ÔÚÓÚ£¬¿ÉÒÔÖ¸¶¨ĞèÒªÀàĞÍºó£¬ÔÙ½øĞĞ´´½¨
-        // ±ÜÃâ¹Ì¶¨ÀàĞÍµÄÊı¾İ·¢Éú±¨´í
-        // ²»¹ıÕâÀïµÄÖ¸¶¨ÀàĞÍ£¬Ò²±ØĞëÊÇ´´½¨¶ÔÏóµÄÊ±ºò¸ø³ö£¬
-        // ±ÈÈçÎÒÖ¸¶¨stringÀà£¬ÄÇÃ´ºóĞøset/get¶¼ÊÇstringÀà
-        xx.setT("a");
-        System.out.println(xx.getT());
-        ddd100·ºĞÍ²âÊÔ<Integer> xx1 = new ddd100·ºĞÍ²âÊÔ<>();
-        xx1.setT(11);
-        System.out.println(xx1.getT());
-        System.out.println("½áÊø--------------------");
-    }
-}
+// package c2stage_20220220.ccc071genericity_case;
+//
+// public class ddd099è¿è¡Œç±» {
+//     public static void main(String[] args) {
+//         ddd097å­¦ç”Ÿç±» x1 = new ddd097å­¦ç”Ÿç±»();
+//         x1.setName("a1");
+//         ddd098è€å¸ˆç±» x2 = new ddd098è€å¸ˆç±»();
+//         x2.setAge(11);
+//         System.out.println(x1.getName() + "--" + x2.getAge());
+//         // ä¸Šè¿°çš„ä¸¤ç§æ–¹æ³•å¿…é¡»æŒ‡å®šæ•°æ®ç±»å‹ï¼Œå¦åˆ™æŠ¥é”™
+//         ddd100æ³›å‹æµ‹è¯•<String> xx = new ddd100æ³›å‹æµ‹è¯•<>();
+//         // ä¸Šé¢æŒ‡å®šç±»å‹ä»¥åï¼Œåœ¨setæ–¹æ³•ä¸­ï¼Œä¼šè‡ªåŠ¨è®¾ç½®ç±»å‹
+//         // æ³›å‹çš„å¥½å¤„åœ¨äºï¼Œå¯ä»¥æŒ‡å®šéœ€è¦ç±»å‹åï¼Œå†è¿›è¡Œåˆ›å»º
+//         // é¿å…å›ºå®šç±»å‹çš„æ•°æ®å‘ç”ŸæŠ¥é”™
+//         // ä¸è¿‡è¿™é‡Œçš„æŒ‡å®šç±»å‹ï¼Œä¹Ÿå¿…é¡»æ˜¯åˆ›å»ºå¯¹è±¡çš„æ—¶å€™ç»™å‡ºï¼Œ
+//         // æ¯”å¦‚æˆ‘æŒ‡å®šstringç±»ï¼Œé‚£ä¹ˆåç»­set/getéƒ½æ˜¯stringç±»
+//         xx.setT("a");
+//         System.out.println(xx.getT());
+//         ddd100æ³›å‹æµ‹è¯•<Integer> xx1 = new ddd100æ³›å‹æµ‹è¯•<>();
+//         xx1.setT(11);
+//         System.out.println(xx1.getT());
+//         System.out.println("ç»“æŸ--------------------");
+//     }
+// }

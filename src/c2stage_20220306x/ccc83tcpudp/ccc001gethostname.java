@@ -8,7 +8,7 @@ import java.net.InetAddress;
  * Project:index.pb
  * Package:c2stage_20220306.ccc83
  * User:  wo1261931780@gmail.com
- * Time:  2022-03-13-23  ĞÇÆÚÈÕ
+ * Time:  2022-03-13-23  æ˜ŸæœŸæ—¥
  */
 public class ccc001gethostname {
     public static void main(String[] args) throws IOException {
@@ -17,12 +17,12 @@ public class ccc001gethostname {
         InetAddress x1 = InetAddress.getByName("www.baidu.com");
         System.out.println(x1.getHostName());// www.baidu.com
         System.out.println(x1.getHostAddress());// 14.215.177.39
-        // ¶à´Î»ñÈ¡£¬¿ÉÄÜip²»Ò»Ñù£¬ÒòÎª·şÎñÆ÷×öÁË¼¯Èº£¬±ÜÃâÒ»Ì¨å´»úµ¼ÖÂËùÓĞÈËÎŞ·¨Ê¹ÓÃ
+        // å¤šæ¬¡è·å–ï¼Œå¯èƒ½ipä¸ä¸€æ ·ï¼Œå› ä¸ºæœåŠ¡å™¨åšäº†é›†ç¾¤ï¼Œé¿å…ä¸€å°å®•æœºå¯¼è‡´æ‰€æœ‰äººæ— æ³•ä½¿ç”¨
 
-        InetAddress x2 = InetAddress.getByName("14.215.177.39");// Ö±½Ó»ñÈ¡µØÖ·Ò²ÄÜµÃµ½Ò»ÑùµÄ½á¹û
-        System.out.println(x2.getHostName());// 14.215.177.39£¬±È½ÏÂı£¬ÒòÎªÏàµ±ÓÚ×öÁËÒ»´ÎÁªÍø²Ù×÷
+        InetAddress x2 = InetAddress.getByName("14.215.177.39");// ç›´æ¥è·å–åœ°å€ä¹Ÿèƒ½å¾—åˆ°ä¸€æ ·çš„ç»“æœ
+        System.out.println(x2.getHostName());// 14.215.177.39ï¼Œæ¯”è¾ƒæ…¢ï¼Œå› ä¸ºç›¸å½“äºåšäº†ä¸€æ¬¡è”ç½‘æ“ä½œ
 
-        System.out.println(x2.isReachable(2000));// ÅĞ¶ÏÊ±ÑÓÄÚ£¬ÊÇ·ñ¿ÉÒÔÁªÍ¨
+        System.out.println(x2.isReachable(2000));// åˆ¤æ–­æ—¶å»¶å†…ï¼Œæ˜¯å¦å¯ä»¥è”é€š
 
     }
 }

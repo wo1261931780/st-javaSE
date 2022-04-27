@@ -1,12 +1,12 @@
 package c2stage_20220220.ccc061for_plus;
 /*
-    ÔöÇ¿for£º¼ò»¯Êı×éºÍCollection¼¯ºÏµÄ±éÀú
-        ÊµÏÖIterable½Ó¿ÚµÄÀàÔÊĞíÆä¶ÔÏó³ÉÎªÔöÇ¿ĞÍ forÓï¾äµÄÄ¿±ê
-        ËüÊÇJDK5Ö®ºó³öÏÖµÄ£¬ÆäÄÚ²¿Ô­ÀíÊÇÒ»¸öIteratorµü´úÆ÷
+    å¢å¼ºforï¼šç®€åŒ–æ•°ç»„å’ŒCollectioné›†åˆçš„éå†
+        å®ç°Iterableæ¥å£çš„ç±»å…è®¸å…¶å¯¹è±¡æˆä¸ºå¢å¼ºå‹ forè¯­å¥çš„ç›®æ ‡
+        å®ƒæ˜¯JDK5ä¹‹åå‡ºç°çš„ï¼Œå…¶å†…éƒ¨åŸç†æ˜¯ä¸€ä¸ªIteratorè¿­ä»£å™¨
 
-    ¸ñÊ½£º
-        for(ÔªËØÊı¾İÀàĞÍ ±äÁ¿Ãû : Êı×é»òÕßCollection¼¯ºÏ) {
-            //ÔÚ´Ë´¦Ê¹ÓÃ±äÁ¿¼´¿É£¬¸Ã±äÁ¿¾ÍÊÇÔªËØ
+    æ ¼å¼ï¼š
+        for(å…ƒç´ æ•°æ®ç±»å‹ å˜é‡å : æ•°ç»„æˆ–è€…Collectioné›†åˆ) {
+            //åœ¨æ­¤å¤„ä½¿ç”¨å˜é‡å³å¯ï¼Œè¯¥å˜é‡å°±æ˜¯å…ƒç´ 
         }
  */
 
@@ -14,7 +14,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.ListIterator;
 
-public class ddd051ÔöÇ¿forÑ­»· {
+public class ddd051å¢å¼ºforå¾ªç¯ {
     public static void main(String[] args) {
         int[] x = {1, 2, 2, 3, 32, 3, 13, 12};
         for (int i : x) {
@@ -39,12 +39,12 @@ public class ddd051ÔöÇ¿forÑ­»· {
             if (i.equals("ccc")) {
                 x3.add("javaee");
             }
-            // Ö»Òª³öÏÖÒì³££¬¾Í´ú±íÆäÄÚ²¿ÊÇiteratorµü´úÆ÷
-            // Í¬ÑùµÄ£¬¿ÉÒÔÓÃÀàËÆ·½·¨À´·´Ïò¼ì²â¼Ì³Ğ/ÊµÏÖÌåÏµ
+            // åªè¦å‡ºç°å¼‚å¸¸ï¼Œå°±ä»£è¡¨å…¶å†…éƒ¨æ˜¯iteratorè¿­ä»£å™¨
+            // åŒæ ·çš„ï¼Œå¯ä»¥ç”¨ç±»ä¼¼æ–¹æ³•æ¥åå‘æ£€æµ‹ç»§æ‰¿/å®ç°ä½“ç³»
         }
         System.out.println("-------------------------------------");
         ListIterator<String> x4 = x3.listIterator();
-        // ±¨´í£¬for eachÑ­»·²»ÊÊÓÃÓÚlistIterator¼¯ºÏ
+        // æŠ¥é”™ï¼Œfor eachå¾ªç¯ä¸é€‚ç”¨äºlistIteratoré›†åˆ
         // for (String i : x4) {
         //     System.out.println(i);
         // }

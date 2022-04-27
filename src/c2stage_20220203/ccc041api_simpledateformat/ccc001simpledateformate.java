@@ -5,11 +5,11 @@ import java.util.Date;
 
 public class ccc001simpledateformate {
     public static void main(String[] args) {
-        Date x = new Date();//ĞÂ½¨Ò»¸öÈÕÆÚ¶ÔÏó
-        System.out.println("Ä¬ÈÏÊ±¼ä£º" + x);
+        Date x = new Date();//æ–°å»ºä¸€ä¸ªæ—¥æœŸå¯¹è±¡
+        System.out.println("é»˜è®¤æ—¶é—´ï¼š" + x);
         // SimpleDateFormat x1 = new SimpleDateFormat("yyyy+MM+dd+HH+mm+ss EEE a");
-        SimpleDateFormat x1 = new SimpleDateFormat("yyyyÄêMMÔÂddÈÕ-----HHÊ±mm·ÖssÃë EEE a");//È»ºóĞÂ½¨Ò»¸ö¹¹ÔìÆ÷¶ÔÏó
-        String time_format = x1.format(x);//¹¹ÔìÆ÷µ÷ÓÃÄÚ²¿µÄ·½·¨£¬À´¸ñÊ½»¯ÈÕÆÚ¶ÔÏó
+        SimpleDateFormat x1 = new SimpleDateFormat("yyyyå¹´MMæœˆddæ—¥-----HHæ—¶mmåˆ†ssç§’ EEE a");//ç„¶åæ–°å»ºä¸€ä¸ªæ„é€ å™¨å¯¹è±¡
+        String time_format = x1.format(x);//æ„é€ å™¨è°ƒç”¨å†…éƒ¨çš„æ–¹æ³•ï¼Œæ¥æ ¼å¼åŒ–æ—¥æœŸå¯¹è±¡
         System.out.println(time_format);
 
     }

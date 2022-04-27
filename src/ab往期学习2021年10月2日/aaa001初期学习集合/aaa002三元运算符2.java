@@ -1,31 +1,31 @@
-package abÍùÆÚÑ§Ï°2021Äê10ÔÂ2ÈÕ.aaa001³õÆÚÑ§Ï°¼¯ºÏ;
+package abå¾€æœŸå­¦ä¹ 2021å¹´10æœˆ2æ—¥.aaa001åˆæœŸå­¦ä¹ é›†åˆ;
 
 import java.util.Random;
 
-public class aaa002ÈıÔªÔËËã·û2 {
+public class aaa002ä¸‰å…ƒè¿ç®—ç¬¦2 {
     public static void main(String[] args) {
         int a = 0;
         int b = 1;
-        //¶¨Òåab
-        //È¡Öµ×î´ó.
+        //å®šä¹‰ab
+        //å–å€¼æœ€å¤§.
         int dy = a > b ? a : b;
         System.out.println("dy:" + dy);
         System.out.println("------------");
 
-        //ÊÇ·ñÏàµÈ¡£
+        //æ˜¯å¦ç›¸ç­‰ã€‚
         int eq = a == b ? a : b;
         System.out.println("same:" + eq);
         System.out.println("------------");
 
-        //ÊÇ·ñĞ¡ÓÚ¡£
+        //æ˜¯å¦å°äºã€‚
         int xy = a < b ? a : b;
 
         System.out.println("smaller:" + xy);
-        //ÈıÔªÔËËã·ûµÄº¬ÒåÊÇ£º
+        //ä¸‰å…ƒè¿ç®—ç¬¦çš„å«ä¹‰æ˜¯ï¼š
         //int xy = a < b ? a : b;
-        //ÅĞ¶Ï(a<b)Õâ¸öÊ½×ÓµÄtrue/false£¬Èç¹ûÊÇtrue£¬¾ÍÊÇ(a:b)×ó±ßµÄa£¬·ñÔò¾ÍÊÇÓÒ±ßµÄb
-        // 2021Äê9ÔÂ6ÈÕ09:34:16
-        // demotest£¬2021Äê9ÔÂ6ÈÕ09:36:50
+        //åˆ¤æ–­(a<b)è¿™ä¸ªå¼å­çš„true/falseï¼Œå¦‚æœæ˜¯trueï¼Œå°±æ˜¯(a:b)å·¦è¾¹çš„aï¼Œå¦åˆ™å°±æ˜¯å³è¾¹çš„b
+        // 2021å¹´9æœˆ6æ—¥09:34:16
+        // demotestï¼Œ2021å¹´9æœˆ6æ—¥09:36:50
         show();
 
         System.out.println("end");

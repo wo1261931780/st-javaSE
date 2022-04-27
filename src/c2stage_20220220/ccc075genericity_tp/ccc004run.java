@@ -7,7 +7,7 @@ import java.util.ArrayList;
  * Project:index.pb
  * Package:c2stage_20220220.ccc075genericity_tp
  * User:  wo1261931780@gmail.com
- * Time:  2022-02-12-51  ĞÇÆÚÈÕ
+ * Time:  2022-02-12-51  æ˜ŸæœŸæ—¥
  */
 public class ccc004run {
     public static void main(String[] args) {
@@ -19,8 +19,8 @@ public class ccc004run {
         x1.add(new ccc003BENZ());
         x1.add(new ccc003BENZ());
         x1.add(new ccc003BENZ());
-        // comp(x1);// Ö±½ÓÊ¹ÓÃ»á±¨´í£¬ÒòÎª·½·¨ÖĞÉèÖÃµÄÀàĞÍ²»Í¬
-        // »»¾ä»°Ëµ£¬·½·¨ÖĞµÄÉèÖÃ£¬Ê¹µÃµ÷ÓÃµÄÊ±ºòÁé»îĞÔÏÂ½µ
+        // comp(x1);// ç›´æ¥ä½¿ç”¨ä¼šæŠ¥é”™ï¼Œå› ä¸ºæ–¹æ³•ä¸­è®¾ç½®çš„ç±»å‹ä¸åŒ
+        // æ¢å¥è¯è¯´ï¼Œæ–¹æ³•ä¸­çš„è®¾ç½®ï¼Œä½¿å¾—è°ƒç”¨çš„æ—¶å€™çµæ´»æ€§ä¸‹é™
         competition(x);
         competition(x1);
     }
@@ -29,14 +29,14 @@ public class ccc004run {
         System.out.println("no");
     }
 
-    public static void competition(ArrayList<?> x) {// ÓÃÎÊºÅÌæ´ú£¬¿ÉÒÔÌá¸ßÁé»îĞÔ
-        // µ«ÊÇ»á³öÏÖÎÊÌâ
-        // ±ÈÈçÎÒÄ¬ÈÏÖ»ÓĞcar¿ÉÒÔÊ¹ÓÃ¸ÃÀàĞÍ£¬µ«ÊÇÀ´ÁË¸ödog£¬Ã»ÓĞÏŞÖÆ·½·¨£¬»áµ¼ÖÂdogÒ²µ÷ÓÃÁËÕâ¸ö¹¦ÄÜ
+    public static void competition(ArrayList<?> x) {// ç”¨é—®å·æ›¿ä»£ï¼Œå¯ä»¥æé«˜çµæ´»æ€§
+        // ä½†æ˜¯ä¼šå‡ºç°é—®é¢˜
+        // æ¯”å¦‚æˆ‘é»˜è®¤åªæœ‰carå¯ä»¥ä½¿ç”¨è¯¥ç±»å‹ï¼Œä½†æ˜¯æ¥äº†ä¸ªdogï¼Œæ²¡æœ‰é™åˆ¶æ–¹æ³•ï¼Œä¼šå¯¼è‡´dogä¹Ÿè°ƒç”¨äº†è¿™ä¸ªåŠŸèƒ½
         System.out.println("ok");
     }
 
     public static void comps(ArrayList<? extends ccc001> x) {
-        // Ê¹ÓÃextendsÉèÖÃÉÏÏŞ
-        System.out.println("±ØĞëÊÇ×ÓÀà²ÅÄÜÊ¹ÓÃ¸Ã·½·¨");
+        // ä½¿ç”¨extendsè®¾ç½®ä¸Šé™
+        System.out.println("å¿…é¡»æ˜¯å­ç±»æ‰èƒ½ä½¿ç”¨è¯¥æ–¹æ³•");
     }
 }

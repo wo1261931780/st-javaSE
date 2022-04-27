@@ -5,35 +5,35 @@ import java.time.Month;
 
 public class ccc002Localdate {
     public static void main(String[] args) {
-        // 1¡¢»ñÈ¡±¾µØÈÕÆÚ¶ÔÏó¡£
+        // 1ã€è·å–æœ¬åœ°æ—¥æœŸå¯¹è±¡ã€‚
         LocalDate nowDate = LocalDate.now();
-        System.out.println("½ñÌìµÄÈÕÆÚ£º" + nowDate);//½ñÌìµÄÈÕÆÚ£º
+        System.out.println("ä»Šå¤©çš„æ—¥æœŸï¼š" + nowDate);//ä»Šå¤©çš„æ—¥æœŸï¼š
 
         int year = nowDate.getYear();
-        System.out.println("year£º" + year);
+        System.out.println("yearï¼š" + year);
 
 
         int month = nowDate.getMonthValue();
-        System.out.println("month£º" + month);
+        System.out.println("monthï¼š" + month);
 
         int day = nowDate.getDayOfMonth();
-        System.out.println("day£º" + day);
+        System.out.println("dayï¼š" + day);
 
-        //µ±ÄêµÄµÚ¼¸Ìì
+        //å½“å¹´çš„ç¬¬å‡ å¤©
         int dayOfYear = nowDate.getDayOfYear();
-        System.out.println("dayOfYear£º" + dayOfYear);
+        System.out.println("dayOfYearï¼š" + dayOfYear);
 
-        //ĞÇÆÚ
+        //æ˜ŸæœŸ
         System.out.println(nowDate.getDayOfWeek());
         System.out.println(nowDate.getDayOfWeek().getValue());
 
-        //ÔÂ·İ
+        //æœˆä»½
         System.out.println(nowDate.getMonth());//AUGUST
         System.out.println(nowDate.getMonth().getValue());//8
 
         System.out.println("------------------------");
         LocalDate bt = LocalDate.of(1991, 11, 11);
-        System.out.println(bt);//Ö±½Ó´«Èë¶ÔÓ¦µÄÄêÔÂÈÕ
-        System.out.println(LocalDate.of(1991, Month.NOVEMBER, 11));//Ïà¶ÔÉÏÃæÖ»ÊÇ°ÑÔÂ»»³ÉÁËÃ¶¾Ù
+        System.out.println(bt);//ç›´æ¥ä¼ å…¥å¯¹åº”çš„å¹´æœˆæ—¥
+        System.out.println(LocalDate.of(1991, Month.NOVEMBER, 11));//ç›¸å¯¹ä¸Šé¢åªæ˜¯æŠŠæœˆæ¢æˆäº†æšä¸¾
     }
 }

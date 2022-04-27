@@ -1,6 +1,6 @@
-package ab¶ş½×¶ÎÇ¿»¯¿Î³Ì2022Äê1ÔÂ11ÈÕ.ccc024Ã¨¹·½Ó¿Ú°æ¿ÎÌÃ;
+package abäºŒé˜¶æ®µå¼ºåŒ–è¯¾ç¨‹2022å¹´1æœˆ11æ—¥.ccc024çŒ«ç‹—æ¥å£ç‰ˆè¯¾å ‚;
 
-public interface ccc025½Ó¿Ú {
+public interface ccc025æ¥å£ {
     public void jump();
 
     public void eat();

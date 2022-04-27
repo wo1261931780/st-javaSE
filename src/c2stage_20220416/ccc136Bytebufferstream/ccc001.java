@@ -7,7 +7,7 @@ import java.io.*;
  * Project:index.pb
  * Package:c2stage_20220416.ccc136Bytebufferstream
  * User:  wo1261931780@gmail.com
- * Time:  2022-04-19-32  ĞÇÆÚÁù
+ * Time:  2022-04-19-32  æ˜ŸæœŸå…­
  */
 public class ccc001 {
     public static void main(String[] args) {
@@ -15,7 +15,7 @@ public class ccc001 {
         File xx = new File("src/c2stage_20220416/ccc136Bytebufferstream/demo2.txt");
         try (
                 InputStream x1 = new BufferedInputStream(new FileInputStream(x));
-                OutputStream x2 = new BufferedOutputStream(new FileOutputStream(xx));//ÄÚ²¿»¹ÊÇĞèÒªÊ¹ÓÃfileÀàĞÍµÄ±äÁ¿
+                OutputStream x2 = new BufferedOutputStream(new FileOutputStream(xx));//å†…éƒ¨è¿˜æ˜¯éœ€è¦ä½¿ç”¨fileç±»å‹çš„å˜é‡
         ) {
             int len;
             byte[] x4 = new byte[1024];

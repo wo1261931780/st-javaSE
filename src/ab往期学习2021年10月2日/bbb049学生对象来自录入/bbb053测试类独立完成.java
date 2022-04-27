@@ -1,31 +1,31 @@
-package abÍùÆÚÑ§Ï°2021Äê10ÔÂ2ÈÕ.bbb049Ñ§Éú¶ÔÏóÀ´×ÔÂ¼Èë;
+package abå¾€æœŸå­¦ä¹ 2021å¹´10æœˆ2æ—¥.bbb049å­¦ç”Ÿå¯¹è±¡æ¥è‡ªå½•å…¥;
 
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class bbb053²âÊÔÀà¶ÀÁ¢Íê³É {
+public class bbb053æµ‹è¯•ç±»ç‹¬ç«‹å®Œæˆ {
     public static void main(String[] args) {
-        ArrayList<bbb052Àà¶ÀÁ¢Íê³É> xx = new ArrayList<>();
+        ArrayList<bbb052ç±»ç‹¬ç«‹å®Œæˆ> xx = new ArrayList<>();
         sr(xx);
         sr(xx);
         sr(xx);
-        System.out.println("-----------------Ìí¼Ó½áÊø");
+        System.out.println("-----------------æ·»åŠ ç»“æŸ");
         for (int x = 0; x < xx.size(); x++) {
-            bbb052Àà¶ÀÁ¢Íê³É zz = xx.get(x);
+            bbb052ç±»ç‹¬ç«‹å®Œæˆ zz = xx.get(x);
             System.out.println(zz.getName() + zz.getAge());
         }
     }
 
-    public static void sr(ArrayList<bbb052Àà¶ÀÁ¢Íê³É> xx) {
+    public static void sr(ArrayList<bbb052ç±»ç‹¬ç«‹å®Œæˆ> xx) {
         Scanner zz = new Scanner(System.in);
-        System.out.println("ÇëÊäÈëĞÕÃû£º");
+        System.out.println("è¯·è¾“å…¥å§“åï¼š");
         String z1 = zz.nextLine();
-        System.out.println("ÇëÊäÈëÄêÁä£º");
+        System.out.println("è¯·è¾“å…¥å¹´é¾„ï¼š");
         int z2 = zz.nextInt();
-        bbb052Àà¶ÀÁ¢Íê³É x1 = new bbb052Àà¶ÀÁ¢Íê³É(z1, z2);
+        bbb052ç±»ç‹¬ç«‹å®Œæˆ x1 = new bbb052ç±»ç‹¬ç«‹å®Œæˆ(z1, z2);
         // x1.setName(z1);
         // x1.setAge(z2);
         xx.add(x1);
-        System.out.println("Ìí¼ÓÍê³É----------------");
+        System.out.println("æ·»åŠ å®Œæˆ----------------");
     }
 }

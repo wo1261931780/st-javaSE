@@ -1,66 +1,66 @@
-package abÍùÆÚÑ§Ï°2021Äê10ÔÂ2ÈÕ.aaa001³õÆÚÑ§Ï°¼¯ºÏ;
+package abå¾€æœŸå­¦ä¹ 2021å¹´10æœˆ2æ—¥.aaa001åˆæœŸå­¦ä¹ é›†åˆ;
 
 import java.util.Scanner;
 
-public class bbb007²éÕÒ {
+public class bbb007æŸ¥æ‰¾ {
     public static void main(String[] args) {
         int[] zz = {32456, 23, 1, 4, 56, 4, 178, 13, 54, 15, 2, 1};
         Scanner b11 = new Scanner(System.in);
-        System.out.println("ÊäÈëÊı¾İ£º");
+        System.out.println("è¾“å…¥æ•°æ®ï¼š");
         int z1 = b11.nextInt();
-        System.out.println("Êı×é³¤¶ÈÎª£º" + zz.length);
-        System.out.println("¿ªÊ¼²éÕÒÊı¾İ------------");
+        System.out.println("æ•°ç»„é•¿åº¦ä¸ºï¼š" + zz.length);
+        System.out.println("å¼€å§‹æŸ¥æ‰¾æ•°æ®------------");
         int z = 0;
         int z0 = -1;
-        for (System.out.println("Ö÷³ÌĞò²éÕÒ"); z < zz.length; z++) {
+        for (System.out.println("ä¸»ç¨‹åºæŸ¥æ‰¾"); z < zz.length; z++) {
             if (z1 == zz[z]) {
                 z0 = z;
                 break;
             }
         }
-        System.out.println("Ö÷³ÌĞò½á¹ûÎª£º" + z0);
-        // ÕâÀïÓÃÁËÁ½ÖÖ·½·¨È¥²éÑ¯
-        // Ò»ÖÖÊÇÊ¹ÓÃmain·½·¨ÄÚµÄ±éÀú£¬Ò»ÖÖÊÇ·â×°³É·½·¨Ö±½Óµ÷ÓÃ
+        System.out.println("ä¸»ç¨‹åºç»“æœä¸ºï¼š" + z0);
+        // è¿™é‡Œç”¨äº†ä¸¤ç§æ–¹æ³•å»æŸ¥è¯¢
+        // ä¸€ç§æ˜¯ä½¿ç”¨mainæ–¹æ³•å†…çš„éå†ï¼Œä¸€ç§æ˜¯å°è£…æˆæ–¹æ³•ç›´æ¥è°ƒç”¨
         int qq = db(zz, z1);
-        System.out.println("·½·¨µÃµ½µÄË÷ÒıÊÇµÚ" + qq + "Î»");
+        System.out.println("æ–¹æ³•å¾—åˆ°çš„ç´¢å¼•æ˜¯ç¬¬" + qq + "ä½");
         /*
         boolean xx = db(zz,z1);
         if (xx == false) {
-            System.out.println("´íÎó-1");
+            System.out.println("é”™è¯¯-1");
         } else {
         }
         */
     }
     /*
     public static boolean db(int[] zz,int z1) {
-        //ÕâÀï01ºÍ1µÄº¬ÒåÏàÍ¬£¬½øÖÆ²»Í¬¡£
-        //ÏàÍ¬Êı¾İ£¬ÓÅÏÈ²éÕÒ¿¿Ç°µÄ¡£
-        System.out.println("¿ªÊ¼²éÕÒÊı¾İ------------");
+        //è¿™é‡Œ01å’Œ1çš„å«ä¹‰ç›¸åŒï¼Œè¿›åˆ¶ä¸åŒã€‚
+        //ç›¸åŒæ•°æ®ï¼Œä¼˜å…ˆæŸ¥æ‰¾é å‰çš„ã€‚
+        System.out.println("å¼€å§‹æŸ¥æ‰¾æ•°æ®------------");
         for (int x = 0; x < zz.length; x++) {
             if (z1 == zz[x]) {
-                System.out.println("Ë÷ÒıÊÇµÚ" + x + "Î»");
+                System.out.println("ç´¢å¼•æ˜¯ç¬¬" + x + "ä½");
                 return true;
                 //break;
-                //ÕâÀïÈç¹û²»ÔİÍ££¬Ó¦¸Ã»á¶à´Î¶Ô±È£¬ÒòÎªÊı×éÖĞÊı¾İ¿ÉÄÜÖØ¸´.
+                //è¿™é‡Œå¦‚æœä¸æš‚åœï¼Œåº”è¯¥ä¼šå¤šæ¬¡å¯¹æ¯”ï¼Œå› ä¸ºæ•°ç»„ä¸­æ•°æ®å¯èƒ½é‡å¤.
             } else {
             }
-        }ÕâÒ»¶Î¶¼Ì«†ªàÂÁË
+        }è¿™ä¸€æ®µéƒ½å¤ªå•°å—¦äº†
         return false;
     */
 
     public static int db(int[] zz, int z1) {
         int x = 0;
-        for (System.out.println("·½·¨¿ªÊ¼²éÕÒÊı¾İ------------"); x < zz.length; x++) {
+        for (System.out.println("æ–¹æ³•å¼€å§‹æŸ¥æ‰¾æ•°æ®------------"); x < zz.length; x++) {
             if (z1 == zz[x]) {
                 return x;
                 // break;
-                //ÕâÀïÊı×éµÄ³¤¶ÈÊÇ12£¬¼ÓÉÏ0Î»Êı×Ö£¬Èç¹û11Î»»¹ÎŞ·¨ÅĞ¶Ï£¬¿ÉÒÔÈÏ¶¨²»´æÔÚ
+                //è¿™é‡Œæ•°ç»„çš„é•¿åº¦æ˜¯12ï¼ŒåŠ ä¸Š0ä½æ•°å­—ï¼Œå¦‚æœ11ä½è¿˜æ— æ³•åˆ¤æ–­ï¼Œå¯ä»¥è®¤å®šä¸å­˜åœ¨
             } else if (x == 11) {
-                System.out.println("Êı×Ö²»´æÔÚÊı×éÖĞ");
-                //·µ»ØÖµ-1±íÊ¾²»´æÔÚÊı×Ö
+                System.out.println("æ•°å­—ä¸å­˜åœ¨æ•°ç»„ä¸­");
+                //è¿”å›å€¼-1è¡¨ç¤ºä¸å­˜åœ¨æ•°å­—
                 return x = -1;
             } else {
-                // System.out.println("¼ÌĞø±éÀú");
+                // System.out.println("ç»§ç»­éå†");
                 // x = -1;
                 // break;
             }

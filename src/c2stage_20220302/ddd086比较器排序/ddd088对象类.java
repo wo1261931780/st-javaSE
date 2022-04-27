@@ -1,13 +1,13 @@
-package c2stage_20220302.ddd086±È½ÏÆ÷ÅÅĞò;
+package c2stage_20220302.ddd086æ¯”è¾ƒå™¨æ’åº;
 
-public class ddd088¶ÔÏóÀà {
+public class ddd088å¯¹è±¡ç±» {
     private String name;
     private int age;
 
-    public ddd088¶ÔÏóÀà() {
+    public ddd088å¯¹è±¡ç±»() {
     }
 
-    public ddd088¶ÔÏóÀà(String name, int age) {
+    public ddd088å¯¹è±¡ç±»(String name, int age) {
         this.name = name;
         this.age = age;
     }

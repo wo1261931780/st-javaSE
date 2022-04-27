@@ -9,16 +9,16 @@ import java.util.TreeSet;
  * Project:index.pb
  * Package:c2stage_20220302.ccc081treeset_case
  * User:  wo1261931780@gmail.com
- * Time:  2022-03-21-55  ĞÇÆÚÈı
+ * Time:  2022-03-21-55  æ˜ŸæœŸä¸‰
  */
 public class ccc002demorun {
     public static void main(String[] args) {
         Set<ccc001applobject> x = new TreeSet<>();
         x.add(new ccc001applobject(11.11, "aa", 11, "bb"));
         x.add(new ccc001applobject(11.12, "aa", 12, "bb"));
-        System.out.println(x);// Ö±½ÓÊä³ö»á±¨´í£¬ÒòÎªÃ»ÓĞ±È½Ï¹æÔò£¬Ä¬ÈÏ±È½ÏÁËµØÖ·
+        System.out.println(x);// ç›´æ¥è¾“å‡ºä¼šæŠ¥é”™ï¼Œå› ä¸ºæ²¡æœ‰æ¯”è¾ƒè§„åˆ™ï¼Œé»˜è®¤æ¯”è¾ƒäº†åœ°å€
         System.out.println("-----------------------------");
-        // ÕâÀï¾ÍÊÇÄÚ²¿×Ô´øÁË±È½ÏÆ÷
+        // è¿™é‡Œå°±æ˜¯å†…éƒ¨è‡ªå¸¦äº†æ¯”è¾ƒå™¨
         Set<ccc001applobject> x1 = new TreeSet<>(new Comparator<ccc001applobject>() {
             @Override
             public int compare(ccc001applobject o1, ccc001applobject o2) {
@@ -37,7 +37,7 @@ public class ccc002demorun {
         x2.add(new ccc001applobject(11.21, "demo2", 23, "bb"));
         System.out.println(x2);
 
-        // lambda±í´ïÊ½¼ò»¯£º
+        // lambdaè¡¨è¾¾å¼ç®€åŒ–ï¼š
         Set<ccc001applobject> x3 = new TreeSet<>((ccc001applobject o1, ccc001applobject o2) -> {
             return Double.compare(o1.getPrice(), o2.getPrice());
         });
@@ -45,7 +45,7 @@ public class ccc002demorun {
         x3.add(new ccc001applobject(11.11, "demo1", 22, "bb"));
         x3.add(new ccc001applobject(11.21, "demo2", 23, "bb"));
         System.out.println(x2);
-        // lambda±í´ïÊ½¼ò»¯2£º
+        // lambdaè¡¨è¾¾å¼ç®€åŒ–2ï¼š
         Set<ccc001applobject> x4 = new TreeSet<>((ccc001applobject o1, ccc001applobject o2) -> Double.compare(o1.getPrice(), o2.getPrice()));
     }
 }

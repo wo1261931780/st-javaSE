@@ -8,15 +8,15 @@ import java.io.PrintStream;
  * Project:index.pb
  * Package:c2stage_20220418.ccc142printSet
  * User:  wo1261931780@gmail.com
- * Time:  2022-04-21-20  ĞÇÆÚ¶ş
+ * Time:  2022-04-21-20  æ˜ŸæœŸäºŒ
  */
 public class ccc001 {
     public static void main(String[] args) throws FileNotFoundException {
-        System.out.println("ceshi ");// Õâ¾ÍÊÇ×î¼òµ¥µÄÊä³öÁ÷
+        System.out.println("ceshi ");// è¿™å°±æ˜¯æœ€ç®€å•çš„è¾“å‡ºæµ
         PrintStream x = new PrintStream("src/c2stage_20220418/ccc142printSet/ccc001.txt");
-        System.setOut(x);// ÉèÖÃÖØ¶¨Ïò£¬½«´òÓ¡Á÷µÄÎ»ÖÃÊä³öµ½ÎÄ¼şÖĞ
-        System.out.println("2022Äê4ÔÂ19ÈÕ21:25:07");
-        System.out.println("²âÊÔ");
+        System.setOut(x);// è®¾ç½®é‡å®šå‘ï¼Œå°†æ‰“å°æµçš„ä½ç½®è¾“å‡ºåˆ°æ–‡ä»¶ä¸­
+        System.out.println("2022å¹´4æœˆ19æ—¥21:25:07");
+        System.out.println("æµ‹è¯•");
 
     }
 }

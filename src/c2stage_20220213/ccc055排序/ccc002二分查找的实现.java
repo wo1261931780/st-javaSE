@@ -1,4 +1,4 @@
-package c2stage_20220213.ccc055ÅÅĞò;
+package c2stage_20220213.ccc055æ’åº;
 
 import java.util.Arrays;
 import java.util.Scanner;
@@ -6,16 +6,16 @@ import java.util.Scanner;
 /**
  * Created by Intellij IDEA.
  * Project:index.pb
- * Package:c2stage_20220213.ccc055ÅÅĞò
+ * Package:c2stage_20220213.ccc055æ’åº
  * User:  wo1261931780@gmail.com
- * Time:  2022-02-19-41  ĞÇÆÚÎå
+ * Time:  2022-02-19-41  æ˜ŸæœŸäº”
  */
-public class ccc002¶ş·Ö²éÕÒµÄÊµÏÖ {
+public class ccc002äºŒåˆ†æŸ¥æ‰¾çš„å®ç° {
     public static void main(String[] args) {
         int[] x = {1, 35, 4, 564, 8, 789, 7, 98, 687};
         Scanner x1 = new Scanner(System.in);
         int demonum = x1.nextInt();
-        System.out.println("½á¹û£º" + show(x, demonum));
+        System.out.println("ç»“æœï¼š" + show(x, demonum));
     }
 
     public static int show(int[] x, int demo) {
@@ -25,9 +25,9 @@ public class ccc002¶ş·Ö²éÕÒµÄÊµÏÖ {
         while (end >= start) {
             int mid = (start + end) / 2;
             if (demo > x[mid]) {
-                start = mid+1;//ÔÚÓÒ²à£¬ÖĞ¼äÖµ¼Ó1
+                start = mid+1;//åœ¨å³ä¾§ï¼Œä¸­é—´å€¼åŠ 1
             } else if (demo < x[mid]) {
-                end = mid-1;//Ê×Î»µÄË÷ÒıĞèÒª¼Ó¼õ£¬½«Êı¾İ¼¯ÖĞµ½ÖĞ¼ä
+                end = mid-1;//é¦–ä½çš„ç´¢å¼•éœ€è¦åŠ å‡ï¼Œå°†æ•°æ®é›†ä¸­åˆ°ä¸­é—´
             } else {
                 System.out.println(Arrays.toString(x));
                 System.out.println(demo + "," + mid);

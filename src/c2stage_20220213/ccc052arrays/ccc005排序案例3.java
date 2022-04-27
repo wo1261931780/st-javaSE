@@ -2,27 +2,27 @@ package c2stage_20220213.ccc052arrays;
 
 import java.util.Arrays;
 
-public class ccc005ÅÅĞò°¸Àı3 {
+public class ccc005æ’åºæ¡ˆä¾‹3 {
     public static void main(String[] args) {
         System.out.println("-----------------");
         String x = "1 354 15 5 46 854 8 546";
         String[] x1 = x.split(" ");
-        //¶¨ÒåÒ»¸östringµÄÊı×éx1£¬x1µÄÔªËØÀ´×ÔÓÚx£¬ÓÃ¿Õ¸ñ·Ö¿ª¡£
+        //å®šä¹‰ä¸€ä¸ªstringçš„æ•°ç»„x1ï¼Œx1çš„å…ƒç´ æ¥è‡ªäºxï¼Œç”¨ç©ºæ ¼åˆ†å¼€ã€‚
         int[] x2 = new int[x1.length];
-        //¶¨ÒåintÀàĞÍµÄÊı×éx2£¬³¤¶ÈÊÇx1µÄ³¤¶È
+        //å®šä¹‰intç±»å‹çš„æ•°ç»„x2ï¼Œé•¿åº¦æ˜¯x1çš„é•¿åº¦
         for (int i = 0; i < x2.length; i++) {
             x2[i] = Integer.parseInt(x1[i]);
-            //ÀûÓÃparse·½·¨£¬°ÑString¸ñÊ½µÄx1×ª»¯³ÉintÀàĞÍµÄx2
-            //Í¬Ê±°Ñ¶ÔÓ¦ÔªËØ´¢´æ½øÈ¥
+            //åˆ©ç”¨parseæ–¹æ³•ï¼ŒæŠŠStringæ ¼å¼çš„x1è½¬åŒ–æˆintç±»å‹çš„x2
+            //åŒæ—¶æŠŠå¯¹åº”å…ƒç´ å‚¨å­˜è¿›å»
         }
 
         for (int i = 0; i < x2.length; i++) {
             System.out.print(x2[i] + "---");
         }
         Arrays.sort(x2);
-        //Ö±½Ó¶Ôx2½øĞĞÅÅĞò´¦Àí
+        //ç›´æ¥å¯¹x2è¿›è¡Œæ’åºå¤„ç†
         StringBuilder xx = new StringBuilder();
-        //ÀûÓÃStringBuildÆ´½Ó
+        //åˆ©ç”¨StringBuildæ‹¼æ¥
         System.out.println("start");
         for (int i = 0; i < x2.length; i++) {
             if (i == x2.length - 1) {
@@ -33,7 +33,7 @@ public class ccc005ÅÅĞò°¸Àı3 {
         }
         System.out.println(xx);
         String xx1 = xx.toString();
-        //ÆäÊµÕâĞ©×ª»¯²½ÖèµÄ×÷ÓÃÔÚÓÚ£¬µ÷ÓÃÒ»Ğ©StringÀàĞÍÎŞ·¨µ÷ÓÃµÄ·½·¨
+        //å…¶å®è¿™äº›è½¬åŒ–æ­¥éª¤çš„ä½œç”¨åœ¨äºï¼Œè°ƒç”¨ä¸€äº›Stringç±»å‹æ— æ³•è°ƒç”¨çš„æ–¹æ³•
         System.out.println("123:" + xx1);
 
     }

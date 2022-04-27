@@ -1,16 +1,16 @@
-package ab¶ş½×¶ÎÇ¿»¯¿Î³Ì2022Äê1ÔÂ11ÈÕ.ccc109ÀÏÊ¦Ñ§Éú¸¸Àà°¸Àı;
+package abäºŒé˜¶æ®µå¼ºåŒ–è¯¾ç¨‹2022å¹´1æœˆ11æ—¥.ccc109è€å¸ˆå­¦ç”Ÿçˆ¶ç±»æ¡ˆä¾‹;
 
 public class ccc005same {
     private String name = "";
     private int age = 0;
 
     public ccc005same() {
-        // System.out.println(name + "ÎÒÊÇ·Ö¸îÏß" + age);
+        // System.out.println(name + "æˆ‘æ˜¯åˆ†å‰²çº¿" + age);
 
     }
 
     public void showdemo() {
-        System.out.println(name + "ÎÒÊÇ·Ö¸îÏß" + age);
+        System.out.println(name + "æˆ‘æ˜¯åˆ†å‰²çº¿" + age);
 
 
     }

@@ -1,21 +1,21 @@
-package c2stage_20220213.ccc051ÕıÔò±í´ïÊ½;
+package c2stage_20220213.ccc051æ­£åˆ™è¡¨è¾¾å¼;
 
 /**
  * Created by Intellij IDEA.
  * Project:index.pb
- * Package:c2stage_20220213.ccc051ÕıÔò±í´ïÊ½
+ * Package:c2stage_20220213.ccc051æ­£åˆ™è¡¨è¾¾å¼
  * User:  wo1261931780@gmail.com
- * Time:  2022-02-13-39  ĞÇÆÚÈÕ
+ * Time:  2022-02-13-39  æ˜ŸæœŸæ—¥
  */
-public class ccc002¹æÔò {
+public class ccc002è§„åˆ™ {
     public static void main(String[] args) {
 
-        //public boolean matches(String regex):ÅĞ¶ÏÊÇ·ñÓëÕıÔò±í´ïÊ½Æ¥Åä£¬Æ¥Åä·µ»Øtrue
-        // Ö»ÄÜÊÇ a  b  c
+        //public boolean matches(String regex):åˆ¤æ–­æ˜¯å¦ä¸æ­£åˆ™è¡¨è¾¾å¼åŒ¹é…ï¼ŒåŒ¹é…è¿”å›true
+        // åªèƒ½æ˜¯ a  b  c
         System.out.println("a".matches("[abc]")); // true
         System.out.println("z".matches("[abc]")); // false
 
-        // ²»ÄÜ³öÏÖa  b  c
+        // ä¸èƒ½å‡ºç°a  b  c
         System.out.println("a".matches("[^abc]")); // false
         System.out.println("z".matches("[^abc]")); // true
 
@@ -25,22 +25,22 @@ public class ccc002¹æÔò {
         System.out.println("z".matches("\\w")); // true
         System.out.println("2".matches("\\w")); // true
         System.out.println("21".matches("\\w")); // false
-        System.out.println("Äã".matches("\\w")); //false
-        System.out.println("Äã".matches("\\W")); // true
+        System.out.println("ä½ ".matches("\\w")); //false
+        System.out.println("ä½ ".matches("\\W")); // true
         System.out.println("---------------------------------");
-        //  ÒÔÉÏÕıÔòÆ¥ÅäÖ»ÄÜĞ£Ñéµ¥¸ö×Ö·û¡£
+        //  ä»¥ä¸Šæ­£åˆ™åŒ¹é…åªèƒ½æ ¡éªŒå•ä¸ªå­—ç¬¦ã€‚
 
-        // Ğ£ÑéÃÜÂë
-        // ±ØĞëÊÇÊı×Ö ×ÖÄ¸ ÏÂ»®Ïß ÖÁÉÙ 6Î»
+        // æ ¡éªŒå¯†ç 
+        // å¿…é¡»æ˜¯æ•°å­— å­—æ¯ ä¸‹åˆ’çº¿ è‡³å°‘ 6ä½
         System.out.println("2442fsfsf".matches("\\w{6,}"));
         System.out.println("244f".matches("\\w{6,}"));
 
-        // ÑéÖ¤Âë ±ØĞëÊÇÊı×ÖºÍ×Ö·û  ±ØĞëÊÇ4Î»
+        // éªŒè¯ç  å¿…é¡»æ˜¯æ•°å­—å’Œå­—ç¬¦  å¿…é¡»æ˜¯4ä½
         System.out.println("23dF".matches("[a-zA-Z0-9]{4}"));
         System.out.println("23_F".matches("[a-zA-Z0-9]{4}"));
         // System.out.println("23dF".matches("[\\w && ^_]{4}"));
-        // ±¨´í£¬Ê×ÏÈ²»ÄÜ´øÀ¨ºÅ
-        // Æä´ÎÕâÀïµÄ^_ĞèÒª·ÅÖÃÔÚ[]ÖĞ¼ä
+        // æŠ¥é”™ï¼Œé¦–å…ˆä¸èƒ½å¸¦æ‹¬å·
+        // å…¶æ¬¡è¿™é‡Œçš„^_éœ€è¦æ”¾ç½®åœ¨[]ä¸­é—´
         System.out.println("23dF".matches("[\\w&&[^_]]{4}"));
         System.out.println("23_F".matches("[\\w&&[^_]]{4}"));
 

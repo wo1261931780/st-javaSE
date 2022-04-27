@@ -9,27 +9,27 @@ import java.io.IOException;
  * Project:index.pb
  * Package:c2stage_20220416.ccc130file_output_stream
  * User:  wo1261931780@gmail.com
- * Time:  2022-04-10-46  ĞÇÆÚÁù
+ * Time:  2022-04-10-46  æ˜ŸæœŸå…­
  */
 public class ccc001 {
     public static void main(String[] args) throws IOException {
         File x = new File("C:\\Users\\1\\Documents\\GitHub\\st-java.github.io\\src\\c2stage_20220416\\ccc130file_output_stream\\demo.txt");
-        // FileOutputStream x1 = new FileOutputStream(x);// ´´½¨µÄÊ±ºòÇå¿ÕËùÓĞµÄÊı¾İ
-        FileOutputStream x1 = new FileOutputStream(x, true);// Ìí¼ÓÒ»¸ötrue£¬±íÊ¾×·¼ÓÊı¾İ
+        // FileOutputStream x1 = new FileOutputStream(x);// åˆ›å»ºçš„æ—¶å€™æ¸…ç©ºæ‰€æœ‰çš„æ•°æ®
+        FileOutputStream x1 = new FileOutputStream(x, true);// æ·»åŠ ä¸€ä¸ªtrueï¼Œè¡¨ç¤ºè¿½åŠ æ•°æ®
         x1.write(123);
         x1.write('b');
         x1.write('a');
         // x1.write(Integer.parseInt("1"));
         byte[] x2 = {'a', 'b', 'c'};
-        x1.write(x2);// °´ÕÕÊı×éµÄĞÎÊ½Ğ´ÈëÊı¾İ
-        byte[] x3 = "²âÊÔÖĞÎÄ".getBytes();// ½«×Ö·û´®±ä³É×Ö½ÚÊı×é
+        x1.write(x2);// æŒ‰ç…§æ•°ç»„çš„å½¢å¼å†™å…¥æ•°æ®
+        byte[] x3 = "æµ‹è¯•ä¸­æ–‡".getBytes();// å°†å­—ç¬¦ä¸²å˜æˆå­—èŠ‚æ•°ç»„
         x1.write(x3);
-        x1.write("\r\n".getBytes());// »»ĞĞ·û£¬¶àÏµÍ³¼æÈİ
+        x1.write("\r\n".getBytes());// æ¢è¡Œç¬¦ï¼Œå¤šç³»ç»Ÿå…¼å®¹
         byte[] x4 = {'A', 'B', 'C', 'D'};
-        x1.write(x4, 0, 2);// Ğ´Ö¸¶¨Êı×é£¬´Ó0¿ªÊ¼£¬Ğ´ÈëµÄ³¤¶ÈÎª2
-        x1.flush();// Ë¢ĞÂÊı¾İ£¬±£Ö¤ÄÚ´æĞ´µ½Ó²ÅÌ
-        // ÕâÀïµÄ¶ÁĞ´ÊÇ´ÓÍ·¿ªÊ¼½øĞĞµÄ
-        // Èç¹ûÎÄ¼şÖĞÓĞÊı¾İ£¬Ò²»á½øĞĞ¸²¸Ç£¬È»ºó´ÓÍ·¿ªÊ¼Ğ´Èë
+        x1.write(x4, 0, 2);// å†™æŒ‡å®šæ•°ç»„ï¼Œä»0å¼€å§‹ï¼Œå†™å…¥çš„é•¿åº¦ä¸º2
+        x1.flush();// åˆ·æ–°æ•°æ®ï¼Œä¿è¯å†…å­˜å†™åˆ°ç¡¬ç›˜
+        // è¿™é‡Œçš„è¯»å†™æ˜¯ä»å¤´å¼€å§‹è¿›è¡Œçš„
+        // å¦‚æœæ–‡ä»¶ä¸­æœ‰æ•°æ®ï¼Œä¹Ÿä¼šè¿›è¡Œè¦†ç›–ï¼Œç„¶åä»å¤´å¼€å§‹å†™å…¥
 
 
     }

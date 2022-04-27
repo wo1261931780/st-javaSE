@@ -1,5 +1,5 @@
-package ab¶ş½×¶ÎÇ¿»¯¿Î³Ì2022Äê1ÔÂ11ÈÕ.ccc023Ã¨¹·½Ó¿Ú°æ;
+package abäºŒé˜¶æ®µå¼ºåŒ–è¯¾ç¨‹2022å¹´1æœˆ11æ—¥.ccc023çŒ«ç‹—æ¥å£ç‰ˆ;
 
-public interface ccc026½Ó¿Ú {
+public interface ccc026æ¥å£ {
     public void jump();
 }

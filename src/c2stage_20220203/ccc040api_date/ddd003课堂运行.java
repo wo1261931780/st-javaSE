@@ -4,18 +4,18 @@ import java.text.ParseException;
 import java.util.Date;
 import java.util.Scanner;
 
-public class ddd003¿ÎÌÃÔËĞĞ {
-    public static void main(String[] args) throws ParseException {
-        Scanner x = new Scanner(System.in);
-        System.out.println("ÇëÊäÈë×Ö·û´®£º");
-        String x1 = x.nextLine();
-        Date x2 = new Date();
-        String x3 = ddd002¿ÎÌÃĞ´·¨.Datetostring(x2, "yyyy-MM-dd-HH-mm-ss");
-        System.out.println(x3);
-        // System.out.println("ÇëÊäÈë×Ö·û´®£º");
-        // String x2 = x.nextLine();
-        Date x4 = ddd002¿ÎÌÃĞ´·¨.stringtodate(x1, "yyyy-MM-dd-HH-mm-ss");
-        System.out.println(x4);
-
-    }
-}
+// public class ddd003Â¿ÃÃŒÃƒÃ”Ã‹ÄÄ {
+//     public static void main(String[] args) throws ParseException {
+//         Scanner x = new Scanner(System.in);
+//         System.out.println("Ã‡Ã«ÃŠÃ¤ÃˆÃ«Ã—Ã–Â·Ã»Â´Â®Â£Âº");
+//         String x1 = x.nextLine();
+//         Date x2 = new Date();
+//         String x3 = ddd002Â¿ÃÃŒÃƒÄÂ´Â·Â¨.Datetostring(x2, "yyyy-MM-dd-HH-mm-ss");
+//         System.out.println(x3);
+//         // System.out.println("Ã‡Ã«ÃŠÃ¤ÃˆÃ«Ã—Ã–Â·Ã»Â´Â®Â£Âº");
+//         // String x2 = x.nextLine();
+//         Date x4 = ddd002Â¿ÃÃŒÃƒÄÂ´Â·Â¨.stringtodate(x1, "yyyy-MM-dd-HH-mm-ss");
+//         System.out.println(x4);
+//
+//     }
+// }

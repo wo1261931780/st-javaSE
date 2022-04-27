@@ -1,8 +1,8 @@
-package ab¶ş½×¶ÎÇ¿»¯¿Î³Ì2022Äê1ÔÂ11ÈÕ.ccc018Ã¨¹·¶àÌ¬°¸Àı;
+package abäºŒé˜¶æ®µå¼ºåŒ–è¯¾ç¨‹2022å¹´1æœˆ11æ—¥.ccc018çŒ«ç‹—å¤šæ€æ¡ˆä¾‹;
 
 public class ccc003test_run {
     public static void main(String[] args) {
-        System.out.println("ÎÒÊÇ²âÊÔÀà");
+        System.out.println("æˆ‘æ˜¯æµ‹è¯•ç±»");
         ccc001test_animal x = new ccc002test_dog();
         x.setName("111");
         x.setAge(222);

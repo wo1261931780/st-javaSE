@@ -5,9 +5,9 @@ package leetcode.eee002deke_code.aaa008_20220323;
  * Project:index.pb
  * Package:leetcode.eee002deke_code.aaa008_20220323
  * User:  wo1261931780@gmail.com
- * Time:  2022-03-08-49  ĞÇÆÚÈı
+ * Time:  2022-03-08-49  æ˜ŸæœŸä¸‰
  */
 public class note {
-    // ×î½üÔÚ°á×©£¬ÆÚ¼äµÄ¼¸´ÎÌá½»ÍüÁËĞŞ¸ÄÓÃ»§£¬¿´²»ÏÂÈ¥ÁË£¬ÕâÑùÒªÒ»ÕûÅÅÃ»ÓĞpush£¬ÔÊĞíÎÒ½ñÌìË®Ò»´Î
+    // æœ€è¿‘åœ¨æ¬ç –ï¼ŒæœŸé—´çš„å‡ æ¬¡æäº¤å¿˜äº†ä¿®æ”¹ç”¨æˆ·ï¼Œçœ‹ä¸ä¸‹å»äº†ï¼Œè¿™æ ·è¦ä¸€æ•´æ’æ²¡æœ‰pushï¼Œå…è®¸æˆ‘ä»Šå¤©æ°´ä¸€æ¬¡
     // Recently in the move, the period of several submissions forgot to modify the user, can not see, so that to a whole row without push, allow me to water once today
 }

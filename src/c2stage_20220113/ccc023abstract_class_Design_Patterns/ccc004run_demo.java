@@ -4,8 +4,8 @@ public class ccc004run_demo {
     public static void main(String[] args) {
         // ccc002bank_huoqi x=new ccc002bank_huoqi();
         // x.caculate_rates();
-        // ÕâÀïµÄÕËºÅ»¹ÊÇÔÚ×ÓÀàÖĞ´´½¨£¬µ«ÊÇÊ¹ÓÃµÄgetºÍset»¹ÊÇÔÚ¸¸Àà
-        // ÄÇÃ´¾ÍĞèÒªÔÚ×ÓÀàÖĞÊ¹ÓÃsuperµÈ·½·¨À´µ÷ÓÃÓĞ²Î¹¹Ôì¶ÔÏó
+        // è¿™é‡Œçš„è´¦å·è¿˜æ˜¯åœ¨å­ç±»ä¸­åˆ›å»ºï¼Œä½†æ˜¯ä½¿ç”¨çš„getå’Œsetè¿˜æ˜¯åœ¨çˆ¶ç±»
+        // é‚£ä¹ˆå°±éœ€è¦åœ¨å­ç±»ä¸­ä½¿ç”¨superç­‰æ–¹æ³•æ¥è°ƒç”¨æœ‰å‚æ„é€ å¯¹è±¡
         ccc002bank_huoqi x=new ccc002bank_huoqi("111",100000);
         x.caculate_rates();
         x.login("111","100000");

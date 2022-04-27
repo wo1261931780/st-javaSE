@@ -2,13 +2,13 @@ package c2stage_20220416.ccc136Bytebufferstream;
 
 import java.io.*;
 
-public class eee075×Ö½Ú»º³åÁ÷ {
+public class eee075å­—èŠ‚ç¼“å†²æµ {
     public static void main(String[] args) throws IOException {
         File x = new File("L:\\java\\demo.txt");
         // FileOutputStream x1 = new FileOutputStream(x);
         BufferedOutputStream x1 = new BufferedOutputStream(new FileOutputStream(x));
-        // ÉÏÃæµÄ´úÂëºÏ²¢ÁËÁ½¸öÃüÁî
-        // Ô´´úÂë£º
+        // ä¸Šé¢çš„ä»£ç åˆå¹¶äº†ä¸¤ä¸ªå‘½ä»¤
+        // æºä»£ç ï¼š
         // public BufferedOutputStream(OutputStream out) {
         // this(out, 8192);
         // }
@@ -19,9 +19,9 @@ public class eee075×Ö½Ú»º³åÁ÷ {
         // }
         // buf = new byte[size];
         // }
-        // Ïàµ±ÓÚÔÚÄÚ²¿·â×°ÁËÒ»¸ö8192×Ö½ÚµÄÊı×é
+        // ç›¸å½“äºåœ¨å†…éƒ¨å°è£…äº†ä¸€ä¸ª8192å­—èŠ‚çš„æ•°ç»„
         x1.write("www".getBytes());
-        // ÕâÀïÊµ¼ÊÉÏ»¹ÊÇÊä³öÁ÷£¬ÒòÎªÖ´ĞĞµÄÃüÁî»¹ÊÇÊä³öÁ÷ÃüÁî
+        // è¿™é‡Œå®é™…ä¸Šè¿˜æ˜¯è¾“å‡ºæµï¼Œå› ä¸ºæ‰§è¡Œçš„å‘½ä»¤è¿˜æ˜¯è¾“å‡ºæµå‘½ä»¤
         x1.write("demo".getBytes());
         x1.close();
         // FileInputStream x2 = new FileInputStream(x);
@@ -30,20 +30,20 @@ public class eee075×Ö½Ú»º³åÁ÷ {
         //     System.out.print((char) i);
         // }
         System.out.println("-----------------------------");
-        // Í¨¹ı×Ö½Ú»º³åÁ÷¶ÁÈ¡Êı¾İ
+        // é€šè¿‡å­—èŠ‚ç¼“å†²æµè¯»å–æ•°æ®
         BufferedInputStream x3 = new BufferedInputStream(new FileInputStream(x));
         int i;
         while ((i = x3.read()) != -1) {
             System.out.print((char) i);
         }
         System.out.println("-----------------------------");
-        // Í¨¹ıÊı×éĞÎÊ½¶ÁÈ¡Êı¾İ
+        // é€šè¿‡æ•°ç»„å½¢å¼è¯»å–æ•°æ®
         byte[] xx = new byte[1024];
-        // 1.¶¨ÒåÒ»¸öÊı×é
+        // 1.å®šä¹‰ä¸€ä¸ªæ•°ç»„
         int x4;
-        // 2.¶¨ÒåÒ»¸öintÀàĞÍµÄ±äÁ¿£¬ÓÃÀ´½ÓÊÕ¶ÁÈ¡µ½µÄÊı¾İ
+        // 2.å®šä¹‰ä¸€ä¸ªintç±»å‹çš„å˜é‡ï¼Œç”¨æ¥æ¥æ”¶è¯»å–åˆ°çš„æ•°æ®
         while ((x4 = x3.read()) != -1) {
-            // µ±¶ÁÈ¡ÉĞÎ´½áÊøµÄÊ±ºò£¬
+            // å½“è¯»å–å°šæœªç»“æŸçš„æ—¶å€™ï¼Œ
             System.out.println(new String(xx, 0, x4));
         }
 

@@ -1,19 +1,19 @@
-package c2stage_20220418.eee108¼¯ºÏµ½ÎÄ¼ş¸Ä½ø°¸Àı;
+package c2stage_20220418.eee108é›†åˆåˆ°æ–‡ä»¶æ”¹è¿›æ¡ˆä¾‹;
 
-public class eee109¶ÔÏóÀà {
+public class eee109å¯¹è±¡ç±» {
     private int num;
     private String name;
     private int age;
     private String address;
 
-    public eee109¶ÔÏóÀà(int num, String name, int age, String address) {
+    public eee109å¯¹è±¡ç±»(int num, String name, int age, String address) {
         this.num = num;
         this.name = name;
         this.age = age;
         this.address = address;
     }
 
-    public eee109¶ÔÏóÀà() {
+    public eee109å¯¹è±¡ç±»() {
     }
 
     public int getNum() {

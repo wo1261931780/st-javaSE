@@ -1,4 +1,4 @@
-package leetcode.eee118自己出题1;
+package leetcode.eee118鑷繁鍑洪1;
 
 public class demo_chongzai {
     public static void main(String[] args) {
@@ -6,7 +6,7 @@ public class demo_chongzai {
         show(1);
         show(1, 2);
         show(1, 2, 3);
-        System.out.println("结束");
+        System.out.println("缁撴潫");
 
     }
 

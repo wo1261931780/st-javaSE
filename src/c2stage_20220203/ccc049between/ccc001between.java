@@ -9,13 +9,13 @@ public class ccc001between {
         LocalDateTime x = LocalDateTime.now();
         System.out.println(x);// 2022-02-06T17:16:46.805553300
         LocalDateTime bd = LocalDateTime.of(1996, 11, 22, 00, 00, 00);
-        System.out.println("Éè¶¨Ê±¼ä£º" + bd);// Éè¶¨Ê±¼ä£º1996-11-22T00:00
+        System.out.println("è®¾å®šæ—¶é—´ï¼š" + bd);// è®¾å®šæ—¶é—´ï¼š1996-11-22T00:00
         // ****************************************************
         Duration xx = Duration.between(bd, x);
-        System.out.println("ÌìÊı£º" + xx.toDays());// ÌìÊı£º9207
-        System.out.println("Ğ¡Ê±£º" + xx.toHours());// Ğ¡Ê±£º220985
-        System.out.println("·ÖÖÓ£º" + xx.toMinutes());// ·ÖÖÓ£º13259116
-        System.out.println("ÃëÊı£º" + xx.toMillis());// ÃëÊı£º795547006805
+        System.out.println("å¤©æ•°ï¼š" + xx.toDays());// å¤©æ•°ï¼š9207
+        System.out.println("å°æ—¶ï¼š" + xx.toHours());// å°æ—¶ï¼š220985
+        System.out.println("åˆ†é’Ÿï¼š" + xx.toMinutes());// åˆ†é’Ÿï¼š13259116
+        System.out.println("ç§’æ•°ï¼š" + xx.toMillis());// ç§’æ•°ï¼š795547006805
 
 
     }

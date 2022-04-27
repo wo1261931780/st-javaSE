@@ -1,11 +1,11 @@
-package abÍùÆÚÑ§Ï°2021Äê10ÔÂ2ÈÕ.bbb018string¹¹Ôì·½·¨;
+package abå¾€æœŸå­¦ä¹ 2021å¹´10æœˆ2æ—¥.bbb018stringæ„é€ æ–¹æ³•;
 
 import java.util.Random;
 import java.util.Scanner;
 
-public class bbb005string°¸Àı {
+public class bbb005stringæ¡ˆä¾‹ {
     public static void main(String[] args) {
-        // ÑéÖ¤Âë°¸Àı
+        // éªŒè¯ç æ¡ˆä¾‹
         // String x = "aA0";
         Random x1 = new Random();
         // int x2 = x1.nextInt(x.length());
@@ -17,7 +17,7 @@ public class bbb005string°¸Àı {
     }
 
     /**
-     * Á·Ï°Ìâ£ºÊ¹ÓÃStringÍê³ÉËæ»úÉú³É5Î»µÄÑéÖ¤Âë¡£
+     * ç»ƒä¹ é¢˜ï¼šä½¿ç”¨Stringå®Œæˆéšæœºç”Ÿæˆ5ä½çš„éªŒè¯ç ã€‚
      */
     public static void show(Random x) {
         String x1 = "";
@@ -33,33 +33,33 @@ public class bbb005string°¸Àı {
     }
 
     /**
-     * Á·Ï°Ìâ£ºÄ£ÄâÓÃ»§µÇÂ¼
+     * ç»ƒä¹ é¢˜ï¼šæ¨¡æ‹Ÿç”¨æˆ·ç™»å½•
      */
     public static void login() {
-        // 1¡¢¶¨ÒåÕıÈ·µÄµÇÂ¼Ãû³ÆºÍÃÜÂë
+        // 1ã€å®šä¹‰æ­£ç¡®çš„ç™»å½•åç§°å’Œå¯†ç 
         String name = "a1";
         String paw = "s1";
         Scanner x = new Scanner(System.in);
-        // 2¡¢¶¨ÒåÒ»¸öÑ­»·£¬Ñ­»·3´Î£¬ÈÃÓÃ»§µÇÂ¼
+        // 2ã€å®šä¹‰ä¸€ä¸ªå¾ªç¯ï¼Œå¾ªç¯3æ¬¡ï¼Œè®©ç”¨æˆ·ç™»å½•
         for (int i = 0; i < 3; i++) {
-            System.out.println("ÇëÊäÈëÕËºÅ£º");
+            System.out.println("è¯·è¾“å…¥è´¦å·ï¼š");
             String login_name = x.nextLine();
-            System.out.println("ÇëÊäÈëÃÜÂë£º");
+            System.out.println("è¯·è¾“å…¥å¯†ç ï¼š");
             String login_paw = x.nextLine();
             if (login_name.equals(name) && login_paw.equals(paw)) {
                 System.out.println("correct");
                 return;
             }
-            System.out.println("´íÎó£¬Ê£Óà" + (2 - i) + "´Î");
+            System.out.println("é”™è¯¯ï¼Œå‰©ä½™" + (2 - i) + "æ¬¡");
         }
     }
 
     /**
-     * Á·Ï°Ìâ£ºÊÖ»úºÅÂëÆÁ±Î
+     * ç»ƒä¹ é¢˜ï¼šæ‰‹æœºå·ç å±è”½
      */
     public static void phonenum() {
         Scanner x = new Scanner(System.in);
-        System.out.println("ÇëÊäÈëºÅÂë£º");
+        System.out.println("è¯·è¾“å…¥å·ç ï¼š");
         String x1 = x.nextLine();
         if (x1.length() != 11) {
             System.out.println("num error");

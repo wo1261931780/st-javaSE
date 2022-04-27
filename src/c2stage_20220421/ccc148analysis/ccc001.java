@@ -5,24 +5,24 @@ package c2stage_20220421.ccc148analysis;
  * Project:index.pb
  * Package:c2stage_20220421.ccc148analysis
  * User:  wo1261931780@gmail.com
- * Time:  2022-04-22-20  ĞÇÆÚÒ»
+ * Time:  2022-04-22-20  æ˜ŸæœŸä¸€
  */
 public class ccc001 {
     // @Override
     // public PubRuleMergeDto getPubRuleDetail(PubRuleMergeDto ruleMergeDto) throws Exception {
     //     String ruleId = ruleMergeDto.getRuleId();
     //     if (EmptyUtil.isEmpty(ruleId)) {
-    //         throw new BizException(CommMessageCode.ERR_REQ_PAR_EMPTY, "¹æÔòÖ÷±íid²»ÄÜÎª¿Õ");
+    //         throw new BizException(CommMessageCode.ERR_REQ_PAR_EMPTY, "è§„åˆ™ä¸»è¡¨idä¸èƒ½ä¸ºç©º");
     //     }
-    //     //Ö÷±í²éÑ¯,Èç¹û³¡¾°ÀàĞÍÎª¿Õ¾ÍÔÙ²éÑ¯Ò»´ÎÖ÷±í
+    //     //ä¸»è¡¨æŸ¥è¯¢,å¦‚æœåœºæ™¯ç±»å‹ä¸ºç©ºå°±å†æŸ¥è¯¢ä¸€æ¬¡ä¸»è¡¨
     //     if (EmptyUtil.isEmpty(ruleMergeDto.getBusinessScenarioType())) {
     //-------------------------------------------------------------------------------------------------
-    // Ê¹ÓÃ³Ö¾Ã²ã·â×°ºÃµÄ·½·¨£¬
-    // Ê¹ÓÃÖ¸¶¨µÄdtoÀàĞÍ£¬Ö¸¶¨µÄ±í¸ñÀàĞÍ£¬´«Èë»ñÈ¡µÄid£¬
-    // ¶¨Î»¶ÔÓ¦µÄdtoÊı¾İ
+    // ä½¿ç”¨æŒä¹…å±‚å°è£…å¥½çš„æ–¹æ³•ï¼Œ
+    // ä½¿ç”¨æŒ‡å®šçš„dtoç±»å‹ï¼ŒæŒ‡å®šçš„è¡¨æ ¼ç±»å‹ï¼Œä¼ å…¥è·å–çš„idï¼Œ
+    // å®šä½å¯¹åº”çš„dtoæ•°æ®
     // efPersistenceService.getById(PubRuleScene2Dto .class, PubRuleScene2Model.class, ruleId);
     //-------------------------------------------------------------------------------------------------
-    // Í¬ÑùµÄ£¬¸ù¾İ¶ÔÓ¦µÄÌõ¼ş£¬²éÑ¯dto
+    // åŒæ ·çš„ï¼Œæ ¹æ®å¯¹åº”çš„æ¡ä»¶ï¼ŒæŸ¥è¯¢dto
     // efPersistenceService.query(PubRuleScene2CondDto.class, PubRuleScene2CondModel.class, condition);
     //-------------------------------------------------------------------------------------------------
     //         PubRuleScene2Dto ruleDto = efPersistenceService.getById(PubRuleScene2Dto.class, PubRuleScene2Model.class, ruleId);
@@ -33,19 +33,19 @@ public class ccc001 {
     //         }
     //     }
     //-------------------------------------------------------------------------------------------------
-    //     //Ìõ¼şÁĞ±í²éÑ¯
+    //     //æ¡ä»¶åˆ—è¡¨æŸ¥è¯¢
     //     PubRuleScene2CondDto condition = new PubRuleScene2CondDto();
     //     condition.setBusinessScenarioId(ruleId);
     //     List<PubRuleScene2CondDto> condList = efPersistenceService.query(PubRuleScene2CondDto.class, PubRuleScene2CondModel.class, condition);
     //     ruleMergeDto.setCondList(condList);
 
-    //     //½á¹ûÁĞ±í²éÑ¯
+    //     //ç»“æœåˆ—è¡¨æŸ¥è¯¢
     //     PubRuleScene2ResultDto resultConditon = new PubRuleScene2ResultDto();
     //     resultConditon.setBusinessScenarioId(ruleId);
     //     List<PubRuleScene2ResultDto> resultList = efPersistenceService.query(PubRuleScene2ResultDto.class, PubRuleScene2ResultModel.class, resultConditon);
     //     ruleMergeDto.setResultList(resultList);
     //-------------------------------------------------------------------------------------------------
-    // ²»¹Ü¹ı³ÌÈçºÎ£¬×îÖÕ·µ»ØÒ»¸ödto¾Í¿ÉÒÔ
+    // ä¸ç®¡è¿‡ç¨‹å¦‚ä½•ï¼Œæœ€ç»ˆè¿”å›ä¸€ä¸ªdtoå°±å¯ä»¥
     //     return ruleMergeDto;
     // }
 }

@@ -15,14 +15,14 @@ import java.util.Scanner;
 // public class ccc001demo {
 //     public static void main(String[] args) {
 //         Scanner x = new Scanner(System.in);
-//         System.out.println("ÇëÊäÈëÊı¾İ:");
+//         System.out.println("è¯·è¾“å…¥æ•°æ®:");
 //         double demo_num = x.nextDouble();
 //         int demo_x = (int) demo_num;
 //         System.out.println(demo_x);
 //
 //     }
 // }
-// 2022Äê2ÔÂ7ÈÕ20:53:32£¬Á¦¿ÛË¢ÌâÁ½µÀ
+// 2022å¹´2æœˆ7æ—¥20:53:32ï¼ŒåŠ›æ‰£åˆ·é¢˜ä¸¤é“
 
 public class ccc001demo {
     public static void main(String[] args) {

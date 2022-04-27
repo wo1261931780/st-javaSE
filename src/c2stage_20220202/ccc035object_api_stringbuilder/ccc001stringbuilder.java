@@ -6,16 +6,16 @@ public class ccc001stringbuilder {
         StringBuilder x=new StringBuilder();
         x.append(11);
         x.append(22);
-        // Ô´ÂëÊÇÕâ¸ö£º
+        // æºç æ˜¯è¿™ä¸ªï¼š
         // @Override
         // @IntrinsicCandidate
         // public StringBuilder append(int i) {
         //     super.append(i);
         //     return this;
         // }
-        // ×îÖÕappend·µ»ØµÄÊÇÒ»¸öStringBuilder¶ÔÏó
-        // Òò´Ë¶ÔÏóºó£¬Ö±½Ó¼Óappend¾Í¿ÉÒÔ¼ÌĞøÊ¹ÓÃ
-        // ´Ó¶øĞÎ³ÉÁËÁ´Ê½±à³Ì
+        // æœ€ç»ˆappendè¿”å›çš„æ˜¯ä¸€ä¸ªStringBuilderå¯¹è±¡
+        // å› æ­¤å¯¹è±¡åï¼Œç›´æ¥åŠ appendå°±å¯ä»¥ç»§ç»­ä½¿ç”¨
+        // ä»è€Œå½¢æˆäº†é“¾å¼ç¼–ç¨‹
         x.append(33);
         System.out.println(x);
 

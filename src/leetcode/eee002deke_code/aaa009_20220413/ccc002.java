@@ -10,9 +10,9 @@ import java.util.Set;
  * Project:index.pb
  * Package:leetcode.eee002deke_code.aaa009_20220413
  * User:  wo1261931780@gmail.com
- * Time:  2022-04-13-14  ÐÇÆÚÈý
- * ±àÐ´Ò»¸öº¯Êý£¬¼ÆËã×Ö·û´®ÖÐº¬ÓÐµÄ²»Í¬×Ö·ûµÄ¸öÊý¡£×Ö·ûÔÚ ASCII Âë·¶Î§ÄÚ( 0~127 £¬°üÀ¨ 0 ºÍ 127 )£¬»»ÐÐ±íÊ¾½áÊø·û£¬²»ËãÔÚ×Ö·ûÀï¡£²»ÔÚ·¶Î§ÄÚµÄ²»×÷Í³¼Æ¡£¶à¸öÏàÍ¬µÄ×Ö·ûÖ»¼ÆËãÒ»´Î
- * ÀýÈç£¬¶ÔÓÚ×Ö·û´® abaca ¶øÑÔ£¬ÓÐ a¡¢b¡¢c ÈýÖÖ²»Í¬µÄ×Ö·û£¬Òò´ËÊä³ö 3 ¡£
+ * Time:  2022-04-13-14  æ˜ŸæœŸä¸‰
+ * ç¼–å†™ä¸€ä¸ªå‡½æ•°ï¼Œè®¡ç®—å­—ç¬¦ä¸²ä¸­å«æœ‰çš„ä¸åŒå­—ç¬¦çš„ä¸ªæ•°ã€‚å­—ç¬¦åœ¨ ASCII ç èŒƒå›´å†…( 0~127 ï¼ŒåŒ…æ‹¬ 0 å’Œ 127 )ï¼Œæ¢è¡Œè¡¨ç¤ºç»“æŸç¬¦ï¼Œä¸ç®—åœ¨å­—ç¬¦é‡Œã€‚ä¸åœ¨èŒƒå›´å†…çš„ä¸ä½œç»Ÿè®¡ã€‚å¤šä¸ªç›¸åŒçš„å­—ç¬¦åªè®¡ç®—ä¸€æ¬¡
+ * ä¾‹å¦‚ï¼Œå¯¹äºŽå­—ç¬¦ä¸² abaca è€Œè¨€ï¼Œæœ‰ aã€bã€c ä¸‰ç§ä¸åŒçš„å­—ç¬¦ï¼Œå› æ­¤è¾“å‡º 3 ã€‚
  */
 public class ccc002 {
     public static void main(String[] args) {

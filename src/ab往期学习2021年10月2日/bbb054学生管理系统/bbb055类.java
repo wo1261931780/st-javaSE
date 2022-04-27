@@ -1,21 +1,21 @@
-package abÍùÆÚÑ§Ï°2021Äê10ÔÂ2ÈÕ.bbb054Ñ§Éú¹ÜÀíÏµÍ³;
+package abå¾€æœŸå­¦ä¹ 2021å¹´10æœˆ2æ—¥.bbb054å­¦ç”Ÿç®¡ç†ç³»ç»Ÿ;
 
-//alt+inseltÖ±½ÓĞ´
-public class bbb055Àà {
+//alt+inseltç›´æ¥å†™
+public class bbb055ç±» {
     private String number = "";
     private String name = "";
     private String age = "";
     private String address = "";
 
-    public bbb055Àà() {
+    public bbb055ç±»() {
     }
 
-    public bbb055Àà(String number, String name, String age, String address) {
+    public bbb055ç±»(String number, String name, String age, String address) {
         this.number = number;
         this.name = name;
         this.age = age;
         this.address = address;
-        System.out.println("¸³ÖµÍê³É--------");
+        System.out.println("èµ‹å€¼å®Œæˆ--------");
     }
 
     public void setNumber(String number) {

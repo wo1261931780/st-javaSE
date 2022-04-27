@@ -4,7 +4,7 @@ import java.util.Objects;
 
 public class ccc001object {
     /**
-     * Ä¬ÈÏÀïÃæÓĞextends object
+     * é»˜è®¤é‡Œé¢æœ‰extends object
      * public class ccc035object extends object{
      */
     int age;
@@ -33,43 +33,43 @@ public class ccc001object {
     public void setName(String name) {
         this.name = name;
     }
-    //ÒòÎªµ÷ÓÃµÄÊÇÕâÀïµÄobjectÃüÁî£¬ËùÒÔÔÚ´ËÖØĞ´
+    //å› ä¸ºè°ƒç”¨çš„æ˜¯è¿™é‡Œçš„objectå‘½ä»¤ï¼Œæ‰€ä»¥åœ¨æ­¤é‡å†™
 
     /**
-     * ÏÂÃæµÄtostringÃüÁî£¬ÔÚ²»ÖØĞ´µÄÇé¿öÏÂ£¬
-     * ÎÒÖ±½ÓµÃµ½½á¹û£º¡°c2stage_20220113.ccc034Commonly_used_api.ccc035object@776ec8df¡±
-     * ´ÓÊµ¼Ê¿ª·¢½Ç¶È³ö·¢£¬ÎÒÃÇ²»ĞèÒªÕâÑùµÄ½á¹û£¬
-     * Òò´Ë£¬ÎªÁË·½±ãÕ¹Ê¾£¬Ò»°ãĞèÒªÖØĞ´Ò»´Îtostring·½·¨
+     * ä¸‹é¢çš„tostringå‘½ä»¤ï¼Œåœ¨ä¸é‡å†™çš„æƒ…å†µä¸‹ï¼Œ
+     * æˆ‘ç›´æ¥å¾—åˆ°ç»“æœï¼šâ€œc2stage_20220113.ccc034Commonly_used_api.ccc035object@776ec8dfâ€
+     * ä»å®é™…å¼€å‘è§’åº¦å‡ºå‘ï¼Œæˆ‘ä»¬ä¸éœ€è¦è¿™æ ·çš„ç»“æœï¼Œ
+     * å› æ­¤ï¼Œä¸ºäº†æ–¹ä¾¿å±•ç¤ºï¼Œä¸€èˆ¬éœ€è¦é‡å†™ä¸€æ¬¡tostringæ–¹æ³•
      */
     @Override
     public String toString() {
-        return "ccc035object{" + "age=" + age + ", name='" + name + '\'' + '}';//returnÕâÀïĞèÒª¼ÓÒ»¸ö·ÖºÅÊÕÎ²
+        return "ccc035object{" + "age=" + age + ", name='" + name + '\'' + '}';//returnè¿™é‡Œéœ€è¦åŠ ä¸€ä¸ªåˆ†å·æ”¶å°¾
     }
-    //½á¹ûÊÇ£º¡°ccc035object{age=20, name='junw'}¡±
-    // ÔÙ²¹³äÒ»ÏÂ£¬ÒòÎªÄ¬ÈÏËùÓĞÀà¶¼¼Ì³Ğobject£¬¶øobjectÖĞ¾ÍÓĞtostring·½·¨£¬
-    // ËùÒÔÕâÀïÖ±½ÓÖØĞ´tostring·½·¨¼´¿É
+    //ç»“æœæ˜¯ï¼šâ€œccc035object{age=20, name='junw'}â€
+    // å†è¡¥å……ä¸€ä¸‹ï¼Œå› ä¸ºé»˜è®¤æ‰€æœ‰ç±»éƒ½ç»§æ‰¿objectï¼Œè€Œobjectä¸­å°±æœ‰tostringæ–¹æ³•ï¼Œ
+    // æ‰€ä»¥è¿™é‡Œç›´æ¥é‡å†™tostringæ–¹æ³•å³å¯
     /*
-    objectÖĞµÄÔ´´úÂëĞ´·¨£º
+    objectä¸­çš„æºä»£ç å†™æ³•ï¼š
         //--------------------------------------------
         public String toString() {
             return getClass().getName() + "@" + Integer.toHexString(hashCode());
-            //ÕâÀïÊÇ×îÖÕ½á¹û£¬·µ»ØµÄÊÇ¶ÑÄÚ´æÖĞ£¬ÀàÃû+@+´úÂëµÄ¹şÏ£Öµ£¨16½øÖÆµØÖ·£©
-            //½á¹ûÎª£º¡°c2stage_20220113.ccc034Commonly_used_api.ccc035object@776ec8df¡±
+            //è¿™é‡Œæ˜¯æœ€ç»ˆç»“æœï¼Œè¿”å›çš„æ˜¯å †å†…å­˜ä¸­ï¼Œç±»å+@+ä»£ç çš„å“ˆå¸Œå€¼ï¼ˆ16è¿›åˆ¶åœ°å€ï¼‰
+            //ç»“æœä¸ºï¼šâ€œc2stage_20220113.ccc034Commonly_used_api.ccc035object@776ec8dfâ€
         }
         //--------------------------------------------
     */
-    // ÕâÖÖ¼¼ÊõÊÇÍ¨ÓÃ¼¼Êõ£¬Ö±½ÓÓÒ¼ü£¬Ñ¡ÖĞ²ÎÊıÉú³É¼´¿ÉÍê³ÉÖØĞ´
+    // è¿™ç§æŠ€æœ¯æ˜¯é€šç”¨æŠ€æœ¯ï¼Œç›´æ¥å³é”®ï¼Œé€‰ä¸­å‚æ•°ç”Ÿæˆå³å¯å®Œæˆé‡å†™
 
     // ***********************************************
 
 
     // @Override
-    // public boolean equals(Object obj) {//Êµ¼ÊÉÏÊÇÒ»ÖÖ¶àÌ¬µÄ·½Ê½À´ÖÆ×÷¶ÔÏó
+    // public boolean equals(Object obj) {//å®é™…ä¸Šæ˜¯ä¸€ç§å¤šæ€çš„æ–¹å¼æ¥åˆ¶ä½œå¯¹è±¡
     //     // return super.equals(obj);
     //     // if (obj instanceof ccc001object) {
-    //     //     ccc001object x = (ccc001object) obj;//Ö´ĞĞÒ»´ÎÇ¿×ª²Ù×÷£¬
-    //     //     //ÒòÎªobjÄ¬ÈÏÊÇ¶ÔÏóÀàĞÍ£¬µ«ÊÇÎÒÃÇÅĞ¶ÏµÃµ½ËûÊÇcccÀàĞÍ£¬ËùÒÔ¿ÉÒÔÖ´ĞĞ×ª»¯
-    //     //     //×ª»¯ÒÔºó·½±ãÎÒÃÇºóĞø´úÂë²Ù×÷
+    //     //     ccc001object x = (ccc001object) obj;//æ‰§è¡Œä¸€æ¬¡å¼ºè½¬æ“ä½œï¼Œ
+    //     //     //å› ä¸ºobjé»˜è®¤æ˜¯å¯¹è±¡ç±»å‹ï¼Œä½†æ˜¯æˆ‘ä»¬åˆ¤æ–­å¾—åˆ°ä»–æ˜¯cccç±»å‹ï¼Œæ‰€ä»¥å¯ä»¥æ‰§è¡Œè½¬åŒ–
+    //     //     //è½¬åŒ–ä»¥åæ–¹ä¾¿æˆ‘ä»¬åç»­ä»£ç æ“ä½œ
     //     //     if (this.name.equals(x.name) && this.age == x.age) {
     //     //         return true;
     //     //     }
@@ -77,7 +77,7 @@ public class ccc001object {
     //     // return false;
     //     // ***********************************************
 
-    //     // ÉÏÃæµÄ´úÂë²»ºÃ
+    //     // ä¸Šé¢çš„ä»£ç ä¸å¥½
     //     if (obj instanceof ccc001object) {
     //         return this.name.equals(((ccc001object) obj).name) && this.age == ((ccc001object) obj).age ? true : false;
     //     }
@@ -85,19 +85,19 @@ public class ccc001object {
     // }
 
     // ***********************************************
-    //ÕâÀïÊÇ¹Ù·½Éú³ÉµÄÖØĞ´·½·¨
+    //è¿™é‡Œæ˜¯å®˜æ–¹ç”Ÿæˆçš„é‡å†™æ–¹æ³•
 
     @Override
-    public boolean equals(Object o) {//Ê×ÏÈÅĞ¶ÏÊÇ·ñÍ¬¸ö¶ÔÏó(µØÖ·ÏàÍ¬)
+    public boolean equals(Object o) {//é¦–å…ˆåˆ¤æ–­æ˜¯å¦åŒä¸ªå¯¹è±¡(åœ°å€ç›¸åŒ)
         if (this == o) {
             return true;
         }
-        if (!(o instanceof ccc001object)) {//¶ÔÏóÊÇ·ñÊôÓÚxxÀà
-            // ÕâÀïÒ²¿ÉÒÔÊ¹ÓÃgetclassµÄ·½·¨È¥»ñÈ¡¶ÔÏóÀà
+        if (!(o instanceof ccc001object)) {//å¯¹è±¡æ˜¯å¦å±äºxxç±»
+            // è¿™é‡Œä¹Ÿå¯ä»¥ä½¿ç”¨getclassçš„æ–¹æ³•å»è·å–å¯¹è±¡ç±»
             return false;
         }
         ccc001object that = (ccc001object) o;
-        return age == that.age && Objects.equals(name, that.name);//Èç¹ûageºÍname¶¼Ò»Ñù£¬nameÈÏ¶¨ÎªÍ¬Ò»¸ö¶ÔÏó
+        return age == that.age && Objects.equals(name, that.name);//å¦‚æœageå’Œnameéƒ½ä¸€æ ·ï¼Œnameè®¤å®šä¸ºåŒä¸€ä¸ªå¯¹è±¡
     }
 
 

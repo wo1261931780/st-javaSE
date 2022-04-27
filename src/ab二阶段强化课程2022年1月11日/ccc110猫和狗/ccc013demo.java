@@ -1,10 +1,10 @@
-package ab¶ş½×¶ÎÇ¿»¯¿Î³Ì2022Äê1ÔÂ11ÈÕ.ccc110Ã¨ºÍ¹·;
+package abäºŒé˜¶æ®µå¼ºåŒ–è¯¾ç¨‹2022å¹´1æœˆ11æ—¥.ccc110çŒ«å’Œç‹—;
 
 public class ccc013demo {
     public static void main(String[] args) {
         ccc011cat c1 = new ccc011cat("11", 1);
         ccc012dog d1 = new ccc012dog("22", 2);
-        System.out.println("Ã¨µÄĞÕÃûÊÇ£º" + c1.getName() + ",Ã¨µÄÄêÁäÊÇ£º" + c1.getAge());
+        System.out.println("çŒ«çš„å§“åæ˜¯ï¼š" + c1.getName() + ",çŒ«çš„å¹´é¾„æ˜¯ï¼š" + c1.getAge());
         c1.seekrat();
     }
 }

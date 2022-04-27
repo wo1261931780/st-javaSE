@@ -1,14 +1,14 @@
 package c2stage_20220416.ccc135file_write;
 /*
-    ¹¹Ôì·½·¨£º
-        OutputStreamWriter?(OutputStream out)£º´´½¨Ò»¸öÊ¹ÓÃÄ¬ÈÏ×Ö·û±àÂëµÄOutputStreamWriter
+    æ„é€ æ–¹æ³•ï¼š
+        OutputStreamWriter?(OutputStream out)ï¼šåˆ›å»ºä¸€ä¸ªä½¿ç”¨é»˜è®¤å­—ç¬¦ç¼–ç çš„OutputStreamWriter
 
-    Ğ´Êı¾İµÄ5ÖÖ·½Ê½£º
-        void write?(int c)£ºĞ´Ò»¸ö×Ö·û
-        void write?(char[] cbuf)£ºĞ´ÈëÒ»¸ö×Ö·ûÊı×é
-        void write?(char[] cbuf, int off, int len)£ºĞ´Èë×Ö·ûÊı×éµÄÒ»²¿·Ö
-        void write?(String str)£ºĞ´Ò»¸ö×Ö·û´®
-        void write?(String str, int off, int len)£ºĞ´Ò»¸ö×Ö·û´®µÄÒ»²¿·Ö
+    å†™æ•°æ®çš„5ç§æ–¹å¼ï¼š
+        void write?(int c)ï¼šå†™ä¸€ä¸ªå­—ç¬¦
+        void write?(char[] cbuf)ï¼šå†™å…¥ä¸€ä¸ªå­—ç¬¦æ•°ç»„
+        void write?(char[] cbuf, int off, int len)ï¼šå†™å…¥å­—ç¬¦æ•°ç»„çš„ä¸€éƒ¨åˆ†
+        void write?(String str)ï¼šå†™ä¸€ä¸ªå­—ç¬¦ä¸²
+        void write?(String str, int off, int len)ï¼šå†™ä¸€ä¸ªå­—ç¬¦ä¸²çš„ä¸€éƒ¨åˆ†
  */
 
 import java.io.File;
@@ -17,7 +17,7 @@ import java.io.IOException;
 import java.io.OutputStreamWriter;
 
 
-public class eee087ÎåÖÖ·½Ê½ {
+public class eee087äº”ç§æ–¹å¼ {
     public static void main(String[] args) throws IOException {
         File x = new File("l:\\java\\dd.txt");
         // one(x);
@@ -29,15 +29,15 @@ public class eee087ÎåÖÖ·½Ê½ {
     public static void one(File x) throws IOException {
         OutputStreamWriter x1 = new OutputStreamWriter(new FileOutputStream(x));
         x1.write(97);
-        // ²»ÔËĞĞµÄÇé¿öÏÂ£¬ÎÄ¼şºÍ×Ö·ûÉĞ´æÔÚ»º³åÇø
-        // ÒªÔÚÎÄ¼şÖĞÕ¹Ê¾ÄÚÈİ£¬
-        // ¾ÍĞèÒªµ÷ÓÃflush£¨³åÏ´£©ÃüÁî
+        // ä¸è¿è¡Œçš„æƒ…å†µä¸‹ï¼Œæ–‡ä»¶å’Œå­—ç¬¦å°šå­˜åœ¨ç¼“å†²åŒº
+        // è¦åœ¨æ–‡ä»¶ä¸­å±•ç¤ºå†…å®¹ï¼Œ
+        // å°±éœ€è¦è°ƒç”¨flushï¼ˆå†²æ´—ï¼‰å‘½ä»¤
         x1.flush();
         x1.write(98);
-        // Ë¢ĞÂÖ»ÔÚÊäÈëÄÚÈİºóÖ´ĞĞ
+        // åˆ·æ–°åªåœ¨è¾“å…¥å†…å®¹åæ‰§è¡Œ
         x1.close();
-        // close²Ù×÷»á×Ô´øË¢ĞÂ¹¦ÄÜ
-        System.out.println("½áÊø");
+        // closeæ“ä½œä¼šè‡ªå¸¦åˆ·æ–°åŠŸèƒ½
+        System.out.println("ç»“æŸ");
     }
 
     public static void onesz(File x) throws IOException {
@@ -45,12 +45,12 @@ public class eee087ÎåÖÖ·½Ê½ {
         char[] x1 = {'a', 'b', 'c', 'd', 'e'};
         OutputStreamWriter x2 = new OutputStreamWriter(new FileOutputStream(x));
         // x2.write(x1, 0, x1.length);
-        // ÕâÀïÖ±½ÓÊ¹ÓÃbyteÀàĞÍ»á±¨´í
+        // è¿™é‡Œç›´æ¥ä½¿ç”¨byteç±»å‹ä¼šæŠ¥é”™
         x2.write(x1, 1, 3);
-        // º¬ÒåÊÇ£¬´Ó1Ë÷ÒıÎ»ÖÃ¿ªÊ¼£¬ÊäÈë3¸ö
-        // ×îÖÕ½á¹ûÎª£ºbcd
-        // Ïà¶ÔÔ­À´µÄ±¨´í£¬
-        // ¸Ä±äÊı¾İÒı·¢µÄÎÊÌâÊÇË÷ÒıÔ½½ç£¬±ÈÈçÕâÀï²»ÄÜÊ¹ÓÃx1.length£¬ÒòÎª×îÖÕ»áµÃµ½-1
+        // å«ä¹‰æ˜¯ï¼Œä»1ç´¢å¼•ä½ç½®å¼€å§‹ï¼Œè¾“å…¥3ä¸ª
+        // æœ€ç»ˆç»“æœä¸ºï¼šbcd
+        // ç›¸å¯¹åŸæ¥çš„æŠ¥é”™ï¼Œ
+        // æ”¹å˜æ•°æ®å¼•å‘çš„é—®é¢˜æ˜¯ç´¢å¼•è¶Šç•Œï¼Œæ¯”å¦‚è¿™é‡Œä¸èƒ½ä½¿ç”¨x1.lengthï¼Œå› ä¸ºæœ€ç»ˆä¼šå¾—åˆ°-1
 
         x2.close();
     }
@@ -60,10 +60,10 @@ public class eee087ÎåÖÖ·½Ê½ {
         OutputStreamWriter x2 = new OutputStreamWriter(new FileOutputStream(x));
         x2.write(x1);
         // System.out.println(String.valueOf("eeee".getBytes()));
-        // µÃµ½Ò»¸öµØÖ·
+        // å¾—åˆ°ä¸€ä¸ªåœ°å€
         // x2.write(String.valueOf("eeee".getBytes()));
         x2.close();
-        System.out.println("onest½áÊø");
+        System.out.println("onestç»“æŸ");
     }
 
     public static void onebytept(File x) throws IOException {
@@ -71,9 +71,9 @@ public class eee087ÎåÖÖ·½Ê½ {
         OutputStreamWriter x2 = new OutputStreamWriter(new FileOutputStream(x));
         // x2.write(x1, 0, x1.length());
         x2.write(x1, 1, 3);
-        // ×îÖÕµÃµ½£º234
-        // ÕâÀïµÄ12345¶ÔÓ¦µÄË÷ÒıÎ»ÖÃÎª0-4
-        // ´Ó1¿ªÊ¼£¬¾ÍÊÇ´Ó2¿ªÊ¼
+        // æœ€ç»ˆå¾—åˆ°ï¼š234
+        // è¿™é‡Œçš„12345å¯¹åº”çš„ç´¢å¼•ä½ç½®ä¸º0-4
+        // ä»1å¼€å§‹ï¼Œå°±æ˜¯ä»2å¼€å§‹
         x2.close();
     }
 }

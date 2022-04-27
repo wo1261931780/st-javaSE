@@ -1,20 +1,20 @@
 package c2stage_20220326.ccc094map_for;
 /*
-    Map¼¯ºÏµÄ±éÀú(·½Ê½2):
-        1:»ñÈ¡ËùÓĞ¼üÖµ¶Ô¶ÔÏóµÄ¼¯ºÏ
-            Set<Map.Entry<K,V>> entrySet()£º»ñÈ¡ËùÓĞ¼üÖµ¶Ô¶ÔÏóµÄ¼¯ºÏ
-        2:±éÀú¼üÖµ¶Ô¶ÔÏóµÄ¼¯ºÏ£¬µÃµ½Ã¿Ò»¸ö¼üÖµ¶Ô¶ÔÏó
-            ÓÃÔöÇ¿forÊµÏÖ£¬µÃµ½Ã¿Ò»¸öMap.Entry
-        3:¸ù¾İ¼üÖµ¶Ô¶ÔÏó»ñÈ¡¼üºÍÖµ
-            ÓÃgetKey()µÃµ½¼ü
-            ÓÃgetValue()µÃµ½Öµ
+    Mapé›†åˆçš„éå†(æ–¹å¼2):
+        1:è·å–æ‰€æœ‰é”®å€¼å¯¹å¯¹è±¡çš„é›†åˆ
+            Set<Map.Entry<K,V>> entrySet()ï¼šè·å–æ‰€æœ‰é”®å€¼å¯¹å¯¹è±¡çš„é›†åˆ
+        2:éå†é”®å€¼å¯¹å¯¹è±¡çš„é›†åˆï¼Œå¾—åˆ°æ¯ä¸€ä¸ªé”®å€¼å¯¹å¯¹è±¡
+            ç”¨å¢å¼ºforå®ç°ï¼Œå¾—åˆ°æ¯ä¸€ä¸ªMap.Entry
+        3:æ ¹æ®é”®å€¼å¯¹å¯¹è±¡è·å–é”®å’Œå€¼
+            ç”¨getKey()å¾—åˆ°é”®
+            ç”¨getValue()å¾—åˆ°å€¼
  */
 
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
 
-public class eee020map±éÀú2 {
+public class eee020mapéå†2 {
     public static void main(String[] args) {
         Map<String, String> x = new HashMap<>();
         x.put("111", "a1");
@@ -23,12 +23,12 @@ public class eee020map±éÀú2 {
         x.put("444", "a4");
         System.out.println(x);
         Set<Map.Entry<String, String>> x1 = x.entrySet();
-        // String¶¼ÊÇmap¹¹½¨µÄÊ±ºòÉè¶¨ºÃµÄ
-        // Map.Entry<String, String>ÕâÊÇÒ»¸öÕûÌå
-        // ¿ÉÒÔÀí½âÎª£¬ÎÒÓÃset¹¹½¨ÁËÒ»¸öxxÀàĞÍµÄx1
-        // ¶øÕâ¸öxx¾ÍÊÇMap.Entry<String, String>
+        // Stringéƒ½æ˜¯mapæ„å»ºçš„æ—¶å€™è®¾å®šå¥½çš„
+        // Map.Entry<String, String>è¿™æ˜¯ä¸€ä¸ªæ•´ä½“
+        // å¯ä»¥ç†è§£ä¸ºï¼Œæˆ‘ç”¨setæ„å»ºäº†ä¸€ä¸ªxxç±»å‹çš„x1
+        // è€Œè¿™ä¸ªxxå°±æ˜¯Map.Entry<String, String>
         System.out.println(x1);
-        // x1ºÍx²»Í¬£¬x1ÊôÓÚÒ»¸ö¼¯ºÏ
+        // x1å’Œxä¸åŒï¼Œx1å±äºä¸€ä¸ªé›†åˆ
         for (Map.Entry<String, String> x2 : x1) {
             System.out.println(x2.getValue());
             System.out.println(x2.getKey());

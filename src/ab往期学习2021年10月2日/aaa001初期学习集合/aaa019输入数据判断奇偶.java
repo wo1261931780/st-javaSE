@@ -1,16 +1,16 @@
-package abÍùÆÚÑ§Ï°2021Äê10ÔÂ2ÈÕ.aaa001³õÆÚÑ§Ï°¼¯ºÏ;
+package abå¾€æœŸå­¦ä¹ 2021å¹´10æœˆ2æ—¥.aaa001åˆæœŸå­¦ä¹ é›†åˆ;
 
 import java.util.Scanner;
 import java.util.Random;
 
-public class aaa019ÊäÈëÊı¾İÅĞ¶ÏÆæÅ¼ {
+public class aaa019è¾“å…¥æ•°æ®åˆ¤æ–­å¥‡å¶ {
     public static void main(String[] args) {
         Scanner xx = new Scanner(System.in);
         int x1 = xx.nextInt();
         Random zz = new Random();
         int z1 = zz.nextInt(100);
 
-        System.out.println("¿ªÊ¼ÅĞ¶Ï");
+        System.out.println("å¼€å§‹åˆ¤æ–­");
         /*max(10);
         boolean xx = max(11);
         System.out.println(xx);
@@ -19,29 +19,29 @@ public class aaa019ÊäÈëÊı¾İÅĞ¶ÏÆæÅ¼ {
         jo(z1);
     }
 
-    //ÅĞ¶ÏÆæÅ¼ÊıµÄ·½·¨
+    //åˆ¤æ–­å¥‡å¶æ•°çš„æ–¹æ³•
     public static boolean max(int yy) {
         if (yy % 2 == 0) {
             return true;
-            // System.out.println("Å¼Êı");
+            // System.out.println("å¶æ•°");
         } else {
             return false;
-            // System.out.println("ÆæÊı");
+            // System.out.println("å¥‡æ•°");
         }
     }
 
-    //¼ÓÉÏĞ¡ÊıµãµÄ·½·¨
+    //åŠ ä¸Šå°æ•°ç‚¹çš„æ–¹æ³•
     public static double xs(double x1) {
-        System.out.println("¼ÓÉÏĞ¡ÊıµãºóµÄÊı×ÖÊÇ£º" + x1);
+        System.out.println("åŠ ä¸Šå°æ•°ç‚¹åçš„æ•°å­—æ˜¯ï¼š" + x1);
         return x1;
     }
 
-    //ÅĞ¶ÏÆæÅ¼ÊıµÄ·½·¨
+    //åˆ¤æ–­å¥‡å¶æ•°çš„æ–¹æ³•
     public static void jo(int z1) {
         if (z1 % 2 == 0) {
-            System.out.println(z1 + "ÊÇÅ¼Êı");
+            System.out.println(z1 + "æ˜¯å¶æ•°");
         } else {
-            System.out.println(z1 + "ÊÇÆæÊı");
+            System.out.println(z1 + "æ˜¯å¥‡æ•°");
         }
     }
 }

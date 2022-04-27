@@ -1,13 +1,13 @@
 package c2stage_20220220.ccc068list_case;
 
-public class ddd043¶ÔÏóÀà {
+public class ddd043å¯¹è±¡ç±» {
     private String name;
     private int age;
 
-    public ddd043¶ÔÏóÀà() {
+    public ddd043å¯¹è±¡ç±»() {
     }
 
-    public ddd043¶ÔÏóÀà(String name, int age) {
+    public ddd043å¯¹è±¡ç±»(String name, int age) {
         this.name = name;
         this.age = age;
     }

@@ -1,18 +1,18 @@
-package abÍùÆÚÑ§Ï°2021Äê10ÔÂ2ÈÕ.bbb056Ñ§Éú¹ÜÀíÏµÍ³2021;
+package abå¾€æœŸå­¦ä¹ 2021å¹´10æœˆ2æ—¥.bbb056å­¦ç”Ÿç®¡ç†ç³»ç»Ÿ2021;
 
 
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class bbb058Ñ§Éú²âÊÔÀà {
+public class bbb058å­¦ç”Ÿæµ‹è¯•ç±» {
     public static void main(String[] args) {
         // while (true){};
-        // ÕâÀïÖ±½ÓÓÃwhileÑ­»·¸Ä½ø£¬Ôİ¶¨ÎªËÀÑ­»·£¬Ö±µ½Ñ¡Ôñ³ÌĞò½áÊø
+        // è¿™é‡Œç›´æ¥ç”¨whileå¾ªç¯æ”¹è¿›ï¼Œæš‚å®šä¸ºæ­»å¾ªç¯ï¼Œç›´åˆ°é€‰æ‹©ç¨‹åºç»“æŸ
         // System.out.println("--------------");
         // Scanner x = new Scanner(System.in);
         // int x1 = x.nextInt();
         // def();
-        ArrayList<bbb057Ñ§ÉúÀà> xx1 = new ArrayList<>();
+        ArrayList<bbb057å­¦ç”Ÿç±»> xx1 = new ArrayList<>();
         // switch (def()) {
         //     case 1:
         //         adds(xx1);
@@ -51,55 +51,55 @@ public class bbb058Ñ§Éú²âÊÔÀà {
             } else if (i == 5) {
                 // quits();
                 System.exit(0);
-                // ÕâÀïÊÇjvmĞéÄâ»úÍË³öÃüÁî
+                // è¿™é‡Œæ˜¯jvmè™šæ‹Ÿæœºé€€å‡ºå‘½ä»¤
             } else {
             }
         }
-        System.out.println("³ÌĞò½áÊø");
+        System.out.println("ç¨‹åºç»“æŸ");
     }
 
-    // ¹ÜÀí½çÃæ
+    // ç®¡ç†ç•Œé¢
     public static int def() {
-        System.out.println("-----------------»¶Ó­À´µ½Ñ§Éú¹ÜÀíÏµÍ³-----------------");
-        System.out.println("1.Ìí¼ÓÑ§Éú");
-        System.out.println("2.É¾³ıÑ§Éú");
-        System.out.println("3.ĞŞ¸ÄÑ§Éú");
-        System.out.println("4.²é¿´ËùÓĞÑ§Éú");
-        System.out.println("5.ÍË³ö");
-        System.out.println("ÇëÊäÈëÄãµÄÑ¡Ôñ£º");
+        System.out.println("-----------------æ¬¢è¿æ¥åˆ°å­¦ç”Ÿç®¡ç†ç³»ç»Ÿ-----------------");
+        System.out.println("1.æ·»åŠ å­¦ç”Ÿ");
+        System.out.println("2.åˆ é™¤å­¦ç”Ÿ");
+        System.out.println("3.ä¿®æ”¹å­¦ç”Ÿ");
+        System.out.println("4.æŸ¥çœ‹æ‰€æœ‰å­¦ç”Ÿ");
+        System.out.println("5.é€€å‡º");
+        System.out.println("è¯·è¾“å…¥ä½ çš„é€‰æ‹©ï¼š");
         Scanner x = new Scanner(System.in);
         int x1 = x.nextInt();
         if (x1 < 0 || x1 > 6) {
-            System.out.println("´íÎó´úÂë£¬³ÌĞòÍË³ö");
+            System.out.println("é”™è¯¯ä»£ç ï¼Œç¨‹åºé€€å‡º");
         }
         return x1;
     }
 
     /**
-     * Ìí¼Ó·½·¨
-     * ¼üÅÌÂ¼ÈëÑ§Éú¶ÔÏóËùĞèÒªµÄÊı¾İ,ÏÔÊ¾ÌáÊ¾ĞÅÏ¢£¬ÌáÊ¾ÒªÊäÈëºÎÖÖĞÅÏ¢
-     * ÎªÁËÈÃsidÔÚwhileÑ­»·ÍâÃæ±»·ÃÎÊµ½£¬ÎÒÃÇ¾Í°ÑËü¶¨ÒåÔÚÁËÑ­»·Íâ
-     * ÎªÁËÈÃ³ÌĞòÄÜ¹»»Øµ½ÕâÀï£¬ÎÒÃÇÊ¹ÓÃÑ­»·ÊµÏÖ
-     * ´´½¨Ñ§Éú¶ÔÏó£¬°Ñ¼üÅÌÂ¼ÈëµÄÊı¾İ¸³Öµ¸øÑ§Éú¶ÔÏóµÄ³ÉÔ±±äÁ¿
-     * ½«Ñ§Éú¶ÔÏóÌí¼Óµ½¼¯ºÏÖĞ
-     * ¸ø³öÌí¼Ó³É¹¦ÌáÊ¾
+     * æ·»åŠ æ–¹æ³•
+     * é”®ç›˜å½•å…¥å­¦ç”Ÿå¯¹è±¡æ‰€éœ€è¦çš„æ•°æ®,æ˜¾ç¤ºæç¤ºä¿¡æ¯ï¼Œæç¤ºè¦è¾“å…¥ä½•ç§ä¿¡æ¯
+     * ä¸ºäº†è®©sidåœ¨whileå¾ªç¯å¤–é¢è¢«è®¿é—®åˆ°ï¼Œæˆ‘ä»¬å°±æŠŠå®ƒå®šä¹‰åœ¨äº†å¾ªç¯å¤–
+     * ä¸ºäº†è®©ç¨‹åºèƒ½å¤Ÿå›åˆ°è¿™é‡Œï¼Œæˆ‘ä»¬ä½¿ç”¨å¾ªç¯å®ç°
+     * åˆ›å»ºå­¦ç”Ÿå¯¹è±¡ï¼ŒæŠŠé”®ç›˜å½•å…¥çš„æ•°æ®èµ‹å€¼ç»™å­¦ç”Ÿå¯¹è±¡çš„æˆå‘˜å˜é‡
+     * å°†å­¦ç”Ÿå¯¹è±¡æ·»åŠ åˆ°é›†åˆä¸­
+     * ç»™å‡ºæ·»åŠ æˆåŠŸæç¤º
      */
-    // public static void adds(ArrayList<bbb057Ñ§ÉúÀà> xx1) {
-    public static void adds(ArrayList<bbb057Ñ§ÉúÀà> xx1) {
+    // public static void adds(ArrayList<bbb057å­¦ç”Ÿç±»> xx1) {
+    public static void adds(ArrayList<bbb057å­¦ç”Ÿç±»> xx1) {
         Scanner x0 = new Scanner(System.in);
         Scanner x1 = new Scanner(System.in);
         Scanner x2 = new Scanner(System.in);
         Scanner x3 = new Scanner(System.in);
-        bbb057Ñ§ÉúÀà a1 = new bbb057Ñ§ÉúÀà();
-        System.out.println("ÇëÊäÈëÑ§ºÅ£º");
+        bbb057å­¦ç”Ÿç±» a1 = new bbb057å­¦ç”Ÿç±»();
+        System.out.println("è¯·è¾“å…¥å­¦å·ï¼š");
         int nun = x0.nextInt();
         //-----------------------------
-        // ĞéÏßÄÚµÄ¿ÉÒÔÌáÈ¡³öÀ´£¬×÷ÎªÒ»¸ö·½·¨·â×°
+        // è™šçº¿å†…çš„å¯ä»¥æå–å‡ºæ¥ï¼Œä½œä¸ºä¸€ä¸ªæ–¹æ³•å°è£…
         int demo = 0;
-        // ½Ì³ÌÄÚÊ¹ÓÃµÄ·½·¨£¬ĞèÒªÔÚ½á¹ûÖØ¸´µÄÇé¿öÏÂ£¬·µ»ØÊäÈëÑ§ºÅ¹ı³Ì
+        // æ•™ç¨‹å†…ä½¿ç”¨çš„æ–¹æ³•ï¼Œéœ€è¦åœ¨ç»“æœé‡å¤çš„æƒ…å†µä¸‹ï¼Œè¿”å›è¾“å…¥å­¦å·è¿‡ç¨‹
         for (int i = 0; i < xx1.size(); i++) {
             if (xx1.get(i).getNun() == nun) {
-                System.out.println("Ñ§ºÅÒÑ´æÔÚ£¬ÇëÖØĞÂÊäÈë");
+                System.out.println("å­¦å·å·²å­˜åœ¨ï¼Œè¯·é‡æ–°è¾“å…¥");
                 demo = 1;
                 break;
             }
@@ -108,91 +108,91 @@ public class bbb058Ñ§Éú²âÊÔÀà {
         } else {
             //-----------------------------
             a1.setNun(nun);
-            System.out.println("ÇëÊäÈëĞÕÃû£º");
+            System.out.println("è¯·è¾“å…¥å§“åï¼š");
             String xname = x1.nextLine();
             a1.setName(xname);
-            System.out.println("ÇëÊäÈëÄêÁä£º");
+            System.out.println("è¯·è¾“å…¥å¹´é¾„ï¼š");
             int xage = x2.nextInt();
             a1.setAge(xage);
-            System.out.println("ÇëÊäÈë¾Ó×¡µØ£º");
+            System.out.println("è¯·è¾“å…¥å±…ä½åœ°ï¼š");
             String xcity = x3.nextLine();
             a1.setCity(xcity);
             xx1.add(a1);
-            System.out.println("Ìí¼Ó½áÊø------------------");
+            System.out.println("æ·»åŠ ç»“æŸ------------------");
         }
     }
 
-    // É¾³ı·½·¨
-    public static void del(ArrayList<bbb057Ñ§ÉúÀà> xx1) {
+    // åˆ é™¤æ–¹æ³•
+    public static void del(ArrayList<bbb057å­¦ç”Ÿç±»> xx1) {
         Scanner x = new Scanner(System.in);
-        System.out.println("ÇëÊäÈëÑ§ÉúÑ§ºÅ£º");
+        System.out.println("è¯·è¾“å…¥å­¦ç”Ÿå­¦å·ï¼š");
         int x1 = x.nextInt();
-        // ÅĞ¶ÏÊÇ·ñÕÒµ½¶ÔÓ¦ÕËºÅ£¬ÕÒµ½¾ÍÉèÖÃ=1£¬·ñÔòÉèÖÃÎª0
+        // åˆ¤æ–­æ˜¯å¦æ‰¾åˆ°å¯¹åº”è´¦å·ï¼Œæ‰¾åˆ°å°±è®¾ç½®=1ï¼Œå¦åˆ™è®¾ç½®ä¸º0
         int u = 0;
         for (int i = 0; i < xx1.size(); i++) {
-            bbb057Ñ§ÉúÀà x2 = xx1.get(i);
+            bbb057å­¦ç”Ÿç±» x2 = xx1.get(i);
             if (x1 == x2.getNun()) {
                 xx1.remove(i);
-                System.out.println("ÕÒµ½ÕËºÅ£¬Ö´ĞĞÉ¾³ı²Ù×÷");
+                System.out.println("æ‰¾åˆ°è´¦å·ï¼Œæ‰§è¡Œåˆ é™¤æ“ä½œ");
                 u = 1;
                 break;
             }
         }
         if (u == 0) {
-            System.out.println("É¾³ıÊ§°Ü£¬Î´ÕÒµ½Ñ§ºÅ");
+            System.out.println("åˆ é™¤å¤±è´¥ï¼Œæœªæ‰¾åˆ°å­¦å·");
         } else {
-            System.out.println("É¾³ı³É¹¦");
+            System.out.println("åˆ é™¤æˆåŠŸ");
         }
 
     }
 
-    // ĞŞ¸Ä·½·¨
-    public static void changeme(ArrayList<bbb057Ñ§ÉúÀà> xx1) {
+    // ä¿®æ”¹æ–¹æ³•
+    public static void changeme(ArrayList<bbb057å­¦ç”Ÿç±»> xx1) {
         Scanner xx0 = new Scanner(System.in);
         Scanner xx2 = new Scanner(System.in);
         Scanner xx3 = new Scanner(System.in);
         Scanner xx4 = new Scanner(System.in);
-        // ÕâÀïÆäÊµ¿ÉÒÔÖ»ÓÃÒ»¸öÊäÈëÃüÁî£¬intÀàĞÍÈ«²¿Ê¹ÓÃtextline²Ù×÷
-        System.out.println("ÇëÊäÈëÑ§ºÅ£º");
+        // è¿™é‡Œå…¶å®å¯ä»¥åªç”¨ä¸€ä¸ªè¾“å…¥å‘½ä»¤ï¼Œintç±»å‹å…¨éƒ¨ä½¿ç”¨textlineæ“ä½œ
+        System.out.println("è¯·è¾“å…¥å­¦å·ï¼š");
         int x1 = xx0.nextInt();
         for (int i = 0; i < xx1.size(); i++) {
             if (x1 == xx1.get(i).getNun()) {
-                // ÕâÀï¿ÉÒÔÏÈ½ÓÊÕ½á¹û£¬È»ºóÊ¹ÓÃequals·½·¨È¥ÅĞ¶ÏºÍx1ÊÇ·ñÏàµÈ
-                System.out.println("ÇëÖØĞÂÊäÈëĞÕÃû");
+                // è¿™é‡Œå¯ä»¥å…ˆæ¥æ”¶ç»“æœï¼Œç„¶åä½¿ç”¨equalsæ–¹æ³•å»åˆ¤æ–­å’Œx1æ˜¯å¦ç›¸ç­‰
+                System.out.println("è¯·é‡æ–°è¾“å…¥å§“å");
                 String x2 = xx2.nextLine();
                 xx1.get(i).setName(x2);
-                System.out.println("ÇëÖØĞÂÊäÈëÄêÁä");
+                System.out.println("è¯·é‡æ–°è¾“å…¥å¹´é¾„");
                 int x3 = xx3.nextInt();
                 xx1.get(i).setAge(x3);
-                System.out.println("ÇëÖØĞÂÊäÈë¾Ó×¡µØ");
+                System.out.println("è¯·é‡æ–°è¾“å…¥å±…ä½åœ°");
                 String x4 = xx4.nextLine();
                 xx1.get(i).setCity(x4);
-                System.out.println("ĞŞ¸Ä³É¹¦,»Øµ½Ê×Ò³");
-                // ÕÒµ½¾ÍÖ±½ÓÍË³ö£¬²»ĞèÒª¼ÌĞø±éÀú
+                System.out.println("ä¿®æ”¹æˆåŠŸ,å›åˆ°é¦–é¡µ");
+                // æ‰¾åˆ°å°±ç›´æ¥é€€å‡ºï¼Œä¸éœ€è¦ç»§ç»­éå†
                 break;
             }
         }
-        System.out.println("ËÑË÷½áÊø");
+        System.out.println("æœç´¢ç»“æŸ");
     }
 
-    // ²é¿´ËùÓĞÑ§Éú
-    public static void showme(ArrayList<bbb057Ñ§ÉúÀà> xx1) {
-        System.out.println("Ö´ĞĞ¼¯ºÏ±éÀú");
+    // æŸ¥çœ‹æ‰€æœ‰å­¦ç”Ÿ
+    public static void showme(ArrayList<bbb057å­¦ç”Ÿç±»> xx1) {
+        System.out.println("æ‰§è¡Œé›†åˆéå†");
         if (xx1.size() == 0) {
-            System.out.println("ÎŞĞÅÏ¢£¬ÇëÏÈÖ´ĞĞÌí¼Ó²Ù×÷");
+            System.out.println("æ— ä¿¡æ¯ï¼Œè¯·å…ˆæ‰§è¡Œæ·»åŠ æ“ä½œ");
             // return;
-            // ¸ø³öreturn£¬³ÌĞò¾Í²»ÔÙÍùÏÂÖ´ĞĞ
+            // ç»™å‡ºreturnï¼Œç¨‹åºå°±ä¸å†å¾€ä¸‹æ‰§è¡Œ
         } else {
-            System.out.println("Ñ§ºÅ\t" + "ĞÕÃû\t" + "ÄêÁä\t" + "¾Ó×¡µØ\t");
+            System.out.println("å­¦å·\t" + "å§“å\t" + "å¹´é¾„\t" + "å±…ä½åœ°\t");
             for (int i = 0; i < xx1.size(); i++) {
-                bbb057Ñ§ÉúÀà a = xx1.get(i);
+                bbb057å­¦ç”Ÿç±» a = xx1.get(i);
                 System.out.println(a.getNun() + "\t" + a.getName() + "\t" + a.getAge() + "\t" + a.getCity());
             }
         }
     }
 
     // public static void quits() {
-    //     System.out.println("ÍË³ö³ÌĞò--------");
+    //     System.out.println("é€€å‡ºç¨‹åº--------");
     // }
 
 }

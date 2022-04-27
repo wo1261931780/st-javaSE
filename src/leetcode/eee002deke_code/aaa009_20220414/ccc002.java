@@ -7,26 +7,26 @@ import java.util.*;
  * Project:index.pb
  * Package:leetcode.eee002deke_code.aaa009_20220414
  * User:  wo1261931780@gmail.com
- * Time:  2022-04-13-02  ÐÇÆÚËÄ
- * ¿ª·¢Ò»¸ö×ø±ê¼ÆËã¹¤¾ß£¬ A±íÊ¾Ïò×óÒÆ¶¯£¬D±íÊ¾ÏòÓÒÒÆ¶¯£¬W±íÊ¾ÏòÉÏÒÆ¶¯£¬S±íÊ¾ÏòÏÂÒÆ¶¯¡£´Ó£¨0,0£©µã¿ªÊ¼ÒÆ¶¯£¬´ÓÊäÈë×Ö·û´®ÀïÃæ¶ÁÈ¡Ò»Ð©×ø±ê£¬²¢½«×îÖÕÊäÈë½á¹ûÊä³öµ½Êä³öÎÄ¼þÀïÃæ¡£
+ * Time:  2022-04-13-02  æ˜ŸæœŸå››
+ * å¼€å‘ä¸€ä¸ªåæ ‡è®¡ç®—å·¥å…·ï¼Œ Aè¡¨ç¤ºå‘å·¦ç§»åŠ¨ï¼ŒDè¡¨ç¤ºå‘å³ç§»åŠ¨ï¼ŒWè¡¨ç¤ºå‘ä¸Šç§»åŠ¨ï¼ŒSè¡¨ç¤ºå‘ä¸‹ç§»åŠ¨ã€‚ä»Žï¼ˆ0,0ï¼‰ç‚¹å¼€å§‹ç§»åŠ¨ï¼Œä»Žè¾“å…¥å­—ç¬¦ä¸²é‡Œé¢è¯»å–ä¸€äº›åæ ‡ï¼Œå¹¶å°†æœ€ç»ˆè¾“å…¥ç»“æžœè¾“å‡ºåˆ°è¾“å‡ºæ–‡ä»¶é‡Œé¢ã€‚
  * <p>
- * ÊäÈë£º
+ * è¾“å…¥ï¼š
  * <p>
- * ºÏ·¨×ø±êÎªA(»òÕßD»òÕßW»òÕßS) + Êý×Ö£¨Á½Î»ÒÔÄÚ£©
+ * åˆæ³•åæ ‡ä¸ºA(æˆ–è€…Dæˆ–è€…Wæˆ–è€…S) + æ•°å­—ï¼ˆä¸¤ä½ä»¥å†…ï¼‰
  * <p>
- * ×ø±êÖ®¼äÒÔ;·Ö¸ô¡£
+ * åæ ‡ä¹‹é—´ä»¥;åˆ†éš”ã€‚
  * <p>
- * ·Ç·¨×ø±êµãÐèÒª½øÐÐ¶ªÆú¡£ÈçAA10;  A1A;  $%$;  YAD; µÈ¡£
+ * éžæ³•åæ ‡ç‚¹éœ€è¦è¿›è¡Œä¸¢å¼ƒã€‚å¦‚AA10;  A1A;  $%$;  YAD; ç­‰ã€‚
  * <p>
- * ÏÂÃæÊÇÒ»¸ö¼òµ¥µÄÀý×Ó Èç£º
+ * ä¸‹é¢æ˜¯ä¸€ä¸ªç®€å•çš„ä¾‹å­ å¦‚ï¼š
  * <p>
  * A10;S20;W10;D30;X;A1A;B10A11;;A10;
  * <p>
- * ´¦Àí¹ý³Ì£º
+ * å¤„ç†è¿‡ç¨‹ï¼š
  * <p>
- * Æðµã£¨0,0£©
+ * èµ·ç‚¹ï¼ˆ0,0ï¼‰
  * <p>
- * +   A10   =  £¨-10,0£©
+ * +   A10   =  ï¼ˆ-10,0ï¼‰
  * <p>
  * +   S20   =  (-10,-20)
  * <p>
@@ -34,23 +34,23 @@ import java.util.*;
  * <p>
  * +   D30  =  (20,-10)
  * <p>
- * +   x    =  ÎÞÐ§
+ * +   x    =  æ— æ•ˆ
  * <p>
- * +   A1A   =  ÎÞÐ§
+ * +   A1A   =  æ— æ•ˆ
  * <p>
- * +   B10A11   =  ÎÞÐ§
+ * +   B10A11   =  æ— æ•ˆ
  * <p>
- * +  Ò»¸ö¿Õ ²»Ó°Ïì
+ * +  ä¸€ä¸ªç©º ä¸å½±å“
  * <p>
  * +   A10  =  (10,-10)
  * <p>
- * ½á¹û £¨10£¬ -10£©
+ * ç»“æžœ ï¼ˆ10ï¼Œ -10ï¼‰
  * <p>
- * Êý¾Ý·¶Î§£ºÃ¿×éÊäÈëµÄ×Ö·û´®³¤¶ÈÂú×ã 1\le n \le 10000 \1¡Ün¡Ü10000  £¬×ø±ê±£Ö¤Âú×ã -2^{31} \le x,y \le 2^{31}-1 \?2
+ * æ•°æ®èŒƒå›´ï¼šæ¯ç»„è¾“å…¥çš„å­—ç¬¦ä¸²é•¿åº¦æ»¡è¶³ 1\le n \le 10000 \1â‰¤nâ‰¤10000  ï¼Œåæ ‡ä¿è¯æ»¡è¶³ -2^{31} \le x,y \le 2^{31}-1 \?2
  * 31
- * ¡Üx,y¡Ü2
+ * â‰¤x,yâ‰¤2
  * 31
- * ?1  £¬ÇÒÊý×Ö²¿·Ö½öº¬ÕýÊý
+ * ?1  ï¼Œä¸”æ•°å­—éƒ¨åˆ†ä»…å«æ­£æ•°
  */
 public class ccc002 {
     public static Map<Integer, Integer> map = new HashMap<>();
@@ -69,7 +69,7 @@ public class ccc002 {
                 int substring2 = 0;
                 try {
                     substring2 = Integer.valueOf(init_jh[i].substring(1, init_jh[i].length()));
-                    // 2022Äê4ÔÂ15ÈÕ13:32:11£¬ÕâÀï×öÒ»ÏÂÒì³£´¦Àí
+                    // 2022å¹´4æœˆ15æ—¥13:32:11ï¼Œè¿™é‡Œåšä¸€ä¸‹å¼‚å¸¸å¤„ç†
                 } catch (NumberFormatException e) {
                     throw new RuntimeException(e);
                 }
@@ -83,11 +83,11 @@ public class ccc002 {
 
     }
 
-    // Ê×ÏÈ½«ÄÃµ½µÄ×Ö·û´®£¬½âÎöÎªÒ»¸öÊý×é£¬
-    // ¶ÔÊý×é±éÀú£¬É¾³ý³¤¶È²»µÈÓÚ3µÄ£¬Ê××Ö·û²»ÊôÓÚwasdµÄ£¬
-    // Ê¹ÓÃºóÃæµÄ×Ö·û³ý2£¬½á¹ûÔËÐÐ±¨´íµÄ
-    // È»ºó¶ÔÊý×éµÄÔªËØ´¦Àí£¬½«Æä·Ö¸î£¬¶Ô³õÊ¼µÄmap½øÐÐÊý¾Ý²Ù×÷
-    // Êä³ö×îÖÕµÄmap½á¹û¼´¿É
+    // é¦–å…ˆå°†æ‹¿åˆ°çš„å­—ç¬¦ä¸²ï¼Œè§£æžä¸ºä¸€ä¸ªæ•°ç»„ï¼Œ
+    // å¯¹æ•°ç»„éåŽ†ï¼Œåˆ é™¤é•¿åº¦ä¸ç­‰äºŽ3çš„ï¼Œé¦–å­—ç¬¦ä¸å±žäºŽwasdçš„ï¼Œ
+    // ä½¿ç”¨åŽé¢çš„å­—ç¬¦é™¤2ï¼Œç»“æžœè¿è¡ŒæŠ¥é”™çš„
+    // ç„¶åŽå¯¹æ•°ç»„çš„å…ƒç´ å¤„ç†ï¼Œå°†å…¶åˆ†å‰²ï¼Œå¯¹åˆå§‹çš„mapè¿›è¡Œæ•°æ®æ“ä½œ
+    // è¾“å‡ºæœ€ç»ˆçš„mapç»“æžœå³å¯
 
     public static boolean show(String substring, int substring2) {
         boolean x = false;

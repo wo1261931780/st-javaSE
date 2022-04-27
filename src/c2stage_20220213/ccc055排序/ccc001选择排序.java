@@ -1,15 +1,15 @@
-package c2stage_20220213.ccc055ÅÅĞò;
+package c2stage_20220213.ccc055æ’åº;
 
 import java.util.Arrays;
 
 /**
  * Created by Intellij IDEA.
  * Project:index.pb
- * Package:c2stage_20220213.ccc055ÅÅĞò
+ * Package:c2stage_20220213.ccc055æ’åº
  * User:  wo1261931780@gmail.com
- * Time:  2022-02-19-33  ĞÇÆÚËÄ
+ * Time:  2022-02-19-33  æ˜ŸæœŸå››
  */
-public class ccc001Ñ¡ÔñÅÅĞò {
+public class ccc001é€‰æ‹©æ’åº {
     public static void main(String[] args) {
         int[] x = {13, 54, 64, 7, 8};
         for (int i = 0; i < x.length - 1; i++) {

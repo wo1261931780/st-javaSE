@@ -8,18 +8,18 @@ import java.util.Set;
  * Project:index.pb
  * Package:c2stage_20220228.ccc078hash_duplication
  * User:  wo1261931780@gmail.com
- * Time:  2022-02-22-43  ĞÇÆÚÒ»
+ * Time:  2022-02-22-43  æ˜ŸæœŸä¸€
  */
 public class ccc001de_duplication {
     public static void main(String[] args) {
-        // set¼¯ºÏÖ»»áÊ¹ÓÃÄ¬ÈÏµÄequals·½·¨È¥ÅĞ¶ÏÊÇ·ñÏàÍ¬
-        // Èç¹ûÓĞÒ»¸ö¶ÔÏóÀà£¬ĞèÒªÅĞ¶Ï¶ÔÏóÀàÖĞµÄÄÚÈİÊÇ·ñÏàÍ¬
-        // ¾ÍĞèÒªÖØĞ´hashcodeºÍequals·½·¨
+        // seté›†åˆåªä¼šä½¿ç”¨é»˜è®¤çš„equalsæ–¹æ³•å»åˆ¤æ–­æ˜¯å¦ç›¸åŒ
+        // å¦‚æœæœ‰ä¸€ä¸ªå¯¹è±¡ç±»ï¼Œéœ€è¦åˆ¤æ–­å¯¹è±¡ç±»ä¸­çš„å†…å®¹æ˜¯å¦ç›¸åŒ
+        // å°±éœ€è¦é‡å†™hashcodeå’Œequalsæ–¹æ³•
         Set<ccc002st_object> x = new HashSet<>();
         x.add(new ccc002st_object("demo", 11, "aa"));
         x.add(new ccc002st_object("demo", 11, "aa"));
         x.add(new ccc002st_object("demo", 12, "aa"));
-        // ¶ÔÏóÀàÈ¥³ıÖØ¸´£¬Ö±½ÓÔÚ¶ÔÏóÀàÖĞÖØĞ´equalsºÍhashcode·½·¨¼´¿É
+        // å¯¹è±¡ç±»å»é™¤é‡å¤ï¼Œç›´æ¥åœ¨å¯¹è±¡ç±»ä¸­é‡å†™equalså’Œhashcodeæ–¹æ³•å³å¯
         System.out.println(x);
     }
 }

@@ -10,7 +10,7 @@ import java.util.List;
  * Project:index.pb
  * Package:c2stage_20220326.ccc090collections
  * User:  wo1261931780@gmail.com
- * Time:  2022-03-16-13  ÐÇÆÚÁù
+ * Time:  2022-03-16-13  æ˜ŸæœŸå…­
  */
 public class ccc003impl {
     public static void main(String[] args) {
@@ -32,6 +32,6 @@ public class ccc003impl {
         //     return Integer.compare(o1.getAge(), o2.getAge());
         // });
         Collections.sort(x, (o1, o2) -> Integer.compare(o1.getAge(), o2.getAge()));
-        // lambda±í´ïÊ½£¬×î¼ò»¯µÄ³¡¾°£º¶ÔÏóÃû->ÖØÐ´ºóµÄ·½·¨Ìå
+        // lambdaè¡¨è¾¾å¼ï¼Œæœ€ç®€åŒ–çš„åœºæ™¯ï¼šå¯¹è±¡å->é‡å†™åŽçš„æ–¹æ³•ä½“
     }
 }

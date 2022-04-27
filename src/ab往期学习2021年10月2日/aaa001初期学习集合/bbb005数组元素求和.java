@@ -1,11 +1,11 @@
-package abÍùÆÚÑ§Ï°2021Äê10ÔÂ2ÈÕ.aaa001³õÆÚÑ§Ï°¼¯ºÏ;
+package abå¾€æœŸå­¦ä¹ 2021å¹´10æœˆ2æ—¥.aaa001åˆæœŸå­¦ä¹ é›†åˆ;
 
-public class bbb005Êı×éÔªËØÇóºÍ {
+public class bbb005æ•°ç»„å…ƒç´ æ±‚å’Œ {
     // public static void main(String[] args) {
     //     int[] arr = {68, 27, 95, 88, 171, 996, 51, 210};
     //     int x = 0;
     //     int xx = 0;
-    //     for (System.out.println("¿ªÊ¼Ñ­»·"); x < arr.length; x++) {
+    //     for (System.out.println("å¼€å§‹å¾ªç¯"); x < arr.length; x++) {
     //         if (arr[x] % 10 != 7 && arr[x] / 10 % 10 != 7 && arr[x] % 2 == 0) {
     //             xx += arr[x];
     //         }
@@ -17,7 +17,7 @@ public class bbb005Êı×éÔªËØÇóºÍ {
     //             //x++;
     //         }*/
     //     }
-    //     System.out.println(xx + "Ñ­»·½áÊø");
+    //     System.out.println(xx + "å¾ªç¯ç»“æŸ");
     // }
     public static void main(String[] args) {
         System.out.println("----------------------");
@@ -27,9 +27,9 @@ public class bbb005Êı×éÔªËØÇóºÍ {
 
     public static void demo1(int[] arr) {
         for (int x = 0, i = 0; i < arr.length; i++) {
-            // ¸öÎ»£¬Ê®Î»Êı×Ö¶¼²»°üº¬7£¬²¢ÇÒÎªÅ¼Êı
+            // ä¸ªä½ï¼Œåä½æ•°å­—éƒ½ä¸åŒ…å«7ï¼Œå¹¶ä¸”ä¸ºå¶æ•°
             if (arr[i] % 10 != 7 && arr[i] / 10 % 10 != 7 && arr[i] % 2 == 0) {
-                System.out.println("Êı×éÊı×ÖÎª£º" + arr[i]);
+                System.out.println("æ•°ç»„æ•°å­—ä¸ºï¼š" + arr[i]);
                 x += arr[i];
                 System.out.println(x);
             }

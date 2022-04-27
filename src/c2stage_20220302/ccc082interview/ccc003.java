@@ -9,7 +9,7 @@ import java.util.Scanner;
  * Project:index.pb
  * Package:c2stage_20220302.ccc082interview
  * User:  wo1261931780@gmail.com
- * Time:  2022-03-08-38  ÐÇÆÚÎå
+ * Time:  2022-03-08-38  æ˜ŸæœŸäº”
  */
 public class ccc003 {
     public static void main(String[] args) {
@@ -30,7 +30,7 @@ public class ccc003 {
         int[] x1 = new int[2];
         if (x.length < 2) {
             return x;
-        }// ³¤¶È²»Âú×ã£¬·µ»Ø±¾Éí
+        }// é•¿åº¦ä¸æ»¡è¶³ï¼Œè¿”å›žæœ¬èº«
 
         for (int i = 0; i < x.length; i++) {
             if (x[i] < 36) {
@@ -39,24 +39,24 @@ public class ccc003 {
                     if (x[j] == result) {
                         x1[0] = i;
                         x1[1] = j;
-                        return x1;// ·ûºÏÒªÇó£¬·µ»Ø½á¹û
+                        return x1;// ç¬¦åˆè¦æ±‚ï¼Œè¿”å›žç»“æžœ
                     }
                 }
             }
         }
         x1[0] = x[0];
         x1[1] = x[1];
-        return x1;// ·µ»ØÇ°Á½¸öÔªËØ
+        return x1;// è¿”å›žå‰ä¸¤ä¸ªå…ƒç´ 
     }
 
     public static int show2(int[] x) {
         if (x.length < 2) {
             return 0;
         }
-        Arrays.sort(x);// ½øÐÐÅÅÐò
-        // 1.Ñ¡Ôñ7¸öÊý×Ö
-        // 2.ÕÒ³ö²îÖµ×î´ó
-        // 3.Êý×éµÄ³¤¶È¿ÉÒÔ±ä»¯
+        Arrays.sort(x);// è¿›è¡ŒæŽ’åº
+        // 1.é€‰æ‹©7ä¸ªæ•°å­—
+        // 2.æ‰¾å‡ºå·®å€¼æœ€å¤§
+        // 3.æ•°ç»„çš„é•¿åº¦å¯ä»¥å˜åŒ–
 
         ArrayList<Integer> list = new ArrayList<>();
         if (x.length > 7) {
@@ -67,12 +67,12 @@ public class ccc003 {
             for (int i = 0; i < x.length; i++) {
                 list.add(x[i]);
             }
-        }//ÅÅÐòÍê³É
+        }//æŽ’åºå®Œæˆ
         int cz1 = 0;
         int cz2 = 0;
         for (int i = 0; i < list.size() - 1; i++) {
             for (int j = i; j < list.size() - 1; j++) {
-                cz1 = list.get(i + 1) - list.get(i);//»ñÈ¡²îÖµ
+                cz1 = list.get(i + 1) - list.get(i);//èŽ·å–å·®å€¼
                 cz2 = list.get(j + 1) - list.get(j);
                 if (cz1 < cz2) {
                     cz1 = cz2;
@@ -84,20 +84,20 @@ public class ccc003 {
     }
 
     public static int[] show3(int x) {
-        x = Math.abs(x);//¾ø¶ÔÖµ
+        x = Math.abs(x);//ç»å¯¹å€¼
         String x1 = x + "";
         ArrayList<Integer> list = new ArrayList<>();
         for (int j = 0; j < 7; j++) {
             for (int i = 0; i < x1.length(); i++) {
-                list.add(x1.charAt(i) - '0');// ½«×ª»¯ÎªÊý×Ö
+                list.add(x1.charAt(i) - '0');// å°†è½¬åŒ–ä¸ºæ•°å­—
             }
         }
-        //¼¯ºÏÉèÖÃÍê³É
+        //é›†åˆè®¾ç½®å®Œæˆ
         int[] x2 = new int[list.size()];
         for (int i = 0; i < list.size(); i++) {
             x2[i] = list.get(i);
         }
-        // ÉèÖÃÎªÊý×é
+        // è®¾ç½®ä¸ºæ•°ç»„
         // System.out.println(list);
         System.out.println(Arrays.toString(x2));
         return x2;

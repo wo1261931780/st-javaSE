@@ -5,11 +5,11 @@ package c2stage_20220302.ccc079linkedhashset;
  * Project:index.pb
  * Package:c2stage_20220302.ccc079linkedhashset
  * User:  wo1261931780@gmail.com
- * Time:  2022-03-21-33  ĞÇÆÚÈı
+ * Time:  2022-03-21-33  æ˜ŸæœŸä¸‰
  */
 public class ccc001linkedhashset {
     public static void main(String[] args) {
-        // ÕâÀïµÄÓĞĞò£¬Ö¸µÄÊÇÔªËØµÄ´æÈ¡Ë³Ğò»á±»¼ÇÂ¼ÏÂÀ´
-        // ÄÚ²¿ÊÇÊ¹ÓÃÁËË«Á´±íµÄĞÎÊ½È¥¼ÇÂ¼Ïà¹ØÄÚÈİ
+        // è¿™é‡Œçš„æœ‰åºï¼ŒæŒ‡çš„æ˜¯å…ƒç´ çš„å­˜å–é¡ºåºä¼šè¢«è®°å½•ä¸‹æ¥
+        // å†…éƒ¨æ˜¯ä½¿ç”¨äº†åŒé“¾è¡¨çš„å½¢å¼å»è®°å½•ç›¸å…³å†…å®¹
     }
 }

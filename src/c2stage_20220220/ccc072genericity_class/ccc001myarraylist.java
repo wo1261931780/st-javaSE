@@ -7,21 +7,21 @@ import java.util.ArrayList;
  * Project:index.pb
  * Package:c2stage_20220220.ccc072genericity_case2
  * User:  wo1261931780@gmail.com
- * Time:  2022-02-23-17  ĞÇÆÚÁù
+ * Time:  2022-02-23-17  æ˜ŸæœŸå…­
  */
-public class ccc001myarraylist<E> {// ·ºĞÍÔÚÀàÃûºóÃæ¼ÓÉÏ±ê¼Ç·û
-    private ArrayList x = new ArrayList();// Ïàµ±ÓÚÄÚ²¿×öÁËÒ»¸ölist
+public class ccc001myarraylist<E> {// æ³›å‹åœ¨ç±»ååé¢åŠ ä¸Šæ ‡è®°ç¬¦
+    private ArrayList x = new ArrayList();// ç›¸å½“äºå†…éƒ¨åšäº†ä¸€ä¸ªlist
 
     public void add(E e) {
-        x.add(e);// ·ºĞÍÀàµÄµ÷ÓÃ£¬±¾ÖÊÉÏ»¹ÊÇÓÃArrayListµÄ·½·¨
+        x.add(e);// æ³›å‹ç±»çš„è°ƒç”¨ï¼Œæœ¬è´¨ä¸Šè¿˜æ˜¯ç”¨ArrayListçš„æ–¹æ³•
     }
 
     public void remove(E e) {
         x.remove(e);
     }
 
-    // ²»Í¬Ö®´¦ÔÚÓÚ£¬
-    // °´ÕÕ·ºĞÍµÄ¹æÔò£¬ÎÒ¿ÉÒÔ×Ô¶¨Òåtostring·½·¨
+    // ä¸åŒä¹‹å¤„åœ¨äºï¼Œ
+    // æŒ‰ç…§æ³›å‹çš„è§„åˆ™ï¼Œæˆ‘å¯ä»¥è‡ªå®šä¹‰tostringæ–¹æ³•
 
 
     @Override

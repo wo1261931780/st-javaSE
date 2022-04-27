@@ -6,6 +6,6 @@ public class ccc014zzz extends ccc013demo {
         xx.show2();
         xx.show3();
         xx.show4();
-        //privateÖ»ÄÜÔÚ±¾ÀàÖĞ·ÃÎÊ£¬
+        //privateåªèƒ½åœ¨æœ¬ç±»ä¸­è®¿é—®ï¼Œ
     }
 }

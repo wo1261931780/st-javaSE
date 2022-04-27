@@ -1,6 +1,6 @@
-package abÍùÆÚÑ§Ï°2021Äê10ÔÂ2ÈÕ.aaa001³õÆÚÑ§Ï°¼¯ºÏ;
+package abå¾€æœŸå­¦ä¹ 2021å¹´10æœˆ2æ—¥.aaa001åˆæœŸå­¦ä¹ é›†åˆ;
 
-public class aaa024a²¹³äreturnµÄ×÷ÓÃ {
+public class aaa024aè¡¥å……returnçš„ä½œç”¨ {
     public static void main(String[] args) {
         show(1, 2);
         System.out.println("end");
@@ -10,8 +10,8 @@ public class aaa024a²¹³äreturnµÄ×÷ÓÃ {
         if (a == 0) {
             System.out.println("error");
             return;
-            // ÕâÀïÖ±½Ó½áÊø£¬ºóĞøµÄsout²»Ö´ĞĞ£¬
-            // ¾ßÌå±íÏÖ£¬ÉÏÃæÖ±½Ó³öÏÖend
+            // è¿™é‡Œç›´æ¥ç»“æŸï¼Œåç»­çš„soutä¸æ‰§è¡Œï¼Œ
+            // å…·ä½“è¡¨ç°ï¼Œä¸Šé¢ç›´æ¥å‡ºç°end
         }
         int i = a / b;
         System.out.println(i);

@@ -11,10 +11,10 @@ import java.util.stream.Stream;
  * Project:index.pb
  * Package:c2stage_20220331.ccc001stream_case
  * User:  wo1261931780@gmail.com
- * Time:  2022-03-21-12  ĞÇÆÚËÄ
+ * Time:  2022-03-21-12  æ˜ŸæœŸå››
  */
 public class ccc002rundemo {
-    public static int money;//ÔÚmain·½·¨Ö®Ç°¼ÓÔØ£¬×÷ÎªÈ«¾Ö±äÁ¿
+    public static int money;//åœ¨mainæ–¹æ³•ä¹‹å‰åŠ è½½ï¼Œä½œä¸ºå…¨å±€å˜é‡
 
     public static void main(String[] args) {
         List<ccc001object> x1 = new ArrayList<>();
@@ -31,28 +31,28 @@ public class ccc002rundemo {
         show1(x1);
         show1(x2);
         Stream<ccc001object> x3 = Stream.concat(x1.stream(), x2.stream());
-        x3.forEach(s -> System.out.println("ĞÕÃû£º" + s.getName() + "--" + s.getProfit()));
-        // µÃµ½µÄ½á¹ûÊÇx1µÄÊı¾İ+x2µÄÊı¾İ
-        // ÕâÀïÏàµ±ÓÚ°ÑÄÚ²¿ËùÓĞµÄÊı¾İ°´ÕÕË³ĞòºÏ²¢ÆğÀ´£¬È»ºó¸ù¾İÌõ¼ş½øĞĞÊä³ö
+        x3.forEach(s -> System.out.println("å§“åï¼š" + s.getName() + "--" + s.getProfit()));
+        // å¾—åˆ°çš„ç»“æœæ˜¯x1çš„æ•°æ®+x2çš„æ•°æ®
+        // è¿™é‡Œç›¸å½“äºæŠŠå†…éƒ¨æ‰€æœ‰çš„æ•°æ®æŒ‰ç…§é¡ºåºåˆå¹¶èµ·æ¥ï¼Œç„¶åæ ¹æ®æ¡ä»¶è¿›è¡Œè¾“å‡º
     }
 
     public static void show1(List<ccc001object> x1) {
         ccc003top_employee demop = x1.stream().max((a1, a2) -> a1.getProfit() - a2.getProfit()).map(s -> new ccc003top_employee(s.getName(), s.getProfit())).get();
-        // ½âÊÍÒ»ÏÂÉÏÃæÕâĞĞ´úÂë£º
-        // 1.Ê×ÏÈÎÒµ÷ÓÃmax·½·¨£¬ÄÚ²¿ĞÂ½¨Ò»¸ö±È½ÏÆ÷£¬±È½ÏÄÚÈİ¾ÍÊÇprofit
-        // 2.µ÷ÓÃmap·½·¨£¬½«Æä·â×°ÎªÒ»¸öemployee¶ÔÏó£¬·â×°µÄÄÚÈİ¾ÍÊÇĞ½Ë®ºÍĞÕÃû
-        // 3.µ÷ÓÃget·½·¨£¬ÒÔ¶ÔÏóµÄĞÎÊ½È¥»ñµÃ½á¹û
+        // è§£é‡Šä¸€ä¸‹ä¸Šé¢è¿™è¡Œä»£ç ï¼š
+        // 1.é¦–å…ˆæˆ‘è°ƒç”¨maxæ–¹æ³•ï¼Œå†…éƒ¨æ–°å»ºä¸€ä¸ªæ¯”è¾ƒå™¨ï¼Œæ¯”è¾ƒå†…å®¹å°±æ˜¯profit
+        // 2.è°ƒç”¨mapæ–¹æ³•ï¼Œå°†å…¶å°è£…ä¸ºä¸€ä¸ªemployeeå¯¹è±¡ï¼Œå°è£…çš„å†…å®¹å°±æ˜¯è–ªæ°´å’Œå§“å
+        // 3.è°ƒç”¨getæ–¹æ³•ï¼Œä»¥å¯¹è±¡çš„å½¢å¼å»è·å¾—ç»“æœ
         System.out.println(demop);
 
         x1.stream().sorted((a1, a2) -> a1.getProfit() - a2.getProfit()).skip(1).limit(x1.size() - 2).forEach(s -> {
             money += s.getProfit();
         });
-        // ½âÊÍÒ»ÏÂÕâÀïµÄ´úÂë
-        // Ê×ÏÈµ÷ÓÃsorted·½·¨£¬½øĞĞÁËÒ»´ÎÉıĞòÅÅĞò
-        // È»ºóÌø¹ıÒ»¸ö¶ÔÏó£¨×î´óÖµ£©
-        // ÏŞÖÆ³¤¶ÈÎª2£¨È¥µôÒ»¸ö×îĞ¡Öµ£©
-        // ½Ó×Å¶ÔËùÓĞµÄÔªËØ±éÀú£¬ÒòÎªĞèÒªÔÚ±éÀúÆÚ¼ä¶ÔÊı¾İ´¦Àí
-        // ÕâÀï¾ÍÊ¹ÓÃ{}´óÀ¨ºÅÀ´Ğ´´úÂë
+        // è§£é‡Šä¸€ä¸‹è¿™é‡Œçš„ä»£ç 
+        // é¦–å…ˆè°ƒç”¨sortedæ–¹æ³•ï¼Œè¿›è¡Œäº†ä¸€æ¬¡å‡åºæ’åº
+        // ç„¶åè·³è¿‡ä¸€ä¸ªå¯¹è±¡ï¼ˆæœ€å¤§å€¼ï¼‰
+        // é™åˆ¶é•¿åº¦ä¸º2ï¼ˆå»æ‰ä¸€ä¸ªæœ€å°å€¼ï¼‰
+        // æ¥ç€å¯¹æ‰€æœ‰çš„å…ƒç´ éå†ï¼Œå› ä¸ºéœ€è¦åœ¨éå†æœŸé—´å¯¹æ•°æ®å¤„ç†
+        // è¿™é‡Œå°±ä½¿ç”¨{}å¤§æ‹¬å·æ¥å†™ä»£ç 
 
         money /= x1.size() - 2;
         System.out.println(money);
@@ -64,7 +64,7 @@ public class ccc002rundemo {
         BigDecimal x2 = BigDecimal.valueOf(num2);
 
         BigDecimal result = x1.divide(x2, 2, RoundingMode.HALF_UP);
-        // ´óÊı¾İ·½·¨£¬´¦Àí¾«¶ÈÎÊÌâ
-        System.out.println("´¦Àí¾«¶ÈµÄ½á¹û£º" + result);
+        // å¤§æ•°æ®æ–¹æ³•ï¼Œå¤„ç†ç²¾åº¦é—®é¢˜
+        System.out.println("å¤„ç†ç²¾åº¦çš„ç»“æœï¼š" + result);
     }
 }

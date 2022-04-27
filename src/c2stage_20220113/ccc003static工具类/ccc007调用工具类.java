@@ -1,7 +1,7 @@
-package c2stage_20220113.ccc003static¹¤¾ßÀà;
+package c2stage_20220113.ccc003staticå·¥å…·ç±»;
 
-public class ccc007µ÷ÓÃ¹¤¾ßÀà {
+public class ccc007è°ƒç”¨å·¥å…·ç±» {
     public static void main(String[] args) {
-        ccc006¹¤¾ßÀà.show(5);
+        ccc006å·¥å…·ç±».show(5);
     }
 }

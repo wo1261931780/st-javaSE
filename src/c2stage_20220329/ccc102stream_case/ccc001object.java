@@ -5,7 +5,7 @@ package c2stage_20220329.ccc102stream_case;
  * Project:index.pb
  * Package:c2stage_20220331.ccc001stream_case
  * User:  wo1261931780@gmail.com
- * Time:  2022-03-21-10  ĞÇÆÚËÄ
+ * Time:  2022-03-21-10  ÃÃ‡Ã†ÃšÃ‹Ã„
  */
 public class ccc001object {
     private String name;

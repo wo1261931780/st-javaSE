@@ -1,12 +1,0 @@
-
-S	java:S106"9Replace this use of System.out or System.err by a logger.(†·§ÿÿÿÿÿ
-M	java:S106"9Replace this use of System.out or System.err by a logger.(‚ØåT
-S	java:S106"9Replace this use of System.out or System.err by a logger.(†·§ÿÿÿÿÿ
-S	java:S106"9Replace this use of System.out or System.err by a logger.(ì–ÅÇüÿÿÿÿ
-S	java:S106("9Replace this use of System.out or System.err by a logger.(Ğì¶øÿÿÿÿ
-x
-java:S1319 "bThe type of "xx" should be an interface such as "List" rather than the implementation "ArrayList".(Ç™¿
-g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ó’à‘ûÿÿÿÿ
-o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(»±Ÿó
-b
-java:S2095!"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(ôªĞ

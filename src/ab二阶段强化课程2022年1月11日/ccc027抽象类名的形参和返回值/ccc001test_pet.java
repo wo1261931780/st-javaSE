@@ -1,4 +1,4 @@
-package ab¶ş½×¶ÎÇ¿»¯¿Î³Ì2022Äê1ÔÂ11ÈÕ.ccc027³éÏóÀàÃûµÄĞÎ²ÎºÍ·µ»ØÖµ;
+package abäºŒé˜¶æ®µå¼ºåŒ–è¯¾ç¨‹2022å¹´1æœˆ11æ—¥.ccc027æŠ½è±¡ç±»åçš„å½¢å‚å’Œè¿”å›å€¼;
 
 public abstract class ccc001test_pet {
     abstract void eatsm();

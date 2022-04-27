@@ -12,7 +12,7 @@ import java.util.stream.Stream;
  * Project:index.pb
  * Package:c2stage_20220331.ccc001stream_case2
  * User:  wo1261931780@gmail.com
- * Time:  2022-03-22-20  ĞÇÆÚËÄ
+ * Time:  2022-03-22-20  æ˜ŸæœŸå››
  */
 public class ccc001stream_collect {
     public static void main(String[] args) {
@@ -24,37 +24,37 @@ public class ccc001stream_collect {
         x.add("b5");
         Stream<String> demo1 = x.stream().filter(s -> s.startsWith("a"));
         List<String> demo2 = demo1.collect(Collectors.toList());
-        // Ê×ÏÈÎÒÃÇÒªÇå³ş£¬streamÁ÷µÄÊÕ¼¯·½·¨£¬±ØĞëÒª±¾ÉíÊÇstreamÀàĞÍµÄ¶ÔÏó
-        // Æä´Î£¬ĞèÒªÊÕ¼¯ÎªÊ²Ã´ÀàĞÍµÄ¶ÔÏó£¬¾Í±ØĞëÒªtoÊ²Ã´ÀàĞÍµÄ
-        // ±ÈÈçÎÒÉèÖÃtolist£¬ÄÇ¾ÍÊÇÊÕ¼¯ÎªlistÀàĞÍµÄ
-        // toset£¬¾ÍÊÇÊÕ¼¯ÎªsetÀàĞÍµÄ
+        // é¦–å…ˆæˆ‘ä»¬è¦æ¸…æ¥šï¼Œstreamæµçš„æ”¶é›†æ–¹æ³•ï¼Œå¿…é¡»è¦æœ¬èº«æ˜¯streamç±»å‹çš„å¯¹è±¡
+        // å…¶æ¬¡ï¼Œéœ€è¦æ”¶é›†ä¸ºä»€ä¹ˆç±»å‹çš„å¯¹è±¡ï¼Œå°±å¿…é¡»è¦toä»€ä¹ˆç±»å‹çš„
+        // æ¯”å¦‚æˆ‘è®¾ç½®tolistï¼Œé‚£å°±æ˜¯æ”¶é›†ä¸ºlistç±»å‹çš„
+        // tosetï¼Œå°±æ˜¯æ”¶é›†ä¸ºsetç±»å‹çš„
         System.out.println(demo2);
 
-        // ÔÚÃ»ÓĞĞÂ½¨streamÁ÷µÄÇé¿öÏÂ£¬Ä¬ÈÏÖ»ÄÜ±»ÊÕ¼¯Ò»´Î
-        // Õâ¸öÓĞµãÀàËÆÓÚÁ÷Ë®µÄ¸ÅÄî
-        // Set<String> demo4 = demo1.collect(Collectors.toSet());//Ö±½ÓÔËĞĞ»á±¨´í
+        // åœ¨æ²¡æœ‰æ–°å»ºstreamæµçš„æƒ…å†µä¸‹ï¼Œé»˜è®¤åªèƒ½è¢«æ”¶é›†ä¸€æ¬¡
+        // è¿™ä¸ªæœ‰ç‚¹ç±»ä¼¼äºæµæ°´çš„æ¦‚å¿µ
+        // Set<String> demo4 = demo1.collect(Collectors.toSet());//ç›´æ¥è¿è¡Œä¼šæŠ¥é”™
 
-        // ÒªÊ¹ÓÃĞÂµÄÊÕ¼¯Æ÷£¬Ç°ÌáÊÇstreamÁ÷Ã»ÓĞ±»ÊÕ¼¯¹ı
+        // è¦ä½¿ç”¨æ–°çš„æ”¶é›†å™¨ï¼Œå‰ææ˜¯streamæµæ²¡æœ‰è¢«æ”¶é›†è¿‡
         Stream<String> demo3 = x.stream().filter(s -> s.startsWith("c"));
         Set<String> demo4 = demo3.collect(Collectors.toSet());
         System.out.println(demo4);
     }
 
     public static void show(List<String> x) {
-        // »»¾ä»°À´Ëµ£¬
-        // ÈÎºÎÒ»¸ö¼¯ºÏ£¬ÄÜ±»ÎŞÊı´Îµ÷ÓÃÎªstreamÁ÷£¬²¢±»¶à¸östreamÁ÷ÊÕ¼¯
+        // æ¢å¥è¯æ¥è¯´ï¼Œ
+        // ä»»ä½•ä¸€ä¸ªé›†åˆï¼Œèƒ½è¢«æ— æ•°æ¬¡è°ƒç”¨ä¸ºstreamæµï¼Œå¹¶è¢«å¤šä¸ªstreamæµæ”¶é›†
         Stream<String> demo1 = x.stream().filter(s -> s.startsWith("c"));
-        Object[] demo2 = demo1.toArray();// Ö±½Óµ÷ÓÃ·½·¨½«Æä×ª»¯Îª¼¯ºÏÀàĞÍµÄ¶ÔÏó
-        // ×¢ÒâÉÏÃæµÄ¼¯ºÏÊı¾İÀàĞÍÎªobject
-        // ÓĞµãÊ±ºò£¬ÒµÎñĞèÒª½«Æä×ª»¯ÎªstringÀàĞÍÈ¥½ÓÊÕ
+        Object[] demo2 = demo1.toArray();// ç›´æ¥è°ƒç”¨æ–¹æ³•å°†å…¶è½¬åŒ–ä¸ºé›†åˆç±»å‹çš„å¯¹è±¡
+        // æ³¨æ„ä¸Šé¢çš„é›†åˆæ•°æ®ç±»å‹ä¸ºobject
+        // æœ‰ç‚¹æ—¶å€™ï¼Œä¸šåŠ¡éœ€è¦å°†å…¶è½¬åŒ–ä¸ºstringç±»å‹å»æ¥æ”¶
         String[] demo3 = demo1.toArray(new IntFunction<String[]>() {
             @Override
             public String[] apply(int value) {
                 return new String[value];
             }
         });
-        // ÉÏÃæ¾ÍÊÇ½«Ò»¸östreamÁ÷£¬Ö¸¶¨×ª»¯ÎªstringÀàĞÍµÄÊı×é
-        // ¼ò»¯Ğ´·¨£¬¾ÍÊÇ·½·¨ÒıÓÃ£º
+        // ä¸Šé¢å°±æ˜¯å°†ä¸€ä¸ªstreamæµï¼ŒæŒ‡å®šè½¬åŒ–ä¸ºstringç±»å‹çš„æ•°ç»„
+        // ç®€åŒ–å†™æ³•ï¼Œå°±æ˜¯æ–¹æ³•å¼•ç”¨ï¼š
         String[] demo4 = demo1.toArray(String[]::new);
     }
 }

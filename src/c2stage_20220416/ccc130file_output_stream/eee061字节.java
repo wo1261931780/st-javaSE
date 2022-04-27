@@ -6,50 +6,50 @@ import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 
 /**
- * ¹¹Ôì·½·¨£º
- * FileOutputStream (String name)£º´´½¨ÎÄ¼þÊä³öÁ÷ÒÔÖ¸¶¨µÄÃû³ÆÐ´ÈëÎÄ¼þ
- * FileOutputStream (File file)£º´´½¨ÎÄ¼þÊä³öÁ÷ÒÔÐ´ÈëÓÉÖ¸¶¨µÄ File¶ÔÏó±íÊ¾µÄÎÄ¼þ
- * Ð´Êý¾ÝµÄÈýÖÖ·½Ê½£º
- * void write (int b)£º½«Ö¸¶¨µÄ×Ö½ÚÐ´Èë´ËÎÄ¼þÊä³öÁ÷
- * Ò»´ÎÐ´Ò»¸ö×Ö½ÚÊý¾Ý
- * void write (byte[] b)£º½« b.length×Ö½Ú´ÓÖ¸¶¨µÄ×Ö½ÚÊý×éÐ´Èë´ËÎÄ¼þÊä³öÁ÷
- * Ò»´ÎÐ´Ò»¸ö×Ö½ÚÊý×éÊý¾Ý
- * void write (byte[] b, int off, int len)£º½« len×Ö½Ú´ÓÖ¸¶¨µÄ×Ö½ÚÊý×é¿ªÊ¼£¬´ÓÆ«ÒÆÁ¿off¿ªÊ¼Ð´Èë´ËÎÄ¼þÊä³öÁ÷
- * Ò»´ÎÐ´Ò»¸ö×Ö½ÚÊý×éµÄ²¿·ÖÊý¾Ý
+ * æž„é€ æ–¹æ³•ï¼š
+ * FileOutputStream (String name)ï¼šåˆ›å»ºæ–‡ä»¶è¾“å‡ºæµä»¥æŒ‡å®šçš„åç§°å†™å…¥æ–‡ä»¶
+ * FileOutputStream (File file)ï¼šåˆ›å»ºæ–‡ä»¶è¾“å‡ºæµä»¥å†™å…¥ç”±æŒ‡å®šçš„ Fileå¯¹è±¡è¡¨ç¤ºçš„æ–‡ä»¶
+ * å†™æ•°æ®çš„ä¸‰ç§æ–¹å¼ï¼š
+ * void write (int b)ï¼šå°†æŒ‡å®šçš„å­—èŠ‚å†™å…¥æ­¤æ–‡ä»¶è¾“å‡ºæµ
+ * ä¸€æ¬¡å†™ä¸€ä¸ªå­—èŠ‚æ•°æ®
+ * void write (byte[] b)ï¼šå°† b.lengthå­—èŠ‚ä»ŽæŒ‡å®šçš„å­—èŠ‚æ•°ç»„å†™å…¥æ­¤æ–‡ä»¶è¾“å‡ºæµ
+ * ä¸€æ¬¡å†™ä¸€ä¸ªå­—èŠ‚æ•°ç»„æ•°æ®
+ * void write (byte[] b, int off, int len)ï¼šå°† lenå­—èŠ‚ä»ŽæŒ‡å®šçš„å­—èŠ‚æ•°ç»„å¼€å§‹ï¼Œä»Žåç§»é‡offå¼€å§‹å†™å…¥æ­¤æ–‡ä»¶è¾“å‡ºæµ
+ * ä¸€æ¬¡å†™ä¸€ä¸ªå­—èŠ‚æ•°ç»„çš„éƒ¨åˆ†æ•°æ®
  */
-public class eee061×Ö½Ú {
+public class eee061å­—èŠ‚ {
     public static void main(String[] args) throws IOException {
         File x = new File("l:\\java");
         FileOutputStream x1 = new FileOutputStream("l:\\java\\demo2.txt");
-        // Òì³£ÐèÒªÅ×³ö
+        // å¼‚å¸¸éœ€è¦æŠ›å‡º
         // FileOutputStream x2=new FileOutputStream(x);
-        // ±¾ÖÊÉÏ×öµÄ£¬¾ÍÊÇÉÏÃæÕâ¸ö£¬
-        // ½«fileÂ·¾¶·â×°³ÉÒ»¸ö¶ÔÏó
+        // æœ¬è´¨ä¸Šåšçš„ï¼Œå°±æ˜¯ä¸Šé¢è¿™ä¸ªï¼Œ
+        // å°†fileè·¯å¾„å°è£…æˆä¸€ä¸ªå¯¹è±¡
         // --
-        // Ò»¸öÐÂµÄÀí½âÊÇ£¬ÎÒ¿ÉÒÔÉèÖÃÒ»¸öxÂ·¾¶¶ÔÏó
-        // È»ºóÔÙ°Ñx´«µÝ¸øx1£¬ÈÃx1Ö´ÐÐÎÄ¼þ²Ù×÷
+        // ä¸€ä¸ªæ–°çš„ç†è§£æ˜¯ï¼Œæˆ‘å¯ä»¥è®¾ç½®ä¸€ä¸ªxè·¯å¾„å¯¹è±¡
+        // ç„¶åŽå†æŠŠxä¼ é€’ç»™x1ï¼Œè®©x1æ‰§è¡Œæ–‡ä»¶æ“ä½œ
         x1.write(11);
-        // void write (int b)£º½«Ö¸¶¨µÄ×Ö½ÚÐ´Èë´ËÎÄ¼þÊä³öÁ÷
-        // Ò»´ÎÐ´Ò»¸ö×Ö½ÚÊý¾Ý
+        // void write (int b)ï¼šå°†æŒ‡å®šçš„å­—èŠ‚å†™å…¥æ­¤æ–‡ä»¶è¾“å‡ºæµ
+        // ä¸€æ¬¡å†™ä¸€ä¸ªå­—èŠ‚æ•°æ®
         byte[] x2 = {97, 98, 99, 100, 101};
         x1.write(x2);
-        // void write (byte[] b)£º½« b.length×Ö½Ú´ÓÖ¸¶¨µÄ×Ö½ÚÊý×éÐ´Èë´ËÎÄ¼þÊä³öÁ÷
-        // x1.write(x2);ÕâÀïÊµ¼ÊÉÏ¾ÍÊÇ°Ñx2Õâ¸öÊý×éÈ«²¿Ð´ÈëÁËx1£¬
-        // È»ºóÔÚx1ÖÐ³öÏÖx2µÄ×Ö½ÚÂëÄÚÈÝabcde
-        // Ò»´ÎÐ´Ò»¸ö×Ö½ÚÊý×éÊý¾Ý
+        // void write (byte[] b)ï¼šå°† b.lengthå­—èŠ‚ä»ŽæŒ‡å®šçš„å­—èŠ‚æ•°ç»„å†™å…¥æ­¤æ–‡ä»¶è¾“å‡ºæµ
+        // x1.write(x2);è¿™é‡Œå®žé™…ä¸Šå°±æ˜¯æŠŠx2è¿™ä¸ªæ•°ç»„å…¨éƒ¨å†™å…¥äº†x1ï¼Œ
+        // ç„¶åŽåœ¨x1ä¸­å‡ºçŽ°x2çš„å­—èŠ‚ç å†…å®¹abcde
+        // ä¸€æ¬¡å†™ä¸€ä¸ªå­—èŠ‚æ•°ç»„æ•°æ®
         // --
-        byte[] x3 = "²âÊÔ".getBytes(StandardCharsets.UTF_8);
-        // ½«¡°²âÊÔ¡±×÷ÎªÒ»¸ö×Ö·û´®¸³Öµ¸øx3£¬
-        // È»ºóx3×÷Îª×Ö·û´®Êý×éÄÃµ½Êý¾Ý
-        // ·µ»Øx3µÄÊý¾ÝÖµ
+        byte[] x3 = "æµ‹è¯•".getBytes(StandardCharsets.UTF_8);
+        // å°†â€œæµ‹è¯•â€ä½œä¸ºä¸€ä¸ªå­—ç¬¦ä¸²èµ‹å€¼ç»™x3ï¼Œ
+        // ç„¶åŽx3ä½œä¸ºå­—ç¬¦ä¸²æ•°ç»„æ‹¿åˆ°æ•°æ®
+        // è¿”å›žx3çš„æ•°æ®å€¼
         x1.write(x3);
         byte[] x4 = "aaaa".getBytes(StandardCharsets.UTF_8);
-        // void write (byte[] b, int off, int len)£º
-        // ½« len×Ö½Ú´ÓÖ¸¶¨µÄ×Ö½ÚÊý×é¿ªÊ¼£¬´ÓÆ«ÒÆÁ¿off¿ªÊ¼Ð´Èë´ËÎÄ¼þÊä³öÁ÷
-        // Ò»´ÎÐ´Ò»¸ö×Ö½ÚÊý×éµÄ²¿·ÖÊý¾Ý
+        // void write (byte[] b, int off, int len)ï¼š
+        // å°† lenå­—èŠ‚ä»ŽæŒ‡å®šçš„å­—èŠ‚æ•°ç»„å¼€å§‹ï¼Œä»Žåç§»é‡offå¼€å§‹å†™å…¥æ­¤æ–‡ä»¶è¾“å‡ºæµ
+        // ä¸€æ¬¡å†™ä¸€ä¸ªå­—èŠ‚æ•°ç»„çš„éƒ¨åˆ†æ•°æ®
         x1.write(x4, 0, x4.length);
-        // ´ÓË÷ÒýµÄ0ºÅÎ»ÖÃ¿ªÊ¼£¬Ð´Èëx4Õâ¸öÊý×éµÄÊý¾Ý£¬
-        // Ð´ÈëµÄÊý¾Ý³¤¶ÈÎªx4.length
+        // ä»Žç´¢å¼•çš„0å·ä½ç½®å¼€å§‹ï¼Œå†™å…¥x4è¿™ä¸ªæ•°ç»„çš„æ•°æ®ï¼Œ
+        // å†™å…¥çš„æ•°æ®é•¿åº¦ä¸ºx4.length
         x1.close();
     }
 }

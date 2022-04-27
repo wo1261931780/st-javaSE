@@ -1,12 +1,12 @@
-package abÍùÆÚÑ§Ï°2021Äê10ÔÂ2ÈÕ.bbb029´¢´æÈ»ºó±éÀúµÄ²Ù×÷;
+package abå¾€æœŸå­¦ä¹ 2021å¹´10æœˆ2æ—¥.bbb029å‚¨å­˜ç„¶åéå†çš„æ“ä½œ;
 
 import java.util.ArrayList;
 
-public class bbb001¼¯ºÏºÍ·ºĞÍ {
+public class bbb001é›†åˆå’Œæ³›å‹ {
     public static void main(String[] args) {
         ArrayList x = new ArrayList();
-        ArrayList<String> x1 = new ArrayList<>();//1.7¿ªÊ¼£¬·ºĞÍºóÃæµÄ¿ÉÒÔ²»Ğ´
+        ArrayList<String> x1 = new ArrayList<>();//1.7å¼€å§‹ï¼Œæ³›å‹åé¢çš„å¯ä»¥ä¸å†™
         ArrayList<Integer> x2 = new ArrayList<>();
-        ArrayList<Object> x3 = new ArrayList<>();//·ÇÒªÊ¹ÓÃ·ºĞÍ£¬Ò²±ØĞëÌîÈëobject
+        ArrayList<Object> x3 = new ArrayList<>();//éè¦ä½¿ç”¨æ³›å‹ï¼Œä¹Ÿå¿…é¡»å¡«å…¥object
     }
 }

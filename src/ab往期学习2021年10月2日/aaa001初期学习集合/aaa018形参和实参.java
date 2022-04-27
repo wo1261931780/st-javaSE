@@ -1,87 +1,87 @@
-package abÍùÆÚÑ§Ï°2021Äê10ÔÂ2ÈÕ.aaa001³õÆÚÑ§Ï°¼¯ºÏ;
+package abå¾€æœŸå­¦ä¹ 2021å¹´10æœˆ2æ—¥.aaa001åˆæœŸå­¦ä¹ é›†åˆ;
 /*
-    ·½·¨£ºÊÇ½«¾ßÓĞ¶ÀÁ¢¹¦ÄÜµÄ´úÂë¿é×éÖ¯³ÉÎªÒ»¸öÕûÌå£¬Ê¹Æä¾ßÓĞÌØÊâ¹¦ÄÜµÄ´úÂë¼¯
-    ¶¨Òå¸ñÊ½£º
-        public static void ·½·¨Ãû ( ) {
-	        //·½·¨Ìå
+    æ–¹æ³•ï¼šæ˜¯å°†å…·æœ‰ç‹¬ç«‹åŠŸèƒ½çš„ä»£ç å—ç»„ç»‡æˆä¸ºä¸€ä¸ªæ•´ä½“ï¼Œä½¿å…¶å…·æœ‰ç‰¹æ®ŠåŠŸèƒ½çš„ä»£ç é›†
+    å®šä¹‰æ ¼å¼ï¼š
+        public static void æ–¹æ³•å ( ) {
+	        //æ–¹æ³•ä½“
 	    }
-	µ÷ÓÃ¸ñÊ½£º
-	    ·½·¨Ãû();
+	è°ƒç”¨æ ¼å¼ï¼š
+	    æ–¹æ³•å();
  */
 
 import java.util.Scanner;
 
-public class aaa018ĞÎ²ÎºÍÊµ²Î {
+public class aaa018å½¢å‚å’Œå®å‚ {
     public static void main(String[] args) {
-        // ¿ÉÒÔ²»´«µİ²ÎÊı£¬Ö±½Óµ÷ÓÃ·½·¨
+        // å¯ä»¥ä¸ä¼ é€’å‚æ•°ï¼Œç›´æ¥è°ƒç”¨æ–¹æ³•
         showdemo();
-        //µ«ÊÇÒª×¢Òâ£¬²»´ø²ÎÊıµÄ·½·¨£¬À¨ºÅÄÚ²¿Îª¿Õ
+        //ä½†æ˜¯è¦æ³¨æ„ï¼Œä¸å¸¦å‚æ•°çš„æ–¹æ³•ï¼Œæ‹¬å·å†…éƒ¨ä¸ºç©º
         System.out.println("------------------------------------------------");
-        //µ÷ÓÃ·½·¨µÄÊ±ºòÊÇÊµ²Î
+        //è°ƒç”¨æ–¹æ³•çš„æ—¶å€™æ˜¯å®å‚
         max(10, 20);
-        // max·½·¨ÖĞ£¬´«µİµÄÁ½¸öÊı×Ö10ºÍ20¾ÍÊÇÊµ²Î
-        // Èç¹ûµ÷ÓÃ·½·¨ÖĞ£¬´«µİµÄÊÇnumberÕâ¸ö±äÁ¿£¬ÄÇÃ´numberÒ²ËãÊµ²Î
+        // maxæ–¹æ³•ä¸­ï¼Œä¼ é€’çš„ä¸¤ä¸ªæ•°å­—10å’Œ20å°±æ˜¯å®å‚
+        // å¦‚æœè°ƒç”¨æ–¹æ³•ä¸­ï¼Œä¼ é€’çš„æ˜¯numberè¿™ä¸ªå˜é‡ï¼Œé‚£ä¹ˆnumberä¹Ÿç®—å®å‚
         // ------------------------------------------------
 
-        // µ÷ÓÃ·½·¨£¬Ö±½ÓÊ¹ÓÃ·½·¨Ãû£¬È»ºóÀ¨ºÅÄÚ´«µİ²ÎÊı¼´¿É
-        //´«²ÎµÄÊ±ºò£¬²ÎÊıµÄÀàĞÍºÍÊıÁ¿±ØĞëÒ»ÖÂ£¬·ñÔò»á³ö´í
+        // è°ƒç”¨æ–¹æ³•ï¼Œç›´æ¥ä½¿ç”¨æ–¹æ³•åï¼Œç„¶åæ‹¬å·å†…ä¼ é€’å‚æ•°å³å¯
+        //ä¼ å‚çš„æ—¶å€™ï¼Œå‚æ•°çš„ç±»å‹å’Œæ•°é‡å¿…é¡»ä¸€è‡´ï¼Œå¦åˆ™ä¼šå‡ºé”™
         Scanner xx = new Scanner(System.in);
-        System.out.println("ÇëÊäÈë¾ßÌåÊı×Ö£º");
+        System.out.println("è¯·è¾“å…¥å…·ä½“æ•°å­—ï¼š");
         int pn = xx.nextInt();
         divides(pn);
-        System.out.println("Ö´ĞĞÍê±Ï");
+        System.out.println("æ‰§è¡Œå®Œæ¯•");
     }
 
     public static void showdemo() {
         int a = 11;
-        String b = "ÎÒÊÇ²»´ø²ÎÊıµÄ·½·¨";
+        String b = "æˆ‘æ˜¯ä¸å¸¦å‚æ•°çš„æ–¹æ³•";
         System.out.println(a + b);
     }
 
     /**
-     * ÏÂÃæ¶¨Òå·½·¨int xxµÄÊ±ºòÊÇĞÎ²Î
+     * ä¸‹é¢å®šä¹‰æ–¹æ³•int xxçš„æ—¶å€™æ˜¯å½¢å‚
      */
     public static void max(int xx, int x2) {
-        System.out.println("ÎÒÊÇ´ø²ÎÊıµÄ·½·¨£¬±È½Ï´óĞ¡");
+        System.out.println("æˆ‘æ˜¯å¸¦å‚æ•°çš„æ–¹æ³•ï¼Œæ¯”è¾ƒå¤§å°");
         if (xx > x2) {
-            System.out.println("×î´óÖµÎª" + xx);
+            System.out.println("æœ€å¤§å€¼ä¸º" + xx);
         } else {
-            System.out.println("×î´óÖµÎª" + x2);
+            System.out.println("æœ€å¤§å€¼ä¸º" + x2);
         }
-        //¶¨Òå·½·¨£¬·½·¨µÄÃû³Æ¿ÉÒÔËæ±ã¸Ä
+        //å®šä¹‰æ–¹æ³•ï¼Œæ–¹æ³•çš„åç§°å¯ä»¥éšä¾¿æ”¹
         /*
         Scanner xx = new Scanner(System.in);
-        System.out.println("ÇëÊäÈëÊı×Ö£º");
+        System.out.println("è¯·è¾“å…¥æ•°å­—ï¼š");
         int x1 = xx.nextInt();
         if(x1%2 == 0){
-            System.out.println("Å¼Êı");
+            System.out.println("å¶æ•°");
         }else {
-            System.out.println("ÆæÊı");
+            System.out.println("å¥‡æ•°");
         }
-        System.out.println("ÔËĞĞ½áÊø");*/
+        System.out.println("è¿è¡Œç»“æŸ");*/
         /*int[] arr = {131, 1, 233};
         int x = 0;
         int max = 0;
-        for (System.out.println("¿ªÊ¼±È½Ï"); x < arr.length; x++)
+        for (System.out.println("å¼€å§‹æ¯”è¾ƒ"); x < arr.length; x++)
             if (x1 > arr[x]) {
                 max = x1;
             } else {
                 max = arr[x];
             }
-        System.out.println("×î´óÖµÎª£º" + max);*/
+        System.out.println("æœ€å¤§å€¼ä¸ºï¼š" + max);*/
     }
 
     /**
-     * ·½·¨ÖĞµÄ²ÎÊı£¬¾ÍÊÇĞÎ²Î£¬ÀıÈçÏÂÃæµÄnumber
+     * æ–¹æ³•ä¸­çš„å‚æ•°ï¼Œå°±æ˜¯å½¢å‚ï¼Œä¾‹å¦‚ä¸‹é¢çš„number
      */
     public static void divides(int number) {
         if (number % 2 == 0 && number > 0) {
-            System.out.println(number + "ÎªÅ¼Êı");
+            System.out.println(number + "ä¸ºå¶æ•°");
         } else if (number % 2 == 1 && number > 0) {
-            System.out.println(number + "ÎªÆæÊı");
+            System.out.println(number + "ä¸ºå¥‡æ•°");
         } else {
             // while (number < 0) {
-            System.out.println("Êı¾İ´íÎó£¬ÇëÖØĞÂÊäÈë");
+            System.out.println("æ•°æ®é”™è¯¯ï¼Œè¯·é‡æ–°è¾“å…¥");
             // break;
             // }
         }

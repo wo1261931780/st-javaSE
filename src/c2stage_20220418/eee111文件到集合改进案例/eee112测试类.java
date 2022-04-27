@@ -1,31 +1,31 @@
-package c2stage_20220418.eee111ÎÄ¼şµ½¼¯ºÏ¸Ä½ø°¸Àı;
+package c2stage_20220418.eee111æ–‡ä»¶åˆ°é›†åˆæ”¹è¿›æ¡ˆä¾‹;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
 
-public class eee112²âÊÔÀà {
+public class eee112æµ‹è¯•ç±» {
     public static void main(String[] args) throws IOException {
         BufferedReader x = new BufferedReader(new FileReader("l:\\java\\11.txt"));
-        // Ñ§ºÅ£º111	ĞÕÃû£ºaaa	ÄêÁä£º11	µØÖ·£ºa1
-        ArrayList<eee113¶ÔÏóÀà> x1 = new ArrayList<>();
+        // å­¦å·ï¼š111	å§“åï¼šaaa	å¹´é¾„ï¼š11	åœ°å€ï¼ša1
+        ArrayList<eee113å¯¹è±¡ç±»> x1 = new ArrayList<>();
         String i;
         while ((i = x.readLine()) != null) {
-            String[] x3 = i.split("£¬");
-            eee113¶ÔÏóÀà x2 = new eee113¶ÔÏóÀà();
+            String[] x3 = i.split("ï¼Œ");
+            eee113å¯¹è±¡ç±» x2 = new eee113å¯¹è±¡ç±»();
             x2.setNum(x3[0]);
             x2.setName(x3[1]);
             x2.setAge(x3[2]);
             // x2.setAge(Integer.parseInt(x3[2]));
-            // ¿ÉÒÔÕâÑùÖ±½Ó×ª»»Ò»´Î
+            // å¯ä»¥è¿™æ ·ç›´æ¥è½¬æ¢ä¸€æ¬¡
             x2.setAddress(x3[3]);
             x1.add(x2);
         }
         System.out.println(x1);
         System.out.println("------------------");
-        for (eee113¶ÔÏóÀà i2 : x1) {
-            String x2 = "Ñ§ºÅ£º" + i2.getNum() + "\tĞÕÃû£º" + i2.getName() + "\tÄêÁä£º" + i2.getAge() + "\tµØÖ·£º" + i2.getAddress();
+        for (eee113å¯¹è±¡ç±» i2 : x1) {
+            String x2 = "å­¦å·ï¼š" + i2.getNum() + "\tå§“åï¼š" + i2.getName() + "\tå¹´é¾„ï¼š" + i2.getAge() + "\tåœ°å€ï¼š" + i2.getAddress();
             System.out.println(x2);
         }
     }

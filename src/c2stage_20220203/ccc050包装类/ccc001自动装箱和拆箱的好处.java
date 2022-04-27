@@ -1,19 +1,19 @@
-package c2stage_20220203.ccc050°ü×°Àà;
+package c2stage_20220203.ccc050åŒ…è£…ç±»;
 
 /**
  * Created by Intellij IDEA.
  * Project:index.pb
- * Package:c2stage_20220203.ccc050°ü×°Àà
+ * Package:c2stage_20220203.ccc050åŒ…è£…ç±»
  * User:  wo1261931780@gmail.com
- * Time:  2022-02-11-24  ĞÇÆÚÁù
+ * Time:  2022-02-11-24  æ˜ŸæœŸå…­
  */
-public class ccc001×Ô¶¯×°ÏäºÍ²ğÏäµÄºÃ´¦ {
+public class ccc001è‡ªåŠ¨è£…ç®±å’Œæ‹†ç®±çš„å¥½å¤„ {
     public static void main(String[] args) {
-        Integer x = 23;//ÕâÀïÊÇÕûÊı£¬µ«ÊÇÊÇ¶ÔÏóÀàĞÍ
-        String x1 = x.toString();//ÒòÎªÊÇ¶ÔÏó£¬ËùÒÔ¿ÉÒÔ¼Ì³ĞobjectÀà£¬ÓĞtostring·½·¨
-        //tostring·½·¨½«Æä±ä³ÉÒ»¸ö×Ö·û´®
+        Integer x = 23;//è¿™é‡Œæ˜¯æ•´æ•°ï¼Œä½†æ˜¯æ˜¯å¯¹è±¡ç±»å‹
+        String x1 = x.toString();//å› ä¸ºæ˜¯å¯¹è±¡ï¼Œæ‰€ä»¥å¯ä»¥ç»§æ‰¿objectç±»ï¼Œæœ‰tostringæ–¹æ³•
+        //tostringæ–¹æ³•å°†å…¶å˜æˆä¸€ä¸ªå­—ç¬¦ä¸²
         System.out.println(x1);
-        // ×Ö·û´®ÀàĞÍ±ä³ÉÕûÊıÀàĞÍ
+        // å­—ç¬¦ä¸²ç±»å‹å˜æˆæ•´æ•°ç±»å‹
         String x2 = "11";
         int x3 = Integer.parseInt(x2);
         System.out.println(++x3);//12
@@ -21,9 +21,9 @@ public class ccc001×Ô¶¯×°ÏäºÍ²ğÏäµÄºÃ´¦ {
         Double x5 = Double.parseDouble(x4);
         System.out.println(++x5);//124.12
         // *****************************************
-        int x6 = Integer.valueOf(x2);//ÕâÀïx2±ØĞëÊÇÕûÊıÀàĞÍ£¬·ñÔò±¨´í
-        Double x7 = Double.valueOf(x4);//Í¬Àí£¬°ü×°ÀàÖ»ÄÜ×ª»¯Îª¶ÔÓ¦µÄÀàĞÍ
-        //Ö±½ÓÊ¹ÓÃvalueof½øĞĞ×ª»»¼´¿É
+        int x6 = Integer.valueOf(x2);//è¿™é‡Œx2å¿…é¡»æ˜¯æ•´æ•°ç±»å‹ï¼Œå¦åˆ™æŠ¥é”™
+        Double x7 = Double.valueOf(x4);//åŒç†ï¼ŒåŒ…è£…ç±»åªèƒ½è½¬åŒ–ä¸ºå¯¹åº”çš„ç±»å‹
+        //ç›´æ¥ä½¿ç”¨valueofè¿›è¡Œè½¬æ¢å³å¯
 
     }
 }

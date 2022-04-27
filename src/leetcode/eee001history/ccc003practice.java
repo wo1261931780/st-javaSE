@@ -35,7 +35,7 @@ public class ccc003practice {
         }
     }
 
-    //2022Äê2ÔÂ9ÈÕ21:59:06£¬ÕıÈ·Ë¼Â·£º
+    //2022å¹´2æœˆ9æ—¥21:59:06ï¼Œæ­£ç¡®æ€è·¯ï¼š
     public class Main {
         public static void main(String[] args)  {
             Scanner sc = new Scanner(System.in);
@@ -48,7 +48,7 @@ public class ccc003practice {
         public static void F(int num) {
 //        5x+3y+z/3=100;
 //        x+y+z=100;
-//        ¼ò»¯µÃ 7x+4y=100;
+//        ç®€åŒ–å¾— 7x+4y=100;
             int x,y,z;
             for(x = 0; x<=14;x++){
                 if((100 - 7*x) % 4 == 0){

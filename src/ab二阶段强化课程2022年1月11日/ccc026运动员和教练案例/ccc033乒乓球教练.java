@@ -1,10 +1,10 @@
-package ab¶ş½×¶ÎÇ¿»¯¿Î³Ì2022Äê1ÔÂ11ÈÕ.ccc026ÔË¶¯Ô±ºÍ½ÌÁ·°¸Àı;
+package abäºŒé˜¶æ®µå¼ºåŒ–è¯¾ç¨‹2022å¹´1æœˆ11æ—¥.ccc026è¿åŠ¨å‘˜å’Œæ•™ç»ƒæ¡ˆä¾‹;
 
-public class ccc033Æ¹ÅÒÇò½ÌÁ· extends ccc030½ÌÁ· implements ccc027Ñ§Ï°Ó¢Óï {
-    public ccc033Æ¹ÅÒÇò½ÌÁ·() {
+public class ccc033ä¹’ä¹“çƒæ•™ç»ƒ extends ccc030æ•™ç»ƒ implements ccc027å­¦ä¹ è‹±è¯­ {
+    public ccc033ä¹’ä¹“çƒæ•™ç»ƒ() {
     }
 
-    public ccc033Æ¹ÅÒÇò½ÌÁ·(int age, String name) {
+    public ccc033ä¹’ä¹“çƒæ•™ç»ƒ(int age, String name) {
         super(age, name);
     }
 

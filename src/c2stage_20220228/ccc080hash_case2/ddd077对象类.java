@@ -1,13 +1,13 @@
 package c2stage_20220228.ccc080hash_case2;
 
-public class ddd077¶ÔÏóÀà {
+public class ddd077å¯¹è±¡ç±» {
     private String name;
     private int age;
 
-    public ddd077¶ÔÏóÀà() {
+    public ddd077å¯¹è±¡ç±»() {
     }
 
-    public ddd077¶ÔÏóÀà(String name, int age) {
+    public ddd077å¯¹è±¡ç±»(String name, int age) {
         this.name = name;
         this.age = age;
     }
@@ -37,12 +37,12 @@ public class ddd077¶ÔÏóÀà {
             return false;
         }
 
-        ddd077¶ÔÏóÀà ddd077¶ÔÏóÀà = (ddd077¶ÔÏóÀà) o;
+        ddd077å¯¹è±¡ç±» ddd077å¯¹è±¡ç±» = (ddd077å¯¹è±¡ç±») o;
 
-        if (age != ddd077¶ÔÏóÀà.age) {
+        if (age != ddd077å¯¹è±¡ç±».age) {
             return false;
         }
-        return name != null ? name.equals(ddd077¶ÔÏóÀà.name) : ddd077¶ÔÏóÀà.name == null;
+        return name != null ? name.equals(ddd077å¯¹è±¡ç±».name) : ddd077å¯¹è±¡ç±».name == null;
     }
 
     @Override

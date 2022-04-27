@@ -1,8 +1,8 @@
-package ab¶ş½×¶ÎÇ¿»¯¿Î³Ì2022Äê1ÔÂ11ÈÕ.ccc109ÀÏÊ¦Ñ§Éú¸¸Àà°¸Àı;
+package abäºŒé˜¶æ®µå¼ºåŒ–è¯¾ç¨‹2022å¹´1æœˆ11æ—¥.ccc109è€å¸ˆå­¦ç”Ÿçˆ¶ç±»æ¡ˆä¾‹;
 
 import java.util.Scanner;
-//Ê¹ÓÃ¿ì½İ¼ü½øĞĞ²Ù×÷£¬alt+inselt
-//Ò»µ©¸øÁË´ø²Î£¬ÏµÍ³¾Í²»¸øÎŞ²Î£¬ÕâÊ±ĞèÒªÊÖ¶¯²¹³äÒ»¸ö
+//ä½¿ç”¨å¿«æ·é”®è¿›è¡Œæ“ä½œï¼Œalt+inselt
+//ä¸€æ—¦ç»™äº†å¸¦å‚ï¼Œç³»ç»Ÿå°±ä¸ç»™æ— å‚ï¼Œè¿™æ—¶éœ€è¦æ‰‹åŠ¨è¡¥å……ä¸€ä¸ª
 
 public class ccc003sample {
     private String name = "";
@@ -15,7 +15,7 @@ public class ccc003sample {
 //    }
 
     public void setName() {
-        System.out.println("ÇëÊäÈëĞÕÃû£º");
+        System.out.println("è¯·è¾“å…¥å§“åï¼š");
         String name = xx.nextLine();
         this.name = name;
 //        System.out.println(name1);
@@ -24,7 +24,7 @@ public class ccc003sample {
     Scanner x1 = new Scanner(System.in);
 
     public void setAge() {
-        System.out.println("ÇëÊäÈëÄêÁä£º");
+        System.out.println("è¯·è¾“å…¥å¹´é¾„ï¼š");
         int age = x1.nextInt();
         this.age = age;
 //        System.out.println(age);

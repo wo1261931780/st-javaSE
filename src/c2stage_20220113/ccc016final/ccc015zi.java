@@ -4,17 +4,17 @@ public class ccc015zi extends ccc014fu {
     int age = 10;
 
     /**
-     * final int age =10;¶¨Òåºó£¬ÎÞ·¨±»ÖØÐÂ¶¨Òå
-     * finalÀàËÆ±ê¼Ç×îÖÕ×´Ì¬...
-     * finalÐÞÊÎÈýÖÖ£¬
-     * ÐÞÊÎ·½·¨£¬ÎÞ·¨±»ÖØÐ´
-     * ÐÞÊÎ±äÁ¿£¬¶¨ÒåÎª³£Á¿£¬ÎÞ·¨ÖØÐÂ¸³Öµ
-     * ÐÞÊÎÀà£¬¸ÃÀà¾Í²»ÄÜ²úÉú×ÓÀà
+     * final int age =10;å®šä¹‰åŽï¼Œæ— æ³•è¢«é‡æ–°å®šä¹‰
+     * finalç±»ä¼¼æ ‡è®°æœ€ç»ˆçŠ¶æ€...
+     * finalä¿®é¥°ä¸‰ç§ï¼Œ
+     * ä¿®é¥°æ–¹æ³•ï¼Œæ— æ³•è¢«é‡å†™
+     * ä¿®é¥°å˜é‡ï¼Œå®šä¹‰ä¸ºå¸¸é‡ï¼Œæ— æ³•é‡æ–°èµ‹å€¼
+     * ä¿®é¥°ç±»ï¼Œè¯¥ç±»å°±ä¸èƒ½äº§ç”Ÿå­ç±»
      */
     @Override
     public void way() {
         super.way();
         System.out.println(age);
     }
-    // ÖØÐ´µÄÊ±ºò£¬Ö±½ÓÊäÈë·½·¨Ãû£¬¾Í¿ÉÒÔÖ´ÐÐÖØÐ´µÄ²Ù×÷
+    // é‡å†™çš„æ—¶å€™ï¼Œç›´æŽ¥è¾“å…¥æ–¹æ³•åï¼Œå°±å¯ä»¥æ‰§è¡Œé‡å†™çš„æ“ä½œ
 }

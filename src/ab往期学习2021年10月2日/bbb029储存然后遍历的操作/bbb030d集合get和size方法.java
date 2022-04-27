@@ -1,8 +1,8 @@
-package abÍùÆÚÑ§Ï°2021Äê10ÔÂ2ÈÕ.bbb029´¢´æÈ»ºó±éÀúµÄ²Ù×÷;
+package abå¾€æœŸå­¦ä¹ 2021å¹´10æœˆ2æ—¥.bbb029å‚¨å­˜ç„¶åéå†çš„æ“ä½œ;
 
 import java.util.ArrayList;
 
-public class bbb030d¼¯ºÏgetºÍsize·½·¨ {
+public class bbb030dé›†åˆgetå’Œsizeæ–¹æ³• {
     public static void main(String[] args) {
         System.out.println("------------------------");
         ArrayList<String> x1 = new ArrayList<>();
@@ -10,11 +10,11 @@ public class bbb030d¼¯ºÏgetºÍsize·½·¨ {
         x1.add("222");
         x1.add("333");
         String x2 = x1.get(1);
-        // Ö±½Ó·µ»Ø1Î»ÖÃÉÏµÄÔªËØ222
-        // ÕâÀïÖ¸¶¨Î»ÖÃ²»´æÔÚ£¬¾Í»á³öÏÖË÷ÒıÔ½½çµÄÎÊÌâ
+        // ç›´æ¥è¿”å›1ä½ç½®ä¸Šçš„å…ƒç´ 222
+        // è¿™é‡ŒæŒ‡å®šä½ç½®ä¸å­˜åœ¨ï¼Œå°±ä¼šå‡ºç°ç´¢å¼•è¶Šç•Œçš„é—®é¢˜
         System.out.println(x2);
         System.out.println(x1.size());
-        // Ö±½ÓÊä³öÔªËØ¸öÊı3
+        // ç›´æ¥è¾“å‡ºå…ƒç´ ä¸ªæ•°3
 
     }
 }

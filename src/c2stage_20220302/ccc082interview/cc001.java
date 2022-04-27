@@ -7,7 +7,7 @@ import java.util.Arrays;
  * Project:index.pb
  * Package:c2stage_20220302.demo
  * User:  wo1261931780@gmail.com
- * Time:  2022-03-15-58  ÐÇÆÚËÄ
+ * Time:  2022-03-15-58  æ˜ŸæœŸå››
  */
 public class cc001 {
     public static void main(String[] args) {
@@ -52,7 +52,7 @@ public class cc001 {
         int[] x1 = new int[2];
         if (x.length < 2) {
             return x;
-        }// ³¤¶È²»Âú×ã£¬·µ»Ø±¾Éí
+        }// é•¿åº¦ä¸æ»¡è¶³ï¼Œè¿”å›žæœ¬èº«
 
         for (int i = 0; i < x.length; i++) {
             if (x[i] < 19) {
@@ -61,13 +61,13 @@ public class cc001 {
                     if (x[j] == result) {
                         x[0] = i;
                         x1[1] = j;
-                        return x1;// ·ûºÏÒªÇó£¬·µ»Ø½á¹û
+                        return x1;// ç¬¦åˆè¦æ±‚ï¼Œè¿”å›žç»“æžœ
                     }
                 }
             }
         }
         x1[0] = x[0];
         x1[1] = x[1];
-        return x1;// ·µ»ØÇ°Á½¸öÔªËØ
+        return x1;// è¿”å›žå‰ä¸¤ä¸ªå…ƒç´ 
     }
 }

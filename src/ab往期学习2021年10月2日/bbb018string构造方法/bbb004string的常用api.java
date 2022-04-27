@@ -1,12 +1,12 @@
-package abÍùÆÚÑ§Ï°2021Äê10ÔÂ2ÈÕ.bbb018string¹¹Ôì·½·¨;
+package abå¾€æœŸå­¦ä¹ 2021å¹´10æœˆ2æ—¥.bbb018stringæ„é€ æ–¹æ³•;
 
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class bbb004stringµÄ³£ÓÃapi {
+public class bbb004stringçš„å¸¸ç”¨api {
     public static void main(String[] args) {
         Scanner x = new Scanner(System.in);
-        System.out.println("ÇëÊäÈë¶ÔÓ¦µÄ×Ö·û´®£º");
+        System.out.println("è¯·è¾“å…¥å¯¹åº”çš„å­—ç¬¦ä¸²ï¼š");
         String xx = x.nextLine();
         // slength(xx);
         // srindex(xx);
@@ -19,78 +19,78 @@ public class bbb004stringµÄ³£ÓÃapi {
     }
 
     // public static void
-// 1¡¢public int length(): »ñÈ¡×Ö·û´®µÄ³¤¶È
+// 1ã€public int length(): è·å–å­—ç¬¦ä¸²çš„é•¿åº¦
 
     public static void slength(String x) {
-        System.out.println("×Ö·û´®µÄ³¤¶ÈÎª£º" + x.length());
+        System.out.println("å­—ç¬¦ä¸²çš„é•¿åº¦ä¸ºï¼š" + x.length());
     }
 
-    // 2¡¢public char charAt(int index): »ñÈ¡Ä³¸öË÷ÒıÎ»ÖÃ´¦µÄ×Ö·û
+    // 2ã€public char charAt(int index): è·å–æŸä¸ªç´¢å¼•ä½ç½®å¤„çš„å­—ç¬¦
 
     public static void srindex(String x) {
-        System.out.println("»ñÈ¡×Ö·û´®µÄÖ¸¶¨Î»ÖÃ£º" + x.charAt(1));
+        System.out.println("è·å–å­—ç¬¦ä¸²çš„æŒ‡å®šä½ç½®ï¼š" + x.charAt(1));
     }
 
-    // 3¡¢public char[] toCharArray()£º: °Ñ×Ö·û´®×ª»»³É×Ö·ûÊı×é
+    // 3ã€public char[] toCharArray()ï¼š: æŠŠå­—ç¬¦ä¸²è½¬æ¢æˆå­—ç¬¦æ•°ç»„
 
     public static void blindex(String x) {
         for (int i = 0; i < x.length(); i++) {
-            System.out.println("±éÀú×Ö·û´®" + i + "Î»ÖÃ×Ö·ûÊÇ£º" + (byte) x.charAt(i));
-            System.out.println("±éÀú×Ö·û´®" + i + "Î»ÖÃ×Ö·ûÊÇ£º" + (char) x.charAt(i));
+            System.out.println("éå†å­—ç¬¦ä¸²" + i + "ä½ç½®å­—ç¬¦æ˜¯ï¼š" + (byte) x.charAt(i));
+            System.out.println("éå†å­—ç¬¦ä¸²" + i + "ä½ç½®å­—ç¬¦æ˜¯ï¼š" + (char) x.charAt(i));
         }
     }
 
     public static void arrst(String x) {
         char[] democh = x.toCharArray();
-        System.out.println("·µ»ØÒ»¸ö×Ö·ûÊı×é£º" + Arrays.toString(democh));
+        System.out.println("è¿”å›ä¸€ä¸ªå­—ç¬¦æ•°ç»„ï¼š" + Arrays.toString(democh));
     }
 
-    // 4¡¢public String substring(int beginIndex, int endIndex) £º½ØÈ¡ÄÚÈİ£¬(°üÇ°²»°üºóµÄ)
+    // 4ã€public String substring(int beginIndex, int endIndex) ï¼šæˆªå–å†…å®¹ï¼Œ(åŒ…å‰ä¸åŒ…åçš„)
 
     public static void subst(String x) {
         // [0, 1, 2, 3, 4, 5, 6, 7, 8]
-        System.out.println("½ØÈ¡µÄ×Ö·û´®Îª£º" + x.substring(0, 5));//ÕâÀï±íÊ¾½ØÈ¡ÁË¼¸¸ö×Ö·û£¬½á¹û01234
-        System.out.println("½ØÈ¡µÄ×Ö·û´®Îª£º" + x.substring(2, 5));//234
-        System.out.println("½ØÈ¡µÄ×Ö·û´®Îª£º" + x.substring(4, 5));//4
+        System.out.println("æˆªå–çš„å­—ç¬¦ä¸²ä¸ºï¼š" + x.substring(0, 5));//è¿™é‡Œè¡¨ç¤ºæˆªå–äº†å‡ ä¸ªå­—ç¬¦ï¼Œç»“æœ01234
+        System.out.println("æˆªå–çš„å­—ç¬¦ä¸²ä¸ºï¼š" + x.substring(2, 5));//234
+        System.out.println("æˆªå–çš„å­—ç¬¦ä¸²ä¸ºï¼š" + x.substring(4, 5));//4
     }
 
-    // 5¡¢public String substring(int beginIndex):´Óµ±Ç°Ë÷ÒıÒ»Ö±½ØÈ¡µ½Ä©Î²
+    // 5ã€public String substring(int beginIndex):ä»å½“å‰ç´¢å¼•ä¸€ç›´æˆªå–åˆ°æœ«å°¾
 
     public static void zjst(String x) {
         // [0, 1, 2, 3, 4, 5, 6, 7, 8]
-        System.out.println("½ØÈ¡µÄ×Ö·û´®Îª£º" + x.substring(2));//´ÓµÚ¼¸¸ö×Ö·û½ØÈ¡µ½×îºó£¬½á¹û2345678
-        System.out.println("½ØÈ¡µÄ×Ö·û´®Îª£º" + x.substring(4));//45678
-        System.out.println("½ØÈ¡µÄ×Ö·û´®Îª£º" + x.substring(5));//5678
+        System.out.println("æˆªå–çš„å­—ç¬¦ä¸²ä¸ºï¼š" + x.substring(2));//ä»ç¬¬å‡ ä¸ªå­—ç¬¦æˆªå–åˆ°æœ€åï¼Œç»“æœ2345678
+        System.out.println("æˆªå–çš„å­—ç¬¦ä¸²ä¸ºï¼š" + x.substring(4));//45678
+        System.out.println("æˆªå–çš„å­—ç¬¦ä¸²ä¸ºï¼š" + x.substring(5));//5678
     }
 
-    // 6¡¢public String replace(CharSequence target, CharSequence replacement)
+    // 6ã€public String replace(CharSequence target, CharSequence replacement)
 
     public static void tihuanst(String x) {
         // [0, 1, 2, 3, 4, 5, 6, 7, 8]
-        System.out.println("Ìæ»»ºóµÄ½á¹ûÊÇ£º£º" + x.replace("4", "**"));//0123**5
+        System.out.println("æ›¿æ¢åçš„ç»“æœæ˜¯ï¼šï¼š" + x.replace("4", "**"));//0123**5
     }
 
-    // 7¡¢public boolean contains(CharSequence s)
+    // 7ã€public boolean contains(CharSequence s)
 
     public static void containst(String x) {
         // [0, 1, 2, 3, 4, 5, 6, 7, 8]
-        System.out.println("°üº¬µÄÄÚÈİ£º" + x.contains("4"));//½á¹û·µ»ØtrueºÍfalse
+        System.out.println("åŒ…å«çš„å†…å®¹ï¼š" + x.contains("4"));//ç»“æœè¿”å›trueå’Œfalse
     }
 
-    // 8¡¢public boolean startsWith(String prefix)
+    // 8ã€public boolean startsWith(String prefix)
 
     public static void statwi(String x) {
         // [0, 1, 2, 3, 4, 5, 6, 7, 8]
-        System.out.println("ÒÔÊ²Ã´¿ªÊ¼£º" + x.startsWith("012"));//½á¹û·µ»ØtrueºÍfalse
-        System.out.println("ÒÔÊ²Ã´¿ªÊ¼£º" + x.startsWith("4"));//½á¹û·µ»ØtrueºÍfalse
-        // Ö»ÅĞ¶ÏÓÃÊ²Ã´¿ªÊ¼£¬ÖĞ¼ä×Ö¶ÎÎŞ·¨ÅĞ¶Ï
+        System.out.println("ä»¥ä»€ä¹ˆå¼€å§‹ï¼š" + x.startsWith("012"));//ç»“æœè¿”å›trueå’Œfalse
+        System.out.println("ä»¥ä»€ä¹ˆå¼€å§‹ï¼š" + x.startsWith("4"));//ç»“æœè¿”å›trueå’Œfalse
+        // åªåˆ¤æ–­ç”¨ä»€ä¹ˆå¼€å§‹ï¼Œä¸­é—´å­—æ®µæ— æ³•åˆ¤æ–­
     }
 
-    // 9¡¢public String[] split(String s): °´ÕÕÄ³¸öÄÚÈİ°Ñ×Ö·û´®·Ö¸î³É×Ö·û´®Êı×é·µ»Ø¡£
+    // 9ã€public String[] split(String s): æŒ‰ç…§æŸä¸ªå†…å®¹æŠŠå­—ç¬¦ä¸²åˆ†å‰²æˆå­—ç¬¦ä¸²æ•°ç»„è¿”å›ã€‚
 
     public static void spst(String x) {
         // [0, 1, 2, 3, 4, 5, 6, 7, 8]
-        System.out.println("ÒÔÊ²Ã´¿ªÊ¼£º" + x.split("3"));//×îºóµÃµ½µÄÊÇÒ»¸öÊı×é
+        System.out.println("ä»¥ä»€ä¹ˆå¼€å§‹ï¼š" + x.split("3"));//æœ€åå¾—åˆ°çš„æ˜¯ä¸€ä¸ªæ•°ç»„
         String[] demo = x.split("4");
         System.out.println(Arrays.toString(demo));
     }

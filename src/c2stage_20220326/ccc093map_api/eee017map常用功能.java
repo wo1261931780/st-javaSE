@@ -1,9 +1,9 @@
 package c2stage_20220326.ccc093map_api;
 /*
-    Map¼¯ºÏµÄ»ñÈ¡¹¦ÄÜ£º
-        V get(Object key):¸ù¾İ¼ü»ñÈ¡Öµ
-        Set<K> keySet():»ñÈ¡ËùÓĞ¼üµÄ¼¯ºÏ
-        Collection<V> values():»ñÈ¡ËùÓĞÖµµÄ¼¯ºÏ
+    Mapé›†åˆçš„è·å–åŠŸèƒ½ï¼š
+        V get(Object key):æ ¹æ®é”®è·å–å€¼
+        Set<K> keySet():è·å–æ‰€æœ‰é”®çš„é›†åˆ
+        Collection<V> values():è·å–æ‰€æœ‰å€¼çš„é›†åˆ
  */
 
 import java.util.Collection;
@@ -11,7 +11,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
 
-public class eee017map³£ÓÃ¹¦ÄÜ {
+public class eee017mapå¸¸ç”¨åŠŸèƒ½ {
     public static void main(String[] args) {
         Map<String, String> x = new HashMap<>();
         x.put("111", "a1");
@@ -19,11 +19,11 @@ public class eee017map³£ÓÃ¹¦ÄÜ {
         x.put("333", "a3");
         x.put("444", "a4");
         System.out.println(x.get("111"));
-        // ¸ù¾İ¼ü»ñÈ¡Êı¾İ£¬a1
+        // æ ¹æ®é”®è·å–æ•°æ®ï¼Œa1
         System.out.println(x.get("ww"));
-        // ²»´æÔÚµÄ¼ü£¬·µ»Ønull
+        // ä¸å­˜åœ¨çš„é”®ï¼Œè¿”å›null
         // ------------------------------------------
-        // »ñÈ¡ËùÓĞkey¼üµÄ¼¯ºÏ
+        // è·å–æ‰€æœ‰keyé”®çš„é›†åˆ
         Set<String> x1 = x.keySet();
         for (String x2 : x1) {
             System.out.println(x2);
@@ -31,13 +31,13 @@ public class eee017map³£ÓÃ¹¦ÄÜ {
         System.out.println(x1);
         // [111, 222, 333, 444]
         // ------------------------------------------
-        // »ñÈ¡ËùÓĞÖµµÄ¼¯ºÏ
+        // è·å–æ‰€æœ‰å€¼çš„é›†åˆ
         Collection<String> x2 = x.values();
         for (String i : x2) {
             System.out.println(i);
         }
         System.out.println(x2);
-        // ±íÊ¾ÕâÀïx2¾ÍÊÇÒ»¸öcollection¼¯ºÏ
+        // è¡¨ç¤ºè¿™é‡Œx2å°±æ˜¯ä¸€ä¸ªcollectioné›†åˆ
         // [a1, a2, a3, a4]
     }
 }

@@ -6,7 +6,7 @@ public class ccc002card_au extends ccc001card {
 
     @Override
     public void pay(double prices) {
-        System.out.println(getName()+"µÄÕË»§Îª½ğ¿¨£¬Óà¶î"+getBalance()+"£¬Ïû·Ñ"+prices*0.8+"£¬µ±Ç°Ê£Óà"+(getBalance()-prices*0.8));
+        System.out.println(getName()+"çš„è´¦æˆ·ä¸ºé‡‘å¡ï¼Œä½™é¢"+getBalance()+"ï¼Œæ¶ˆè´¹"+prices*0.8+"ï¼Œå½“å‰å‰©ä½™"+(getBalance()-prices*0.8));
     }
 
     // public static void main(String[] args) {

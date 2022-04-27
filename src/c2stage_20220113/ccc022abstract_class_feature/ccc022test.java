@@ -3,12 +3,12 @@ package c2stage_20220113.ccc022abstract_class_feature;
 public class ccc022test {
     public static void main(String[] args) {
         ccc021animal a = new ccc023cat();
-        //����һֱ�������Ѿ��������ʱ��setting����class������·������
+        //这里一直报错，已经解决，当时是setting里面class的配置路径出错
         a.eat();
         a.show();
-        //��Ϊ�̳У�����cat�е�a�߱�����animal�Ĺ��ܡ�
-        //�������Ǵ����ض�Ҫ����ࣺ
-        //1.���ʹ�ó���ĸ��࣬����ͱ�����д(����)�����ĳ�����ԣ�
-        //2.�����Ϊ�̳й�ϵ�������Դ��˸����һЩ���ܡ�
+        //因为继承，导致cat中的a具备父类animal的功能。
+        //抽象类是带有特定要求的类：
+        //1.如果使用抽象的父类，子类就必须重写(接受)父类的某个特性，
+        //2.如果因为继承关系，子类自带了父类的一些功能。
     }
 }

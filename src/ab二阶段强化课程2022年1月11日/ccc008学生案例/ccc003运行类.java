@@ -1,14 +1,14 @@
-package ab¶ş½×¶ÎÇ¿»¯¿Î³Ì2022Äê1ÔÂ11ÈÕ.ccc008Ñ§Éú°¸Àı;
+package abäºŒé˜¶æ®µå¼ºåŒ–è¯¾ç¨‹2022å¹´1æœˆ11æ—¥.ccc008å­¦ç”Ÿæ¡ˆä¾‹;
 
-public class ccc003ÔËĞĞÀà {
+public class ccc003è¿è¡Œç±» {
     public static void main(String[] args) {
-        System.out.println("ÎÒÊÇÔËĞĞÀà");
-        // ccc002Ñ§ÉúÀà x = new ccc002Ñ§ÉúÀà();
+        System.out.println("æˆ‘æ˜¯è¿è¡Œç±»");
+        // ccc002å­¦ç”Ÿç±» x = new ccc002å­¦ç”Ÿç±»();
         // x.setAge(11);
         // x.setName("aaa");
         // x.setClassnum(22);
         // System.out.println(x.getClassnum());
-        // x.class_retire();//ÕâÀï×îºÃÉèÖÃÎªÀàÃû.·½·¨Ãû
+        // x.class_retire();//è¿™é‡Œæœ€å¥½è®¾ç½®ä¸ºç±»å.æ–¹æ³•å
 
     }
 }

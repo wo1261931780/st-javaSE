@@ -1,4 +1,4 @@
-package ab¶ş½×¶ÎÇ¿»¯¿Î³Ì2022Äê1ÔÂ11ÈÕ.ccc110Ã¨ºÍ¹·;
+package abäºŒé˜¶æ®µå¼ºåŒ–è¯¾ç¨‹2022å¹´1æœˆ11æ—¥.ccc110çŒ«å’Œç‹—;
 
 public class ccc011cat extends ccc014animal {
     public ccc011cat() {
@@ -6,10 +6,10 @@ public class ccc011cat extends ccc014animal {
 
     public ccc011cat(String name, int age) {
         super(name, age);
-        //ÕâÀïÊ¹ÓÃsuperÖ±½Óµ¼Èë¸¸ÀàµÄnameºÍage
+        //è¿™é‡Œä½¿ç”¨superç›´æ¥å¯¼å…¥çˆ¶ç±»çš„nameå’Œage
     }
 
     public void seekrat() {
-        System.out.println(getName() + "×¥ÀÏÊó");
+        System.out.println(getName() + "æŠ“è€é¼ ");
     }
 }

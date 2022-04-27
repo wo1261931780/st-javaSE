@@ -1,11 +1,11 @@
-package c2stage_20220213.ccc054Ã°ÅİÅÅĞò;
+package c2stage_20220213.ccc054å†’æ³¡æ’åº;
 
 /**
- * Ã°ÅİÅÅĞò£º
- * Ò»ÖÖÅÅĞòµÄ·½Ê½£¬¶ÔÒª½øĞĞÅÅĞòµÄÊı¾İÖĞÏàÁÚµÄÊı¾İ½øĞĞÁ½Á½±È½Ï£¬½«½Ï´óµÄÊı¾İ·ÅÔÚºóÃæ£¬
- * ÒÀ´Î¶ÔËùÓĞµÄÊı¾İ½øĞĞ²Ù×÷£¬Ö±ÖÁËùÓĞÊı¾İ°´ÒªÇóÍê³ÉÅÅĞò
+ * å†’æ³¡æ’åºï¼š
+ * ä¸€ç§æ’åºçš„æ–¹å¼ï¼Œå¯¹è¦è¿›è¡Œæ’åºçš„æ•°æ®ä¸­ç›¸é‚»çš„æ•°æ®è¿›è¡Œä¸¤ä¸¤æ¯”è¾ƒï¼Œå°†è¾ƒå¤§çš„æ•°æ®æ”¾åœ¨åé¢ï¼Œ
+ * ä¾æ¬¡å¯¹æ‰€æœ‰çš„æ•°æ®è¿›è¡Œæ“ä½œï¼Œç›´è‡³æ‰€æœ‰æ•°æ®æŒ‰è¦æ±‚å®Œæˆæ’åº
  */
-public class ccc035Ã°ÅİÅÅĞò {
+public class ccc035å†’æ³¡æ’åº {
     public static void main(String[] args) {
         int[] arr = {12, 4, 165, 1, 564, 864, 1, 5, 7, 8};
         System.out.println("start-----------");
@@ -13,7 +13,7 @@ public class ccc035Ã°ÅİÅÅĞò {
             // System.out.println("rank begin---------");
             for (int x1 = 0; x1 < arr.length - x - 1; x1++) {
                 if (arr[x1] > arr[x1 + 1]) {
-                    // System.out.println("µÚ"+x1+"´Î±È½Ï");
+                    // System.out.println("ç¬¬"+x1+"æ¬¡æ¯”è¾ƒ");
                     int temp = arr[x1];
                     arr[x1] = arr[x1 + 1];
                     arr[x1 + 1] = temp;
@@ -21,7 +21,7 @@ public class ccc035Ã°ÅİÅÅĞò {
                 }
             }
         }
-        System.out.println("ÅÅĞòºó£º" + array(arr));
+        System.out.println("æ’åºåï¼š" + array(arr));
     }
 
     public static String array(int[] arr) {

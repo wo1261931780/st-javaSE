@@ -1,8 +1,8 @@
-package c2stage_20220113.ccc002staticĞŞÊÎ³ÉÔ±·½·¨;
+package c2stage_20220113.ccc002staticä¿®é¥°æˆå‘˜æ–¹æ³•;
 
-public class ccc005staticĞŞÊÎ·½·¨ {
+public class ccc005staticä¿®é¥°æ–¹æ³• {
     /**
-     * ÕâÀïÖ÷Òª²âÊÔstaticµÄ·¶Î§
+     * è¿™é‡Œä¸»è¦æµ‹è¯•staticçš„èŒƒå›´
      */
     public static int agej = 10;
     public static String xj = "yyyy";
@@ -15,18 +15,18 @@ public class ccc005staticĞŞÊÎ·½·¨ {
     }
 
     public static void show3j() {
-        //¾²Ì¬³ÉÔ±·½·¨Ö»ÄÜ·ÃÎÊ¾²Ì¬±äÁ¿ºÍ¾²Ì¬·½·¨£¬main·½·¨ÊÇ¾²Ì¬
+        //é™æ€æˆå‘˜æ–¹æ³•åªèƒ½è®¿é—®é™æ€å˜é‡å’Œé™æ€æ–¹æ³•ï¼Œmainæ–¹æ³•æ˜¯é™æ€
         System.out.println("33333333333");
         System.out.println(agej);
-        // System.out.println(age);//ÊµÀı³ÉÔ±±äÁ¿ÎŞ·¨·ÃÎÊ
+        // System.out.println(age);//å®ä¾‹æˆå‘˜å˜é‡æ— æ³•è®¿é—®
         System.out.println(xj);
-        // System.out.println(x);//ÊµÀı³ÉÔ±±äÁ¿ÎŞ·¨·ÃÎÊ
+        // System.out.println(x);//å®ä¾‹æˆå‘˜å˜é‡æ— æ³•è®¿é—®
         show1j();
-        // show2();//ÊµÀı³ÉÔ±·½·¨ÎŞ·¨·ÃÎÊ
-        // show4();//ÊµÀı³ÉÔ±·½·¨ÎŞ·¨·ÃÎÊ
+        // show2();//å®ä¾‹æˆå‘˜æ–¹æ³•æ— æ³•è®¿é—®
+        // show4();//å®ä¾‹æˆå‘˜æ–¹æ³•æ— æ³•è®¿é—®
     }
 
-    //ÊµÀı³ÉÔ±¿ÉÒÔ·ÃÎÊ¾²Ì¬·½·¨+ÊµÀı·½·¨
+    //å®ä¾‹æˆå‘˜å¯ä»¥è®¿é—®é™æ€æ–¹æ³•+å®ä¾‹æ–¹æ³•
     public void show2() {
         System.out.println("2222222222222");
         System.out.println(agej);

@@ -5,6 +5,6 @@ public class ccc002test_dog extends ccc001test_animal {
     @Override
     public void eat(ccc001test_animal x) {
         System.out.println(x.getName() + x.getAge());
-        System.out.println("×ÓÀà½áÊø");
+        System.out.println("Ã—Ã“Ã€Ã Â½Ã¡ÃŠÃ¸");
     }
 }

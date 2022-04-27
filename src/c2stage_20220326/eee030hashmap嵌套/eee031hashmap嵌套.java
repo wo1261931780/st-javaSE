@@ -1,31 +1,31 @@
-package c2stage_20220326.eee030hashmapÇ¶Ì×;
+package c2stage_20220326.eee030hashmapåµŒå¥—;
 /*
-    ĞèÇó£º´´½¨Ò»¸öHashMap¼¯ºÏ£¬´æ´¢Èı¸ö¼üÖµ¶ÔÔªËØ£¬Ã¿Ò»¸ö¼üÖµ¶ÔÔªËØµÄ¼üÊÇString£¬ÖµÊÇArrayList£¬
-         Ã¿Ò»¸öArrayListµÄÔªËØÊÇString£¬²¢±éÀú
+    éœ€æ±‚ï¼šåˆ›å»ºä¸€ä¸ªHashMapé›†åˆï¼Œå­˜å‚¨ä¸‰ä¸ªé”®å€¼å¯¹å…ƒç´ ï¼Œæ¯ä¸€ä¸ªé”®å€¼å¯¹å…ƒç´ çš„é”®æ˜¯Stringï¼Œå€¼æ˜¯ArrayListï¼Œ
+         æ¯ä¸€ä¸ªArrayListçš„å…ƒç´ æ˜¯Stringï¼Œå¹¶éå†
 
-    Ë¼Â·£º
-        1:´´½¨HashMap¼¯ºÏ
-        2:´´½¨ArrayList¼¯ºÏ£¬²¢Ìí¼ÓÔªËØ
-        3:°ÑArrayList×÷ÎªÔªËØÌí¼Óµ½HashMap¼¯ºÏ
-        4:±éÀúHashMap¼¯ºÏ
+    æ€è·¯ï¼š
+        1:åˆ›å»ºHashMapé›†åˆ
+        2:åˆ›å»ºArrayListé›†åˆï¼Œå¹¶æ·»åŠ å…ƒç´ 
+        3:æŠŠArrayListä½œä¸ºå…ƒç´ æ·»åŠ åˆ°HashMapé›†åˆ
+        4:éå†HashMapé›†åˆ
 
-    ¸ø³öÈçÏÂµÄÊı¾İ:
-        µÚÒ»¸öArrayList¼¯ºÏµÄÔªËØ£º(Èı¹úÑİÒå)
-  		    Öî¸ğÁÁ
-  		    ÕÔÔÆ
-        µÚ¶ş¸öArrayList¼¯ºÏµÄÔªËØ£º(Î÷ÓÎ¼Ç)
-  		    ÌÆÉ®
-  		    ËïÎò¿Õ
-        µÚÈı¸öArrayList¼¯ºÏµÄÔªËØ£º(Ë®ä°´«)
-  		    ÎäËÉ
-  		    Â³ÖÇÉî
+    ç»™å‡ºå¦‚ä¸‹çš„æ•°æ®:
+        ç¬¬ä¸€ä¸ªArrayListé›†åˆçš„å…ƒç´ ï¼š(ä¸‰å›½æ¼”ä¹‰)
+  		    è¯¸è‘›äº®
+  		    èµµäº‘
+        ç¬¬äºŒä¸ªArrayListé›†åˆçš„å…ƒç´ ï¼š(è¥¿æ¸¸è®°)
+  		    å”åƒ§
+  		    å­™æ‚Ÿç©º
+        ç¬¬ä¸‰ä¸ªArrayListé›†åˆçš„å…ƒç´ ï¼š(æ°´æµ’ä¼ )
+  		    æ­¦æ¾
+  		    é²æ™ºæ·±
 */
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Set;
 
-public class eee031hashmapÇ¶Ì× {
+public class eee031hashmapåµŒå¥— {
     public static void main(String[] args) {
         HashMap<String, ArrayList<String>> x = new HashMap<>();
         ArrayList<String> x1 = new ArrayList<>();
@@ -43,11 +43,11 @@ public class eee031hashmapÇ¶Ì× {
         Set<String> x4 = x.keySet();
         for (String i : x4) {
             // for (String i : x) {
-            // ÕâÀï²»ÄÜÖ±½Ó±éÀúx£¬ÒòÎªxÊôÓÚhashmap£¬
-            // ±éÀú±ØĞëÕë¶Ôµ¥Ò»ÔªËØµÄ¼¯ºÏ
-            // ÕâÀïµÄµ¥Ò»ÔªËØÖ¸µÄÊÇ£¬×¨ÃÅ´¢´æx¼ü¼¯ºÏµÄx4
+            // è¿™é‡Œä¸èƒ½ç›´æ¥éå†xï¼Œå› ä¸ºxå±äºhashmapï¼Œ
+            // éå†å¿…é¡»é’ˆå¯¹å•ä¸€å…ƒç´ çš„é›†åˆ
+            // è¿™é‡Œçš„å•ä¸€å…ƒç´ æŒ‡çš„æ˜¯ï¼Œä¸“é—¨å‚¨å­˜xé”®é›†åˆçš„x4
             ArrayList<String> x5 = x.get(i);
-            // x5µÃµ½µÄÊÇ3¸öArrayList
+            // x5å¾—åˆ°çš„æ˜¯3ä¸ªArrayList
             System.out.println(i + "---------------------");
             for (String i2 : x5) {
                 System.out.println(i2);

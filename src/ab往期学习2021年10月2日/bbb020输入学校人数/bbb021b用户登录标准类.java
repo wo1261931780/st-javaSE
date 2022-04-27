@@ -1,8 +1,8 @@
-package abÍùÆÚÑ§Ï°2021Äê10ÔÂ2ÈÕ.bbb020ÊäÈëÑ§Ğ£ÈËÊı;
+package abå¾€æœŸå­¦ä¹ 2021å¹´10æœˆ2æ—¥.bbb020è¾“å…¥å­¦æ ¡äººæ•°;
 
 import java.util.Scanner;
 
-public class bbb021bÓÃ»§µÇÂ¼±ê×¼Àà {
+public class bbb021bç”¨æˆ·ç™»å½•æ ‡å‡†ç±» {
     Scanner x0 = new Scanner(System.in);
     Scanner x1 = new Scanner(System.in);
     String name1;
@@ -10,33 +10,33 @@ public class bbb021bÓÃ»§µÇÂ¼±ê×¼Àà {
     private String name = "name";
     private String password = "123";
 
-    public bbb021bÓÃ»§µÇÂ¼±ê×¼Àà() {
-        System.out.println("»¶Ó­");
+    public bbb021bç”¨æˆ·ç™»å½•æ ‡å‡†ç±»() {
+        System.out.println("æ¬¢è¿");
         for (int i = 0; this.name != name1 || this.password != pw; i++) {
-            System.out.println("ÊäÈëÕËºÅ£º");
+            System.out.println("è¾“å…¥è´¦å·ï¼š");
             name1 = x0.nextLine();
-            System.out.println("ÇëÊäÈëÃÜÂë£º");
+            System.out.println("è¯·è¾“å…¥å¯†ç ï¼š");
             pw = x1.nextLine();
             if (this.name.equals(name) && this.password.equals(pw)) {
-                System.out.println("»¶Ó­");
+                System.out.println("æ¬¢è¿");
                 break;
             } else {
-                System.out.println("ÕËºÅ/ÃÜÂë´íÎó£¬ÇëÖØĞÂÊäÈë");
+                System.out.println("è´¦å·/å¯†ç é”™è¯¯ï¼Œè¯·é‡æ–°è¾“å…¥");
             }
 
         }
         //----------------------------------------------------------------
         // if (this.name.equals(name) && this.password.equals(password)) {
-        //     System.out.println("»¶Ó­");
-        //     // System.out.println("ÇëÊäÈëÃÜÂë£º");
+        //     System.out.println("æ¬¢è¿");
+        //     // System.out.println("è¯·è¾“å…¥å¯†ç ï¼š");
         //     // password = x.nextLine();
         //     // if (this.password.equals(password)) {
-        //     //     System.out.println("»¶Ó­");
+        //     //     System.out.println("æ¬¢è¿");
         //     // } else {
-        //     //     System.out.println("ÃÜÂë´íÎó");
+        //     //     System.out.println("å¯†ç é”™è¯¯");
         //     // }
         // } else {
-        //     System.out.println("´íÎó£¬³ÌĞò½áÊø");
+        //     System.out.println("é”™è¯¯ï¼Œç¨‹åºç»“æŸ");
         // }
         //----------------------------------------------------------------
     }

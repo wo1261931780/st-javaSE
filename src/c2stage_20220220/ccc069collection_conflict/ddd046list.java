@@ -11,14 +11,14 @@ public class ddd046list {
         x.add("world");
         x.add("java");
         Iterator<String> x1 = x.iterator();
-        System.out.println("Ñ­»·¿ªÊ¼");
+        System.out.println("å¾ªç¯å¼€å§‹");
         // while (x1.hasNext()) {
         //     String x2 = x1.next();
         //     System.out.println(x2);
         //     if (x2.equals("world")) {
         //         x.add("javaee");
         //         // ConcurrentModificationException
-        //         // ³öÏÖ²¢·¢ĞŞ¸ÄÒì³£
+        //         // å‡ºç°å¹¶å‘ä¿®æ”¹å¼‚å¸¸
         //     }
         // }
         for (int i = 0; i < x.size(); i++) {
@@ -27,10 +27,10 @@ public class ddd046list {
                 x.add("javaee");
             }
         }
-        // ´ÓÔ´Âë·ÖÎö£¬Ã»ÓĞ±¨´íÊÇÒòÎªÃ»ÓĞ×öÅĞ¶Ï
-        // next·½·¨£¬Ã¿´Î¶¼»áÅĞ¶ÏÊµ¼ÊÊıÁ¿ºÍÔ¤¼ÆÊıÁ¿£¬¶şÕß²»ÏàÍ¬µÄÊ±ºò³öÏÖÒì³£
-        // get·½·¨Ã»ÓĞÀàËÆµÄĞ£Ñé£¬ËùÒÔ¿ÉĞĞ
+        // ä»æºç åˆ†æï¼Œæ²¡æœ‰æŠ¥é”™æ˜¯å› ä¸ºæ²¡æœ‰åšåˆ¤æ–­
+        // nextæ–¹æ³•ï¼Œæ¯æ¬¡éƒ½ä¼šåˆ¤æ–­å®é™…æ•°é‡å’Œé¢„è®¡æ•°é‡ï¼ŒäºŒè€…ä¸ç›¸åŒçš„æ—¶å€™å‡ºç°å¼‚å¸¸
+        // getæ–¹æ³•æ²¡æœ‰ç±»ä¼¼çš„æ ¡éªŒï¼Œæ‰€ä»¥å¯è¡Œ
         System.out.println(x);
-        System.out.println("½áÊø");
+        System.out.println("ç»“æŸ");
     }
 }

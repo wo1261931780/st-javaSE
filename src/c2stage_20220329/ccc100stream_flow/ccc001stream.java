@@ -8,29 +8,29 @@ import java.util.stream.Stream;
  * Project:index.pb
  * Package:c2stage_20220329.ccc002stream_float
  * User:  wo1261931780@gmail.com
- * Time:  2022-03-22-13  ĞÇÆÚ¶ş
+ * Time:  2022-03-22-13  æ˜ŸæœŸäºŒ
  */
 
 /**
- * Ä¿±ê£ºStreamÁ÷µÄ»ñÈ¡
+ * ç›®æ ‡ï¼šStreamæµçš„è·å–
  * <p>
- * StreamÁ÷Ê½Ë¼ÏëµÄºËĞÄ£º
- * ÊÇÏÈµÃµ½¼¯ºÏ»òÕßÊı×éµÄStreamÁ÷£¨¾ÍÊÇÒ»¸ù´«ËÍ´ø£©
- * È»ºó¾ÍÓÃÕâ¸öStreamÁ÷²Ù×÷¼¯ºÏ»òÕßÊı×éµÄÔªËØ¡£
- * È»ºóÓÃStreamÁ÷¼ò»¯Ìæ´ú¼¯ºÏ²Ù×÷µÄAPI.
+ * Streamæµå¼æ€æƒ³çš„æ ¸å¿ƒï¼š
+ * æ˜¯å…ˆå¾—åˆ°é›†åˆæˆ–è€…æ•°ç»„çš„Streamæµï¼ˆå°±æ˜¯ä¸€æ ¹ä¼ é€å¸¦ï¼‰
+ * ç„¶åå°±ç”¨è¿™ä¸ªStreamæµæ“ä½œé›†åˆæˆ–è€…æ•°ç»„çš„å…ƒç´ ã€‚
+ * ç„¶åç”¨Streamæµç®€åŒ–æ›¿ä»£é›†åˆæ“ä½œçš„API.
  * <p>
- * ¼¯ºÏ»ñÈ¡Á÷µÄAPI:
+ * é›†åˆè·å–æµçš„API:
  * (1) default Stream<E> stream();
  * <p>
- * Ğ¡½á£º
- * ¼¯ºÏ»ñÈ¡StreamÁ÷ÓÃ: stream();
- * Êı×é£ºArrays.stream(Êı×é)   /  Stream.of(Êı×é);
+ * å°ç»“ï¼š
+ * é›†åˆè·å–Streamæµç”¨: stream();
+ * æ•°ç»„ï¼šArrays.stream(æ•°ç»„)   /  Stream.of(æ•°ç»„);
  */
 public class ccc001stream {
     public static void main(String[] args) {
-        show1();// »ñÈ¡¼¯ºÏµÄstreamÁ÷
-        show2();// »ñÈ¡mapµÄstreamÁ÷
-        show3();// »ñÈ¡Êı×éµÄstreamÁ÷
+        show1();// è·å–é›†åˆçš„streamæµ
+        show2();// è·å–mapçš„streamæµ
+        show3();// è·å–æ•°ç»„çš„streamæµ
     }
 
     public static void show1() {
@@ -60,7 +60,7 @@ public class ccc001stream {
         System.out.println("***************");
         Stream<Map.Entry<String, Integer>> demo2_entryset = demo2.entrySet().stream();
         // System.out.println(demo2_entryset);// java.util.stream.ReferencePipeline$Head@776ec8df
-        // ÉÏÃæËÄ¸öÖ±½Ó´òÓ¡Ö»»áµÃµ½¾ßÌåµÄµØÖ·
+        // ä¸Šé¢å››ä¸ªç›´æ¥æ‰“å°åªä¼šå¾—åˆ°å…·ä½“çš„åœ°å€
         demo2_entryset.forEach(s -> System.out.print(s + "--"));// a1=111--a2=111--a3=111--a4=111--
     }
 
@@ -68,25 +68,25 @@ public class ccc001stream {
         String[] demo1 = {"a1", "a1", "a1", "a1", "a1", "a1"};
         Stream<String> demo1_stream = Arrays.stream(demo1);
         Stream<String> demo1_stream2 = Stream.of(demo1);
-        // ÕâÑù¿´À´£¬streamÓ¦¸Ã±¾Éí¾ÍÊÇÒ»¸ö¹¹ÔìÀà£¬Ö»²»¹ıÕâ¸ö¹¹ÔìÀà¶ÔÊı×é£¬¼¯ºÏ£¬map¶¼¿ÉÒÔÉúĞ§
+        // è¿™æ ·çœ‹æ¥ï¼Œstreamåº”è¯¥æœ¬èº«å°±æ˜¯ä¸€ä¸ªæ„é€ ç±»ï¼Œåªä¸è¿‡è¿™ä¸ªæ„é€ ç±»å¯¹æ•°ç»„ï¼Œé›†åˆï¼Œmapéƒ½å¯ä»¥ç”Ÿæ•ˆ
     }
 
     public static void show4() {
-        /** --------------------Collection¼¯ºÏ»ñÈ¡Á÷-------------------------------   */
+        /** --------------------Collectioné›†åˆè·å–æµ-------------------------------   */
         Collection<String> list = new ArrayList<>();
         Stream<String> s = list.stream();
 
-        /** --------------------Map¼¯ºÏ»ñÈ¡Á÷-------------------------------   */
+        /** --------------------Mapé›†åˆè·å–æµ-------------------------------   */
         Map<String, Integer> maps = new HashMap<>();
-        // ¼üÁ÷
+        // é”®æµ
         Stream<String> keyStream = maps.keySet().stream();
-        // ÖµÁ÷
+        // å€¼æµ
         Stream<Integer> valueStream = maps.values().stream();
-        // ¼üÖµ¶ÔÁ÷£¨ÄÃÕûÌå£©
+        // é”®å€¼å¯¹æµï¼ˆæ‹¿æ•´ä½“ï¼‰
         Stream<Map.Entry<String, Integer>> keyAndValueStream = maps.entrySet().stream();
 
-        /** ---------------------Êı×é»ñÈ¡Á÷------------------------------   */
-        String[] names = {"ÕÔÃô", "Ğ¡ÕÑ", "Ãğ¾ø", "ÖÜÜÆÈô"};
+        /** ---------------------æ•°ç»„è·å–æµ------------------------------   */
+        String[] names = {"èµµæ•", "å°æ˜­", "ç­ç»", "å‘¨èŠ·è‹¥"};
         Stream<String> nameStream = Arrays.stream(names);
         Stream<String> nameStream2 = Stream.of(names);
     }

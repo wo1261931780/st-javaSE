@@ -7,7 +7,7 @@ import java.io.File;
  * Project:index.pb
  * Package:c2stage_20220410.ccc123file_recusion_search
  * User:  wo1261931780@gmail.com
- * Time:  2022-04-21-50  ĞÇÆÚÈÕ
+ * Time:  2022-04-21-50  æ˜ŸæœŸæ—¥
  */
 public class ccc001demo_name {
     public static void main(String[] args) {
@@ -21,18 +21,18 @@ public class ccc001demo_name {
                 for (File file : f1_list) {
                     if (file.isFile()) {
                         if (file.getName().contains(f2)) {
-                            System.out.println("ÕÒµ½ÁË");
+                            System.out.println("æ‰¾åˆ°äº†");
                             System.out.println(file.getAbsolutePath());
                             // Runtime xx = Runtime.getRuntime();
                             // try {
                             //     xx.exec(file.getAbsolutePath());
-                            //     // ÕâÀïµÄÆô¶¯¹¦ÄÜ£¬ÊÇÊ¹ÓÃÁËjavaĞéÄâ»úµÄ¹¦ÄÜ£¬
-                            //     // µ«ÊÇÆô¶¯Ö»ÄÜÕë¶ÔexeÎÄ¼ş£¬ÆäËûµÄÔİÊ±²»ÉúĞ§
+                            //     // è¿™é‡Œçš„å¯åŠ¨åŠŸèƒ½ï¼Œæ˜¯ä½¿ç”¨äº†javaè™šæ‹Ÿæœºçš„åŠŸèƒ½ï¼Œ
+                            //     // ä½†æ˜¯å¯åŠ¨åªèƒ½é’ˆå¯¹exeæ–‡ä»¶ï¼Œå…¶ä»–çš„æš‚æ—¶ä¸ç”Ÿæ•ˆ
                             // } catch (IOException e) {
                             //     e.printStackTrace();
                             // }
                             return;
-                            // ÎªÊ²Ã´ÕâÀïÃ»ÓĞÖÕÖ¹³ÌĞò
+                            // ä¸ºä»€ä¹ˆè¿™é‡Œæ²¡æœ‰ç»ˆæ­¢ç¨‹åº
                         }
                     } else {
                         show(file, f2);
@@ -40,7 +40,7 @@ public class ccc001demo_name {
                 }
             }
         } else {
-            System.out.println("Ä¿Â¼Îª¿Õ");
+            System.out.println("ç›®å½•ä¸ºç©º");
         }
 
     }

@@ -6,13 +6,13 @@ import java.time.format.DateTimeFormatter;
 public class ccc001datetimeformat {
     public static void main(String[] args) {
         LocalDateTime x = LocalDateTime.now();
-        System.out.println("Ä¬ÈÏµÄÊ±¼ä¶ÔÏó" + x);
+        System.out.println("é»˜è®¤çš„æ—¶é—´å¯¹è±¡" + x);
         DateTimeFormatter x1 = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss EEE a");
-        System.out.println("¸ñÊ½»¯Æ÷£º" + x1.format(x));
-        System.out.println("ÈÕÆÚ¶ÔÏóÄæÏò¸ñÊ½»¯£º" + x.format(x1));
+        System.out.println("æ ¼å¼åŒ–å™¨ï¼š" + x1.format(x));
+        System.out.println("æ—¥æœŸå¯¹è±¡é€†å‘æ ¼å¼åŒ–ï¼š" + x.format(x1));
         // ******************************************************
-        DateTimeFormatter string_x = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");//ÕâÀïµÄÊ±¼ä±ØĞë°´ÕÕÖ¸¶¨¸ñÊ½ÉèÖÃ£¬Èç¹ûµ¥´¿°´ÕÕ2020-11-11£¬»á±¨´í
-        LocalDateTime xx = LocalDateTime.parse("2020-11-11 11:11:11", string_x);//×¢ÊÍ¼ûÉÏÎÄ
-        System.out.println("»ñÈ¡µ±ÄêµÄÌìÊı£º" + xx.getDayOfYear());
+        DateTimeFormatter string_x = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");//è¿™é‡Œçš„æ—¶é—´å¿…é¡»æŒ‰ç…§æŒ‡å®šæ ¼å¼è®¾ç½®ï¼Œå¦‚æœå•çº¯æŒ‰ç…§2020-11-11ï¼Œä¼šæŠ¥é”™
+        LocalDateTime xx = LocalDateTime.parse("2020-11-11 11:11:11", string_x);//æ³¨é‡Šè§ä¸Šæ–‡
+        System.out.println("è·å–å½“å¹´çš„å¤©æ•°ï¼š" + xx.getDayOfYear());
     }
 }

@@ -3,16 +3,16 @@ package c2stage_20220405.ccc114IO;
 import java.io.File;
 
 /**
- * File£ºÎÄ¼þºÍÄ¿Â¼Â·¾¶ÃûµÄ³éÏó±íÊ¾
- * 1:ÎÄ¼þºÍÄ¿Â¼ÊÇ¿ÉÒÔÍ¨¹ýFile·â×°³É¶ÔÏóµÄ
- * 2:¶ÔÓÚFile¶øÑÔ£¬Æä·â×°µÄ²¢²»ÊÇÒ»¸öÕæÕý´æÔÚµÄÎÄ¼þ£¬½ö½öÊÇÒ»¸öÂ·¾¶Ãû¶øÒÑ¡£Ëü¿ÉÒÔÊÇ´æÔÚµÄ£¬Ò²¿ÉÒÔÊÇ²»´æÔÚµÄ¡£
- * ½«À´ÊÇÒªÍ¨¹ý¾ßÌåµÄ²Ù×÷°ÑÕâ¸öÂ·¾¶µÄÄÚÈÝ×ª»»Îª¾ßÌå´æÔÚµÄ
- * ¹¹Ôì·½·¨£º
- * File(String pathname)£ºÍ¨¹ý½«¸ø¶¨µÄÂ·¾¶Ãû×Ö·û´®×ª»»Îª³éÏóÂ·¾¶ÃûÀ´´´½¨ÐÂµÄ FileÊµÀý¡£
- * File(String parent, String child)£º´Ó¸¸Â·¾¶Ãû×Ö·û´®ºÍ×ÓÂ·¾¶Ãû×Ö·û´®´´½¨ÐÂµÄ FileÊµÀý¡£
- * File(File parent, String child)£º´Ó¸¸³éÏóÂ·¾¶ÃûºÍ×ÓÂ·¾¶Ãû×Ö·û´®´´½¨ÐÂµÄ FileÊµÀý¡£
+ * Fileï¼šæ–‡ä»¶å’Œç›®å½•è·¯å¾„åçš„æŠ½è±¡è¡¨ç¤º
+ * 1:æ–‡ä»¶å’Œç›®å½•æ˜¯å¯ä»¥é€šè¿‡Fileå°è£…æˆå¯¹è±¡çš„
+ * 2:å¯¹äºŽFileè€Œè¨€ï¼Œå…¶å°è£…çš„å¹¶ä¸æ˜¯ä¸€ä¸ªçœŸæ­£å­˜åœ¨çš„æ–‡ä»¶ï¼Œä»…ä»…æ˜¯ä¸€ä¸ªè·¯å¾„åè€Œå·²ã€‚å®ƒå¯ä»¥æ˜¯å­˜åœ¨çš„ï¼Œä¹Ÿå¯ä»¥æ˜¯ä¸å­˜åœ¨çš„ã€‚
+ * å°†æ¥æ˜¯è¦é€šè¿‡å…·ä½“çš„æ“ä½œæŠŠè¿™ä¸ªè·¯å¾„çš„å†…å®¹è½¬æ¢ä¸ºå…·ä½“å­˜åœ¨çš„
+ * æž„é€ æ–¹æ³•ï¼š
+ * File(String pathname)ï¼šé€šè¿‡å°†ç»™å®šçš„è·¯å¾„åå­—ç¬¦ä¸²è½¬æ¢ä¸ºæŠ½è±¡è·¯å¾„åæ¥åˆ›å»ºæ–°çš„ Fileå®žä¾‹ã€‚
+ * File(String parent, String child)ï¼šä»Žçˆ¶è·¯å¾„åå­—ç¬¦ä¸²å’Œå­è·¯å¾„åå­—ç¬¦ä¸²åˆ›å»ºæ–°çš„ Fileå®žä¾‹ã€‚
+ * File(File parent, String child)ï¼šä»Žçˆ¶æŠ½è±¡è·¯å¾„åå’Œå­è·¯å¾„åå­—ç¬¦ä¸²åˆ›å»ºæ–°çš„ Fileå®žä¾‹ã€‚
  */
-public class eee045fileÀà {
+public class eee045fileç±» {
     public static void main(String[] args) {
         File x = new File("l:\\demo");
         System.out.println(x);
@@ -25,7 +25,7 @@ public class eee045fileÀà {
         File x2 = new File(x1, "\\demo2");
         System.out.println(x2);
         // l:\demo\java\demo2
-        // Â·¾¶ÏÂµÄÎÄ¼þ£¬¿ÉÒÔ´æÔÚ£¬Ò²¿ÉÒÔ²»´æÔÚ£¬Ö»ÊÇ×÷ÎªÒ»¸ö´ú±í
-        // ÉÏÃæµÄ¸¸Àà£¬Ò»°ãÊÇÓÃÂ·¾¶×÷Îª´ú±í
+        // è·¯å¾„ä¸‹çš„æ–‡ä»¶ï¼Œå¯ä»¥å­˜åœ¨ï¼Œä¹Ÿå¯ä»¥ä¸å­˜åœ¨ï¼Œåªæ˜¯ä½œä¸ºä¸€ä¸ªä»£è¡¨
+        // ä¸Šé¢çš„çˆ¶ç±»ï¼Œä¸€èˆ¬æ˜¯ç”¨è·¯å¾„ä½œä¸ºä»£è¡¨
     }
 }

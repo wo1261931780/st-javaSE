@@ -9,15 +9,15 @@ import java.io.IOException;
  * Project:index.pb
  * Package:c2stage_20220416.ccc134file_read
  * User:  wo1261931780@gmail.com
- * Time:  2022-04-16-28  ĞÇÆÚÁù
+ * Time:  2022-04-16-28  æ˜ŸæœŸå…­
  */
 public class ccc002 {
     public static void main(String[] args) throws IOException {
         File x = new File("src/c2stage_20220416/ccc134file_read/demo001.txt");
         FileReader x1 = new FileReader(x);
         int len;
-        char[] demo = new char[1024];// Õâ¸öÊÇ×Ö·ûÎªµ¥Î»µÄ£¬Ïàµ±ÓÚ×Ö·û*1024¸ö
-        // Èç¹ûÒ»¸ö×Ö·û3¸ö×Ö½Ú£¬¾ÍÊÇ3*1024
+        char[] demo = new char[1024];// è¿™ä¸ªæ˜¯å­—ç¬¦ä¸ºå•ä½çš„ï¼Œç›¸å½“äºå­—ç¬¦*1024ä¸ª
+        // å¦‚æœä¸€ä¸ªå­—ç¬¦3ä¸ªå­—èŠ‚ï¼Œå°±æ˜¯3*1024
         while ((len = x1.read(demo)) != -1) {
             String x3 = new String(demo, 0, len);
             System.out.println(x3);

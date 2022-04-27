@@ -1,34 +1,34 @@
-package abÍùÆÚÑ§Ï°2021Äê10ÔÂ2ÈÕ.bbb046¿ªÊ¼ÊÕÎ²;
+package abå¾€æœŸå­¦ä¹ 2021å¹´10æœˆ2æ—¥.bbb046å¼€å§‹æ”¶å°¾;
 
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class bbb048²âÊÔÀà {
+public class bbb048æµ‹è¯•ç±» {
     public static void main(String[] args) {
         Scanner zz = new Scanner(System.in);
-        System.out.println("ÇëÊäÈëĞÕÃû£º");
+        System.out.println("è¯·è¾“å…¥å§“åï¼š");
         String z1 = zz.nextLine();
-        System.out.println("ÇëÊäÈëÄêÁä£º");
+        System.out.println("è¯·è¾“å…¥å¹´é¾„ï¼š");
         int z2 = zz.nextInt();
-        ArrayList<bbb047Àà> xx = new ArrayList<>();
-        bbb047Àà x1 = new bbb047Àà("name", 11);
-        //ÒÔÇ°´´½¨²»ÁË£¬ÒòÎªx1²»ÊÇÒ»¸ö¶ÔÏó£¬Ö»ÊÇÒ»¸öµ¥¶ÀµÄ±äÁ¿
+        ArrayList<bbb047ç±»> xx = new ArrayList<>();
+        bbb047ç±» x1 = new bbb047ç±»("name", 11);
+        //ä»¥å‰åˆ›å»ºä¸äº†ï¼Œå› ä¸ºx1ä¸æ˜¯ä¸€ä¸ªå¯¹è±¡ï¼Œåªæ˜¯ä¸€ä¸ªå•ç‹¬çš„å˜é‡
         xx.add(x1);
-        bbb047Àà x2 = new bbb047Àà(z1, z2);
+        bbb047ç±» x2 = new bbb047ç±»(z1, z2);
         xx.add(x2);
-        bbb047Àà x3 = new bbb047Àà(z1, z2);
+        bbb047ç±» x3 = new bbb047ç±»(z1, z2);
         xx.add(x3);
-        System.out.println("¿ªÊ¼±éÀú²Ù×÷£º");
+        System.out.println("å¼€å§‹éå†æ“ä½œï¼š");
         for (int s = 0; s < xx.size(); s++) {
-            bbb047Àà z = xx.get(s);
+            bbb047ç±» z = xx.get(s);
             System.out.println(z.getName() + z.getAge());
         }
 
         // ArrayList<String> zq=new ArrayList<>();
         // Scanner xx=new Scanner(System.in);
-        // System.out.println("Çë¿ªÊ¼ÊäÈëĞÕÃû£º");
+        // System.out.println("è¯·å¼€å§‹è¾“å…¥å§“åï¼š");
         // String name=xx.nextLine();
-        // System.out.println("Çë¿ªÊ¼ÊäÈëÄêÁä£º");
+        // System.out.println("è¯·å¼€å§‹è¾“å…¥å¹´é¾„ï¼š");
         // int age=xx.nextInt();
         // zq.add(name+age);
         // zq.add(name+age);
@@ -37,6 +37,6 @@ public class bbb048²âÊÔÀà {
         // for (int x=0;x<zq.size();x++){
         //     String s=zq.get(x);
         //     System.out.println(s);
-        // }ÉÏÃæ¶¼ÊÇÒÑ¾­Íê³ÉµÄ·½·¨
+        // }ä¸Šé¢éƒ½æ˜¯å·²ç»å®Œæˆçš„æ–¹æ³•
     }
 }

@@ -7,7 +7,7 @@ import java.util.Comparator;
  * Project:index.pb
  * Package:c2stage_20220326.ccc090collections
  * User:  wo1261931780@gmail.com
- * Time:  2022-03-16-10  ĞÇÆÚÁù
+ * Time:  2022-03-16-10  ÃÃ‡Ã†ÃšÃÃ¹
  */
 public class ccc002object implements Comparator<ccc002object> {
     private int age;

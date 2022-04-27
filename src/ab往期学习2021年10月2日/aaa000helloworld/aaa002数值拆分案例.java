@@ -1,23 +1,23 @@
-package abÍùÆÚÑ§Ï°2021Äê10ÔÂ2ÈÕ.aaa000helloworld;
+package abå¾€æœŸå­¦ä¹ 2021å¹´10æœˆ2æ—¥.aaa000helloworld;
 
 import java.util.Scanner;
 
-public class aaa002ÊýÖµ²ð·Ö°¸Àý {
+public class aaa002æ•°å€¼æ‹†åˆ†æ¡ˆä¾‹ {
     public static void main(String[] args) {
         Scanner x1 = new Scanner(System.in);
-        System.out.println("please type in£º");
+        System.out.println("please type inï¼š");
         int x2 = x1.nextInt();
         if (x2 < 9 & x2 > 0) {
             System.out.println(x2);
         } else if (x2 < 99 & x2 > 9) {
             int x3 = x2 % 10;
             int x4 = x2 / 10;
-            System.out.println("¸öÎ»£º"+x3+"£¬Ê®Î»£º"+x4);
+            System.out.println("ä¸ªä½ï¼š"+x3+"ï¼Œåä½ï¼š"+x4);
         } else if (x2 > 99 & x2 < 999) {
             int x3 = x2 % 10;
             int x4 = x2 / 10%10;
             int x5 = x2 / 100;
-            System.out.println("¸öÎ»£º"+x3+"£¬Ê®Î»£º"+x4+"£¬°ÙÎ»£º"+x5);
+            System.out.println("ä¸ªä½ï¼š"+x3+"ï¼Œåä½ï¼š"+x4+"ï¼Œç™¾ä½ï¼š"+x5);
         }else {
             System.out.println("num error");
         }

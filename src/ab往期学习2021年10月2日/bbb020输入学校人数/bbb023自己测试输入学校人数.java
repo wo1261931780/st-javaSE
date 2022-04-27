@@ -1,12 +1,12 @@
-package abÍùÆÚÑ§Ï°2021Äê10ÔÂ2ÈÕ.bbb020ÊäÈëÑ§Ğ£ÈËÊı;
+package abå¾€æœŸå­¦ä¹ 2021å¹´10æœˆ2æ—¥.bbb020è¾“å…¥å­¦æ ¡äººæ•°;
 
 import java.util.Scanner;
 
-public class bbb023×Ô¼º²âÊÔÊäÈëÑ§Ğ£ÈËÊı {
+public class bbb023è‡ªå·±æµ‹è¯•è¾“å…¥å­¦æ ¡äººæ•° {
     public static void main(String[] args) {
         bbb021 z = new bbb021();
         Scanner z0 = new Scanner(System.in);
-        System.out.println("ÇëÊäÈëÈËÊı");
+        System.out.println("è¯·è¾“å…¥äººæ•°");
         int z1 = z0.nextInt();
         z.setSchool("111111");
         z.setAbound(z1);

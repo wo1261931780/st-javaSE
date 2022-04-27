@@ -7,7 +7,7 @@ import java.util.*;
  * Project:index.pb
  * Package:c2stage_20220326.ccc092map
  * User:  wo1261931780@gmail.com
- * Time:  2022-03-11-24  ĞÇÆÚÈÕ
+ * Time:  2022-03-11-24  æ˜ŸæœŸæ—¥
  */
 public class ccc001map {
     public static void main(String[] args) {
@@ -16,14 +16,14 @@ public class ccc001map {
         System.out.println(x.put("qwe", 123));
         x.put("qwe", 333);
         System.out.println(x);//{qwe=333}
-        // Ê×ÏÈ£¬²»»áÌí¼ÓÖØ¸´ÔªËØ£¬
-        // Æä´Î£¬µ±keyÏàÍ¬µÄÊ±ºò£¬»á¶ÔÖ®Ç°µÄÊı¾İ½øĞĞÒ»´Î¸²¸Ç
+        // é¦–å…ˆï¼Œä¸ä¼šæ·»åŠ é‡å¤å…ƒç´ ï¼Œ
+        // å…¶æ¬¡ï¼Œå½“keyç›¸åŒçš„æ—¶å€™ï¼Œä¼šå¯¹ä¹‹å‰çš„æ•°æ®è¿›è¡Œä¸€æ¬¡è¦†ç›–
         x.put("aa", 333);
         System.out.println(x);// {aa=333, qwe=333}
-        // Õ»ÀàĞÍµÄÊı¾İ
-        // ËùÓĞµÄ¼¯ºÏ¶¼ÊÇĞ´ÄÚÈİ£¬ÒòÎªÄÚ²¿ÖØĞ´ÁËtostring·½·¨
+        // æ ˆç±»å‹çš„æ•°æ®
+        // æ‰€æœ‰çš„é›†åˆéƒ½æ˜¯å†™å†…å®¹ï¼Œå› ä¸ºå†…éƒ¨é‡å†™äº†tostringæ–¹æ³•
         System.out.println("******************************");
-        show();// linkedhashmapÊÇÓĞĞòµÄ£¬°´ÕÕÔªËØÌí¼ÓË³Ğò½øĞĞÉèÖÃ
+        show();// linkedhashmapæ˜¯æœ‰åºçš„ï¼ŒæŒ‰ç…§å…ƒç´ æ·»åŠ é¡ºåºè¿›è¡Œè®¾ç½®
         // show_clear(x);
         // show_isempty(x);
         // show_contains(x);
@@ -61,8 +61,8 @@ public class ccc001map {
     public static void show_getvalue(Map<String, Integer> x) {
         System.out.println("******************************");
 
-        Integer result = x.get("1");// Ã»ÓĞµÄÇé¿öÏÂ¾ÍÊÇnull
-        // Ò»°ã¶¼ÊÇ¸ù¾İkeyÈ¥»ñÈ¡value
+        Integer result = x.get("1");// æ²¡æœ‰çš„æƒ…å†µä¸‹å°±æ˜¯null
+        // ä¸€èˆ¬éƒ½æ˜¯æ ¹æ®keyå»è·å–value
         System.out.println(result);
         x.remove("qwe");
         System.out.println(x);
@@ -79,13 +79,13 @@ public class ccc001map {
         System.out.println("******************************");
 
         Set<String> demoset = x.keySet();
-        // ÕâÀï·µ»ØÒ»¸ösetÀàĞÍµÄ¼¯ºÏ¶ÔÏó
+        // è¿™é‡Œè¿”å›ä¸€ä¸ªsetç±»å‹çš„é›†åˆå¯¹è±¡
         System.out.println(demoset);
     }
 
     public static void show_value(Map<String, Integer> x) {
         Collection<Integer> demo_value = x.values();
-        // »ñÈ¡ËùÓĞÖµ£¬ÉèÖÃÎªÒ»¸öcollection¼¯ºÏ£¬ÒòÎªÖµ¿ÉÒÔÖØ¸´£¬ËùÒÔcollectionÄÚ²¿ÊÇ¿ÉÒÔÖØ¸´µÄ
+        // è·å–æ‰€æœ‰å€¼ï¼Œè®¾ç½®ä¸ºä¸€ä¸ªcollectioné›†åˆï¼Œå› ä¸ºå€¼å¯ä»¥é‡å¤ï¼Œæ‰€ä»¥collectionå†…éƒ¨æ˜¯å¯ä»¥é‡å¤çš„
         System.out.println(demo_value);// [333, 333]
     }
 
@@ -101,8 +101,8 @@ public class ccc001map {
         x2.put("aa2", 44);
         x2.put("aa3", 55);
         x1.putAll(x2);
-        System.out.println(x1);// Èç¹û¶şÕßµÄÄÚÈİÍêÈ«ÏàÍ¬£¬¾Í²»»á·¢Éú±ä»¯
+        System.out.println(x1);// å¦‚æœäºŒè€…çš„å†…å®¹å®Œå…¨ç›¸åŒï¼Œå°±ä¸ä¼šå‘ç”Ÿå˜åŒ–
         // {a1=11, aa1=33, a2=22, aa3=55, aa2=44}
-        // ×îÖÕ»¹ÊÇ°´ÕÕkeyµÄË³Ğò½øĞĞÌí¼Ó
+        // æœ€ç»ˆè¿˜æ˜¯æŒ‰ç…§keyçš„é¡ºåºè¿›è¡Œæ·»åŠ 
     }
 }

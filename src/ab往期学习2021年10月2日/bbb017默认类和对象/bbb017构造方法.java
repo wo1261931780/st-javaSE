@@ -1,35 +1,35 @@
-package abÍùÆÚÑ§Ï°2021Äê10ÔÂ2ÈÕ.bbb017Ä¬ÈÏÀàºÍ¶ÔÏó;
+package abå¾€æœŸå­¦ä¹ 2021å¹´10æœˆ2æ—¥.bbb017é»˜è®¤ç±»å’Œå¯¹è±¡;
 
 /**
- * ¹¹Ôì·½·¨£º
- * ×÷ÓÃ£º´´½¨¶ÔÏó
+ * æž„é€ æ–¹æ³•ï¼š
+ * ä½œç”¨ï¼šåˆ›å»ºå¯¹è±¡
  * <p>
- * ±ÈÈçpublic void show(){}
- * ´´½¨¶ÔÏó£ºshow xx=new show();
- * ÄÇÃ´xx¾ÍÊÇ¹¹Ôì·½·¨ÖÐ³öÏÖµÄ¶ÔÏó
+ * æ¯”å¦‚public void show(){}
+ * åˆ›å»ºå¯¹è±¡ï¼šshow xx=new show();
+ * é‚£ä¹ˆxxå°±æ˜¯æž„é€ æ–¹æ³•ä¸­å‡ºçŽ°çš„å¯¹è±¡
  * ---------------------------------------
- * ¹¦ÄÜ£ºÍê³É¶ÔÏóÊý¾ÝµÄ³õÊ¼»¯
+ * åŠŸèƒ½ï¼šå®Œæˆå¯¹è±¡æ•°æ®çš„åˆå§‹åŒ–
  * <p>
- * ¸ø³öÒ»¸öÊý¾ÝÊÇx1,Ã»ÓÐ¶Ôx1¸³Öµ£¬ÄÇÃ´¾Í»á¸øx1Ò»¸öÄ¬ÈÏÖµ
- * Èç¹ûÊÇstring£¬Ä¬ÈÏÖµnull£¬int£¬Ä¬ÈÏÖµ0£»
+ * ç»™å‡ºä¸€ä¸ªæ•°æ®æ˜¯x1,æ²¡æœ‰å¯¹x1èµ‹å€¼ï¼Œé‚£ä¹ˆå°±ä¼šç»™x1ä¸€ä¸ªé»˜è®¤å€¼
+ * å¦‚æžœæ˜¯stringï¼Œé»˜è®¤å€¼nullï¼Œintï¼Œé»˜è®¤å€¼0ï¼›
  * ---------------------------------------
- * ¸ñÊ½£º
- * ÐÞÊÎ·û ÀàÃû(²ÎÊý) {
+ * æ ¼å¼ï¼š
+ * ä¿®é¥°ç¬¦ ç±»å(å‚æ•°) {
  * }
- * ÐÞÊÎ·ûÒ»°ãÓÃ£ºpublic
+ * ä¿®é¥°ç¬¦ä¸€èˆ¬ç”¨ï¼špublic
  */
-public class bbb017¹¹Ôì·½·¨ {
+public class bbb017æž„é€ æ–¹æ³• {
     private int age;
     private String name;
 
     /**
-     * Èç¹ûÀ¨ºÅÄÚÃ»ÓÐ²ÎÊý£¬ÄÇÃ´¾ÍÊÇÒ»¸öÎÞ²Î¹¹Ôì·½·¨
+     * å¦‚æžœæ‹¬å·å†…æ²¡æœ‰å‚æ•°ï¼Œé‚£ä¹ˆå°±æ˜¯ä¸€ä¸ªæ— å‚æž„é€ æ–¹æ³•
      */
-    public bbb017¹¹Ôì·½·¨() {
-        // ÕâÀïÈç¹û²»¸ø³öÀàµÄ¹¹Ôì·½·¨£¬Ò²»á×Ô¶¯Éú³ÉÄ¬ÈÏ·½·¨
+    public bbb017æž„é€ æ–¹æ³•() {
+        // è¿™é‡Œå¦‚æžœä¸ç»™å‡ºç±»çš„æž„é€ æ–¹æ³•ï¼Œä¹Ÿä¼šè‡ªåŠ¨ç”Ÿæˆé»˜è®¤æ–¹æ³•
         System.out.println("show------------");
-        // ºÍÏÂÃæµÄshow·½·¨²»Í¬£¬ÀàÃûÎªÖ÷µÄ¹¹Ôì·½·¨²»ÐèÒªÖ¸¶¨void·µ»ØÀàÐÍ
-        // Ò²²»ÐèÒªreturn·µ»ØÖµ
+        // å’Œä¸‹é¢çš„showæ–¹æ³•ä¸åŒï¼Œç±»åä¸ºä¸»çš„æž„é€ æ–¹æ³•ä¸éœ€è¦æŒ‡å®švoidè¿”å›žç±»åž‹
+        // ä¹Ÿä¸éœ€è¦returnè¿”å›žå€¼
     }
 
     public void show() {

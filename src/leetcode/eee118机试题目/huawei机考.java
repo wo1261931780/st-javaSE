@@ -1,15 +1,15 @@
-package leetcode.eee118»úÊÔÌâÄ¿;
+package leetcode.eee118æœºè¯•é¢˜ç›®;
 
 import java.util.Scanner;
 
-public class huawei»ú¿¼ {
+public class huaweiæœºè€ƒ {
     public static void main(String[] args) {
-        // ÓÐÒ»¸öÊý×é a[N] Ë³Ðò´æ·Å 0 ~ N-1 £¬
-        // ÒªÇóÃ¿¸ôÁ½¸öÊýÉ¾µôÒ»¸öÊý£¬µ½Ä©Î²Ê±Ñ­»·ÖÁ¿ªÍ·¼ÌÐø½øÐÐ£¬
-        // Çó×îºóÒ»¸ö±»É¾µôµÄÊýµÄÔ­Ê¼ÏÂ±êÎ»ÖÃ¡£
-        // ÒÔ 8 ¸öÊý (N=7) ÎªÀý :
-        // £û 0£¬1£¬2£¬3£¬4£¬5£¬6£¬7 £ý£¬0 -> 1 -> 2 (É¾³ý) -> 3 -> 4 -> 5 (É¾³ý) -> 6 -> 7 -> 0 (É¾³ý),
-        // Èç´ËÑ­»·Ö±µ½×îºóÒ»¸öÊý±»É¾³ý¡£
+        // æœ‰ä¸€ä¸ªæ•°ç»„ a[N] é¡ºåºå­˜æ”¾ 0 ~ N-1 ï¼Œ
+        // è¦æ±‚æ¯éš”ä¸¤ä¸ªæ•°åˆ æŽ‰ä¸€ä¸ªæ•°ï¼Œåˆ°æœ«å°¾æ—¶å¾ªçŽ¯è‡³å¼€å¤´ç»§ç»­è¿›è¡Œï¼Œ
+        // æ±‚æœ€åŽä¸€ä¸ªè¢«åˆ æŽ‰çš„æ•°çš„åŽŸå§‹ä¸‹æ ‡ä½ç½®ã€‚
+        // ä»¥ 8 ä¸ªæ•° (N=7) ä¸ºä¾‹ :
+        // ï½› 0ï¼Œ1ï¼Œ2ï¼Œ3ï¼Œ4ï¼Œ5ï¼Œ6ï¼Œ7 ï½ï¼Œ0 -> 1 -> 2 (åˆ é™¤) -> 3 -> 4 -> 5 (åˆ é™¤) -> 6 -> 7 -> 0 (åˆ é™¤),
+        // å¦‚æ­¤å¾ªçŽ¯ç›´åˆ°æœ€åŽä¸€ä¸ªæ•°è¢«åˆ é™¤ã€‚
         // 1<=n<=1000;
         Scanner x = new Scanner(System.in);
         int x1 = x.nextInt();

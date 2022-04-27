@@ -1,6 +1,6 @@
-package abÍùÆÚÑ§Ï°2021Äê10ÔÂ2ÈÕ.aaa001³õÆÚÑ§Ï°¼¯ºÏ;
+package abå¾€æœŸå­¦ä¹ 2021å¹´10æœˆ2æ—¥.aaa001åˆæœŸå­¦ä¹ é›†åˆ;
 
-public class aaa025µ÷ÓÃ·½·¨»ñÈ¡Êı×é×î´óÖµ {
+public class aaa025è°ƒç”¨æ–¹æ³•è·å–æ•°ç»„æœ€å¤§å€¼ {
     // public static void main(String[] args) {
     //     int[] arr = {321, 135, 46, 156, 9684, 6156, 7, 56};
     //     b11(arr);
@@ -10,30 +10,30 @@ public class aaa025µ÷ÓÃ·½·¨»ñÈ¡Êı×é×î´óÖµ {
     //     int x = 0;
     //     //int mm = arr[x];
     //     int max = 0;
-    //     for (System.out.println("¿ªÊ¼¶Ô±È£º"); x < arr.length; x++) {
+    //     for (System.out.println("å¼€å§‹å¯¹æ¯”ï¼š"); x < arr.length; x++) {
     //         if (arr[x] > max) {
     //             max = arr[x];
     //         }
     //     }
-    //     System.out.println("Êı×é×î´óÖµÎª£º" + max);
+    //     System.out.println("æ•°ç»„æœ€å¤§å€¼ä¸ºï¼š" + max);
     // }
     public static void main(String[] args) {
         System.out.println("----------------------");
         int[] xx = {2, 12, 12, 123, 1, 31, 56, 5};
         int x1 = demo1(xx);
-        System.out.println("×î´óÖµÎª£º" + x1);
+        System.out.println("æœ€å¤§å€¼ä¸ºï¼š" + x1);
     }
 
     public static int demo1(int[] arr) {
         // int max = 0;
-        //Ä¬ÈÏÊ¹ÓÃarr[0]Î»µÄ²ÎÊı£¬·ñÔò¿ÉÄÜ³öÏÖ0´óÓÚÊı×éËùÓĞÔªËØµÄÇé¿ö
+        //é»˜è®¤ä½¿ç”¨arr[0]ä½çš„å‚æ•°ï¼Œå¦åˆ™å¯èƒ½å‡ºç°0å¤§äºæ•°ç»„æ‰€æœ‰å…ƒç´ çš„æƒ…å†µ
         int max = arr[0];
         for (int i = 0; i < arr.length; i++) {
-            System.out.println("µÚ" + i + "´Î±éÀú");
+            System.out.println("ç¬¬" + i + "æ¬¡éå†");
             if (max < arr[i]) {
                 max = arr[i];
             }
-            // ¶Ô½á¹ûÅĞ¶Ï£¬½«½Ï´óÊı¾İ¸³Öµ¸ø¶ÔÏó
+            // å¯¹ç»“æœåˆ¤æ–­ï¼Œå°†è¾ƒå¤§æ•°æ®èµ‹å€¼ç»™å¯¹è±¡
         }
         return max;
     }

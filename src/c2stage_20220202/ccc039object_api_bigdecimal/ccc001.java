@@ -9,21 +9,21 @@ public class ccc001 {
         double x1 = 0.2;
         BigDecimal x2 = BigDecimal.valueOf(x);
         BigDecimal x3 = BigDecimal.valueOf(x1);
-        BigDecimal x4 = x2.multiply(x3);//¼Ó¼õ³Ë³ıÖ±½ÓÊ¹ÓÃ¼´¿É
-        // ÒòÎªbigdecimal±¾Éí¾ÍÊÇÒ»¸ö¶ÔÏó£¬Õâ¸ö¶ÔÏóÄÚ²¿ÓĞÈô¸ÉÔËËã·½·¨
-        System.out.println("ÎÒÊÇx4£º" + x4);
-        double x5 = x4.doubleValue();//ÎÒÃÇ¼ÆËã¹ı³Ì£¬±£Ö¤¾«È·ĞÔÒÔºó£¬»¹ĞèÒª°´ÕÕdoubleÀàĞÍ´«µİÊı¾İ
-        System.out.println("ÎÒÊÇx5£º" + x5);
+        BigDecimal x4 = x2.multiply(x3);//åŠ å‡ä¹˜é™¤ç›´æ¥ä½¿ç”¨å³å¯
+        // å› ä¸ºbigdecimalæœ¬èº«å°±æ˜¯ä¸€ä¸ªå¯¹è±¡ï¼Œè¿™ä¸ªå¯¹è±¡å†…éƒ¨æœ‰è‹¥å¹²è¿ç®—æ–¹æ³•
+        System.out.println("æˆ‘æ˜¯x4ï¼š" + x4);
+        double x5 = x4.doubleValue();//æˆ‘ä»¬è®¡ç®—è¿‡ç¨‹ï¼Œä¿è¯ç²¾ç¡®æ€§ä»¥åï¼Œè¿˜éœ€è¦æŒ‰ç…§doubleç±»å‹ä¼ é€’æ•°æ®
+        System.out.println("æˆ‘æ˜¯x5ï¼š" + x5);
         System.out.println("***********************************************");
         BigDecimal a1 = new BigDecimal(20);
         BigDecimal a2 = new BigDecimal(3);
-        // BigDecimal a3 = a1.divide(a2);//Ê½×Ó20/3=6.6666£¬ÓÀÔ¶ÎŞ·¨³ı¾¡£¬Ö±½ÓµÃµ½»á±¨´í
+        // BigDecimal a3 = a1.divide(a2);//å¼å­20/3=6.6666ï¼Œæ°¸è¿œæ— æ³•é™¤å°½ï¼Œç›´æ¥å¾—åˆ°ä¼šæŠ¥é”™
 
         /**
-         ²ÎÊıÒ»£º³ıÊı ²ÎÊı¶ş£º±£ÁôĞ¡ÊıÎ»Êı  ²ÎÊıÈı£ºÉáÈëÄ£Ê½
+         å‚æ•°ä¸€ï¼šé™¤æ•° å‚æ•°äºŒï¼šä¿ç•™å°æ•°ä½æ•°  å‚æ•°ä¸‰ï¼šèˆå…¥æ¨¡å¼
          */
-        BigDecimal a3 = a1.divide(a2,2, RoundingMode.HALF_UP);//ÉèÖÃÒ»¸ö±£ÁôĞ¡ÊıµÄÌõ¼ş¼´¿É
-        //**********************a1³ıa2£¬±£Áô2Î»Ğ¡Êı£¬ËÄÉáÎåÈëµÄÌõ¼ş
-        System.out.println(a3);//ÕâÀï20/3=6.67£¬Ïàµ±ÓÚËÄÉáÎåÈë
+        BigDecimal a3 = a1.divide(a2,2, RoundingMode.HALF_UP);//è®¾ç½®ä¸€ä¸ªä¿ç•™å°æ•°çš„æ¡ä»¶å³å¯
+        //**********************a1é™¤a2ï¼Œä¿ç•™2ä½å°æ•°ï¼Œå››èˆäº”å…¥çš„æ¡ä»¶
+        System.out.println(a3);//è¿™é‡Œ20/3=6.67ï¼Œç›¸å½“äºå››èˆäº”å…¥
     }
 }

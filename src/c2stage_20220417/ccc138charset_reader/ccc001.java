@@ -7,25 +7,25 @@ import java.io.*;
  * Project:index.pb
  * Package:c2stage_20220417
  * User:  wo1261931780@gmail.com
- * Time:  2022-04-21-44  ĞÇÆÚÈÕ
+ * Time:  2022-04-21-44  æ˜ŸæœŸæ—¥
  */
 public class ccc001 {
     public static void main(String[] args) throws IOException {
         File demo = new File("src/c2stage_20220417/ccc138charset/demo.txt");
         InputStream x = new FileInputStream(demo);
-        // ÔÄ¶ÁÆ÷£¬±ØĞëÒÔÊäÈëÁ÷×÷Îª¶ÔÏó²ÅÄÜÊ¹ÓÃ
+        // é˜…è¯»å™¨ï¼Œå¿…é¡»ä»¥è¾“å…¥æµä½œä¸ºå¯¹è±¡æ‰èƒ½ä½¿ç”¨
         Reader x1 = new InputStreamReader(x, "GBK");
         // Reader x1 = new InputStreamReader(x, StandardCharsets.UTF_8);
-        // ÕâÀïºÍ½Ì³Ì²»Ò»Ñù£¬½Ì³ÌÓÃË«ÒıºÅÖ¸¶¨ÁË±àÂë¸ñÊ½
-        // ÕâÀïÖ±½ÓÊ¹ÓÃ³£Á¿¼´¿É
+        // è¿™é‡Œå’Œæ•™ç¨‹ä¸ä¸€æ ·ï¼Œæ•™ç¨‹ç”¨åŒå¼•å·æŒ‡å®šäº†ç¼–ç æ ¼å¼
+        // è¿™é‡Œç›´æ¥ä½¿ç”¨å¸¸é‡å³å¯
         // String x2;
         // while ((x2 = x1.readline()) != null) {
-        // ÕâÀïºÍjdk16²»Ò»Ñù£¬ÀïÃæ¿ÉÒÔÖ±½ÓÖ¸¶¨readline£¬ÕâÀï²»ĞĞ
+        // è¿™é‡Œå’Œjdk16ä¸ä¸€æ ·ï¼Œé‡Œé¢å¯ä»¥ç›´æ¥æŒ‡å®šreadlineï¼Œè¿™é‡Œä¸è¡Œ
         // }
         int x2;
         while ((x2 = x1.read()) != -1) {
             System.out.print((char) x2);
         }
-        // ÕâÀïÖ±½Ó¶ÁÈ¡Ò²²»»á±¨´í
+        // è¿™é‡Œç›´æ¥è¯»å–ä¹Ÿä¸ä¼šæŠ¥é”™
     }
 }

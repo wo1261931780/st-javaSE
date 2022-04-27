@@ -1,12 +1,12 @@
 package c2stage_20220202.ccc033Anonymous_internal_classe;
 
-public class aaa001ÄÚ²¿Àà {
+public class aaa001å†…éƒ¨ç±» {
     private int age = 22;
     private int ceshi = 11;
 
     public void find() {
-        //½â¾ö°ì·¨ÊÇÊ¹ÓÃÄÚ²¿ÀàµÄĞÂ½¨·½·¨£¬
-        //µ«ÊÇĞÂ½¨³öÀ´µÄ¶ÔÏóÊÇ·ñÄÜÖØ¸´£¿
+        //è§£å†³åŠæ³•æ˜¯ä½¿ç”¨å†…éƒ¨ç±»çš„æ–°å»ºæ–¹æ³•ï¼Œ
+        //ä½†æ˜¯æ–°å»ºå‡ºæ¥çš„å¯¹è±¡æ˜¯å¦èƒ½é‡å¤ï¼Ÿ
         inside x1 = new inside();
         x1.show();
     }
@@ -23,7 +23,7 @@ public class aaa001ÄÚ²¿Àà {
     }
 
     /**
-     * Ò»°ãÖ±½ÓÊ¹ÓÃprivateĞŞÊÎ£¬µ¼ÖÂÎŞ·¨³£¹æ·ÃÎÊ
+     * ä¸€èˆ¬ç›´æ¥ä½¿ç”¨privateä¿®é¥°ï¼Œå¯¼è‡´æ— æ³•å¸¸è§„è®¿é—®
      */
     private class inside {
         public void show() {

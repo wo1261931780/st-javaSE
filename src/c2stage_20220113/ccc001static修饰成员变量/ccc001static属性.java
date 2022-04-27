@@ -1,9 +1,9 @@
-package c2stage_20220113.ccc001staticĞŞÊÎ³ÉÔ±±äÁ¿;
+package c2stage_20220113.ccc001staticä¿®é¥°æˆå‘˜å˜é‡;
 
-public class ccc001staticÊôĞÔ {
-    public static String comef;//¾²Ì¬³ÉÔ±±äÁ¿
-    //Èç¹ûÊÇÍ¬Ò»¸öÀàÖĞ£¬·ÃÎÊ¾²Ì¬³ÉÔ±±äÁ¿£¬ÀàÃû¿ÉÒÔ²»Ğ´
-    public int age = 11;//ÊµÀı³ÉÔ±±äÁ¿
+public class ccc001staticå±æ€§ {
+    public static String comef;//é™æ€æˆå‘˜å˜é‡
+    //å¦‚æœæ˜¯åŒä¸€ä¸ªç±»ä¸­ï¼Œè®¿é—®é™æ€æˆå‘˜å˜é‡ï¼Œç±»åå¯ä»¥ä¸å†™
+    public int age = 11;//å®ä¾‹æˆå‘˜å˜é‡
     public String name = "22";
 
 }

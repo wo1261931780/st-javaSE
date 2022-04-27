@@ -9,15 +9,15 @@ import java.io.ObjectInputStream;
  * Project:index.pb
  * Package:c2stage_20220418.ccc140series
  * User:  wo1261931780@gmail.com
- * Time:  2022-04-22-02  ĞÇÆÚÒ»
+ * Time:  2022-04-22-02  æ˜ŸæœŸä¸€
  */
 public class ccc003outputstream {
     public static void main(String[] args) throws IOException, ClassNotFoundException {
         ObjectInputStream x = new ObjectInputStream(new FileInputStream("src/c2stage_20220418/ccc140series/ccc002rundemo.txt"));
-        ccc001object demo = (ccc001object) x.readObject();// ÕâÀïjavaÎªÁË±ÜÃâÇ¿ÖÆÀàĞÍ×ª»»£¬¼´Ê¹ÎÒÃÇ×öÁËÇ¿×ª£¬Ò²»á¸ø³öÌáĞÑ
-        // ËùÒÔĞèÒªÅ×³öÒì³£
-        x.close();// ×ÊÔ´¹Ø±ÕµÄÏÈºó£¬¶Ô·´ĞòÁĞ»¯Ã»ÓĞÌ«´óµÄÓ°Ïì
+        ccc001object demo = (ccc001object) x.readObject();// è¿™é‡Œjavaä¸ºäº†é¿å…å¼ºåˆ¶ç±»å‹è½¬æ¢ï¼Œå³ä½¿æˆ‘ä»¬åšäº†å¼ºè½¬ï¼Œä¹Ÿä¼šç»™å‡ºæé†’
+        // æ‰€ä»¥éœ€è¦æŠ›å‡ºå¼‚å¸¸
+        x.close();// èµ„æºå…³é—­çš„å…ˆåï¼Œå¯¹ååºåˆ—åŒ–æ²¡æœ‰å¤ªå¤§çš„å½±å“
         System.out.println(demo);// ccc001object{name='a1', age=11, address='null'}
-        // ÕâÀï±ØĞë±£³ÖÂ·¾¶µÄÒ»ÖÂ£¬·ñÔòÈİÒ×±¨´í
+        // è¿™é‡Œå¿…é¡»ä¿æŒè·¯å¾„çš„ä¸€è‡´ï¼Œå¦åˆ™å®¹æ˜“æŠ¥é”™
     }
 }

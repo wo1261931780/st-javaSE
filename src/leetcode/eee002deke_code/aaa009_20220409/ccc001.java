@@ -9,9 +9,9 @@ import java.util.TreeSet;
  * Project:index.pb
  * Package:leetcode.eee002deke_code.aaa009_20220409
  * User:  wo1261931780@gmail.com
- * Time:  2022-04-15-47  ÐÇÆÚÁù
- * Ã÷Ã÷Éú³ÉÁËNN¸ö1µ½500Ö®¼äµÄËæ»úÕûÊý¡£ÇëÄãÉ¾È¥ÆäÖÐÖØ¸´µÄÊý×Ö£¬¼´ÏàÍ¬µÄÊý×ÖÖ»±£ÁôÒ»¸ö£¬°ÑÆäÓàÏàÍ¬µÄÊýÈ¥µô£¬È»ºóÔÙ°ÑÕâÐ©Êý´ÓÐ¡µ½´óÅÅÐò£¬°´ÕÕÅÅºÃµÄË³ÐòÊä³ö¡£
- * Êý¾Ý·¶Î§£º 1 \le n \le 1000 \1¡Ün¡Ü1000  £¬ÊäÈëµÄÊý×Ö´óÐ¡Âú×ã 1 \le val \le 500 \1¡Üval¡Ü500
+ * Time:  2022-04-15-47  æ˜ŸæœŸå…­
+ * æ˜Žæ˜Žç”Ÿæˆäº†NNä¸ª1åˆ°500ä¹‹é—´çš„éšæœºæ•´æ•°ã€‚è¯·ä½ åˆ åŽ»å…¶ä¸­é‡å¤çš„æ•°å­—ï¼Œå³ç›¸åŒçš„æ•°å­—åªä¿ç•™ä¸€ä¸ªï¼ŒæŠŠå…¶ä½™ç›¸åŒçš„æ•°åŽ»æŽ‰ï¼Œç„¶åŽå†æŠŠè¿™äº›æ•°ä»Žå°åˆ°å¤§æŽ’åºï¼ŒæŒ‰ç…§æŽ’å¥½çš„é¡ºåºè¾“å‡ºã€‚
+ * æ•°æ®èŒƒå›´ï¼š 1 \le n \le 1000 \1â‰¤nâ‰¤1000  ï¼Œè¾“å…¥çš„æ•°å­—å¤§å°æ»¡è¶³ 1 \le val \le 500 \1â‰¤valâ‰¤500
  */
 public class ccc001 {
     public static void main(String[] args) {
@@ -22,7 +22,7 @@ public class ccc001 {
         //     for (int i = 0; i < demo_index; i++) {
         //     }
         // }
-        // ÆäÊµÕâÀïÓÐ¸öÎÊÌâ£¬Èç¹ûÎÒÊä³öÁ½×éÊý¾Ý£¬n1ºÍn2£¬ÄÇÃ´ÎÒµÄ²âÊÔ½á¹û£¬µ½µ×ÊÇn1ºÍn2ºÏ²¢µ½Ò»×éÊä³ö£¬»¹ÊÇ·Ö¿ªÊä³öÁ½×é£¿
+        // å…¶å®žè¿™é‡Œæœ‰ä¸ªé—®é¢˜ï¼Œå¦‚æžœæˆ‘è¾“å‡ºä¸¤ç»„æ•°æ®ï¼Œn1å’Œn2ï¼Œé‚£ä¹ˆæˆ‘çš„æµ‹è¯•ç»“æžœï¼Œåˆ°åº•æ˜¯n1å’Œn2åˆå¹¶åˆ°ä¸€ç»„è¾“å‡ºï¼Œè¿˜æ˜¯åˆ†å¼€è¾“å‡ºä¸¤ç»„ï¼Ÿ
     }
 
     public static void show() {

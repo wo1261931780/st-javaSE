@@ -3,7 +3,7 @@ package c2stage_20220113.ccc021abstract_catdog_case;
 public class ccc023Cat extends ccc022animal {
     @Override
     public void eat() {
-        System.out.println("cat类的eat方法------------");
+        System.out.println("cat绫荤殑eat鏂规硶------------");
     }
 
     public void cat1() {
@@ -12,6 +12,6 @@ public class ccc023Cat extends ccc022animal {
     public void cat1(int age, String name) {
         super.setAge(age);
         super.setName(name);
-//        super(name,age);//官方教程
+//        super(name,age);//瀹樻柟鏁欑▼
     }
 }

@@ -1,19 +1,19 @@
-package abÍùÆÚÑ§Ï°2021Äê10ÔÂ2ÈÕ.aaa001³õÆÚÑ§Ï°¼¯ºÏ;
+package abå¾€æœŸå­¦ä¹ 2021å¹´10æœˆ2æ—¥.aaa001åˆæœŸå­¦ä¹ é›†åˆ;
 
-public class aaa001ÈıÔªÔËËã·û {
+public class aaa001ä¸‰å…ƒè¿ç®—ç¬¦ {
     public static void main(String[] args) {
         //ceshi
         int tiger1 = 100;
         int tiger2 = 200;
-        //        ÖØÁ¿ÊÇ·ñÏàµÈ
+        //        é‡é‡æ˜¯å¦ç›¸ç­‰
         boolean zl = tiger1 == tiger2 ? true : false;
-        //ÈıÔªÔËËã·ûµÄº¬Òå£º
+        //ä¸‰å…ƒè¿ç®—ç¬¦çš„å«ä¹‰ï¼š
         //int weight                  = t1==t2       ?    true:false;
-        //¶¨ÒåintÀàĞÍµÄweight,½á¹ûµÈÓÚÓÒ±ß=ÅĞ¶Ït1ÊÇ·ñµÈÓÚt2£¬ÊÇ£¬¾ÍÊä³ötrue£¬·ñÔòÊä³ö·ñ¡£
+        //å®šä¹‰intç±»å‹çš„weight,ç»“æœç­‰äºå³è¾¹=åˆ¤æ–­t1æ˜¯å¦ç­‰äºt2ï¼Œæ˜¯ï¼Œå°±è¾“å‡ºtrueï¼Œå¦åˆ™è¾“å‡ºå¦ã€‚
         System.out.println(zl);
-        //1ºÅ±È½ÏÖØ
+        //1å·æ¯”è¾ƒé‡
         //boolean max = tiger1 > tiger2 ? true : false;
-        //Êä³ö½á¹û
+        //è¾“å‡ºç»“æœ
         //System.out.println("shifouxiangdeng:"+zl);
         //System.out.println("1hao:"+max);
         System.out.println("-------------");
@@ -22,15 +22,15 @@ public class aaa001ÈıÔªÔËËã·û {
         int h3 = 9846231;
         int taller = h1 > h2 ? h1 : h2;
         int tallst = taller > h3 ? taller : h3;
-        // ÎÊºÅÓÒ±ß£¬¿ÉÒÔÊÇtrue/false£¬Ò²¿ÉÒÔÊÇÁ½¸ö¾ßÌå±í´ïÊ½
+        // é—®å·å³è¾¹ï¼Œå¯ä»¥æ˜¯true/falseï¼Œä¹Ÿå¯ä»¥æ˜¯ä¸¤ä¸ªå…·ä½“è¡¨è¾¾å¼
         System.out.println("max:" + tallst);
-        // 2021Äê12ÔÂ15ÈÕ23:45:01£¬²¹³äÖªÊ¶
-        System.out.println("-------------ÍØÕ¹ÖªÊ¶-------------");
+        // 2021å¹´12æœˆ15æ—¥23:45:01ï¼Œè¡¥å……çŸ¥è¯†
+        System.out.println("-------------æ‹“å±•çŸ¥è¯†-------------");
         int i=1;
         int j=2;
         int k=3;
         int rsMax1 = i > j ? (i > k ? i : k) : (j > k ? j : k);
-        // Èı¸öÊı¾İ±È½ÏÖ±½ÓÓÃÒ»ĞĞ´úÂë±íÊ¾
+        // ä¸‰ä¸ªæ•°æ®æ¯”è¾ƒç›´æ¥ç”¨ä¸€è¡Œä»£ç è¡¨ç¤º
 
         System.out.println(rsMax1);
     }

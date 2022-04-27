@@ -1,15 +1,15 @@
-package ab¶ş½×¶ÎÇ¿»¯¿Î³Ì2022Äê1ÔÂ11ÈÕ.ccc027³éÏóÀàÃûµÄĞÎ²ÎºÍ·µ»ØÖµ;
+package abäºŒé˜¶æ®µå¼ºåŒ–è¯¾ç¨‹2022å¹´1æœˆ11æ—¥.ccc027æŠ½è±¡ç±»åçš„å½¢å‚å’Œè¿”å›å€¼;
 
 public class ccc001test_run {
     public static void main(String[] args) {
-        System.out.println("ÎÒÊÇÖ÷Àà");
+        System.out.println("æˆ‘æ˜¯ä¸»ç±»");
         // ccc001test_pet x = new ccc001test_dog();
         // x.eatsm();
         ccc001test_dog x = new ccc001test_dog();
         // x.usedog(x);
         ccc001test_dog x1 = x.getdog();
         x.usedog(x1);
-        // ÉÏÏÂÁ½¸öuse·½·¨²»Ò»Ñù
-        // Ò»¸öÊÇ½«×ÔÉí´«µİ¹ıÈ¥£¬Ò»¸öÊÇ´´½¨ÁËĞÂµÄ¶ÔÏóºó£¬½«Æä´«µİ¹ıÈ¥
+        // ä¸Šä¸‹ä¸¤ä¸ªuseæ–¹æ³•ä¸ä¸€æ ·
+        // ä¸€ä¸ªæ˜¯å°†è‡ªèº«ä¼ é€’è¿‡å»ï¼Œä¸€ä¸ªæ˜¯åˆ›å»ºäº†æ–°çš„å¯¹è±¡åï¼Œå°†å…¶ä¼ é€’è¿‡å»
     }
 }

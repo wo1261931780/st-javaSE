@@ -1,6 +1,6 @@
-package abÍùÆÚÑ§Ï°2021Äê10ÔÂ2ÈÕ.bbb014ÊäÈëĞÕÃûºÍ³É¼¨;
+package abå¾€æœŸå­¦ä¹ 2021å¹´10æœˆ2æ—¥.bbb014è¾“å…¥å§“åå’Œæˆç»©;
 
-public class bbb014²âÊÔ {
+public class bbb014æµ‹è¯• {
     public static void main(String[] args) {
         bbb013 x = new bbb013();
         //        Scanner xx= new Scanner(System.in);

@@ -5,7 +5,7 @@ package c2stage_20220302.ccc081treeset_case;
  * Project:index.pb
  * Package:c2stage_20220302.ccc081treeset_case
  * User:  wo1261931780@gmail.com
- * Time:  2022-03-21-53  ĞÇÆÚÈı
+ * Time:  2022-03-21-53  æ˜ŸæœŸä¸‰
  */
 public class ccc001applobject implements Comparable<ccc001applobject> {
     private double weight;
@@ -65,14 +65,14 @@ public class ccc001applobject implements Comparable<ccc001applobject> {
         this.address = address;
     }
 
-    // ÖØĞ´±È½ÏÆ÷
-    // ×Ô¶¨Òå±È½Ï·½·¨
+    // é‡å†™æ¯”è¾ƒå™¨
+    // è‡ªå®šä¹‰æ¯”è¾ƒæ–¹æ³•
 
     @Override
     public int compareTo(ccc001applobject o) {
         return this.price - o.price >= 0 ? 1 : -1;
-        // ÄÚ²¿µÄÅĞ¶Ï·½·¨£º0±íÊ¾ÏàÍ¬£¬È¥³ı
-        // 1±íÊ¾´óÓÚ
-        // -1±íÊ¾Ğ¡ÓÚ
+        // å†…éƒ¨çš„åˆ¤æ–­æ–¹æ³•ï¼š0è¡¨ç¤ºç›¸åŒï¼Œå»é™¤
+        // 1è¡¨ç¤ºå¤§äº
+        // -1è¡¨ç¤ºå°äº
     }
 }

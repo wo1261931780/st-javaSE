@@ -1,40 +1,40 @@
-package abÍùÆÚÑ§Ï°2021Äê10ÔÂ2ÈÕ.aaa001³õÆÚÑ§Ï°¼¯ºÏ;
+package abå¾€æœŸå­¦ä¹ 2021å¹´10æœˆ2æ—¥.aaa001åˆæœŸå­¦ä¹ é›†åˆ;
 
 import java.util.Scanner;
 
 /**
- * 2021Äê9ÔÂ6ÈÕ22:26:18£¬ÕâÀïÊäÈëÓï¾äÊÇĞèÒªµ¼°üµÄ
- * 1.µ¼°ü  2.½¨Á¢ÏµÍ³±äÁ¿Ãû   3.¶¨Òåxx.nextInt();
+ * 2021å¹´9æœˆ6æ—¥22:26:18ï¼Œè¿™é‡Œè¾“å…¥è¯­å¥æ˜¯éœ€è¦å¯¼åŒ…çš„
+ * 1.å¯¼åŒ…  2.å»ºç«‹ç³»ç»Ÿå˜é‡å   3.å®šä¹‰xx.nextInt();
  */
-public class aaa003ÊäÈëÉí¸ß½øĞĞÈıÔª¶Ô±È {
+public class aaa003è¾“å…¥èº«é«˜è¿›è¡Œä¸‰å…ƒå¯¹æ¯” {
     public static void main(String[] args) {
         /*//ceshi
 		Scanner b11 = new Scanner(System.in);
 		//jieshou
-		System.out.println("ÊäÈë:");
+		System.out.println("è¾“å…¥:");
 		int x = b11.nextInt();
 		//123
-		System.out.println("½á¹û:"+x);*/
+		System.out.println("ç»“æœ:"+x);*/
 
-        //ÊäÈëÉí¸ß
+        //è¾“å…¥èº«é«˜
         Scanner b11 = new Scanner(System.in);
-        System.out.println("µÚÒ»¸ö");
+        System.out.println("ç¬¬ä¸€ä¸ª");
         int x1 = b11.nextInt();
-        System.out.println("µÚ¶ş¸öÈË£º");
+        System.out.println("ç¬¬äºŒä¸ªäººï¼š");
         int x2 = b11.nextInt();
-        System.out.println("µÚÈı¸öÈË£º");
+        System.out.println("ç¬¬ä¸‰ä¸ªäººï¼š");
         int x3 = b11.nextInt();
-        System.out.println("µÚËÄ¸öÈË£º");
+        System.out.println("ç¬¬å››ä¸ªäººï¼š");
         int x4 = b11.nextInt();
-        //±È½Ï
+        //æ¯”è¾ƒ
         int tall1 = x1 > x2 ? x1 : x2;
         int tall2 = tall1 > x3 ? tall1 : x3;
         int tall3 = tall2 > x4 ? tall2 : x4;
         // int tall1 = Math.max(x1, x2);
         // int tall2 = Math.max(tall1, x3);
         // int tall3 = Math.max(x1, x4);
-        // maxº¯ÊıÖ»ÄÜ±È½ÏÁ½¸öintÀàĞÍµÄÊı¾İ£¬Ñ¡ÔñÆäÖĞµÄ½Ï´óÖµ
-        System.out.println("½á¹û£º" + tall3);
-        //¹Û²ì½á¹û
+        // maxå‡½æ•°åªèƒ½æ¯”è¾ƒä¸¤ä¸ªintç±»å‹çš„æ•°æ®ï¼Œé€‰æ‹©å…¶ä¸­çš„è¾ƒå¤§å€¼
+        System.out.println("ç»“æœï¼š" + tall3);
+        //è§‚å¯Ÿç»“æœ
     }
 }

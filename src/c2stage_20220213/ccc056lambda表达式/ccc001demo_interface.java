@@ -1,14 +1,14 @@
-package c2stage_20220213.ccc056lambda±í´ïÊ½;
+package c2stage_20220213.ccc056lambdaè¡¨è¾¾å¼;
 
 /**
  * Created by Intellij IDEA.
  * Project:index.pb
- * Package:c2stage_20220213.ccc056lambda±í´ïÊ½
+ * Package:c2stage_20220213.ccc056lambdaè¡¨è¾¾å¼
  * User:  wo1261931780@gmail.com
- * Time:  2022-02-20-32  ĞÇÆÚÎå
+ * Time:  2022-02-20-32  æ˜ŸæœŸäº”
  */
 
-// Ô¼¶¨µ×ÏÂÊÇÒ»¸öº¯ÊıÊ½½Ó¿Ú£¬½Ó¿Ú+ÄÚ²¿Ö»ÓĞÒ»¸ö·½·¨Ìå
+// çº¦å®šåº•ä¸‹æ˜¯ä¸€ä¸ªå‡½æ•°å¼æ¥å£ï¼Œæ¥å£+å†…éƒ¨åªæœ‰ä¸€ä¸ªæ–¹æ³•ä½“
 
 @FunctionalInterface
 public interface ccc001demo_interface {

@@ -4,9 +4,9 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Iterator;
 
-public class ddd037²âÊÔÀà {
+public class ddd037æµ‹è¯•ç±» {
     public static void main(String[] args) {
-        System.out.println("¿ªÊ¼");
+        System.out.println("å¼€å§‹");
         Collection<ddd036student> x = new ArrayList<>();
         ddd036student x1 = new ddd036student("a1", 11);
         ddd036student x2 = new ddd036student("a2", 22);
@@ -17,13 +17,13 @@ public class ddd037²âÊÔÀà {
         Iterator<ddd036student> x4 = x.iterator();
         while (x4.hasNext()) {
             // System.out.println(x4.next());
-            // ÉÏÃæÖ±½Óµ÷ÓÃ·½·¨£¬Ö»ÄÜµÃµ½¶ÔÏóµÄµØÖ·
+            // ä¸Šé¢ç›´æ¥è°ƒç”¨æ–¹æ³•ï¼Œåªèƒ½å¾—åˆ°å¯¹è±¡çš„åœ°å€
             ddd036student s = x4.next();
-            // ÕâÀïÒ²³ö´í£¬Ô­ÏÈÊ¹ÓÃstring¸ñÊ½´´½¨¶ÔÏó
-            // ÒªÃ´Ê¹ÓÃvalueofÈ¥°ü×°x4£¬ÒªÃ´½«stringÀàĞÍÌæ»»ÎªstudentÀàĞÍ
-            // °üÀ¨ÉÏÃæµÄµü´úÆ÷£¬Ò²ĞèÒª×öÀàËÆµÄ´¦Àí
+            // è¿™é‡Œä¹Ÿå‡ºé”™ï¼ŒåŸå…ˆä½¿ç”¨stringæ ¼å¼åˆ›å»ºå¯¹è±¡
+            // è¦ä¹ˆä½¿ç”¨valueofå»åŒ…è£…x4ï¼Œè¦ä¹ˆå°†stringç±»å‹æ›¿æ¢ä¸ºstudentç±»å‹
+            // åŒ…æ‹¬ä¸Šé¢çš„è¿­ä»£å™¨ï¼Œä¹Ÿéœ€è¦åšç±»ä¼¼çš„å¤„ç†
             // System.out.println(s);
-            // Ö±½ÓÕ¹Ê¾£¬Ö»»áµÃµ½µØÖ·
+            // ç›´æ¥å±•ç¤ºï¼Œåªä¼šå¾—åˆ°åœ°å€
             System.out.println(s.getName() + "," + s.getAge());
         }
     }

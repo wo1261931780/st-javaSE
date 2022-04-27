@@ -10,7 +10,7 @@ import java.util.stream.Stream;
  * Project:index.pb
  * Package:c2stage_20220403.ccc104streamlow
  * User:  wo1261931780@gmail.com
- * Time:  2022-04-12-56  ĞÇÆÚÈÕ
+ * Time:  2022-04-12-56  æ˜ŸæœŸæ—¥
  */
 public class ccc002stream_collect2 {
     public static void main(String[] args) {
@@ -23,9 +23,9 @@ public class ccc002stream_collect2 {
         Stream<String> demo1 = x.stream().filter(s -> s.startsWith("g"));
         List<String> demo2 = demo1.collect(Collectors.toList());
         List<String> demo3 = demo1.toList();
-        // ÉÏÃæµÄÁ½¸ö·½·¨¶¼¿ÉÒÔÖ±½Ó½«stream×ª»¯ÎªlistÀàĞÍµÄ¼¯ºÏ¶ÔÏó
-        // ²î±ğÔÚÓÚtolist»ñµÃµÄ¼¯ºÏ²»ÄÜĞŞ¸Ä¼¯ºÏÖĞµÄÔªËØ£¬Îª²»¿É±ä¼¯ºÏ
-        // ²»¿É±ä¼¯ºÏ£¬¾ÍÓĞµãÀàËÆÓÚListof·½·¨
-        // stream»ñµÃµÄ·½·¨¾Í¿É±ä
+        // ä¸Šé¢çš„ä¸¤ä¸ªæ–¹æ³•éƒ½å¯ä»¥ç›´æ¥å°†streamè½¬åŒ–ä¸ºlistç±»å‹çš„é›†åˆå¯¹è±¡
+        // å·®åˆ«åœ¨äºtolistè·å¾—çš„é›†åˆä¸èƒ½ä¿®æ”¹é›†åˆä¸­çš„å…ƒç´ ï¼Œä¸ºä¸å¯å˜é›†åˆ
+        // ä¸å¯å˜é›†åˆï¼Œå°±æœ‰ç‚¹ç±»ä¼¼äºListofæ–¹æ³•
+        // streamè·å¾—çš„æ–¹æ³•å°±å¯å˜
     }
 }

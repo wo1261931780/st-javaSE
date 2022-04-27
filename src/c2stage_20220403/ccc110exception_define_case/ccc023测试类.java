@@ -2,16 +2,16 @@ package c2stage_20220403.ccc110exception_define_case;
 
 import java.util.Scanner;
 
-public class ccc023²âÊÔÀà {
+public class ccc023æµ‹è¯•ç±» {
     public static void main(String[] args) {
-        System.out.println("²âÊÔÀà");
-        ccc022¶ÔÏóÀà x = new ccc022¶ÔÏóÀà();
+        System.out.println("æµ‹è¯•ç±»");
+        ccc022å¯¹è±¡ç±» x = new ccc022å¯¹è±¡ç±»();
         Scanner x1 = new Scanner(System.in);
-        System.out.println("ÇëÊäÈë·ÖÊı£º");
+        System.out.println("è¯·è¾“å…¥åˆ†æ•°ï¼š");
         int x2 = x1.nextInt();
         try {
             x.checkscore(x2);
-        } catch (ccc021·ÖÊıÒì³£ e) {
+        } catch (ccc021åˆ†æ•°å¼‚å¸¸ e) {
             e.printStackTrace();
         }
     }

@@ -1,8 +1,8 @@
-package c2stage_20220113.ccc003static¹¤¾ßÀà;
+package c2stage_20220113.ccc003staticå·¥å…·ç±»;
 
 import java.util.Random;
 
-public class ccc006¹¤¾ßÀà {
+public class ccc006å·¥å…·ç±» {
     public static void show(int num) {
         String xx = "abcdefghijklmnopqrstuvwxyz0123456789";
         Random x1 = new Random();

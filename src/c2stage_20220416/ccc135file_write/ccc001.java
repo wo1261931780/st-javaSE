@@ -7,18 +7,18 @@ import java.io.*;
  * Project:index.pb
  * Package:c2stage_20220416.ccc135file_write
  * User:  wo1261931780@gmail.com
- * Time:  2022-04-16-40  ĞÇÆÚÁù
+ * Time:  2022-04-16-40  æ˜ŸæœŸå…­
  */
 public class ccc001 {
     public static void main(String[] args) throws IOException {
-        System.out.println("²âÊÔ");
+        System.out.println("æµ‹è¯•");
         Writer x = new FileWriter("src/c2stage_20220416/ccc135file_write/ccc001.txt");
         x.write('x');
-        // x.write('123');//µ¥ÒıºÅ¶¼ÊÇ×Ö·û£¬ÒªĞ´×Ö·û´®£¬»¹ÊÇÓÃË«ÒıºÅ£¬Ò²ËµÃ÷£¬ÕâÀï¿ÉÒÔÓÃ×Ö·û´®Ğ´Èë
+        // x.write('123');//å•å¼•å·éƒ½æ˜¯å­—ç¬¦ï¼Œè¦å†™å­—ç¬¦ä¸²ï¼Œè¿˜æ˜¯ç”¨åŒå¼•å·ï¼Œä¹Ÿè¯´æ˜ï¼Œè¿™é‡Œå¯ä»¥ç”¨å­—ç¬¦ä¸²å†™å…¥
         x.write("123");
         x.write('a');
-        x.close();// close»á×Ô¶¯Ö´ĞĞflush·½·¨£¬ËùÒÔ²»ĞèÒªÊÖ¶¯Ë¢ĞÂ
-        // ÔÚÃ»ÓĞ¹Ø±ÕµÄÇé¿öÏÂ£¬Ö±½Ó¶ÁÈ¡Ã»ÓĞÊı¾İ
+        x.close();// closeä¼šè‡ªåŠ¨æ‰§è¡Œflushæ–¹æ³•ï¼Œæ‰€ä»¥ä¸éœ€è¦æ‰‹åŠ¨åˆ·æ–°
+        // åœ¨æ²¡æœ‰å…³é—­çš„æƒ…å†µä¸‹ï¼Œç›´æ¥è¯»å–æ²¡æœ‰æ•°æ®
         Reader x1 = new FileReader("src/c2stage_20220416/ccc135file_write/ccc001.txt");
         int len;
         while ((len = x1.read()) != -1) {

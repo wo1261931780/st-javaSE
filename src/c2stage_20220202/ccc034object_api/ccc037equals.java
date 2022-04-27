@@ -35,23 +35,23 @@ public class ccc037equals {
         if (this == o) {
             return true;
         }
-        //ÕâÀïÊÇ±È½ÏµØÖ·
+        //è¿™é‡Œæ˜¯æ¯”è¾ƒåœ°å€
         if (o == null || getClass() != o.getClass()) {
             return false;
         }
-        //ÏÈ±È½Ïo(Ò²¾ÍÊÇxx)ÊÇ·ñÎªnull£¬ÎªnullÔòÖ±½ÓÎªfalse
-        //È»ºó±È½ÏÁ½¸öµÄclassÊÇ·ñÊÇÍ¬Ò»¸ö£¬²»ÊÇÔòfalse
+        //å…ˆæ¯”è¾ƒo(ä¹Ÿå°±æ˜¯xx)æ˜¯å¦ä¸ºnullï¼Œä¸ºnullåˆ™ç›´æ¥ä¸ºfalse
+        //ç„¶åæ¯”è¾ƒä¸¤ä¸ªçš„classæ˜¯å¦æ˜¯åŒä¸€ä¸ªï¼Œä¸æ˜¯åˆ™false
         ccc037equals that = (ccc037equals) o;
-        //ÏòÏÂ×ªĞÍ£¬°Ño(Ò²¾ÍÊÇxx)¸øthat£¬ÏÖÔÚthatÎªxx
+        //å‘ä¸‹è½¬å‹ï¼ŒæŠŠo(ä¹Ÿå°±æ˜¯xx)ç»™thatï¼Œç°åœ¨thatä¸ºxx
 
         if (age != that.age) {
             return false;
         }
-        //ÕâÀï°ÑxµÄageºÍthat(xx)µÄage±È½Ï£¬²»Í¬¾Í·µ»Øfalse
-        //Õâ¸öÓ¦¸ÃÊÇÏà±È½ÏintÀàĞÍµÄÊı¾İ
+        //è¿™é‡ŒæŠŠxçš„ageå’Œthat(xx)çš„ageæ¯”è¾ƒï¼Œä¸åŒå°±è¿”å›false
+        //è¿™ä¸ªåº”è¯¥æ˜¯ç›¸æ¯”è¾ƒintç±»å‹çš„æ•°æ®
         return (name != null) ? (name.equals(that.name)) : (that.name == null);
-        //ÕâÀï±È½ÏxµÄnameÊÇ·ñÊÇnull£¬²»ÊÇÔò¼ÌĞø½øĞĞ
-        //È»ºóÀûÓÃstringÖĞµÄequals±È½ÏxºÍxxµÄÄÚÈİÊÇ·ñÏàÍ¬
-        //ÏàÍ¬ÔòÖ±½Ó·µ»Ø¼´¿É
+        //è¿™é‡Œæ¯”è¾ƒxçš„nameæ˜¯å¦æ˜¯nullï¼Œä¸æ˜¯åˆ™ç»§ç»­è¿›è¡Œ
+        //ç„¶ååˆ©ç”¨stringä¸­çš„equalsæ¯”è¾ƒxå’Œxxçš„å†…å®¹æ˜¯å¦ç›¸åŒ
+        //ç›¸åŒåˆ™ç›´æ¥è¿”å›å³å¯
     }
 }

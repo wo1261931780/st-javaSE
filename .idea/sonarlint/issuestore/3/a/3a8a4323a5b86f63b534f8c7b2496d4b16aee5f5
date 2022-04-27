@@ -1,12 +1,0 @@
-
-T
-java:S1854-"9Remove this useless assignment to local variable "demo2".(ŒË§âþÿÿÿÿ
-_
-java:S4143"DVerify this is the key that was intended; it was already set before.(¦¥ë—þÿÿÿÿ
-N	java:S106"9Replace this use of System.out or System.err by a logger.(Øåá§
-V	java:S125"<This block of commented-out lines of code should be removed.(ÊŸŽÞúÿÿÿÿ
-V	java:S125&"<This block of commented-out lines of code should be removed.(œí§°üÿÿÿÿ
-E
-java:S1481-"*Remove this unused "demo2" local variable.(ŒË§âþÿÿÿÿ
-b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(î®·ž
-t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(äì¹½úÿÿÿÿ

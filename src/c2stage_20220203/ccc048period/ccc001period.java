@@ -5,20 +5,20 @@ import java.time.Period;
 
 public class ccc001period {
     public static void main(String[] args) {
-        LocalDate x = LocalDate.now();//Ê×ÏÈ»ñÈ¡Ò»¸öµ±Ç°µÄÊ±¼ä
-        System.out.println("Êä³ö£º" + x);
-        LocalDate bd = LocalDate.of(1996, 11, 22);//È»ºóÉèÖÃÒ»¸öÖ¸¶¨Ê±¼ä
-        System.out.println("ÉúÈÕ£º" + bd);
-        Period xx = Period.between(bd, x);//µÚ¶ş¸ö²ÎÊı¼õÈ¥µÚÒ»¸ö²ÎÊı
-        //period»ñÈ¡Á½¸öÊ±¼äµÄ²îÖµ
-        System.out.println("Äê£º" + xx.getYears());
-        // Äê£º25
-        System.out.println("ÔÂ£º" + xx.getMonths());
-        // ÔÂ£º2
-        System.out.println("ÈÕ£º" + xx.getDays());
-        // ÈÕ£º15
+        LocalDate x = LocalDate.now();//é¦–å…ˆè·å–ä¸€ä¸ªå½“å‰çš„æ—¶é—´
+        System.out.println("è¾“å‡ºï¼š" + x);
+        LocalDate bd = LocalDate.of(1996, 11, 22);//ç„¶åè®¾ç½®ä¸€ä¸ªæŒ‡å®šæ—¶é—´
+        System.out.println("ç”Ÿæ—¥ï¼š" + bd);
+        Period xx = Period.between(bd, x);//ç¬¬äºŒä¸ªå‚æ•°å‡å»ç¬¬ä¸€ä¸ªå‚æ•°
+        //periodè·å–ä¸¤ä¸ªæ—¶é—´çš„å·®å€¼
+        System.out.println("å¹´ï¼š" + xx.getYears());
+        // å¹´ï¼š25
+        System.out.println("æœˆï¼š" + xx.getMonths());
+        // æœˆï¼š2
+        System.out.println("æ—¥ï¼š" + xx.getDays());
+        // æ—¥ï¼š15
         // *********************************************************
-        System.out.printf("×Ô¶¨ÒåÊ±¼ä£º%dÄê%dÔÂ%dÈÕ", xx.getYears(), xx.getMonths(), xx.getDays());
+        System.out.printf("è‡ªå®šä¹‰æ—¶é—´ï¼š%då¹´%dæœˆ%dæ—¥", xx.getYears(), xx.getMonths(), xx.getDays());
 
     }
 }

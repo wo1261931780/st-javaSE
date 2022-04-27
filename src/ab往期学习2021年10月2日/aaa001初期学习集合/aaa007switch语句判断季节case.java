@@ -1,68 +1,68 @@
 
-package abÍùÆÚÑ§Ï°2021Äê10ÔÂ2ÈÕ.aaa001³õÆÚÑ§Ï°¼¯ºÏ;
+package abå¾€æœŸå­¦ä¹ 2021å¹´10æœˆ2æ—¥.aaa001åˆæœŸå­¦ä¹ é›†åˆ;
 
 import java.util.Random;
 import java.util.Scanner;
 
-public class aaa007switchÓï¾äÅĞ¶Ï¼¾½Úcase {
+public class aaa007switchè¯­å¥åˆ¤æ–­å­£èŠ‚case {
     public static void main(String[] args) {
         Scanner b11 = new Scanner(System.in);
-        System.out.println("ÊäÈëÔÂ·İ£º");
+        System.out.println("è¾“å…¥æœˆä»½ï¼š");
         int xx = b11.nextInt();
         // switch (xx) {
-        //switchÄÚ²¿¸úÒ»¸ö±í´ïÊ½£¬È»ºó´óÀ¨ºÅºóÃæÊÇÅĞ¶ÏÓï¾ä
+        //switchå†…éƒ¨è·Ÿä¸€ä¸ªè¡¨è¾¾å¼ï¼Œç„¶åå¤§æ‹¬å·åé¢æ˜¯åˆ¤æ–­è¯­å¥
 
         switch (xx) {
             // case 1:
-            //     System.out.println("ĞÇÆÚÒ»");
+            //     System.out.println("æ˜ŸæœŸä¸€");
             //     break;
             // case 2:
-            //     System.out.println("ĞÇÆÚ¶ş");
+            //     System.out.println("æ˜ŸæœŸäºŒ");
             //     break;
             // case 3:
-            //     System.out.println("ĞÇÆÚÈı");
+            //     System.out.println("æ˜ŸæœŸä¸‰");
             //     break;
             // case 4:
-            //     System.out.println("ĞÇÆÚËÄ");
+            //     System.out.println("æ˜ŸæœŸå››");
             //     break;
             // case 5:
-            //     System.out.println("ĞÇÆÚÎå");
+            //     System.out.println("æ˜ŸæœŸäº”");
             //     break;
             // case 6:
-            //     System.out.println("ĞÇÆÚÁù");
+            //     System.out.println("æ˜ŸæœŸå…­");
             //     break;
             // case 7:
-            //     System.out.println("ĞÇÆÚÌì");
+            //     System.out.println("æ˜ŸæœŸå¤©");
             //     break;
             case 1:
             case 2:
             case 3:
-                System.out.println("´º¼¾");
+                System.out.println("æ˜¥å­£");
                 break;
             case 4:
             case 5:
             case 6:
-                System.out.println("ÏÄ¼¾");
+                System.out.println("å¤å­£");
                 break;
-            //ÕâÀïĞèÒªÒ»¸öËµÃ÷£¬
-            //456Í¬Ê±ÊÇÏÄ¼¾£¬µ«ÊÇ45ÔÂ·İÃ»ÓĞbreak£¬ËùÒÔ³ÌĞò¼ÌĞøÖ´ĞĞµ½6£¬³öÏÖÏÄ¼¾µÄÌáÊ¾£¬È»ºóbreak½áÊø
-            //Èç¹û½«breakÈ¥³ı£¬ÄÇÃ´³ÌĞò»á¼ÌĞøÔËĞĞµ½9ÔÂ·İÌáÊ¾³öÏÖ£¬È»ºó½áÊø
-            //×¨ÒµÃû´Ê£¬case´©Í¸
+            //è¿™é‡Œéœ€è¦ä¸€ä¸ªè¯´æ˜ï¼Œ
+            //456åŒæ—¶æ˜¯å¤å­£ï¼Œä½†æ˜¯45æœˆä»½æ²¡æœ‰breakï¼Œæ‰€ä»¥ç¨‹åºç»§ç»­æ‰§è¡Œåˆ°6ï¼Œå‡ºç°å¤å­£çš„æç¤ºï¼Œç„¶åbreakç»“æŸ
+            //å¦‚æœå°†breakå»é™¤ï¼Œé‚£ä¹ˆç¨‹åºä¼šç»§ç»­è¿è¡Œåˆ°9æœˆä»½æç¤ºå‡ºç°ï¼Œç„¶åç»“æŸ
+            //ä¸“ä¸šåè¯ï¼Œcaseç©¿é€
             case 7:
             case 8:
             case 9:
-                System.out.println("Çï¼¾");
+                System.out.println("ç§‹å­£");
                 break;
             case 10:
             case 11:
             case 12:
-                System.out.println("¶¬¼¾");
+                System.out.println("å†¬å­£");
                 break;
             default:
-                //ËùÓĞÓï¾ä²»Æ¥Åä£¬Ä¬ÈÏÖ´ĞĞdefault
-                System.out.println("Ê±¼ä´íÎó£¬³ÌĞò½áÊø");
+                //æ‰€æœ‰è¯­å¥ä¸åŒ¹é…ï¼Œé»˜è®¤æ‰§è¡Œdefault
+                System.out.println("æ—¶é—´é”™è¯¯ï¼Œç¨‹åºç»“æŸ");
                 // break;
-                //break¾ÍÖ±½Ó½áÊø£¬×îºóµÄdefault¿ÉÒÔÖ±½ÓÊ¡ÂÔ£¬2021Äê9ÔÂ7ÈÕ11:02:05
+                //breakå°±ç›´æ¥ç»“æŸï¼Œæœ€åçš„defaultå¯ä»¥ç›´æ¥çœç•¥ï¼Œ2021å¹´9æœˆ7æ—¥11:02:05
         }
         show();
     }

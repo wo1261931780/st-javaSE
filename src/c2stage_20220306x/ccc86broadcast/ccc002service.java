@@ -9,7 +9,7 @@ import java.net.DatagramSocket;
  * Project:index.pb
  * Package:c2stage_20220306.ccc86broadcast
  * User:  wo1261931780@gmail.com
- * Time:  2022-03-11-16  –«∆⁄“ª
+ * Time:  2022-03-11-16  √ê√á√Ü√ö√í¬ª
  */
 public class ccc002service {
     public static void main(String[] args) throws IOException {

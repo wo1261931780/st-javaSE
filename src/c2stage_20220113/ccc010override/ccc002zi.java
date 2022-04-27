@@ -3,7 +3,7 @@ package c2stage_20220113.ccc010override;
 public class ccc002zi extends ccc001fu {
     /*
     @Override
-    //´øÓĞprivateµÄ±äÁ¿ÎŞ·¨½øĞĞÖØĞ´²Ù×÷
+    //å¸¦æœ‰privateçš„å˜é‡æ— æ³•è¿›è¡Œé‡å†™æ“ä½œ
     private void show() {
         System.out.println("fffffffff-----------");
     }
@@ -17,10 +17,10 @@ public class ccc002zi extends ccc001fu {
 
     @Override
     public void start() {
-        //×Ô´øÁËÄ¬ÈÏµÄ·ÃÎÊĞŞÊÎ·û£¬µ«ÊÇÈ¨ÏŞ²»Èçpublic
-        //public¡·voidÄ¬ÈÏµÄ¡·private
-        // ÒâË¼ÊÇ£¬publicĞŞÊÎµÄ·½·¨¿ÉÒÔÖØĞ´void·½·¨£¬
-        // µ«ÊÇviodÎŞ·¨ÖØĞ´public·½·¨
+        //è‡ªå¸¦äº†é»˜è®¤çš„è®¿é—®ä¿®é¥°ç¬¦ï¼Œä½†æ˜¯æƒé™ä¸å¦‚public
+        //publicã€‹voidé»˜è®¤çš„ã€‹private
+        // æ„æ€æ˜¯ï¼Œpublicä¿®é¥°çš„æ–¹æ³•å¯ä»¥é‡å†™voidæ–¹æ³•ï¼Œ
+        // ä½†æ˜¯viodæ— æ³•é‡å†™publicæ–¹æ³•
 
         System.out.println("11");
         System.out.println("asdadadasdasdasdas");

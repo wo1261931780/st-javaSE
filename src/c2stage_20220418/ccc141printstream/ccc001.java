@@ -10,27 +10,27 @@ import java.io.PrintWriter;
  * Project:index.pb
  * Package:c2stage_20220418.ccc141printstream
  * User:  wo1261931780@gmail.com
- * Time:  2022-04-23-25  ĞÇÆÚÒ»
+ * Time:  2022-04-23-25  æ˜ŸæœŸä¸€
  */
 public class ccc001 {
     public static void main(String[] args) throws FileNotFoundException {
         // PrintStream x = new PrintStream("src/c2stage_20220418/ccc141printstream/ccc001.txt");
-        // ¶şÕßµÄ²î±ğÔÚÓÚÏÂÃæµÄ´òÓ¡Á÷¿ÉÒÔÊµÏÖĞ´ÈëÊı¾İµÄ×·¼Ó²Ù×÷
+        // äºŒè€…çš„å·®åˆ«åœ¨äºä¸‹é¢çš„æ‰“å°æµå¯ä»¥å®ç°å†™å…¥æ•°æ®çš„è¿½åŠ æ“ä½œ
         PrintStream x = new PrintStream(new FileOutputStream("src/c2stage_20220418/ccc141printstream/ccc001.txt", true));
-        x.print("²âÊÔ");
+        x.print("æµ‹è¯•");
         x.print("123");
         x.print("abc");
         x.println("abc");
         x.println("---");
         x.close();
-        // ´òÓ¡Á÷Ò²ÊÇË¢ĞÂÊı¾İ£¬È»ºóÖØĞ´£¬»á¶ÔÎÄ±¾ÄÚÈİÖ´ĞĞÇå¿Õ²Ù×÷
-        // µ×²ã»¹ÊÇÊ¹ÓÃÁË»º³åÊä³öÁ÷
-        // ÔÚ´òÓ¡½á¹ûÉÏÃæ£¬printwriter
+        // æ‰“å°æµä¹Ÿæ˜¯åˆ·æ–°æ•°æ®ï¼Œç„¶åé‡å†™ï¼Œä¼šå¯¹æ–‡æœ¬å†…å®¹æ‰§è¡Œæ¸…ç©ºæ“ä½œ
+        // åº•å±‚è¿˜æ˜¯ä½¿ç”¨äº†ç¼“å†²è¾“å‡ºæµ
+        // åœ¨æ‰“å°ç»“æœä¸Šé¢ï¼Œprintwriter
         PrintWriter x1 = new PrintWriter("src/c2stage_20220418/ccc141printstream/ccc001.txt");
         x1.println("demo");
         x1.close();
-        // ÔÚjdk16ÖĞ£¬Ò»¿ªÊ¼´òÓ¡Á÷Ö»Ö§³Ö×Ö½ÚĞ´Èë
-        // ¶øprintwriterÖ§³Ö×Ö·ûĞ´Èë£¬
-        // µ«ÊÇ¶şÕßµÄĞÔÄÜÊÇÒ»ÑùµÄ
+        // åœ¨jdk16ä¸­ï¼Œä¸€å¼€å§‹æ‰“å°æµåªæ”¯æŒå­—èŠ‚å†™å…¥
+        // è€Œprintwriteræ”¯æŒå­—ç¬¦å†™å…¥ï¼Œ
+        // ä½†æ˜¯äºŒè€…çš„æ€§èƒ½æ˜¯ä¸€æ ·çš„
     }
 }

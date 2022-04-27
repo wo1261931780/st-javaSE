@@ -1,4 +1,4 @@
-package abÍùÆÚÑ§Ï°2021Äê10ÔÂ2ÈÕ.aaa001³õÆÚÑ§Ï°¼¯ºÏ;
+package abå¾€æœŸå­¦ä¹ 2021å¹´10æœˆ2æ—¥.aaa001åˆæœŸå­¦ä¹ é›†åˆ;
 /*
 public class aaa003 {
     public static void main(String[] args) {
@@ -6,14 +6,14 @@ public class aaa003 {
         int max = xx[0];
         int min = xx[1];
         int x1 = 0;
-        for (System.out.println("¿ªÊ¼Ñ­»·£º"); x1 < xx.length; x1++) {
+        for (System.out.println("å¼€å§‹å¾ªç¯ï¼š"); x1 < xx.length; x1++) {
             if (max < xx[x1]) {
                 max = xx[x1];
             } else if (min > xx[x1]) {
                 min = xx[x1];
             }
         }
-        System.out.println("×îĞ¡ÖµÊÇ£º" + min + ";×î´óÖµÊÇ£º" + max);
+        System.out.println("æœ€å°å€¼æ˜¯ï¼š" + min + ";æœ€å¤§å€¼æ˜¯ï¼š" + max);
     }
 }
 */
@@ -21,42 +21,42 @@ public class aaa003 {
 import java.util.Scanner;
 import java.util.Random;
 
-public class aaa017Êı×é³¤¶È {
+public class aaa017æ•°ç»„é•¿åº¦ {
     public static void main(String[] args) {
-        //ÊäÈëÒ»¸öÊı×Ö
+        //è¾“å…¥ä¸€ä¸ªæ•°å­—
         Scanner xx = new Scanner(System.in);
-        System.out.println("ÇëÊäÈëÒ»¸öÊıÖµ£¬ÊıÖµ½«²ÎÓë×îÖµÅÅĞò£º");
+        System.out.println("è¯·è¾“å…¥ä¸€ä¸ªæ•°å€¼ï¼Œæ•°å€¼å°†å‚ä¸æœ€å€¼æ’åºï¼š");
         int z0 = xx.nextInt();
-        //Ëæ»úµÃµ½Ò»¸öÊı×Ö
+        //éšæœºå¾—åˆ°ä¸€ä¸ªæ•°å­—
         Random xr = new Random();
         int z1 = xr.nextInt(1000);
-        //°ÑÁ½¸öÊı×Ö¼ÓÈëÊı×é
+        //æŠŠä¸¤ä¸ªæ•°å­—åŠ å…¥æ•°ç»„
         int[] x1 = {1, 2, 3, z0, z1};
         int[] x2 = new int[5];
         int x = 0;
-        //×î´óÖµºÍ×îĞ¡Öµ¡£
+        //æœ€å¤§å€¼å’Œæœ€å°å€¼ã€‚
         int max = x1[0];
         int min = x1[0];
         /*
-        for(System.out.println("¿ªÊ¼ÅÅĞò£º");x<x1.length;x++){
+        for(System.out.println("å¼€å§‹æ’åºï¼š");x<x1.length;x++){
             if(min < x1[x]){
                 x2[x] = min;
             }else{
                 min = x1[x];
                 x2[x] = min;
             }
-        }´úÂë´íÎó
+        }ä»£ç é”™è¯¯
         */
-        for (System.out.println("¿ªÊ¼Êä³ö£º"); x < x1.length; x++) {
+        for (System.out.println("å¼€å§‹è¾“å‡ºï¼š"); x < x1.length; x++) {
             if (max < x1[x]) {
                 max = x1[x];
             } else if (min > x1[x]) {
                 min = x1[x];
             }
         }
-        System.out.println("Ëæ»úÖµÊÇ£º" + z1);
-        System.out.println("ÊäÈëÖµÊÇ£º" + z0);
-        System.out.println("×î´óÖµÊÇ£º" + max);
-        System.out.println("×îĞ¡ÖµÊÇ£º" + min);
+        System.out.println("éšæœºå€¼æ˜¯ï¼š" + z1);
+        System.out.println("è¾“å…¥å€¼æ˜¯ï¼š" + z0);
+        System.out.println("æœ€å¤§å€¼æ˜¯ï¼š" + max);
+        System.out.println("æœ€å°å€¼æ˜¯ï¼š" + min);
     }
 }

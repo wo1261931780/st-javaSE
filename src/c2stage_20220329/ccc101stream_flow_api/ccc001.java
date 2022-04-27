@@ -8,7 +8,7 @@ import java.util.List;
  * Project:index.pb
  * Package:c2stage_20220329.ccc003stream_flow_api
  * User:  wo1261931780@gmail.com
- * Time:  2022-03-22-31  ĞÇÆÚ¶ş
+ * Time:  2022-03-22-31  æ˜ŸæœŸäºŒ
  */
 public class ccc001 {
     public static void main(String[] args) {
@@ -20,24 +20,24 @@ public class ccc001 {
         demo1.add("aaa");
         demo1.add("aa");
         demo1.stream().filter(s -> s.startsWith("a") && s.length() <= 3).forEach(System.out::println);
-        // ½øĞĞÒ»ÏÂËµÃ÷£º
-        // System.out::println¾ÍÊÇSystem.outprintln(s),
-        // ÕâÊÇÒ»ÖÖ·½·¨ÒıÓÃµÄĞÎÊ½
+        // è¿›è¡Œä¸€ä¸‹è¯´æ˜ï¼š
+        // System.out::printlnå°±æ˜¯System.outprintln(s),
+        // è¿™æ˜¯ä¸€ç§æ–¹æ³•å¼•ç”¨çš„å½¢å¼
         demo1.stream().limit(2).forEach(System.out::println);
         demo1.stream().skip(4).forEach(System.out::println);
-        demo1.stream().limit(3).count();// streamÁ÷µÄ½áÊø·½·¨ÓĞÇÒ½öÓĞÒ»¸ö
-        // ÆäÊµÕâÀïÓĞµãÎÊÌâ£¬Èç¹ûÎÒĞèÒª¶Ô½á¹ûµÄÒ»°ë½øĞĞ²Ù×÷£¬È»ºóÁíÒ»°ë½øĞĞÌØÊâ²Ù×÷£¬×îÖÕ½«¶şÕß½áºÏ·µ»Ø£¬streamÁ÷¾ÍÎŞ·¨×öµ½
-        // 2022Äê4ÔÂ6ÈÕ21:41:07£¬»Ø¹Ë£¬ÕâÀïÆäÊµ¿ÉÒÔ¶à¸östreamÁ÷²Ù×÷£¬È»ºóºÏ²¢µ½Ò»Æğ¡£
+        demo1.stream().limit(3).count();// streamæµçš„ç»“æŸæ–¹æ³•æœ‰ä¸”ä»…æœ‰ä¸€ä¸ª
+        // å…¶å®è¿™é‡Œæœ‰ç‚¹é—®é¢˜ï¼Œå¦‚æœæˆ‘éœ€è¦å¯¹ç»“æœçš„ä¸€åŠè¿›è¡Œæ“ä½œï¼Œç„¶åå¦ä¸€åŠè¿›è¡Œç‰¹æ®Šæ“ä½œï¼Œæœ€ç»ˆå°†äºŒè€…ç»“åˆè¿”å›ï¼Œstreamæµå°±æ— æ³•åšåˆ°
+        // 2022å¹´4æœˆ6æ—¥21:41:07ï¼Œå›é¡¾ï¼Œè¿™é‡Œå…¶å®å¯ä»¥å¤šä¸ªstreamæµæ“ä½œï¼Œç„¶ååˆå¹¶åˆ°ä¸€èµ·ã€‚
         // demo1.stream().map(new Function<String, String>() {
-        //     // ÕâÀï¾ÍÏàµ±ÓÚ£¬ÄÚ²¿ĞÂ½¨ÁËÒ»¸ö¹¹ÔìÆ÷
-        //     // ¹¹ÔìÆ÷ÏÈ´¦ÀístringÀàĞÍµÄÊı¾İ
-        //     // È»ºó·µ»ØµÄ½á¹ûÒ²ÊÇstringÀàĞÍµÄÊı¾İ
+        //     // è¿™é‡Œå°±ç›¸å½“äºï¼Œå†…éƒ¨æ–°å»ºäº†ä¸€ä¸ªæ„é€ å™¨
+        //     // æ„é€ å™¨å…ˆå¤„ç†stringç±»å‹çš„æ•°æ®
+        //     // ç„¶åè¿”å›çš„ç»“æœä¹Ÿæ˜¯stringç±»å‹çš„æ•°æ®
         //     @Override
         //     public String apply(String s) {
-        //         return "Æ¬Í·£º" + s;
+        //         return "ç‰‡å¤´ï¼š" + s;
         //     }
         // }).forEach(System.out::println);
-        demo1.stream().map(s -> "²âÊÔ£º" + s).forEach(System.out::println);
-        // ÉÏÃæµÄ´úÂë¼ò»¯ÒÔºóµÄ½á¹û
+        demo1.stream().map(s -> "æµ‹è¯•ï¼š" + s).forEach(System.out::println);
+        // ä¸Šé¢çš„ä»£ç ç®€åŒ–ä»¥åçš„ç»“æœ
     }
 }

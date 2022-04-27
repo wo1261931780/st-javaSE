@@ -9,7 +9,7 @@ import java.util.Collection;
  * Project:index.pb
  * Package:c2stage_20220220.ccc058collection_api
  * User:  wo1261931780@gmail.com
- * Time:  2022-02-21-09  ĞÇÆÚ¶ş
+ * Time:  2022-02-21-09  æ˜ŸæœŸäºŒ
  */
 public class ccc001demo {
     public static void main(String[] args) {
@@ -20,12 +20,12 @@ public class ccc001demo {
         x.add("demo");
         x.add("java");
         System.out.println(x);
-        System.out.println("ÊÇ·ñÎª¿Õ£º" + x.isEmpty());// false
-        Object[] x1 = x.toArray();//×ª»»ÎªÊı×é,·µ»ØµÄÊÇObjectÀàĞÍ£¬
-        // µ«ÊÇ²»ÄÜÖ±½Ó×ª»»ÎªStringÀàĞÍ£¬ÒòÎª»á±¨´í£¬
-        // ÖĞÍ¾¿ÉÒÔÌí¼ÓintÀàĞÍµÄÊı¾İ£¬Èç¹ûÖ±½Ó×ª»¯£¬»á±¨´í
-        // ÕâÑù×öµÄºÃ´¦ÊÇ¼æÈİĞÔ¸üÇ¿
-        // °Ñ¼¯ºÏ×ª»¯ÎªÊı×é
+        System.out.println("æ˜¯å¦ä¸ºç©ºï¼š" + x.isEmpty());// false
+        Object[] x1 = x.toArray();//è½¬æ¢ä¸ºæ•°ç»„,è¿”å›çš„æ˜¯Objectç±»å‹ï¼Œ
+        // ä½†æ˜¯ä¸èƒ½ç›´æ¥è½¬æ¢ä¸ºStringç±»å‹ï¼Œå› ä¸ºä¼šæŠ¥é”™ï¼Œ
+        // ä¸­é€”å¯ä»¥æ·»åŠ intç±»å‹çš„æ•°æ®ï¼Œå¦‚æœç›´æ¥è½¬åŒ–ï¼Œä¼šæŠ¥é”™
+        // è¿™æ ·åšçš„å¥½å¤„æ˜¯å…¼å®¹æ€§æ›´å¼º
+        // æŠŠé›†åˆè½¬åŒ–ä¸ºæ•°ç»„
         System.out.println(Arrays.toString(x1));// [a, b, c, demo, java]
         // *****************************************
         ArrayList<String> x2 = new ArrayList<>();
@@ -35,6 +35,6 @@ public class ccc001demo {
         System.out.println(x2);// [demo1, demo2, aaa]
         x.addAll(x2);
         System.out.println(x);// [a, b, c, demo, java, demo1, demo2, aaa]
-        // ÕâÀïÊÇ°´Ë³ĞòÍùºóÌí¼ÓµÄ
+        // è¿™é‡Œæ˜¯æŒ‰é¡ºåºå¾€åæ·»åŠ çš„
     }
 }

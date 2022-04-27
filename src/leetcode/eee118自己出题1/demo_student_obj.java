@@ -1,4 +1,4 @@
-package leetcode.eee118自己出题1;
+package leetcode.eee118鑷繁鍑洪1;
 
 public class demo_student_obj {
     private int number;

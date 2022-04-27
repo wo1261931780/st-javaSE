@@ -5,18 +5,18 @@ package c2stage_20220410.ccc121file_recusion_case;
  * Project:index.pb
  * Package:c2stage_20220410.ccc121file_recusion_case
  * User:  wo1261931780@gmail.com
- * Time:  2022-04-11-01  ĞÇÆÚÈÕ
+ * Time:  2022-04-11-01  æ˜ŸæœŸæ—¥
  */
 public class ccc001 {
     public static void main(String[] args) {
-        System.out.println("·½·¨¿ªÊ¼");
+        System.out.println("æ–¹æ³•å¼€å§‹");
         System.out.println(f_show(3));
         // System.out.println();
 
     }
 
     public static int f_show(int x) {
-        System.out.println("½×³Ë¿ªÊ¼£º");
+        System.out.println("é˜¶ä¹˜å¼€å§‹ï¼š");
         if (x > 1) {
             // int x1 = x - 1;
             // x *= x - 1;

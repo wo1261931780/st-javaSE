@@ -2,7 +2,7 @@ package c2stage_20220416.ccc135file_write;
 
 import java.io.*;
 
-public class eee091¸´ÖÆ°¸Àı {
+public class eee091å¤åˆ¶æ¡ˆä¾‹ {
     public static void main(String[] args) throws IOException {
         System.out.println("-----");
         File x = new File("l:\\java\\eee087.java");
@@ -17,10 +17,10 @@ public class eee091¸´ÖÆ°¸Àı {
         while ((i = x1.read()) != -1) {
             x2.write(i);
         }
-        System.out.println("½áÊø");
+        System.out.println("ç»“æŸ");
         x1.close();
         x2.close();
-        // ÒòÎªÃ»ÓĞclose£¬µ¼ÖÂÉÏÃæÃ»ÓĞË¢ĞÂ
+        // å› ä¸ºæ²¡æœ‰closeï¼Œå¯¼è‡´ä¸Šé¢æ²¡æœ‰åˆ·æ–°
     }
 
     public static void copybyte(File x) throws IOException {
@@ -28,13 +28,13 @@ public class eee091¸´ÖÆ°¸Àı {
         OutputStreamWriter x2 = new OutputStreamWriter(new FileOutputStream("l:\\java\\33.java"));
         // byte[] xx = new byte[1024];
         char[] xx = new char[1024];
-        // ÉÏÃæbyteÊÇÕë¶Ô×Ö½ÚÁ÷¶¨ÒåµÄ£¬¶ø×Ö·ûÁ÷¾ÍĞèÒªcharÀàĞÍµÄÊı×é
+        // ä¸Šé¢byteæ˜¯é’ˆå¯¹å­—èŠ‚æµå®šä¹‰çš„ï¼Œè€Œå­—ç¬¦æµå°±éœ€è¦charç±»å‹çš„æ•°ç»„
         int i;
         while ((i = x1.read(xx)) != -1) {
             x2.write(xx, 0, i);
         }
         x1.close();
         x2.close();
-        System.out.println("½áÊø");
+        System.out.println("ç»“æŸ");
     }
 }

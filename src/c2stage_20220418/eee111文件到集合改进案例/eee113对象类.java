@@ -1,20 +1,20 @@
-package c2stage_20220418.eee111ÎÄ¼şµ½¼¯ºÏ¸Ä½ø°¸Àı;
+package c2stage_20220418.eee111æ–‡ä»¶åˆ°é›†åˆæ”¹è¿›æ¡ˆä¾‹;
 
-public class eee113¶ÔÏóÀà {
+public class eee113å¯¹è±¡ç±» {
 
     private String num;
     private String name;
     private String age;
     private String address;
 
-    public eee113¶ÔÏóÀà(String num, String name, String age, String address) {
+    public eee113å¯¹è±¡ç±»(String num, String name, String age, String address) {
         this.num = num;
         this.name = name;
         this.age = age;
         this.address = address;
     }
 
-    public eee113¶ÔÏóÀà() {
+    public eee113å¯¹è±¡ç±»() {
     }
 
     public String getNum() {

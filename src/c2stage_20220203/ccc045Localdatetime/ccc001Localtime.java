@@ -8,26 +8,26 @@ public class ccc001Localtime {
     //Localtime/ Localdate/ Localdatetime
 
     public static void main(String[] args) {
-        // 1¡¢»ñÈ¡±¾µØÊ±¼ä¶ÔÏó¡£
+        // 1ã€è·å–æœ¬åœ°æ—¶é—´å¯¹è±¡ã€‚
         LocalTime nowTime = LocalTime.now();
-        System.out.println("½ñÌìµÄÊ±¼ä£º" + nowTime);//½ñÌìµÄÊ±¼ä£º
+        System.out.println("ä»Šå¤©çš„æ—¶é—´ï¼š" + nowTime);//ä»Šå¤©çš„æ—¶é—´ï¼š
 
-        int hour = nowTime.getHour();//Ê±
-        System.out.println("hour£º" + hour);//hour£º
+        int hour = nowTime.getHour();//æ—¶
+        System.out.println("hourï¼š" + hour);//hourï¼š
 
-        int minute = nowTime.getMinute();//·Ö
-        System.out.println("minute£º" + minute);//minute£º
+        int minute = nowTime.getMinute();//åˆ†
+        System.out.println("minuteï¼š" + minute);//minuteï¼š
 
-        int second = nowTime.getSecond();//Ãë
-        System.out.println("second£º" + second);//second£º
+        int second = nowTime.getSecond();//ç§’
+        System.out.println("secondï¼š" + second);//secondï¼š
 
-        int nano = nowTime.getNano();//ÄÉÃë
-        System.out.println("nano£º" + nano);//nano£º
+        int nano = nowTime.getNano();//çº³ç§’
+        System.out.println("nanoï¼š" + nano);//nanoï¼š
 
         System.out.println("-----");
-        System.out.println(LocalTime.of(8, 20));//Ê±·Ö
-        System.out.println(LocalTime.of(8, 20, 30));//Ê±·ÖÃë
-        System.out.println(LocalTime.of(8, 20, 30, 150));//Ê±·ÖÃëÄÉÃë
+        System.out.println(LocalTime.of(8, 20));//æ—¶åˆ†
+        System.out.println(LocalTime.of(8, 20, 30));//æ—¶åˆ†ç§’
+        System.out.println(LocalTime.of(8, 20, 30, 150));//æ—¶åˆ†ç§’çº³ç§’
         LocalTime mTime = LocalTime.of(8, 20, 30, 150);
 
         System.out.println("---------------");

@@ -1,26 +1,26 @@
 package c2stage_20220220.ccc068list_case;
 /*
-    ĞèÇó£º
-        ´´½¨Ò»¸ö´æ´¢Ñ§Éú¶ÔÏóµÄ¼¯ºÏ£¬´æ´¢3¸öÑ§Éú¶ÔÏó£¬Ê¹ÓÃ³ÌĞòÊµÏÖÔÚ¿ØÖÆÌ¨±éÀú¸Ã¼¯ºÏ
-    Ë¼Â·£º
-        1:¶¨ÒåÑ§ÉúÀà
-        2:´´½¨List¼¯ºÏ¶ÔÏó
-        3:´´½¨Ñ§Éú¶ÔÏó
-        4:°ÑÑ§ÉúÌí¼Óµ½¼¯ºÏ
-        5:±éÀú¼¯ºÏ(µü´úÆ÷·½Ê½£¬forÑ­»··½Ê½)
+    éœ€æ±‚ï¼š
+        åˆ›å»ºä¸€ä¸ªå­˜å‚¨å­¦ç”Ÿå¯¹è±¡çš„é›†åˆï¼Œå­˜å‚¨3ä¸ªå­¦ç”Ÿå¯¹è±¡ï¼Œä½¿ç”¨ç¨‹åºå®ç°åœ¨æ§åˆ¶å°éå†è¯¥é›†åˆ
+    æ€è·¯ï¼š
+        1:å®šä¹‰å­¦ç”Ÿç±»
+        2:åˆ›å»ºListé›†åˆå¯¹è±¡
+        3:åˆ›å»ºå­¦ç”Ÿå¯¹è±¡
+        4:æŠŠå­¦ç”Ÿæ·»åŠ åˆ°é›†åˆ
+        5:éå†é›†åˆ(è¿­ä»£å™¨æ–¹å¼ï¼Œforå¾ªç¯æ–¹å¼)
  */
 
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
-public class ddd044list°¸Àı {
+public class ddd044listæ¡ˆä¾‹ {
     public static void main(String[] args) {
-        System.out.println("¿ªÊ¼");
-        List<ddd043¶ÔÏóÀà> x = new ArrayList<>();
-        ddd043¶ÔÏóÀà x1 = new ddd043¶ÔÏóÀà("a", 11);
-        ddd043¶ÔÏóÀà x2 = new ddd043¶ÔÏóÀà("b", 22);
-        ddd043¶ÔÏóÀà x3 = new ddd043¶ÔÏóÀà("c", 33);
+        System.out.println("å¼€å§‹");
+        List<ddd043å¯¹è±¡ç±»> x = new ArrayList<>();
+        ddd043å¯¹è±¡ç±» x1 = new ddd043å¯¹è±¡ç±»("a", 11);
+        ddd043å¯¹è±¡ç±» x2 = new ddd043å¯¹è±¡ç±»("b", 22);
+        ddd043å¯¹è±¡ç±» x3 = new ddd043å¯¹è±¡ç±»("c", 33);
         x.add(x1);
         x.add(x2);
         x.add(x3);
@@ -28,24 +28,24 @@ public class ddd044list°¸Àı {
         System.out.println();
         // showdemo(x);
         showdemo2(x);
-        // ÕâÀïÍ¨³£¿ÉÒÔÊ¹ÓÃforÑ­»·£¬µ«ÊÇ¿¼ÂÇµ½listÎªcollectionµÄ×ÓÀà
-        // ËùÒÔµü´úÆ÷Ò²¿ÉÒÔÊ¹ÓÃ
+        // è¿™é‡Œé€šå¸¸å¯ä»¥ä½¿ç”¨forå¾ªç¯ï¼Œä½†æ˜¯è€ƒè™‘åˆ°listä¸ºcollectionçš„å­ç±»
+        // æ‰€ä»¥è¿­ä»£å™¨ä¹Ÿå¯ä»¥ä½¿ç”¨
     }
 
 
-    public static void showdemo(List<ddd043¶ÔÏóÀà> x) {
+    public static void showdemo(List<ddd043å¯¹è±¡ç±»> x) {
         for (int i = 0; i < x.size(); i++) {
-            ddd043¶ÔÏóÀà xx = x.get(i);
+            ddd043å¯¹è±¡ç±» xx = x.get(i);
             System.out.println(xx.getName() + "," + xx.getAge());
-            System.out.println("±éÀú´ÎÊı" + i);
+            System.out.println("éå†æ¬¡æ•°" + i);
         }
     }
 
-    public static void showdemo2(List<ddd043¶ÔÏóÀà> x) {
-        Iterator<ddd043¶ÔÏóÀà> x1 = x.iterator();
+    public static void showdemo2(List<ddd043å¯¹è±¡ç±»> x) {
+        Iterator<ddd043å¯¹è±¡ç±»> x1 = x.iterator();
         while (x1.hasNext()) {
-            ddd043¶ÔÏóÀà x2 = x1.next();
-            System.out.print("µü´úÆ÷Êä³ö£º");
+            ddd043å¯¹è±¡ç±» x2 = x1.next();
+            System.out.print("è¿­ä»£å™¨è¾“å‡ºï¼š");
             System.out.println(x2.getName() + x2.getAge());
         }
     }

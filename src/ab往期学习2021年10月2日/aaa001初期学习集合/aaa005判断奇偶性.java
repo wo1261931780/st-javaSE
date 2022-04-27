@@ -1,19 +1,19 @@
-package abÍùÆÚÑ§Ï°2021Äê10ÔÂ2ÈÕ.aaa001³õÆÚÑ§Ï°¼¯ºÏ;
+package abå¾€æœŸå­¦ä¹ 2021å¹´10æœˆ2æ—¥.aaa001åˆæœŸå­¦ä¹ é›†åˆ;
 
 import java.util.Random;
 import java.util.Scanner;
 
-public class aaa005ÅĞ¶ÏÆæÅ¼ĞÔ {
+public class aaa005åˆ¤æ–­å¥‡å¶æ€§ {
     public static void main(String[] args) {
         Scanner b11 = new Scanner(System.in);
-        System.out.println("ÇëÊäÈëÊıÖµ£º");
+        System.out.println("è¯·è¾“å…¥æ•°å€¼ï¼š");
         int x1 = b11.nextInt();
         //int xx = (x1 % 2);
         if (x1 % 2 == 1) {
-            //x1³ı2µÄÓàÊıµÈÓÚ1
-            System.out.println("ÊäÈëÊı¾İ£º" + x1 + "ÎªÆæÊı");
+            //x1é™¤2çš„ä½™æ•°ç­‰äº1
+            System.out.println("è¾“å…¥æ•°æ®ï¼š" + x1 + "ä¸ºå¥‡æ•°");
         } else {
-            System.out.println("ÊäÈëÊı¾İ£º" + x1 + "ÎªÅ¼Êı");
+            System.out.println("è¾“å…¥æ•°æ®ï¼š" + x1 + "ä¸ºå¶æ•°");
         }
         show();
 

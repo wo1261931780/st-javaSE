@@ -1,31 +1,31 @@
-package c2stage_20220220.eee036Ñ§ÉúÅÅĞò°¸Àı;
+package c2stage_20220220.eee036å­¦ç”Ÿæ’åºæ¡ˆä¾‹;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 
-public class eee038Ñ§Éú°¸Àı {
+public class eee038å­¦ç”Ÿæ¡ˆä¾‹ {
     public static void main(String[] args) {
-        ArrayList<eee037Ñ§ÉúÀà> x = new ArrayList<>();
-        eee037Ñ§ÉúÀà x1 = new eee037Ñ§ÉúÀà("y1", 11, 001);
-        eee037Ñ§ÉúÀà x2 = new eee037Ñ§ÉúÀà("a2", 63, 002);
-        eee037Ñ§ÉúÀà x3 = new eee037Ñ§ÉúÀà("r3", 33, 003);
-        eee037Ñ§ÉúÀà x4 = new eee037Ñ§ÉúÀà("d4", 54, 004);
-        eee037Ñ§ÉúÀà x5 = new eee037Ñ§ÉúÀà("f5", 11, 005);
+        ArrayList<eee037å­¦ç”Ÿç±»> x = new ArrayList<>();
+        eee037å­¦ç”Ÿç±» x1 = new eee037å­¦ç”Ÿç±»("y1", 11, 001);
+        eee037å­¦ç”Ÿç±» x2 = new eee037å­¦ç”Ÿç±»("a2", 63, 002);
+        eee037å­¦ç”Ÿç±» x3 = new eee037å­¦ç”Ÿç±»("r3", 33, 003);
+        eee037å­¦ç”Ÿç±» x4 = new eee037å­¦ç”Ÿç±»("d4", 54, 004);
+        eee037å­¦ç”Ÿç±» x5 = new eee037å­¦ç”Ÿç±»("f5", 11, 005);
         x.add(x1);
         x.add(x2);
         x.add(x3);
         x.add(x4);
         x.add(x5);
-        Collections.sort(x, new Comparator<eee037Ñ§ÉúÀà>() {
+        Collections.sort(x, new Comparator<eee037å­¦ç”Ÿç±»>() {
             @Override
-            public int compare(eee037Ñ§ÉúÀà o1, eee037Ñ§ÉúÀà o2) {
+            public int compare(eee037å­¦ç”Ÿç±» o1, eee037å­¦ç”Ÿç±» o2) {
                 int num1 = o1.getAge() - o2.getAge();
                 int num2 = num1 == 0 ? o1.getName().compareTo(o2.getName()) : num1;
                 return num2;
             }
         });
-        for (eee037Ñ§ÉúÀà i : x) {
+        for (eee037å­¦ç”Ÿç±» i : x) {
             System.out.println(i.getName() + "--" + i.getAge() + "--" + i.getNum());
         }
     }

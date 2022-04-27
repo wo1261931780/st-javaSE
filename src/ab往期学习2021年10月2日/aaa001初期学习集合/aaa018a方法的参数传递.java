@@ -1,20 +1,20 @@
-package abÍùÆÚÑ§Ï°2021Äê10ÔÂ2ÈÕ.aaa001³õÆÚÑ§Ï°¼¯ºÏ;
+package abå¾€æœŸå­¦ä¹ 2021å¹´10æœˆ2æ—¥.aaa001åˆæœŸå­¦ä¹ é›†åˆ;
 
-public class aaa018a·½·¨µÄ²ÎÊı´«µİ {
+public class aaa018aæ–¹æ³•çš„å‚æ•°ä¼ é€’ {
     public static void main(String[] args) {
-        // ÕâÀïÊÇÊµ²Î
+        // è¿™é‡Œæ˜¯å®å‚
         int x = 100;
         System.out.println(x);
-        // µ÷ÓÃ·½·¨ÖĞµÄ²ÎÊı£¬ÕâÀïÊÇĞÎ²Î
+        // è°ƒç”¨æ–¹æ³•ä¸­çš„å‚æ•°ï¼Œè¿™é‡Œæ˜¯å½¢å‚
         show(x);
-        //Êµ¼Ê²ÎÊı²»·¢Éú¸Ä±ä
+        //å®é™…å‚æ•°ä¸å‘ç”Ÿæ”¹å˜
         System.out.println(x);
         System.out.println("end");
     }
 
-    public static void show(int xx) {//ÕâÀïµÄxxÒ²ÊÇĞÎ²Î
+    public static void show(int xx) {//è¿™é‡Œçš„xxä¹Ÿæ˜¯å½¢å‚
         xx = 200;
-        //ĞÎ²Î·¢ÉúÁË±ä»¯
+        //å½¢å‚å‘ç”Ÿäº†å˜åŒ–
         System.out.println(xx);
     }
 }

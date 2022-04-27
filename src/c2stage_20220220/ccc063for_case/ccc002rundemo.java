@@ -10,37 +10,37 @@ import java.util.function.Consumer;
  * Project:index.pb
  * Package:c2stage_20220220.ccc063for_case
  * User:  wo1261931780@gmail.com
- * Time:  2022-02-13-47  ĞÇÆÚÎå
+ * Time:  2022-02-13-47  æ˜ŸæœŸäº”
  */
 public class ccc002rundemo {
     public static void main(String[] args) {
         Collection<ccc001object> x = new ArrayList<>();
-        x.add(new ccc001object("11", 11, 11));// ²»ÄÜÖ±½Óadd
-        x.add(new ccc001object("22", 22, 22));// ÒòÎªÕâÀïaddÌí¼ÓµÄ¶¼ÊÇ¶ÔÏó£¬ĞèÒª½øĞĞ´ø²Î¹¹Ôì
+        x.add(new ccc001object("11", 11, 11));// ä¸èƒ½ç›´æ¥add
+        x.add(new ccc001object("22", 22, 22));// å› ä¸ºè¿™é‡Œaddæ·»åŠ çš„éƒ½æ˜¯å¯¹è±¡ï¼Œéœ€è¦è¿›è¡Œå¸¦å‚æ„é€ 
         x.add(new ccc001object("33", 33, 33));
-        System.out.println("ÔöÇ¿forÑ­»·£º");
+        System.out.println("å¢å¼ºforå¾ªç¯ï¼š");
         for (ccc001object x1 : x) {
             System.out.println(x1.getName() + "\t" + x1.getAge() + "\t" + x1.getPrice());
         }
-        System.out.println("µü´úÆ÷£º");
+        System.out.println("è¿­ä»£å™¨ï¼š");
         Iterator<ccc001object> demoit = x.iterator();
-        // while (x.iterator().hasNext()) {//ÒòÎª·µ»ØµÄÊÇÒ»¸ö¶ÔÏó£¬ËùÒÔ¿ÉÒÔÖ±½ÓÁ´Ê½±à³Ì
-        // µ«ÊÇÖ±½Ó´´½¨£¬»áµ¼ÖÂËÀÑ­»·£¬¶øindexÃ»ÓĞÄÇÃ´¶à
-        // ÕâÀïÏàµ±ÓÚÃ¿´Î·µ»ØÁËÒ»¸öĞÂµÄµü´úÆ÷¶ÔÏó£¬È»ºó¶Ôµü´úÆ÷¶ÔÏóÅĞ¶ÏÊÇ·ñÎª¿Õ£¬
-        // Èç¹ûÎª¿Õ£¬¾Í½øĞĞÏÂÒ»´ÎÑ­»·
+        // while (x.iterator().hasNext()) {//å› ä¸ºè¿”å›çš„æ˜¯ä¸€ä¸ªå¯¹è±¡ï¼Œæ‰€ä»¥å¯ä»¥ç›´æ¥é“¾å¼ç¼–ç¨‹
+        // ä½†æ˜¯ç›´æ¥åˆ›å»ºï¼Œä¼šå¯¼è‡´æ­»å¾ªç¯ï¼Œè€Œindexæ²¡æœ‰é‚£ä¹ˆå¤š
+        // è¿™é‡Œç›¸å½“äºæ¯æ¬¡è¿”å›äº†ä¸€ä¸ªæ–°çš„è¿­ä»£å™¨å¯¹è±¡ï¼Œç„¶åå¯¹è¿­ä»£å™¨å¯¹è±¡åˆ¤æ–­æ˜¯å¦ä¸ºç©ºï¼Œ
+        // å¦‚æœä¸ºç©ºï¼Œå°±è¿›è¡Œä¸‹ä¸€æ¬¡å¾ªç¯
         while (demoit.hasNext()) {
-            // System.out.println(demoit.next());// Ö±½Ó±éÀúÖ»»áµÃµ½¶ÔÏó
+            // System.out.println(demoit.next());// ç›´æ¥éå†åªä¼šå¾—åˆ°å¯¹è±¡
             ccc001object show = demoit.next();
             System.out.println(show.getName() + "--" + show.getAge() + "--" + show.getPrice());
         }
-        System.out.println("foreachÑ­»·£º");
+        System.out.println("foreachå¾ªç¯ï¼š");
         x.forEach(new Consumer<ccc001object>() {
             @Override
             public void accept(ccc001object xx) {
                 System.out.println(xx.getName() + "**" + xx.getAge() + "**" + xx.getPrice());
             }
         });
-        System.out.println("lambda±í´ïÊ½£º");
+        System.out.println("lambdaè¡¨è¾¾å¼ï¼š");
         x.forEach(x1 -> System.out.println(x1.getName() + "==" + x1.getAge() + "==" + x1.getPrice()));
     }
 }

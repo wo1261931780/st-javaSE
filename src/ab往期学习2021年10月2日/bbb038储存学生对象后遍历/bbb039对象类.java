@@ -1,13 +1,13 @@
-package abÍùÆÚÑ§Ï°2021Äê10ÔÂ2ÈÕ.bbb038´¢´æÑ§Éú¶ÔÏóºó±éÀú;
+package abå¾€æœŸå­¦ä¹ 2021å¹´10æœˆ2æ—¥.bbb038å‚¨å­˜å­¦ç”Ÿå¯¹è±¡åéå†;
 
-public class bbb039¶ÔÏóÀà {
+public class bbb039å¯¹è±¡ç±» {
     private String name;
     private int age;
 
-    public bbb039¶ÔÏóÀà() {
+    public bbb039å¯¹è±¡ç±»() {
     }
 
-    public bbb039¶ÔÏóÀà(String name, int age) {
+    public bbb039å¯¹è±¡ç±»(String name, int age) {
         this.name = name;
         this.age = age;
     }

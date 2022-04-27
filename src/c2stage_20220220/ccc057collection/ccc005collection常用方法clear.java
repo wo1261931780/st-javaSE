@@ -3,9 +3,9 @@ package c2stage_20220220.ccc057collection;
 import java.util.ArrayList;
 import java.util.Collection;
 
-public class ccc005collection³£ÓÃ·½·¨clear {
+public class ccc005collectionå¸¸ç”¨æ–¹æ³•clear {
     public static void main(String[] args) {
-        System.out.println("¿ªÊ¼ÔËĞĞ");
+        System.out.println("å¼€å§‹è¿è¡Œ");
         Collection<String> x = new ArrayList<>();
         x.add("aaa");
         x.add("aaa");

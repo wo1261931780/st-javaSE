@@ -1,4 +1,4 @@
-package ab¶ş½×¶ÎÇ¿»¯¿Î³Ì2022Äê1ÔÂ11ÈÕ.ccc109ÀÏÊ¦Ñ§Éú¸¸Àà°¸Àı;
+package abäºŒé˜¶æ®µå¼ºåŒ–è¯¾ç¨‹2022å¹´1æœˆ11æ—¥.ccc109è€å¸ˆå­¦ç”Ÿçˆ¶ç±»æ¡ˆä¾‹;
 
 public class ccc004run {
     public static void main(String[] args) {
@@ -8,11 +8,11 @@ public class ccc004run {
         t1.setName();
         t1.setAge();
         t1.teach();
-        System.out.println("ĞÕÃû£º" + t1.getName() + "---ÄêÁäÎª£º" + t1.getAge());
+        System.out.println("å§“åï¼š" + t1.getName() + "---å¹´é¾„ä¸ºï¼š" + t1.getAge());
         ccc002student s1 = new ccc002student();
         s1.setName();
         s1.setAge();
         s1.learn();
-        System.out.println("ĞÕÃû£º" + s1.getName() + "---ÄêÁäÎª£º" + s1.getAge());
+        System.out.println("å§“åï¼š" + s1.getName() + "---å¹´é¾„ä¸ºï¼š" + s1.getAge());
     }
 }

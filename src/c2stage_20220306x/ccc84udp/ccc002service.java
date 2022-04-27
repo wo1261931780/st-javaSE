@@ -9,23 +9,23 @@ import java.net.DatagramSocket;
  * Project:index.pb
  * Package:c2stage_20220306.ccc84udp
  * User:  wo1261931780@gmail.com
- * Time:  2022-03-09-01  ĞÇÆÚÒ»
+ * Time:  2022-03-09-01  æ˜ŸæœŸä¸€
  */
 public class ccc002service {
     public static void main(String[] args) throws IOException {
-        DatagramSocket demo_s = new DatagramSocket(999);// ·şÎñ¶Ë¸ù¾İ¿Í»§¶ËÈ·¶¨¶Ë¿Ú¡ª¡ª¶şÕß¶Ë¿ÚÒ»ÖÂ
-        byte[] byte_pack = new byte[1024 * 64];// Ò»°üÊı¾İ64kb£¬ÎÒÃÇ¾ÍÊ¹ÓÃÄ¬ÈÏµÄ´óĞ¡ºÍ³¤¶È×÷Îª½ÓÊÕµÄ±ê×¼
+        DatagramSocket demo_s = new DatagramSocket(999);// æœåŠ¡ç«¯æ ¹æ®å®¢æˆ·ç«¯ç¡®å®šç«¯å£â€•â€•äºŒè€…ç«¯å£ä¸€è‡´
+        byte[] byte_pack = new byte[1024 * 64];// ä¸€åŒ…æ•°æ®64kbï¼Œæˆ‘ä»¬å°±ä½¿ç”¨é»˜è®¤çš„å¤§å°å’Œé•¿åº¦ä½œä¸ºæ¥æ”¶çš„æ ‡å‡†
         DatagramPacket demo_p = new DatagramPacket(byte_pack, byte_pack.length);
 
-        demo_s.receive(demo_p);// Í¨µÀÈ¥½ÓÊÕÉèÖÃºÃµÄ°ü
-        // String x = new String(byte_pack);// Èç¹û²»ÉèÖÃ½ÓÊÜµÄ³¤¶È£¬Ä¬ÈÏ°´ÕÕ½ÓÊÕÆ÷µÄ³¤¶ÈÈ¥»ñÈ¡×Ö·û´®£¬¶àÓàµÄ²¹³ä
-        // ½ø¶øµ¼ÖÂ·şÎñ¶Ë½ÓÊÕµ½µÄÊı¾İÌ«³¤£¬Êµ¼ÊÊı¾İºÜ¶Ì
-        String x = new String(byte_pack, 0, demo_p.getLength());// ÉèÖÃ×Ö·û´®³¤¶ÈÎª0µ½×Ö·û´®µÄÄ©Î²
-        System.out.println("·¢ËÍµÄÊı¾İÎª£º" + x);
-        System.out.println(demo_p.getAddress());// »ñÈ¡¿Í»§¶ËµÄµØÖ·£º/192.168.3.115
-        System.out.println(demo_p.getPort());// »ñÈ¡¿Í»§¶ËµÄ¶Ë¿Ú59177
+        demo_s.receive(demo_p);// é€šé“å»æ¥æ”¶è®¾ç½®å¥½çš„åŒ…
+        // String x = new String(byte_pack);// å¦‚æœä¸è®¾ç½®æ¥å—çš„é•¿åº¦ï¼Œé»˜è®¤æŒ‰ç…§æ¥æ”¶å™¨çš„é•¿åº¦å»è·å–å­—ç¬¦ä¸²ï¼Œå¤šä½™çš„è¡¥å……
+        // è¿›è€Œå¯¼è‡´æœåŠ¡ç«¯æ¥æ”¶åˆ°çš„æ•°æ®å¤ªé•¿ï¼Œå®é™…æ•°æ®å¾ˆçŸ­
+        String x = new String(byte_pack, 0, demo_p.getLength());// è®¾ç½®å­—ç¬¦ä¸²é•¿åº¦ä¸º0åˆ°å­—ç¬¦ä¸²çš„æœ«å°¾
+        System.out.println("å‘é€çš„æ•°æ®ä¸ºï¼š" + x);
+        System.out.println(demo_p.getAddress());// è·å–å®¢æˆ·ç«¯çš„åœ°å€ï¼š/192.168.3.115
+        System.out.println(demo_p.getPort());// è·å–å®¢æˆ·ç«¯çš„ç«¯å£59177
 
         demo_s.close();
-        // ÏÈÆô¶¯·şÎñ¶Ë×¼±¸½ÓÊÕÊı¾İ£¬È»ºóÆô¶¯¿Í»§¶Ë·¢ËÍ
+        // å…ˆå¯åŠ¨æœåŠ¡ç«¯å‡†å¤‡æ¥æ”¶æ•°æ®ï¼Œç„¶åå¯åŠ¨å®¢æˆ·ç«¯å‘é€
     }
 }

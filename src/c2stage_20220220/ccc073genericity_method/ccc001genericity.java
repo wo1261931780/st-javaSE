@@ -5,7 +5,7 @@ package c2stage_20220220.ccc073genericity_method;
  * Project:index.pb
  * Package:c2stage_20220220.ccc073genericity_method
  * User:  wo1261931780@gmail.com
- * Time:  2022-02-12-04  ĞÇÆÚÈÕ
+ * Time:  2022-02-12-04  æ˜ŸæœŸæ—¥
  */
 public class ccc001genericity {
     public static void main(String[] args) {
@@ -16,8 +16,8 @@ public class ccc001genericity {
         // ------------------------------------------------
         // show2(int[] s);
         // show2(s);
-        show2(s1);// ·ºĞÍ·½·¨ÖĞ¶¨ÒåÁËÊı×é£¬
-        // ¾ÍĞèÒªÉèÖÃÒıÓÃÀàĞÍµÄÊı×é£¬»ù±¾ÀàĞÍ»á±¨´í
+        show2(s1);// æ³›å‹æ–¹æ³•ä¸­å®šä¹‰äº†æ•°ç»„ï¼Œ
+        // å°±éœ€è¦è®¾ç½®å¼•ç”¨ç±»å‹çš„æ•°ç»„ï¼ŒåŸºæœ¬ç±»å‹ä¼šæŠ¥é”™
 
     }
 
@@ -25,10 +25,10 @@ public class ccc001genericity {
         System.out.println("run dev");
     }
 
-    // ×Ô¶¨ÒåÒ»¸öÊµÏÖËùÓĞÊı×éÆ´½ÓµÄ·½·¨
+    // è‡ªå®šä¹‰ä¸€ä¸ªå®ç°æ‰€æœ‰æ•°ç»„æ‹¼æ¥çš„æ–¹æ³•
 
-    public static <T> void show2(T[] t) {// ·ºĞÍµÄ´ú±í×ÖÄ¸ĞèÒªÒ»ÖÂ
-        // Èç¹û·ºĞÍÊÇÊı×éÀàĞÍ£¬Ê¹ÓÃ¹ı³ÌÖĞ£¬ĞèÒªÉèÖÃÎªÒıÓÃÀàĞÍ£¬¶ø²»ÊÇ»ù±¾ÀàĞÍ
+    public static <T> void show2(T[] t) {// æ³›å‹çš„ä»£è¡¨å­—æ¯éœ€è¦ä¸€è‡´
+        // å¦‚æœæ³›å‹æ˜¯æ•°ç»„ç±»å‹ï¼Œä½¿ç”¨è¿‡ç¨‹ä¸­ï¼Œéœ€è¦è®¾ç½®ä¸ºå¼•ç”¨ç±»å‹ï¼Œè€Œä¸æ˜¯åŸºæœ¬ç±»å‹
         StringBuilder x = new StringBuilder("[");
         if (t != null) {
             // for (T i:t){

@@ -7,14 +7,14 @@ import java.io.*;
  * Project:index.pb
  * Package:c2stage_20220416.ccc131file_output_stream2
  * User:  wo1261931780@gmail.com
- * Time:  2022-04-11-17  ĞÇÆÚÁù
+ * Time:  2022-04-11-17  æ˜ŸæœŸå…­
  */
 public class ccc001 {
     public static void main(String[] args) throws IOException {
         File x = new File("C:\\Users\\1\\Documents\\GitHub\\st-java.github.io\\src\\c2stage_20220416\\ccc130file_output_stream\\demo.txt");
         InputStream x1 = new FileInputStream(x);
         byte[] x2 = new byte[1024];
-        int lenth;// Ò»°ã¶¼Òª¸ø³ö¶ÁÈ¡µÄ³¤¶È£¬·½±ãºóÃæ²Ù×÷
+        int lenth;// ä¸€èˆ¬éƒ½è¦ç»™å‡ºè¯»å–çš„é•¿åº¦ï¼Œæ–¹ä¾¿åé¢æ“ä½œ
         File demo = new File("C:\\Users\\1\\Documents\\GitHub\\st-java.github.io\\src\\c2stage_20220416\\ccc131file_output_stream2\\demo2.txt");
         OutputStream x3 = new FileOutputStream(demo);
         while ((lenth = x1.read(x2)) != -1) {

@@ -1,16 +1,16 @@
-package ab¶ş½×¶ÎÇ¿»¯¿Î³Ì2022Äê1ÔÂ11ÈÕ.ccc023Ã¨¹·½Ó¿Ú°æ;
+package abäºŒé˜¶æ®µå¼ºåŒ–è¯¾ç¨‹2022å¹´1æœˆ11æ—¥.ccc023çŒ«ç‹—æ¥å£ç‰ˆ;
 
-public class ccc024cat implements ccc026½Ó¿Ú {
+public class ccc024cat implements ccc026æ¥å£ {
     private int age;
     private String name;
 
     @Override
     public void jump() {
-        System.out.println("catÀàÖĞµÄjump·½·¨");
+        System.out.println("catç±»ä¸­çš„jumpæ–¹æ³•");
     }
 
     public void eat() {
-        System.out.println("catÀàÖĞµÄeat·½·¨");
+        System.out.println("catç±»ä¸­çš„eatæ–¹æ³•");
     }
 
     public ccc024cat(int age, String name) {

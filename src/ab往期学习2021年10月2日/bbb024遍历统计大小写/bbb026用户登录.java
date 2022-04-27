@@ -1,57 +1,57 @@
-package abÍùÆÚÑ§Ï°2021Äê10ÔÂ2ÈÕ.bbb024±éÀúÍ³¼Æ´óĞ¡Ğ´;
+package abå¾€æœŸå­¦ä¹ 2021å¹´10æœˆ2æ—¥.bbb024éå†ç»Ÿè®¡å¤§å°å†™;
 
 import java.util.Scanner;
-//¹¦ÄÜ£ºÄ£ÄâµÇÂ½Èı´Î£¬Èı´Î´íÎóÖ®ºóÏµÍ³ÍË³ö
+//åŠŸèƒ½ï¼šæ¨¡æ‹Ÿç™»é™†ä¸‰æ¬¡ï¼Œä¸‰æ¬¡é”™è¯¯ä¹‹åç³»ç»Ÿé€€å‡º
 
-public class bbb026ÓÃ»§µÇÂ¼ {
+public class bbb026ç”¨æˆ·ç™»å½• {
     public static void main(String[] args) {
         String x1 = "1";
         String x2 = "2";
         Scanner xx = new Scanner(System.in);
-        //ÕâÀïÊÇnew´´½¨Ò»¸öĞÂµÄµØÖ·£¬ËùÒÔ²Åµ¼ÖÂºóÃæµÄµØÖ·±È½Ï
+        //è¿™é‡Œæ˜¯newåˆ›å»ºä¸€ä¸ªæ–°çš„åœ°å€ï¼Œæ‰€ä»¥æ‰å¯¼è‡´åé¢çš„åœ°å€æ¯”è¾ƒ
         for (int x0 = 0; x0 < 4; x0++) {
-            System.out.println("ÇëÊäÈëÓÃ»§Ãû£º");
+            System.out.println("è¯·è¾“å…¥ç”¨æˆ·åï¼š");
             String x3 = xx.nextLine();
-            System.out.println("ÇëÊäÈëÃÜÂë£º");
+            System.out.println("è¯·è¾“å…¥å¯†ç ï¼š");
             String x4 = xx.nextLine();
 
             if (x3.equals(x1) && x4.equals(x2)) {
-                System.out.println("»¶Ó­µÇÂ¼ÄÚÍø");
-                System.out.println("³ÌĞò½áÊø");
+                System.out.println("æ¬¢è¿ç™»å½•å†…ç½‘");
+                System.out.println("ç¨‹åºç»“æŸ");
                 break;
             }else if (x0==3){
-                System.out.println("»ú»áºÄ¾¡£¬³ÌĞò½áÊø");
+                System.out.println("æœºä¼šè€—å°½ï¼Œç¨‹åºç»“æŸ");
             } else if (x3.equals(x1) == false || x4.equals(x2) == false) {
-                System.out.println("ÓÃ»§/ÃÜÂëerror,ÇëÖØĞÂÊäÈë,»¹ÓĞ" + (3 - x0) + "´Î»ú»á");
+                System.out.println("ç”¨æˆ·/å¯†ç error,è¯·é‡æ–°è¾“å…¥,è¿˜æœ‰" + (3 - x0) + "æ¬¡æœºä¼š");
             }
         }
         /*
         String x1 = "1";
-        //ÕâÀïÊÇÖ±½Ó¸³Öµ£¬x1ºÍx2Ê¹ÓÃÏàÍ¬µÄµØÖ·
+        //è¿™é‡Œæ˜¯ç›´æ¥èµ‹å€¼ï¼Œx1å’Œx2ä½¿ç”¨ç›¸åŒçš„åœ°å€
         String x2 = "2";
         Scanner xx = new Scanner(System.in);
-        //ÕâÀïÊÇnew´´½¨Ò»¸öĞÂµÄµØÖ·£¬ËùÒÔ²Åµ¼ÖÂºóÃæµÄµØÖ·±È½Ï
+        //è¿™é‡Œæ˜¯newåˆ›å»ºä¸€ä¸ªæ–°çš„åœ°å€ï¼Œæ‰€ä»¥æ‰å¯¼è‡´åé¢çš„åœ°å€æ¯”è¾ƒ
         for (int x0 = 0; x0 < 4; x0++) {
 
-            System.out.println("ÇëÊäÈëÓÃ»§Ãû£º");
+            System.out.println("è¯·è¾“å…¥ç”¨æˆ·åï¼š");
             String x3 = xx.nextLine();
 //            int x3=xx.nextInt();
-            //ÕâÀïx3ºÍx4µÄ¶¼ÊÇµØÖ·±È½Ï£¬ĞèÒª½øĞĞÄÚÈİ±È½Ï¡£
-            System.out.println("ÇëÊäÈëÃÜÂë£º");
+            //è¿™é‡Œx3å’Œx4çš„éƒ½æ˜¯åœ°å€æ¯”è¾ƒï¼Œéœ€è¦è¿›è¡Œå†…å®¹æ¯”è¾ƒã€‚
+            System.out.println("è¯·è¾“å…¥å¯†ç ï¼š");
             String x4 = xx.nextLine();
 //            int x4 = xx.nextInt();
             System.out.println(x3+"--"+x4);
 
             if (x3 == x1 || x4 == x2) {
-                System.out.println("»¶Ó­µÇÂ¼ÄÚÍø");
-                System.out.println("³ÌĞò½áÊø");
+                System.out.println("æ¬¢è¿ç™»å½•å†…ç½‘");
+                System.out.println("ç¨‹åºç»“æŸ");
                 break;
             } else if (x3 != x1) {
-                System.out.println("ÓÃ»§error,ÇëÖØĞÂÊäÈë,»¹ÓĞ" + (3 - x0) + "´Î»ú»á");
+                System.out.println("ç”¨æˆ·error,è¯·é‡æ–°è¾“å…¥,è¿˜æœ‰" + (3 - x0) + "æ¬¡æœºä¼š");
             } else if (x4 != x2) {
-                System.out.println("ÃÜÂëerror,ÇëÖØĞÂÊäÈë,»¹ÓĞ" + (3 - x0) + "´Î»ú»á");
+                System.out.println("å¯†ç error,è¯·é‡æ–°è¾“å…¥,è¿˜æœ‰" + (3 - x0) + "æ¬¡æœºä¼š");
             }
         }
-        System.out.println("È«²¿error,³ÌĞò½áÊø");*/
+        System.out.println("å…¨éƒ¨error,ç¨‹åºç»“æŸ");*/
     }
 }

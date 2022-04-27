@@ -1,19 +1,19 @@
-package abÍùÆÚÑ§Ï°2021Äê10ÔÂ2ÈÕ.bbb024±éÀúÍ³¼Æ´óĞ¡Ğ´;
+package abå¾€æœŸå­¦ä¹ 2021å¹´10æœˆ2æ—¥.bbb024éå†ç»Ÿè®¡å¤§å°å†™;
 
-public class bbb025stringÑ§Ï° {
+public class bbb025stringå­¦ä¹  {
     public static void main(String[] args) {
         char[] cha={'a','b','c'};
         String x1=new String(cha);
         System.out.println(x1);
-        //½á¹û£ºabc
+        //ç»“æœï¼šabc
 
         byte[] by={95,94,93,110,111,112};
-        String x2=new String(by);//ÕâÀï»á°ÑÊı¾İ×ª»¯Îª×Ö·û´®£¬×ÖÄ¸µÄµ×²ã»¹ÊÇÊı×Ö£¬ËùÒÔÊı×Ö»á×ª»¯Îª×ÖÄ¸¡£
+        String x2=new String(by);//è¿™é‡Œä¼šæŠŠæ•°æ®è½¬åŒ–ä¸ºå­—ç¬¦ä¸²ï¼Œå­—æ¯çš„åº•å±‚è¿˜æ˜¯æ•°å­—ï¼Œæ‰€ä»¥æ•°å­—ä¼šè½¬åŒ–ä¸ºå­—æ¯ã€‚
         System.out.println("["+x2+"]");
-        //½á¹û£º[_^]nop]
+        //ç»“æœï¼š[_^]nop]
 
         String x3 ="asdasdasdasdas";
         System.out.println(x3);
-        //½á¹û£ºasdasdasdasdas
+        //ç»“æœï¼šasdasdasdasdas
     }
 }

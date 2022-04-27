@@ -1,13 +1,13 @@
-package c2stage_20220220.ccc064arraylistºÍlinklist;
+package c2stage_20220220.ccc064arraylistå’Œlinklist;
 
-public class ddd061¶ÔÏóÀà {
+public class ddd061å¯¹è±¡ç±» {
     private String name;
     private int age;
 
-    public ddd061¶ÔÏóÀà() {
+    public ddd061å¯¹è±¡ç±»() {
     }
 
-    public ddd061¶ÔÏóÀà(String name, int age) {
+    public ddd061å¯¹è±¡ç±»(String name, int age) {
         this.name = name;
         this.age = age;
     }

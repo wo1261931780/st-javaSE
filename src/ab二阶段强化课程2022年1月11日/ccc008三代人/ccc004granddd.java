@@ -1,7 +1,7 @@
-package ab¶ş½×¶ÎÇ¿»¯¿Î³Ì2022Äê1ÔÂ11ÈÕ.ccc008Èı´úÈË;
+package abäºŒé˜¶æ®µå¼ºåŒ–è¯¾ç¨‹2022å¹´1æœˆ11æ—¥.ccc008ä¸‰ä»£äºº;
 
 public class ccc004granddd {
     public void drink(){
-        System.out.println("Ò¯Ò¯drink----");
+        System.out.println("çˆ·çˆ·drink----");
     }
 }

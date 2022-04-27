@@ -2,14 +2,14 @@ package c2stage_20220228.ccc077hash_principle;
 
 import java.util.HashSet;
 
-public class ddd069¶ÔÏóÀà {
+public class ddd069å¯¹è±¡ç±» {
     private String name;
     private int age;
 
-    public ddd069¶ÔÏóÀà() {
+    public ddd069å¯¹è±¡ç±»() {
     }
 
-    public ddd069¶ÔÏóÀà(String name, int age) {
+    public ddd069å¯¹è±¡ç±»(String name, int age) {
         this.name = name;
         this.age = age;
     }
@@ -31,8 +31,8 @@ public class ddd069¶ÔÏóÀà {
     }
 
     /**
-     * Ä¬ÈÏÇé¿öÏÂ£¬¹şÏ£Êı¾İÖ®¼ä²»ÖØ¸´
-     * ¿ÉÒÔ½øĞĞÖØĞ´²Ù×÷£¬Ê¹µÃ·µ»ØµÄËùÓĞhashcode¶¼µÈÓÚ0
+     * é»˜è®¤æƒ…å†µä¸‹ï¼Œå“ˆå¸Œæ•°æ®ä¹‹é—´ä¸é‡å¤
+     * å¯ä»¥è¿›è¡Œé‡å†™æ“ä½œï¼Œä½¿å¾—è¿”å›çš„æ‰€æœ‰hashcodeéƒ½ç­‰äº0
      */
     // @Override
     // public int hashCode() {

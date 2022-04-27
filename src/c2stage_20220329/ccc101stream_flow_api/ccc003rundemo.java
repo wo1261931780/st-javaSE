@@ -8,30 +8,30 @@ import java.util.List;
  * Project:index.pb
  * Package:c2stage_20220329.ccc003stream_flow_api
  * User:  wo1261931780@gmail.com
- * Time:  2022-03-20-47  ĞÇÆÚËÄ
+ * Time:  2022-03-20-47  æ˜ŸæœŸå››
  */
 
 /**
- * Ä¿±ê£ºStreamÁ÷µÄ³£ÓÃAPI
- * forEach : ÖğÒ»´¦Àí(±éÀú)
- * count£ºÍ³¼Æ¸öÊı
+ * ç›®æ ‡ï¼šStreamæµçš„å¸¸ç”¨API
+ * forEach : é€ä¸€å¤„ç†(éå†)
+ * countï¼šç»Ÿè®¡ä¸ªæ•°
  * -- long count();
- * filter : ¹ıÂËÔªËØ
+ * filter : è¿‡æ»¤å…ƒç´ 
  * -- Stream<T> filter(Predicate<? super T> predicate)
- * limit : È¡Ç°¼¸¸öÔªËØ
- * skip : Ìø¹ıÇ°¼¸¸ö
- * map : ¼Ó¹¤·½·¨
- * concat : ºÏ²¢Á÷¡£
+ * limit : å–å‰å‡ ä¸ªå…ƒç´ 
+ * skip : è·³è¿‡å‰å‡ ä¸ª
+ * map : åŠ å·¥æ–¹æ³•
+ * concat : åˆå¹¶æµã€‚
  */
 public class ccc003rundemo {
     public static void main(String[] args) {
         List<String> x = new ArrayList<>();
         x.stream().map(s -> new ccc002object(s)).forEach(System.out::println);
-        // ÉÏÃæµÄ´úÂë¾ÍÊÇ£¬ÎÒÏÈÊ¹ÓÃÒ»¸ömap·½·¨£¬¶ÔÄÚ²¿µÄ¶ÔÏó¼Ó¹¤
-        // ¼Ó¹¤ÒÔºó½«»ñµÃµÄ¶ÔÏó·â×°ÎªobjectÀàÖĞµÄ¶ÔÏó
-        // È»ºó¶Ô½á¹û½øĞĞ±éÀú²Ù×÷
+        // ä¸Šé¢çš„ä»£ç å°±æ˜¯ï¼Œæˆ‘å…ˆä½¿ç”¨ä¸€ä¸ªmapæ–¹æ³•ï¼Œå¯¹å†…éƒ¨çš„å¯¹è±¡åŠ å·¥
+        // åŠ å·¥ä»¥åå°†è·å¾—çš„å¯¹è±¡å°è£…ä¸ºobjectç±»ä¸­çš„å¯¹è±¡
+        // ç„¶åå¯¹ç»“æœè¿›è¡Œéå†æ“ä½œ
         x.stream().map(ccc002object::new).forEach(System.out::println);
-        // ÕâÀï¾ÍÊÇ¼ò»¯Ğ´·¨£¬Ê×ÏÈ½øĞĞÒ»¸ö¹¹ÔìÆ÷ÒıÓÃ£¬È»ºó½øĞĞÒ»¸ö·½·¨ÒıÓÃ
-        // ÒıÓÃµÄÌØÕ÷¾ÍÊÇË«ÒıºÅ
+        // è¿™é‡Œå°±æ˜¯ç®€åŒ–å†™æ³•ï¼Œé¦–å…ˆè¿›è¡Œä¸€ä¸ªæ„é€ å™¨å¼•ç”¨ï¼Œç„¶åè¿›è¡Œä¸€ä¸ªæ–¹æ³•å¼•ç”¨
+        // å¼•ç”¨çš„ç‰¹å¾å°±æ˜¯åŒå¼•å·
     }
 }

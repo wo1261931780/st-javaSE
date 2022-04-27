@@ -1,24 +1,24 @@
-package c2stage_20220203.ccc050°ü×°Àà;
+package c2stage_20220203.ccc050åŒ…è£…ç±»;
 
-public class ccc004int_stringÏà»¥×ª»» {
+public class ccc004int_stringç›¸äº’è½¬æ¢ {
     public static void main(String[] args) {
         int xx = 10;
-        // ÕâÀïµÄËùÓĞ²Ù×÷Ò²±ØĞëÊÇÔÚÍêÈ«Êı×ÖµÄÇé¿öÏÂ½øĞĞ
-        // intÀàĞÍ×ª»¯ÎªstringÀàĞÍ
-        // ÏÈ¶¨ÒåÎªstring
+        // è¿™é‡Œçš„æ‰€æœ‰æ“ä½œä¹Ÿå¿…é¡»æ˜¯åœ¨å®Œå…¨æ•°å­—çš„æƒ…å†µä¸‹è¿›è¡Œ
+        // intç±»å‹è½¬åŒ–ä¸ºstringç±»å‹
+        // å…ˆå®šä¹‰ä¸ºstring
         String x1 = String.valueOf(xx);
         System.out.println(xx);
         System.out.println("----------------");
 
         String s = "200";
-        // ×ª»¯Îªinteger
+        // è½¬åŒ–ä¸ºinteger
         Integer s1 = Integer.valueOf(s);
-        // È»ºó±ä³Éint
+        // ç„¶åå˜æˆint
         int s2 = s1.intValue();
         System.out.println(s2);
         System.out.println("----------------");
 
-        // ÕâÀïµ÷ÓÃ·½·¨Ö±½Ó±ä³Éint
+        // è¿™é‡Œè°ƒç”¨æ–¹æ³•ç›´æ¥å˜æˆint
         int w = Integer.parseInt(s);
         System.out.println(w);
     }

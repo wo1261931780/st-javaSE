@@ -1,18 +1,18 @@
-package c2stage_20220213.ccc053arrays¶Ô±È½ÏÆ÷µÄÖ§³Ö;
+package c2stage_20220213.ccc053arrayså¯¹æ¯”è¾ƒå™¨çš„æ”¯æŒ;
 
 /**
  * Created by Intellij IDEA.
  * Project:index.pb
- * Package:c2stage_20220213.ccc053arrays¶Ô±È½ÏÆ÷µÄÖ§³Ö
+ * Package:c2stage_20220213.ccc053arrayså¯¹æ¯”è¾ƒå™¨çš„æ”¯æŒ
  * User:  wo1261931780@gmail.com
- * Time:  2022-02-22-28  ĞÇÆÚÈı
+ * Time:  2022-02-22-28  æ˜ŸæœŸä¸‰
  */
-public class ccc002¶ÔÏóÀà {
+public class ccc002å¯¹è±¡ç±» {
     private String name;
     private int age;
     private String address;
 
-    public ccc002¶ÔÏóÀà() {
+    public ccc002å¯¹è±¡ç±»() {
     }
 
     public String getName() {
@@ -39,17 +39,17 @@ public class ccc002¶ÔÏóÀà {
         this.address = address;
     }
 
-    public ccc002¶ÔÏóÀà(String name, int age, String address) {
+    public ccc002å¯¹è±¡ç±»(String name, int age, String address) {
         this.name = name;
         this.age = age;
         this.address = address;
     }
 
-    //2022Äê2ÔÂ16ÈÕ23:12:06£¬ÖØĞ´Ò»¸ötostring·½·¨£¬±ÜÃâ×Ô¶¯³öÏÖ¶ÔÏóµØÖ·
+    //2022å¹´2æœˆ16æ—¥23:12:06ï¼Œé‡å†™ä¸€ä¸ªtostringæ–¹æ³•ï¼Œé¿å…è‡ªåŠ¨å‡ºç°å¯¹è±¡åœ°å€
 
     @Override
     public String toString() {
-        return "ccc002¶ÔÏóÀà{" +
+        return "ccc002å¯¹è±¡ç±»{" +
                 "name='" + name + '\'' +
                 ", age=" + age +
                 ", address='" + address + '\'' +

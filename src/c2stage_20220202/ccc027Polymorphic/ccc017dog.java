@@ -1,6 +1,6 @@
 package c2stage_20220202.ccc027Polymorphic;
 
-//作为子类
+//浣滀负瀛愮被
 public class ccc017dog extends ccc016animal {
     public int age = 20;
     public int weight = 10;

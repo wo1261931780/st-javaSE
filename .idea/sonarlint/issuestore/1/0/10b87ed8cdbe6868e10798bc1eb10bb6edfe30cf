@@ -1,25 +1,0 @@
-
-X	java:S125"<This block of commented-out lines of code should be removed.(îæûã8æÆÌ/
-N	java:S106"9Replace this use of System.out or System.err by a logger.(áÇ“Ş
-S	java:S106"9Replace this use of System.out or System.err by a logger.(ÕÇÕûÿÿÿÿ
-X	java:S125"<This block of commented-out lines of code should be removed.(…¥²Ê8÷ÆÌ/
-]	java:S125-"<This block of commented-out lines of code should be removed.(± Åıÿÿÿÿ8üÆÌ/
-X	java:S125/"<This block of commented-out lines of code should be removed.(…‹8ıÆÌ/
-U	java:S106>"9Replace this use of System.out or System.err by a logger.(¼£òû8æõ´ÃÆ/
-T	java:S106?"9Replace this use of System.out or System.err by a logger.(ş˜8æõ´ÃÆ/
-Z	java:S106@"9Replace this use of System.out or System.err by a logger.(–Šı¼ûÿÿÿÿ8æõ´ÃÆ/
-Z	java:S106A"9Replace this use of System.out or System.err by a logger.(«æå½ıÿÿÿÿ8æõ´ÃÆ/
-]	java:S125I"<This block of commented-out lines of code should be removed.(± Åıÿÿÿÿ8„ÇÌ/
-X	java:S125K"<This block of commented-out lines of code should be removed.(…‹8„ÇÌ/
-4
-java:S2119^"Save and re-use this "Random".(ˆÅ
-‹
-java:S1319D"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(å—´ƒøÿÿÿÿ
-|
-java:S1319D"aThe type of "x" should be an interface such as "List" rather than the implementation "ArrayList".(å—´ƒøÿÿÿÿ
-|
-java:S1319]"aThe type of "x" should be an interface such as "List" rather than the implementation "ArrayList".(Ûé¡éúÿÿÿÿ
-v
-java:S1488`"[Immediately return this expression instead of assigning it to the temporary variable "xx3".(È–Ñ‘üÿÿÿÿ
-g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(®˜×±ùÿÿÿÿ
-t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ïˆ‘åıÿÿÿÿ

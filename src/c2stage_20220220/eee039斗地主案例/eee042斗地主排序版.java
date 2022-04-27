@@ -1,13 +1,13 @@
-package c2stage_20220220.eee039¶·µØÖ÷°¸Àı;
+package c2stage_20220220.eee039æ–—åœ°ä¸»æ¡ˆä¾‹;
 
 import java.util.*;
 
-public class eee042¶·µØÖ÷ÅÅĞò°æ {
+public class eee042æ–—åœ°ä¸»æ’åºç‰ˆ {
     public static void main(String[] args) {
         ArrayList<String> x1 = new ArrayList<>();
-        String[] p1 = {"·½Æ¬", "Ã·»¨", "ºìÌÒ", "ºÚÌÒ"};
+        String[] p1 = {"æ–¹ç‰‡", "æ¢…èŠ±", "çº¢æ¡ƒ", "é»‘æ¡ƒ"};
         String[] p2 = {"2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K", "A"};
-        String[] p3 = {"´ójoker", "Ğ¡joker"};
+        String[] p3 = {"å¤§joker", "å°joker"};
         for (String i : p1) {
             for (String i2 : p2) {
                 String pp = i + i2;

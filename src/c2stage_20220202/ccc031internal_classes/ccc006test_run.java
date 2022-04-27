@@ -3,19 +3,19 @@ package c2stage_20220202.ccc031internal_classes;
 public class ccc006test_run {
     public static void main(String[] args) {
         ccc005Member_Internal_Classes.ceshi1 x = new ccc005Member_Internal_Classes().new ceshi1();
-        // Ê×ÏÈ£¬´ÓÍâ²¿·ÃÎÊ±ØĞë×ñÑ­ÉÏÃæµÄÓï·¨
-        // Æä´Î£¬ÔÚÀàÃû.ÄÚ²¿ÀàÃû·ÃÎÊµÄÊ±ºò£¬
-        // ¼ÇµÃ¼ÓÀ¨ºÅ
+        // é¦–å…ˆï¼Œä»å¤–éƒ¨è®¿é—®å¿…é¡»éµå¾ªä¸Šé¢çš„è¯­æ³•
+        // å…¶æ¬¡ï¼Œåœ¨ç±»å.å†…éƒ¨ç±»åè®¿é—®çš„æ—¶å€™ï¼Œ
+        // è®°å¾—åŠ æ‹¬å·
         x.show();
 
         // ***************************************
-        // ÕâÑùÀí½â£º
+        // è¿™æ ·ç†è§£ï¼š
         // ccc005Member_Internal_Classes.ceshi1 x=new ccc005Member_Internal_Classes().new ceshi1();
-        // Ê×ÏÈÎÒÔÚccc005Member_Internal_ClassesµÄÄÚ²¿Ààceshi1´´½¨¶ÔÏßx
-        // ¾ßÌåµÄÖ´ĞĞÁ÷³Ì£ºÊ×ÏÈÔÚnew ccc005Member_Internal_Classes()ĞÂ½¨Ò»¸ö¶ÔÏó
-        // È»ºóÕâ¸ö¶ÔÏó¼ÌĞøĞÂ½¨Ò»¸önew ceshi1();
-        // ÕâÑùÎÒ¾ÍµÃµ½ÁËÒ»¸öÄÚ²¿ÀàµÄ¶ÔÏóx
-        // ¶ÔÏóx¾Í¿ÉÒÔµ÷ÓÃÄÚ²¿ÀàµÄshow·½·¨
+        // é¦–å…ˆæˆ‘åœ¨ccc005Member_Internal_Classesçš„å†…éƒ¨ç±»ceshi1åˆ›å»ºå¯¹çº¿x
+        // å…·ä½“çš„æ‰§è¡Œæµç¨‹ï¼šé¦–å…ˆåœ¨new ccc005Member_Internal_Classes()æ–°å»ºä¸€ä¸ªå¯¹è±¡
+        // ç„¶åè¿™ä¸ªå¯¹è±¡ç»§ç»­æ–°å»ºä¸€ä¸ªnew ceshi1();
+        // è¿™æ ·æˆ‘å°±å¾—åˆ°äº†ä¸€ä¸ªå†…éƒ¨ç±»çš„å¯¹è±¡x
+        // å¯¹è±¡xå°±å¯ä»¥è°ƒç”¨å†…éƒ¨ç±»çš„showæ–¹æ³•
 
 
     }

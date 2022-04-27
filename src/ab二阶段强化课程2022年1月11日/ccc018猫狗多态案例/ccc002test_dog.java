@@ -1,4 +1,4 @@
-package ab¶ş½×¶ÎÇ¿»¯¿Î³Ì2022Äê1ÔÂ11ÈÕ.ccc018Ã¨¹·¶àÌ¬°¸Àı;
+package abäºŒé˜¶æ®µå¼ºåŒ–è¯¾ç¨‹2022å¹´1æœˆ11æ—¥.ccc018çŒ«ç‹—å¤šæ€æ¡ˆä¾‹;
 
 public class ccc002test_dog extends ccc001test_animal {
     public ccc002test_dog(int age, String name) {
@@ -11,10 +11,10 @@ public class ccc002test_dog extends ccc001test_animal {
 
     @Override
     public void eat(ccc001test_animal x) {
-        System.out.println("ÎÒÊÇ×ÓÀà£¬¹·ÖĞµÄeat·½·¨");
+        System.out.println("æˆ‘æ˜¯å­ç±»ï¼Œç‹—ä¸­çš„eatæ–¹æ³•");
         System.out.println(x.getName() + x.getAge());
-        // ÖØĞ´¹ı³ÌÖĞ£¬±ØĞë±£³ÖÖØĞ´Ç°ºóµÄÀ¨ºÅÄÚ£¬±äÁ¿Ò»ÖÂ
-        // ²»ÄÜ¸¸ÀàÖĞÃ»ÓĞ´«µİ±äÁ¿£¬×ÓÀàÖĞ´«µİ
+        // é‡å†™è¿‡ç¨‹ä¸­ï¼Œå¿…é¡»ä¿æŒé‡å†™å‰åçš„æ‹¬å·å†…ï¼Œå˜é‡ä¸€è‡´
+        // ä¸èƒ½çˆ¶ç±»ä¸­æ²¡æœ‰ä¼ é€’å˜é‡ï¼Œå­ç±»ä¸­ä¼ é€’
 
     }
 }

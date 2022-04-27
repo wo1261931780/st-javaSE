@@ -5,7 +5,7 @@ package c2stage_20220326.ccc097treemap;
  * Project:index.pb
  * Package:c2stage_20220326.ccc097treemap
  * User:  wo1261931780@gmail.com
- * Time:  2022-03-20-58  –«∆⁄»’
+ * Time:  2022-03-20-58  √ê√á√Ü√ö√à√ï
  */
 public class ccc001object implements Comparable<ccc001object> {
     private String name;

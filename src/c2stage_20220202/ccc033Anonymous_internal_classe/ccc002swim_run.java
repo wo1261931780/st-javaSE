@@ -5,41 +5,41 @@ public class ccc002swim_run {
         ccc001swim students = new ccc001swim() {
             @Override
             public void swim() {
-                System.out.println("Ñ§ÉúÓÎÓ¾");
+                System.out.println("å­¦ç”Ÿæ¸¸æ³³");
             }
         };
-        competition(students);//×¢Òâ£¬ÕâÀï±ØĞëÊÇ¾²Ì¬µÄ²Å¿ÉÒÔµ÷ÓÃ
-        //·Ç¾²Ì¬µÄÎŞ·¨Ê¹ÓÃ
+        competition(students);//æ³¨æ„ï¼Œè¿™é‡Œå¿…é¡»æ˜¯é™æ€çš„æ‰å¯ä»¥è°ƒç”¨
+        //éé™æ€çš„æ— æ³•ä½¿ç”¨
         System.out.println("***************************");
         competition(new ccc001swim() {
             @Override
             public void swim() {
-                System.out.println("ÀÏÊ¦ÓÎÓ¾");
+                System.out.println("è€å¸ˆæ¸¸æ³³");
             }
         });
         System.out.println("***************************");
-        ((ccc001swim) () -> System.out.println("lambda±í´ïÊ½¼ò»¯")).swim();//Õâ¸ö¾ÍÊÇlambda±í´ïÊ½£¬½øÒ»²½¼ò»¯ÄäÃûÄÚ²¿Àà
-        //(ccc001swim) () -> System.out.println("lambda±í´ïÊ½¼ò»¯")£¬Ö±½Ó×÷ÎªÒ»¸ö¶ÔÏó
-        //(ccc001swim) ()±íÊ¾ĞÂ½¨ÁËÒ»¸öswimÖĞµÄ¶ÔÏó
-        // -> System.out.println("lambda±í´ïÊ½¼ò»¯")¶Ô·½·¨ÖØĞ´
+        ((ccc001swim) () -> System.out.println("lambdaè¡¨è¾¾å¼ç®€åŒ–")).swim();//è¿™ä¸ªå°±æ˜¯lambdaè¡¨è¾¾å¼ï¼Œè¿›ä¸€æ­¥ç®€åŒ–åŒ¿åå†…éƒ¨ç±»
+        //(ccc001swim) () -> System.out.println("lambdaè¡¨è¾¾å¼ç®€åŒ–")ï¼Œç›´æ¥ä½œä¸ºä¸€ä¸ªå¯¹è±¡
+        //(ccc001swim) ()è¡¨ç¤ºæ–°å»ºäº†ä¸€ä¸ªswimä¸­çš„å¯¹è±¡
+        // -> System.out.println("lambdaè¡¨è¾¾å¼ç®€åŒ–")å¯¹æ–¹æ³•é‡å†™
 
         System.out.println("***************************");
         new ccc001swim() {
             @Override
             public void swim() {
-                System.out.println("Î´Ê¹ÓÃlambda±í´ïÊ½");
+                System.out.println("æœªä½¿ç”¨lambdaè¡¨è¾¾å¼");
             }
         }.swim();
         System.out.println("***************************");
-        competition((ccc001swim) () -> System.out.println("ÔË¶¯Ô±ÓÎÓ¾"));
+        competition((ccc001swim) () -> System.out.println("è¿åŠ¨å‘˜æ¸¸æ³³"));
 
 
     }
 
     public static void competition(ccc001swim x) {
-        System.out.println("¿ªÊ¼");
+        System.out.println("å¼€å§‹");
         x.swim();
-        System.out.println("½áÊø");
+        System.out.println("ç»“æŸ");
     }
 
 }

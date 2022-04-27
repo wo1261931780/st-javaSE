@@ -1,12 +1,12 @@
-package ab¶ş½×¶ÎÇ¿»¯¿Î³Ì2022Äê1ÔÂ11ÈÕ.ccc102×ÓÀà¸¸ÀàÊı¾İÒıÓÃ;
+package abäºŒé˜¶æ®µå¼ºåŒ–è¯¾ç¨‹2022å¹´1æœˆ11æ—¥.ccc102å­ç±»çˆ¶ç±»æ•°æ®å¼•ç”¨;
 
-public class ccc005²âÊÔ {
+public class ccc005æµ‹è¯• {
     public static void main(String[] args) {
         System.out.println("test start--------");
         ccc003fu x1 = new ccc003fu();
         x1.show();
-        // ÕâÀï£¬Èç¹ûshow·½·¨Îª¾²Ì¬µÄ£¬ÔòÖ±½Ó±¨´í
-        // ²»Ó¦¸ÃÍ¨¹ıÊµÀı·ÃÎÊ¾²Ì¬³ÉÔ±
+        // è¿™é‡Œï¼Œå¦‚æœshowæ–¹æ³•ä¸ºé™æ€çš„ï¼Œåˆ™ç›´æ¥æŠ¥é”™
+        // ä¸åº”è¯¥é€šè¿‡å®ä¾‹è®¿é—®é™æ€æˆå‘˜
         ccc004zi x2 = new ccc004zi();
         x2.zi();
         System.out.println();

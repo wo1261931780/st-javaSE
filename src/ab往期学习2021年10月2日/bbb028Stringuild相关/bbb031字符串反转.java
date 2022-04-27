@@ -1,30 +1,30 @@
-package abÍùÆÚÑ§Ï°2021Äê10ÔÂ2ÈÕ.bbb028StringuildÏà¹Ø;
+package abå¾€æœŸå­¦ä¹ 2021å¹´10æœˆ2æ—¥.bbb028Stringuildç›¸å…³;
 
 import java.util.Scanner;
 
-public class bbb031×Ö·û´®·´×ª {
+public class bbb031å­—ç¬¦ä¸²åè½¬ {
     public static void main(String[] args) {
         Scanner zz = new Scanner(System.in);
-        System.out.println("ÇëÊäÈë×Ö·û´®£º");
+        System.out.println("è¯·è¾“å…¥å­—ç¬¦ä¸²ï¼š");
         String z1 = zz.nextLine();
-        bbb031×Ö·û´®·´×ª ff = new bbb031×Ö·û´®·´×ª();
+        bbb031å­—ç¬¦ä¸²åè½¬ ff = new bbb031å­—ç¬¦ä¸²åè½¬();
         ff.fz(z1);
-        /*ÏÂÃæÊÇÊıÁĞÊµÏÖ·´×ª£¬µ«ÊÇ»¹²»¹»ÍêÉÆ
+        /*ä¸‹é¢æ˜¯æ•°åˆ—å®ç°åè½¬ï¼Œä½†æ˜¯è¿˜ä¸å¤Ÿå®Œå–„
         int[] xx={1,2,3};
-        bbb031×Ö·û´®·´×ª x1=new bbb031×Ö·û´®·´×ª();
+        bbb031å­—ç¬¦ä¸²åè½¬ x1=new bbb031å­—ç¬¦ä¸²åè½¬();
         x1.fz(xx);*/
     }
 
     public void fz(String z1) {
         System.out.println(z1);
         // String s="";
-        //Í¨¹ı·´Ïò±éÀúµÄ·½·¨»ñÈ¡×Ö·û´®£¬È»ºóÆ´½Ó¼´¿É
+        //é€šè¿‡åå‘éå†çš„æ–¹æ³•è·å–å­—ç¬¦ä¸²ï¼Œç„¶åæ‹¼æ¥å³å¯
         for (int z = z1.length() - 1; z >= 0; z--) {
             System.out.print(z1.charAt(z) + "-");
             // s+=z1.charAt(z);
-            // ÕâÀï¹Ù·½µÄ·½·¨¶àÁËÒ»²½×Ô¶¨Òå±äÁ¿¡£
+            // è¿™é‡Œå®˜æ–¹çš„æ–¹æ³•å¤šäº†ä¸€æ­¥è‡ªå®šä¹‰å˜é‡ã€‚
         }
-        System.out.println("·´×ª½áÊø");
+        System.out.println("åè½¬ç»“æŸ");
 
         /*
         String x2="";

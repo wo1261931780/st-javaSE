@@ -3,17 +3,17 @@ package c2stage_20220220.ccc057collection;
 import java.util.ArrayList;
 import java.util.Collection;
 
-public class ccc002collection¼¯ºÏ¶ÔÏó {
+public class ccc002collectioné›†åˆå¯¹è±¡ {
     public static void main(String[] args) {
-        System.out.println("¿ªÊ¼Ö´ĞĞ");
+        System.out.println("å¼€å§‹æ‰§è¡Œ");
         Collection<String> x = new ArrayList<>();
-        // Í¨¹ı¶àÌ¬µÄ·½Ê½£¬´´½¨×ÓÀà¶ÔÏó
+        // é€šè¿‡å¤šæ€çš„æ–¹å¼ï¼Œåˆ›å»ºå­ç±»å¯¹è±¡
         // ArrayList<String> x1=new ArrayList<>();
-        // ÀàËÆÉÏÃæµÄ·½Ê½
+        // ç±»ä¼¼ä¸Šé¢çš„æ–¹å¼
         x.add("aaaa");
-        x.add("bbb");//add·½·¨·µ»ØtrueºÍfalse
-        x.add("ccc");//±íÊ¾Ìí¼Ó³É¹¦
+        x.add("bbb");//addæ–¹æ³•è¿”å›trueå’Œfalse
+        x.add("ccc");//è¡¨ç¤ºæ·»åŠ æˆåŠŸ
         System.out.println(x);
-        // ÉÏÃæ´úÂëµÄ½á¹û£º[aaaa, bbb, ccc]
+        // ä¸Šé¢ä»£ç çš„ç»“æœï¼š[aaaa, bbb, ccc]
     }
 }

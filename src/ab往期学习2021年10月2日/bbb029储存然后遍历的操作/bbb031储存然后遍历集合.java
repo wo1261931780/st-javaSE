@@ -1,8 +1,8 @@
-package abÍùÆÚÑ§Ï°2021Äê10ÔÂ2ÈÕ.bbb029´¢´æÈ»ºó±éÀúµÄ²Ù×÷;
+package abå¾€æœŸå­¦ä¹ 2021å¹´10æœˆ2æ—¥.bbb029å‚¨å­˜ç„¶åéå†çš„æ“ä½œ;
 
 import java.util.ArrayList;
 
-public class bbb031´¢´æÈ»ºó±éÀú¼¯ºÏ {
+public class bbb031å‚¨å­˜ç„¶åéå†é›†åˆ {
     public static void main(String[] args) {
         //         Random zz=new Random();
         //         int z1=zz.nextInt(1000);
@@ -14,9 +14,9 @@ public class bbb031´¢´æÈ»ºó±éÀú¼¯ºÏ {
         // //        xx.add(zq);
         // //        ArrayList<int> z=new ArrayList<int>();
         // //        xx.add("z1");
-        //         System.out.println("¿ªÊ¼±éÀú");
+        //         System.out.println("å¼€å§‹éå†");
         //         for (int x=0;x<xx.size();x++){
-        //             System.out.println("Êä³ö");
+        //             System.out.println("è¾“å‡º");
         //             System.out.println(xx.get(x));
         //         }
         ArrayList<String> x = new ArrayList<>();
@@ -25,7 +25,7 @@ public class bbb031´¢´æÈ»ºó±éÀú¼¯ºÏ {
         x.add("333");
         System.out.print("[");
         for (int i = 0; i < x.size(); i++) {
-            System.out.print("µÚ" + (i + 1) + "¸öÊı¾İÎª£º" + x.get(i) + "--");
+            System.out.print("ç¬¬" + (i + 1) + "ä¸ªæ•°æ®ä¸ºï¼š" + x.get(i) + "--");
         }
         System.out.print("]");
     }

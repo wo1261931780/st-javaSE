@@ -5,7 +5,7 @@ package c2stage_20220220.ccc074genericity_impl;
  * Project:index.pb
  * Package:c2stage_20220220.ccc074genericity_impl
  * User:  wo1261931780@gmail.com
- * Time:  2022-02-12-33  –«∆⁄»’
+ * Time:  2022-02-12-33  √ê√á√Ü√ö√à√ï
  */
 public interface ccc001impl<E> {
     void add(E e);

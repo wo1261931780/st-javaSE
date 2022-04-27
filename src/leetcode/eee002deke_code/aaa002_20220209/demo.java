@@ -48,7 +48,7 @@ public class demo {
 
     }
 
-    public static StringBuilder show5(StringBuilder x) {// ¡¢Ctrl-A
+    public static StringBuilder show5(StringBuilder x) {// Â¡Â¢Ctrl-A
         if (x == null) {
             return null;
         } else {

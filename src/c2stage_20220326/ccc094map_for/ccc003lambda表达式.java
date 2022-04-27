@@ -9,9 +9,9 @@ import java.util.function.BiConsumer;
  * Project:index.pb
  * Package:c2stage_20220326.ccc094map_for
  * User:  wo1261931780@gmail.com
- * Time:  2022-03-17-28  ĞÇÆÚÈÕ
+ * Time:  2022-03-17-28  æ˜ŸæœŸæ—¥
  */
-public class ccc003lambda±í´ïÊ½ {
+public class ccc003lambdaè¡¨è¾¾å¼ {
     public static void main(String[] args) {
         Map<String, Integer> x = new HashMap<>();
         x.put("a1", 11);

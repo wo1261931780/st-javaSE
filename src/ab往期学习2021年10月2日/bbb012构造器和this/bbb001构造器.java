@@ -1,15 +1,15 @@
-package abÍùÆÚÑ§Ï°2021Äê10ÔÂ2ÈÕ.bbb012¹¹ÔìÆ÷ºÍthis;
+package abå¾€æœŸå­¦ä¹ 2021å¹´10æœˆ2æ—¥.bbb012æ„é€ å™¨å’Œthis;
 
-public class bbb001¹¹ÔìÆ÷ {
+public class bbb001æ„é€ å™¨ {
     String name;
     int price;
 
-    public bbb001¹¹ÔìÆ÷(String name, int price) {
+    public bbb001æ„é€ å™¨(String name, int price) {
         this.name = name;
         this.price = price;
     }
 
     public void race(String name) {
-        System.out.println("³ÉÔ±±äÁ¿ÖĞµÄ" + this.name + "ÕıÔÚºÍ´«µİ¹ıÀ´µÄ" + name + "±ÈÈü");
+        System.out.println("æˆå‘˜å˜é‡ä¸­çš„" + this.name + "æ­£åœ¨å’Œä¼ é€’è¿‡æ¥çš„" + name + "æ¯”èµ›");
     }
 }

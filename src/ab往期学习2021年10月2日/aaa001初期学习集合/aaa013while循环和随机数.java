@@ -1,4 +1,4 @@
-package abÍùÆÚÑ§Ï°2021Äê10ÔÂ2ÈÕ.aaa001³õÆÚÑ§Ï°¼¯ºÏ;
+package abå¾€æœŸå­¦ä¹ 2021å¹´10æœˆ2æ—¥.aaa001åˆæœŸå­¦ä¹ é›†åˆ;
  /*
 import java.util.Random;
 
@@ -17,50 +17,50 @@ public class b11{
 import java.util.Random;
 import java.util.Scanner;
 
-public class aaa013whileÑ­»·ºÍËæ»úÊý {
+public class aaa013whileå¾ªçŽ¯å’Œéšæœºæ•° {
     /**
-     * Éú³ÉËæ»úÊý£¬²¢¸ù¾ÝÊäÈë½øÐÐÅÐ¶Ï´óÐ¡
+     * ç”Ÿæˆéšæœºæ•°ï¼Œå¹¶æ ¹æ®è¾“å…¥è¿›è¡Œåˆ¤æ–­å¤§å°
      */
     public static void main(String[] args) {
         Random b11 = new Random();
         Scanner b22 = new Scanner(System.in);
-        //»ñÈ¡Ëæ»úÊý£¬À¨ºÅÄÚÊÇ·¶Î§
+        //èŽ·å–éšæœºæ•°ï¼Œæ‹¬å·å†…æ˜¯èŒƒå›´
         int xx = b11.nextInt(100);
-        // ÉÏÃæÃ¿´ÎÖ´ÐÐ£¬¾Í»áÉú³ÉÒ»¸öËæ»úÊý
+        // ä¸Šé¢æ¯æ¬¡æ‰§è¡Œï¼Œå°±ä¼šç”Ÿæˆä¸€ä¸ªéšæœºæ•°
         int xx2 = b11.nextInt(100) + 1;
-        //ÉÏÃæµÄxx·¶Î§[0-99),xx2·¶Î§²ÅÄÜµ½1-100¡£
+        //ä¸Šé¢çš„xxèŒƒå›´[0-99),xx2èŒƒå›´æ‰èƒ½åˆ°1-100ã€‚
         while (true) {
-            System.out.println("ÊäÈë¹ÀËãÖµ£º");
+            System.out.println("è¾“å…¥ä¼°ç®—å€¼ï¼š");
             int x1 = b22.nextInt();
             int xs = 0;
-            //System.out.println("¹ÀËãÕýÈ·");
+            //System.out.println("ä¼°ç®—æ­£ç¡®");
             if (x1 > xx) {
-                System.out.println("¹ÀËã¹ý´ó");
+                System.out.println("ä¼°ç®—è¿‡å¤§");
             } else if (x1 < xx) {
-                System.out.println("¹ÀËã¹ýÐ¡");
+                System.out.println("ä¼°ç®—è¿‡å°");
             } else {
-                System.out.println("¹ÀËãÕýÈ·");
+                System.out.println("ä¼°ç®—æ­£ç¡®");
                 break;
             }
         }
         show();
     }
 
-    //2021Äê9ÔÂ8ÈÕ15:34:25
+    //2021å¹´9æœˆ8æ—¥15:34:25
     // public static void main(String[] args) {
-    //     System.out.println("¿ªÊ¼²Â²â");
+    //     System.out.println("å¼€å§‹çŒœæµ‹");
     //     Random x1 = new Random();
     //     int x2 = x1.nextInt(100) + 1;
     //     Scanner xx1 = new Scanner(System.in);
     //
-    //     System.out.println("ÇëÊäÈëÊý×Ö£º");
+    //     System.out.println("è¯·è¾“å…¥æ•°å­—ï¼š");
     //     int xx2 = xx1.nextInt();
     //     do {
     //         if (xx2 < x2) {
-    //             System.out.println("¹ýÐ¡");
+    //             System.out.println("è¿‡å°");
     //             xx2 = xx1.nextInt();
     //         } else if (xx2 > x2) {
-    //             System.out.println("¹ý´ó");
+    //             System.out.println("è¿‡å¤§");
     //             xx2 = xx1.nextInt();
     //         }
     //     } while (xx2 != x2);
@@ -73,10 +73,10 @@ public class aaa013whileÑ­»·ºÍËæ»úÊý {
         do {
             int x3 = x2.nextInt();
             if (x3 > x1) {
-                System.out.println("´óÓÚ");
+                System.out.println("å¤§äºŽ");
 
             } else if (x3 < x1) {
-                System.out.println("Ð¡ÓÚ");
+                System.out.println("å°äºŽ");
 
             } else if (x3 == x1) {
                 break;

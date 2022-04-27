@@ -1,20 +1,20 @@
-package abÍùÆÚÑ§Ï°2021Äê10ÔÂ2ÈÕ.bbb011ÉÌ³Ç°¸Àı;
+package abå¾€æœŸå­¦ä¹ 2021å¹´10æœˆ2æ—¥.bbb011å•†åŸæ¡ˆä¾‹;
 
-public class bbb003ÉÌÆ·Ààgetset {
+public class bbb003å•†å“ç±»getset {
     private String name;
     private int price;
     private int num;
     private int id;
 
 
-    public bbb003ÉÌÆ·Ààgetset(String name, int price, int num, int id) {
+    public bbb003å•†å“ç±»getset(String name, int price, int num, int id) {
         this.name = name;
         this.price = price;
         this.num = num;
         this.id = id;
     }
 
-    public bbb003ÉÌÆ·Ààgetset() {
+    public bbb003å•†å“ç±»getset() {
     }
 
     public String getName() {

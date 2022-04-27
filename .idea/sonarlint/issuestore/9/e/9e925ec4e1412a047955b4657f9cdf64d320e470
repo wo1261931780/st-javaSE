@@ -1,8 +1,0 @@
-
-S	java:S106"9Replace this use of System.out or System.err by a logger.(Ëéÿ˜ùÿÿÿÿ
-N	java:S106"9Replace this use of System.out or System.err by a logger.(È©ƒ«
-S	java:S106"9Replace this use of System.out or System.err by a logger.(½‹ ıÿÿÿÿ
-b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(¢ÙÔ
-t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(·òó‰úÿÿÿÿ
-b
-java:S2095"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(İúÂ

@@ -1,4 +1,4 @@
-package abÍùÆÚÑ§Ï°2021Äê10ÔÂ2ÈÕ.bbb055×Ô¼ºĞ´µÄÑ§Éú¹ÜÀíÏµÍ³;
+package abå¾€æœŸå­¦ä¹ 2021å¹´10æœˆ2æ—¥.bbb055è‡ªå·±å†™çš„å­¦ç”Ÿç®¡ç†ç³»ç»Ÿ;
 
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -29,25 +29,25 @@ public class bbb067 {
                     jm(ceshi);
                     break;
                 case 5:
-                    System.out.println("¸ĞĞ»Ê¹ÓÃÏµÍ³");
+                    System.out.println("æ„Ÿè°¢ä½¿ç”¨ç³»ç»Ÿ");
                     return;
                 default:
-                    System.out.println("Êı×Ö´íÎó£¬³ÌĞòÍË³ö");
+                    System.out.println("æ•°å­—é”™è¯¯ï¼Œç¨‹åºé€€å‡º");
                     break;
             }
         }
-        System.out.println("³ÌĞòÍË³ö³É¹¦");
+        System.out.println("ç¨‹åºé€€å‡ºæˆåŠŸ");
     }
 
     public static void jm(ArrayList<bbb066lei> ceshi) {
         Scanner shuru = new Scanner(System.in);
-        System.out.println("----------Ñ§Éú¹ÜÀíÏµÍ³----------");
-        System.out.println("1.Ìí¼ÓÑ§Éú");
-        System.out.println("2.É¾³ıÑ§Éú");
-        System.out.println("3.ĞŞ¸ÄÑ§Éú");
-        System.out.println("4.²é¿´ËùÓĞÑ§Éú");
-        System.out.println("5.ÍË³ö");
-        System.out.println("ÇëÊäÈëÄãµÄÑ¡Ôñ£º");
+        System.out.println("----------å­¦ç”Ÿç®¡ç†ç³»ç»Ÿ----------");
+        System.out.println("1.æ·»åŠ å­¦ç”Ÿ");
+        System.out.println("2.åˆ é™¤å­¦ç”Ÿ");
+        System.out.println("3.ä¿®æ”¹å­¦ç”Ÿ");
+        System.out.println("4.æŸ¥çœ‹æ‰€æœ‰å­¦ç”Ÿ");
+        System.out.println("5.é€€å‡º");
+        System.out.println("è¯·è¾“å…¥ä½ çš„é€‰æ‹©ï¼š");
         //        int sr=shuru.nextInt();
     }
 
@@ -55,9 +55,9 @@ public class bbb067 {
     public static void tj(ArrayList<bbb066lei> ceshi) {
         Scanner shuru = new Scanner(System.in);
         String srsz = "";
-        ////////////ÕâÒ»¶Î²»ÄÜÀí½â
+        ////////////è¿™ä¸€æ®µä¸èƒ½ç†è§£
         while (true) {
-            System.out.println("Ñ§ºÅÊı×Ö£º");
+            System.out.println("å­¦å·æ•°å­—ï¼š");
             srsz = shuru.nextLine();
             boolean falg = cf(ceshi, srsz);
             if (falg) {
@@ -66,13 +66,13 @@ public class bbb067 {
                 break;
             }
         }
-        ////////////ÕâÒ»¶Î²»ÄÜÀí½â
+        ////////////è¿™ä¸€æ®µä¸èƒ½ç†è§£
 
-        System.out.println("Ñ§ÉúĞÕÃû£º");
+        System.out.println("å­¦ç”Ÿå§“åï¼š");
         String srxm = shuru.nextLine();
-        System.out.println("Ñ§ÉúÄêÁä£º");
+        System.out.println("å­¦ç”Ÿå¹´é¾„ï¼š");
         String srxl = shuru.nextLine();
-        System.out.println("Ñ§ÉúµØÖ·£º");
+        System.out.println("å­¦ç”Ÿåœ°å€ï¼š");
         String srdz = shuru.nextLine();
         bbb066lei xs = new bbb066lei(srsz, srxm, srxl, srdz);
         //        bbb066lei x1=xs.getNumber();
@@ -86,7 +86,7 @@ public class bbb067 {
         for (int x = 0; x < ceshi.size(); x++) {
             bbb066lei x1 = ceshi.get(x);
             if (x1.getNumber().equals(srsz)) {
-                System.out.println("Ñ§ºÅÒÑ¾­´æÔÚ£¬ĞèÒªÖØĞÂÊäÈë");
+                System.out.println("å­¦å·å·²ç»å­˜åœ¨ï¼Œéœ€è¦é‡æ–°è¾“å…¥");
                 falg = true;
                 break;
             } else {
@@ -98,48 +98,48 @@ public class bbb067 {
     //2222222222222222
     public static void sc(ArrayList<bbb066lei> ceshi) {
         Scanner shuru = new Scanner(System.in);
-        System.out.println("ÇëÕıÈ·ÊäÈëÑ§ÉúÑ§ºÅ£º");
+        System.out.println("è¯·æ­£ç¡®è¾“å…¥å­¦ç”Ÿå­¦å·ï¼š");
         String sr = shuru.nextLine();
         for (int x = 0; x < ceshi.size(); x++) {
             bbb066lei xs = ceshi.get(x);
             if (xs.getNumber().equals(sr)) {
-                System.out.println("·¢ÏÖÊı¾İ" + xs.getName() + "Ö´ĞĞÉ¾³ı");
+                System.out.println("å‘ç°æ•°æ®" + xs.getName() + "æ‰§è¡Œåˆ é™¤");
                 ceshi.remove(x);
             } else {
-                System.out.println("Ñ§ºÅ²»´æÔÚ");
+                System.out.println("å­¦å·ä¸å­˜åœ¨");
             }
         }
-        System.out.println("É¾³ıÖ´ĞĞÍê±Ï");
+        System.out.println("åˆ é™¤æ‰§è¡Œå®Œæ¯•");
     }
 
     //333333333333333{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{{
     public static void xg(ArrayList<bbb066lei> ceshi) {
         Scanner shuru = new Scanner(System.in);
-        System.out.println("ÇëÊäÈëÒªĞŞ¸ÄµÄÑ§ÉúÑ§ºÅ");
+        System.out.println("è¯·è¾“å…¥è¦ä¿®æ”¹çš„å­¦ç”Ÿå­¦å·");
         String sr = shuru.nextLine();
         for (int x = 0; x < ceshi.size(); x++) {
-            System.out.println("¿ªÊ¼±éÀú");
+            System.out.println("å¼€å§‹éå†");
             bbb066lei xs = ceshi.get(x);
             if (xs.getNumber().equals(sr)) {
-                System.out.println("·¢ÏÖÊı¾İ" + xs.getName() + "Ö´ĞĞĞŞ¸Ä");
-                System.out.println("ĞŞ¸ÄÑ§ºÅÎª£º");
+                System.out.println("å‘ç°æ•°æ®" + xs.getName() + "æ‰§è¡Œä¿®æ”¹");
+                System.out.println("ä¿®æ”¹å­¦å·ä¸ºï¼š");
                 String srsz = shuru.nextLine();
                 xs.setNumber(srsz);
-                System.out.println("ĞŞ¸ÄÑ§ÉúĞÕÃûÎª£º");
+                System.out.println("ä¿®æ”¹å­¦ç”Ÿå§“åä¸ºï¼š");
                 String srxm = shuru.nextLine();
                 xs.setName(srxm);
-                System.out.println("ĞŞ¸ÄÑ§ÉúÄêÁä£º");
+                System.out.println("ä¿®æ”¹å­¦ç”Ÿå¹´é¾„ï¼š");
                 String srxl = shuru.nextLine();
                 xs.setAge(srxl);
-                System.out.println("ĞŞ¸ÄÑ§ÉúµØÖ·£º");
+                System.out.println("ä¿®æ”¹å­¦ç”Ÿåœ°å€ï¼š");
                 String srdz = shuru.nextLine();
                 xs.setAddress(srdz);
-                //Ì«¸´ÔÓÁË---------------------
+                //å¤ªå¤æ‚äº†---------------------
             } else {
-                System.out.println("Ñ§ºÅ²»´æÔÚ");
+                System.out.println("å­¦å·ä¸å­˜åœ¨");
             }
         }
-        System.out.println("ĞŞ¸ÄÍê³É");
+        System.out.println("ä¿®æ”¹å®Œæˆ");
     }
 
     //444444444444444444444444
@@ -148,12 +148,12 @@ public class bbb067 {
         //        String sr=shuru.nextLine();
         if (ceshi.size() != 0) {
             for (int xx = 0; xx < ceshi.size(); xx++) {
-                System.out.println("¿ªÊ¼±éÀú");
+                System.out.println("å¼€å§‹éå†");
                 bbb066lei xs = ceshi.get(xx);
                 System.out.println(xs.getNumber());
             }
         } else {
-            System.out.println("ÎŞÊı¾İ£¬ÇëÏÈÊäÈëÑ§ÉúĞÅÏ¢£¡");
+            System.out.println("æ— æ•°æ®ï¼Œè¯·å…ˆè¾“å…¥å­¦ç”Ÿä¿¡æ¯ï¼");
         }
     }
 

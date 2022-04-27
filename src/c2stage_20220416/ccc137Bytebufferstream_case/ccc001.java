@@ -7,7 +7,7 @@ import java.io.*;
  * Project:index.pb
  * Package:c2stage_20220416.ccc137Bytebufferstream_case
  * User:  wo1261931780@gmail.com
- * Time:  2022-04-20-13  ĞÇÆÚÁù
+ * Time:  2022-04-20-13  æ˜ŸæœŸå…­
  */
 public class ccc001 {
     public static void main(String[] args) {
@@ -28,7 +28,7 @@ public class ccc001 {
         try (
                 InputStream x1 = new FileInputStream(x);
                 OutputStream x2 = new FileOutputStream(xx1);
-                // ¶¨ÒåÒ²±ØĞëÔÚÄÚ²¿
+                // å®šä¹‰ä¹Ÿå¿…é¡»åœ¨å†…éƒ¨
         ) {
             int len;
             while ((len = x1.read()) != -1) {
@@ -39,7 +39,7 @@ public class ccc001 {
         }
         long endtime = System.currentTimeMillis();
         int during = (int) (endtime - sttime);
-        System.out.println("Ğ´Èë½áÊø" + (during / 60) + "Ãë");
+        System.out.println("å†™å…¥ç»“æŸ" + (during / 60) + "ç§’");
     }
 
     public static void show2(File x, File xx) {
@@ -60,7 +60,7 @@ public class ccc001 {
         }
         long endtime = System.currentTimeMillis();
         int during = (int) (endtime - sttime);
-        System.out.println("Ğ´Èë½áÊø" + (during / 60) + "Ãë");
+        System.out.println("å†™å…¥ç»“æŸ" + (during / 60) + "ç§’");
     }
 
     public static void show3(File x, File xx) {
@@ -80,7 +80,7 @@ public class ccc001 {
         }
         long endtime = System.currentTimeMillis();
         int during = (int) (endtime - sttime);
-        System.out.println("Ğ´Èë½áÊø" + (during / 60) + "Ãë");
+        System.out.println("å†™å…¥ç»“æŸ" + (during / 60) + "ç§’");
     }
 
     public static void show4(File x, File xx) {
@@ -102,7 +102,7 @@ public class ccc001 {
         }
         long endtime = System.currentTimeMillis();
         int during = (int) (endtime - sttime);
-        System.out.println("Ğ´Èë½áÊø" + (during / 60) + "Ãë");
+        System.out.println("å†™å…¥ç»“æŸ" + (during / 60) + "ç§’");
     }
 
 

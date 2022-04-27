@@ -1,21 +1,21 @@
-package ab¶ş½×¶ÎÇ¿»¯¿Î³Ì2022Äê1ÔÂ11ÈÕ.ccc102×ÓÀà¸¸ÀàÊı¾İÒıÓÃ;
+package abäºŒé˜¶æ®µå¼ºåŒ–è¯¾ç¨‹2022å¹´1æœˆ11æ—¥.ccc102å­ç±»çˆ¶ç±»æ•°æ®å¼•ç”¨;
 
 import java.util.Scanner;
 
 public class ccc004zi extends ccc003fu {
 
     public int age = 11;
-    //ÕâÀïËµÃ÷£¬Í¬Ò»±äÁ¿£¬Èç¹ûÔÚÀàÏÂÃæÓĞ¶¨Òå£¬ÔòÊ¹ÓÃ¸ø³öµÄÖµ
-    //ÏÈÊ¹ÓÃ·½·¨ÖĞµÄÖµ£¬
-    // È»ºóÊÇ×ÓÀàÖĞµÄ£¬
-    // ×îºóÊÇ¸¸ÀàµÄ
+    //è¿™é‡Œè¯´æ˜ï¼ŒåŒä¸€å˜é‡ï¼Œå¦‚æœåœ¨ç±»ä¸‹é¢æœ‰å®šä¹‰ï¼Œåˆ™ä½¿ç”¨ç»™å‡ºçš„å€¼
+    //å…ˆä½¿ç”¨æ–¹æ³•ä¸­çš„å€¼ï¼Œ
+    // ç„¶åæ˜¯å­ç±»ä¸­çš„ï¼Œ
+    // æœ€åæ˜¯çˆ¶ç±»çš„
 
     public void zi() {
         Scanner xx = new Scanner(System.in);
         System.out.println("please text your height in the line:");
         int height = xx.nextInt();
-        System.out.println("Éí¸ß£º" + height);
-        //ÓĞstaticÔòÎŞ·¨Ê¹ÓÃ
+        System.out.println("èº«é«˜ï¼š" + height);
+        //æœ‰staticåˆ™æ— æ³•ä½¿ç”¨
         System.out.println("age:" + age);
     }
 }

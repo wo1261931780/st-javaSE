@@ -5,7 +5,7 @@ package c2stage_20220220.ccc070genericity_definition;
  * Project:index.pb
  * Package:c2stage_20220220.ccc070genericity_definition
  * User:  wo1261931780@gmail.com
- * Time:  2022-02-23-05  ĞÇÆÚÁù
+ * Time:  2022-02-23-05  ÃÃ‡Ã†ÃšÃÃ¹
  */
 public class ccc001T_definition {
 }

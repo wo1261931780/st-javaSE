@@ -10,7 +10,7 @@ import java.util.function.BiConsumer;
  * Project:index.pb
  * Package:c2stage_20220326.ccc095vote_case
  * User:  wo1261931780@gmail.com
- * Time:  2022-03-17-46  ÐÇÆÚÈÕ
+ * Time:  2022-03-17-46  æ˜ŸæœŸæ—¥
  */
 public class ccc001demorun {
     public static void main(String[] args) {
@@ -23,9 +23,9 @@ public class ccc001demorun {
         Scanner x = new Scanner(System.in);
 
         for (int i = 0; i < 5; i++) {
-            System.out.println("ÇëÊäÈëÐÕÃû£º");
+            System.out.println("è¯·è¾“å…¥å§“åï¼š");
             String name = x.nextLine();
-            System.out.println("ÇëÊäÈëµØµã£º");
+            System.out.println("è¯·è¾“å…¥åœ°ç‚¹ï¼š");
             String place = x.nextLine();
             vote1(student, name, place);
         }

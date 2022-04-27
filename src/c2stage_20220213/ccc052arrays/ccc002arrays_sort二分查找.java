@@ -7,21 +7,21 @@ import java.util.Arrays;
  * Project:index.pb
  * Package:c2stage_20220213.ccc052arrays
  * User:  wo1261931780@gmail.com
- * Time:  2022-02-22-55  ĞÇÆÚ¶ş
+ * Time:  2022-02-22-55  æ˜ŸæœŸäºŒ
  */
-public class ccc002arrays_sort¶ş·Ö²éÕÒ {
+public class ccc002arrays_sortäºŒåˆ†æŸ¥æ‰¾ {
     public static void main(String[] args) {
         int[] x = {23, 12, 3, 5, 4, 54, 98, 789};
         Arrays.sort(x);
-        System.out.println("Êı×éÏêÇé£º" + Arrays.toString(x));// [3, 4, 5, 12, 23, 54, 98, 789]
+        System.out.println("æ•°ç»„è¯¦æƒ…ï¼š" + Arrays.toString(x));// [3, 4, 5, 12, 23, 54, 98, 789]
         // ******************************************
-        int indexdemo = Arrays.binarySearch(x, 5);// 2£¬ÕâÀï·µ»ØµÄ¾ÍÊÇindex£¬²»ÊÇ³£¹æÒâÒåÉÏµÄµÚ¼¸¸öÊı×Ö
-        System.out.println("5µÄË÷Òı£º" + indexdemo);
+        int indexdemo = Arrays.binarySearch(x, 5);// 2ï¼Œè¿™é‡Œè¿”å›çš„å°±æ˜¯indexï¼Œä¸æ˜¯å¸¸è§„æ„ä¹‰ä¸Šçš„ç¬¬å‡ ä¸ªæ•°å­—
+        System.out.println("5çš„ç´¢å¼•ï¼š" + indexdemo);
         int testindex = Arrays.binarySearch(x, 100);
-        System.out.println("100µÄË÷Òı£º" + testindex);// -8£¬²»´æÔÚµÄÊı×Ö£¬¾ÍÊÇÓ¦¸Ã²åÈëÎ»ÖÃ-1
-        // ¾ÙÀı£º
-        // 100ÔÚ98ºóÃæ£¬indexÊÇÓ¦¸ÃÊÇË³Ğò7£¬Êµ¼ÊÉÏ7ºÅÊÇ789£¬
-        // ÕâÀï100²»´æÔÚ£¬¾ÍÉèÖÃindexÎª-7£¬µ«ÊÇ¸ø³ö-7-1=-8
+        System.out.println("100çš„ç´¢å¼•ï¼š" + testindex);// -8ï¼Œä¸å­˜åœ¨çš„æ•°å­—ï¼Œå°±æ˜¯åº”è¯¥æ’å…¥ä½ç½®-1
+        // ä¸¾ä¾‹ï¼š
+        // 100åœ¨98åé¢ï¼Œindexæ˜¯åº”è¯¥æ˜¯é¡ºåº7ï¼Œå®é™…ä¸Š7å·æ˜¯789ï¼Œ
+        // è¿™é‡Œ100ä¸å­˜åœ¨ï¼Œå°±è®¾ç½®indexä¸º-7ï¼Œä½†æ˜¯ç»™å‡º-7-1=-8
 
     }
 }

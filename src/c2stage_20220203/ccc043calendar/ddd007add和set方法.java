@@ -3,13 +3,13 @@ package c2stage_20220203.ccc043calendar;
 import java.util.Calendar;
 
 /*
-    public abstract void add?(int field, int amount):¸ù¾İÈÕÀúµÄ¹æÔò£¬½«Ö¸¶¨µÄÊ±¼äÁ¿Ìí¼Ó»ò¼õÈ¥¸ø¶¨µÄÈÕÀú×Ö¶Î
-    public final void set?(int year,int month,int date):ÉèÖÃµ±Ç°ÈÕÀúµÄÄêÔÂÈÕ
+    public abstract void add?(int field, int amount):æ ¹æ®æ—¥å†çš„è§„åˆ™ï¼Œå°†æŒ‡å®šçš„æ—¶é—´é‡æ·»åŠ æˆ–å‡å»ç»™å®šçš„æ—¥å†å­—æ®µ
+    public final void set?(int year,int month,int date):è®¾ç½®å½“å‰æ—¥å†çš„å¹´æœˆæ—¥
  */
 
-public class ddd007addºÍset·½·¨ {
+public class ddd007addå’Œsetæ–¹æ³• {
     public static void main(String[] args) {
-        System.out.println("¿ªÊ¼²âÊÔ");
+        System.out.println("å¼€å§‹æµ‹è¯•");
         Calendar x = Calendar.getInstance();
         // int yy = x.get(Calendar.YEAR);
         // int mm = x.get(Calendar.MONTH)+1;
@@ -19,11 +19,11 @@ public class ddd007addºÍset·½·¨ {
         // -------------------------------------------------------------------
         // -------------------------------------------------------------------
         // x.add(Calendar.YEAR, -10);
-        // public abstract void add?(int field, int amount):¸ù¾İÈÕÀúµÄ¹æÔò£¬½«Ö¸¶¨µÄÊ±¼äÁ¿Ìí¼Ó»ò¼õÈ¥¸ø¶¨µÄÈÕÀú×Ö¶Î
-        // add·½·¨£¬Ö´ĞĞµÄÊÇÊ±¼äµÄÌí¼Ó²Ù×÷
-        // ÕâÀïµÄÌí¼Ó£¬¿ÉÒÔÊÇÕıÊı£¬Ò²¿ÉÒÔÊÇ¸ºÊı
-        // ÀıÈç£¬µ±Ç°Ê±¼ä2021£¬10£¬3
-        // addÌí¼Ó-10ÒÔºó£¬µÃµ½µÄÊ±¼äÎª£º2011£¬10£¬3
+        // public abstract void add?(int field, int amount):æ ¹æ®æ—¥å†çš„è§„åˆ™ï¼Œå°†æŒ‡å®šçš„æ—¶é—´é‡æ·»åŠ æˆ–å‡å»ç»™å®šçš„æ—¥å†å­—æ®µ
+        // addæ–¹æ³•ï¼Œæ‰§è¡Œçš„æ˜¯æ—¶é—´çš„æ·»åŠ æ“ä½œ
+        // è¿™é‡Œçš„æ·»åŠ ï¼Œå¯ä»¥æ˜¯æ­£æ•°ï¼Œä¹Ÿå¯ä»¥æ˜¯è´Ÿæ•°
+        // ä¾‹å¦‚ï¼Œå½“å‰æ—¶é—´2021ï¼Œ10ï¼Œ3
+        // addæ·»åŠ -10ä»¥åï¼Œå¾—åˆ°çš„æ—¶é—´ä¸ºï¼š2011ï¼Œ10ï¼Œ3
         // int yy = x.get(Calendar.YEAR);
         // int mm = x.get(Calendar.MONTH) + 1;
         // int dd = x.get(Calendar.DATE);
@@ -31,15 +31,15 @@ public class ddd007addºÍset·½·¨ {
         // -------------------------------------------------------------------
         // -------------------------------------------------------------------
         // -------------------------------------------------------------------
-        // public final void set?(int year,int month,int date):ÉèÖÃµ±Ç°ÈÕÀúµÄÄêÔÂÈÕ
+        // public final void set?(int year,int month,int date):è®¾ç½®å½“å‰æ—¥å†çš„å¹´æœˆæ—¥
         x.set(2088, 10, 10);
-        // ÉÏÃæµÄset·½·¨£¬Ò²ÊÇ×¨ÃÅÕë¶ÔÈÕÀú¶ÔÏóxÉèÖÃµÄ
-        // ÔÚÉèÖÃÊ±¼äºó£¬ÈÔÈ»¿ÉÒÔÔÚÏÂÃæ½øĞĞÊı¾İµÄÌí¼ÓºÍÉ¾³ı
+        // ä¸Šé¢çš„setæ–¹æ³•ï¼Œä¹Ÿæ˜¯ä¸“é—¨é’ˆå¯¹æ—¥å†å¯¹è±¡xè®¾ç½®çš„
+        // åœ¨è®¾ç½®æ—¶é—´åï¼Œä»ç„¶å¯ä»¥åœ¨ä¸‹é¢è¿›è¡Œæ•°æ®çš„æ·»åŠ å’Œåˆ é™¤
         int yy = x.get(Calendar.YEAR);
         int mm = x.get(Calendar.MONTH) + 1;
         int dd = x.get(Calendar.DATE) + 20;
         System.out.println(yy + "," + mm + "," + dd);
-        // ×îÖÕ½á¹û£º2088,11,30
+        // æœ€ç»ˆç»“æœï¼š2088,11,30
 
     }
 }

@@ -1,19 +1,19 @@
-package c2stage_20220302.ddd092Ëæ»úÊı°¸Àı;
+package c2stage_20220302.ddd092éšæœºæ•°æ¡ˆä¾‹;
 
 
 import java.util.Random;
 import java.util.Set;
 import java.util.TreeSet;
 
-public class ddd093Ëæ»úÊı {
+public class ddd093éšæœºæ•° {
     public static void main(String[] args) {
         // Set<Integer> x = new HashSet<>();
         Set<Integer> x = new TreeSet<>();
-        // treeset¼¯ºÏ¿ÉÒÔÖ´ĞĞÅÅĞò
+        // treeseté›†åˆå¯ä»¥æ‰§è¡Œæ’åº
         while (x.size() < 10) {
             // int x1 = (int) Math.random() * 10;
             // x.add(x1);
-            // ÎªÊ²Ã´ÉÏÃæÕâ¸ö²»¿ÉÒÔ
+            // ä¸ºä»€ä¹ˆä¸Šé¢è¿™ä¸ªä¸å¯ä»¥
             Random x1 = new Random();
             int x2 = x1.nextInt(20) + 1;
             x.add(x2);
@@ -21,14 +21,14 @@ public class ddd093Ëæ»úÊı {
         for (int i : x) {
             System.out.println(i);
         }
-        System.out.println("½áÊø");
+        System.out.println("ç»“æŸ");
     }
     // for (int i = 0; i < 10; i++) {
     //     int x = (int) (Math.random() * 20);
     //     System.out.println(x);
     // }
-    // ³£¹æ·½·¨»ñÈ¡µÄÊı¾İ£¬»á³öÏÖÖØ¸´ÎÊÌâ
-    // ÏÂÃæÊÇ´íÎó·½·¨
+    // å¸¸è§„æ–¹æ³•è·å–çš„æ•°æ®ï¼Œä¼šå‡ºç°é‡å¤é—®é¢˜
+    // ä¸‹é¢æ˜¯é”™è¯¯æ–¹æ³•
     // public static void mathrandom() {
     //     TreeSet<Integer> x = new TreeSet<>(new Comparator<Integer>() {
     //         @Override

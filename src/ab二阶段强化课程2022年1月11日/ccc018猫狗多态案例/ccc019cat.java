@@ -1,4 +1,4 @@
-package ab¶ş½×¶ÎÇ¿»¯¿Î³Ì2022Äê1ÔÂ11ÈÕ.ccc018Ã¨¹·¶àÌ¬°¸Àı;
+package abäºŒé˜¶æ®µå¼ºåŒ–è¯¾ç¨‹2022å¹´1æœˆ11æ—¥.ccc018çŒ«ç‹—å¤šæ€æ¡ˆä¾‹;
 
 public class ccc019cat extends ccc021animal {
     public ccc019cat() {
@@ -10,10 +10,10 @@ public class ccc019cat extends ccc021animal {
 
     @Override
     public void run() {
-        System.out.println("catÖĞµÄrun");
+        System.out.println("catä¸­çš„run");
     }
 
     public void near() {
-        System.out.println("catÖĞµÄnear-----------");
+        System.out.println("catä¸­çš„near-----------");
     }
 }

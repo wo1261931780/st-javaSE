@@ -9,17 +9,17 @@ import java.io.IOException;
  * Project:index.pb
  * Package:c2stage_20220416.ccc134file_read
  * User:  wo1261931780@gmail.com
- * Time:  2022-04-16-17  ĞÇÆÚÁù
+ * Time:  2022-04-16-17  æ˜ŸæœŸå…­
  */
 public class ccc001 {
     public static void main(String[] args) throws IOException {
         File x = new File("src/c2stage_20220416/ccc134file_read/demo001.txt");
         FileReader x1 = new FileReader(x);
-        // ÕâÀïµÄ¶ÁÈ¡£¬ÒªÇóÎÄ¼şµÄ±àÂë¸ñÊ½£¬ºÍ´úÂëÕ¹Ê¾³öÀ´µÄ±àÂë¸ñÊ½Ò»ÖÂ£¬·ñÔòÕ¹Ê¾Ò²»áÂÒÂë
+        // è¿™é‡Œçš„è¯»å–ï¼Œè¦æ±‚æ–‡ä»¶çš„ç¼–ç æ ¼å¼ï¼Œå’Œä»£ç å±•ç¤ºå‡ºæ¥çš„ç¼–ç æ ¼å¼ä¸€è‡´ï¼Œå¦åˆ™å±•ç¤ºä¹Ÿä¼šä¹±ç 
         int demo;
         while ((demo = x1.read()) != -1) {
-            System.out.println("Õ¹Ê¾½á¹û----------");
-            System.out.println((char) demo);// ÆäÊµ²»×ª»»Ò²¿ÉÒÔ£¬µ«ÊÇÈ«²¿ÊÇÊı×Ö±àÂë£¬¶ÔÓÃ»§À´ËµÃ»ÓĞÒâÒå
+            System.out.println("å±•ç¤ºç»“æœ----------");
+            System.out.println((char) demo);// å…¶å®ä¸è½¬æ¢ä¹Ÿå¯ä»¥ï¼Œä½†æ˜¯å…¨éƒ¨æ˜¯æ•°å­—ç¼–ç ï¼Œå¯¹ç”¨æˆ·æ¥è¯´æ²¡æœ‰æ„ä¹‰
         }
     }
 }

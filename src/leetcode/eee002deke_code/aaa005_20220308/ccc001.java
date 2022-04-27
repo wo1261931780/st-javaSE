@@ -7,15 +7,15 @@ import java.util.Arrays;
  * Project:index.pb
  * Package:leetcode.eee002deke_code.aaa004_20220305
  * User:  wo1261931780@gmail.com
- * Time:  2022-03-17-32  ĞÇÆÚ¶ş
+ * Time:  2022-03-17-32  æ˜ŸæœŸäºŒ
  */
 public class ccc001 {
     public static void main(String[] args) {
         int[] x=new int[6];
         int[] x1={1,1,1,2,1,3,1,4};
         System.arraycopy(x1,2,x,3,2);
-        //----------Ä¿±êÊı×é£¬ÆğÊ¼Î»£¬Õ³Ìùµ½xÊı×é£¬Õ³ÌùË÷Òı3£¬¸´ÖÆ³¤¶È2
-        System.out.println(Arrays.toString(x));//×¢ÒâÕâÀïÓĞs£¬ÊÇArrays
-        // x½á¹û£º[0, 0, 0, 1, 2, 0]
+        //----------ç›®æ ‡æ•°ç»„ï¼Œèµ·å§‹ä½ï¼Œç²˜è´´åˆ°xæ•°ç»„ï¼Œç²˜è´´ç´¢å¼•3ï¼Œå¤åˆ¶é•¿åº¦2
+        System.out.println(Arrays.toString(x));//æ³¨æ„è¿™é‡Œæœ‰sï¼Œæ˜¯Arrays
+        // xç»“æœï¼š[0, 0, 0, 1, 2, 0]
     }
 }

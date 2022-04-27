@@ -1,15 +1,15 @@
-package c2stage_20220213.ccc051ÕıÔò±í´ïÊ½;
+package c2stage_20220213.ccc051æ­£åˆ™è¡¨è¾¾å¼;
 
 import java.util.Scanner;
 
 /**
  * Created by Intellij IDEA.
  * Project:index.pb
- * Package:c2stage_20220213.ccc051ÕıÔò±í´ïÊ½
+ * Package:c2stage_20220213.ccc051æ­£åˆ™è¡¨è¾¾å¼
  * User:  wo1261931780@gmail.com
- * Time:  2022-02-14-11  ĞÇÆÚÈÕ
+ * Time:  2022-02-14-11  æ˜ŸæœŸæ—¥
  */
-public class ccc003°¸Àı {
+public class ccc003æ¡ˆä¾‹ {
     public static void main(String[] args) {
 
 
@@ -20,9 +20,9 @@ public class ccc003°¸Àı {
         while (true) {
             String demo_str = x.next();
             if (demo_str != null && demo_str.matches("1[3-9]\\d{9}")) {
-                System.out.println("×¢²áÍê³É");
+                System.out.println("æ³¨å†Œå®Œæˆ");
             } else {
-                System.out.println("ÇëÖØĞÂÊäÈë");
+                System.out.println("è¯·é‡æ–°è¾“å…¥");
             }
         }
     }
@@ -32,20 +32,20 @@ public class ccc003°¸Àı {
         while (true) {
             String demo_mail = x.next();
             if (demo_mail != null && demo_mail.matches("\\w[1]@[a-zA-Z0-9]{2,20}(\\.[a-zA-Z0-9]{2,20}){1,2}")) {
-                System.out.println("×¢²áÍê³É");
+                System.out.println("æ³¨å†Œå®Œæˆ");
             } else {
-                System.out.println("ÇëÖØĞÂÊäÈë");
+                System.out.println("è¯·é‡æ–°è¾“å…¥");
             }
         }
     }
 
     public static void show_phone(String xx) {
         Scanner x = new Scanner(System.in);
-        String demo_ph = x.nextLine();//×¢Òâ£¬ËùÓĞµÄÕıÔò±í´ïÊ½¶¼ÊÇ¶Ô×Ö·û´®½øĞĞĞ£Ñé
+        String demo_ph = x.nextLine();//æ³¨æ„ï¼Œæ‰€æœ‰çš„æ­£åˆ™è¡¨è¾¾å¼éƒ½æ˜¯å¯¹å­—ç¬¦ä¸²è¿›è¡Œæ ¡éªŒ
         if (demo_ph != null && demo_ph.matches("0\\d{2,6}-?\\d{5,8}")) {
-            System.out.println("×¢²áÍê³É");
+            System.out.println("æ³¨å†Œå®Œæˆ");
         } else {
-            System.out.println("ÇëÖØĞÂÊäÈë");
+            System.out.println("è¯·é‡æ–°è¾“å…¥");
         }
     }
 }

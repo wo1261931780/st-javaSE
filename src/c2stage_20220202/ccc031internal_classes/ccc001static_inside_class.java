@@ -1,31 +1,31 @@
 package c2stage_20220202.ccc031internal_classes;
 
 public class ccc001static_inside_class {
-    // Íâ²¿Àà£¬Ò»°ã¶¼ÊÇpublic»òÕßÈ±Ê¡
-    // public±íÊ¾ÈÎºÎµØ·½¶¼¿ÉÒÔ·ÃÎÊ
-    // µ«ÊÇÈ±Ê¡£¬±íÊ¾Ö»ÄÜÔÚÍ¬¸ö°üÏÂÃæ·ÃÎÊ
-    // ÄÚ²¿ÀàÃ»ÓĞÕâÖÖÏŞÖÆÌõ¼ş£¬Ò»¿ªÊ¼¾Í¿ÉÒÔÊ¹ÓÃprivateĞŞÊÎ
+    // å¤–éƒ¨ç±»ï¼Œä¸€èˆ¬éƒ½æ˜¯publicæˆ–è€…ç¼ºçœ
+    // publicè¡¨ç¤ºä»»ä½•åœ°æ–¹éƒ½å¯ä»¥è®¿é—®
+    // ä½†æ˜¯ç¼ºçœï¼Œè¡¨ç¤ºåªèƒ½åœ¨åŒä¸ªåŒ…ä¸‹é¢è®¿é—®
+    // å†…éƒ¨ç±»æ²¡æœ‰è¿™ç§é™åˆ¶æ¡ä»¶ï¼Œä¸€å¼€å§‹å°±å¯ä»¥ä½¿ç”¨privateä¿®é¥°
 
     private String name;
     public int name2=100;
     public static int name3=100;
 
-    public static class inner {// ×¢Òâ£¬ÀàÊÇÃ»ÓĞÀ¨ºÅµÄ£¨Ã»ÓĞ·½·¨Ìå£©
+    public static class inner {// æ³¨æ„ï¼Œç±»æ˜¯æ²¡æœ‰æ‹¬å·çš„ï¼ˆæ²¡æœ‰æ–¹æ³•ä½“ï¼‰
         private String demo;
         private int demo2;
         public String demo3;
 
         public void show() {
-            // System.out.println(name2);// ÎŞ·¨·ÃÎÊÆÕÍ¨±äÁ¿
-            System.out.println(name3);//¿ÉÒÔÖ±½Ó·ÃÎÊÍâ²¿µÄstatic±äÁ¿
+            // System.out.println(name2);// æ— æ³•è®¿é—®æ™®é€šå˜é‡
+            System.out.println(name3);//å¯ä»¥ç›´æ¥è®¿é—®å¤–éƒ¨çš„staticå˜é‡
         }
-        // ÄÚ²¿ÀàºÍÀàÃ»ÓĞÃ÷ÏÔ²î±ğ
-        // ¿ÉÒÔ¹¹Ôì·½·¨£¬¿ÉÒÔgetset£¬ÉõÖÁ¿ÉÒÔÓĞ·½·¨Ìå
-        // ÄÚ²¿ÀàÎŞ·¨·ÃÎÊÍâ²¿µÄË½ÓĞ±äÁ¿
+        // å†…éƒ¨ç±»å’Œç±»æ²¡æœ‰æ˜æ˜¾å·®åˆ«
+        // å¯ä»¥æ„é€ æ–¹æ³•ï¼Œå¯ä»¥getsetï¼Œç”šè‡³å¯ä»¥æœ‰æ–¹æ³•ä½“
+        // å†…éƒ¨ç±»æ— æ³•è®¿é—®å¤–éƒ¨çš„ç§æœ‰å˜é‡
         public void show2(){
             ccc001static_inside_class x=new ccc001static_inside_class();
             System.out.println(x.name);
-            // µ«ÊÇ¿ÉÒÔÍ¨¹ı¹¹Ôì¶ÔÏóµÄ·½Ê½£¬À´·ÃÎÊ
+            // ä½†æ˜¯å¯ä»¥é€šè¿‡æ„é€ å¯¹è±¡çš„æ–¹å¼ï¼Œæ¥è®¿é—®
         }
 
         public inner(String demo, int demo2, String demo3) {

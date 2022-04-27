@@ -1,17 +1,17 @@
-package abÍùÆÚÑ§Ï°2021Äê10ÔÂ2ÈÕ.bbb054Ñ§Éú¹ÜÀíÏµÍ³;
+package abå¾€æœŸå­¦ä¹ 2021å¹´10æœˆ2æ—¥.bbb054å­¦ç”Ÿç®¡ç†ç³»ç»Ÿ;
 
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class bbb056²âÊÔÀà {
+public class bbb056æµ‹è¯•ç±» {
     public static void main(String[] args) {
-        ArrayList<bbb055Àà> student = new ArrayList<>();//¼¯ºÏ£¬ÓÃÀ´´¢´æÊı¾İ
+        ArrayList<bbb055ç±»> student = new ArrayList<>();//é›†åˆï¼Œç”¨æ¥å‚¨å­˜æ•°æ®
         Scanner x0 = new Scanner(System.in);
         jm(student);
         int idea = x0.nextInt();
-        // ¸ù¾İÖ¸ÁîÅĞ¶Ï¹¦ÄÜÄ£¿é-------------------------------------------
+        // æ ¹æ®æŒ‡ä»¤åˆ¤æ–­åŠŸèƒ½æ¨¡å—-------------------------------------------
         // if (idea < 6 && idea > 0) {
-        for (System.out.println("¿ªÊ¼ÅĞ¶Ï"); idea < 6 || idea > 0; idea = x0.nextInt()) {
+        for (System.out.println("å¼€å§‹åˆ¤æ–­"); idea < 6 || idea > 0; idea = x0.nextInt()) {
             if (idea == 1) {
                 // db(student);
                 tj(student);
@@ -26,12 +26,12 @@ public class bbb056²âÊÔÀà {
                 ck(student);
                 jm(student);
             } else if (idea == 5) {
-                System.out.println("¼´½«ÍË³ö......");
-                // System.out.println("¸ĞĞ»Ê¹ÓÃ,ÍË³öÍê³É");
+                System.out.println("å³å°†é€€å‡º......");
+                // System.out.println("æ„Ÿè°¢ä½¿ç”¨,é€€å‡ºå®Œæˆ");
                 break;
             } else {
                 Scanner x1 = new Scanner(System.in);
-                System.out.println("Ö¸Áî´íÎó£¬ÊÇ·ñÖØĞÂÊäÈë£¿yes/no");
+                System.out.println("æŒ‡ä»¤é”™è¯¯ï¼Œæ˜¯å¦é‡æ–°è¾“å…¥ï¼Ÿyes/no");
                 String z = x1.nextLine();
                 if (z.equals("yes")) {
                     jm(student);
@@ -40,136 +40,136 @@ public class bbb056²âÊÔÀà {
                 }
             }
         }
-        System.out.println("¸ĞĞ»Ê¹ÓÃ,ÏµÍ³ÍË³ö");
+        System.out.println("æ„Ÿè°¢ä½¿ç”¨,ç³»ç»Ÿé€€å‡º");
     }
 
-    //½çÃæ
-    public static void jm(ArrayList<bbb055Àà> student) {
-        System.out.println("-----»¶Ó­À´µ½Ñ§Éú¹ÜÀíÏµÍ³-----");
-        System.out.println("1--Ìí¼ÓÑ§Éú");
-        System.out.println("2--É¾³ıÑ§Éú");
-        System.out.println("3--ĞŞ¸ÄÑ§ÉúĞÅÏ¢");
-        System.out.println("4--²é¿´Ñ§ÉúĞÅÏ¢");
-        System.out.println("5--ÍË³ö");
-        System.out.println("ÇëÊäÈë¹ÜÀíÔ±µÄÖ¸Áî£º");
+    //ç•Œé¢
+    public static void jm(ArrayList<bbb055ç±»> student) {
+        System.out.println("-----æ¬¢è¿æ¥åˆ°å­¦ç”Ÿç®¡ç†ç³»ç»Ÿ-----");
+        System.out.println("1--æ·»åŠ å­¦ç”Ÿ");
+        System.out.println("2--åˆ é™¤å­¦ç”Ÿ");
+        System.out.println("3--ä¿®æ”¹å­¦ç”Ÿä¿¡æ¯");
+        System.out.println("4--æŸ¥çœ‹å­¦ç”Ÿä¿¡æ¯");
+        System.out.println("5--é€€å‡º");
+        System.out.println("è¯·è¾“å…¥ç®¡ç†å‘˜çš„æŒ‡ä»¤ï¼š");
         // Scanner x0 = new Scanner(System.in);
         // int idea = x0.nextInt();
-        // System.out.println("µÚÒ»±éÑ­»·----------------------");
+        // System.out.println("ç¬¬ä¸€éå¾ªç¯----------------------");
     }
 
-    //²éÕÒÊÇ·ñÖØ¸´
-    public static void db(ArrayList<bbb055Àà> student) {
+    //æŸ¥æ‰¾æ˜¯å¦é‡å¤
+    public static void db(ArrayList<bbb055ç±»> student) {
         Scanner a3 = new Scanner(System.in);
-        System.out.println("ÇëÊäÈëÄãÒªÌí¼ÓµÄÑ§ºÅ:");
+        System.out.println("è¯·è¾“å…¥ä½ è¦æ·»åŠ çš„å­¦å·:");
         String xgxh = a3.nextLine();
         for (int q2 = 0; q2 < student.size(); q2++) {
-            //¹Ù·½¸ø³öµÄ·½·¨ÊÇ£¬ÏÈÉè¶¨Ò»¸öĞÂµÄ±äÁ¿£¬È»ºó¶ÔĞÂ±äÁ¿Ö±½Ó¸´Ğ´¾É±äÁ¿¡£
-            bbb055Àà q3 = student.get(q2);
+            //å®˜æ–¹ç»™å‡ºçš„æ–¹æ³•æ˜¯ï¼Œå…ˆè®¾å®šä¸€ä¸ªæ–°çš„å˜é‡ï¼Œç„¶åå¯¹æ–°å˜é‡ç›´æ¥å¤å†™æ—§å˜é‡ã€‚
+            bbb055ç±» q3 = student.get(q2);
             if (q3.getNumber().equals(xgxh)) {
-                System.out.println("Ñ§ºÅÒÑ´æÔÚ£¬ÇëÖØĞÂÊäÈë»òÕßĞŞ¸ÄĞÅÏ¢");
+                System.out.println("å­¦å·å·²å­˜åœ¨ï¼Œè¯·é‡æ–°è¾“å…¥æˆ–è€…ä¿®æ”¹ä¿¡æ¯");
                 // return;
             } else {
             }
         }
     }
 
-    //Ìí¼Ó¶ÔÏó
-    //Â¼ÈëµÄÊı¾İÊÇ¸ø³ÉÔ±±äÁ¿£¬Ñ§ÉúÕâ¸ö¶ÔÏóÒÔºó±£´æµ½¼¯ºÏÀïÃæÈ¥
-    public static void tj(ArrayList<bbb055Àà> student) {
+    //æ·»åŠ å¯¹è±¡
+    //å½•å…¥çš„æ•°æ®æ˜¯ç»™æˆå‘˜å˜é‡ï¼Œå­¦ç”Ÿè¿™ä¸ªå¯¹è±¡ä»¥åä¿å­˜åˆ°é›†åˆé‡Œé¢å»
+    public static void tj(ArrayList<bbb055ç±»> student) {
         Scanner a1 = new Scanner(System.in);
-        System.out.println("ÇëÊäÈëÑ§ÉúÑ§ºÅ£º");
+        System.out.println("è¯·è¾“å…¥å­¦ç”Ÿå­¦å·ï¼š");
         String xh = a1.nextLine();
-        //------------------------------ÀïÃæÊÇ·ÀÖ¹ÖØ¸´µÄÄ£¿é
+        //------------------------------é‡Œé¢æ˜¯é˜²æ­¢é‡å¤çš„æ¨¡å—
         for (int q2 = 0; q2 < student.size(); q2++) {
-            //¹Ù·½¸ø³öµÄ·½·¨ÊÇ£¬ÏÈÉè¶¨Ò»¸öĞÂµÄ±äÁ¿£¬È»ºó¶ÔĞÂ±äÁ¿Ö±½Ó¸´Ğ´¾É±äÁ¿¡£
-            bbb055Àà q3 = student.get(q2);
+            //å®˜æ–¹ç»™å‡ºçš„æ–¹æ³•æ˜¯ï¼Œå…ˆè®¾å®šä¸€ä¸ªæ–°çš„å˜é‡ï¼Œç„¶åå¯¹æ–°å˜é‡ç›´æ¥å¤å†™æ—§å˜é‡ã€‚
+            bbb055ç±» q3 = student.get(q2);
             if (q3.getNumber().equals(xh)) {
-                System.out.println("Ñ§ºÅÒÑ´æÔÚ£¬ÇëÖØĞÂÊäÈë»òÕßĞŞ¸ÄĞÅÏ¢");
+                System.out.println("å­¦å·å·²å­˜åœ¨ï¼Œè¯·é‡æ–°è¾“å…¥æˆ–è€…ä¿®æ”¹ä¿¡æ¯");
                 return;
             } else {
             }
         }
         //--------------------------------------------------
-        System.out.println("ÇëÊäÈëÑ§ÉúĞÕÃû£º");
+        System.out.println("è¯·è¾“å…¥å­¦ç”Ÿå§“åï¼š");
         String xm = a1.nextLine();
-        System.out.println("ÇëÊäÈëÑ§ÉúÄêÁä£º");
+        System.out.println("è¯·è¾“å…¥å­¦ç”Ÿå¹´é¾„ï¼š");
         String nl = a1.nextLine();
-        System.out.println("ÇëÊäÈëÑ§ÉúµØÖ·£º");
+        System.out.println("è¯·è¾“å…¥å­¦ç”Ÿåœ°å€ï¼š");
         String dz = a1.nextLine();
-        System.out.println("ÊäÈë³É¹¦!");
-        //ÔÚÀàÖĞ´´½¨¾ßÌåµÄ¶ÔÏó/Ñ§Éú
-        bbb055Àà da = new bbb055Àà(xh, xm, nl, dz);
-        student.add(da);//°ÑÉÏÃæµÄ¾ßÌå¶ÔÏóÌí¼Óµ½¼¯ºÏÖĞ
-        // bbb055Àà ren = student.get(0);//ÕâÀïÓĞÎÊÌâ
+        System.out.println("è¾“å…¥æˆåŠŸ!");
+        //åœ¨ç±»ä¸­åˆ›å»ºå…·ä½“çš„å¯¹è±¡/å­¦ç”Ÿ
+        bbb055ç±» da = new bbb055ç±»(xh, xm, nl, dz);
+        student.add(da);//æŠŠä¸Šé¢çš„å…·ä½“å¯¹è±¡æ·»åŠ åˆ°é›†åˆä¸­
+        // bbb055ç±» ren = student.get(0);//è¿™é‡Œæœ‰é—®é¢˜
         // System.out.print(ren.getNumber() + ren.getName() + ren.getAge() + ren.getAddress());
     }
 
-    //É¾³ıĞÅÏ¢
-    public static void sc(ArrayList<bbb055Àà> student) {
+    //åˆ é™¤ä¿¡æ¯
+    public static void sc(ArrayList<bbb055ç±»> student) {
         Scanner a2 = new Scanner(System.in);
-        System.out.println("ÇëÊäÈëÄãÒªÉ¾³ıµÄÑ§ºÅ£º");
+        System.out.println("è¯·è¾“å…¥ä½ è¦åˆ é™¤çš„å­¦å·ï¼š");
         String scxh = a2.nextLine();
         for (int q = 0; q < student.size(); q++) {
-            bbb055Àà ren = student.get(q);
+            bbb055ç±» ren = student.get(q);
             // System.out.println(ren.getNumber());
             // System.out.println(scxh);
             if (ren.getNumber().equals(scxh)) {
                 student.remove(q);
                 // System.out.println(student.remove(q));
-                System.out.println("É¾³ı³É¹¦");
+                System.out.println("åˆ é™¤æˆåŠŸ");
             } else {
-                System.out.println("Ñ§ºÅ²»´æÔÚ");
+                System.out.println("å­¦å·ä¸å­˜åœ¨");
             }
         }
-        // bbb055Àà a22=new bbb055Àà();
-        // student.remove(scxh);//ÕâÀïÓĞ¿ÉÄÜÆäËû¶«Î÷»¹ÔÚ£¬Ö»É¾³ıÁËÑ§ºÅ
+        // bbb055ç±» a22=new bbb055ç±»();
+        // student.remove(scxh);//è¿™é‡Œæœ‰å¯èƒ½å…¶ä»–ä¸œè¥¿è¿˜åœ¨ï¼Œåªåˆ é™¤äº†å­¦å·
         // System.out.println(student.remove(0));
     }
 
-    //ĞŞ¸ÄĞÅÏ¢
-    public static void xg(ArrayList<bbb055Àà> student) {
+    //ä¿®æ”¹ä¿¡æ¯
+    public static void xg(ArrayList<bbb055ç±»> student) {
         Scanner a3 = new Scanner(System.in);
-        System.out.println("ÇëÊäÈëÄãÒªĞŞ¸ÄµÄÑ§ºÅ:");
+        System.out.println("è¯·è¾“å…¥ä½ è¦ä¿®æ”¹çš„å­¦å·:");
         String xgxh = a3.nextLine();
         for (int q2 = 0; q2 < student.size(); q2++) {
-            //¹Ù·½¸ø³öµÄ·½·¨ÊÇ£¬ÏÈÉè¶¨Ò»¸öĞÂµÄ±äÁ¿£¬È»ºó¶ÔĞÂ±äÁ¿Ö±½Ó¸´Ğ´¾É±äÁ¿¡£
-            bbb055Àà q3 = student.get(q2);
+            //å®˜æ–¹ç»™å‡ºçš„æ–¹æ³•æ˜¯ï¼Œå…ˆè®¾å®šä¸€ä¸ªæ–°çš„å˜é‡ï¼Œç„¶åå¯¹æ–°å˜é‡ç›´æ¥å¤å†™æ—§å˜é‡ã€‚
+            bbb055ç±» q3 = student.get(q2);
             if (q3.getNumber().equals(xgxh)) {
-                System.out.println("ÕÒµ½µµ°¸£¬¿ªÊ¼ĞŞ¸Ä£º");
-                System.out.println("ÇëÊäÈëÑ§ÉúĞÕÃû£º");
+                System.out.println("æ‰¾åˆ°æ¡£æ¡ˆï¼Œå¼€å§‹ä¿®æ”¹ï¼š");
+                System.out.println("è¯·è¾“å…¥å­¦ç”Ÿå§“åï¼š");
                 q3.setName(a3.nextLine());
-                System.out.println("ÇëÊäÈëÑ§ÉúÄêÁä£º");
+                System.out.println("è¯·è¾“å…¥å­¦ç”Ÿå¹´é¾„ï¼š");
                 q3.setAge(a3.nextLine());
-                System.out.println("ÇëÊäÈëÑ§ÉúµØÖ·£º");
+                System.out.println("è¯·è¾“å…¥å­¦ç”Ÿåœ°å€ï¼š");
                 q3.setAddress(a3.nextLine());
-                System.out.println("ĞŞ¸ÄÍê³É");
-                // bbb055Àà q3 = new bbb055Àà(xgxh, xm, nl, dz);//ÔÚÀàÖĞ´´½¨¾ßÌåµÄ¶ÔÏó/Ñ§Éú
-                //°ÑÉÏÃæµÄ¾ßÌå¶ÔÏóÌí¼Óµ½¼¯ºÏÖĞ
+                System.out.println("ä¿®æ”¹å®Œæˆ");
+                // bbb055ç±» q3 = new bbb055ç±»(xgxh, xm, nl, dz);//åœ¨ç±»ä¸­åˆ›å»ºå…·ä½“çš„å¯¹è±¡/å­¦ç”Ÿ
+                //æŠŠä¸Šé¢çš„å…·ä½“å¯¹è±¡æ·»åŠ åˆ°é›†åˆä¸­
                 student.set(q2, q3);
                 return;
             } else {
-                System.out.println("µµ°¸Î´ÕÒµ½-------------------");
+                System.out.println("æ¡£æ¡ˆæœªæ‰¾åˆ°-------------------");
             }
         }
     }
 
-    //²é¿´ĞÅÏ¢
-    public static void ck(ArrayList<bbb055Àà> student) {
+    //æŸ¥çœ‹ä¿¡æ¯
+    public static void ck(ArrayList<bbb055ç±»> student) {
         if (student.size() == 0) {
-            System.out.println("ÎŞĞÅÏ¢£¬ÇëÏÈ½øĞĞÌí¼Ó");
-            //return,ÕâÀïÌí¼ÓÒ»¸öÓï¾äºó£¬³ÌĞò½«²»ÔÙ¼ÌĞøÖ´ĞĞ
+            System.out.println("æ— ä¿¡æ¯ï¼Œè¯·å…ˆè¿›è¡Œæ·»åŠ ");
+            //return,è¿™é‡Œæ·»åŠ ä¸€ä¸ªè¯­å¥åï¼Œç¨‹åºå°†ä¸å†ç»§ç»­æ‰§è¡Œ
         } else {
-            //tab¼üµÄ¿ìËÙ±íÊ¾
-            System.out.println("Ñ§ºÅ\tĞÕÃû\tÄêÁä\t¾Ó×¡µØ");
-            // System.out.print("Ñ§ºÅ");
+            //tabé”®çš„å¿«é€Ÿè¡¨ç¤º
+            System.out.println("å­¦å·\tå§“å\tå¹´é¾„\tå±…ä½åœ°");
+            // System.out.print("å­¦å·");
             // System.out.print("          ");
-            // System.out.print("ĞÕÃû");
+            // System.out.print("å§“å");
             // System.out.print("          ");
-            // System.out.print("ÄêÁä");
+            // System.out.print("å¹´é¾„");
             // System.out.print("          ");
-            // System.out.println("¾Ó×¡µØ");
+            // System.out.println("å±…ä½åœ°");
             for (int q = 0; q < student.size(); q++) {
-                bbb055Àà ren = student.get(q);
+                bbb055ç±» ren = student.get(q);
                 System.out.println(ren.getNumber() + "\t" + ren.getName() + "\t" + ren.getAge() + "\t" + ren.getAddress());
                 // System.out.print(ren.getNumber());
                 // System.out.print("          ");
@@ -178,7 +178,7 @@ public class bbb056²âÊÔÀà {
                 // System.out.print(ren.getAge());
                 // System.out.print("          ");
                 // System.out.println(ren.getAddress());
-                //ÕâÀïÈçºÎµ÷Õû¸ñÊ½£¿
+                //è¿™é‡Œå¦‚ä½•è°ƒæ•´æ ¼å¼ï¼Ÿ
             }
         }
     }

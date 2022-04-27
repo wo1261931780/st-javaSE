@@ -1,16 +1,16 @@
-package ab¶þ½×¶ÎÇ¿»¯¿Î³Ì2022Äê1ÔÂ11ÈÕ.ccc028½Ó¿ÚÃûµÄÐÎ²ÎºÍ·µ»Ø;
+package abäºŒé˜¶æ®µå¼ºåŒ–è¯¾ç¨‹2022å¹´1æœˆ11æ—¥.ccc028æŽ¥å£åçš„å½¢å‚å’Œè¿”å›ž;
 
 public class ccc032demo {
     public static void main(String[] args) {
-        ccc031²âÊÔ x = new ccc031²âÊÔ();
-        ccc029½Ó¿Ú xx = new ccc030×ÓÀà();
+        ccc031æµ‹è¯• x = new ccc031æµ‹è¯•();
+        ccc029æŽ¥å£ xx = new ccc030å­ç±»();
         x.usejkk(xx);
-        // ÏÂÃæÊÇµÚ¶þÖÖ·½·¨
-        ccc029½Ó¿Ú sss = x.ret();
-        // x.retÊµ¼ÊÉÏÊÇ²âÊÔÀàÖÐµÄx¶ÔÏó£¬Ê¹ÓÃret·½·¨£¬
-        // ¶øret·½·¨ÓÖ¿ÉÒÔ´´½¨²¢·µ»ØÒ»¸ö×ÓÀàÖÐµÄÐÂ¶ÔÏó
-        // ½á¹ûÊÇ£¬½Ó¿ÚÔÚ×ÓÀàÖÐ£¬ÓÃ¶àÌ¬µÄ·½Ê½ÐÂ½¨×ÓÀà¶ÔÏósss£¬
-        // sss¿ÉÒÔÖ±½ÓÊ¹ÓÃ×ÓÀàµÄ¹¦ÄÜ
+        // ä¸‹é¢æ˜¯ç¬¬äºŒç§æ–¹æ³•
+        ccc029æŽ¥å£ sss = x.ret();
+        // x.retå®žé™…ä¸Šæ˜¯æµ‹è¯•ç±»ä¸­çš„xå¯¹è±¡ï¼Œä½¿ç”¨retæ–¹æ³•ï¼Œ
+        // è€Œretæ–¹æ³•åˆå¯ä»¥åˆ›å»ºå¹¶è¿”å›žä¸€ä¸ªå­ç±»ä¸­çš„æ–°å¯¹è±¡
+        // ç»“æžœæ˜¯ï¼ŒæŽ¥å£åœ¨å­ç±»ä¸­ï¼Œç”¨å¤šæ€çš„æ–¹å¼æ–°å»ºå­ç±»å¯¹è±¡sssï¼Œ
+        // ssså¯ä»¥ç›´æŽ¥ä½¿ç”¨å­ç±»çš„åŠŸèƒ½
         sss.jkk();
     }
 }

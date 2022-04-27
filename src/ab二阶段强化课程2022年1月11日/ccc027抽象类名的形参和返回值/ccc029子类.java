@@ -1,8 +1,8 @@
-package ab¶ş½×¶ÎÇ¿»¯¿Î³Ì2022Äê1ÔÂ11ÈÕ.ccc027³éÏóÀàÃûµÄĞÎ²ÎºÍ·µ»ØÖµ;
+package abäºŒé˜¶æ®µå¼ºåŒ–è¯¾ç¨‹2022å¹´1æœˆ11æ—¥.ccc027æŠ½è±¡ç±»åçš„å½¢å‚å’Œè¿”å›å€¼;
 
-public class ccc029×ÓÀà extends ccc028animal {
+public class ccc029å­ç±» extends ccc028animal {
     @Override
     public void eat() {
-        System.out.println("×ÓÀàÖĞµÄeat·½·¨³öÏÖ");
+        System.out.println("å­ç±»ä¸­çš„eatæ–¹æ³•å‡ºç°");
     }
 }

@@ -1,4 +1,4 @@
-package c2stage_20220213.ccc053arrays¶Ô±È½ÏÆ÷µÄÖ§³Ö;
+package c2stage_20220213.ccc053arrayså¯¹æ¯”è¾ƒå™¨çš„æ”¯æŒ;
 
 import java.util.Arrays;
 import java.util.Comparator;
@@ -8,37 +8,37 @@ import java.util.Comparator;
  * Project:index.pb
  * Package:c2stage_20220213.ccc052arrays
  * User:  wo1261931780@gmail.com
- * Time:  2022-02-23-08  ĞÇÆÚ¶ş
+ * Time:  2022-02-23-08  æ˜ŸæœŸäºŒ
  */
-public class ccc001comparator¸ÅÊö {
+public class ccc001comparatoræ¦‚è¿° {
     public static void main(String[] args) {
-        int[] x = {1, 21, 3, 156, 4, 64, 874, 8, 7};// Ä¬ÈÏÊ¹ÓÃintÊı×éÀàĞÍ£¬¿ÉÒÔ½øĞĞÉıĞòÅÅĞò
+        int[] x = {1, 21, 3, 156, 4, 64, 874, 8, 7};// é»˜è®¤ä½¿ç”¨intæ•°ç»„ç±»å‹ï¼Œå¯ä»¥è¿›è¡Œå‡åºæ’åº
         Arrays.sort(x);
         System.out.println(Arrays.toString(x));
         // *************************************
-        Integer[] x1 = {54, 123, 54, 65, 46, 8, 7, 987, 9, 78};//Èç¹ûÊÇ¶ÔÏóÀàĞÍ£¬ÔòĞèÒªÖ¸¶¨±È½ÏÆ÷ºÍ±È½Ï¹æÔò
-        Arrays.sort(x1, new Comparator<Integer>() {//ĞèÒªÅÅĞòµÄÊı×é£¬ÅÅĞò¹æÔò
-            // ÄäÃûÄÚ²¿Àà
+        Integer[] x1 = {54, 123, 54, 65, 46, 8, 7, 987, 9, 78};//å¦‚æœæ˜¯å¯¹è±¡ç±»å‹ï¼Œåˆ™éœ€è¦æŒ‡å®šæ¯”è¾ƒå™¨å’Œæ¯”è¾ƒè§„åˆ™
+        Arrays.sort(x1, new Comparator<Integer>() {//éœ€è¦æ’åºçš„æ•°ç»„ï¼Œæ’åºè§„åˆ™
+            // åŒ¿åå†…éƒ¨ç±»
             @Override
             public int compare(Integer o1, Integer o2) {
                 return o1 - o2;
             }
         });
-        ccc002¶ÔÏóÀà[] x2 = new ccc002¶ÔÏóÀà[5];
-        x2[0] = new ccc002¶ÔÏóÀà("Áõ1", 33, "²âÊÔ1");
-        x2[1] = new ccc002¶ÔÏóÀà("Áõ2", 21, "²âÊÔ2");
-        x2[2] = new ccc002¶ÔÏóÀà("Áõ3", 12, "²âÊÔ3");
-        x2[3] = new ccc002¶ÔÏóÀà("Áõ4", 1, "²âÊÔ4");
-        x2[4] = new ccc002¶ÔÏóÀà("Áõ5", 5, "²âÊÔ5");
+        ccc002å¯¹è±¡ç±»[] x2 = new ccc002å¯¹è±¡ç±»[5];
+        x2[0] = new ccc002å¯¹è±¡ç±»("åˆ˜1", 33, "æµ‹è¯•1");
+        x2[1] = new ccc002å¯¹è±¡ç±»("åˆ˜2", 21, "æµ‹è¯•2");
+        x2[2] = new ccc002å¯¹è±¡ç±»("åˆ˜3", 12, "æµ‹è¯•3");
+        x2[3] = new ccc002å¯¹è±¡ç±»("åˆ˜4", 1, "æµ‹è¯•4");
+        x2[4] = new ccc002å¯¹è±¡ç±»("åˆ˜5", 5, "æµ‹è¯•5");
         System.out.println(Arrays.toString(x2));
         // ************************************
-        Arrays.sort(x2, new Comparator<ccc002¶ÔÏóÀà>() {
+        Arrays.sort(x2, new Comparator<ccc002å¯¹è±¡ç±»>() {
             @Override
-            public int compare(ccc002¶ÔÏóÀà s1, ccc002¶ÔÏóÀà s2) {
+            public int compare(ccc002å¯¹è±¡ç±» s1, ccc002å¯¹è±¡ç±» s2) {
                 return s1.getAge() - s2.getAge();
-                // Èç¹ûÉÏÃæ²»ÊÇÕûÊı£¬ÊÇdoubleÀàĞÍµÄ
-                //Ê¹ÓÃDouble.compare(x1.getAge(),x2.getAge())¾Í¿ÉÒÔÍê³É±È½Ï
-                //¶şÕßÖ±½Ó·µ»Ø¶Ô±ÈµÄ½á¹û
+                // å¦‚æœä¸Šé¢ä¸æ˜¯æ•´æ•°ï¼Œæ˜¯doubleç±»å‹çš„
+                //ä½¿ç”¨Double.compare(x1.getAge(),x2.getAge())å°±å¯ä»¥å®Œæˆæ¯”è¾ƒ
+                //äºŒè€…ç›´æ¥è¿”å›å¯¹æ¯”çš„ç»“æœ
             }
         });
         System.out.println(Arrays.toString(x2));

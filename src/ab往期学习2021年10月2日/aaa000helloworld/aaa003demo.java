@@ -1,18 +1,18 @@
-package abÍùÆÚÑ§Ï°2021Äê10ÔÂ2ÈÕ.aaa000helloworld;
+package abå¾€æœŸå­¦ä¹ 2021å¹´10æœˆ2æ—¥.aaa000helloworld;
 
 public class aaa003demo {
     public static void main(String[] args) {
-        // ËãÊıÔËËã·û
+        // ç®—æ•°è¿ç®—ç¬¦
         int a = 10;
         char b = 'A';
         b = 'a';
         b = '0';
-        System.out.print("×Ö·û¼ÓºÍ£º");
+        System.out.print("å­—ç¬¦åŠ å’Œï¼š");
         System.out.println(a + b);
-        // AÎª65£¬
-        // aÎª97,
-        // 0Îª48,
-        System.out.println("ÓĞ×Ö·û´®£¬¼ÓºÅ±äÁ¬½ÓºÅ£º" + a + b);
-        System.out.println("ÓĞ×Ö·û´®£¬¼ÓºÅ±äÁ¬½ÓºÅ£º" + b + "111111");
+        // Aä¸º65ï¼Œ
+        // aä¸º97,
+        // 0ä¸º48,
+        System.out.println("æœ‰å­—ç¬¦ä¸²ï¼ŒåŠ å·å˜è¿æ¥å·ï¼š" + a + b);
+        System.out.println("æœ‰å­—ç¬¦ä¸²ï¼ŒåŠ å·å˜è¿æ¥å·ï¼š" + b + "111111");
     }
 }

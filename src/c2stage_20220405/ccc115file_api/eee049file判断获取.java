@@ -1,56 +1,56 @@
 package c2stage_20220405.ccc115file_api;
 /*
-    FileÀàµÄÅĞ¶ÏºÍ»ñÈ¡¹¦ÄÜ£º
-        public boolean isDirectory()£º²âÊÔ´Ë³éÏóÂ·¾¶Ãû±íÊ¾µÄFileÊÇ·ñÎªÄ¿Â¼
-        public boolean isFile()£º²âÊÔ´Ë³éÏóÂ·¾¶Ãû±íÊ¾µÄFileÊÇ·ñÎªÎÄ¼ş
-        public boolean exists()£º²âÊÔ´Ë³éÏóÂ·¾¶Ãû±íÊ¾µÄFileÊÇ·ñ´æÔÚ
+    Fileç±»çš„åˆ¤æ–­å’Œè·å–åŠŸèƒ½ï¼š
+        public boolean isDirectory()ï¼šæµ‹è¯•æ­¤æŠ½è±¡è·¯å¾„åè¡¨ç¤ºçš„Fileæ˜¯å¦ä¸ºç›®å½•
+        public boolean isFile()ï¼šæµ‹è¯•æ­¤æŠ½è±¡è·¯å¾„åè¡¨ç¤ºçš„Fileæ˜¯å¦ä¸ºæ–‡ä»¶
+        public boolean exists()ï¼šæµ‹è¯•æ­¤æŠ½è±¡è·¯å¾„åè¡¨ç¤ºçš„Fileæ˜¯å¦å­˜åœ¨
 
-        public String getAbsolutePath()£º·µ»Ø´Ë³éÏóÂ·¾¶ÃûµÄ¾ø¶ÔÂ·¾¶Ãû×Ö·û´®
-        public String getPath()£º½«´Ë³éÏóÂ·¾¶Ãû×ª»»ÎªÂ·¾¶Ãû×Ö·û´®
-        public String getName()£º·µ»ØÓÉ´Ë³éÏóÂ·¾¶Ãû±íÊ¾µÄÎÄ¼ş»òÄ¿Â¼µÄÃû³Æ
+        public String getAbsolutePath()ï¼šè¿”å›æ­¤æŠ½è±¡è·¯å¾„åçš„ç»å¯¹è·¯å¾„åå­—ç¬¦ä¸²
+        public String getPath()ï¼šå°†æ­¤æŠ½è±¡è·¯å¾„åè½¬æ¢ä¸ºè·¯å¾„åå­—ç¬¦ä¸²
+        public String getName()ï¼šè¿”å›ç”±æ­¤æŠ½è±¡è·¯å¾„åè¡¨ç¤ºçš„æ–‡ä»¶æˆ–ç›®å½•çš„åç§°
 
-        public String[] list()£º·µ»Ø´Ë³éÏóÂ·¾¶Ãû±íÊ¾µÄÄ¿Â¼ÖĞµÄÎÄ¼şºÍÄ¿Â¼µÄÃû³Æ×Ö·û´®Êı×é
-        public File[] listFiles()£º·µ»Ø´Ë³éÏóÂ·¾¶Ãû±íÊ¾µÄÄ¿Â¼ÖĞµÄÎÄ¼şºÍÄ¿Â¼µÄFile¶ÔÏóÊı×é
+        public String[] list()ï¼šè¿”å›æ­¤æŠ½è±¡è·¯å¾„åè¡¨ç¤ºçš„ç›®å½•ä¸­çš„æ–‡ä»¶å’Œç›®å½•çš„åç§°å­—ç¬¦ä¸²æ•°ç»„
+        public File[] listFiles()ï¼šè¿”å›æ­¤æŠ½è±¡è·¯å¾„åè¡¨ç¤ºçš„ç›®å½•ä¸­çš„æ–‡ä»¶å’Œç›®å½•çš„Fileå¯¹è±¡æ•°ç»„
  */
 
 import java.io.File;
 
-public class eee049fileÅĞ¶Ï»ñÈ¡ {
+public class eee049fileåˆ¤æ–­è·å– {
     public static void main(String[] args) {
         File x = new File("l:java\\demo");
         System.out.println(x);
         // l:java\demo
-        // ÔËĞĞÊ±£¬¸ÃÄ¿Â¼´æÔÚ
-        System.out.println(x.isDirectory());// ÅĞ¶ÏÊÇ·ñÎªÄ¿Â¼£¬true
+        // è¿è¡Œæ—¶ï¼Œè¯¥ç›®å½•å­˜åœ¨
+        System.out.println(x.isDirectory());// åˆ¤æ–­æ˜¯å¦ä¸ºç›®å½•ï¼Œtrue
 
-        System.out.println(x.isFile());// ÅĞ¶ÏÊÇ·ñÎªÎÄ¼ş£¬false
+        System.out.println(x.isFile());// åˆ¤æ–­æ˜¯å¦ä¸ºæ–‡ä»¶ï¼Œfalse
 
-        System.out.println(x.exists());// ÅĞ¶ÏfileÊÇ·ñ´æÔÚ£¬true
+        System.out.println(x.exists());// åˆ¤æ–­fileæ˜¯å¦å­˜åœ¨ï¼Œtrue
 
         // ------------------------------------------------------------
-        System.out.println(x.getAbsolutePath());// l:\\java\demo,¾ø¶ÔÂ·¾¶Ãû£¬ĞÎÊ½Îª×Ö·û´®
+        System.out.println(x.getAbsolutePath());// l:\\java\demo,ç»å¯¹è·¯å¾„åï¼Œå½¢å¼ä¸ºå­—ç¬¦ä¸²
 
-        System.out.println(x.getPath());// l:java\demo£¬Â·¾¶×Ö·û´®
+        System.out.println(x.getPath());// l:java\demoï¼Œè·¯å¾„å­—ç¬¦ä¸²
 
         System.out.println(x.getName());
-        // demo£¬Â·¾¶µÄÎÄ¼şºÍÄ¿Â¼Ãû³Æ£¬
-        // ÕâÀïÖ»Õ¹Ê¾Ä©Î»µÄÎÄ¼ş¼ĞÃû
+        // demoï¼Œè·¯å¾„çš„æ–‡ä»¶å’Œç›®å½•åç§°ï¼Œ
+        // è¿™é‡Œåªå±•ç¤ºæœ«ä½çš„æ–‡ä»¶å¤¹å
         // ------------------------------------------------------------
         System.out.println("-------------------");
         File x1 = new File("l:java");
-        String[] x2 = x1.list();// ·µ»ØÄ¿Â¼ÖĞµÄÎÄ¼şºÍÄ¿Â¼µÄÃû³Æ,ÓÃÃû³Æ¹¹ÔìÒ»¸ö×Ö·û´®Êı×é
-        // Ïàµ±ÓÚ´ò¿ªÒ»¸öÎÄ¼ş¼Ğ£¬È»ºóÕ¹Ê¾ÎÄ¼ş¼ĞÄÚ²¿µÄËùÓĞÎÄ¼ş
+        String[] x2 = x1.list();// è¿”å›ç›®å½•ä¸­çš„æ–‡ä»¶å’Œç›®å½•çš„åç§°,ç”¨åç§°æ„é€ ä¸€ä¸ªå­—ç¬¦ä¸²æ•°ç»„
+        // ç›¸å½“äºæ‰“å¼€ä¸€ä¸ªæ–‡ä»¶å¤¹ï¼Œç„¶åå±•ç¤ºæ–‡ä»¶å¤¹å†…éƒ¨çš„æ‰€æœ‰æ–‡ä»¶
         for (String i : x2) {
             System.out.println(i);
         }
         System.out.println("-------------------");
-        // Ä¿Â¼ÖĞµÄÎÄ¼şºÍÄ¿Â¼µÄFile¶ÔÏóÊı×é£¬ÓÃfile¶ÔÏó¹¹ÔìÊı×é
-        // ºÃ´¦ÊÇ£¬Êı×éÄÚµÄÎÄ¼şÈ«²¿ÊÇfile¸ñÊ½£¬
-        // ¶øfile¸ñÊ½£¬¶¼¿ÉÒÔÖ±½Óµ÷ÓÃfile·½·¨
+        // ç›®å½•ä¸­çš„æ–‡ä»¶å’Œç›®å½•çš„Fileå¯¹è±¡æ•°ç»„ï¼Œç”¨fileå¯¹è±¡æ„é€ æ•°ç»„
+        // å¥½å¤„æ˜¯ï¼Œæ•°ç»„å†…çš„æ–‡ä»¶å…¨éƒ¨æ˜¯fileæ ¼å¼ï¼Œ
+        // è€Œfileæ ¼å¼ï¼Œéƒ½å¯ä»¥ç›´æ¥è°ƒç”¨fileæ–¹æ³•
         File[] x3 = x1.listFiles();
         for (File i2 : x3) {
             System.out.print(i2.getName());
-            System.out.println("ÊÇ²»ÊÇÎÄ¼ş£º" + i2.isFile());
+            System.out.println("æ˜¯ä¸æ˜¯æ–‡ä»¶ï¼š" + i2.isFile());
         }
 
     }

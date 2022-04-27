@@ -1,10 +1,10 @@
-package ab¶ş½×¶ÎÇ¿»¯¿Î³Ì2022Äê1ÔÂ11ÈÕ.ccc110Ã¨ºÍ¹·;
+package abäºŒé˜¶æ®µå¼ºåŒ–è¯¾ç¨‹2022å¹´1æœˆ11æ—¥.ccc110çŒ«å’Œç‹—;
 
 public class ccc002testcat extends ccc001testanimal {
     public ccc002testcat() {
         ccc001testanimal x1 = new ccc001testanimal(11, "aa");
-        // ÕâÀïËäÈ»ÊÇÎŞ²Î¹¹Ôì£¬µ«ÊÇµ÷ÓÃÁË¸¸ÀàµÄ´ø²Î¹¹Ôì·½·¨
-        // ÆäÊµÓÃÏÂÃæµÄÒ²¿ÉÒÔ£¬
+        // è¿™é‡Œè™½ç„¶æ˜¯æ— å‚æ„é€ ï¼Œä½†æ˜¯è°ƒç”¨äº†çˆ¶ç±»çš„å¸¦å‚æ„é€ æ–¹æ³•
+        // å…¶å®ç”¨ä¸‹é¢çš„ä¹Ÿå¯ä»¥ï¼Œ
 
     }
 
@@ -14,6 +14,6 @@ public class ccc002testcat extends ccc001testanimal {
 
     @Override
     public void eatsm() {
-        System.out.println("ÎÒÊÇÃ¨³ÔÓã£¬ÖØĞ´eat·½·¨");
+        System.out.println("æˆ‘æ˜¯çŒ«åƒé±¼ï¼Œé‡å†™eatæ–¹æ³•");
     }
 }

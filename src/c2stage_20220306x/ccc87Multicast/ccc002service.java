@@ -10,22 +10,22 @@ import java.net.MulticastSocket;
  * Project:index.pb
  * Package:c2stage_20220306.ccc87Multicast
  * User:  wo1261931780@gmail.com
- * Time:  2022-03-11-30  ĞÇÆÚÒ»
+ * Time:  2022-03-11-30  æ˜ŸæœŸä¸€
  */
 public class ccc002service {
     public static void main(String[] args) throws IOException {
         // DatagramSocket demo_s = new DatagramSocket(8080);
-        DatagramSocket demo_s = new MulticastSocket(8080);// ¶àÌ¬µÄ·½Ê½ĞŞ¸Ä×é²¥
+        DatagramSocket demo_s = new MulticastSocket(8080);// å¤šæ€çš„æ–¹å¼ä¿®æ”¹ç»„æ’­
         // demo_s.joinGroup(InetAddress.getByName("224.0.1.1"));
         // demo_s.joinGroup(new InetSocketAddress(InetAddress.getByName("224.0.1.1",8080)),
         //         NetworkInterface.getByInetAddress(InetAddress.getLocalHost()));
-        // jdk°æ±¾²»¶Ô£¬ÕâÀïÎŞ·¨¶ÔÓ¦17
+        // jdkç‰ˆæœ¬ä¸å¯¹ï¼Œè¿™é‡Œæ— æ³•å¯¹åº”17
 
 
         byte[] demo_st = new byte[1024 * 64];
         DatagramPacket demo_p = new DatagramPacket(demo_st, demo_st.length);
         demo_s.receive(demo_p);
         String x = new String(demo_st, 0, demo_p.getLength());
-        System.out.println("½á¹ûÎª£º" + x);
+        System.out.println("ç»“æœä¸ºï¼š" + x);
     }
 }

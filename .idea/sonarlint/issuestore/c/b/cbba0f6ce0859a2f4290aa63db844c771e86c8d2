@@ -1,15 +1,0 @@
-
-g	java:S112J"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8êàÈİ‚0
-k	java:S117@"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¡¸îÅùÿÿÿÿ
-j
-java:S11048"OMake map a static final constant or non-public and provide accessors if needed.(ôÄ¡ûÿÿÿÿ
-D
-java:S14448")Make this "public static map" field final(ôÄ¡ûÿÿÿÿ
-b	java:S1017"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(¢»¶Á
-8
-java:S23868"Make this member "protected".(ôÄ¡ûÿÿÿÿ
-K
-java:S1854b"5Remove this useless assignment to local variable "i".(óßÊù
-<
-java:S1481b"&Remove this unused "i" local variable.(óßÊù
-N	java:S106~"9Replace this use of System.out or System.err by a logger.(µˆœÑ

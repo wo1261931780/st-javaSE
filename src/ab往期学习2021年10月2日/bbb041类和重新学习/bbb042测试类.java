@@ -1,16 +1,16 @@
-package abÍùÆÚÑ§Ï°2021Äê10ÔÂ2ÈÕ.bbb041ÀàºÍÖØĞÂÑ§Ï°;
+package abå¾€æœŸå­¦ä¹ 2021å¹´10æœˆ2æ—¥.bbb041ç±»å’Œé‡æ–°å­¦ä¹ ;
 
-public class bbb042²âÊÔÀà {
+public class bbb042æµ‹è¯•ç±» {
     String brand = "";
     int price = 0;
     private String id;
 
     public void pay(String brand, int price) {
-        // ¶¨Òå·½·¨À´ÉèÖÃ³ÉÔ±±äÁ¿
-        System.out.println("Ê¹ÓÃÀà£º");
-        // ÉèÖÃ³ÉÔ±±äÁ¿Îª´«µİ¹ıÀ´µÄÊıÖµ
+        // å®šä¹‰æ–¹æ³•æ¥è®¾ç½®æˆå‘˜å˜é‡
+        System.out.println("ä½¿ç”¨ç±»ï¼š");
+        // è®¾ç½®æˆå‘˜å˜é‡ä¸ºä¼ é€’è¿‡æ¥çš„æ•°å€¼
         this.brand = brand;
         this.price = price;
-        System.out.println("ÖÖÀàÊÇ£º" + brand + "£¬¼Û¸ñÊÇ£º" + price);
+        System.out.println("ç§ç±»æ˜¯ï¼š" + brand + "ï¼Œä»·æ ¼æ˜¯ï¼š" + price);
     }
 }

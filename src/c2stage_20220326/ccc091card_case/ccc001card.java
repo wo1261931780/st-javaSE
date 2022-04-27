@@ -5,7 +5,7 @@ package c2stage_20220326.ccc091card_case;
  * Project:index.pb
  * Package:c2stage_20220326.ccc091card_case
  * User:  wo1261931780@gmail.com
- * Time:  2022-03-21-50  ĞÇÆÚÁù
+ * Time:  2022-03-21-50  ÃÃ‡Ã†ÃšÃÃ¹
  */
 public class ccc001card {
     private String color;

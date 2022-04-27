@@ -1,8 +1,8 @@
-package ab¶ş½×¶ÎÇ¿»¯¿Î³Ì2022Äê1ÔÂ11ÈÕ.ccc028½Ó¿ÚÃûµÄĞÎ²ÎºÍ·µ»Ø;
+package abäºŒé˜¶æ®µå¼ºåŒ–è¯¾ç¨‹2022å¹´1æœˆ11æ—¥.ccc028æ¥å£åçš„å½¢å‚å’Œè¿”å›;
 
-public class ccc030×ÓÀà implements ccc029½Ó¿Ú {
+public class ccc030å­ç±» implements ccc029æ¥å£ {
     @Override
     public void jkk() {
-        System.out.println("×ÓÀàµÄjkk");
+        System.out.println("å­ç±»çš„jkk");
     }
 }

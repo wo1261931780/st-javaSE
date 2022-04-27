@@ -9,9 +9,9 @@ import java.util.stream.Stream;
  * Project:index.pb
  * Package:c2stage_20220329.ccc003stream_flow_api
  * User:  wo1261931780@gmail.com
- * Time:  2022-03-20-59  ĞÇÆÚËÄ
+ * Time:  2022-03-20-59  æ˜ŸæœŸå››
  */
-public class ccc004streamºÏ²¢ {
+public class ccc004streamåˆå¹¶ {
     public static void main(String[] args) {
         List<String> x = new ArrayList<>();
         x.add("1");
@@ -19,10 +19,10 @@ public class ccc004streamºÏ²¢ {
         x.add("1");
         Stream<String> demo1 = x.stream().skip(2);
         Stream<String> demo2 = x.stream().limit(3);
-        // ºÏ²¢µÄÇ°ÌáÊÇ¶şÕßµÄÀàĞÍÒ»ÖÂ
+        // åˆå¹¶çš„å‰ææ˜¯äºŒè€…çš„ç±»å‹ä¸€è‡´
         Stream<String> demo3 = Stream.concat(demo1, demo2);
-        // Èç¹û²»Ò»ÖÂ£¬¾ÍĞèÒªÖ¸¶¨streamÁ÷µÄÀàĞÍÎªobject
-        demo1.distinct();// È¥³ıÖØ¸´µÄ·½·¨
-        // ÒòÎªdemo1±¾Éí¾ÍÊÇstreamÁ÷ÀàĞÍ£¬ËùÒÔÕâÀïÖ±½Óµ÷ÓÃstreamÁ÷µÄapi¼´¿É
+        // å¦‚æœä¸ä¸€è‡´ï¼Œå°±éœ€è¦æŒ‡å®šstreamæµçš„ç±»å‹ä¸ºobject
+        demo1.distinct();// å»é™¤é‡å¤çš„æ–¹æ³•
+        // å› ä¸ºdemo1æœ¬èº«å°±æ˜¯streamæµç±»å‹ï¼Œæ‰€ä»¥è¿™é‡Œç›´æ¥è°ƒç”¨streamæµçš„apiå³å¯
     }
 }

@@ -1,10 +1,10 @@
-package abÍùÆÚÑ§Ï°2021Äê10ÔÂ2ÈÕ.bbb011ÉÌ³Ç°¸Àı;
+package abå¾€æœŸå­¦ä¹ 2021å¹´10æœˆ2æ—¥.bbb011å•†åŸæ¡ˆä¾‹;
 
 import java.util.Scanner;
 
 public class bbb002bag {
     public static void main(String[] args) {
-        bbb001ÉÌÆ·Àà[] x = new bbb001ÉÌÆ·Àà[100];
+        bbb001å•†å“ç±»[] x = new bbb001å•†å“ç±»[100];
         while (true) {
             int i = Interface_root();
             switch (i) {
@@ -27,79 +27,79 @@ public class bbb002bag {
                     break;
                 default:
                     show(x);
-                    System.out.println("ÇëÖØĞÂÊäÈë");
+                    System.out.println("è¯·é‡æ–°è¾“å…¥");
                     System.out.println("*****************************");
             }
         }
     }
-// ÕâÀïÒ²¿ÉÒÔ½«·½·¨ÉèÖÃÔÚmainÖĞ
-// ÕâÑù·½·¨ÄÚ²¿³öÏÖµÄscannerµÈÖ¸Áî£¬Ö±½Ó¿ÉÒÔ´«µİ¸øºóĞøµÄ·½·¨
+// è¿™é‡Œä¹Ÿå¯ä»¥å°†æ–¹æ³•è®¾ç½®åœ¨mainä¸­
+// è¿™æ ·æ–¹æ³•å†…éƒ¨å‡ºç°çš„scannerç­‰æŒ‡ä»¤ï¼Œç›´æ¥å¯ä»¥ä¼ é€’ç»™åç»­çš„æ–¹æ³•
 
     public static int Interface_root() {
         Scanner x = new Scanner(System.in);
-        System.out.println("»¶Ó­½øÈë");
-        System.out.println("1--Ìí¼ÓÉÌÆ·");
-        System.out.println("2--É¾³ıÉÌÆ·");
-        System.out.println("3--ĞŞ¸ÄÉÌÆ·ĞÅÏ¢");
-        System.out.println("4--È«²¿½áËã");
-        System.out.println("5--Çå¿Õ¹ºÎï³µ");
-        System.out.println("--ÇëÊäÈë¶ÔÓ¦Ö¸Áî--");
+        System.out.println("æ¬¢è¿è¿›å…¥");
+        System.out.println("1--æ·»åŠ å•†å“");
+        System.out.println("2--åˆ é™¤å•†å“");
+        System.out.println("3--ä¿®æ”¹å•†å“ä¿¡æ¯");
+        System.out.println("4--å…¨éƒ¨ç»“ç®—");
+        System.out.println("5--æ¸…ç©ºè´­ç‰©è½¦");
+        System.out.println("--è¯·è¾“å…¥å¯¹åº”æŒ‡ä»¤--");
         int command = x.nextInt();
         System.out.println("*****************************");
         return command;
     }
 
-    public static void add(bbb001ÉÌÆ·Àà[] s) {
+    public static void add(bbb001å•†å“ç±»[] s) {
         Scanner goods = new Scanner(System.in);
-        System.out.println("ÇëÊäÈëÉÌÆ·Ãû³Æ£º");
+        System.out.println("è¯·è¾“å…¥å•†å“åç§°ï¼š");
         String addname = goods.nextLine();
-        System.out.println("ÇëÊäÈëÉÌÆ·¼Û¸ñ£º");
+        System.out.println("è¯·è¾“å…¥å•†å“ä»·æ ¼ï¼š");
         int addprice = goods.nextInt();
-        System.out.println("ÇëÊäÈëÉÌÆ·ÊıÁ¿£º");
+        System.out.println("è¯·è¾“å…¥å•†å“æ•°é‡ï¼š");
         int addnum = goods.nextInt();
-        System.out.println("ÇëÊäÈëÉÌÆ·id£º");
+        System.out.println("è¯·è¾“å…¥å•†å“idï¼š");
         int addid = goods.nextInt();
-        bbb001ÉÌÆ·Àà x = new bbb001ÉÌÆ·Àà(addname, addprice, addnum, addid);
+        bbb001å•†å“ç±» x = new bbb001å•†å“ç±»(addname, addprice, addnum, addid);
         for (int i = 0; i < s.length; i++) {
             if (s[i] == null) {
                 s[i] = x;
-                System.out.println("Ìí¼ÓÍê±Ï");
+                System.out.println("æ·»åŠ å®Œæ¯•");
                 return;
             }
         }
     }
 
-    public static void del(bbb001ÉÌÆ·Àà[] s) {
+    public static void del(bbb001å•†å“ç±»[] s) {
         Scanner x = new Scanner(System.in);
         String delname = x.nextLine();
         for (int i = 0; i < s.length; i++) {
             if (s[i].name.equals(delname)) {
                 s[i] = null;
-                System.out.println("É¾³ı³É¹¦");
+                System.out.println("åˆ é™¤æˆåŠŸ");
                 return;
             }
         }
-        System.out.println("Ã»ÓĞ¸ÃÉÌÆ·£¬ÇëÖØĞÂÊäÈë");
+        System.out.println("æ²¡æœ‰è¯¥å•†å“ï¼Œè¯·é‡æ–°è¾“å…¥");
     }
 
-    public static void change(bbb001ÉÌÆ·Àà[] s) {
+    public static void change(bbb001å•†å“ç±»[] s) {
         Scanner x = new Scanner(System.in);
         int chid = x.nextInt();
         for (int i = 0; i < s.length; i++) {
             if (s[i].id == chid) {
-                System.out.println("ÇëÊäÈëname£º");
+                System.out.println("è¯·è¾“å…¥nameï¼š");
                 s[i].name = x.nextLine();
-                System.out.println("ÇëÊäÈëprice£º");
+                System.out.println("è¯·è¾“å…¥priceï¼š");
                 s[i].price = x.nextInt();
-                System.out.println("ÇëÊäÈënum£º");
+                System.out.println("è¯·è¾“å…¥numï¼š");
                 s[i].num = x.nextInt();
                 return;
             }
         }
-        System.out.println("Ã»ÓĞ¸ÃÉÌÆ·£¬ÇëÖØĞÂÊäÈë");
+        System.out.println("æ²¡æœ‰è¯¥å•†å“ï¼Œè¯·é‡æ–°è¾“å…¥");
     }
 
-    public static void settlement(bbb001ÉÌÆ·Àà[] s) {
+    public static void settlement(bbb001å•†å“ç±»[] s) {
         int tol = 0;
         for (int i = 0; i < s.length; i++) {
             if (s[i] == null) {
@@ -108,27 +108,27 @@ public class bbb002bag {
                 tol += s[i].price * s[i].num;
             }
         }
-        System.out.println("×Ü¼Û¸ñÊÇ£º" + tol);
+        System.out.println("æ€»ä»·æ ¼æ˜¯ï¼š" + tol);
     }
 
-    public static void cls_all(bbb001ÉÌÆ·Àà[] s) {
+    public static void cls_all(bbb001å•†å“ç±»[] s) {
         for (int i = 0; i < s.length; i++) {
             s[i] = null;
         }
-        System.out.println("Çå¿ÕÍê³É");
+        System.out.println("æ¸…ç©ºå®Œæˆ");
     }
 
-    public static void show(bbb001ÉÌÆ·Àà[] s) {
-        System.out.println("idÃû" + "\t" + "Ãû³Æ" + "\t" + "¼Û¸ñ" + "\t" + "ÊıÁ¿");
+    public static void show(bbb001å•†å“ç±»[] s) {
+        System.out.println("idå" + "\t" + "åç§°" + "\t" + "ä»·æ ¼" + "\t" + "æ•°é‡");
         for (int i = 0; i < s.length; i++) {
             if (s[i] == null) {
-                System.out.println("²éÑ¯½áÊø");
+                System.out.println("æŸ¥è¯¢ç»“æŸ");
                 return;
             } else {
                 System.out.println(s[i].id + "\t\t" + s[i].name + "\t" + s[i].price + "\t" + s[i].num);
             }
         }
-        // System.out.println("Çå¿ÕÍê³É");
+        // System.out.println("æ¸…ç©ºå®Œæˆ");
     }
 
 

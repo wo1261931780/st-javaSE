@@ -1,11 +1,11 @@
-package leetcode.eee118×Ô¼º³öÌâ2;
+package leetcode.eee118è‡ªå·±å‡ºé¢˜2;
 
 import java.util.ArrayList;
 import java.util.Random;
 
 public class mis_demo_sort {
     public static void main(String[] args) {
-        // »ñµÃÁ½¸öËæ»úÊı×Ö£¬²ÎÓëÊı×éÅÅĞò£¬²¢Õ¹Ê¾½á¹û
+        // è·å¾—ä¸¤ä¸ªéšæœºæ•°å­—ï¼Œå‚ä¸æ•°ç»„æ’åºï¼Œå¹¶å±•ç¤ºç»“æœ
         ArrayList<Integer> x = new ArrayList<>();
         Random x1 = new Random();
         int i = 0;
@@ -23,10 +23,10 @@ public class mis_demo_sort {
                     max = x.get(i);
                     x.set(i, x.get(i + 1));
                     x.set(i + 1, max);
-                    System.out.println("µÚ" + i + "´Î£º" + x);
+                    System.out.println("ç¬¬" + i + "æ¬¡ï¼š" + x);
                 }
             }
         }
-        System.out.println("½áÊø£º" + x);
+        System.out.println("ç»“æŸï¼š" + x);
     }
 }

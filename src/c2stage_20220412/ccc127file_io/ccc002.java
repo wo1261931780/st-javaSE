@@ -9,7 +9,7 @@ import java.io.InputStream;
  * Project:index.pb
  * Package:c2stage_20220412.ccc127file_io
  * User:  wo1261931780@gmail.com
- * Time:  2022-04-20-29  ĞÇÆÚÎå
+ * Time:  2022-04-20-29  æ˜ŸæœŸäº”
  */
 public class ccc002 {
     public static void main(String[] args) throws IOException {
@@ -18,7 +18,7 @@ public class ccc002 {
         while ((demo = x.read()) != -1) {
             System.out.println((char) demo);
         }
-        // ÕâÀïÆäÊµ»¹ÊÇÃ¿¸ö×Ö½ÚÃ¿¸ö×Ö½Ú¶ÁÈ¡£¬Ö»²»¹ı
+        // è¿™é‡Œå…¶å®è¿˜æ˜¯æ¯ä¸ªå­—èŠ‚æ¯ä¸ªå­—èŠ‚è¯»å–ï¼Œåªä¸è¿‡
 
     }
 }

@@ -2,7 +2,7 @@ package c2stage_20220417.ccc139charset_writer;
 
 import java.io.*;
 
-public class eee099ÌØÓĞ¹¦ÄÜ {
+public class eee099ç‰¹æœ‰åŠŸèƒ½ {
     public static void main(String[] args) throws IOException {
         File xx = new File("l:\\java\\demo.txt");
         BufferedWriter x = new BufferedWriter(new FileWriter(xx));
@@ -10,7 +10,7 @@ public class eee099ÌØÓĞ¹¦ÄÜ {
             x.write("java" + i);
             // x.write("\r\n");
             x.newLine();
-            // ×Ô´øµÄ»»ĞĞ·ûºÅ£¬±ÜÃâ²»Í¬ÏµÍ³Ö®¼äµÄ²îÒì
+            // è‡ªå¸¦çš„æ¢è¡Œç¬¦å·ï¼Œé¿å…ä¸åŒç³»ç»Ÿä¹‹é—´çš„å·®å¼‚
         }
         System.out.println("-------------");
         x.close();
@@ -21,10 +21,10 @@ public class eee099ÌØÓĞ¹¦ÄÜ {
         BufferedReader x1 = new BufferedReader(new FileReader(x));
         String x2 = "";
         while ((x2 = x1.readLine()) != null) {
-            // readlineÊÇ×Ô¶¯¶ÁÈ¡×Ö·û´®µÄ·½·¨£¬
-            // Í¬ÑùµÄ£¬Ã¿´Î¶ÁÈ¡¶¼»á£¬ÈÃÎÄ±¾Ç°½øÒ»ĞĞ
-            // µ«ÊÇx2Ö»º¬ÓĞÎÄ±¾ÄÚÈİ£¬Ã»ÓĞ»»ĞĞ·û£¬
-            // ËùÒÔ±ØĞëÊÖ¶¯»»ĞĞ
+            // readlineæ˜¯è‡ªåŠ¨è¯»å–å­—ç¬¦ä¸²çš„æ–¹æ³•ï¼Œ
+            // åŒæ ·çš„ï¼Œæ¯æ¬¡è¯»å–éƒ½ä¼šï¼Œè®©æ–‡æœ¬å‰è¿›ä¸€è¡Œ
+            // ä½†æ˜¯x2åªå«æœ‰æ–‡æœ¬å†…å®¹ï¼Œæ²¡æœ‰æ¢è¡Œç¬¦ï¼Œ
+            // æ‰€ä»¥å¿…é¡»æ‰‹åŠ¨æ¢è¡Œ
             System.out.println(x2);
         }
     }

@@ -3,9 +3,9 @@ package c2stage_20220220.ccc057collection;
 import java.util.ArrayList;
 import java.util.Collection;
 
-public class ccc004collection³£ÓÃ·½·¨remove {
+public class ccc004collectionå¸¸ç”¨æ–¹æ³•remove {
     public static void main(String[] args) {
-        System.out.println("¿ªÊ¼");
+        System.out.println("å¼€å§‹");
         Collection<String> x = new ArrayList<>();
         x.add("aaa");
         x.add("aaa");
@@ -16,11 +16,11 @@ public class ccc004collection³£ÓÃ·½·¨remove {
         x.remove("aaa");
         System.out.println(x);
         // [aaa, aaa, aaa]
-        // Ä¬ÈÏÃ¿¸öaaa×÷ÎªÒ»¸ö¶ÔÏó£¬ÒÆ³ı²Ù×÷°´ÕÕ´ÎÊı½øĞĞ
+        // é»˜è®¤æ¯ä¸ªaaaä½œä¸ºä¸€ä¸ªå¯¹è±¡ï¼Œç§»é™¤æ“ä½œæŒ‰ç…§æ¬¡æ•°è¿›è¡Œ
         System.out.println(x.remove("aaa"));
         // true
         System.out.println(x.remove("aaa1"));
-        // ½á¹ûÓĞtrue/false£¬¶Ô²»´æÔÚµÄ¶ÔÏó½øĞĞÒÆ³ı£¬µ¼ÖÂÊ§°Ü
+        // ç»“æœæœ‰true/falseï¼Œå¯¹ä¸å­˜åœ¨çš„å¯¹è±¡è¿›è¡Œç§»é™¤ï¼Œå¯¼è‡´å¤±è´¥
         // false
     }
 }

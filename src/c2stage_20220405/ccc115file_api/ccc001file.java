@@ -8,23 +8,23 @@ import java.text.SimpleDateFormat;
  * Project:index.pb
  * Package:c2stage_20220405.ccc115file_api
  * User:  wo1261931780@gmail.com
- * Time:  2022-04-20-40  ĞÇÆÚ¶ş
+ * Time:  2022-04-20-40  æ˜ŸæœŸäºŒ
  */
 public class ccc001file {
     public static void main(String[] args) {
         System.out.println("------");
         File x = new File("C:\\Users\\1\\Documents\\GitHub\\st-java.github.io\\src\\c2stage_20220405\\ccc114IO\\demo.txt");
-        // ÉÏÃæ»ñÈ¡µÄÊÇ¾ø¶ÔÂ·¾¶
+        // ä¸Šé¢è·å–çš„æ˜¯ç»å¯¹è·¯å¾„
         System.out.println(x.getAbsolutePath());
-        // »ñÈ¡¾ø¶ÔÂ·¾¶£¬C:\Users\1\Documents\GitHub\st-java.github.io\src\c2stage_20220405\ccc114IO\demo.txt
-        System.out.println("Ïà¶ÔÂ·¾¶£º" + x.getPath());
+        // è·å–ç»å¯¹è·¯å¾„ï¼ŒC:\Users\1\Documents\GitHub\st-java.github.io\src\c2stage_20220405\ccc114IO\demo.txt
+        System.out.println("ç›¸å¯¹è·¯å¾„ï¼š" + x.getPath());
         System.out.println(x.getName());
         System.out.println(x.length());
-        System.out.println(x.lastModified());// ×îºóĞŞ¸ÄÊ±¼ä£¬longÀàĞÍµÄÊı¾İ
+        System.out.println(x.lastModified());// æœ€åä¿®æ”¹æ—¶é—´ï¼Œlongç±»å‹çš„æ•°æ®
         SimpleDateFormat x1 = new SimpleDateFormat("yyyy-MM-dd HH:mm:SS");
-        System.out.println(x1.format(x.lastModified()));// ¼ÓÉÏÒ»¸öÈÕÆÚ¸ñÊ½»¯Æ÷£¬2022-04-05 20:26:353
-        System.out.println(x.isDirectory());// ÊÇ·ñÊÇÎÄ¼ş¼Ğ£¬false
-        System.out.println(x.isFile());// ÊÇ·ñÊÇÎÄ¼ş£¬true
+        System.out.println(x1.format(x.lastModified()));// åŠ ä¸Šä¸€ä¸ªæ—¥æœŸæ ¼å¼åŒ–å™¨ï¼Œ2022-04-05 20:26:353
+        System.out.println(x.isDirectory());// æ˜¯å¦æ˜¯æ–‡ä»¶å¤¹ï¼Œfalse
+        System.out.println(x.isFile());// æ˜¯å¦æ˜¯æ–‡ä»¶ï¼Œtrue
         System.out.println("------------------------------------");
         show2();
     }
@@ -32,15 +32,15 @@ public class ccc001file {
     public static void show2() {
         File x = new File("st-java.github.io\\src\\c2stage_20220405\\ccc114IO\\demo.txt");
         System.out.println(x.getAbsolutePath());
-        // ÔÚÍ¬Ò»¸öÏîÄ¿ÏÂ£¬¼´Ê¹ÊÇÏà¶ÔÂ·¾¶µÄfile¶ÔÏó£¬
-        // µ÷ÓÃapiÈ¥»ñµÃ¾ø¶ÔÂ·¾¶Ê±£¬»¹ÊÇ»áµÃµ½Ò»¸ö¾ø¶ÔÂ·¾¶
-        System.out.println("Ïà¶ÔÂ·¾¶£º" + x.getPath());//µ«ÊÇÏà¶ÔÂ·¾¶ÊÇ¾ø¶Ô²»»á·¢Éú±ä»¯µÄ
+        // åœ¨åŒä¸€ä¸ªé¡¹ç›®ä¸‹ï¼Œå³ä½¿æ˜¯ç›¸å¯¹è·¯å¾„çš„fileå¯¹è±¡ï¼Œ
+        // è°ƒç”¨apiå»è·å¾—ç»å¯¹è·¯å¾„æ—¶ï¼Œè¿˜æ˜¯ä¼šå¾—åˆ°ä¸€ä¸ªç»å¯¹è·¯å¾„
+        System.out.println("ç›¸å¯¹è·¯å¾„ï¼š" + x.getPath());//ä½†æ˜¯ç›¸å¯¹è·¯å¾„æ˜¯ç»å¯¹ä¸ä¼šå‘ç”Ÿå˜åŒ–çš„
         System.out.println(x.getName());// demo.txt
         System.out.println(x.length());// 0
-        System.out.println(x.lastModified());// ×îºóĞŞ¸ÄÊ±¼ä£¬0
+        System.out.println(x.lastModified());// æœ€åä¿®æ”¹æ—¶é—´ï¼Œ0
         SimpleDateFormat x1 = new SimpleDateFormat("yyyy-MM-dd HH:mm:SS");// 0
-        System.out.println(x1.format(x.lastModified()));// ¼ÓÉÏÒ»¸öÈÕÆÚ¸ñÊ½»¯Æ÷£¬1970-01-01 08:00:00
-        System.out.println(x.isDirectory());// ÊÇ·ñÊÇÎÄ¼ş¼Ğ£¬false
-        System.out.println(x.isFile());// ÊÇ·ñÊÇÎÄ¼ş£¬false
+        System.out.println(x1.format(x.lastModified()));// åŠ ä¸Šä¸€ä¸ªæ—¥æœŸæ ¼å¼åŒ–å™¨ï¼Œ1970-01-01 08:00:00
+        System.out.println(x.isDirectory());// æ˜¯å¦æ˜¯æ–‡ä»¶å¤¹ï¼Œfalse
+        System.out.println(x.isFile());// æ˜¯å¦æ˜¯æ–‡ä»¶ï¼Œfalse
     }
 }

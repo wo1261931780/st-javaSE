@@ -7,7 +7,7 @@ import java.util.Objects;
  * Project:index.pb
  * Package:c2stage_20220228.ccc078hash_duplication
  * User:  wo1261931780@gmail.com
- * Time:  2022-03-21-18  ĞÇÆÚÈı
+ * Time:  2022-03-21-18  æ˜ŸæœŸä¸‰
  */
 public class ccc002st_object {
     private String name;
@@ -72,5 +72,5 @@ public class ccc002st_object {
                 ", address='" + address + '\'' +
                 '}';
     }
-    // ÖØĞ´ÁËtostring·½·¨£¬Ê¹µÃ±¾Éí²»Õ¹Ê¾¶ÔÏóµØÖ·£¬Ö±½ÓÕ¹Ê¾ÄÚÈİ
+    // é‡å†™äº†tostringæ–¹æ³•ï¼Œä½¿å¾—æœ¬èº«ä¸å±•ç¤ºå¯¹è±¡åœ°å€ï¼Œç›´æ¥å±•ç¤ºå†…å®¹
 }

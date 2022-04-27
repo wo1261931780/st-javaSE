@@ -1,10 +1,10 @@
-package abÍùÆÚÑ§Ï°2021Äê10ÔÂ2ÈÕ.bbb035Ñ§Éú´¢´æÈ»ºó±éÀú;
+package abå¾€æœŸå­¦ä¹ 2021å¹´10æœˆ2æ—¥.bbb035å­¦ç”Ÿå‚¨å­˜ç„¶åéå†;
 
-public class bbb037aÑ§ÉúÀà {
+public class bbb037aå­¦ç”Ÿç±» {
     private int age;
     private String name;
 
-    public bbb037aÑ§ÉúÀà(int age, String name) {
+    public bbb037aå­¦ç”Ÿç±»(int age, String name) {
         this.age = age;
         this.name = name;
     }

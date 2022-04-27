@@ -1,8 +1,8 @@
-package abÍùÆÚÑ§Ï°2021Äê10ÔÂ2ÈÕ.aaa001³õÆÚÑ§Ï°¼¯ºÏ;
+package abå¾€æœŸå­¦ä¹ 2021å¹´10æœˆ2æ—¥.aaa001åˆæœŸå­¦ä¹ é›†åˆ;
 
-public class aaa015bÊı×éºÍÄÚ´æ·ÖÅä {
+public class aaa015bæ•°ç»„å’Œå†…å­˜åˆ†é… {
     public static void main(String[] args) {
-        System.out.println("Êä³ö²âÊÔ");
+        System.out.println("è¾“å‡ºæµ‹è¯•");
         int[] arr = new int[5];
         System.out.println(arr);
         System.out.println(arr[0]);
@@ -19,13 +19,13 @@ public class aaa015bÊı×éºÍÄÚ´æ·ÖÅä {
         System.out.println(arr[3]);
         System.out.println(arr[4]);
         System.out.println("--------------------------");
-        // ¶à¸öÊı×éµÄÖ¸ÏòÏàÍ¬
+        // å¤šä¸ªæ•°ç»„çš„æŒ‡å‘ç›¸åŒ
         int[] xx1 = arr;
-        // °ÑÊı×éarrµÄµØÖ··¢¸øxx1£¬È»ºóxx1·ÃÎÊµÄÊ±ºò£¬Ö±½ÓÕÒµ½arrµÄÊı×éËùÔÚµØ£¬ÔÙ²é³öarrµÄÊı×Ö
+        // æŠŠæ•°ç»„arrçš„åœ°å€å‘ç»™xx1ï¼Œç„¶åxx1è®¿é—®çš„æ—¶å€™ï¼Œç›´æ¥æ‰¾åˆ°arrçš„æ•°ç»„æ‰€åœ¨åœ°ï¼Œå†æŸ¥å‡ºarrçš„æ•°å­—
         System.out.println(xx1);
         System.out.println(xx1[0]);
         System.out.println(xx1[1]);
         System.out.println(xx1[2]);
-        // ºóĞø²»¹ÜÊÇ²é¿´Êı×éµÄÖµ£¬»¹ÊÇĞŞ¸ÄÊı×éµÄÖµ£¬ÔÙ´Î·ÃÎÊµÄÊ±ºò£¬½á¹û¶¼ÏàÍ¬
+        // åç»­ä¸ç®¡æ˜¯æŸ¥çœ‹æ•°ç»„çš„å€¼ï¼Œè¿˜æ˜¯ä¿®æ”¹æ•°ç»„çš„å€¼ï¼Œå†æ¬¡è®¿é—®çš„æ—¶å€™ï¼Œç»“æœéƒ½ç›¸åŒ
     }
 }

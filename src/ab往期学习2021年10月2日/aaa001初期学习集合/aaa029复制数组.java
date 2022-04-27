@@ -1,12 +1,12 @@
-package abÍùÆÚÑ§Ï°2021Äê10ÔÂ2ÈÕ.aaa001³õÆÚÑ§Ï°¼¯ºÏ;
+package abå¾€æœŸå­¦ä¹ 2021å¹´10æœˆ2æ—¥.aaa001åˆæœŸå­¦ä¹ é›†åˆ;
 
 import java.util.Arrays;
 import java.util.Random;
 
 /**
- * ĞèÇó£º°ÑÒ»¸öÊı×éÖĞµÄÔªËØ¸´ÖÆµ½ÁíÒ»¸öĞÂÊı×éÖĞÈ¥¡£
+ * éœ€æ±‚ï¼šæŠŠä¸€ä¸ªæ•°ç»„ä¸­çš„å…ƒç´ å¤åˆ¶åˆ°å¦ä¸€ä¸ªæ–°æ•°ç»„ä¸­å»ã€‚
  */
-public class aaa029¸´ÖÆÊı×é {
+public class aaa029å¤åˆ¶æ•°ç»„ {
     public static void main(String[] args) {
         // show();
         System.out.println("**********************");
@@ -34,7 +34,7 @@ public class aaa029¸´ÖÆÊı×é {
             }
             System.out.println(bl[i]);
         }
-        System.out.println("Ëæ»úÉú³ÉµÄÊı×é£º" + Arrays.toString(bl));
+        System.out.println("éšæœºç”Ÿæˆçš„æ•°ç»„ï¼š" + Arrays.toString(bl));
         return bl;
     }
 
@@ -43,6 +43,6 @@ public class aaa029¸´ÖÆÊı×é {
         for (int i = 0; i < bl.length; i++) {
             xx[i] = bl[i];
         }
-        System.out.println("¸´ÖÆµÃµ½µÄÊı×é£º" + Arrays.toString(xx));
+        System.out.println("å¤åˆ¶å¾—åˆ°çš„æ•°ç»„ï¼š" + Arrays.toString(xx));
     }
 }

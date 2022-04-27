@@ -5,11 +5,11 @@ public class ccc008zi extends ccc007fu {
 
     public void show() {
         int age = 33;
-        //使用的是方法中的33
+        //浣跨敤鐨勬槸鏂规硶涓殑33
         System.out.println(age);
-        //使用本类中成员变量的22
+        //浣跨敤鏈被涓垚鍛樺彉閲忕殑22
         System.out.println(this.age);
-        //使用父类中的11
+        //浣跨敤鐖剁被涓殑11
         System.out.println(super.age);
     }
 }

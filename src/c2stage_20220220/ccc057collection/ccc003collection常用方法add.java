@@ -1,60 +1,60 @@
 package c2stage_20220220.ccc057collection;
 /*
-    Collection¼¯ºÏ³£ÓÃ·½·¨:
-        boolean add(E e):Ìí¼ÓÔªËØ
-        boolean remove(Object o):´Ó¼¯ºÏÖĞÒÆ³ıÖ¸¶¨µÄÔªËØ
-        void clear():Çå¿Õ¼¯ºÏÖĞµÄÔªËØ
-        boolean contains(Object o):ÅĞ¶Ï¼¯ºÏÖĞÊÇ·ñ´æÔÚÖ¸¶¨µÄÔªËØ
-        boolean isEmpty():ÅĞ¶Ï¼¯ºÏÊÇ·ñÎª¿Õ
-        int size():¼¯ºÏµÄ³¤¶È£¬Ò²¾ÍÊÇ¼¯ºÏÖĞÔªËØµÄ¸öÊı
+    Collectioné›†åˆå¸¸ç”¨æ–¹æ³•:
+        boolean add(E e):æ·»åŠ å…ƒç´ 
+        boolean remove(Object o):ä»é›†åˆä¸­ç§»é™¤æŒ‡å®šçš„å…ƒç´ 
+        void clear():æ¸…ç©ºé›†åˆä¸­çš„å…ƒç´ 
+        boolean contains(Object o):åˆ¤æ–­é›†åˆä¸­æ˜¯å¦å­˜åœ¨æŒ‡å®šçš„å…ƒç´ 
+        boolean isEmpty():åˆ¤æ–­é›†åˆæ˜¯å¦ä¸ºç©º
+        int size():é›†åˆçš„é•¿åº¦ï¼Œä¹Ÿå°±æ˜¯é›†åˆä¸­å…ƒç´ çš„ä¸ªæ•°
 
-    Alt+7   ´ò¿ªÒ»¸ö´°¿Ú£¬ÄÜ¹»¿´µ½ÀàµÄËùÓĞĞÅÏ¢
+    Alt+7   æ‰“å¼€ä¸€ä¸ªçª—å£ï¼Œèƒ½å¤Ÿçœ‹åˆ°ç±»çš„æ‰€æœ‰ä¿¡æ¯
  */
 /*
-        //´´½¨¼¯ºÏ¶ÔÏó
+        //åˆ›å»ºé›†åˆå¯¹è±¡
         Collection<String> c = new ArrayList<String>();
 
-        //boolean add(E e):Ìí¼ÓÔªËØ
+        //boolean add(E e):æ·»åŠ å…ƒç´ 
         // System.out.println(c.add("hello"));
         c.add("hello");
 
-        //boolean remove(Object o):´Ó¼¯ºÏÖĞÒÆ³ıÖ¸¶¨µÄÔªËØ
+        //boolean remove(Object o):ä»é›†åˆä¸­ç§»é™¤æŒ‡å®šçš„å…ƒç´ 
         // System.out.println(c.remove("world"));
         // System.out.println(c.remove("javaee"));
 
-        //void clear():Çå¿Õ¼¯ºÏÖĞµÄÔªËØ
+        //void clear():æ¸…ç©ºé›†åˆä¸­çš„å…ƒç´ 
         // c.clear();
 
-        //boolean contains(Object o):ÅĞ¶Ï¼¯ºÏÖĞÊÇ·ñ´æÔÚÖ¸¶¨µÄÔªËØ
+        //boolean contains(Object o):åˆ¤æ–­é›†åˆä¸­æ˜¯å¦å­˜åœ¨æŒ‡å®šçš„å…ƒç´ 
         // System.out.println(c.contains("world"));
         // System.out.println(c.contains("javaee"));
 
-        //boolean isEmpty():ÅĞ¶Ï¼¯ºÏÊÇ·ñÎª¿Õ
+        //boolean isEmpty():åˆ¤æ–­é›†åˆæ˜¯å¦ä¸ºç©º
         // System.out.println(c.isEmpty());
 
-        //int size():¼¯ºÏµÄ³¤¶È£¬Ò²¾ÍÊÇ¼¯ºÏÖĞÔªËØµÄ¸öÊı
+        //int size():é›†åˆçš„é•¿åº¦ï¼Œä¹Ÿå°±æ˜¯é›†åˆä¸­å…ƒç´ çš„ä¸ªæ•°
         System.out.println(c.size());
 
-        //Êä³ö¼¯ºÏ¶ÔÏó
+        //è¾“å‡ºé›†åˆå¯¹è±¡
         System.out.println(c);
  */
 
 import java.util.ArrayList;
 import java.util.Collection;
 
-public class ccc003collection³£ÓÃ·½·¨add {
+public class ccc003collectionå¸¸ç”¨æ–¹æ³•add {
     public static void main(String[] args) {
         Collection<String> x = new ArrayList<>();
-        // ÎÒÃÇÎªÊ²Ã´ÒªÊ¹ÓÃcollection¼¯ºÏ£¿
-        // Í¨¹ı¶àÌ¬µÄ·½Ê½´´½¨£¬¿ÉÒÔÊ¹ÓÃcollectionÖĞµÄapi£¬»»¾ä»°À´Ëµ£¬¹¦ÄÜ¸ü¶à
+        // æˆ‘ä»¬ä¸ºä»€ä¹ˆè¦ä½¿ç”¨collectioné›†åˆï¼Ÿ
+        // é€šè¿‡å¤šæ€çš„æ–¹å¼åˆ›å»ºï¼Œå¯ä»¥ä½¿ç”¨collectionä¸­çš„apiï¼Œæ¢å¥è¯æ¥è¯´ï¼ŒåŠŸèƒ½æ›´å¤š
         x.add("aaa");
         x.add("bbb");
         // x.add("aaa");
         System.out.println(x);
-        // Êä³ö½á¹û£º[aaa, bbb, aaa]
-        // Êµ¼ÊÉÏÊÇ´æÔÚÖØ¸´Ìí¼ÓµÄÇé¿ö
+        // è¾“å‡ºç»“æœï¼š[aaa, bbb, aaa]
+        // å®é™…ä¸Šæ˜¯å­˜åœ¨é‡å¤æ·»åŠ çš„æƒ…å†µ
         // --------------------------------------------------------
-        // ²é¿´Ô´Âë£º
+        // æŸ¥çœ‹æºç ï¼š
         // public boolean add(E e) {
         //     modCount++;
         //     add(e, elementData, size);
@@ -62,11 +62,11 @@ public class ccc003collection³£ÓÃ·½·¨add {
         // }
         // --------------------------------------------------------
         System.out.println(x.add("aaa"));
-        // ËùÓĞµÄx.add()¶¼»á·µ»Øtrue
+        // æ‰€æœ‰çš„x.add()éƒ½ä¼šè¿”å›true
         System.out.println(x);
-        // ºÍÉÏÃæµÄ²»Í¬£¬¼¯ºÏµÄÊä³ö¿ÉÒÔ°´Ë³Ğò
-        // µÚÒ»´ÎÊä³öÁ½¸ö¶ÔÏó£¬Ìí¼ÓÍê³ÉÒÔºó£¬Êä³öÈı¸ö
-        // ½øÈëÔ´´úÂëÊÓÍ¼ÒÔºó£¬
-        // alt+7¼´¿É½øÈëÏîÄ¿½á¹¹
+        // å’Œä¸Šé¢çš„ä¸åŒï¼Œé›†åˆçš„è¾“å‡ºå¯ä»¥æŒ‰é¡ºåº
+        // ç¬¬ä¸€æ¬¡è¾“å‡ºä¸¤ä¸ªå¯¹è±¡ï¼Œæ·»åŠ å®Œæˆä»¥åï¼Œè¾“å‡ºä¸‰ä¸ª
+        // è¿›å…¥æºä»£ç è§†å›¾ä»¥åï¼Œ
+        // alt+7å³å¯è¿›å…¥é¡¹ç›®ç»“æ„
     }
 }

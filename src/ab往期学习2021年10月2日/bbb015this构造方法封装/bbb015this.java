@@ -1,17 +1,17 @@
-package abÍùÆÚÑ§Ï°2021Äê10ÔÂ2ÈÕ.bbb015this¹¹Ôì·½·¨·â×°;
+package abå¾€æœŸå­¦ä¹ 2021å¹´10æœˆ2æ—¥.bbb015thisæ„é€ æ–¹æ³•å°è£…;
 
 public class bbb015this {
     private String name;
     private int age;
 
     public void setName(String name1) {
-        //ÕâÀïÓÃthis°Ñname×ª»»³ÉÁËÊµ¼Ê²ÎÊı£¬·ÀÖ¹³öÏÖÖØ¸´¡£
+        //è¿™é‡Œç”¨thisæŠŠnameè½¬æ¢æˆäº†å®é™…å‚æ•°ï¼Œé˜²æ­¢å‡ºç°é‡å¤ã€‚
         this.name = name1;
-        //thisµÄ×÷ÓÃÔÚÓÚ£¬Ö¸¶¨¾ßÌåµÄ±äÁ¿£¬·ÀÖ¹³öÏÖÖØ¸´
-        // ³ÉÔ±±äÁ¿£¬¾ÍÊÇÀàÖĞµÄ±äÁ¿name
-        // this.nameÖ¸´ú³ÉÔ±±äÁ¿£¬¶øÄ¬ÈÏÊäÈëµÄname£¬Ö¸´ú¾Ö²¿±äÁ¿
-        //ÀıÈçname1ºÍprivateÖĞµÄnameÖØ¸´£¬ÄÇÃ´this.name¾Í´ú±íÁËprivateÖĞµÄname
-        //Í¬ÑùµÄµÀÀí£¬Ê¹ÓÃÓÚºóÃæµÄsuper
+        //thisçš„ä½œç”¨åœ¨äºï¼ŒæŒ‡å®šå…·ä½“çš„å˜é‡ï¼Œé˜²æ­¢å‡ºç°é‡å¤
+        // æˆå‘˜å˜é‡ï¼Œå°±æ˜¯ç±»ä¸­çš„å˜é‡name
+        // this.nameæŒ‡ä»£æˆå‘˜å˜é‡ï¼Œè€Œé»˜è®¤è¾“å…¥çš„nameï¼ŒæŒ‡ä»£å±€éƒ¨å˜é‡
+        //ä¾‹å¦‚name1å’Œprivateä¸­çš„nameé‡å¤ï¼Œé‚£ä¹ˆthis.nameå°±ä»£è¡¨äº†privateä¸­çš„name
+        //åŒæ ·çš„é“ç†ï¼Œä½¿ç”¨äºåé¢çš„super
     }
 
     public void setAge(int age1) {

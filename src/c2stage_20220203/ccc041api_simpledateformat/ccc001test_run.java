@@ -6,30 +6,30 @@ import java.util.Date;
 
 public class ccc001test_run {
     public static void main(String[] args) throws ParseException {
-        System.out.println("¿ªÊ¼Ö´ĞĞ");
+        System.out.println("å¼€å§‹æ‰§è¡Œ");
         Date x = new Date();
         // SimpleDateFormat x1 = new SimpleDateFormat();
-        SimpleDateFormat x1 = new SimpleDateFormat("yyyy" + "Äê" + "\t" + "MM" + "ÔÂ" + "\t" + "dd" + "ÈÕ" + "\t" + "HHmmss");
+        SimpleDateFormat x1 = new SimpleDateFormat("yyyy" + "å¹´" + "\t" + "MM" + "æœˆ" + "\t" + "dd" + "æ—¥" + "\t" + "HHmmss");
         String x2 = x1.format(x);
         System.out.println(x2);
-        // 1.ÎÒÏÈ´´½¨Ò»¸öºÁÃëÊı±íÊ¾µÄÊ±¼ä
-        // 2.Ê¹ÓÃ¹Ì¶¨ÃüÁî¶ÔÆä¸ñÊ½»¯
-        // 3.½«¸ñÊ½»¯µÄ½á¹ûÓÃÒ»¸ö×Ö·û´®½ÓÊÕ
-        // 4.Õ¹Ê¾½á¹û
+        // 1.æˆ‘å…ˆåˆ›å»ºä¸€ä¸ªæ¯«ç§’æ•°è¡¨ç¤ºçš„æ—¶é—´
+        // 2.ä½¿ç”¨å›ºå®šå‘½ä»¤å¯¹å…¶æ ¼å¼åŒ–
+        // 3.å°†æ ¼å¼åŒ–çš„ç»“æœç”¨ä¸€ä¸ªå­—ç¬¦ä¸²æ¥æ”¶
+        // 4.å±•ç¤ºç»“æœ
         // -----------------------------------------------------
         // -----------------------------------------------------
         // -----------------------------------------------------
         String xx = "2020-02-02 11-11-11";
         SimpleDateFormat x3 = new SimpleDateFormat("yyyy-MM-dd HH-mm-ss");
         Date x4 = x3.parse(xx);
-        // Ìí¼ÓÒì³£µ½·½·¨ÉùÃ÷£¬
+        // æ·»åŠ å¼‚å¸¸åˆ°æ–¹æ³•å£°æ˜ï¼Œ
         // throws ParseException
-        // È¥³ı±¨´íĞÅÏ¢
+        // å»é™¤æŠ¥é”™ä¿¡æ¯
         System.out.println(x4);
-        // 1.»ñµÃ×Ö·û´®
-        // 2.¸ù¾İ×Ö·û´®xxµÄ¸ñÊ½£¬ÉèÖÃÊ±¼äµÄ½âÎö¸ñÊ½x3
-        // 3.ÓÃx3½âÎö×Ö·û´®xx
-        // È»ºóÓÃx4½ÓÊÕ½á¹û
+        // 1.è·å¾—å­—ç¬¦ä¸²
+        // 2.æ ¹æ®å­—ç¬¦ä¸²xxçš„æ ¼å¼ï¼Œè®¾ç½®æ—¶é—´çš„è§£ææ ¼å¼x3
+        // 3.ç”¨x3è§£æå­—ç¬¦ä¸²xx
+        // ç„¶åç”¨x4æ¥æ”¶ç»“æœ
 
 
     }

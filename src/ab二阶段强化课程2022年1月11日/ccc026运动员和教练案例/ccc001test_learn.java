@@ -1,4 +1,4 @@
-package ab¶ş½×¶ÎÇ¿»¯¿Î³Ì2022Äê1ÔÂ11ÈÕ.ccc026ÔË¶¯Ô±ºÍ½ÌÁ·°¸Àı;
+package abäºŒé˜¶æ®µå¼ºåŒ–è¯¾ç¨‹2022å¹´1æœˆ11æ—¥.ccc026è¿åŠ¨å‘˜å’Œæ•™ç»ƒæ¡ˆä¾‹;
 
 public interface ccc001test_learn {
     void jobsm();

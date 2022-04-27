@@ -1,33 +1,33 @@
 package c2stage_20220412.ccc125charset;
 /*
-    ±àÂë£º
-        byte[] getBytes()£ºÊ¹ÓÃÆ½Ì¨µÄÄ¬ÈÏ×Ö·û¼¯½«¸Ã String±àÂëÎªÒ»ÏµÁĞ×Ö½Ú£¬½«½á¹û´æ´¢µ½ĞÂµÄ×Ö½ÚÊı×éÖĞ
-        byte[] getBytes(String charsetName)£ºÊ¹ÓÃÖ¸¶¨µÄ×Ö·û¼¯½«¸Ã String±àÂëÎªÒ»ÏµÁĞ×Ö½Ú£¬½«½á¹û´æ´¢µ½ĞÂµÄ×Ö½ÚÊı×éÖĞ
+    ç¼–ç ï¼š
+        byte[] getBytes()ï¼šä½¿ç”¨å¹³å°çš„é»˜è®¤å­—ç¬¦é›†å°†è¯¥ Stringç¼–ç ä¸ºä¸€ç³»åˆ—å­—èŠ‚ï¼Œå°†ç»“æœå­˜å‚¨åˆ°æ–°çš„å­—èŠ‚æ•°ç»„ä¸­
+        byte[] getBytes(String charsetName)ï¼šä½¿ç”¨æŒ‡å®šçš„å­—ç¬¦é›†å°†è¯¥ Stringç¼–ç ä¸ºä¸€ç³»åˆ—å­—èŠ‚ï¼Œå°†ç»“æœå­˜å‚¨åˆ°æ–°çš„å­—èŠ‚æ•°ç»„ä¸­
 
-    ½âÂë£º
-        String(byte[] bytes)£ºÍ¨¹ıÊ¹ÓÃÆ½Ì¨µÄÄ¬ÈÏ×Ö·û¼¯½âÂëÖ¸¶¨µÄ×Ö½ÚÊı×éÀ´¹¹ÔìĞÂµÄ String
-        String(byte[] bytes, String charsetName)£ºÍ¨¹ıÖ¸¶¨µÄ×Ö·û¼¯½âÂëÖ¸¶¨µÄ×Ö½ÚÊı×éÀ´¹¹ÔìĞÂµÄ String
+    è§£ç ï¼š
+        String(byte[] bytes)ï¼šé€šè¿‡ä½¿ç”¨å¹³å°çš„é»˜è®¤å­—ç¬¦é›†è§£ç æŒ‡å®šçš„å­—èŠ‚æ•°ç»„æ¥æ„é€ æ–°çš„ String
+        String(byte[] bytes, String charsetName)ï¼šé€šè¿‡æŒ‡å®šçš„å­—ç¬¦é›†è§£ç æŒ‡å®šçš„å­—èŠ‚æ•°ç»„æ¥æ„é€ æ–°çš„ String
  */
 
 import java.io.UnsupportedEncodingException;
 import java.nio.charset.StandardCharsets;
 import java.util.Arrays;
 
-public class eee083±àÂë½âÂë {
+public class eee083ç¼–ç è§£ç  {
     public static void main(String[] args) throws UnsupportedEncodingException {
         System.out.println("----");
-        String x = "aaa²âÊÔ";
+        String x = "aaaæµ‹è¯•";
         byte[] x1 = x.getBytes(StandardCharsets.UTF_8);
-        // Ö¸¶¨±àÂë¸ñÊ½£¬
-        // È»ºó½«µÃµ½µÄÊı¾İ´æµ½x1Êı×éÖĞ
+        // æŒ‡å®šç¼–ç æ ¼å¼ï¼Œ
+        // ç„¶åå°†å¾—åˆ°çš„æ•°æ®å­˜åˆ°x1æ•°ç»„ä¸­
         System.out.println(Arrays.toString(x1));
-        // ½«Êı×é½âÂë
+        // å°†æ•°ç»„è§£ç 
         // [97, 97, 97, -26, -75, -117, -24, -81, -107]
         // String x2 = new String(x1);
-        // ½âÂë
+        // è§£ç 
         String x2 = new String(x1, "GBK");
-        // ½âÂë·½Ê½³ö´í£¬½á¹ûaaaæµ‹è¯•
+        // è§£ç æ–¹å¼å‡ºé”™ï¼Œç»“æœaaaå¨´å¬­ç˜¯
         System.out.println(x2);
-        // aaa²âÊÔ
+        // aaaæµ‹è¯•
     }
 }

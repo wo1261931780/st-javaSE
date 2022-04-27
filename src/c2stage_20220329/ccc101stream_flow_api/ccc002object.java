@@ -5,7 +5,7 @@ package c2stage_20220329.ccc101stream_flow_api;
  * Project:index.pb
  * Package:c2stage_20220329.ccc003stream_flow_api
  * User:  wo1261931780@gmail.com
- * Time:  2022-03-20-46  ĞÇÆÚËÄ
+ * Time:  2022-03-20-46  ÃÃ‡Ã†ÃšÃ‹Ã„
  */
 public class ccc002object {
     private String name;

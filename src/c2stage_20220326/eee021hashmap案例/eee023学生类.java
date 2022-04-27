@@ -1,15 +1,15 @@
-package c2stage_20220326.eee021hashmap°¸Àı;
+package c2stage_20220326.eee021hashmapæ¡ˆä¾‹;
 
-public class eee023Ñ§ÉúÀà {
+public class eee023å­¦ç”Ÿç±» {
     private String name;
     private String num;
 
-    public eee023Ñ§ÉúÀà(String name, String num) {
+    public eee023å­¦ç”Ÿç±»(String name, String num) {
         this.name = name;
         this.num = num;
     }
 
-    public eee023Ñ§ÉúÀà() {
+    public eee023å­¦ç”Ÿç±»() {
     }
 
     public String getName() {

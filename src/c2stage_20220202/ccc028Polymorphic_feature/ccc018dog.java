@@ -3,7 +3,7 @@ package c2stage_20220202.ccc028Polymorphic_feature;
 public class ccc018dog extends ccc017animal {
     @Override
     public void eat() {
-        System.out.println("dogÀàÖĞµÄeat---------------");
+        System.out.println("dogç±»ä¸­çš„eat---------------");
     }
-    //Ê¹ÓÃ¶àÌ¬µÄÇ°Ìá£¬Òª¼Ì³Ğ£¬ÒªÖØĞ´·½·¨£¬ÒªÖØĞÂ´«µİ¶ÔÏó
+    //ä½¿ç”¨å¤šæ€çš„å‰æï¼Œè¦ç»§æ‰¿ï¼Œè¦é‡å†™æ–¹æ³•ï¼Œè¦é‡æ–°ä¼ é€’å¯¹è±¡
 }

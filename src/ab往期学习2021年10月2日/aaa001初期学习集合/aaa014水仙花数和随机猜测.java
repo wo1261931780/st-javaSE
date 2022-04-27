@@ -1,9 +1,9 @@
-package abÍùÆÚÑ§Ï°2021Äê10ÔÂ2ÈÕ.aaa001³õÆÚÑ§Ï°¼¯ºÏ;
+package abå¾€æœŸå­¦ä¹ 2021å¹´10æœˆ2æ—¥.aaa001åˆæœŸå­¦ä¹ é›†åˆ;
 
 import java.util.Random;
 import java.util.Scanner;
 
-public class aaa014Ë®ÏÉ»¨ÊıºÍËæ»ú²Â²â {
+public class aaa014æ°´ä»™èŠ±æ•°å’ŒéšæœºçŒœæµ‹ {
     public static void main(String[] args) {
         Random b2 = new Random();
         int xr = b2.nextInt(1000);
@@ -13,50 +13,50 @@ public class aaa014Ë®ÏÉ»¨ÊıºÍËæ»ú²Â²â {
         int x2 = xr / 10 % 10;
         int x3 = xr / 100;
         int xs = 0;
-		/*²»¶Ï²Â²âÊı×Ö
+		/*ä¸æ–­çŒœæµ‹æ•°å­—
 		while(true){
-		System.out.println("ÇëÊäÈë¾ßÌåÊı×Ö£º");
+		System.out.println("è¯·è¾“å…¥å…·ä½“æ•°å­—ï¼š");
 		int xx = b1.nextInt();
 			if(xx > xr){
-				System.out.println("Æ«´ó");
+				System.out.println("åå¤§");
 				xs++;
 			}else if(xx < xr){
-				System.out.println("Æ«Ğ¡");
+				System.out.println("åå°");
 				xs++;
 			}else {
-				System.out.println("ÕıÈ·");
-				System.out.println("²Â²â´ÎÊı£º"+xs);
+				System.out.println("æ­£ç¡®");
+				System.out.println("çŒœæµ‹æ¬¡æ•°ï¼š"+xs);
 				break;
 			}
 		}*/
 		/*
 		while(true){
-			System.out.println("¿ªÊ¼¼ÆËã£º");
+			System.out.println("å¼€å§‹è®¡ç®—ï¼š");
 			int xx = b1.nextInt();
 			if(xx < x1*x1*x1+x2*x2*x2+x3*x3*x3){
-				System.out.println("Ğ¡");
+				System.out.println("å°");
 			}else if(xx > x1*x1*x1+x2*x2*x2+x3*x3*x3){
-				System.out.println("´ó");
+				System.out.println("å¤§");
 			}else{
-				System.out.println("ÕıÈ·");
+				System.out.println("æ­£ç¡®");
 				break;
 		}
 
 		}*/
-        //ÏÂÃæµÄ¼ÆËãÃ»ÎÊÌâ£¬ÎÊÌâÊı×ÖÊÇËæ»úµÄ£¬Ò»¿ªÊ¼¾Í²»ÊÇË®ÏÉ»¨Êı
-        for (System.out.println("²âÊÔ¼ÆËã¿ªÊ¼£º"); xs < 1000; xs++) {
+        //ä¸‹é¢çš„è®¡ç®—æ²¡é—®é¢˜ï¼Œé—®é¢˜æ•°å­—æ˜¯éšæœºçš„ï¼Œä¸€å¼€å§‹å°±ä¸æ˜¯æ°´ä»™èŠ±æ•°
+        for (System.out.println("æµ‹è¯•è®¡ç®—å¼€å§‹ï¼š"); xs < 1000; xs++) {
             if (xr == x1 * x1 * x1 + x2 * x2 * x2 + x3 * x3 * x3) {
-                System.out.println("µÃµ½Ë®ÏÉ»¨Êı" + xr);
-                System.out.println("¼ÆËã´ÎÊı" + xs);
+                System.out.println("å¾—åˆ°æ°´ä»™èŠ±æ•°" + xr);
+                System.out.println("è®¡ç®—æ¬¡æ•°" + xs);
                 xr = b2.nextInt(1000);
             } else {
                 xr = b2.nextInt(1000);
             }
         }
-        System.out.println("²âÊÔ½áÊø");
+        System.out.println("æµ‹è¯•ç»“æŸ");
         /*
-        ¶àĞĞ×¢ÊÍ£¬Ö±½ÓCtrl+shift+/
-        Ctrl+alt+space£¬Ö±½Óµ¯³ö¸¨ÖúÊäÈë¿ò
+        å¤šè¡Œæ³¨é‡Šï¼Œç›´æ¥Ctrl+shift+/
+        Ctrl+alt+spaceï¼Œç›´æ¥å¼¹å‡ºè¾…åŠ©è¾“å…¥æ¡†
         1
         2
         3

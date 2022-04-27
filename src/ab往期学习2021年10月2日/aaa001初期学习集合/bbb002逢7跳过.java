@@ -1,43 +1,43 @@
-package abÍùÆÚÑ§Ï°2021Äê10ÔÂ2ÈÕ.aaa001³õÆÚÑ§Ï°¼¯ºÏ;
+package abå¾€æœŸå­¦ä¹ 2021å¹´10æœˆ2æ—¥.aaa001åˆæœŸå­¦ä¹ é›†åˆ;
 
-public class bbb002·ê7Ìø¹ı {
+public class bbb002é€¢7è·³è¿‡ {
     // public static void main(String[] args) {
     //     Random b11 = new Random();
     //     int xx = b11.nextInt(100) + 1;
     //     int x1 = 1;
-    //     //ÌâÄ¿¸ø³öµÄÒªÇó
+    //     //é¢˜ç›®ç»™å‡ºçš„è¦æ±‚
     //
-    //     System.out.println("¿ªÊ¼±éÀú£º");
+    //     System.out.println("å¼€å§‹éå†ï¼š");
     //     for (int x2 = 0; x1 < 100; x1++) {
-    //         //ÎªÊ²Ã´Òª¼ÓÒ»¸ö/10%10?
-    //         //Ô­À´µÄÊ½×ÓÃ»ÓĞ¿¼ÂÇ79ÕâÖÖÊı×Ö£¬79°üº¬ÁË7
+    //         //ä¸ºä»€ä¹ˆè¦åŠ ä¸€ä¸ª/10%10?
+    //         //åŸæ¥çš„å¼å­æ²¡æœ‰è€ƒè™‘79è¿™ç§æ•°å­—ï¼Œ79åŒ…å«äº†7
     //         if (x1 % 10 == 7 || x1 % 7 == 0 || x1 / 10 % 10 == 7) {
-    //             System.out.println("Óöµ½Êı×Ö£º" + x1 + "-----ĞèÒª¹ı");
+    //             System.out.println("é‡åˆ°æ•°å­—ï¼š" + x1 + "-----éœ€è¦è¿‡");
     //             x2++;
-    //             System.out.println("×ÜÊıÎª£º" + x2);
+    //             System.out.println("æ€»æ•°ä¸ºï¼š" + x2);
     //             /*
     //         if (x1 % 7 == 0) {
-    //             System.out.println("Óöµ½Êı×Ö£º" + x1 + "-----ĞèÒª¹ı");
+    //             System.out.println("é‡åˆ°æ•°å­—ï¼š" + x1 + "-----éœ€è¦è¿‡");
     //             x2++;
     //             System.out.println(x2);
     //         } else if (x1 % 10 == 7) {
-    //             System.out.println("Óöµ½Êı×Ö£º" + x1 + "-----ĞèÒª¹ı");
+    //             System.out.println("é‡åˆ°æ•°å­—ï¼š" + x1 + "-----éœ€è¦è¿‡");
     //             x2++;
     //             System.out.println(x2);*/
     //         } else {
     //         }
     //
     //     }
-    //     //System.out.println("±éÀú½áÊø£¬ĞèÒª¹ıµÄ¸ÅÂÊÊÇ£º"+x2/100+"%");
-    //     //Ëæ»úÒ»¸öÊı×Ö£¬ÅĞ¶ÏÊÇ·ñĞèÒª¹ı¡£
-    //     System.out.println("Ëæ»úµÃµ½µÄÊı×ÖÊÇ£º" + xx);
+    //     //System.out.println("éå†ç»“æŸï¼Œéœ€è¦è¿‡çš„æ¦‚ç‡æ˜¯ï¼š"+x2/100+"%");
+    //     //éšæœºä¸€ä¸ªæ•°å­—ï¼Œåˆ¤æ–­æ˜¯å¦éœ€è¦è¿‡ã€‚
+    //     System.out.println("éšæœºå¾—åˆ°çš„æ•°å­—æ˜¯ï¼š" + xx);
     //     if (xx % 7 == 0) {
-    //         System.out.println("Óöµ½Êı×Ö£º" + xx + "ĞèÒª-----¹ı");
+    //         System.out.println("é‡åˆ°æ•°å­—ï¼š" + xx + "éœ€è¦-----è¿‡");
     //     } else if (xx % 10 == 7) {
-    //         System.out.println("Óöµ½Êı×Ö£º" + xx + "ĞèÒª-----¹ı");
+    //         System.out.println("é‡åˆ°æ•°å­—ï¼š" + xx + "éœ€è¦-----è¿‡");
     //     } else {
-    //         System.out.println(xx + "²»ĞèÒª¹ı");
-    //         System.out.println("ÓÎÏ·½áÊø");
+    //         System.out.println(xx + "ä¸éœ€è¦è¿‡");
+    //         System.out.println("æ¸¸æˆç»“æŸ");
     //     }
     // }
     public static void main(String[] args) {
@@ -46,7 +46,7 @@ public class bbb002·ê7Ìø¹ı {
     }
 
     public static void demo1() {
-        System.out.println("¿ªÊ¼Ö´ĞĞ");
+        System.out.println("å¼€å§‹æ‰§è¡Œ");
         int xx = 0;
         for (int i = 1; i < 100; i++) {
             if (i % 7 == 0 || i % 10 == 7 || i / 10 % 10 == 7) {
@@ -54,6 +54,6 @@ public class bbb002·ê7Ìø¹ı {
                 xx++;
             }
         }
-        System.out.println("·ûºÏÌõ¼şµÄÊı×Ö¹²¼Æ£º" + xx);
+        System.out.println("ç¬¦åˆæ¡ä»¶çš„æ•°å­—å…±è®¡ï¼š" + xx);
     }
 }

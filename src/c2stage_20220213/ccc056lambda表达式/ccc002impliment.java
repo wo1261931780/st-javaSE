@@ -1,11 +1,11 @@
-package c2stage_20220213.ccc056lambda±í´ïÊ½;
+package c2stage_20220213.ccc056lambdaè¡¨è¾¾å¼;
 
 /**
  * Created by Intellij IDEA.
  * Project:index.pb
- * Package:c2stage_20220213.ccc056lambda±í´ïÊ½
+ * Package:c2stage_20220213.ccc056lambdaè¡¨è¾¾å¼
  * User:  wo1261931780@gmail.com
- * Time:  2022-02-20-36  ĞÇÆÚÎå
+ * Time:  2022-02-20-36  æ˜ŸæœŸäº”
  */
 public class ccc002impliment {
     public static void main(String[] args) {
@@ -15,20 +15,20 @@ public class ccc002impliment {
                 System.out.println("show");
             }
         };
-        // ÕıÒòÎª½Ó¿ÚÄÚ²¿Ö»ÓĞÒ»¸ö·½·¨£¬ËùÒÔ¿ÉÒÔÈÏ¶¨ÄäÃûÄÚ²¿ÀàµÄÖØĞ´ĞÎÊ½ÍêÈ«ÏàÍ¬
-        // Í¬Ê±£¬´úÂë¼ò»¯Ò²ÄÜ¹»±»javaÀí½â
-        ccc001demo_interface x1 = () -> {//À¨ºÅÄÚ¾ÍÊÇĞÎ²Î
+        // æ­£å› ä¸ºæ¥å£å†…éƒ¨åªæœ‰ä¸€ä¸ªæ–¹æ³•ï¼Œæ‰€ä»¥å¯ä»¥è®¤å®šåŒ¿åå†…éƒ¨ç±»çš„é‡å†™å½¢å¼å®Œå…¨ç›¸åŒ
+        // åŒæ—¶ï¼Œä»£ç ç®€åŒ–ä¹Ÿèƒ½å¤Ÿè¢«javaç†è§£
+        ccc001demo_interface x1 = () -> {//æ‹¬å·å†…å°±æ˜¯å½¢å‚
             System.out.println("show");
         };
-        // Ç°ÃæÎÒÃÇËµ¹ı£¬ÄäÃûÄÚ²¿Àà±¾Éí¾ÍÊÇÒ»¸ö¶ÔÏó
-        // Òò´Ë£¬¿ÉÒÔÖ±½Óµ÷ÓÃÄäÃûÄÚ²¿ÀàÀ´½øÒ»²½¼ò»¯
+        // å‰é¢æˆ‘ä»¬è¯´è¿‡ï¼ŒåŒ¿åå†…éƒ¨ç±»æœ¬èº«å°±æ˜¯ä¸€ä¸ªå¯¹è±¡
+        // å› æ­¤ï¼Œå¯ä»¥ç›´æ¥è°ƒç”¨åŒ¿åå†…éƒ¨ç±»æ¥è¿›ä¸€æ­¥ç®€åŒ–
         run(() -> {
-            System.out.println("½øÒ»²½µÄ¼ò»¯ĞÎÊ½");
+            System.out.println("è¿›ä¸€æ­¥çš„ç®€åŒ–å½¢å¼");
         });
     }
 
     public static void run(ccc001demo_interface x) {
         x.show();
-        System.out.println("ÎÒÊÇ·½·¨");
+        System.out.println("æˆ‘æ˜¯æ–¹æ³•");
     }
 }

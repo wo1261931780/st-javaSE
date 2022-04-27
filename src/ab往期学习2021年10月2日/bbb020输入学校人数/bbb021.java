@@ -1,21 +1,21 @@
-package abÍùÆÚÑ§Ï°2021Äê10ÔÂ2ÈÕ.bbb020ÊäÈëÑ§Ğ£ÈËÊı;
+package abå¾€æœŸå­¦ä¹ 2021å¹´10æœˆ2æ—¥.bbb020è¾“å…¥å­¦æ ¡äººæ•°;
 
 public class bbb021 {
     private String school;
     private int abound;
 
-    public bbb021() {//ÎŞ²Î¹¹Ôì·½·¨
-        System.out.println("ÎŞ²Î¹¹Ôì·½·¨");
+    public bbb021() {//æ— å‚æ„é€ æ–¹æ³•
+        System.out.println("æ— å‚æ„é€ æ–¹æ³•");
     }
 
     public bbb021(String school, int abound) {
-        System.out.println("´ø²Î¹¹Ôì·½·¨");
+        System.out.println("å¸¦å‚æ„é€ æ–¹æ³•");
         if (abound > 0 && abound < 5000) {
             this.abound = abound;
             this.school = school;
-            System.out.println(school + "µÄÈËÊıÊÇ£º" + abound);//ÕâÀï²»ĞèÒªthis£¬ÒòÎª¾Ö²¿±äÁ¿¾ÍÊÇÎÒÃÇÒªµÄÖµ
+            System.out.println(school + "çš„äººæ•°æ˜¯ï¼š" + abound);//è¿™é‡Œä¸éœ€è¦thisï¼Œå› ä¸ºå±€éƒ¨å˜é‡å°±æ˜¯æˆ‘ä»¬è¦çš„å€¼
         } else {
-            System.out.println("ÈËÊı´íÎó,ÇëÖØĞÂÊäÈë");
+            System.out.println("äººæ•°é”™è¯¯,è¯·é‡æ–°è¾“å…¥");
         }
     }
 
@@ -36,7 +36,7 @@ public class bbb021 {
         }
     */
     public void show() {
-        System.out.println("Ö´ĞĞshow³É¹¦:" + school + "µÄÈËÊıÎª£º" + abound);
+        System.out.println("æ‰§è¡ŒshowæˆåŠŸ:" + school + "çš„äººæ•°ä¸ºï¼š" + abound);
     }
 
 }

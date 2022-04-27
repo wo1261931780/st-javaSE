@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class ccc004run_demo {
     public static void main(String[] args) {
         Scanner x = new Scanner(System.in);
-        System.out.println("�����뿪����");
+        System.out.println("ÇëÊäÈë¿ª¿¨½ğ¶î£º");
         int recharge = x.nextInt();
         if (recharge >= 10000) {
             ccc002card_au x1 = new ccc002card_au();
@@ -20,7 +20,7 @@ public class ccc004run_demo {
             x1.pay(100);
             System.out.println("end2");
         } else {
-            System.out.println("�տ�");
+            System.out.println("ÆÕ¿¨");
         }
     }
 }

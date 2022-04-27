@@ -1,11 +1,11 @@
-package abÍùÆÚÑ§Ï°2021Äê10ÔÂ2ÈÕ.bbb039ATM°¸Àı;
+package abå¾€æœŸå­¦ä¹ 2021å¹´10æœˆ2æ—¥.bbb039ATMæ¡ˆä¾‹;
 
-public class bbb003½ÌÑ§_Àà {
-    private String cardId; // ¿¨ºÅ
-    private String userName; // ÓÃ»§Ãû³Æ
-    private String passWord; // ÃÜÂë
-    private double money; // ÕË»§Óà¶î
-    private double quotaMoney; // Ã¿´ÎÈ¡ÏÖ¶î¶ÈÏŞ¶È¡£
+public class bbb003æ•™å­¦_ç±» {
+    private String cardId; // å¡å·
+    private String userName; // ç”¨æˆ·åç§°
+    private String passWord; // å¯†ç 
+    private double money; // è´¦æˆ·ä½™é¢
+    private double quotaMoney; // æ¯æ¬¡å–ç°é¢åº¦é™åº¦ã€‚
 
     public String getCardId() {
         return cardId;

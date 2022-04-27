@@ -1,37 +1,37 @@
-package abÍùÆÚÑ§Ï°2021Äê10ÔÂ2ÈÕ.bbb017Ä¬ÈÏÀàºÍ¶ÔÏó;
+package abå¾€æœŸå­¦ä¹ 2021å¹´10æœˆ2æ—¥.bbb017é»˜è®¤ç±»å’Œå¯¹è±¡;
 
 /**
- * ³ÉÔ±±äÁ¿
- * Ê¹ÓÃprivateĞŞÊÎ
- * ¹¹Ôì·½·¨
- * Ìá¹©Ò»¸öÎŞ²Î¹¹Ôì·½·¨£¬Êµ¼Ê¿ª·¢ÖĞ£¬ÎŞ²Î¹¹Ôì·½·¨¸ü¼ÓÖØÒª
- * Ìá¹©Ò»¸ö´ø¶à¸ö²ÎÊıµÄ¹¹Ôì·½·¨
- * ³ÉÔ±·½·¨
- * Ìá¹©Ã¿Ò»¸ö³ÉÔ±±äÁ¿¶ÔÓ¦µÄsetXxx()/getXxx()
- * Ìá¹©Ò»¸öÏÔÊ¾¶ÔÏóĞÅÏ¢µÄshow()
+ * æˆå‘˜å˜é‡
+ * ä½¿ç”¨privateä¿®é¥°
+ * æ„é€ æ–¹æ³•
+ * æä¾›ä¸€ä¸ªæ— å‚æ„é€ æ–¹æ³•ï¼Œå®é™…å¼€å‘ä¸­ï¼Œæ— å‚æ„é€ æ–¹æ³•æ›´åŠ é‡è¦
+ * æä¾›ä¸€ä¸ªå¸¦å¤šä¸ªå‚æ•°çš„æ„é€ æ–¹æ³•
+ * æˆå‘˜æ–¹æ³•
+ * æä¾›æ¯ä¸€ä¸ªæˆå‘˜å˜é‡å¯¹åº”çš„setXxx()/getXxx()
+ * æä¾›ä¸€ä¸ªæ˜¾ç¤ºå¯¹è±¡ä¿¡æ¯çš„show()
  */
-public class bbb018a±ê×¼ÀàµÄÖÆ×÷_javabean {
+public class bbb018aæ ‡å‡†ç±»çš„åˆ¶ä½œ_javabean {
     private int age;
     private String name;
 
-    public bbb018a±ê×¼ÀàµÄÖÆ×÷_javabean() {
-        System.out.println("ÎÒÊÇÎŞ²Î¹¹Ôì·½·¨");
+    public bbb018aæ ‡å‡†ç±»çš„åˆ¶ä½œ_javabean() {
+        System.out.println("æˆ‘æ˜¯æ— å‚æ„é€ æ–¹æ³•");
     }
 
     /**
-     * public void bbb017b±ê×¼ÀàµÄÖÆ×÷(int age, String name) {}
-     * ÉÏÃæµÄ·½·¨²»Ëã¹¹Ôì·½·¨£¬ÒòÎªÉè¶¨ÁË·µ»ØÖµvoid
+     * public void bbb017bæ ‡å‡†ç±»çš„åˆ¶ä½œ(int age, String name) {}
+     * ä¸Šé¢çš„æ–¹æ³•ä¸ç®—æ„é€ æ–¹æ³•ï¼Œå› ä¸ºè®¾å®šäº†è¿”å›å€¼void
      */
-    public bbb018a±ê×¼ÀàµÄÖÆ×÷_javabean(int age, String name) {
-        System.out.println("´ø²Î¹¹Ôì");
+    public bbb018aæ ‡å‡†ç±»çš„åˆ¶ä½œ_javabean(int age, String name) {
+        System.out.println("å¸¦å‚æ„é€ ");
         this.age = age;
         this.name = name;
         System.out.println("-----------------------------");
     }
 
     public void show1() {
-        System.out.println(name + "µÄÄêÁäÎª£º" + age);
-        System.out.println("ĞÅÏ¢Õ¹Ê¾½áÊø");
+        System.out.println(name + "çš„å¹´é¾„ä¸ºï¼š" + age);
+        System.out.println("ä¿¡æ¯å±•ç¤ºç»“æŸ");
     }
 
     public int getAge() {

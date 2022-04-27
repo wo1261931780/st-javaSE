@@ -1,11 +1,11 @@
-package ab¶ş½×¶ÎÇ¿»¯¿Î³Ì2022Äê1ÔÂ11ÈÕ.ccc026ÔË¶¯Ô±ºÍ½ÌÁ·°¸Àı;
+package abäºŒé˜¶æ®µå¼ºåŒ–è¯¾ç¨‹2022å¹´1æœˆ11æ—¥.ccc026è¿åŠ¨å‘˜å’Œæ•™ç»ƒæ¡ˆä¾‹;
 
-public abstract class ccc030½ÌÁ· extends ccc028ÈË {
-    public ccc030½ÌÁ·() {
+public abstract class ccc030æ•™ç»ƒ extends ccc028äºº {
+    public ccc030æ•™ç»ƒ() {
     }
 
-    public ccc030½ÌÁ·(int age, String name) {
-        //Ö±½Ó´«µİ²ÎÊı¸ø¸¸Àà
+    public ccc030æ•™ç»ƒ(int age, String name) {
+        //ç›´æ¥ä¼ é€’å‚æ•°ç»™çˆ¶ç±»
         super(age, name);
     }
 

@@ -1,17 +1,17 @@
-package c2stage_20220220.eee036Ñ§ÉúÅÅĞò°¸Àı;
+package c2stage_20220220.eee036å­¦ç”Ÿæ’åºæ¡ˆä¾‹;
 
-public class eee037Ñ§ÉúÀà {
+public class eee037å­¦ç”Ÿç±» {
     private String name;
     private int age;
     private int num;
 
-    public eee037Ñ§ÉúÀà(String name, int age, int num) {
+    public eee037å­¦ç”Ÿç±»(String name, int age, int num) {
         this.name = name;
         this.age = age;
         this.num = num;
     }
 
-    public eee037Ñ§ÉúÀà() {
+    public eee037å­¦ç”Ÿç±»() {
     }
 
     public String getName() {

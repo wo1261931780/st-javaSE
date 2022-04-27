@@ -1,4 +1,4 @@
-package abÍùÆÚÑ§Ï°2021Äê10ÔÂ2ÈÕ.bbb055×Ô¼ºĞ´µÄÑ§Éú¹ÜÀíÏµÍ³;
+package abå¾€æœŸå­¦ä¹ 2021å¹´10æœˆ2æ—¥.bbb055è‡ªå·±å†™çš„å­¦ç”Ÿç®¡ç†ç³»ç»Ÿ;
 
 public class bbb066lei {
     private String number;
@@ -15,7 +15,7 @@ public class bbb066lei {
         this.age = age;
         this.address = address;
     }
-    //ÕâÀï½»ÁËÒ»¸ö·½·¨À´Ò»´ÎĞÔĞ´ÍêËùÓĞµÄÃüÁî£¬ĞèÒª¼ÇºÃ
+    //è¿™é‡Œäº¤äº†ä¸€ä¸ªæ–¹æ³•æ¥ä¸€æ¬¡æ€§å†™å®Œæ‰€æœ‰çš„å‘½ä»¤ï¼Œéœ€è¦è®°å¥½
 
     public String getNumber() {
         return number;

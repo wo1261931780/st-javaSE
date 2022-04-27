@@ -7,22 +7,22 @@ import java.text.SimpleDateFormat;
  * Project:index.pb
  * Package:c2stage_20220403.ccc107try_catch
  * User:  wo1261931780@gmail.com
- * Time:  2022-04-19-31  ĞÇÆÚÈÕ
+ * Time:  2022-04-19-31  æ˜ŸæœŸæ—¥
  */
 public class ccc001 {
     public static void main(String[] args) {
-        SimpleDateFormat x1 = new SimpleDateFormat("yyyyÄêMMÔÂdd");
+        SimpleDateFormat x1 = new SimpleDateFormat("yyyyå¹´MMæœˆdd");
         try {
-            String x = "2022Äê4ÔÂ3ÈÕ";
+            String x = "2022å¹´4æœˆ3æ—¥";
             x1.parse(x);
-            // Ò»°ã³ÌĞòÊÇÖğ²ãÍÆ½øµÄ£¬¶à¸öÒì³£ĞèÒªÅ×³öµÄÊ±ºò£¬Í³Ò»·Åµ½Ò»¸ötry¡­¡­catchÖĞ¼ä£¬±ÜÃâ³öÏÖºóĞø³ÌĞòµÄ¿ÕÖ¸Õë
-            // } catch (ParseException e) {// ÕâÀïµÄÀ¹½Ø£¬ÊÇÕë¶Ôµ¥ÖÖÒì³£¶øÑÔµÄ
-            // »»¾ä»°Ëµ£¬Èç¹ûÉÏÃæµÄ³ÌĞò£¬ÓĞÈı¸öÒì³££¬¾Í»á³öÏÖÈı¸ö±àÒë´íÎóÌáÊ¾
-            // ÎªÁË½â¾öÈı¸ö´íÎóÌáÊ¾£¬¾ÍĞèÒªtry¡­¡­catchÈı´ÎÒì³£µÄ½á¹û
-            // e.printStackTrace();// ´òÓ¡Òì³£ĞÅÏ¢
+            // ä¸€èˆ¬ç¨‹åºæ˜¯é€å±‚æ¨è¿›çš„ï¼Œå¤šä¸ªå¼‚å¸¸éœ€è¦æŠ›å‡ºçš„æ—¶å€™ï¼Œç»Ÿä¸€æ”¾åˆ°ä¸€ä¸ªtryâ€¦â€¦catchä¸­é—´ï¼Œé¿å…å‡ºç°åç»­ç¨‹åºçš„ç©ºæŒ‡é’ˆ
+            // } catch (ParseException e) {// è¿™é‡Œçš„æ‹¦æˆªï¼Œæ˜¯é’ˆå¯¹å•ç§å¼‚å¸¸è€Œè¨€çš„
+            // æ¢å¥è¯è¯´ï¼Œå¦‚æœä¸Šé¢çš„ç¨‹åºï¼Œæœ‰ä¸‰ä¸ªå¼‚å¸¸ï¼Œå°±ä¼šå‡ºç°ä¸‰ä¸ªç¼–è¯‘é”™è¯¯æç¤º
+            // ä¸ºäº†è§£å†³ä¸‰ä¸ªé”™è¯¯æç¤ºï¼Œå°±éœ€è¦tryâ€¦â€¦catchä¸‰æ¬¡å¼‚å¸¸çš„ç»“æœ
+            // e.printStackTrace();// æ‰“å°å¼‚å¸¸ä¿¡æ¯
             // } catch (ParseException|xxx e) {
-            // ÆóÒµ¼¶Ğ´·¨£º
-            // Ö±½ÓÅ×³öÒì³£µÄ¸¸Ààexceptions
+            // ä¼ä¸šçº§å†™æ³•ï¼š
+            // ç›´æ¥æŠ›å‡ºå¼‚å¸¸çš„çˆ¶ç±»exceptions
         } catch (Exception e) {
             System.out.println("exceptions");
         }

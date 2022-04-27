@@ -9,7 +9,7 @@ public class ccc002bank_huoqi extends ccc001bank_abstract {
     public double caculate_rates( ) {
         System.out.println("override");
         double profits = getBalances() * 0.35 / 100;
-        System.out.println("ÊÕÒæÎª£º"+ profits);
+        System.out.println("ÃŠÃ•Ã’Ã¦ÃŽÂªÂ£Âº"+ profits);
         return profits;
 
     }

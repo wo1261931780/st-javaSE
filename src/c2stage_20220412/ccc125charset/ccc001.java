@@ -9,22 +9,22 @@ import java.util.Arrays;
  * Project:index.pb
  * Package:c2stage_20220412.ccc125
  * User:  wo1261931780@gmail.com
- * Time:  2022-04-22-15  ĞÇÆÚ¶ş
+ * Time:  2022-04-22-15  æ˜ŸæœŸäºŒ
  */
 public class ccc001 {
     public static void main(String[] args) throws UnsupportedEncodingException {
-        String x = "123²âÊÔ";
+        String x = "123æµ‹è¯•";
         byte[] demo = x.getBytes();
-        System.out.println(demo.length);//°´ÕÕµ±Ç°Ä¬ÈÏ×Ö·û¼¯£¬½øĞĞ±àÂë
+        System.out.println(demo.length);//æŒ‰ç…§å½“å‰é»˜è®¤å­—ç¬¦é›†ï¼Œè¿›è¡Œç¼–ç 
         System.out.println(Arrays.toString(demo));
         // [49, 50, 51, -26, -75, -117, -24, -81, -107]
-        // ÕâÀïÇ°ÃæÈı¸öµÄ¾ÍÊÇ123£¬»»¾ä»°Ëµ£¬Ó¢ÎÄºÍÊı×Ö¶¼ÊÇÕıÊı
-        // ÒòÎªÊÇGBK¸ñÊ½±àÂë£¬-26, -75ÕâÁ½¸ö±íÊ¾Ò»¸öÖĞÎÄ×Ö£¬ºóÃæÒÔ´ËÀàÍÆ
-        byte[] DEMO2 = x.getBytes(StandardCharsets.UTF_8);// ÕâÀï¾ÍÊÇ±àÒëÒì³££¬±ÜÃâÊÖĞ´´íÎó
-        System.out.println(DEMO2.length);// Êä³ö×Ö·û´®³¤¶È
-        System.out.println(Arrays.toString(DEMO2));// ÕâÀï£¬ÎÒÖ¸¶¨µÄ×Ö·û´® ±»Í³Ò»±àÒëÎªÏîÄ¿µÄGBK±àÂë¸ñÊ½
+        // è¿™é‡Œå‰é¢ä¸‰ä¸ªçš„å°±æ˜¯123ï¼Œæ¢å¥è¯è¯´ï¼Œè‹±æ–‡å’Œæ•°å­—éƒ½æ˜¯æ­£æ•°
+        // å› ä¸ºæ˜¯GBKæ ¼å¼ç¼–ç ï¼Œ-26, -75è¿™ä¸¤ä¸ªè¡¨ç¤ºä¸€ä¸ªä¸­æ–‡å­—ï¼Œåé¢ä»¥æ­¤ç±»æ¨
+        byte[] DEMO2 = x.getBytes(StandardCharsets.UTF_8);// è¿™é‡Œå°±æ˜¯ç¼–è¯‘å¼‚å¸¸ï¼Œé¿å…æ‰‹å†™é”™è¯¯
+        System.out.println(DEMO2.length);// è¾“å‡ºå­—ç¬¦ä¸²é•¿åº¦
+        System.out.println(Arrays.toString(DEMO2));// è¿™é‡Œï¼Œæˆ‘æŒ‡å®šçš„å­—ç¬¦ä¸² è¢«ç»Ÿä¸€ç¼–è¯‘ä¸ºé¡¹ç›®çš„GBKç¼–ç æ ¼å¼
 
-        String x2 = new String(DEMO2);// ÕâÀï£¬Èç¹ûĞŞ¸Ä×Ö·û¼¯ÒÔºó£¬×Ö·û´®»áÂÒÂë
+        String x2 = new String(DEMO2);// è¿™é‡Œï¼Œå¦‚æœä¿®æ”¹å­—ç¬¦é›†ä»¥åï¼Œå­—ç¬¦ä¸²ä¼šä¹±ç 
         System.out.println(DEMO2);
 
 

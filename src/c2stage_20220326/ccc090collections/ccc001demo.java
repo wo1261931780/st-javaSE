@@ -9,7 +9,7 @@ import java.util.List;
  * Project:index.pb
  * Package:c2stage_20220326.ccc090collections
  * User:  wo1261931780@gmail.com
- * Time:  2022-03-15-51  ĞÇÆÚÁù
+ * Time:  2022-03-15-51  æ˜ŸæœŸå…­
  */
 public class ccc001demo {
     public static void main(String[] args) {
@@ -22,17 +22,17 @@ public class ccc001demo {
         Collections.addAll(x, "a1", "a2", "a3", "a4", "a5");
         System.out.println(x);// [a1, a2, a3, a4, a5]
         // Collections<? super cat,cat... x> demo=new eee035collections()
-        // ½âÊÍÒ»ÏÂÉÏÃæµÄ´úÂë
-        // Ê×ÏÈÓĞÒ»¸ö¿É±ä²ÎÊıcat... x£¬cat¾ÍÊÇ¶ÔÏóÀà
-        // ÕâÀï¾ÍÊÇcollectionsÍ¨¹ıapi£¬½øĞĞÅúÁ¿Ìí¼ÓÊı¾İ
+        // è§£é‡Šä¸€ä¸‹ä¸Šé¢çš„ä»£ç 
+        // é¦–å…ˆæœ‰ä¸€ä¸ªå¯å˜å‚æ•°cat... xï¼Œcatå°±æ˜¯å¯¹è±¡ç±»
+        // è¿™é‡Œå°±æ˜¯collectionsé€šè¿‡apiï¼Œè¿›è¡Œæ‰¹é‡æ·»åŠ æ•°æ®
 
         Collections.shuffle(x);
-        // ÕâÀïÖ»ÄÜ¶Ôlist½øĞĞ²Ù×÷
+        // è¿™é‡Œåªèƒ½å¯¹listè¿›è¡Œæ“ä½œ
         System.out.println(x);// [a4, a3, a1, a2, a5]
 
-        Collections.sort(x);// ÖØĞÂÅÅĞò
+        Collections.sort(x);// é‡æ–°æ’åº
         System.out.println(x); // [a1, a2, a3, a4, a5]
-        // ¶ÔÓÚÖ¸¶¨µÄ¶ÔÏóÀàĞÍ£¬Ö»ÒªÊµÏÖÁËÅÅĞòcomparator½Ó¿Ú£¬ÅÅĞò»¹ÊÇ¿ÉÒÔ½øĞĞµÄ
+        // å¯¹äºæŒ‡å®šçš„å¯¹è±¡ç±»å‹ï¼Œåªè¦å®ç°äº†æ’åºcomparatoræ¥å£ï¼Œæ’åºè¿˜æ˜¯å¯ä»¥è¿›è¡Œçš„
     }
 
 }

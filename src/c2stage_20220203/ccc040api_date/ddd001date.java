@@ -10,9 +10,9 @@ public class ddd001date {
     }
 
     public static void main(String[] args) throws ParseException {
-        System.out.println("¿ªÊ¼ÔËĞĞ---------");
+        System.out.println("å¼€å§‹è¿è¡Œ---------");
         Scanner x = new Scanner(System.in);
-        System.out.println("ÇëÊäÈëÊ±¼ä(YYYY-MM-dd-HH-mm-ss)");
+        System.out.println("è¯·è¾“å…¥æ—¶é—´(YYYY-MM-dd-HH-mm-ss)");
         String x1 = x.nextLine();
         System.out.println(stringtodate(x1));
         System.out.println("-----------------------------");
@@ -24,13 +24,13 @@ public class ddd001date {
     public static Date stringtodate(String x) throws ParseException {
         SimpleDateFormat x2 = new SimpleDateFormat("YYYY-MM-dd-HH-mm-ss");
         Date x1 = x2.parse(x);
-        // ×¢ÒâÊÂÏî£º
-        // 1.×ª»»±ØĞë°´ÕÕsimpledateformatÖĞµÄ¸ñÊ½½øĞĞ
-        // ÒâÎ¶×Å£¬ÊäÈëµÄÊ±ºò¾Í±ØĞë°´ÕÕÕâ¸ö¸ñÊ½²Ù×÷
-        // 2.½âÎöµÄ½á¹û£¬°´ÕÕ±ê×¼½á¹û³öÏÖ
-        // ±ê×¼¸ñÊ½£º
+        // æ³¨æ„äº‹é¡¹ï¼š
+        // 1.è½¬æ¢å¿…é¡»æŒ‰ç…§simpledateformatä¸­çš„æ ¼å¼è¿›è¡Œ
+        // æ„å‘³ç€ï¼Œè¾“å…¥çš„æ—¶å€™å°±å¿…é¡»æŒ‰ç…§è¿™ä¸ªæ ¼å¼æ“ä½œ
+        // 2.è§£æçš„ç»“æœï¼ŒæŒ‰ç…§æ ‡å‡†ç»“æœå‡ºç°
+        // æ ‡å‡†æ ¼å¼ï¼š
         // Sun Dec 27 11:22:33 CST 1998
-        System.out.println("×ª»»½áÊø");
+        System.out.println("è½¬æ¢ç»“æŸ");
         return x1;
     }
 

@@ -10,8 +10,8 @@ import java.util.function.Consumer;
  * Project:index.pb
  * Package:c2stage_20220220.ccc075genericity_tp
  * User:  wo1261931780@gmail.com
- * Time:  2022-03-11-23  ĞÇÆÚÁù
- * ¸öÈËÁªÏµ°¸Àı
+ * Time:  2022-03-11-23  æ˜ŸæœŸå…­
+ * ä¸ªäººè”ç³»æ¡ˆä¾‹
  */
 public class demo {
     public static void main(String[] args) {
@@ -28,7 +28,7 @@ public class demo {
         for (int i = 0; i < x.size(); i++) {
             System.out.println(demo1.next());
         }
-        System.out.println("whileÑ­»·----------------------------");
+        System.out.println("whileå¾ªç¯----------------------------");
         while (demo1.hasNext()) {
             System.out.println(demo1.next());
         }
@@ -49,6 +49,6 @@ public class demo {
             }
         });
         x.forEach(s -> System.out.println(s));
-        x.forEach(System.out::println);// Ö±½Ósoutc¾Í¿ÉÒÔÊ¹ÓÃlambda±í´ïÊ½È¥Ğ´
+        x.forEach(System.out::println);// ç›´æ¥soutcå°±å¯ä»¥ä½¿ç”¨lambdaè¡¨è¾¾å¼å»å†™
     }
 }

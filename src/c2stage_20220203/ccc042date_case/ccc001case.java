@@ -6,16 +6,16 @@ import java.util.Date;
 
 public class ccc001case {
     public static void main(String[] args) throws ParseException {
-        String x = "2022Äê2ÔÂ4ÈÕ21:05:33";
+        String x = "2022å¹´2æœˆ4æ—¥21:05:33";
         long st_time = show_time(x);
-        String x2 = "2022Äê2ÔÂ4ÈÕ21:15:33";
+        String x2 = "2022å¹´2æœˆ4æ—¥21:15:33";
         long end_time = show_time(x2);
 
-        String s1 = "2022Äê2ÔÂ4ÈÕ21:06:26";
+        String s1 = "2022å¹´2æœˆ4æ—¥21:06:26";
         long p1 = show_time(s1);
         winlose(p1, st_time, end_time);
         // System.out.println(winlose(p1, st_time, end_time));
-        String s2 = "2022Äê2ÔÂ4ÈÕ21:15:44";
+        String s2 = "2022å¹´2æœˆ4æ—¥21:15:44";
         long p2 = show_time(s2);
         winlose(p2, st_time, end_time);
         // System.out.println(winlose(p2, st_time, end_time));
@@ -24,16 +24,16 @@ public class ccc001case {
 
     public static boolean winlose(long xx, long st_time, long end_time) {
         if (xx > st_time && xx < end_time) {
-            System.out.println("³É¹¦");
+            System.out.println("æˆåŠŸ");
             return true;
         } else {
-            System.out.println("Ê§°Ü");
+            System.out.println("å¤±è´¥");
             return false;
         }
     }
 
     public static long show_time(String xx) throws ParseException {
-        SimpleDateFormat f1 = new SimpleDateFormat("yyyyÄêMMÔÂddÈÕHH:mm:ss");
+        SimpleDateFormat f1 = new SimpleDateFormat("yyyyå¹´MMæœˆddæ—¥HH:mm:ss");
         Date m1 = f1.parse(xx);
         long m1s = m1.getTime();
         return m1s;

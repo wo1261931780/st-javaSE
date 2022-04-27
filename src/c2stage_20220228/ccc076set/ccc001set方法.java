@@ -1,21 +1,21 @@
 package c2stage_20220228.ccc076set;
 /*
-    Set¼¯ºÏÌØµã
-        ²»°üº¬ÖØ¸´ÔªËØµÄ¼¯ºÏ
-        Ã»ÓĞ´øË÷ÒıµÄ·½·¨£¬ËùÒÔ²»ÄÜÊ¹ÓÃÆÕÍ¨forÑ­»·±éÀú
-    HashSet:¶Ô¼¯ºÏµÄµü´úË³Ğò²»×÷ÈÎºÎ±£Ö¤
+    Seté›†åˆç‰¹ç‚¹
+        ä¸åŒ…å«é‡å¤å…ƒç´ çš„é›†åˆ
+        æ²¡æœ‰å¸¦ç´¢å¼•çš„æ–¹æ³•ï¼Œæ‰€ä»¥ä¸èƒ½ä½¿ç”¨æ™®é€šforå¾ªç¯éå†
+    HashSet:å¯¹é›†åˆçš„è¿­ä»£é¡ºåºä¸ä½œä»»ä½•ä¿è¯
  */
 
 import java.util.HashSet;
 import java.util.Set;
 
-public class ccc001set·½·¨ {
+public class ccc001setæ–¹æ³• {
     public static void main(String[] args) {
         Set<String> x = new HashSet<>();
         // Set<String> x = new LinkedHashSet<>();
-        // Ö±½Ó½âñî×ö³Élinkedhashset£¬¾Í»á±ä³ÉÓĞĞò¼¯ºÏ
+        // ç›´æ¥è§£è€¦åšæˆlinkedhashsetï¼Œå°±ä¼šå˜æˆæœ‰åºé›†åˆ
         // [a2, a1, aaa3, aaa5, a0, aaa4, bbb2]
-        // °´ÕÕÌí¼ÓË³Ğò
+        // æŒ‰ç…§æ·»åŠ é¡ºåº
         x.add("a2");
         x.add("a1");
         x.add("aaa3");
@@ -25,9 +25,9 @@ public class ccc001set·½·¨ {
         x.add("aaa5");
         x.add("bbb2");
         System.out.println(x);// [a1, a2, aaa5, aaa4, bbb2, aaa3, a0]
-        // ÒòÎªÄÚ²¿ÖØĞ´ÁËtostring·½·¨£¬Ö±½ÓÕ¹Ê¾ÄÚÈİ
-        // Í¬Ê±£¬ÒòÎªÊÇsetÀàĞÍ£¬ËùÒÔÊÇÎŞĞòµÄ
-        // setÀàĞÍÌØµã£¬²»ÖØ¸´
+        // å› ä¸ºå†…éƒ¨é‡å†™äº†tostringæ–¹æ³•ï¼Œç›´æ¥å±•ç¤ºå†…å®¹
+        // åŒæ—¶ï¼Œå› ä¸ºæ˜¯setç±»å‹ï¼Œæ‰€ä»¥æ˜¯æ— åºçš„
+        // setç±»å‹ç‰¹ç‚¹ï¼Œä¸é‡å¤
         for (String x1 : x) {
             System.out.println(x1);
         }

@@ -9,21 +9,21 @@ import java.io.ObjectOutputStream;
  * Project:index.pb
  * Package:c2stage_20220418.ccc140demo
  * User:  wo1261931780@gmail.com
- * Time:  2022-04-21-31  ĞÇÆÚÒ»
+ * Time:  2022-04-21-31  æ˜ŸæœŸä¸€
  */
 public class ccc002rundemo {
     public static void main(String[] args) throws IOException {
         System.out.println("---------------------");
         ccc001object x = new ccc001object("a1", 11, "22");
-        // Ê×ÏÈĞÂ½¨Ò»¸ö¶ÔÏó
+        // é¦–å…ˆæ–°å»ºä¸€ä¸ªå¯¹è±¡
         FileOutputStream demo = new FileOutputStream("src/c2stage_20220418/ccc140series/ccc002rundemo.txt");
-        // È»ºóĞÂ½¨Ò»¸öÊä³öÁ÷
+        // ç„¶åæ–°å»ºä¸€ä¸ªè¾“å‡ºæµ
         ObjectOutputStream x1 = new ObjectOutputStream(demo);
-        // ¶ÔÏóĞòÁĞ»¯µÄÇ°Ìá£¬ÊÇÓĞĞòÁĞ»¯µÄÊä³ö´æÔÚ
+        // å¯¹è±¡åºåˆ—åŒ–çš„å‰æï¼Œæ˜¯æœ‰åºåˆ—åŒ–çš„è¾“å‡ºå­˜åœ¨
         x1.writeObject(x);
         x1.close();
-        // ĞòÁĞ»¯µÄ´æ´¢£¬Ö±½Ó´ò¿ªÃ»ÓĞÒâÒå£¬ÒòÎª±¾Éí¾ÍÊÇÎªÁËµ÷ÓÃ¶ø´æÔÚ
-        // µ«ÊÇ²¢²»´ú±íÕâÑù
+        // åºåˆ—åŒ–çš„å­˜å‚¨ï¼Œç›´æ¥æ‰“å¼€æ²¡æœ‰æ„ä¹‰ï¼Œå› ä¸ºæœ¬èº«å°±æ˜¯ä¸ºäº†è°ƒç”¨è€Œå­˜åœ¨
+        // ä½†æ˜¯å¹¶ä¸ä»£è¡¨è¿™æ ·
 
     }
 }

@@ -1,48 +1,48 @@
-package abÍùÆÚÑ§Ï°2021Äê10ÔÂ2ÈÕ.aaa001³õÆÚÑ§Ï°¼¯ºÏ;
+package abå¾€æœŸå­¦ä¹ 2021å¹´10æœˆ2æ—¥.aaa001åˆæœŸå­¦ä¹ é›†åˆ;
 
 import java.util.Scanner;
 import java.util.Random;
 
-public class aaa022±È½ÏÊäÈëºÍËæ»úÊýµÄ´óÐ¡ {
+public class aaa022æ¯”è¾ƒè¾“å…¥å’Œéšæœºæ•°çš„å¤§å° {
     public static void main(String[] args) {
         Scanner b11 = new Scanner(System.in);
         Random b22 = new Random();
-        System.out.println("ÇëÊäÈëÊý¾Ý£º");
+        System.out.println("è¯·è¾“å…¥æ•°æ®ï¼š");
         int xx = b11.nextInt();
         int zz = b22.nextInt(1000);
-        //Ò»°ãÓÃÒ»¸öÊý¾ÝÀ´½ÓÊÕ·½·¨µÄ½á¹û£¬²»È»·½·¨ÎÞÒâÒå
-        System.out.println("×î´óÖµÊÇ£º" + max(xx, zz));
+        //ä¸€èˆ¬ç”¨ä¸€ä¸ªæ•°æ®æ¥æŽ¥æ”¶æ–¹æ³•çš„ç»“æžœï¼Œä¸ç„¶æ–¹æ³•æ— æ„ä¹‰
+        System.out.println("æœ€å¤§å€¼æ˜¯ï¼š" + max(xx, zz));
 
 
-        /*µÚÒ»´Î´úÂë---------------------------------------
-        //boolean zz=jo(xx);//·½·¨µÄ½ÓÊÕ
+        /*ç¬¬ä¸€æ¬¡ä»£ç ---------------------------------------
+        //boolean zz=jo(xx);//æ–¹æ³•çš„æŽ¥æ”¶
         if(zz){
-            System.out.println("Êý¾ÝÊÇÅ¼Êý");
+            System.out.println("æ•°æ®æ˜¯å¶æ•°");
         }else{
-            System.out.println("Êý¾Ý²»ÊÇÅ¼Êý");
+            System.out.println("æ•°æ®ä¸æ˜¯å¶æ•°");
         }*/
-        //ÕâÀïÊÇmain·½·¨µÄÊÕÎ²------------------------------
+        //è¿™é‡Œæ˜¯mainæ–¹æ³•çš„æ”¶å°¾------------------------------
     }
 
     /**
-     * µÚ¶þ´Î´úÂë---------------------------------------
+     * ç¬¬äºŒæ¬¡ä»£ç ---------------------------------------
      * public static boolean jo(int xx) {
      * if(xx%2 ==0){
-     * System.out.println("Êý¾Ý"+xx+"ÊÇÅ¼Êý");
+     * System.out.println("æ•°æ®"+xx+"æ˜¯å¶æ•°");
      * return true;
-     * //returnÖ®ºó²»ÄÜ¼ÌÐø´úÂë£¬ÓÐbreakµÄ¹¦ÄÜ£¬ºóÃæÓÐ´úÂëÒ²²»»áÏÔÊ¾¡£
+     * //returnä¹‹åŽä¸èƒ½ç»§ç»­ä»£ç ï¼Œæœ‰breakçš„åŠŸèƒ½ï¼ŒåŽé¢æœ‰ä»£ç ä¹Ÿä¸ä¼šæ˜¾ç¤ºã€‚
      * }else{
-     * System.out.println("Êý¾Ý"+xx+"ÊÇÆæÊý");
+     * System.out.println("æ•°æ®"+xx+"æ˜¯å¥‡æ•°");
      * return false;
      * }
      * }
      */
     public static double max(double xx, double zz) {
         if (xx > zz) {
-            System.out.println("·½·¨ÖÐµÄ×î´óÖµÊÇ£º" + xx);
+            System.out.println("æ–¹æ³•ä¸­çš„æœ€å¤§å€¼æ˜¯ï¼š" + xx);
             return xx;
         } else {
-            System.out.println("·½·¨ÖÐµÄ×î´óÖµÊÇ£º" + zz);
+            System.out.println("æ–¹æ³•ä¸­çš„æœ€å¤§å€¼æ˜¯ï¼š" + zz);
             return zz;
         }
     }

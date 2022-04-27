@@ -1,12 +1,12 @@
 package c2stage_20220113.ccc016final;
 
-public class ccc017ÆäËüĞŞ¸Ä {
+public class ccc017å…¶å®ƒä¿®æ”¹ {
     public static void main(String[] args) {
-        // finalĞŞ¸Ä£¬½«±äÁ¿µÄÊı¾İ¹Ì¶¨Îª³£Á¿£¬ºóĞøÎŞ·¨¶Ô±äÁ¿¸³Öµ
+        // finalä¿®æ”¹ï¼Œå°†å˜é‡çš„æ•°æ®å›ºå®šä¸ºå¸¸é‡ï¼Œåç»­æ— æ³•å¯¹å˜é‡èµ‹å€¼
         final int age = 20;
         System.out.println(age);
 
-        // final´¦ÀíĞÂ½¨¶ÔÏó£¬¹Ì¶¨µØÖ·Êı¾İ
+        // finalå¤„ç†æ–°å»ºå¯¹è±¡ï¼Œå›ºå®šåœ°å€æ•°æ®
 
         final ccc015zi x = new ccc015zi();
         x.age = 20;

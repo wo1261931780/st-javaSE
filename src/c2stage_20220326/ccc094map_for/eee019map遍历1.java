@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
 
-public class eee019map±éÀú1 {
+public class eee019mapéå†1 {
     public static void main(String[] args) {
         Map<String, String> x = new HashMap<>();
         x.put("111", "a1");
@@ -15,11 +15,11 @@ public class eee019map±éÀú1 {
         System.out.println(x1);
         for (String x2 : x1) {
             System.out.println(x.get(x2) + "--" + x2);
-            // ĞèÒª×¢ÒâµÄÊÇ£¬¼¯ºÏµÄµ×²ãÊÇset£¬±éÀúÊÇÎŞĞòµÄ
-            // Ê×ÏÈx1ÊÇxÖĞµÄ¼üÖµ£¬
-            // Ê¹ÓÃx2¶Ôx1½øĞĞ±éÀú£¬Ã¿´ÎµÃµ½µÄ¶¼ÊÇx1µÄ¼üÖµ
-            // È»ºóx.get(x2)¾ÍÊÇ¸ù¾İ¼üÖµ»ñÈ¡¾ßÌåµÄÊı¾İ
+            // éœ€è¦æ³¨æ„çš„æ˜¯ï¼Œé›†åˆçš„åº•å±‚æ˜¯setï¼Œéå†æ˜¯æ— åºçš„
+            // é¦–å…ˆx1æ˜¯xä¸­çš„é”®å€¼ï¼Œ
+            // ä½¿ç”¨x2å¯¹x1è¿›è¡Œéå†ï¼Œæ¯æ¬¡å¾—åˆ°çš„éƒ½æ˜¯x1çš„é”®å€¼
+            // ç„¶åx.get(x2)å°±æ˜¯æ ¹æ®é”®å€¼è·å–å…·ä½“çš„æ•°æ®
         }
-        System.out.println("½áÊø");
+        System.out.println("ç»“æŸ");
     }
 }

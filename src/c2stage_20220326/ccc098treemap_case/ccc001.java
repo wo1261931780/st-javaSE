@@ -7,32 +7,32 @@ import java.util.*;
  * Project:index.pb
  * Package:c2stage_20220326.ccc098treemap_case
  * User:  wo1261931780@gmail.com
- * Time:  2022-03-21-28  ĞÇÆÚÈÕ
+ * Time:  2022-03-21-28  æ˜ŸæœŸæ—¥
  */
 public class ccc001 {
     public static void main(String[] args) {
         Map<String, List<String>> map1 = new HashMap<>();
-        // Ïàµ±ÓÚ£¬ÎÒÕâÀïÊÇ¹¹ÔìÁËÒ»¸ömap¶ÔÏó£¬
-        // ËùÒÔÖ¸¶¨µÄÊÇ¶ÔÏóµÄÊı¾İÀàĞÍ
+        // ç›¸å½“äºï¼Œæˆ‘è¿™é‡Œæ˜¯æ„é€ äº†ä¸€ä¸ªmapå¯¹è±¡ï¼Œ
+        // æ‰€ä»¥æŒ‡å®šçš„æ˜¯å¯¹è±¡çš„æ•°æ®ç±»å‹
         List<String> x = new ArrayList<>();
         Collections.addAll(x, "a", "b", "c");
-        // Í¨¹ı¿É±ä²ÎÊı£¬½«Ñ¡ÔñÏîÌí¼Óµ½Êı×éÖĞ
-        map1.put("name1", x);// ×¢Òâ£¬ÕâÀïÊÇÌí¼ÓÁËÒ»¸öÊı×é½øÈëmapÖĞ£¬¶øÒ»¸ömap£¬¿ÉÒÔÌí¼ÓÎŞÊı¸öÊı×é£¬Ã¿¸öÊı×é×÷Îªvalue¿ÉÒÔÏàÍ¬£¬¿ÉÒÔ²»Í¬
+        // é€šè¿‡å¯å˜å‚æ•°ï¼Œå°†é€‰æ‹©é¡¹æ·»åŠ åˆ°æ•°ç»„ä¸­
+        map1.put("name1", x);// æ³¨æ„ï¼Œè¿™é‡Œæ˜¯æ·»åŠ äº†ä¸€ä¸ªæ•°ç»„è¿›å…¥mapä¸­ï¼Œè€Œä¸€ä¸ªmapï¼Œå¯ä»¥æ·»åŠ æ— æ•°ä¸ªæ•°ç»„ï¼Œæ¯ä¸ªæ•°ç»„ä½œä¸ºvalueå¯ä»¥ç›¸åŒï¼Œå¯ä»¥ä¸åŒ
         List<String> x1 = new ArrayList<>();
         Collections.addAll(x1, "b", "c", "asd", "d");
         map1.put("name2", x1);
-        System.out.println(map1);// ½á¹ûÊÇ£¬name1=Êı×é1£¬name2=Êı×é2
-        // Ã¿¸öÊı×é¶¼ÊÇvalueĞÎÊ½´æ´¢
+        System.out.println(map1);// ç»“æœæ˜¯ï¼Œname1=æ•°ç»„1ï¼Œname2=æ•°ç»„2
+        // æ¯ä¸ªæ•°ç»„éƒ½æ˜¯valueå½¢å¼å­˜å‚¨
         Collection<List<String>> result = map1.values();
         System.out.println(result);// [[b, c, asd, d], [a, b, c]]
-        // Ïàµ±ÓÚÎÒ¾ÍÊÇÒ»¸öÊı×é£¬Ö»²»¹ıÊı×éÖĞµÄÔªËØÈ«²¿ÊÇlistÀàĞÍ
+        // ç›¸å½“äºæˆ‘å°±æ˜¯ä¸€ä¸ªæ•°ç»„ï¼Œåªä¸è¿‡æ•°ç»„ä¸­çš„å…ƒç´ å…¨éƒ¨æ˜¯listç±»å‹
         Map<String, Integer> xx = new HashMap<>();
         for (List<String> re1 : result) {
             for (String s : re1) {
                 if (xx.containsKey(s)) {
-                    //ÅĞ¶ÏÊÇ·ñ°üº¬Õâ¸ökey
+                    //åˆ¤æ–­æ˜¯å¦åŒ…å«è¿™ä¸ªkey
                     xx.put(s, xx.get(s) + 1);
-                    //ÒòÎªkeyÊÇ²»±äµÄ£¬ËùÒÔÖ±½Ó¶ÔvalueÊı¾İ±ä»¯¼´¿É
+                    //å› ä¸ºkeyæ˜¯ä¸å˜çš„ï¼Œæ‰€ä»¥ç›´æ¥å¯¹valueæ•°æ®å˜åŒ–å³å¯
                 } else {
                     xx.put(s, 1);
                 }

@@ -7,14 +7,14 @@ import java.util.Arrays;
  * Project:index.pb
  * Package:leetcode.eee002deke_code.aaa005_20220309interview
  * User:  wo1261931780@gmail.com
- * Time:  2022-03-13-27  ĞÇÆÚÈı
+ * Time:  2022-03-13-27  æ˜ŸæœŸä¸‰
  */
 public class ccc {
     public static void main(String[] args) {
-        // 1.ÕûÊıÊı×é8£¬9
-        // 2.´ÓĞ¡µ½´ó9ÔÚÊı×éÖĞµÄÎ»ÖÃ
+        // 1.æ•´æ•°æ•°ç»„8ï¼Œ9
+        // 2.ä»å°åˆ°å¤§9åœ¨æ•°ç»„ä¸­çš„ä½ç½®
         int[] x = {9, 8, 9, 9, 8, 8, 8, 9};
-        Arrays.sort(x);//ÅÅĞò
+        Arrays.sort(x);//æ’åº
         System.out.println(Arrays.toString(x));// [8, 8, 8, 8, 9, 9, 9, 9]
         int mid = x.length / 2;
         System.out.println(show(x, mid));// 4
@@ -25,7 +25,7 @@ public class ccc {
             if (x[i] == 8) {
                 int demo = mid / 2;
                 mid += demo;
-                show(x, mid);//µİ¹é
+                show(x, mid);//é€’å½’
             } else {
                 for (int j = mid; j < x.length; j--) {
                     if (x[j] == 8) {

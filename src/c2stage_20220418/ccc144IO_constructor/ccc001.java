@@ -13,20 +13,20 @@ import java.nio.file.Path;
  * Project:index.pb
  * Package:c2stage_20220418.ccc144IO_constructor
  * User:  wo1261931780@gmail.com
- * Time:  2022-04-21-56  ĞÇÆÚ¶ş
+ * Time:  2022-04-21-56  æ˜ŸæœŸäºŒ
  */
 public class ccc001 {
     public static void main(String[] args) throws IOException {
         IOUtils.copy(new FileInputStream("src/c2stage_20220418/ccc144IO_constructor/ccc001thread_extends.java"), new FileOutputStream("src/c2stage_20220418/ccc144IO_constructor/ccc001.txt"));
-        // Ò»ĞĞ´úÂëÍê³É¸´ÖÆºÍÕ³Ìù£¬
-        // Í¬Ê±²»ĞèÒª´´½¨Ö¸¶¨µÄ¹ÜµÀ
+        // ä¸€è¡Œä»£ç å®Œæˆå¤åˆ¶å’Œç²˜è´´ï¼Œ
+        // åŒæ—¶ä¸éœ€è¦åˆ›å»ºæŒ‡å®šçš„ç®¡é“
         // FileUtils.copyFileToDirectory(new File("src/c2stage_20220418/ccc144IO_constructor/ccc001thread_extends.java"), new File("src/c2stage_20220418/ccc144IO_constructor2/ccc002.java"));
-        // ÕâÀï»áÄ¬ÈÏ½«Ç°ÃæµÄ×÷ÎªÎÄ¼ş£¬ºóÃæµÄxx.java×÷ÎªÎÄ¼ş¼Ğ
-        // È»ºó¸´ÖÆµÄ½á¹û£¬ÊÇ³öÏÖÒ»¸öÍ¬ÃûµÄÎÄ¼ş
+        // è¿™é‡Œä¼šé»˜è®¤å°†å‰é¢çš„ä½œä¸ºæ–‡ä»¶ï¼Œåé¢çš„xx.javaä½œä¸ºæ–‡ä»¶å¤¹
+        // ç„¶åå¤åˆ¶çš„ç»“æœï¼Œæ˜¯å‡ºç°ä¸€ä¸ªåŒåçš„æ–‡ä»¶
         // FileUtils.copyDirectoryToDirectory(new File("src/c2stage_20220418/ccc144IO_constructor"), new File("src/c2stage_20220418/ccc144IO_constructo2"));
         // FileUtils.delete(new File("src/c2stage_20220418/ccc144IO_constructo2"));
         // Files.copy(Path.of("src/c2stage_20220418/ccc144IO_constructor/lib"),Path.of("src/c2stage_20220418/ccc144IO_constructor2"));
         Files.copy(Path.of("src/c2stage_20220418/ccc144IO_constructor/ccc001.txt"), Path.of("src/c2stage_20220418/ccc144IO_constructor/lib2/ccc001.txt"));
-        // ÕâÀï²»ÄÜ¸´ÖÆÎÄ¼ş¼Ğ£¬Ö»ÄÜ¸´ÖÆÎÄ¼ş
+        // è¿™é‡Œä¸èƒ½å¤åˆ¶æ–‡ä»¶å¤¹ï¼Œåªèƒ½å¤åˆ¶æ–‡ä»¶
     }
 }

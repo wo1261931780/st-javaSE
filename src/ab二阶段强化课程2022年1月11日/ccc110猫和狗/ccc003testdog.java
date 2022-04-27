@@ -1,4 +1,4 @@
-package ab¶ş½×¶ÎÇ¿»¯¿Î³Ì2022Äê1ÔÂ11ÈÕ.ccc110Ã¨ºÍ¹·;
+package abäºŒé˜¶æ®µå¼ºåŒ–è¯¾ç¨‹2022å¹´1æœˆ11æ—¥.ccc110çŒ«å’Œç‹—;
 
 import java.util.Scanner;
 
@@ -6,9 +6,9 @@ public class ccc003testdog extends ccc001testanimal {
     public ccc003testdog() {
         Scanner d1 = new Scanner(System.in);
         Scanner d2 = new Scanner(System.in);
-        System.out.println("ÇëÊäÈëÄêÁä£º");
+        System.out.println("è¯·è¾“å…¥å¹´é¾„ï¼š");
         int dage = d1.nextInt();
-        System.out.println("ÇëÊäÈëĞÕÃû£º");
+        System.out.println("è¯·è¾“å…¥å§“åï¼š");
         String dname = d2.nextLine();
         ccc001testanimal x2 = new ccc001testanimal(dage, dname);
         // ccc001testanimal x2 = new ccc001testanimal();
@@ -21,6 +21,6 @@ public class ccc003testdog extends ccc001testanimal {
 
     @Override
     public void eatsm() {
-        System.out.println("ÎÒÊÇ¹·³ÔÈâ£¬ÖØĞ´eat·½·¨");
+        System.out.println("æˆ‘æ˜¯ç‹—åƒè‚‰ï¼Œé‡å†™eatæ–¹æ³•");
     }
 }

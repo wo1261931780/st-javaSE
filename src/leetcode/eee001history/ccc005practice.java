@@ -14,8 +14,8 @@ public class ccc005practice {
         if (x3 == 0) {
             rank1(split1(x2, x1_len), x3);
         } else {
-            //ÕâÀï×ö·¨Ò»Ñù£¬
-            //×î´óµÄÎÊÌâÊÇ£¬·µ»ØµÄÊý×éÐèÒª²åÈë¿Õ¸ñ£¬Óï·¨²»ÁË½â
+            //è¿™é‡Œåšæ³•ä¸€æ ·ï¼Œ
+            //æœ€å¤§çš„é—®é¢˜æ˜¯ï¼Œè¿”å›žçš„æ•°ç»„éœ€è¦æ’å…¥ç©ºæ ¼ï¼Œè¯­æ³•ä¸äº†è§£
         }
 
 

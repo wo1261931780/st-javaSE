@@ -1,19 +1,19 @@
-package c2stage_20220418.eee108¼¯ºÏµ½ÎÄ¼ş¸Ä½ø°¸Àı;
+package c2stage_20220418.eee108é›†åˆåˆ°æ–‡ä»¶æ”¹è¿›æ¡ˆä¾‹;
 /*
-    ĞèÇó£º
-        °ÑArrayList¼¯ºÏÖĞµÄÑ§ÉúÊı¾İĞ´Èëµ½ÎÄ±¾ÎÄ¼ş¡£ÒªÇó£ºÃ¿Ò»¸öÑ§Éú¶ÔÏóµÄÊı¾İ×÷ÎªÎÄ¼şÖĞµÄÒ»ĞĞÊı¾İ
-        ¸ñÊ½£ºÑ§ºÅ,ĞÕÃû,ÄêÁä,¾Ó×¡µØ	¾ÙÀı£ºitheima001,ÁÖÇàÏ¼,30,Î÷°²
+    éœ€æ±‚ï¼š
+        æŠŠArrayListé›†åˆä¸­çš„å­¦ç”Ÿæ•°æ®å†™å…¥åˆ°æ–‡æœ¬æ–‡ä»¶ã€‚è¦æ±‚ï¼šæ¯ä¸€ä¸ªå­¦ç”Ÿå¯¹è±¡çš„æ•°æ®ä½œä¸ºæ–‡ä»¶ä¸­çš„ä¸€è¡Œæ•°æ®
+        æ ¼å¼ï¼šå­¦å·,å§“å,å¹´é¾„,å±…ä½åœ°	ä¸¾ä¾‹ï¼šitheima001,æ—é’éœ,30,è¥¿å®‰
 
-    Ë¼Â·£º
-        1:¶¨ÒåÑ§ÉúÀà
-        2:´´½¨ArrayList¼¯ºÏ
-        3:´´½¨Ñ§Éú¶ÔÏó
-        4:°ÑÑ§Éú¶ÔÏóÌí¼Óµ½¼¯ºÏÖĞ
-        5:´´½¨×Ö·û»º³åÊä³öÁ÷¶ÔÏó
-        6:±éÀú¼¯ºÏ£¬µÃµ½Ã¿Ò»¸öÑ§Éú¶ÔÏó
-        7:°ÑÑ§Éú¶ÔÏóµÄÊı¾İÆ´½Ó³ÉÖ¸¶¨¸ñÊ½µÄ×Ö·û´®
-        8:µ÷ÓÃ×Ö·û»º³åÊä³öÁ÷¶ÔÏóµÄ·½·¨Ğ´Êı¾İ
-        9:ÊÍ·Å×ÊÔ´
+    æ€è·¯ï¼š
+        1:å®šä¹‰å­¦ç”Ÿç±»
+        2:åˆ›å»ºArrayListé›†åˆ
+        3:åˆ›å»ºå­¦ç”Ÿå¯¹è±¡
+        4:æŠŠå­¦ç”Ÿå¯¹è±¡æ·»åŠ åˆ°é›†åˆä¸­
+        5:åˆ›å»ºå­—ç¬¦ç¼“å†²è¾“å‡ºæµå¯¹è±¡
+        6:éå†é›†åˆï¼Œå¾—åˆ°æ¯ä¸€ä¸ªå­¦ç”Ÿå¯¹è±¡
+        7:æŠŠå­¦ç”Ÿå¯¹è±¡çš„æ•°æ®æ‹¼æ¥æˆæŒ‡å®šæ ¼å¼çš„å­—ç¬¦ä¸²
+        8:è°ƒç”¨å­—ç¬¦ç¼“å†²è¾“å‡ºæµå¯¹è±¡çš„æ–¹æ³•å†™æ•°æ®
+        9:é‡Šæ”¾èµ„æº
  */
 
 import java.io.BufferedWriter;
@@ -21,28 +21,28 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
 
-public class eee110²âÊÔÀà {
+public class eee110æµ‹è¯•ç±» {
     public static void main(String[] args) throws IOException {
-        ArrayList<eee109¶ÔÏóÀà> x = addway();
+        ArrayList<eee109å¯¹è±¡ç±»> x = addway();
 
         BufferedWriter xx = new BufferedWriter(new FileWriter("l:\\java\\demo.txt"));
-        for (eee109¶ÔÏóÀà i : x) {
-            String x1 = "Ñ§ºÅ£º" + i.getNum() + "\tĞÕÃû£º" + i.getName() + "\tÄêÁä£º" + i.getAge() + "\tµØÖ·£º" + i.getAddress();
+        for (eee109å¯¹è±¡ç±» i : x) {
+            String x1 = "å­¦å·ï¼š" + i.getNum() + "\tå§“åï¼š" + i.getName() + "\tå¹´é¾„ï¼š" + i.getAge() + "\tåœ°å€ï¼š" + i.getAddress();
             xx.write(x1);
             xx.newLine();
             xx.flush();
         }
         xx.close();
-        System.out.println("Ìí¼ÓÍê³É");
+        System.out.println("æ·»åŠ å®Œæˆ");
     }
 
-    public static ArrayList<eee109¶ÔÏóÀà> addway() {
-        eee109¶ÔÏóÀà x1 = new eee109¶ÔÏóÀà(111, "aaa", 11, "a1");
-        eee109¶ÔÏóÀà x2 = new eee109¶ÔÏóÀà(222, "bbb", 22, "a2");
-        eee109¶ÔÏóÀà x3 = new eee109¶ÔÏóÀà(333, "ccc", 33, "a3");
-        eee109¶ÔÏóÀà x4 = new eee109¶ÔÏóÀà(444, "ddd", 44, "a4");
-        eee109¶ÔÏóÀà x5 = new eee109¶ÔÏóÀà(555, "eee", 55, "a5");
-        ArrayList<eee109¶ÔÏóÀà> x = new ArrayList<>();
+    public static ArrayList<eee109å¯¹è±¡ç±»> addway() {
+        eee109å¯¹è±¡ç±» x1 = new eee109å¯¹è±¡ç±»(111, "aaa", 11, "a1");
+        eee109å¯¹è±¡ç±» x2 = new eee109å¯¹è±¡ç±»(222, "bbb", 22, "a2");
+        eee109å¯¹è±¡ç±» x3 = new eee109å¯¹è±¡ç±»(333, "ccc", 33, "a3");
+        eee109å¯¹è±¡ç±» x4 = new eee109å¯¹è±¡ç±»(444, "ddd", 44, "a4");
+        eee109å¯¹è±¡ç±» x5 = new eee109å¯¹è±¡ç±»(555, "eee", 55, "a5");
+        ArrayList<eee109å¯¹è±¡ç±»> x = new ArrayList<>();
         x.add(x1);
         x.add(x2);
         x.add(x3);

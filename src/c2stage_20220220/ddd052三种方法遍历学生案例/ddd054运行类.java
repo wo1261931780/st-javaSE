@@ -1,17 +1,17 @@
-package c2stage_20220220.ddd052ÈıÖÖ·½·¨±éÀúÑ§Éú°¸Àı;
+package c2stage_20220220.ddd052ä¸‰ç§æ–¹æ³•éå†å­¦ç”Ÿæ¡ˆä¾‹;
 /*
-    ĞèÇó£º
-        ´´½¨Ò»¸ö´æ´¢Ñ§Éú¶ÔÏóµÄ¼¯ºÏ£¬´æ´¢3¸öÑ§Éú¶ÔÏó£¬Ê¹ÓÃ³ÌĞòÊµÏÖÔÚ¿ØÖÆÌ¨±éÀú¸Ã¼¯ºÏ
+    éœ€æ±‚ï¼š
+        åˆ›å»ºä¸€ä¸ªå­˜å‚¨å­¦ç”Ÿå¯¹è±¡çš„é›†åˆï¼Œå­˜å‚¨3ä¸ªå­¦ç”Ÿå¯¹è±¡ï¼Œä½¿ç”¨ç¨‹åºå®ç°åœ¨æ§åˆ¶å°éå†è¯¥é›†åˆ
 
-    Ë¼Â·£º
-        1:¶¨ÒåÑ§ÉúÀà
-        2:´´½¨List¼¯ºÏ¶ÔÏó
-        3:´´½¨Ñ§Éú¶ÔÏó
-        4:°ÑÑ§ÉúÌí¼Óµ½¼¯ºÏ
-        5:±éÀú¼¯ºÏ
-            µü´úÆ÷£º¼¯ºÏÌØÓĞµÄ±éÀú·½Ê½
-            ÆÕÍ¨for£º´øÓĞË÷ÒıµÄ±éÀú·½Ê½
-            ÔöÇ¿for£º×î·½±ãµÄ±éÀú·½Ê½
+    æ€è·¯ï¼š
+        1:å®šä¹‰å­¦ç”Ÿç±»
+        2:åˆ›å»ºListé›†åˆå¯¹è±¡
+        3:åˆ›å»ºå­¦ç”Ÿå¯¹è±¡
+        4:æŠŠå­¦ç”Ÿæ·»åŠ åˆ°é›†åˆ
+        5:éå†é›†åˆ
+            è¿­ä»£å™¨ï¼šé›†åˆç‰¹æœ‰çš„éå†æ–¹å¼
+            æ™®é€šforï¼šå¸¦æœ‰ç´¢å¼•çš„éå†æ–¹å¼
+            å¢å¼ºforï¼šæœ€æ–¹ä¾¿çš„éå†æ–¹å¼
  */
 
 import java.util.ArrayList;
@@ -19,36 +19,36 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.ListIterator;
 
-public class ddd054ÔËĞĞÀà {
+public class ddd054è¿è¡Œç±» {
     public static void main(String[] args) {
-        List<ddd053¶ÔÏóÀà> x = new ArrayList<>();
-        ddd053¶ÔÏóÀà x1 = new ddd053¶ÔÏóÀà("a1", 11);
-        ddd053¶ÔÏóÀà x2 = new ddd053¶ÔÏóÀà("a2", 22);
-        ddd053¶ÔÏóÀà x3 = new ddd053¶ÔÏóÀà("a3", 33);
+        List<ddd053å¯¹è±¡ç±»> x = new ArrayList<>();
+        ddd053å¯¹è±¡ç±» x1 = new ddd053å¯¹è±¡ç±»("a1", 11);
+        ddd053å¯¹è±¡ç±» x2 = new ddd053å¯¹è±¡ç±»("a2", 22);
+        ddd053å¯¹è±¡ç±» x3 = new ddd053å¯¹è±¡ç±»("a3", 33);
         x.add(x1);
         x.add(x2);
         x.add(x3);
         // ---------------------------------------------------------------
         for (int i = 0; i < x.size(); i++) {
-            ddd053¶ÔÏóÀà xx = x.get(i);
+            ddd053å¯¹è±¡ç±» xx = x.get(i);
             System.out.println(xx.getName() + "," + xx.getAge());
         }
-        System.out.println("µÚÒ»´Î±éÀú½áÊø----------------------------------");
-        Iterator<ddd053¶ÔÏóÀà> xx1 = x.iterator();
+        System.out.println("ç¬¬ä¸€æ¬¡éå†ç»“æŸ----------------------------------");
+        Iterator<ddd053å¯¹è±¡ç±»> xx1 = x.iterator();
         while (xx1.hasNext()) {
-            ddd053¶ÔÏóÀà s = xx1.next();
+            ddd053å¯¹è±¡ç±» s = xx1.next();
             System.out.println(s.getName() + "--" + s.getAge());
         }
-        System.out.println("µÚ¶ş´Î±éÀú½áÊø----------------------------------");
-        ListIterator<ddd053¶ÔÏóÀà> xx2 = x.listIterator();
+        System.out.println("ç¬¬äºŒæ¬¡éå†ç»“æŸ----------------------------------");
+        ListIterator<ddd053å¯¹è±¡ç±»> xx2 = x.listIterator();
         // while (xx2.hasNext()) {
-        //     ddd053¶ÔÏóÀà xx3 = xx2.next();
+        //     ddd053å¯¹è±¡ç±» xx3 = xx2.next();
         //     System.out.println(xx3.getName() + "**" + xx3.getAge());
         // }
-        for (ddd053¶ÔÏóÀà i : x) {
+        for (ddd053å¯¹è±¡ç±» i : x) {
             System.out.println(i.getName() + "**" + i.getAge());
         }
-        System.out.println("µÚÈı´Î±éÀú½áÊø----------------------------------");
+        System.out.println("ç¬¬ä¸‰æ¬¡éå†ç»“æŸ----------------------------------");
 
 
     }

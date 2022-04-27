@@ -1,17 +1,17 @@
-package abÍùÆÚÑ§Ï°2021Äê10ÔÂ2ÈÕ.bbb038´¢´æÑ§Éú¶ÔÏóºó±éÀú;
+package abå¾€æœŸå­¦ä¹ 2021å¹´10æœˆ2æ—¥.bbb038å‚¨å­˜å­¦ç”Ÿå¯¹è±¡åéå†;
 
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class bbb040¶ÔÏó²âÊÔÀà {
+public class bbb040å¯¹è±¡æµ‹è¯•ç±» {
     /*
     public static void main(String[] args) {
-        ArrayList<bbb040²âÊÔ> zz = new ArrayList<>();
+        ArrayList<bbb040æµ‹è¯•> zz = new ArrayList<>();
         nothin(zz);
         // nothin(zz);
         // nothin(zz);
         z1.set(0,"s");
-        //java: ²»¼æÈİµÄÀàĞÍ: java.lang.StringÎŞ·¨×ª»»Îªbbb038Î´Íê³ÉµÄÀà.bbb040²âÊÔ
+        //java: ä¸å…¼å®¹çš„ç±»å‹: java.lang.Stringæ— æ³•è½¬æ¢ä¸ºbbb038æœªå®Œæˆçš„ç±».bbb040æµ‹è¯•
         System.out.println("----------------------");
         for (int i = 0; i < zz.size(); i++) {
             System.out.println(zz.get(i));
@@ -19,17 +19,17 @@ public class bbb040¶ÔÏó²âÊÔÀà {
         //    for (int z = 0,x1 = 0,z1=0; z < 3; z++,z1++) {
         //        System.out.println(zx.getName()+zx.getAge());
         //        zz.set(z,zx);
-        //    System.out.println("ÇëÊäÈëµÚ"+(z+1)+"Î»Í¬Ñ§µÄĞÕÃû£º");
+        //    System.out.println("è¯·è¾“å…¥ç¬¬"+(z+1)+"ä½åŒå­¦çš„å§“åï¼š");
         //    String x0 = xx.nextLine();
-        //    System.out.println("ÇëÊäÈëµÚ"+(z+1)+"Î»Í¬Ñ§µÄ³É¼¨£º");
+        //    System.out.println("è¯·è¾“å…¥ç¬¬"+(z+1)+"ä½åŒå­¦çš„æˆç»©ï¼š");
         //    int x1 = xx.nextInt();
         //        System.out.println(x2);
         //}
-    public static void nothin(ArrayList<bbb040²âÊÔ> zz) {
+    public static void nothin(ArrayList<bbb040æµ‹è¯•> zz) {
         Scanner xx = new Scanner(System.in);
-        System.out.println("ÇëÊäÈëÍ¬Ñ§µÄĞÕÃû£º");
+        System.out.println("è¯·è¾“å…¥åŒå­¦çš„å§“åï¼š");
         String x0 = xx.nextLine();
-        System.out.println("ÇëÊäÈëµÚÍ¬Ñ§µÄ³É¼¨£º");
+        System.out.println("è¯·è¾“å…¥ç¬¬åŒå­¦çš„æˆç»©ï¼š");
         int x1 = xx.nextInt();
         bbb039 zx = new bbb039(x0, x1);
         System.out.println(zx.getName(x0) + zx.getAge(x1));
@@ -42,37 +42,37 @@ public class bbb040¶ÔÏó²âÊÔÀà {
 
     public static void main(String[] args) {
         ArrayList<String> z1 = new ArrayList<>();
-        //ÕâÀïÊ¹ÓÃµÄnothing±ØĞëÊÇstaticĞŞÊÎµÄ¾²Ì¬·½·¨
-        // ÕâÀïµÄ¼¯ºÏ²»ÊÇÔÚ¶ÔÏóÀàÖĞ½¨Á¢µÄ
+        //è¿™é‡Œä½¿ç”¨çš„nothingå¿…é¡»æ˜¯staticä¿®é¥°çš„é™æ€æ–¹æ³•
+        // è¿™é‡Œçš„é›†åˆä¸æ˜¯åœ¨å¯¹è±¡ç±»ä¸­å»ºç«‹çš„
         nothing(z1);
         nothing(z1);
         nothing(z1);
         System.out.println("---------------");
         System.out.println(z1);
-        // Êä³öµÄ½á¹ûÎª£º
-        // [Ñ§ÉúĞÕÃû£º11£¬Ñ§ÉúÄêÁä£º22, Ñ§ÉúĞÕÃû£º33£¬Ñ§ÉúÄêÁä£º44, Ñ§ÉúĞÕÃû£º55£¬Ñ§ÉúÄêÁä£º66]
+        // è¾“å‡ºçš„ç»“æœä¸ºï¼š
+        // [å­¦ç”Ÿå§“åï¼š11ï¼Œå­¦ç”Ÿå¹´é¾„ï¼š22, å­¦ç”Ÿå§“åï¼š33ï¼Œå­¦ç”Ÿå¹´é¾„ï¼š44, å­¦ç”Ÿå§“åï¼š55ï¼Œå­¦ç”Ÿå¹´é¾„ï¼š66]
         for (int i = 0; i < z1.size(); i++) {
             System.out.println(z1.get(i));
         }
-        // ½øÈëÑ­»·£¬±éÀú¼¯ºÏÖĞµÄÃ¿¸ö¶ÔÏó
+        // è¿›å…¥å¾ªç¯ï¼Œéå†é›†åˆä¸­çš„æ¯ä¸ªå¯¹è±¡
     }
-    // ÊµÏÖµÄ¹¦ÄÜÊÇ£º
-    // ÊäÈëĞÕÃûºÍ³É¼¨£¬×Ô¶¯ÏÔÊ¾Ïà¹ØĞÅÏ¢
-    // arrÖĞ´¢´æµÄÊÇÑ§ÉúĞÕÃû+ÄêÁä
+    // å®ç°çš„åŠŸèƒ½æ˜¯ï¼š
+    // è¾“å…¥å§“åå’Œæˆç»©ï¼Œè‡ªåŠ¨æ˜¾ç¤ºç›¸å…³ä¿¡æ¯
+    // arrä¸­å‚¨å­˜çš„æ˜¯å­¦ç”Ÿå§“å+å¹´é¾„
 
     public static void nothing(ArrayList<String> z1) {
         Scanner xx = new Scanner(System.in);
-        System.out.println("ÇëÊäÈëÍ¬Ñ§µÄĞÕÃû£º");
+        System.out.println("è¯·è¾“å…¥åŒå­¦çš„å§“åï¼š");
         String x0 = xx.nextLine();
-        System.out.println("ÇëÊäÈëµÚÍ¬Ñ§µÄ³É¼¨£º");
+        System.out.println("è¯·è¾“å…¥ç¬¬åŒå­¦çš„æˆç»©ï¼š");
         int x1 = xx.nextInt();
-        bbb039¶ÔÏóÀà zx = new bbb039¶ÔÏóÀà(x0, x1);
-        // ÕâÀïÃ¿´Îzx¶¼ĞÂ½¨ÁËÒ»¸ö¶ÔÏó£¬Ò²»ñµÃÁËÒ»¸öĞÂµÄÄÚ´æµØÖ·
+        bbb039å¯¹è±¡ç±» zx = new bbb039å¯¹è±¡ç±»(x0, x1);
+        // è¿™é‡Œæ¯æ¬¡zxéƒ½æ–°å»ºäº†ä¸€ä¸ªå¯¹è±¡ï¼Œä¹Ÿè·å¾—äº†ä¸€ä¸ªæ–°çš„å†…å­˜åœ°å€
         // System.out.println(zx);
         // System.out.println("---------------");
         System.out.println(zx.getName(x0) + zx.getAge(x1));
-        String student = ("Ñ§ÉúĞÕÃû£º" + zx.getName(x0) + "£¬Ñ§ÉúÄêÁä£º" + zx.getAge(x1));
-        // student=Ñ§ÉúĞÕÃû£º11£¬Ñ§ÉúÄêÁä£º22
+        String student = ("å­¦ç”Ÿå§“åï¼š" + zx.getName(x0) + "ï¼Œå­¦ç”Ÿå¹´é¾„ï¼š" + zx.getAge(x1));
+        // student=å­¦ç”Ÿå§“åï¼š11ï¼Œå­¦ç”Ÿå¹´é¾„ï¼š22
         // System.out.println(student);
         // System.out.println("---------------");
         z1.add(student);

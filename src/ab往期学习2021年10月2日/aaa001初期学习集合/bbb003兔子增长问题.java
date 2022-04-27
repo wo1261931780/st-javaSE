@@ -1,20 +1,20 @@
-package abÍùÆÚÑ§Ï°2021Äê10ÔÂ2ÈÕ.aaa001³õÆÚÑ§Ï°¼¯ºÏ;
-// ÍÃ×ÓÔö³¤ÎÊÌâ£¬
-// ºËĞÄÔÚÓÚ£¬µÚÈı¸öÔÂµÄÍÃ×ÓÊıÁ¿=µÚÒ»¸öÔÂ+µÚ¶ş¸öÔÂ
-// ÕûÌåµÄÊıÁ¿±ä»¯Îª£º1£¬1£¬2£¬3£¬5......
+package abå¾€æœŸå­¦ä¹ 2021å¹´10æœˆ2æ—¥.aaa001åˆæœŸå­¦ä¹ é›†åˆ;
+// å…”å­å¢é•¿é—®é¢˜ï¼Œ
+// æ ¸å¿ƒåœ¨äºï¼Œç¬¬ä¸‰ä¸ªæœˆçš„å…”å­æ•°é‡=ç¬¬ä¸€ä¸ªæœˆ+ç¬¬äºŒä¸ªæœˆ
+// æ•´ä½“çš„æ•°é‡å˜åŒ–ä¸ºï¼š1ï¼Œ1ï¼Œ2ï¼Œ3ï¼Œ5......
 
-public class bbb003ÍÃ×ÓÔö³¤ÎÊÌâ {
+public class bbb003å…”å­å¢é•¿é—®é¢˜ {
     // public static void main(String[] args) {
-    //     //µÚÒ»´Î´úÂë-------------------
+    //     //ç¬¬ä¸€æ¬¡ä»£ç -------------------
     //     /*int x1=1;
     //     int x2=1;
     //     int xx = 3;
     //     int x3 = 0;
-    //     for(System.out.println("¿ªÊ¼¼ÆËã:");xx<21;xx++){
+    //     for(System.out.println("å¼€å§‹è®¡ç®—:");xx<21;xx++){
     //         x3=x1+x2;
     //         x1=x2;
     //         x2=x3;
-    //         System.out.println("µÚ"+xx+"¸öÔÂµÄÊ±ºò£¬ÊıÁ¿ÊÇ£º"+x3);
+    //         System.out.println("ç¬¬"+xx+"ä¸ªæœˆçš„æ—¶å€™ï¼Œæ•°é‡æ˜¯ï¼š"+x3);
     //     }*/
     //
     //     int[] xx = new int[20];
@@ -22,11 +22,11 @@ public class bbb003ÍÃ×ÓÔö³¤ÎÊÌâ {
     //     xx[1] = 1;
     //     //xx[2] = xx[0] + xx[1];
     //     int x = 2;
-    //     for (System.out.println("¿ªÊ¼¼ÆËã:"); x < xx.length; x++) {
+    //     for (System.out.println("å¼€å§‹è®¡ç®—:"); x < xx.length; x++) {
     //         xx[x] = xx[x - 2] + xx[x - 1];
     //         //xx[x - 2] = xx[x - 1];
     //         //xx[x - 1] = xx[x];
-    //         System.out.println("µÚ" + x + "¸öÔÂµÄÊ±ºò£¬ÊıÁ¿ÊÇ£º" + xx[x]);
+    //         System.out.println("ç¬¬" + x + "ä¸ªæœˆçš„æ—¶å€™ï¼Œæ•°é‡æ˜¯ï¼š" + xx[x]);
     //     }
     // }
     public static void main(String[] args) {
@@ -39,8 +39,8 @@ public class bbb003ÍÃ×ÓÔö³¤ÎÊÌâ {
             if (i > 0) {
                 x = x1[i] + x1[i - 1];
             }
-            System.out.println("µÚ" + i + "¸öÔÂ");
-            System.out.println("´ËÊ±µÄÍÃ×ÓÊıÁ¿£º" + x1[i]);
+            System.out.println("ç¬¬" + i + "ä¸ªæœˆ");
+            System.out.println("æ­¤æ—¶çš„å…”å­æ•°é‡ï¼š" + x1[i]);
         }
         System.out.println("------------------------------");
         System.out.println(x1[19]);

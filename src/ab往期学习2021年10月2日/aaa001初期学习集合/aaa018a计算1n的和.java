@@ -1,9 +1,9 @@
-package abÍùÆÚÑ§Ï°2021Äê10ÔÂ2ÈÕ.aaa001³õÆÚÑ§Ï°¼¯ºÏ;
+package abå¾€æœŸå­¦ä¹ 2021å¹´10æœˆ2æ—¥.aaa001åˆæœŸå­¦ä¹ é›†åˆ;
 
 import java.util.Random;
 import java.util.Scanner;
 
-public class aaa018a¼ÆËã1nµÄºÍ {
+public class aaa018aè®¡ç®—1nçš„å’Œ {
     public static void main(String[] args) {
         Scanner x = new Scanner(System.in);
         System.out.println("type in");
@@ -26,11 +26,11 @@ public class aaa018a¼ÆËã1nµÄºÍ {
     public static String show2(int x1) {
         String x2;
         if (x1 % 2 == 0 & x1 != 0) {
-            x2 = "Å¼Êı";
+            x2 = "å¶æ•°";
         } else if (x1 == 0) {
-            x2 = "´íÎó";
+            x2 = "é”™è¯¯";
         } else {
-            x2 = "ÆæÊı";
+            x2 = "å¥‡æ•°";
         }
         return x2;
     }
@@ -57,7 +57,7 @@ public class aaa018a¼ÆËã1nµÄºÍ {
             max = max < xx[i] ? xx[i] : max;
             min = min > xx[i] ? xx[i] : min;
         }
-        // return²»ÄÜ·µ»Ø¶à¸öÊı¾İ
+        // returnä¸èƒ½è¿”å›å¤šä¸ªæ•°æ®
 //        return max+min;
         System.out.println("--------");
         System.out.println(max);

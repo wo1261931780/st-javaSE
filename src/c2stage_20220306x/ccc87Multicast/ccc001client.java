@@ -10,7 +10,7 @@ import java.net.InetAddress;
  * Project:index.pb
  * Package:c2stage_20220306.ccc87Multicast
  * User:  wo1261931780@gmail.com
- * Time:  2022-03-11-30  ĞÇÆÚÒ»
+ * Time:  2022-03-11-30  ÃÃ‡Ã†ÃšÃ’Â»
  */
 public class ccc001client {
     public static void main(String[] args) throws IOException {

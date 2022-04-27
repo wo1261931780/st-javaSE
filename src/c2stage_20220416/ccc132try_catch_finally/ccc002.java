@@ -7,7 +7,7 @@ import java.io.*;
  * Project:index.pb
  * Package:c2stage_20220416.ccc132try_catch_finally
  * User:  wo1261931780@gmail.com
- * Time:  2022-04-12-54  ĞÇÆÚÁù
+ * Time:  2022-04-12-54  æ˜ŸæœŸå…­
  */
 public class ccc002 {
     public static void main(String[] args) throws IOException {
@@ -23,26 +23,26 @@ public class ccc002 {
             // x2 = new FileOutputStream(xx, true);
             x2 = new FileOutputStream(xx);
             x2.write(demo, 0, len);
-            return;//ÕâÀïµÄ·µ»ØÓï¾ä£¬¼´Ê¹Ö´ĞĞ£¬µ¼ÖÂ·½·¨ÔİÍ££¬Ò²²»»áÓ°ÏìfinallyµÄÓï¾ä
-            // Í¬Àí£¬finallyÖĞÈç¹ûÓĞreturn£¬×îÖÕ»áÖ´ĞĞfinallyÖĞµÄ´úÂë
-            // Õı³£µÄÂß¼­Ó¦¸ÃÊÇ£¬return1=11£¬return2=22£¬
-            // ×îÖÕÖ»»á·µ»Øreturn2µÄ½á¹û£¬µ¼ÖÂreturn1µÄ·µ»Ø½á¹ûÏûÊ§
+            return;//è¿™é‡Œçš„è¿”å›è¯­å¥ï¼Œå³ä½¿æ‰§è¡Œï¼Œå¯¼è‡´æ–¹æ³•æš‚åœï¼Œä¹Ÿä¸ä¼šå½±å“finallyçš„è¯­å¥
+            // åŒç†ï¼Œfinallyä¸­å¦‚æœæœ‰returnï¼Œæœ€ç»ˆä¼šæ‰§è¡Œfinallyä¸­çš„ä»£ç 
+            // æ­£å¸¸çš„é€»è¾‘åº”è¯¥æ˜¯ï¼Œreturn1=11ï¼Œreturn2=22ï¼Œ
+            // æœ€ç»ˆåªä¼šè¿”å›return2çš„ç»“æœï¼Œå¯¼è‡´return1çš„è¿”å›ç»“æœæ¶ˆå¤±
         } catch (FileNotFoundException e) {
             throw new RuntimeException(e);
         } finally {
-            System.out.println("²âÊÔ-----------------------------");
-            // ¾ÍËãÎÒÉÏÃæÅ×³öÒì³££¬finallyÖĞµÄÃüÁîÒ²»áÖ´ĞĞ³öÀ´
-            // ÒªÏëfinally²»Ö´ĞĞ£¬Ö»ÓĞjvmÖĞÍ¾ÍË³ö£¬
+            System.out.println("æµ‹è¯•-----------------------------");
+            // å°±ç®—æˆ‘ä¸Šé¢æŠ›å‡ºå¼‚å¸¸ï¼Œfinallyä¸­çš„å‘½ä»¤ä¹Ÿä¼šæ‰§è¡Œå‡ºæ¥
+            // è¦æƒ³finallyä¸æ‰§è¡Œï¼Œåªæœ‰jvmä¸­é€”é€€å‡ºï¼Œ
             try {
                 if (x1 != null && x2 != null) {
-                    x1.close();//¿ÉÄÜÉÏÃæÒÑ¾­¹Ø±Õ¹ı£¬ÔÙ´Î¹Ø±Õ³öÏÖÒì³£±¨´í
+                    x1.close();//å¯èƒ½ä¸Šé¢å·²ç»å…³é—­è¿‡ï¼Œå†æ¬¡å…³é—­å‡ºç°å¼‚å¸¸æŠ¥é”™
                     x2.close();
                 }
-                // ±ÜÃâ×ÊÔ´Ã»ÓĞ±»¼ÓÔØ
+                // é¿å…èµ„æºæ²¡æœ‰è¢«åŠ è½½
             } catch (IOException e) {
                 throw new RuntimeException(e);
             }
-            System.out.println("½áÊø");
+            System.out.println("ç»“æŸ");
 
         }
     }

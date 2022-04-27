@@ -4,16 +4,16 @@ public class ccc002object_run_demo {
     public static void main(String[] args) {
         System.out.println("--------------");
         ccc001object s = new ccc001object(20, "junw");
-        //¸ø³öµÄÊÇxµÄµØÖ·Öµ:c2stage_20220113.ccc034Commonly_used_api.ccc035object@776ec8df
+        //ç»™å‡ºçš„æ˜¯xçš„åœ°å€å€¼:c2stage_20220113.ccc034Commonly_used_api.ccc035object@776ec8df
         System.out.println(s);
-        //Ô­ÎÄ¸ø³öµÄ½á¹û²»·½±ãÔÄ¶Á£¬
-        //ËùÒÔĞèÒªÖØĞ´tostringÃüÁî£¬
-        //ÖØĞ´²Ù×÷ÔÚobjectÖĞ½øĞĞ
+        //åŸæ–‡ç»™å‡ºçš„ç»“æœä¸æ–¹ä¾¿é˜…è¯»ï¼Œ
+        //æ‰€ä»¥éœ€è¦é‡å†™tostringå‘½ä»¤ï¼Œ
+        //é‡å†™æ“ä½œåœ¨objectä¸­è¿›è¡Œ
         /*
             public void println(Object x) {
                 String s = String.valueOf(x);
-                //ÕâÀïÓÃString.valueOf·½·¨£¬°Ñx´«µİµ½valueOfÖĞ£¬
-                //½øÈëÏÂÒ»²½
+                //è¿™é‡Œç”¨String.valueOfæ–¹æ³•ï¼ŒæŠŠxä¼ é€’åˆ°valueOfä¸­ï¼Œ
+                //è¿›å…¥ä¸‹ä¸€æ­¥
                 if (getClass() == PrintStream.class) {
                     writeln(String.valueOf(s));
                 } else {
@@ -25,24 +25,24 @@ public class ccc002object_run_demo {
             }
     //--------------------------------------------
         public static String valueOf(Object obj) {
-            //ÉÏÃæ´«µİ¹ıÀ´Ö®ºó£¬objÊµ¼ÊÉÏ¾ÍÊÇx
+            //ä¸Šé¢ä¼ é€’è¿‡æ¥ä¹‹åï¼Œobjå®é™…ä¸Šå°±æ˜¯x
             return (obj == null) ? "null" : obj.toString();
-            //ÕâÀïÅĞ¶ÏobjÊÇ·ñ=null£¬
-            //ÒòÎªobjÎªx£¬¶øxÎªccc035object x=new ccc035object(20,"junw");
-            //ËùÒÔx²»µÈÓÚnull£¬½ø¶øÈ¥Ö´ĞĞobj.toString()£¬
-            //½øÈëÏÂÒ»²½
+            //è¿™é‡Œåˆ¤æ–­objæ˜¯å¦=nullï¼Œ
+            //å› ä¸ºobjä¸ºxï¼Œè€Œxä¸ºccc035object x=new ccc035object(20,"junw");
+            //æ‰€ä»¥xä¸ç­‰äºnullï¼Œè¿›è€Œå»æ‰§è¡Œobj.toString()ï¼Œ
+            //è¿›å…¥ä¸‹ä¸€æ­¥
         }
     //--------------------------------------------
         */
         System.out.println(s.toString());
-        //×ÛÉÏËùÊö£¬x.toString()£¬Êµ¼ÊÉÏÊÇÎÒµÄccc035objectÀà£¬¼Ì³ĞÁËÊ¼×æobjectÀà
-        //¶øÊ¼×æobjectÀà£¬ÓĞtostring·½·¨£¬ËùÒÔÎÒ¿ÉÒÔÖ±½Óµ÷ÓÃ
-        //tostring·½·¨µÄ×÷ÓÃÊÇ·µ»ØµÄÊÇÀàÃû+@+´úÂëµÄ¹şÏ£Öµ
-        //ËùÒÔÎÒÖ±½ÓµÃµ½½á¹û£º¡°c2stage_20220113.ccc034Commonly_used_api.ccc035object@776ec8df¡±
-        //´úÂëµÄÄÚ²¿ÓĞÅĞ¶ÏÁ÷³Ì£¬µ«×îÖÕÊ¹ÓÃµÄ»¹ÊÇobjectÖĞµÄtostring·½·¨£¬ËùÒÔ½á¹ûÒ»ÖÂ
-        // ×îÖÕÊä³öµÄ½á¹ûÊÇÖØĞ´ºóµÄ¸ñÊ½£º
+        //ç»¼ä¸Šæ‰€è¿°ï¼Œx.toString()ï¼Œå®é™…ä¸Šæ˜¯æˆ‘çš„ccc035objectç±»ï¼Œç»§æ‰¿äº†å§‹ç¥–objectç±»
+        //è€Œå§‹ç¥–objectç±»ï¼Œæœ‰tostringæ–¹æ³•ï¼Œæ‰€ä»¥æˆ‘å¯ä»¥ç›´æ¥è°ƒç”¨
+        //tostringæ–¹æ³•çš„ä½œç”¨æ˜¯è¿”å›çš„æ˜¯ç±»å+@+ä»£ç çš„å“ˆå¸Œå€¼
+        //æ‰€ä»¥æˆ‘ç›´æ¥å¾—åˆ°ç»“æœï¼šâ€œc2stage_20220113.ccc034Commonly_used_api.ccc035object@776ec8dfâ€
+        //ä»£ç çš„å†…éƒ¨æœ‰åˆ¤æ–­æµç¨‹ï¼Œä½†æœ€ç»ˆä½¿ç”¨çš„è¿˜æ˜¯objectä¸­çš„tostringæ–¹æ³•ï¼Œæ‰€ä»¥ç»“æœä¸€è‡´
+        // æœ€ç»ˆè¾“å‡ºçš„ç»“æœæ˜¯é‡å†™åçš„æ ¼å¼ï¼š
         // ccc035object{age=20, name='junw'}
-        // 2022Äê1ÔÂ29ÈÕ23:54:10£¬½ñÌìÃ»Ğ´´úÂë£¬´º½Ú·Å¼Ù»Øµ½ÉîÛÚ
+        // 2022å¹´1æœˆ29æ—¥23:54:10ï¼Œä»Šå¤©æ²¡å†™ä»£ç ï¼Œæ˜¥èŠ‚æ”¾å‡å›åˆ°æ·±åœ³
 
 
     }

@@ -10,9 +10,9 @@ import java.util.function.Consumer;
  * Project:index.pb
  * Package:c2stage_20220220.ccc069collection_conflict
  * User:  wo1261931780@gmail.com
- * Time:  2022-02-21-01  ĞÇÆÚÁù
+ * Time:  2022-02-21-01  æ˜ŸæœŸå…­
  */
-public class ccc001²¢·¢ĞŞ¸ÄÒì³£ÎÊÌâ {
+public class ccc001å¹¶å‘ä¿®æ”¹å¼‚å¸¸é—®é¢˜ {
     public static void main(String[] args) {
         List<String> x = new ArrayList<>();
         x.add("demo1");
@@ -42,9 +42,9 @@ public class ccc001²¢·¢ĞŞ¸ÄÒì³£ÎÊÌâ {
         while (demoit.hasNext()) {
             String demost = demoit.next();
             if (demost.equals("demo1")) {
-                // ÕâÀïÖ±½ÓÊ¹ÓÃlistÉ¾³ı£¬»á³öÏÖ·çÏÕ£¬Ò»´ÎÍÆÒÆÁ½¸öÎ»ÖÃ
-                // µ¼ÖÂ²¿·ÖÔªËØ±»Ìø¹ı
-                // Êµ¼ÊĞèÒªÊ¹ÓÃµü´úÆ÷È¥É¾³ı
+                // è¿™é‡Œç›´æ¥ä½¿ç”¨liståˆ é™¤ï¼Œä¼šå‡ºç°é£é™©ï¼Œä¸€æ¬¡æ¨ç§»ä¸¤ä¸ªä½ç½®
+                // å¯¼è‡´éƒ¨åˆ†å…ƒç´ è¢«è·³è¿‡
+                // å®é™…éœ€è¦ä½¿ç”¨è¿­ä»£å™¨å»åˆ é™¤
                 demoit.remove();
             }
         }
@@ -68,7 +68,7 @@ public class ccc001²¢·¢ĞŞ¸ÄÒì³£ÎÊÌâ {
     public static void show3(List<String> x) {
         for (String i : x) {
             if (i.matches("[49]")) {// demo1=[100, 101, 109, 111, 49]
-                x.remove(i);//Ò²»á³öÏÖÒ»±ß±éÀúÒ»±ßÉ¾³ıµÄÇé¿ö
+                x.remove(i);//ä¹Ÿä¼šå‡ºç°ä¸€è¾¹éå†ä¸€è¾¹åˆ é™¤çš„æƒ…å†µ
             }
         }
         System.out.println(x);

@@ -7,16 +7,16 @@ import java.util.Collection;
 /**
  * Created by Intellij IDEA.
  * Project:index.pb
- * Package:c2stage_20220220.ccc060ÔöÇ¿for
+ * Package:c2stage_20220220.ccc060å¢å¼ºfor
  * User:  wo1261931780@gmail.com
- * Time:  2022-02-13-12  ĞÇÆÚÎå
+ * Time:  2022-02-13-12  æ˜ŸæœŸäº”
  */
-public class ccc001for²âÊÔ {
+public class ccc001foræµ‹è¯• {
     public static void main(String[] args) {
         showint();
         showstring();
-        // ÕâÀïÖ±½ÓÇĞ»»²»Í¬µÄÔªËØ¼´¿É
-        // Ò²¿ÉÒÔÖ±½ÓÇĞ»»Îª¶ÔÏó£¬ÀıÈçĞÂ½¨Ò»¸östudentÀà£¬È»ºó¶ÔÀàÖĞµÄÔªËØÖ´ĞĞ±éÀú
+        // è¿™é‡Œç›´æ¥åˆ‡æ¢ä¸åŒçš„å…ƒç´ å³å¯
+        // ä¹Ÿå¯ä»¥ç›´æ¥åˆ‡æ¢ä¸ºå¯¹è±¡ï¼Œä¾‹å¦‚æ–°å»ºä¸€ä¸ªstudentç±»ï¼Œç„¶åå¯¹ç±»ä¸­çš„å…ƒç´ æ‰§è¡Œéå†
     }
 
     public static void showint() {
@@ -33,9 +33,9 @@ public class ccc001for²âÊÔ {
         x.add("demo2");
         x.add("demo3");
         x.add("demo4");
-        System.out.println("¼¯ºÏ£º" + x);// ¼¯ºÏ£º[demo1, demo2, demo3, demo4]
+        System.out.println("é›†åˆï¼š" + x);// é›†åˆï¼š[demo1, demo2, demo3, demo4]
         for (String i : x) {
-            System.out.println("¼¯ºÏÔªËØ£º" + i);
+            System.out.println("é›†åˆå…ƒç´ ï¼š" + i);
         }
     }
 }

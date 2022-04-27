@@ -8,24 +8,24 @@ import java.util.List;
  * Project:index.pb
  * Package:c2stage_20220220.ccc070genericity
  * User:  wo1261931780@gmail.com
- * Time:  2022-02-22-48  ĞÇÆÚÁù
+ * Time:  2022-02-22-48  æ˜ŸæœŸå…­
  */
 public class ccc001genericity {
     public static void main(String[] args) {
-        // ·ºĞÍµÄ½éÉÜ
+        // æ³›å‹çš„ä»‹ç»
         List<String> x = new ArrayList<>();
         x.add("java");
         x.add("java");
         x.add("java");
-        // x.add(23.3);// ÎŞ·¨Ìí¼ÓË«¸¡µãÀàĞÍ
-        List x1 = new ArrayList();// ÔÚÎ´Ö¸¶¨ÀàĞÍµÄÇé¿öÏÂ£¬Ä¬ÈÏ¿ÉÒÔÌí¼ÓËùÓĞÀàĞÍ
+        // x.add(23.3);// æ— æ³•æ·»åŠ åŒæµ®ç‚¹ç±»å‹
+        List x1 = new ArrayList();// åœ¨æœªæŒ‡å®šç±»å‹çš„æƒ…å†µä¸‹ï¼Œé»˜è®¤å¯ä»¥æ·»åŠ æ‰€æœ‰ç±»å‹
         x1.add(23.3);
         x1.add("demo");
         x1.add("demo");
         x1.add(true);
         for (Object i : x1) {
-            // String demo = (String) x1;// Ç¿×ªÊ§°Ü
-            // ·ºĞÍ±È½ÏÁé»î
+            // String demo = (String) x1;// å¼ºè½¬å¤±è´¥
+            // æ³›å‹æ¯”è¾ƒçµæ´»
         }
     }
 }

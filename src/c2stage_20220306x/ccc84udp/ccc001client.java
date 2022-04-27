@@ -10,15 +10,15 @@ import java.net.InetAddress;
  * Project:index.pb
  * Package:c2stage_20220306.ccc84udp
  * User:  wo1261931780@gmail.com
- * Time:  2022-03-21-45  ĞÇÆÚÈÕ
+ * Time:  2022-03-21-45  æ˜ŸæœŸæ—¥
  */
 public class ccc001client {
     public static void main(String[] args) throws IOException {
         DatagramSocket client_s = new DatagramSocket();
-        // ÉõÖÁÄÚ²¿¶¼²»ĞèÒª´´½¨¶Ë¿ÚºÅ£¬ÒòÎª×Ô´ø¶Ë¿Ú
-        byte[] client_pack = "1324564".getBytes();// ·â×°Êı¾İ
+        // ç”šè‡³å†…éƒ¨éƒ½ä¸éœ€è¦åˆ›å»ºç«¯å£å·ï¼Œå› ä¸ºè‡ªå¸¦ç«¯å£
+        byte[] client_pack = "1324564".getBytes();// å°è£…æ•°æ®
         DatagramPacket client_p = new DatagramPacket(client_pack, client_pack.length, InetAddress.getLocalHost(), 999);
-        client_s.send(client_p);// ·¢ËÍ¶Ë·¢ËÍÊı¾İ¸ø½ÓÊÕ¶Ë
+        client_s.send(client_p);// å‘é€ç«¯å‘é€æ•°æ®ç»™æ¥æ”¶ç«¯
         client_s.close();
     }
 }

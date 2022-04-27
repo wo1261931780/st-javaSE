@@ -1,13 +1,13 @@
-package abÍùÆÚÑ§Ï°2021Äê10ÔÂ2ÈÕ.aaa001³õÆÚÑ§Ï°¼¯ºÏ;
+package abå¾€æœŸå­¦ä¹ 2021å¹´10æœˆ2æ—¥.aaa001åˆæœŸå­¦ä¹ é›†åˆ;
 
 import java.util.Random;
 import java.util.Scanner;
 
-public class aaa023d·½·¨ÖØÔØµÄÁ·Ï° {
+public class aaa023dæ–¹æ³•é‡è½½çš„ç»ƒä¹  {
     public static void main(String[] args) {
         System.out.println("----------------");
         Scanner xx1 = new Scanner(System.in);
-        System.out.println("ÇëÊäÈëÊı¾İ£º");
+        System.out.println("è¯·è¾“å…¥æ•°æ®ï¼š");
         int xx2 = xx1.nextInt();
         Random xx3 = new Random();
         int xx4 = xx3.nextInt(100);
@@ -17,9 +17,9 @@ public class aaa023d·½·¨ÖØÔØµÄÁ·Ï° {
 
     public static int demo1(int x1, int x2) {
         if (x1 == x2) {
-            System.out.println(x1 + "ºÍ" + x2 + "µÄÊı¾İÏàµÈ");
+            System.out.println(x1 + "å’Œ" + x2 + "çš„æ•°æ®ç›¸ç­‰");
         } else {
-            System.out.println(x1 + "ºÍ" + x2 + "µÄÊı¾İ²»ÏàµÈ");
+            System.out.println(x1 + "å’Œ" + x2 + "çš„æ•°æ®ä¸ç›¸ç­‰");
         }
         return x1 + x2;
     }

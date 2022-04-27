@@ -3,17 +3,17 @@ package c2stage_20220220.ccc065list;
 import java.util.LinkedList;
 
 /**
- * LinkedList¼¯ºÏµÄÌØÓĞ¹¦ÄÜ£º
- * public void addFirst(E e)£ºÔÚ¸ÃÁĞ±í¿ªÍ·²åÈëÖ¸¶¨µÄÔªËØ
- * public void addLast(E e)£º½«Ö¸¶¨µÄÔªËØ×·¼Óµ½´ËÁĞ±íµÄÄ©Î²
- * public E getFirst()£º·µ»Ø´ËÁĞ±íÖĞµÄµÚÒ»¸öÔªËØ
- * public E getLast()£º·µ»Ø´ËÁĞ±íÖĞµÄ×îºóÒ»¸öÔªËØ
- * public E removeFirst()£º´Ó´ËÁĞ±íÖĞÉ¾³ı²¢·µ»ØµÚÒ»¸öÔªËØ
- * public E removeLast()£º´Ó´ËÁĞ±íÖĞÉ¾³ı²¢·µ»Ø×îºóÒ»¸öÔªËØ
+ * LinkedListé›†åˆçš„ç‰¹æœ‰åŠŸèƒ½ï¼š
+ * public void addFirst(E e)ï¼šåœ¨è¯¥åˆ—è¡¨å¼€å¤´æ’å…¥æŒ‡å®šçš„å…ƒç´ 
+ * public void addLast(E e)ï¼šå°†æŒ‡å®šçš„å…ƒç´ è¿½åŠ åˆ°æ­¤åˆ—è¡¨çš„æœ«å°¾
+ * public E getFirst()ï¼šè¿”å›æ­¤åˆ—è¡¨ä¸­çš„ç¬¬ä¸€ä¸ªå…ƒç´ 
+ * public E getLast()ï¼šè¿”å›æ­¤åˆ—è¡¨ä¸­çš„æœ€åä¸€ä¸ªå…ƒç´ 
+ * public E removeFirst()ï¼šä»æ­¤åˆ—è¡¨ä¸­åˆ é™¤å¹¶è¿”å›ç¬¬ä¸€ä¸ªå…ƒç´ 
+ * public E removeLast()ï¼šä»æ­¤åˆ—è¡¨ä¸­åˆ é™¤å¹¶è¿”å›æœ€åä¸€ä¸ªå…ƒç´ 
  */
-public class ddd064linkedlistÌØÓĞ·½·¨ {
+public class ddd064linkedlistç‰¹æœ‰æ–¹æ³• {
     public static void main(String[] args) {
-        // ×¢Òâ£¬ÕâÀïµÄµ×²ãÊÇÁ´±í
+        // æ³¨æ„ï¼Œè¿™é‡Œçš„åº•å±‚æ˜¯é“¾è¡¨
         LinkedList<String> x = new LinkedList<>();
         x.add("a1");
         x.add("a2");
@@ -26,11 +26,11 @@ public class ddd064linkedlistÌØÓĞ·½·¨ {
         System.out.println("----------------------------");
         System.out.println(x.getFirst());
         System.out.println(x.getLast());
-        // Ö±½Ó·µ»Ø»ñÈ¡µ½µÄÔªËØ
+        // ç›´æ¥è¿”å›è·å–åˆ°çš„å…ƒç´ 
         System.out.println("----------------------------");
         System.out.println(x.removeFirst());
         System.out.println(x.removeLast());
-        // ·µ»Ø±»ĞŞ¸ÄµÄÔªËØ
+        // è¿”å›è¢«ä¿®æ”¹çš„å…ƒç´ 
         System.out.println("----------------------------");
         System.out.println(x);
         // [a1, a2, a3]

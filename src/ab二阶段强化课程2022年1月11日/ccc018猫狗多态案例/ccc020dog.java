@@ -1,4 +1,4 @@
-package ab¶ş½×¶ÎÇ¿»¯¿Î³Ì2022Äê1ÔÂ11ÈÕ.ccc018Ã¨¹·¶àÌ¬°¸Àı;
+package abäºŒé˜¶æ®µå¼ºåŒ–è¯¾ç¨‹2022å¹´1æœˆ11æ—¥.ccc018çŒ«ç‹—å¤šæ€æ¡ˆä¾‹;
 
 public class ccc020dog extends ccc021animal {
     public ccc020dog() {
@@ -10,11 +10,11 @@ public class ccc020dog extends ccc021animal {
 
     @Override
     public void run() {
-        System.out.println("dogÖĞµÄrun");
+        System.out.println("dogä¸­çš„run");
     }
 
     public void caught() {
-        System.out.println("dogÖĞµÄcaught");
-//        System.out.println(name+"½ñÄê"+age+"ËêÁË£¬½ñÌì¶Ô×ÅÎÒwwwwwwwww");
+        System.out.println("dogä¸­çš„caught");
+//        System.out.println(name+"ä»Šå¹´"+age+"å²äº†ï¼Œä»Šå¤©å¯¹ç€æˆ‘wwwwwwwww");
     }
 }

@@ -1,63 +1,63 @@
-package abÍùÆÚÑ§Ï°2021Äê10ÔÂ2ÈÕ.aaa001³õÆÚÑ§Ï°¼¯ºÏ;
+package abå¾€æœŸå­¦ä¹ 2021å¹´10æœˆ2æ—¥.aaa001åˆæœŸå­¦ä¹ é›†åˆ;
 
 import java.util.Scanner;
 
 /**
- * µ¼°ü£º
- * 1:ÊÖ¶¯µ¼°ü  import java.util.Scanner;
- * ÊÖ¶¯ÊäÈëÓï¾ä
- * 2:¿ì½İ¼üµ¼°ü Alt+Enter
- * ÔÚscannerÉÏÃæ°´¿ì½İ¼ü
- * 3:×Ô¶¯µ¼°ü
- * ²»µ¼°ü£¬Ö±½ÓÊäÈëscanner£¬»á×Ô¶¯µ¼°ü+´´½¨¶ÔÏó
+ * å¯¼åŒ…ï¼š
+ * 1:æ‰‹åŠ¨å¯¼åŒ…  import java.util.Scanner;
+ * æ‰‹åŠ¨è¾“å…¥è¯­å¥
+ * 2:å¿«æ·é”®å¯¼åŒ… Alt+Enter
+ * åœ¨scannerä¸Šé¢æŒ‰å¿«æ·é”®
+ * 3:è‡ªåŠ¨å¯¼åŒ…
+ * ä¸å¯¼åŒ…ï¼Œç›´æ¥è¾“å…¥scannerï¼Œä¼šè‡ªåŠ¨å¯¼åŒ…+åˆ›å»ºå¯¹è±¡
  */
-public class bbb001¼õ·Ê¼Æ»® {
+public class bbb001å‡è‚¥è®¡åˆ’ {
     public static void main(String[] args) {
         Scanner b11 = new Scanner(System.in);
-        System.out.println("ÇëÊäÈëÊ±¼ä£º");
+        System.out.println("è¯·è¾“å…¥æ—¶é—´ï¼š");
         int xx = b11.nextInt();
         if (xx == 1) {
-            System.out.println("ÖÜÒ»£ºÅÜ²½");
+            System.out.println("å‘¨ä¸€ï¼šè·‘æ­¥");
         } else if (xx == 2) {
-            System.out.println("ÖÜ¶ş£ºÓÎÓ¾");
+            System.out.println("å‘¨äºŒï¼šæ¸¸æ³³");
         } else if (xx == 3) {
-            System.out.println("ÖÜÈı£º×ßÂ·");
+            System.out.println("å‘¨ä¸‰ï¼šèµ°è·¯");
         } else if (xx == 4) {
-            System.out.println("ÖÜËÄ£ºµ¥³µ");
+            System.out.println("å‘¨å››ï¼šå•è½¦");
         } else if (xx == 5) {
-            System.out.println("ÖÜÎå£ºÈ­»÷");
+            System.out.println("å‘¨äº”ï¼šæ‹³å‡»");
         } else if (xx == 6) {
-            System.out.println("ÖÜÁù£ºÅÀÉ½");
+            System.out.println("å‘¨å…­ï¼šçˆ¬å±±");
         } else if (xx == 7) {
-            System.out.println("ÖÜÈÕ£º³Ô·¹");
+            System.out.println("å‘¨æ—¥ï¼šåƒé¥­");
         } else {
-            System.out.println("Ê±¼ä´íÎó£¬ÇëÖØĞÂÊäÈë");
+            System.out.println("æ—¶é—´é”™è¯¯ï¼Œè¯·é‡æ–°è¾“å…¥");
         }
-        /*switchÓï¾äÊµÏÖ
+        /*switchè¯­å¥å®ç°
         switch (xx) {
             case 1:
-                System.out.println("ÖÜÒ»£ºÅÜ²½");
+                System.out.println("å‘¨ä¸€ï¼šè·‘æ­¥");
                 break;
             case 2:
-                System.out.println("ÖÜ¶ş£ºÓÎÓ¾");
+                System.out.println("å‘¨äºŒï¼šæ¸¸æ³³");
                 break;
             case 3:
-                System.out.println("ÖÜÈı£º×ßÂ·");
+                System.out.println("å‘¨ä¸‰ï¼šèµ°è·¯");
                 break;
             case 4:
-                System.out.println("ÖÜËÄ£ºµ¥³µ");
+                System.out.println("å‘¨å››ï¼šå•è½¦");
                 break;
             case 5:
-                System.out.println("ÖÜÎå£ºÈ­»÷");
+                System.out.println("å‘¨äº”ï¼šæ‹³å‡»");
                 break;
             case 6:
-                System.out.println("ÖÜÁù£ºÅÀÉ½");
+                System.out.println("å‘¨å…­ï¼šçˆ¬å±±");
                 break;
             case 7:
-                System.out.println("ÖÜÈÕ£º³Ô·¹");
+                System.out.println("å‘¨æ—¥ï¼šåƒé¥­");
                 break;
             default:
-                System.out.println("Ê±¼ä´íÎó,ÇëÖØĞÂÊäÈë");
+                System.out.println("æ—¶é—´é”™è¯¯,è¯·é‡æ–°è¾“å…¥");
                 break;
         }*/
     }

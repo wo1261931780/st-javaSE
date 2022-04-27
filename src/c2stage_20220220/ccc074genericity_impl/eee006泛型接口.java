@@ -1,10 +1,10 @@
 package c2stage_20220220.ccc074genericity_impl;
 
-public class eee006·ºĞÍ½Ó¿Ú {
+public class eee006æ³›å‹æ¥å£ {
     public static void main(String[] args) {
-        // eee004·ºĞÍ<String> x = new eee005½Ó¿ÚÊµÏÖÀà();
-        eee004·ºĞÍ<String> x = new eee005½Ó¿ÚÊµÏÖÀà();
-        // ·²ÊÇĞèÒªÊ¹ÓÃ·ºĞÍµÄ£¬¶¼ĞèÒªÔÚÀàºóÃæ±ê×¢<T>µÈ×ÖÑù
+        // eee004æ³›å‹<String> x = new eee005æ¥å£å®ç°ç±»();
+        eee004æ³›å‹<String> x = new eee005æ¥å£å®ç°ç±»();
+        // å‡¡æ˜¯éœ€è¦ä½¿ç”¨æ³›å‹çš„ï¼Œéƒ½éœ€è¦åœ¨ç±»åé¢æ ‡æ³¨<T>ç­‰å­—æ ·
         x.show("aa");
     }
 }

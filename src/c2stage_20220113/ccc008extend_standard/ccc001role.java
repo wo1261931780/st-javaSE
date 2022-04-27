@@ -4,7 +4,7 @@ public class ccc001role {
     private String name;
     private int age;
     public void search_class(){
-        System.out.println("ËÑË÷¿Î³Ì");
+        System.out.println("Ã‹Ã‘Ã‹Ã·Â¿ÃŽÂ³ÃŒ");
     }
 
     public String getName() {

@@ -5,7 +5,7 @@ package c2stage_20220403.ccc109exception_define;
  * Project:index.pb
  * Package:c2stage_20220403.ccc109exception_define
  * User:  wo1261931780@gmail.com
- * Time:  2022-04-13-38  ĞÇÆÚÒ»
+ * Time:  2022-04-13-38  æ˜ŸæœŸä¸€
  */
 public class ccc002demo {
     public static void main(String[] args) {
@@ -14,16 +14,16 @@ public class ccc002demo {
         } catch (ccc001exception e) {
             e.printStackTrace();
         }
-        //trycatch»·ÈÆºÍÌí¼Óµ½·½·¨Ç©Ãû£¬ºÃÏñ¶şÕßÑ¡ÔñÒ»¸ö¾Í¿ÉÒÔ
+        //trycatchç¯ç»•å’Œæ·»åŠ åˆ°æ–¹æ³•ç­¾åï¼Œå¥½åƒäºŒè€…é€‰æ‹©ä¸€ä¸ªå°±å¯ä»¥
     }
 
     public static void show(int age) throws ccc001exception {
         if (age < 0 || age > 200) {
-            // throwºÍthrowsµÄ²î±ğ
-            // throwÊÇÒì³£¶ÔÏó£¬ÎÒĞÂ½¨Ò»¸öÒì³££¬¾ÍÊÇthrow¶ÔÏó
-            // throwsÊÇ·½·¨ÉêÃ÷ÖĞµÄÒì³£
+            // throwå’Œthrowsçš„å·®åˆ«
+            // throwæ˜¯å¼‚å¸¸å¯¹è±¡ï¼Œæˆ‘æ–°å»ºä¸€ä¸ªå¼‚å¸¸ï¼Œå°±æ˜¯throwå¯¹è±¡
+            // throwsæ˜¯æ–¹æ³•ç”³æ˜ä¸­çš„å¼‚å¸¸
             throw new ccc001exception(age + "illegal");
-            // ÒòÎªÊÇ±àÒëÊ±Òì³££¬Ö»ÒªĞ´³öÀ´¾Í»á±¨´í
+            // å› ä¸ºæ˜¯ç¼–è¯‘æ—¶å¼‚å¸¸ï¼Œåªè¦å†™å‡ºæ¥å°±ä¼šæŠ¥é”™
         }
     }
 }

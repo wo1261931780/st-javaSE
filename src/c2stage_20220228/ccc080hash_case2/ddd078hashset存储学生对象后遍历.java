@@ -2,24 +2,24 @@ package c2stage_20220228.ccc080hash_case2;
 
 import java.util.HashSet;
 
-public class ddd078hashset´æ´¢Ñ§Éú¶ÔÏóºó±éÀú {
+public class ddd078hashsetå­˜å‚¨å­¦ç”Ÿå¯¹è±¡åéå† {
     public static void main(String[] args) {
-        HashSet<ddd077¶ÔÏóÀà> x = new HashSet<>();
-        ddd077¶ÔÏóÀà x1 = new ddd077¶ÔÏóÀà("n1", 11);
-        ddd077¶ÔÏóÀà x2 = new ddd077¶ÔÏóÀà("n2", 22);
-        ddd077¶ÔÏóÀà x3 = new ddd077¶ÔÏóÀà("n3", 33);
-        ddd077¶ÔÏóÀà x4 = new ddd077¶ÔÏóÀà("n4", 44);
-        ddd077¶ÔÏóÀà x5 = new ddd077¶ÔÏóÀà("n4", 44);
-        // ÔÚ²»ÖØĞ´·½·¨µÄÇé¿öÏÂ£¬
-        // Ö±½ÓÌí¼Ó»áµ¼ÖÂÌí¼ÓÖØ¸´¶ÔÏó
-        // hashsetµÄµ×²ã·½·¨ÊÇhashcodeºÍequals£¬
-        // ÕâÀïÖØĞ´¿ÉÒÔ½«Á½¸ö±äÁ¿°üº¬ÔÚÄÚ£¬±ÜÃâ³öÏÖnameºÍageÖØ¸´µÄ¶ÔÏó
+        HashSet<ddd077å¯¹è±¡ç±»> x = new HashSet<>();
+        ddd077å¯¹è±¡ç±» x1 = new ddd077å¯¹è±¡ç±»("n1", 11);
+        ddd077å¯¹è±¡ç±» x2 = new ddd077å¯¹è±¡ç±»("n2", 22);
+        ddd077å¯¹è±¡ç±» x3 = new ddd077å¯¹è±¡ç±»("n3", 33);
+        ddd077å¯¹è±¡ç±» x4 = new ddd077å¯¹è±¡ç±»("n4", 44);
+        ddd077å¯¹è±¡ç±» x5 = new ddd077å¯¹è±¡ç±»("n4", 44);
+        // åœ¨ä¸é‡å†™æ–¹æ³•çš„æƒ…å†µä¸‹ï¼Œ
+        // ç›´æ¥æ·»åŠ ä¼šå¯¼è‡´æ·»åŠ é‡å¤å¯¹è±¡
+        // hashsetçš„åº•å±‚æ–¹æ³•æ˜¯hashcodeå’Œequalsï¼Œ
+        // è¿™é‡Œé‡å†™å¯ä»¥å°†ä¸¤ä¸ªå˜é‡åŒ…å«åœ¨å†…ï¼Œé¿å…å‡ºç°nameå’Œageé‡å¤çš„å¯¹è±¡
         x.add(x1);
         x.add(x2);
         x.add(x3);
         x.add(x4);
         x.add(x5);
-        for (ddd077¶ÔÏóÀà i : x) {
+        for (ddd077å¯¹è±¡ç±» i : x) {
             System.out.println(i.getName() + "--" + i.getAge());
         }
     }

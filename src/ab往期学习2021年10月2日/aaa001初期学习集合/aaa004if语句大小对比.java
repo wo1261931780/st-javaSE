@@ -1,7 +1,7 @@
 /*
 public class b11{
 	public static void main(String[] args){
-		System.out.println("¿ªÊ¼±È½Ï£º");
+		System.out.println("å¼€å§‹æ¯”è¾ƒï¼š");
 		int x1 = 10;
 		int x2 = 30;
 		int x3 = 31;
@@ -17,20 +17,20 @@ public class b11{
 		}
 	}
 }*/
-package abÍùÆÚÑ§Ï°2021Äê10ÔÂ2ÈÕ.aaa001³õÆÚÑ§Ï°¼¯ºÏ;
+package abå¾€æœŸå­¦ä¹ 2021å¹´10æœˆ2æ—¥.aaa001åˆæœŸå­¦ä¹ é›†åˆ;
 
 import java.util.Scanner;
 
-public class aaa004ifÓï¾ä´óÐ¡¶Ô±È {
+public class aaa004ifè¯­å¥å¤§å°å¯¹æ¯” {
     public static void main(String[] args) {
         Scanner b11 = new Scanner(System.in);
-        System.out.println("ÇëÊäÈëÊýÖµ1£º");
+        System.out.println("è¯·è¾“å…¥æ•°å€¼1ï¼š");
         int x1 = b11.nextInt();
 
-        System.out.println("ÇëÊäÈëÊýÖµ2£º");
+        System.out.println("è¯·è¾“å…¥æ•°å€¼2ï¼š");
         int x2 = b11.nextInt();
 
-        System.out.println("ÇëÊäÈëÊýÖµ3£º");
+        System.out.println("è¯·è¾“å…¥æ•°å€¼3ï¼š");
         int x3 = b11.nextInt();
 
         if (x1 >= x2) {
@@ -38,11 +38,11 @@ public class aaa004ifÓï¾ä´óÐ¡¶Ô±È {
         } else {
             int max = x2;
             if (max >= x3) {
-                System.out.println("×î´óÖµÎª£º" + max);
+                System.out.println("æœ€å¤§å€¼ä¸ºï¼š" + max);
             } else {
                 max = x3;
                 //int max = x3;
-                System.out.println("×î´óÖµÎª£º" + max);
+                System.out.println("æœ€å¤§å€¼ä¸ºï¼š" + max);
             }
         }
     }

@@ -1,14 +1,14 @@
 package c2stage_20220202.ccc035object_api_stringbuilder;
 
-public class ccc003StringÓï¾ä×ª»» {
+public class ccc003Stringè¯­å¥è½¬æ¢ {
     public static void main(String[] args) {
         // StringBuilder xx= new StringBuilder();
         // xx.append(65465);
         // String x=xx.toString();
-        // //ÕâÀï£¬×ª»»µÄÇ°ÌáÊÇ£¬xxÒÑ¾­ÊÇbuildÀàĞÍÁË£¬ËùÒÔ¿ÉÒÔÀí½âÎª£º
-        // //ÎÒ¶¨ÒåÁËÒ»¸öxµÄ×Ö·û´®±äÁ¿£¬È»ºó¶ÔxxÖ´ĞĞÁË×ª»»ÃüÁî¡£
+        // //è¿™é‡Œï¼Œè½¬æ¢çš„å‰ææ˜¯ï¼Œxxå·²ç»æ˜¯buildç±»å‹äº†ï¼Œæ‰€ä»¥å¯ä»¥ç†è§£ä¸ºï¼š
+        // //æˆ‘å®šä¹‰äº†ä¸€ä¸ªxçš„å­—ç¬¦ä¸²å˜é‡ï¼Œç„¶åå¯¹xxæ‰§è¡Œäº†è½¬æ¢å‘½ä»¤ã€‚
         // StringBuilder z=new StringBuilder(x);
-        // //ÕâÀï½øĞĞµÄ×ª»»£¬Ïàµ±ÓÚ¶¨ÒåÁËÒ»¸öĞÂµÄz£¬È»ºó°ÑxµÄ×Ö·û´«¹ıÀ´¡£
+        // //è¿™é‡Œè¿›è¡Œçš„è½¬æ¢ï¼Œç›¸å½“äºå®šä¹‰äº†ä¸€ä¸ªæ–°çš„zï¼Œç„¶åæŠŠxçš„å­—ç¬¦ä¼ è¿‡æ¥ã€‚
         StringBuilder x1 = new StringBuilder();
         x1.append("111");
         System.out.println(x1);
@@ -17,11 +17,11 @@ public class ccc003StringÓï¾ä×ª»» {
         String x3 = "222";
         System.out.println(x3);
         StringBuilder x4 = new StringBuilder(x3);
-        // ×ª»»µÄÄ¿µÄÔÚÓÚ
-        // javaµÄ·½·¨ÖĞ£¬×Ö·û´®½ÓÊÕÄ¬ÈÏÊ¹ÓÃstringÀàĞÍµÄ
-        // Èç¹û´«µİstringbuilderÀàĞÍ£¬»á²»±»½ÓÊÜ
-        // Òò´ËÒªÓÃtostring×öÒ»´Î×ª»¯
+        // è½¬æ¢çš„ç›®çš„åœ¨äº
+        // javaçš„æ–¹æ³•ä¸­ï¼Œå­—ç¬¦ä¸²æ¥æ”¶é»˜è®¤ä½¿ç”¨stringç±»å‹çš„
+        // å¦‚æœä¼ é€’stringbuilderç±»å‹ï¼Œä¼šä¸è¢«æ¥å—
+        // å› æ­¤è¦ç”¨tostringåšä¸€æ¬¡è½¬åŒ–
 
-        // ²»¹ı£¬´ÓÄÚ´æÍ¼À´¿´£¬string±¾Éí¾ÍÊÇ»ùÓÚstringbuilder×öµÄ
+        // ä¸è¿‡ï¼Œä»å†…å­˜å›¾æ¥çœ‹ï¼Œstringæœ¬èº«å°±æ˜¯åŸºäºstringbuilderåšçš„
     }
 }

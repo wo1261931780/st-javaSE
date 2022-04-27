@@ -7,15 +7,15 @@ import java.io.File;
  * Project:index.pb
  * Package:c2stage_20220408.ccc117
  * User:  wo1261931780@gmail.com
- * Time:  2022-04-21-59  ĞÇÆÚÎå
+ * Time:  2022-04-21-59  æ˜ŸæœŸäº”
  */
 public class ccc001 {
     public static void main(String[] args) {
         File x = new File("C:\\Users\\1\\Documents\\GitHub\\st-java.github.io\\src\\c2stage_20220410\\demo");
-        // Ê×ÏÈÒª´´½¨Ò»¸ö²»´æÔÚµÄÄ¿Â¼
-        x.mkdir();//Ä¬ÈÏÖ»ÄÜ´´½¨Ò»¼¶Ä¿Â¼
-        // Èç¹ûÊäÈëµÄÄ¿Â¼ÊÇ¶à¼¶µÄ£¬Ö±½Ó·µ»Øfalse
-        // Òª´´½¨¶à¼¶Ä¿Â¼£¬µ÷ÓÃmkdirs
+        // é¦–å…ˆè¦åˆ›å»ºä¸€ä¸ªä¸å­˜åœ¨çš„ç›®å½•
+        x.mkdir();//é»˜è®¤åªèƒ½åˆ›å»ºä¸€çº§ç›®å½•
+        // å¦‚æœè¾“å…¥çš„ç›®å½•æ˜¯å¤šçº§çš„ï¼Œç›´æ¥è¿”å›false
+        // è¦åˆ›å»ºå¤šçº§ç›®å½•ï¼Œè°ƒç”¨mkdirs
         x.mkdirs();
     }
 }

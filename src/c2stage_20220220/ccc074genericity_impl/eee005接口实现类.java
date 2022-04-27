@@ -1,12 +1,12 @@
 package c2stage_20220220.ccc074genericity_impl;
 
-public class eee005½Ó¿ÚÊµÏÖÀà<T> implements eee004·ºĞÍ<T> {
+public class eee005æ¥å£å®ç°ç±»<T> implements eee004æ³›å‹<T> {
     /**
-     * ÔÚº¬ÓĞ·ºĞÍµÄÀàºÍÊµÏÖÖĞ£¬¶şÕß¶¼ĞèÒª¸úÉÏ·ºĞÍµÄ±¸×¢
+     * åœ¨å«æœ‰æ³›å‹çš„ç±»å’Œå®ç°ä¸­ï¼ŒäºŒè€…éƒ½éœ€è¦è·Ÿä¸Šæ³›å‹çš„å¤‡æ³¨
      */
     @Override
     public void show(T x) {
         System.out.println(x);
-        System.out.println("ÎÒÊÇ½Ó¿ÚÊµÏÖÀà");
+        System.out.println("æˆ‘æ˜¯æ¥å£å®ç°ç±»");
     }
 }

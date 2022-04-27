@@ -1,22 +1,22 @@
-package abÍùÆÚÑ§Ï°2021Äê10ÔÂ2ÈÕ.aaa001³õÆÚÑ§Ï°¼¯ºÏ;
+package abå¾€æœŸå­¦ä¹ 2021å¹´10æœˆ2æ—¥.aaa001åˆæœŸå­¦ä¹ é›†åˆ;
 
 import java.util.Random;
 import java.util.Scanner;
 
-public class aaa023b´ø·µ»ØÖµ·½·¨Á·Ï° {
+public class aaa023bå¸¦è¿”å›å€¼æ–¹æ³•ç»ƒä¹  {
     public static void main(String[] args) {
         System.out.println("------------------");
-        //µ÷ÓÃ·½·¨£¬ÊäÈëÒ»¸öÊı×Ö£¬È»ºó°ÑÊäÈëµÄÊı×Ö·µ»Ø£¬½«Êı×Ö´æ´¢µ½xx1ÖĞ¡£
+        //è°ƒç”¨æ–¹æ³•ï¼Œè¾“å…¥ä¸€ä¸ªæ•°å­—ï¼Œç„¶åæŠŠè¾“å…¥çš„æ•°å­—è¿”å›ï¼Œå°†æ•°å­—å­˜å‚¨åˆ°xx1ä¸­ã€‚
         int xx1 = demo2();
-        //µ÷ÓÃ·½·¨£¬Éú³ÉËæ»úÊı£¬È»ºó°ÑÊäÈëµÄÊı×Öxx1·Å½øÀ´£¬ºÍËæ»úÊı¶Ô±È£¬ÅĞ¶Ï´óĞ¡
+        //è°ƒç”¨æ–¹æ³•ï¼Œç”Ÿæˆéšæœºæ•°ï¼Œç„¶åæŠŠè¾“å…¥çš„æ•°å­—xx1æ”¾è¿›æ¥ï¼Œå’Œéšæœºæ•°å¯¹æ¯”ï¼Œåˆ¤æ–­å¤§å°
         int xx = demo1(xx1);
-        System.out.println("ÊäÈëÊı×ÖÎª£º" + xx1);
-        System.out.println("Ëæ»úÊıÎª£º" + xx);
+        System.out.println("è¾“å…¥æ•°å­—ä¸ºï¼š" + xx1);
+        System.out.println("éšæœºæ•°ä¸ºï¼š" + xx);
     }
 
     public static int demo2() {
         Scanner x1 = new Scanner(System.in);
-        System.out.println("ÇëÊäÈëÊı×Ö½øĞĞ¶Ô±È£º");
+        System.out.println("è¯·è¾“å…¥æ•°å­—è¿›è¡Œå¯¹æ¯”ï¼š");
         int x3 = x1.nextInt();
 
         return x3;
@@ -26,21 +26,21 @@ public class aaa023b´ø·µ»ØÖµ·½·¨Á·Ï° {
         Random x2 = new Random();
         int x4 = x2.nextInt(100);
         if (xx <= x4) {
-            System.out.println("Ëæ»úÊı½Ï´ó");
+            System.out.println("éšæœºæ•°è¾ƒå¤§");
         } else {
-            System.out.println("Ëæ»úÊı½ÏĞ¡");
+            System.out.println("éšæœºæ•°è¾ƒå°");
         }
         // xx = x3;
         return x4;
     }
-    // ·½·¨×¢ÒâÊÂÏî£º
+    // æ–¹æ³•æ³¨æ„äº‹é¡¹ï¼š
     /*
-     * 1.²»ÄÜÇ¶Ì×¶¨Òå¡£
-     * ÎÒµÄdemo1ºÍdemo2ÊÇÁ½¸ö¶ÀÁ¢µÄ£¬²»ÄÜdemo1ÄÚ²¿ÓĞÒ»¸ödemo2
-     * 2.void±íÊ¾Ã»ÓĞ·µ»ØÖµ¡£
-     * public static void demo1(){}£¬void¾ÍÊÇ±íÊ¾²»ĞèÒª·µ»Ø£¬int±íÊ¾ĞèÒª·µ»ØintÀàĞÍµÄ
-     * 3.void¿ÉÒÔ¼Óreturn£¬Ò²¿ÉÒÔ²»¼Ó¡£
-     * Èç¹ûÌí¼Óreturn£¬ºóÃæ²»Ìí¼ÓÊı¾İ¡£Ö»ÄÜÖ±½Óreturn;£¬Èç¹ûĞ´return 1;»á±¨´í
+     * 1.ä¸èƒ½åµŒå¥—å®šä¹‰ã€‚
+     * æˆ‘çš„demo1å’Œdemo2æ˜¯ä¸¤ä¸ªç‹¬ç«‹çš„ï¼Œä¸èƒ½demo1å†…éƒ¨æœ‰ä¸€ä¸ªdemo2
+     * 2.voidè¡¨ç¤ºæ²¡æœ‰è¿”å›å€¼ã€‚
+     * public static void demo1(){}ï¼Œvoidå°±æ˜¯è¡¨ç¤ºä¸éœ€è¦è¿”å›ï¼Œintè¡¨ç¤ºéœ€è¦è¿”å›intç±»å‹çš„
+     * 3.voidå¯ä»¥åŠ returnï¼Œä¹Ÿå¯ä»¥ä¸åŠ ã€‚
+     * å¦‚æœæ·»åŠ returnï¼Œåé¢ä¸æ·»åŠ æ•°æ®ã€‚åªèƒ½ç›´æ¥return;ï¼Œå¦‚æœå†™return 1;ä¼šæŠ¥é”™
      */
 
 }

@@ -1,4 +1,4 @@
-package ab¶ş½×¶ÎÇ¿»¯¿Î³Ì2022Äê1ÔÂ11ÈÕ.ccc026ÔË¶¯Ô±ºÍ½ÌÁ·°¸Àı;
+package abäºŒé˜¶æ®µå¼ºåŒ–è¯¾ç¨‹2022å¹´1æœˆ11æ—¥.ccc026è¿åŠ¨å‘˜å’Œæ•™ç»ƒæ¡ˆä¾‹;
 
 public class ccc003test_basketplayer extends ccc002test_athelete implements ccc001test_learn {
     public ccc003test_basketplayer() {
@@ -16,6 +16,6 @@ public class ccc003test_basketplayer extends ccc002test_athelete implements ccc0
     @Override
     public void jobsm() {
         // super.jobsm();
-        System.out.println("ÀºÇòÔË¶¯Ô±" + name + "¿ÉÒÔÑ§Ï°ÀºÇò" + age);
+        System.out.println("ç¯®çƒè¿åŠ¨å‘˜" + name + "å¯ä»¥å­¦ä¹ ç¯®çƒ" + age);
     }
 }

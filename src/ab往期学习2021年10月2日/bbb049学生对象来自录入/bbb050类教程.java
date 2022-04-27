@@ -1,14 +1,14 @@
-package abÍùÆÚÑ§Ï°2021Äê10ÔÂ2ÈÕ.bbb049Ñ§Éú¶ÔÏóÀ´×ÔÂ¼Èë;
+package abå¾€æœŸå­¦ä¹ 2021å¹´10æœˆ2æ—¥.bbb049å­¦ç”Ÿå¯¹è±¡æ¥è‡ªå½•å…¥;
 
-public class bbb050Àà½Ì³Ì {
+public class bbb050ç±»æ•™ç¨‹ {
     private String name = "";
     private int age = 0;
 
-    public bbb050Àà½Ì³Ì() {
+    public bbb050ç±»æ•™ç¨‹() {
     }
 
-    public bbb050Àà½Ì³Ì(String name, int age) {
-        //±ØĞë¸³Öµ£¬²»È»Ô­²ÎÊıÎŞ·¨»ñµÃ¾ßÌåÊı¾İ
+    public bbb050ç±»æ•™ç¨‹(String name, int age) {
+        //å¿…é¡»èµ‹å€¼ï¼Œä¸ç„¶åŸå‚æ•°æ— æ³•è·å¾—å…·ä½“æ•°æ®
         this.name = name;
         this.age = age;
         System.out.println(name + age);
@@ -33,11 +33,11 @@ public class bbb050Àà½Ì³Ì {
 
     //    Scanner x=new Scanner(System.in);
     //    public void bl(){
-    //        System.out.println("ÇëÊäÈëĞÕÃû£º");
+    //        System.out.println("è¯·è¾“å…¥å§“åï¼š");
     //        name=x.nextLine();
-    //        System.out.println("ÇëÊäÈëÄêÁä£º");
+    //        System.out.println("è¯·è¾“å…¥å¹´é¾„ï¼š");
     //        age=x.nextInt();
     //    }
-    // 2021Äê11ÔÂ3ÈÕ23:40:53
-    // Ã÷ÌìÈëÖ°
+    // 2021å¹´11æœˆ3æ—¥23:40:53
+    // æ˜å¤©å…¥èŒ
 }

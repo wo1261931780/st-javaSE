@@ -4,18 +4,18 @@ import java.util.Scanner;
 
 public class ccc025demo {
     public static void main(String[] args) {
-        System.out.println("ÇëÊäÈëÃ¨µÄÃû³Æ£º");
+        System.out.println("è¯·è¾“å…¥çŒ«çš„åç§°ï¼š");
         Scanner x = new Scanner(System.in);
         String namecat = x.nextLine();
-        System.out.println("ÇëÊäÈëÃ¨µÄÄêÁä£º");
+        System.out.println("è¯·è¾“å…¥çŒ«çš„å¹´é¾„ï¼š");
         Scanner xx = new Scanner(System.in);
         int agecat = xx.nextInt();
         ccc022animal catx = new ccc023Cat();
-        System.out.println("¿ªÊ¼Ğ´Èë...");
+        System.out.println("å¼€å§‹å†™å…¥...");
         catx.setName(namecat);
         catx.setAge(agecat);
 //        ccc022animal xa=new ccc023Cat(agecat,namecat);
-        System.out.println(catx.getName() + "ÒÑ¾­" + catx.getAge() + "ËêÁË");
+        System.out.println(catx.getName() + "å·²ç»" + catx.getAge() + "å²äº†");
         catx.eat();
     }
 }

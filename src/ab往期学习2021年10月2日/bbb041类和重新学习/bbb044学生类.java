@@ -1,21 +1,21 @@
-package abÍùÆÚÑ§Ï°2021Äê10ÔÂ2ÈÕ.bbb041ÀàºÍÖØĞÂÑ§Ï°;
+package abå¾€æœŸå­¦ä¹ 2021å¹´10æœˆ2æ—¥.bbb041ç±»å’Œé‡æ–°å­¦ä¹ ;
 
-public class bbb044Ñ§ÉúÀà {
+public class bbb044å­¦ç”Ÿç±» {
     private String name = "";
     private int age;
 
-    public bbb044Ñ§ÉúÀà() {
+    public bbb044å­¦ç”Ÿç±»() {
     }
 
-    //000001ÎŞ²Î¹¹Ôì·½·¨
-    // public void bbb044Ñ§ÉúÀà(String name,int age){
+    //000001æ— å‚æ„é€ æ–¹æ³•
+    // public void bbb044å­¦ç”Ÿç±»(String name,int age){
     // this.name=name;
     // this.age=age;
-    // System.out.println("bbb044ÖĞµÄÑ§Éú"+name+age+"ÒÑ¾­Ñ§Ï°Íê³É");
+    // System.out.println("bbb044ä¸­çš„å­¦ç”Ÿ"+name+age+"å·²ç»å­¦ä¹ å®Œæˆ");
     // }
-    //000002ÕâÀïÊÇ°Ñbbb044×÷ÎªÒ»¸ö·½·¨½øĞĞ¶¨Òå
-    //1000001´ø²Î¹¹Ôì·½·¨
-    public bbb044Ñ§ÉúÀà(String name, int age) {
+    //000002è¿™é‡Œæ˜¯æŠŠbbb044ä½œä¸ºä¸€ä¸ªæ–¹æ³•è¿›è¡Œå®šä¹‰
+    //1000001å¸¦å‚æ„é€ æ–¹æ³•
+    public bbb044å­¦ç”Ÿç±»(String name, int age) {
         this.name = name;
         this.age = age;
     }

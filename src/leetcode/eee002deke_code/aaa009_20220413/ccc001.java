@@ -9,10 +9,10 @@ import java.util.Set;
  * Project:index.pb
  * Package:leetcode.eee002deke_code.aaa009_20220413
  * User:  wo1261931780@gmail.com
- * Time:  2022-04-12-57  ÐÇÆÚÈý
+ * Time:  2022-04-12-57  æ˜ŸæœŸä¸‰
  */
-// ÊäÈëÒ»¸ö int ÐÍÕûÊý£¬°´ÕÕ´ÓÓÒÏò×óµÄÔÄ¶ÁË³Ðò£¬·µ»ØÒ»¸ö²»º¬ÖØ¸´Êý×ÖµÄÐÂµÄÕûÊý¡£
-// ±£Ö¤ÊäÈëµÄÕûÊý×îºóÒ»Î»²»ÊÇ 0 ¡£°´ÕÕ´ÓÓÒÏò×óµÄÔÄ¶ÁË³Ðò£¬·µ»ØÒ»¸ö²»º¬ÖØ¸´Êý×ÖµÄÐÂµÄÕûÊý
+// è¾“å…¥ä¸€ä¸ª int åž‹æ•´æ•°ï¼ŒæŒ‰ç…§ä»Žå³å‘å·¦çš„é˜…è¯»é¡ºåºï¼Œè¿”å›žä¸€ä¸ªä¸å«é‡å¤æ•°å­—çš„æ–°çš„æ•´æ•°ã€‚
+// ä¿è¯è¾“å…¥çš„æ•´æ•°æœ€åŽä¸€ä½ä¸æ˜¯ 0 ã€‚æŒ‰ç…§ä»Žå³å‘å·¦çš„é˜…è¯»é¡ºåºï¼Œè¿”å›žä¸€ä¸ªä¸å«é‡å¤æ•°å­—çš„æ–°çš„æ•´æ•°
 
 
 public class ccc001 {

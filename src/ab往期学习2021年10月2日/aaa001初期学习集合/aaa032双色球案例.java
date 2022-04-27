@@ -1,10 +1,10 @@
-package abÍùÆÚÑ§Ï°2021Äê10ÔÂ2ÈÕ.aaa001³õÆÚÑ§Ï°¼¯ºÏ;
+package abå¾€æœŸå­¦ä¹ 2021å¹´10æœˆ2æ—¥.aaa001åˆæœŸå­¦ä¹ é›†åˆ;
 
 import java.util.Arrays;
 import java.util.Random;
 import java.util.Scanner;
 
-public class aaa032Ë«É«Çò°¸Àı {
+public class aaa032åŒè‰²çƒæ¡ˆä¾‹ {
     public static void main(String[] args) {
         int[] x = new int[7];
         int[] x1 = new int[7];
@@ -36,17 +36,17 @@ public class aaa032Ë«É«Çò°¸Àı {
         System.out.println(Arrays.toString(xx));
     }
 
-    // ¿Î³ÌĞ´·¨£º
+    // è¯¾ç¨‹å†™æ³•ï¼š
     public static int[] show2(int[] xx) {
         Random x = new Random();
         for (int i = 0; i < xx.length - 1; i++) {
             while (true) {
-                // ÎªÁË²»ÖØ¸´µÄÊı×Ö£¬ĞèÒª¶à´ÎÑ­»·
-                // ÔÚ²»ÖªµÀÑ­»·´ÎÊıµÄÇé¿öÏÂ£¬Ö±½Ó¸ø³öÒ»¸öËÀÑ­»·¼´¿É
+                // ä¸ºäº†ä¸é‡å¤çš„æ•°å­—ï¼Œéœ€è¦å¤šæ¬¡å¾ªç¯
+                // åœ¨ä¸çŸ¥é“å¾ªç¯æ¬¡æ•°çš„æƒ…å†µä¸‹ï¼Œç›´æ¥ç»™å‡ºä¸€ä¸ªæ­»å¾ªç¯å³å¯
                 int r1 = x.nextInt(33) + 1;
                 boolean sin = true;
                 for (int i1 = 0; i1 < i; i1++) {
-                    //ÕâÀï×¢ÒâĞ´µÄÊÇÇ°ÃæµÄindex,ÊÇi1²»ÊÇi
+                    //è¿™é‡Œæ³¨æ„å†™çš„æ˜¯å‰é¢çš„index,æ˜¯i1ä¸æ˜¯i
                     if (r1 == xx[i1]) {
                         sin = false;
                         break;
@@ -55,10 +55,10 @@ public class aaa032Ë«É«Çò°¸Àı {
                 if (sin) {
                     xx[i] = r1;
                     break;
-                    // Íê³É¸³Öµ£¬Ö±½Ó½áÊøËæ»úÊıµÄÑ­»·
+                    // å®Œæˆèµ‹å€¼ï¼Œç›´æ¥ç»“æŸéšæœºæ•°çš„å¾ªç¯
                 }
-                // ÕâÀïÒ²ÊÇĞèÒª×¢ÒâµÄ£¬
-                // Ã»ÓĞ±ØÒªÏñÏÂÃæÕâÑù¶à´ÎÅĞ¶Ï
+                // è¿™é‡Œä¹Ÿæ˜¯éœ€è¦æ³¨æ„çš„ï¼Œ
+                // æ²¡æœ‰å¿…è¦åƒä¸‹é¢è¿™æ ·å¤šæ¬¡åˆ¤æ–­
 
                 // if (sin == false) {
                 //     break;
@@ -76,9 +76,9 @@ public class aaa032Ë«É«Çò°¸Àı {
     public static int[] type(int[] xx) {
         Scanner x = new Scanner(System.in);
         for (int i = 0; i < xx.length - 1; i++) {
-            //´òÆÆÑ­»·µÄÇ°Ìá£¬ÊÇÓĞÒ»¸ö×´Ì¬¿ØÖÆÃüÁî
+            //æ‰“ç ´å¾ªç¯çš„å‰æï¼Œæ˜¯æœ‰ä¸€ä¸ªçŠ¶æ€æ§åˆ¶å‘½ä»¤
             while (true) {
-                System.out.println("please enter in" + i + "Î»µÄÊı×Ö");
+                System.out.println("please enter in" + i + "ä½çš„æ•°å­—");
                 xx[i] = x.nextInt();
                 boolean stage = true;
                 for (int i1 = 0; i1 < i; i1++) {
@@ -87,13 +87,13 @@ public class aaa032Ë«É«Çò°¸Àı {
                         break;
                     }
                 }
-                // ÕâÀïÅĞ¶ÏÊÇ·ñ½â³ıËÀÑ­»·£¬²»´æÔÚÏàÍ¬Êı¾İµÄÊ±ºò½â³ı
+                // è¿™é‡Œåˆ¤æ–­æ˜¯å¦è§£é™¤æ­»å¾ªç¯ï¼Œä¸å­˜åœ¨ç›¸åŒæ•°æ®çš„æ—¶å€™è§£é™¤
                 if (stage) {
                     break;
                 }
             }
         }
-        System.out.println("ÇëÊäÈëÀ¶É«ÇòºÅÂë");
+        System.out.println("è¯·è¾“å…¥è“è‰²çƒå·ç ");
         xx[xx.length - 1] = x.nextInt();
         System.out.println(Arrays.toString(xx));
         System.out.println("finish");
@@ -105,7 +105,7 @@ public class aaa032Ë«É«Çò°¸Àı {
         int blue = 0;
         for (int i = 0; i < x1.length; i++) {
             // if (x1[i] != x2[i]) {
-            //     System.out.println("²»ÏàµÈ");
+            //     System.out.println("ä¸ç›¸ç­‰");
             //     return;
             // }
             for (int i1 = 0; i1 < x2.length; i1++) {
@@ -120,7 +120,7 @@ public class aaa032Ë«É«Çò°¸Àı {
                 }
             }
         }
-        System.out.println("ÖĞ½±Çé¿ö£ººìÉ«" + red + "À¶É«" + blue);
+        System.out.println("ä¸­å¥–æƒ…å†µï¼šçº¢è‰²" + red + "è“è‰²" + blue);
 
 
     }

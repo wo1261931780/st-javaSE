@@ -2,11 +2,11 @@ package c2stage_20220113.ccc011Constructors;
 
 public class ccc009fu {
     public ccc009fu() {
-        System.out.println("¸¸Àà£ºÎŞ²Î¹¹Ôì");
+        System.out.println("çˆ¶ç±»ï¼šæ— å‚æ„é€ ");
     }
 
     public ccc009fu(int age) {
-        System.out.println("¸¸Àà£º´ø²Î¹¹Ôì");
+        System.out.println("çˆ¶ç±»ï¼šå¸¦å‚æ„é€ ");
     }
 
 }

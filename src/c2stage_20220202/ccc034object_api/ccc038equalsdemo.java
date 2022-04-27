@@ -10,7 +10,7 @@ public class ccc038equalsdemo {
             public boolean equals(Object obj) {
             //this=x
             //obj=xx
-            //�ȽϵĻ��ǵ�ֵַ
+            //比较的还是地址值
                 return (this == obj);
             }think you
         System.out.println("----------------------------------");

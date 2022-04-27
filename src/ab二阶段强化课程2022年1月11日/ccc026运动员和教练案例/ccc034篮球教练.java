@@ -1,10 +1,10 @@
-package ab¶ş½×¶ÎÇ¿»¯¿Î³Ì2022Äê1ÔÂ11ÈÕ.ccc026ÔË¶¯Ô±ºÍ½ÌÁ·°¸Àı;
+package abäºŒé˜¶æ®µå¼ºåŒ–è¯¾ç¨‹2022å¹´1æœˆ11æ—¥.ccc026è¿åŠ¨å‘˜å’Œæ•™ç»ƒæ¡ˆä¾‹;
 
-public class ccc034ÀºÇò½ÌÁ· extends ccc030½ÌÁ· {
-    public ccc034ÀºÇò½ÌÁ·() {
+public class ccc034ç¯®çƒæ•™ç»ƒ extends ccc030æ•™ç»ƒ {
+    public ccc034ç¯®çƒæ•™ç»ƒ() {
     }
 
-    public ccc034ÀºÇò½ÌÁ·(int age, String name) {
+    public ccc034ç¯®çƒæ•™ç»ƒ(int age, String name) {
         super(age, name);
     }
 
@@ -12,5 +12,5 @@ public class ccc034ÀºÇò½ÌÁ· extends ccc030½ÌÁ· {
     public void teach() {
         System.out.println("guide teach skills about basketball");
     }
-    //ÕâÀï½Ì³ÌÊÇÍ³Ò»ÖØĞ´£¬ÎÒ°Ñeat·½·¨·Åµ½ÁËÉÏÒ»¼¶
+    //è¿™é‡Œæ•™ç¨‹æ˜¯ç»Ÿä¸€é‡å†™ï¼Œæˆ‘æŠŠeatæ–¹æ³•æ”¾åˆ°äº†ä¸Šä¸€çº§
 }

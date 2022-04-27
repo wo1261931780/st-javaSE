@@ -3,6 +3,6 @@ package c2stage_20220202.ccc029Polymorphic_transform;
 public class ccc021dog extends ccc018animal {
     @Override
     public void run() {
-        System.out.println("dog类中的run方法");
+        System.out.println("dog绫讳腑鐨剅un鏂规硶");
     }
 }

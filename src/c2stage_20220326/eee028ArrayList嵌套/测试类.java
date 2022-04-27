@@ -1,31 +1,31 @@
-package c2stage_20220326.eee028ArrayListÇ¶Ì×;
+package c2stage_20220326.eee028ArrayListåµŒå¥—;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Set;
 
 /**
- * ĞèÇó£º
- * ´´½¨Ò»¸öArrayList¼¯ºÏ£¬´æ´¢Èı¸öÔªËØ£¬Ã¿Ò»¸öÔªËØ¶¼ÊÇHashMap£¬Ã¿Ò»¸öHashMapµÄ¼üºÍÖµ¶¼ÊÇString£¬²¢±éÀú
- * Ë¼Â·£º
- * 1:´´½¨ArrayList¼¯ºÏ
- * 2:´´½¨HashMap¼¯ºÏ£¬²¢Ìí¼Ó¼üÖµ¶ÔÔªËØ
- * 3:°ÑHashMap×÷ÎªÔªËØÌí¼Óµ½ArrayList¼¯ºÏ
- * 4:±éÀúArrayList¼¯ºÏ
- * ¸ø³öÈçÏÂµÄÊı¾İ:
- * µÚÒ»¸öHashMap¼¯ºÏµÄÔªËØ£º
- * Ëï²ß		´óÇÇ
- * ÖÜè¤		Ğ¡ÇÇ
- * µÚ¶ş¸öHashMap¼¯ºÏµÄÔªËØ£º
- * ¹ù¾¸		»ÆÈØ
- * Ñî¹ı		Ğ¡ÁúÅ®
- * µÚÈı¸öHashMap¼¯ºÏµÄÔªËØ£º
- * Áîºü³å	ÈÎÓ¯Ó¯
- * ÁÖÆ½Ö®	ÔÀÁéÉº
+ * éœ€æ±‚ï¼š
+ * åˆ›å»ºä¸€ä¸ªArrayListé›†åˆï¼Œå­˜å‚¨ä¸‰ä¸ªå…ƒç´ ï¼Œæ¯ä¸€ä¸ªå…ƒç´ éƒ½æ˜¯HashMapï¼Œæ¯ä¸€ä¸ªHashMapçš„é”®å’Œå€¼éƒ½æ˜¯Stringï¼Œå¹¶éå†
+ * æ€è·¯ï¼š
+ * 1:åˆ›å»ºArrayListé›†åˆ
+ * 2:åˆ›å»ºHashMapé›†åˆï¼Œå¹¶æ·»åŠ é”®å€¼å¯¹å…ƒç´ 
+ * 3:æŠŠHashMapä½œä¸ºå…ƒç´ æ·»åŠ åˆ°ArrayListé›†åˆ
+ * 4:éå†ArrayListé›†åˆ
+ * ç»™å‡ºå¦‚ä¸‹çš„æ•°æ®:
+ * ç¬¬ä¸€ä¸ªHashMapé›†åˆçš„å…ƒç´ ï¼š
+ * å­™ç­–		å¤§ä¹”
+ * å‘¨ç‘œ		å°ä¹”
+ * ç¬¬äºŒä¸ªHashMapé›†åˆçš„å…ƒç´ ï¼š
+ * éƒ­é–		é»„è“‰
+ * æ¨è¿‡		å°é¾™å¥³
+ * ç¬¬ä¸‰ä¸ªHashMapé›†åˆçš„å…ƒç´ ï¼š
+ * ä»¤ç‹å†²	ä»»ç›ˆç›ˆ
+ * æ—å¹³ä¹‹	å²³çµçŠ
  */
-public class ²âÊÔÀà {
+public class æµ‹è¯•ç±» {
     /**
-     * 2021Äê10ÔÂ10ÈÕ09:58:24£¬¸´Ï°ÄÚÈİ
+     * 2021å¹´10æœˆ10æ—¥09:58:24ï¼Œå¤ä¹ å†…å®¹
      */
     public static void main(String[] args) {
         ArrayList<HashMap<String, String>> x = new ArrayList<>();
@@ -41,7 +41,7 @@ public class ²âÊÔÀà {
         x.add(x1);
         x.add(x2);
         x.add(x3);
-        System.out.println("¿ªÊ¼Ö´ĞĞ");
+        System.out.println("å¼€å§‹æ‰§è¡Œ");
         for (HashMap<String, String> x4 : x) {
             Set<String> x5 = x4.keySet();
             for (String x6 : x5) {

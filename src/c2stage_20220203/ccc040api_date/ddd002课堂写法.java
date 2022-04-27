@@ -5,18 +5,18 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-public class ddd002¿ÎÌÃĞ´·¨ {
-    private ddd002¿ÎÌÃĞ´·¨() {
+public class ddd002è¯¾å ‚å†™æ³• {
+    private ddd002è¯¾å ‚å†™æ³•() {
     }
 
     public static String Datetostring(Date x, String format) {
         SimpleDateFormat x1 = new SimpleDateFormat(format);
         String x2 = x1.format(x);
-        // Ê×ÏÈ£¬format¿ÉÒÔÔÚÍâ²¿µ÷ÓÃ·½·¨µÄÊ±ºòÖ±½Ó¶¨Òå£¬ÉèÖÃµÄÊ±ºò¸ü·½±ã
-        // Æä´Î£¬ÕâÀï¸÷ÖÖ²ÎÊı³ö´í
-        // Ò»¶¨Òª¼ÇµÃ£¬formatµÄÊÇDateÀàĞÍµÄ¶ÔÏó
-        // ¿ÉÒÔÀí½âÎª£¬formatÊÇ°´ÕÕ¸ñÊ½£¬¶ÔÄÃµ½µÄdateÖ´ĞĞÒ»´ÎÖØ¹¹
-        // parse²»Í¬£¬Ïàµ±ÓÚ°Ñstring¶ÔÏó£¬±ä³Édate¶ÔÏó
+        // é¦–å…ˆï¼Œformatå¯ä»¥åœ¨å¤–éƒ¨è°ƒç”¨æ–¹æ³•çš„æ—¶å€™ç›´æ¥å®šä¹‰ï¼Œè®¾ç½®çš„æ—¶å€™æ›´æ–¹ä¾¿
+        // å…¶æ¬¡ï¼Œè¿™é‡Œå„ç§å‚æ•°å‡ºé”™
+        // ä¸€å®šè¦è®°å¾—ï¼Œformatçš„æ˜¯Dateç±»å‹çš„å¯¹è±¡
+        // å¯ä»¥ç†è§£ä¸ºï¼Œformatæ˜¯æŒ‰ç…§æ ¼å¼ï¼Œå¯¹æ‹¿åˆ°çš„dateæ‰§è¡Œä¸€æ¬¡é‡æ„
+        // parseä¸åŒï¼Œç›¸å½“äºæŠŠstringå¯¹è±¡ï¼Œå˜æˆdateå¯¹è±¡
         return x2;
     }
 

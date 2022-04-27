@@ -9,19 +9,19 @@ import java.util.Properties;
  * Project:index.pb
  * Package:c2stage_20220418.ccc143properties
  * User:  wo1261931780@gmail.com
- * Time:  2022-04-21-48  ĞÇÆÚ¶ş
+ * Time:  2022-04-21-48  æ˜ŸæœŸäºŒ
  */
 public class ccc002 {
     public static void main(String[] args) throws IOException {
-        Properties x = new Properties();// Ê×ÏÈĞÂ½¨Ò»¸öÅäÖÃÎÄ¼ş¶ÔÏó
-        System.out.println(x);// Ö±½ÓÊä³ö£¬¶ÔÏóÄÚ²¿Ã»ÓĞµÃµ½Ïà¹ØĞÅÏ¢£¬ËùÒÔÊÇ¿ÕµÄ
+        Properties x = new Properties();// é¦–å…ˆæ–°å»ºä¸€ä¸ªé…ç½®æ–‡ä»¶å¯¹è±¡
+        System.out.println(x);// ç›´æ¥è¾“å‡ºï¼Œå¯¹è±¡å†…éƒ¨æ²¡æœ‰å¾—åˆ°ç›¸å…³ä¿¡æ¯ï¼Œæ‰€ä»¥æ˜¯ç©ºçš„
         x.load(new FileReader("src/c2stage_20220418/ccc143properties/ccc001.properties"));
-        // Ê¹ÓÃfilereadÒÔºó£¬ÔØÈëÏà¹Ø×ÊÔ´£¬µÃµ½ÄÚ²¿µÄĞÅÏ¢
-        System.out.println(x);// È»ºóÕ¹Ê¾£¬¾ÍÄÜ¿´µ½½á¹û
-        String demo = x.getProperty("ceshi");// »ñÈ¡Ö¸¶¨µÄ¼ü£¬½«Öµ´æµ½Ò»¸ö×Ö·û´®ÖĞ
-        System.out.println(demo);//Êä³ö£¬µÃµ½½á¹û
+        // ä½¿ç”¨filereadä»¥åï¼Œè½½å…¥ç›¸å…³èµ„æºï¼Œå¾—åˆ°å†…éƒ¨çš„ä¿¡æ¯
+        System.out.println(x);// ç„¶åå±•ç¤ºï¼Œå°±èƒ½çœ‹åˆ°ç»“æœ
+        String demo = x.getProperty("ceshi");// è·å–æŒ‡å®šçš„é”®ï¼Œå°†å€¼å­˜åˆ°ä¸€ä¸ªå­—ç¬¦ä¸²ä¸­
+        System.out.println(demo);//è¾“å‡ºï¼Œå¾—åˆ°ç»“æœ
         String demo2 = x.getProperty("222");
-        System.out.println(demo2);// Ã»ÓĞ¶ÔÓ¦¼ü£¬¾ÍÊÇnull
+        System.out.println(demo2);// æ²¡æœ‰å¯¹åº”é”®ï¼Œå°±æ˜¯null
 
 
     }

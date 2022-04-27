@@ -1,8 +1,8 @@
-package ab¶ş½×¶ÎÇ¿»¯¿Î³Ì2022Äê1ÔÂ11ÈÕ.ccc110Ã¨ºÍ¹·;
+package abäºŒé˜¶æ®µå¼ºåŒ–è¯¾ç¨‹2022å¹´1æœˆ11æ—¥.ccc110çŒ«å’Œç‹—;
 
 public class ccc004testrun {
     public static void main(String[] args) {
-        System.out.println("¿ªÊ¼ÔËĞĞ£º");
+        System.out.println("å¼€å§‹è¿è¡Œï¼š");
         ccc003testdog x = new ccc003testdog();
         x.eatsm();
         System.out.println("-------------------------------");

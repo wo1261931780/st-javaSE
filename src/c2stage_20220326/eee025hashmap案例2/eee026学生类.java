@@ -1,13 +1,13 @@
-package c2stage_20220326.eee025hashmap°¸Àı2;
+package c2stage_20220326.eee025hashmapæ¡ˆä¾‹2;
 
-public class eee026Ñ§ÉúÀà {
+public class eee026å­¦ç”Ÿç±» {
     private String age;
     private String city;
 
-    public eee026Ñ§ÉúÀà() {
+    public eee026å­¦ç”Ÿç±»() {
     }
 
-    public eee026Ñ§ÉúÀà(String age, String city) {
+    public eee026å­¦ç”Ÿç±»(String age, String city) {
         this.age = age;
         this.city = city;
     }
@@ -33,10 +33,10 @@ public class eee026Ñ§ÉúÀà {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
 
-        eee026Ñ§ÉúÀà eee026Ñ§ÉúÀà = (eee026Ñ§ÉúÀà) o;
+        eee026å­¦ç”Ÿç±» eee026å­¦ç”Ÿç±» = (eee026å­¦ç”Ÿç±») o;
 
-        if (age != null ? !age.equals(eee026Ñ§ÉúÀà.age) : eee026Ñ§ÉúÀà.age != null) return false;
-        return city != null ? city.equals(eee026Ñ§ÉúÀà.city) : eee026Ñ§ÉúÀà.city == null;
+        if (age != null ? !age.equals(eee026å­¦ç”Ÿç±».age) : eee026å­¦ç”Ÿç±».age != null) return false;
+        return city != null ? city.equals(eee026å­¦ç”Ÿç±».city) : eee026å­¦ç”Ÿç±».city == null;
     }
 
     @Override

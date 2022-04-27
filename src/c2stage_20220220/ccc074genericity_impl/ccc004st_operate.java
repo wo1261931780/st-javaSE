@@ -5,7 +5,7 @@ package c2stage_20220220.ccc074genericity_impl;
  * Project:index.pb
  * Package:c2stage_20220220.ccc074genericity_impl
  * User:  wo1261931780@gmail.com
- * Time:  2022-02-12-41  ĞÇÆÚÈÕ
+ * Time:  2022-02-12-41  ÄÃ‡Ã†ÃšÃˆÃ•
  */
 public class ccc004st_operate implements ccc001impl<ccc002student> {
 

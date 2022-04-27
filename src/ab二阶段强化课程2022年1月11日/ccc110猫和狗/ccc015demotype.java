@@ -1,8 +1,8 @@
-package ab¶ş½×¶ÎÇ¿»¯¿Î³Ì2022Äê1ÔÂ11ÈÕ.ccc110Ã¨ºÍ¹·;
+package abäºŒé˜¶æ®µå¼ºåŒ–è¯¾ç¨‹2022å¹´1æœˆ11æ—¥.ccc110çŒ«å’Œç‹—;
 
 import java.util.Scanner;
 
-//Õâ¸öÀàÊµÏÖµÄ¹¦ÄÜÊÇ£¬ÊäÈëÃ¨µÄĞÕÃûºÍÄêÁä£¬´Ó¶ø»ñµÃ´ø²ÎÊıµÄ×¥ÀÏÊó¹¦ÄÜ
+//è¿™ä¸ªç±»å®ç°çš„åŠŸèƒ½æ˜¯ï¼Œè¾“å…¥çŒ«çš„å§“åå’Œå¹´é¾„ï¼Œä»è€Œè·å¾—å¸¦å‚æ•°çš„æŠ“è€é¼ åŠŸèƒ½
 public class ccc015demotype {
     public static void main(String[] args) {
 //        System.out.println("please type name of your cat:");

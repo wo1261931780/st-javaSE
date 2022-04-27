@@ -4,12 +4,12 @@ public class ccc004object_equals_original {
     public static void main(String[] args) {
         String x = null;
         String x1 = "123";
-        // System.out.println(Object.equals(x, x1));//ÕâÀï²»ÊÇ¾²Ì¬·½·¨£¬jdk17ÖĞ£¬²»ÔÊĞíÕâÑùµ÷ÓÃ
-        // Ô´ÂëÔÚÕâÀï£º
+        // System.out.println(Object.equals(x, x1));//è¿™é‡Œä¸æ˜¯é™æ€æ–¹æ³•ï¼Œjdk17ä¸­ï¼Œä¸å…è®¸è¿™æ ·è°ƒç”¨
+        // æºç åœ¨è¿™é‡Œï¼š
         // public boolean equals(Object obj) {
         //     return (this == obj);
         // }
-        // jdk7ÖĞÊÇ¾²Ì¬·½·¨£¬¿ÉÒÔÖ±½Óµ÷ÓÃ£¬µ«ÊÇÕâÀï²»ĞĞ
+        // jdk7ä¸­æ˜¯é™æ€æ–¹æ³•ï¼Œå¯ä»¥ç›´æ¥è°ƒç”¨ï¼Œä½†æ˜¯è¿™é‡Œä¸è¡Œ
 
 
     }

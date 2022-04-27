@@ -7,7 +7,7 @@ import java.io.*;
  * Project:index.pb
  * Package:c2stage_20220416.ccc133try_with_resource
  * User:  wo1261931780@gmail.com
- * Time:  2022-04-13-17  ĞÇÆÚÁù
+ * Time:  2022-04-13-17  æ˜ŸæœŸå…­
  */
 public class ccc001 {
     public static void main(String[] args) {
@@ -16,12 +16,12 @@ public class ccc001 {
         try (
                 InputStream x2 = new FileInputStream(xx);
                 OutputStream x1 = new FileOutputStream(x);
-                // ÕâÀï¼ò»¯ÁË²Ù×÷£¬ËùÓĞµÄ×ÊÔ´È«²¿·Åµ½ÀïÃæ
-                // ¼´Ê¹³öÏÖÒì³££¬×ÊÔ´Ò²»á×Ô¶¯¹Ø±Õ£¬
-                // ºÃ´¦ÊÇ×Ô¶¯¹Ø±Õ£¬Í¬Ê±²»ÓÃÉèÖÃfinally
+                // è¿™é‡Œç®€åŒ–äº†æ“ä½œï¼Œæ‰€æœ‰çš„èµ„æºå…¨éƒ¨æ”¾åˆ°é‡Œé¢
+                // å³ä½¿å‡ºç°å¼‚å¸¸ï¼Œèµ„æºä¹Ÿä¼šè‡ªåŠ¨å…³é—­ï¼Œ
+                // å¥½å¤„æ˜¯è‡ªåŠ¨å…³é—­ï¼ŒåŒæ—¶ä¸ç”¨è®¾ç½®finally
                 // int xxxx=0;
-                // µ«ÊÇÕâÀï£¬Ö»ÄÜÉèÖÃ×ÊÔ´£¬ÆäËûµÄÃüÁî»á±¨´í
-                // ËùÓĞµÄ×ÊÔ´£¬ÆäÊµ¶¼¼Ì³ĞÁËcloseable½Ó¿Ú
+                // ä½†æ˜¯è¿™é‡Œï¼Œåªèƒ½è®¾ç½®èµ„æºï¼Œå…¶ä»–çš„å‘½ä»¤ä¼šæŠ¥é”™
+                // æ‰€æœ‰çš„èµ„æºï¼Œå…¶å®éƒ½ç»§æ‰¿äº†closeableæ¥å£
                 demoresource demoresource = new demoresource();
 
         ) {
@@ -29,7 +29,7 @@ public class ccc001 {
             int len;
             while ((len = x2.read(demo)) != -1) {
                 x1.write(demo, 0, len);
-                System.out.println("Ö´ĞĞÁËĞ´Èë²Ù×÷");
+                System.out.println("æ‰§è¡Œäº†å†™å…¥æ“ä½œ");
             }
         } catch (Exception e) {
             e.printStackTrace();
@@ -41,6 +41,6 @@ class demoresource implements AutoCloseable {
 
     @Override
     public void close() throws Exception {
-        System.out.println("ÎÒÊÇ×ÊÔ´£¬ÎÒ±»ÊÍ·ÅÁË");
+        System.out.println("æˆ‘æ˜¯èµ„æºï¼Œæˆ‘è¢«é‡Šæ”¾äº†");
     }
 }

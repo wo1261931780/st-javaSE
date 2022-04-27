@@ -1,17 +1,17 @@
 package c2stage_20220416.ccc135file_write;
 /*
-    ĞèÇó£º
-        °ÑÄ£¿éÄ¿Â¼ÏÂµÄConversionStreamDemo.java ¸´ÖÆµ½Ä£¿éÄ¿Â¼ÏÂµÄ Copy.java
+    éœ€æ±‚ï¼š
+        æŠŠæ¨¡å—ç›®å½•ä¸‹çš„ConversionStreamDemo.java å¤åˆ¶åˆ°æ¨¡å—ç›®å½•ä¸‹çš„ Copy.java
 
-    Êı¾İÔ´ºÍÄ¿µÄµØµÄ·ÖÎö
-        Êı¾İÔ´£ºmyCharStream\\ConversionStreamDemo.java --- ¶ÁÊı¾İ --- Reader --- InputStreamReader --- FileReader
-        Ä¿µÄµØ£º myCharStream\\ Copy.java --- Ğ´Êı¾İ --- Writer --- OutputStreamWriter --- FileWriter
+    æ•°æ®æºå’Œç›®çš„åœ°çš„åˆ†æ
+        æ•°æ®æºï¼šmyCharStream\\ConversionStreamDemo.java --- è¯»æ•°æ® --- Reader --- InputStreamReader --- FileReader
+        ç›®çš„åœ°ï¼š myCharStream\\ Copy.java --- å†™æ•°æ® --- Writer --- OutputStreamWriter --- FileWriter
 
-    Ë¼Â·£º
-        1:¸ù¾İÊı¾İÔ´´´½¨×Ö·ûÊäÈëÁ÷¶ÔÏó
-        2:¸ù¾İÄ¿µÄµØ´´½¨×Ö·ûÊä³öÁ÷¶ÔÏó
-        3:¶ÁĞ´Êı¾İ£¬¸´ÖÆÎÄ¼ş
-        4:ÊÍ·Å×ÊÔ´
+    æ€è·¯ï¼š
+        1:æ ¹æ®æ•°æ®æºåˆ›å»ºå­—ç¬¦è¾“å…¥æµå¯¹è±¡
+        2:æ ¹æ®ç›®çš„åœ°åˆ›å»ºå­—ç¬¦è¾“å‡ºæµå¯¹è±¡
+        3:è¯»å†™æ•°æ®ï¼Œå¤åˆ¶æ–‡ä»¶
+        4:é‡Šæ”¾èµ„æº
  */
 
 import java.io.File;
@@ -19,7 +19,7 @@ import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 
-public class eee093¸´ÖÆ°¸Àı {
+public class eee093å¤åˆ¶æ¡ˆä¾‹ {
     public static void main(String[] args) throws IOException {
         File x = new File("l:\\java\\eee087.java");
         show(x);
@@ -29,7 +29,7 @@ public class eee093¸´ÖÆ°¸Àı {
     public static void show(File x) throws IOException {
         // InputStreamReader x1 = new InputStreamReader(new FileInputStream(x));
         FileReader x1 = new FileReader(x);
-        // ´úÂë¸ü¼Ó¼ò½à
+        // ä»£ç æ›´åŠ ç®€æ´
         // OutputStreamWriter x2 = new OutputStreamWriter(new FileOutputStream("l:\\java\\33.java"));
         FileWriter x2 = new FileWriter("l:\\java\\demo\\22.java");
         char[] xx = new char[1024];

@@ -5,7 +5,7 @@ package c2stage_20220412.ccc124beer_case;
  * Project:index.pb
  * Package:c2stage_20220412.ccc124
  * User:  wo1261931780@gmail.com
- * Time:  2022-04-21-39  ĞÇÆÚ¶ş
+ * Time:  2022-04-21-39  æ˜ŸæœŸäºŒ
  */
 public class ccc001 {
     public static int balance = 10;
@@ -14,8 +14,8 @@ public class ccc001 {
     public static int seconds = 0;
 
     public static void main(String[] args) {
-        // Æ¡¾ÆÎÊÌâ£¬
-        // Ò»¿ªÊ¼¿ÉÒÔÓÃÇ®Âò£¬È»ºóÊÇÆ¿×Ó»»£¬×îºóÊÇÆ¿¸Ç»»
+        // å•¤é…’é—®é¢˜ï¼Œ
+        // ä¸€å¼€å§‹å¯ä»¥ç”¨é’±ä¹°ï¼Œç„¶åæ˜¯ç“¶å­æ¢ï¼Œæœ€åæ˜¯ç“¶ç›–æ¢
         buy(balance, button, tops);
 
     }

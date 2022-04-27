@@ -1,8 +1,8 @@
-package ab¶ş½×¶ÎÇ¿»¯¿Î³Ì2022Äê1ÔÂ11ÈÕ.ccc031ÄÚ²¿ÀàµÄ¿ª·¢ÊµÏÖ;
+package abäºŒé˜¶æ®µå¼ºåŒ–è¯¾ç¨‹2022å¹´1æœˆ11æ—¥.ccc031å†…éƒ¨ç±»çš„å¼€å‘å®ç°;
 
 public class ccc001test_jumpimp implements ccc001test_jumpint {
     @Override
     public void jump() {
-        System.out.println("ÎÒÊÇÊµÏÖÀà£¬½øĞĞÁËÒ»´ÎÖØĞ´²Ù×÷");
+        System.out.println("æˆ‘æ˜¯å®ç°ç±»ï¼Œè¿›è¡Œäº†ä¸€æ¬¡é‡å†™æ“ä½œ");
     }
 }

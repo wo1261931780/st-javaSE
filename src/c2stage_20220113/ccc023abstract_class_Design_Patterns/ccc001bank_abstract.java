@@ -10,23 +10,23 @@ public abstract class ccc001bank_abstract {
         this.account = account;
         this.balances = balances;
     }
-    // Ö®ºó×ÓÀà»áÊ¹ÓÃsuper¹Ø¼ü×Öµ÷ÓÃÓĞ²Î¹¹Ôì
-    // Òò´ËĞèÒªÌáÇ°×¼±¸ºÃ
+    // ä¹‹åå­ç±»ä¼šä½¿ç”¨superå…³é”®å­—è°ƒç”¨æœ‰å‚æ„é€ 
+    // å› æ­¤éœ€è¦æå‰å‡†å¤‡å¥½
 
     public ccc001bank_abstract() {
     }
 
-    public void login(String acc, String paw) {//ĞèÒª×¢ÒâµÄÊÇ£¬Ä£°å·½·¨Òª¼Ófinal·ÀÖ¹±»ÖØĞ´
+    public void login(String acc, String paw) {//éœ€è¦æ³¨æ„çš„æ˜¯ï¼Œæ¨¡æ¿æ–¹æ³•è¦åŠ finalé˜²æ­¢è¢«é‡å†™
         while (true) {
             if (acc.equals(account) && paw.equals(passwords)) {
                 System.out.println("login success");
-                //Ä£°å·½·¨µÄ²»Í¬Ö®´¦ÔÚÓÚ£¬»áµ÷ÓÃÒ»¸öÄÚ²¿µÄ³éÏó·½·¨
-                // ¶øÕâ¸ö³éÏó·½·¨ÊÇĞèÒª×ÓÀàÖØĞ´µÄ
-                // ÕâÀïµ÷ÓÃ£¬Ö±½Ó
+                //æ¨¡æ¿æ–¹æ³•çš„ä¸åŒä¹‹å¤„åœ¨äºï¼Œä¼šè°ƒç”¨ä¸€ä¸ªå†…éƒ¨çš„æŠ½è±¡æ–¹æ³•
+                // è€Œè¿™ä¸ªæŠ½è±¡æ–¹æ³•æ˜¯éœ€è¦å­ç±»é‡å†™çš„
+                // è¿™é‡Œè°ƒç”¨ï¼Œç›´æ¥
                 double x = caculate_rates();
-                // ÕâÀïÒòÎª´´½¨µÄÊÇ×ÓÀàµÄ¶ÔÏó£¬Ò²ÊÇÔÚ×ÓÀàÖĞµ÷ÓÃlogin·½·¨
-                // ËùÒÔÓÅÏÈ»áÊ¹ÓÃ×ÓÀàÖĞ£¬ÖØĞ´¹ıµÄ·½·¨
-                System.out.println("ÀûÏ¢ÊÇ£º" + x);
+                // è¿™é‡Œå› ä¸ºåˆ›å»ºçš„æ˜¯å­ç±»çš„å¯¹è±¡ï¼Œä¹Ÿæ˜¯åœ¨å­ç±»ä¸­è°ƒç”¨loginæ–¹æ³•
+                // æ‰€ä»¥ä¼˜å…ˆä¼šä½¿ç”¨å­ç±»ä¸­ï¼Œé‡å†™è¿‡çš„æ–¹æ³•
+                System.out.println("åˆ©æ¯æ˜¯ï¼š" + x);
                 return;
             } else {
                 System.out.println("please retry");
@@ -37,7 +37,7 @@ public abstract class ccc001bank_abstract {
     public abstract double caculate_rates();
 
     public void show_rates() {
-        System.out.println("½ğ¶îÎª£º" + getBalances() + "£¬ÀûÂÊ£º" + getRates());
+        System.out.println("é‡‘é¢ä¸ºï¼š" + getBalances() + "ï¼Œåˆ©ç‡ï¼š" + getRates());
     }
 
     public String getAccount() {

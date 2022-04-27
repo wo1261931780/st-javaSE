@@ -1,13 +1,0 @@
-
-^
-java:S5738"HRemove this call to a deprecated method, it has been marked for removal.(®ƒã
-S	java:S106"9Replace this use of System.out or System.err by a logger.(†¨¡ôüÿÿÿÿ
-7
-java:S2129"!Remove this "Integer" constructor(ó¦ë
-^
-java:S5738"HRemove this call to a deprecated method, it has been marked for removal.(ó¦ë
-N	java:S106"9Replace this use of System.out or System.err by a logger.(ÇÿË
-S	java:S106"9Replace this use of System.out or System.err by a logger.(ÕÅ®óüÿÿÿÿ
-S	java:S106"9Replace this use of System.out or System.err by a logger.(˜òóşşÿÿÿÿ
-b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(üıúĞ
-t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(„Œ¨„úÿÿÿÿ

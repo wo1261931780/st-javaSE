@@ -1,11 +1,11 @@
-package ab¶ş½×¶ÎÇ¿»¯¿Î³Ì2022Äê1ÔÂ11ÈÕ.ccc109ÀÏÊ¦Ñ§Éú¸¸Àà°¸Àı;
+package abäºŒé˜¶æ®µå¼ºåŒ–è¯¾ç¨‹2022å¹´1æœˆ11æ—¥.ccc109è€å¸ˆå­¦ç”Ÿçˆ¶ç±»æ¡ˆä¾‹;
 
 public class ccc006fu1 extends ccc005same {
     public ccc006fu1() {
     }
 
     public void te() {
-        System.out.println("ÎÒÊÇ1ÖĞµÄte·½·¨");
+        System.out.println("æˆ‘æ˜¯1ä¸­çš„teæ–¹æ³•");
         ccc005same x1 = new ccc005same();
         x1.setName("111");
         x1.setAge(111);

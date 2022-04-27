@@ -5,10 +5,10 @@ package c2stage_20220404.ccc111log_system;
  * Project:index.pb
  * Package:c2stage_20220404.ccc111log_system
  * User:  wo1261931780@gmail.com
- * Time:  2022-04-15-16  ĞÇÆÚÒ»
+ * Time:  2022-04-15-16  æ˜ŸæœŸä¸€
  */
 public class ccc001 {
     public static void main(String[] args) {
-        // 2022Äê4ÔÂ4ÈÕ17:30:34£¬ÕâÀïÒªÉæ¼°µ½Ò»¸öÈÕÖ¾¼¼ÊõºÍ½×¶ÎĞÔÏîÄ¿£¬ÔİÊ±²»µ¼Èë
+        // 2022å¹´4æœˆ4æ—¥17:30:34ï¼Œè¿™é‡Œè¦æ¶‰åŠåˆ°ä¸€ä¸ªæ—¥å¿—æŠ€æœ¯å’Œé˜¶æ®µæ€§é¡¹ç›®ï¼Œæš‚æ—¶ä¸å¯¼å…¥
     }
 }

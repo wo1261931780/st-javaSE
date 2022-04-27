@@ -1,10 +1,10 @@
-package abÍùÆÚÑ§Ï°2021Äê10ÔÂ2ÈÕ.aaa001³õÆÚÑ§Ï°¼¯ºÏ;
+package abå¾€æœŸå­¦ä¹ 2021å¹´10æœˆ2æ—¥.aaa001åˆæœŸå­¦ä¹ é›†åˆ;
 
 /**
- * ÐèÇó£ºÕÒ³ö101-200Ö®¼äµÄËØÊýÊä³ö£º
- * ËØÊýÊÇÊ²Ã´£ºÈç¹û³ýÁË1ºÍËü±¾ÉíÒÔÍâ£¬²»ÄÜ±»ÆäËûÕýÕûÊýÕû³ý£¬¾Í½ÐËØÊý¡£
+ * éœ€æ±‚ï¼šæ‰¾å‡º101-200ä¹‹é—´çš„ç´ æ•°è¾“å‡ºï¼š
+ * ç´ æ•°æ˜¯ä»€ä¹ˆï¼šå¦‚æžœé™¤äº†1å’Œå®ƒæœ¬èº«ä»¥å¤–ï¼Œä¸èƒ½è¢«å…¶ä»–æ­£æ•´æ•°æ•´é™¤ï¼Œå°±å«ç´ æ•°ã€‚
  */
-public class aaa027ÕÒËØÊý {
+public class aaa027æ‰¾ç´ æ•° {
     public static void main(String[] args) {
         show();
         System.out.println("end");
@@ -20,13 +20,13 @@ public class aaa027ÕÒËØÊý {
             //     // x++;
             //     System.out.println(++x);
             // }
-            // ÉÏÃæµÄÅÐ¶ÏÊÇ·ñÊÇ357µÄ±¶Êý£¬Í¬Ê±ÒÑ¾­ÅÅ³ýÁËËùÓÐÅ¼ÊýÊý¾Ý£¬½á¹ûÎª25¸ö
-            //ÐÅºÅÎ»£¬ÓÃÀ´Ê¶±ð×´Ì¬ÊÇ·ñ·¢Éú¸Ä±ä
+            // ä¸Šé¢çš„åˆ¤æ–­æ˜¯å¦æ˜¯357çš„å€æ•°ï¼ŒåŒæ—¶å·²ç»æŽ’é™¤äº†æ‰€æœ‰å¶æ•°æ•°æ®ï¼Œç»“æžœä¸º25ä¸ª
+            //ä¿¡å·ä½ï¼Œç”¨æ¥è¯†åˆ«çŠ¶æ€æ˜¯å¦å‘ç”Ÿæ”¹å˜
 
             boolean a = true;
             for (int j = 3; j < i / 2; j++) {
                 if (i % j == 0) {
-                    //Èç¹û¿ÉÒÔÕû³ý£¬ËµÃ÷²»ÊÇËØÊý£¬ËùÒÔ²»½øÐÐÕ¹Ê¾
+                    //å¦‚æžœå¯ä»¥æ•´é™¤ï¼Œè¯´æ˜Žä¸æ˜¯ç´ æ•°ï¼Œæ‰€ä»¥ä¸è¿›è¡Œå±•ç¤º
                     a = false;
                     break;
                 }

@@ -1,24 +1,24 @@
 package c2stage_20220202.ccc032Local_Internal_Classes;
 
-public class ccc033¾Ö²¿ÄÚ²¿Àà {
+public class ccc033å±€éƒ¨å†…éƒ¨ç±» {
     private int xx = 10;
 
     public void eat() {
 
-        // ·½·¨ÖÐµÄÀà£¬¾Ö²¿ÄÚ²¿Àà
+        // æ–¹æ³•ä¸­çš„ç±»ï¼Œå±€éƒ¨å†…éƒ¨ç±»
 
         class some {
-            // ³ÉÔ±ÄÚ²¿ÀàÊÇÀàÖÐ¼äÓÐ·½·¨£¬
-            // ¾Ö²¿ÄÚ²¿ÀàÊÇ·½·¨ÖÐ¼äÓÐÀà£¬ÀàÖÐ»¹¿ÉÒÔ¼ÌÐø´´½¨·½·¨
+            // æˆå‘˜å†…éƒ¨ç±»æ˜¯ç±»ä¸­é—´æœ‰æ–¹æ³•ï¼Œ
+            // å±€éƒ¨å†…éƒ¨ç±»æ˜¯æ–¹æ³•ä¸­é—´æœ‰ç±»ï¼Œç±»ä¸­è¿˜å¯ä»¥ç»§ç»­åˆ›å»ºæ–¹æ³•
 
-            // ÒòÎª¾Ö²¿ÄÚ²¿Àà´æÔÚÓÚ·½·¨ÖÐ£¬ËùÒÔµ÷ÓÃ¸üÉî²ãµÄ·½·¨Ò²ÐèÒª´´½¨ÐÂ¶ÔÏó
+            // å› ä¸ºå±€éƒ¨å†…éƒ¨ç±»å­˜åœ¨äºŽæ–¹æ³•ä¸­ï¼Œæ‰€ä»¥è°ƒç”¨æ›´æ·±å±‚çš„æ–¹æ³•ä¹Ÿéœ€è¦åˆ›å»ºæ–°å¯¹è±¡
             public void show() {
                 System.out.println("show inside stuff");
             }
         }
         some ss = new some();
-        // µ÷ÓÃÀàÖÐµÄ·½·¨£¬±ØÐëÔÚÀàÖÐ´´½¨¶ÔÏó£¬
-        // ¶ø´´½¨¶ÔÏóµÄ²Ù×÷±ØÐëÎ»ÓÚ·½·¨ÄÚ²¿£¬ÀàµÄÍâÃæ
+        // è°ƒç”¨ç±»ä¸­çš„æ–¹æ³•ï¼Œå¿…é¡»åœ¨ç±»ä¸­åˆ›å»ºå¯¹è±¡ï¼Œ
+        // è€Œåˆ›å»ºå¯¹è±¡çš„æ“ä½œå¿…é¡»ä½äºŽæ–¹æ³•å†…éƒ¨ï¼Œç±»çš„å¤–é¢
         ss.show();
     }
 }

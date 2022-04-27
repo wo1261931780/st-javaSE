@@ -3,6 +3,6 @@ package c2stage_20220113.ccc014package;
 public class ccc001package {
     public static void main(String[] args) {
         System.out.println("show");
-        // ÏàÍ¬µÄ°üÏÂ£¬Àà¿ÉÒÔ»¥Ïà·ÃÎÊ
+        // ç›¸åŒçš„åŒ…ä¸‹ï¼Œç±»å¯ä»¥äº’ç›¸è®¿é—®
     }
 }

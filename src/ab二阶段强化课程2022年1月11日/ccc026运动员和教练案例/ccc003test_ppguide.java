@@ -1,4 +1,4 @@
-package ab¶ş½×¶ÎÇ¿»¯¿Î³Ì2022Äê1ÔÂ11ÈÕ.ccc026ÔË¶¯Ô±ºÍ½ÌÁ·°¸Àı;
+package abäºŒé˜¶æ®µå¼ºåŒ–è¯¾ç¨‹2022å¹´1æœˆ11æ—¥.ccc026è¿åŠ¨å‘˜å’Œæ•™ç»ƒæ¡ˆä¾‹;
 
 public class ccc003test_ppguide extends ccc002test_guide implements ccc001test_learn {
     public ccc003test_ppguide(String name, int age) {
@@ -16,6 +16,6 @@ public class ccc003test_ppguide extends ccc002test_guide implements ccc001test_l
     @Override
     public void jobsm() {
         // super.jobsm();
-        System.out.println("Æ¹ÅÒÇò½ÌÁ·" + name + "Ñ§Ï°Ó¢Óï£¬½ÌÊÚÔË¶¯Ô±" + age);
+        System.out.println("ä¹’ä¹“çƒæ•™ç»ƒ" + name + "å­¦ä¹ è‹±è¯­ï¼Œæ•™æˆè¿åŠ¨å‘˜" + age);
     }
 }

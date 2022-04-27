@@ -9,9 +9,9 @@ import java.util.List;
  * Project:index.pb
  * Package:c2stage_20220220.ccc066list_iterator
  * User:  wo1261931780@gmail.com
- * Time:  2022-02-19-57  ĞÇÆÚÁù
+ * Time:  2022-02-19-57  æ˜ŸæœŸå…­
  */
-public class ccc001list±éÀúĞ¡½á {
+public class ccc001listéå†å°ç»“ {
     public static void main(String[] args) {
         List<String> demo = new ArrayList<>();
         demo.add("111");
@@ -24,7 +24,7 @@ public class ccc001list±éÀúĞ¡½á {
         show4(demo);
     }
 
-    // ĞèÒªÖªµÀ±éÀúÎ»ÖÃ/¶Ô±éÀúÓĞÒªÇóµÄÊ±ºòÊ¹ÓÃ
+    // éœ€è¦çŸ¥é“éå†ä½ç½®/å¯¹éå†æœ‰è¦æ±‚çš„æ—¶å€™ä½¿ç”¨
 
     public static void show(List<String> x) {
         for (int i = 0; i < x.size(); i++) {
@@ -36,13 +36,13 @@ public class ccc001list±éÀúĞ¡½á {
         Iterator<String> demo = x.iterator();
         while (demo.hasNext()) {
             String x1 = demo.next();
-            System.out.println("µü´úÆ÷£º" + x1);
+            System.out.println("è¿­ä»£å™¨ï¼š" + x1);
         }
     }
 
     public static void show3(List<String> x) {
         for (String i : x) {
-            System.out.println("ÔöÇ¿for£º" + i);
+            System.out.println("å¢å¼ºforï¼š" + i);
         }
     }
 

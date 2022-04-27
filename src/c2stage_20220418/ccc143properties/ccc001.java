@@ -9,21 +9,21 @@ import java.util.Properties;
  * Project:index.pb
  * Package:c2stage_20220418.ccc143properties
  * User:  wo1261931780@gmail.com
- * Time:  2022-04-21-38  ĞÇÆÚ¶ş
+ * Time:  2022-04-21-38  æ˜ŸæœŸäºŒ
  */
 public class ccc001 {
     public static void main(String[] args) throws IOException {
         Properties x = new Properties();
-        x.put("demo", "demo");// ÒòÎªÊÇmap¼Ò×åµÄ£¬ËùÒÔÖ±½ÓÊ¹ÓÃputÒ²¿ÉÒÔ£¬
-        x.setProperty("ceshi", "123");//setpropertiesµÄµ×²ãÒ²ÊÇput£¬µ«ÊÇÊ¹ÓÃÌØÊâµÄapi£¬ÏÔµÃ×¨Òµ
+        x.put("demo", "demo");// å› ä¸ºæ˜¯mapå®¶æ—çš„ï¼Œæ‰€ä»¥ç›´æ¥ä½¿ç”¨putä¹Ÿå¯ä»¥ï¼Œ
+        x.setProperty("ceshi", "123");//setpropertiesçš„åº•å±‚ä¹Ÿæ˜¯putï¼Œä½†æ˜¯ä½¿ç”¨ç‰¹æ®Šçš„apiï¼Œæ˜¾å¾—ä¸“ä¸š
         x.setProperty("ceshi2", "222");
         x.setProperty("ceshi2", "222");
         x.setProperty("ceshi2", "222");
         System.out.println(x);// {ceshi=123, ceshi2=222, demo=demo}
-        x.store(new FileWriter("src/c2stage_20220418/ccc143properties/ccc001.properties"), "ÎÒÊÇÅäÖÃÎÄ¼ş£¬give me 100RMB");
-        // ×ÊÔ´»á±»×Ô¶¯¹Ø±Õ£¬²»ĞèÒªÊÖ¶¯ÉèÖÃ
-        // #Tue Apr 19 21:45:03 CST 2022ÄÚ²¿»á×Ô¶¯ÉèÖÃ´´½¨Ê±¼ä£¬
-        // Èç¹ûÃ¿´Î¶¼ÊÇĞ´Èë£¬ÄÇÃ´Ê±¼ä»á×Ô¶¯¸üĞÂ
+        x.store(new FileWriter("src/c2stage_20220418/ccc143properties/ccc001.properties"), "æˆ‘æ˜¯é…ç½®æ–‡ä»¶ï¼Œgive me 100RMB");
+        // èµ„æºä¼šè¢«è‡ªåŠ¨å…³é—­ï¼Œä¸éœ€è¦æ‰‹åŠ¨è®¾ç½®
+        // #Tue Apr 19 21:45:03 CST 2022å†…éƒ¨ä¼šè‡ªåŠ¨è®¾ç½®åˆ›å»ºæ—¶é—´ï¼Œ
+        // å¦‚æœæ¯æ¬¡éƒ½æ˜¯å†™å…¥ï¼Œé‚£ä¹ˆæ—¶é—´ä¼šè‡ªåŠ¨æ›´æ–°
         
 
     }

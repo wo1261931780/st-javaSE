@@ -1,19 +1,19 @@
-package ab¶ş½×¶ÎÇ¿»¯¿Î³Ì2022Äê1ÔÂ11ÈÕ.ccc018Ã¨¹·¶àÌ¬°¸Àı;
+package abäºŒé˜¶æ®µå¼ºåŒ–è¯¾ç¨‹2022å¹´1æœˆ11æ—¥.ccc018çŒ«ç‹—å¤šæ€æ¡ˆä¾‹;
 
 public class ccc022demo {
     public static void main(String[] args) {
         ccc021animal x = new ccc019cat();
         x.setName("cat1");
         x.setAge(11);
-        System.out.println(x.getName() + "ÏÖÔÚÒÑ¾­" + x.getAge() + "ËêÁË");
+        System.out.println(x.getName() + "ç°åœ¨å·²ç»" + x.getAge() + "å²äº†");
         x.run();
-        //ÏòÉÏ¡£
+        //å‘ä¸Šã€‚
         System.out.println("----------------");
         ccc019cat x1 = (ccc019cat) x;
         x1.run();
         ((ccc019cat) x).near();
-        //Êµ¼ÊÉÏÊÇx1.near();
-        //ÒòÎªx1=cat x£»
+        //å®é™…ä¸Šæ˜¯x1.near();
+        //å› ä¸ºx1=cat xï¼›
         System.out.println("----------------");
         x = new ccc020dog();
         x.run();

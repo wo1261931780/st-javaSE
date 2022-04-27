@@ -1,19 +1,19 @@
 package c2stage_20220326.ccc093map_api;
 /*
-    Map¼¯ºÏµÄ»ù±¾¹¦ÄÜ£º
-        V put(K key,V value)£ºÌí¼ÓÔªËØ
-        V remove(Object key)£º¸ù¾İ¼üÉ¾³ı¼üÖµ¶ÔÔªËØ
-        void clear()£ºÒÆ³ıËùÓĞµÄ¼üÖµ¶ÔÔªËØ
-        boolean containsKey(Object key)£ºÅĞ¶Ï¼¯ºÏÊÇ·ñ°üº¬Ö¸¶¨µÄ¼ü
-        boolean containsValue(Object value)£ºÅĞ¶Ï¼¯ºÏÊÇ·ñ°üº¬Ö¸¶¨µÄÖµ(×ÔÑ§)
-        boolean isEmpty()£ºÅĞ¶Ï¼¯ºÏÊÇ·ñÎª¿Õ
-        int size()£º¼¯ºÏµÄ³¤¶È£¬Ò²¾ÍÊÇ¼¯ºÏÖĞ¼üÖµ¶ÔµÄ¸öÊı
+    Mapé›†åˆçš„åŸºæœ¬åŠŸèƒ½ï¼š
+        V put(K key,V value)ï¼šæ·»åŠ å…ƒç´ 
+        V remove(Object key)ï¼šæ ¹æ®é”®åˆ é™¤é”®å€¼å¯¹å…ƒç´ 
+        void clear()ï¼šç§»é™¤æ‰€æœ‰çš„é”®å€¼å¯¹å…ƒç´ 
+        boolean containsKey(Object key)ï¼šåˆ¤æ–­é›†åˆæ˜¯å¦åŒ…å«æŒ‡å®šçš„é”®
+        boolean containsValue(Object value)ï¼šåˆ¤æ–­é›†åˆæ˜¯å¦åŒ…å«æŒ‡å®šçš„å€¼(è‡ªå­¦)
+        boolean isEmpty()ï¼šåˆ¤æ–­é›†åˆæ˜¯å¦ä¸ºç©º
+        int size()ï¼šé›†åˆçš„é•¿åº¦ï¼Œä¹Ÿå°±æ˜¯é›†åˆä¸­é”®å€¼å¯¹çš„ä¸ªæ•°
  */
 
 import java.util.HashMap;
 import java.util.Map;
 
-public class eee015map»ù±¾¹¦ÄÜ {
+public class eee015mapåŸºæœ¬åŠŸèƒ½ {
     public static void main(String[] args) {
         Map<String, String> x = new HashMap<>();
         x.put("111", "a1");
@@ -22,24 +22,24 @@ public class eee015map»ù±¾¹¦ÄÜ {
         x.put("444", "a4");
         System.out.println(x);
         System.out.println(x.remove("aaa"));
-        // ½á¹ûÎªnull
+        // ç»“æœä¸ºnull
         System.out.println(x.remove("111"));
-        // ·µ»Ø±»É¾³ıµÄÔªËØa1
+        // è¿”å›è¢«åˆ é™¤çš„å…ƒç´ a1
         System.out.println(x);
         // {222=a2, 333=a3, 444=a4}
         // ----------------------------------------------------
         System.out.println(x.containsKey("222"));
         System.out.println(x.containsValue("a3"));
-        // ÅĞ¶ÏmapÖĞÊÇ·ñ°üº¬Ö¸¶¨ºÍkeyºÍvalue
-        // ·µ»ØµÄ¶¼ÊÇtrueºÍfalse
+        // åˆ¤æ–­mapä¸­æ˜¯å¦åŒ…å«æŒ‡å®šå’Œkeyå’Œvalue
+        // è¿”å›çš„éƒ½æ˜¯trueå’Œfalse
         // ----------------------------------------------------
         // x.clear();
         // System.out.println(x);
-        // Ö±½ÓÇå¿ÕËùÓĞµÄÊı¾İ
+        // ç›´æ¥æ¸…ç©ºæ‰€æœ‰çš„æ•°æ®
         // ----------------------------------------------------
         System.out.println(x.isEmpty());
-        // ÅĞ¶Ï¼¯ºÏÊÇ·ñÎª¿Õ
+        // åˆ¤æ–­é›†åˆæ˜¯å¦ä¸ºç©º
         System.out.println(x.size());
-        // ÅĞ¶Ï¼¯ºÏ³¤¶È
+        // åˆ¤æ–­é›†åˆé•¿åº¦
     }
 }

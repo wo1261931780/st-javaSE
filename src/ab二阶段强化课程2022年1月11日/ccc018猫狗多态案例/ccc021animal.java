@@ -1,11 +1,11 @@
-package ab¶ş½×¶ÎÇ¿»¯¿Î³Ì2022Äê1ÔÂ11ÈÕ.ccc018Ã¨¹·¶àÌ¬°¸Àı;
+package abäºŒé˜¶æ®µå¼ºåŒ–è¯¾ç¨‹2022å¹´1æœˆ11æ—¥.ccc018çŒ«ç‹—å¤šæ€æ¡ˆä¾‹;
 
 public class ccc021animal {
     private int age;
     private String name;
 
     public void run() {
-        System.out.println("animalÀàÖĞµÄrun----------------");
+        System.out.println("animalç±»ä¸­çš„run----------------");
     }
 
     public ccc021animal() {

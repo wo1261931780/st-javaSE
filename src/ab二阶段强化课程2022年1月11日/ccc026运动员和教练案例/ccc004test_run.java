@@ -1,8 +1,8 @@
-package ab¶ş½×¶ÎÇ¿»¯¿Î³Ì2022Äê1ÔÂ11ÈÕ.ccc026ÔË¶¯Ô±ºÍ½ÌÁ·°¸Àı;
+package abäºŒé˜¶æ®µå¼ºåŒ–è¯¾ç¨‹2022å¹´1æœˆ11æ—¥.ccc026è¿åŠ¨å‘˜å’Œæ•™ç»ƒæ¡ˆä¾‹;
 
 public class ccc004test_run {
     public static void main(String[] args) {
-        System.out.println("ÎÒÊÇÖ÷·½·¨");
+        System.out.println("æˆ‘æ˜¯ä¸»æ–¹æ³•");
         ccc003test_ppplayer x = new ccc003test_ppplayer("11", 11);
         x.eatsm();
         x.jobsm();

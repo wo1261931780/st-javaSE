@@ -1,15 +1,15 @@
-package c2stage_20220302.ddd089³É¼¨ÅÅĞò°¸Àı;
+package c2stage_20220302.ddd089æˆç»©æ’åºæ¡ˆä¾‹;
 
-public class ddd090¶ÔÏóÀà {
+public class ddd090å¯¹è±¡ç±» {
     private String name;
     private int ywscore;
     private int mathscore;
     private int totalscore;
 
-    public ddd090¶ÔÏóÀà() {
+    public ddd090å¯¹è±¡ç±»() {
     }
 
-    public ddd090¶ÔÏóÀà(String name, int ywscore, int mathscore, int totalscore) {
+    public ddd090å¯¹è±¡ç±»(String name, int ywscore, int mathscore, int totalscore) {
         this.name = name;
         this.ywscore = ywscore;
         this.mathscore = mathscore;
@@ -49,8 +49,8 @@ public class ddd090¶ÔÏóÀà {
     }
 
     /**
-     * ³£¼ûµÄ·½·¨£¬²»ÊÇÖ±½ÓÉèÖÃÒ»¸ö×Ü·ÖÊı¾İ
-     * ¶øÊÇÌá¹©Ò»¸ö×Ü·Ö·½·¨
+     * å¸¸è§çš„æ–¹æ³•ï¼Œä¸æ˜¯ç›´æ¥è®¾ç½®ä¸€ä¸ªæ€»åˆ†æ•°æ®
+     * è€Œæ˜¯æä¾›ä¸€ä¸ªæ€»åˆ†æ–¹æ³•
      */
     public int getsum() {
         return this.ywscore + this.mathscore;

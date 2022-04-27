@@ -5,25 +5,25 @@ package c2stage_20220421.ccc146thread_runnable;
  * Project:index.pb
  * Package:c2stage_20220421.ccc146thread_runnable
  * User:  wo1261931780@gmail.com
- * Time:  2022-04-22-54  ĞÇÆÚÎå
+ * Time:  2022-04-22-54  æ˜ŸæœŸäº”
  */
 public class ccc002 {
     public static void main(String[] args) {
         // Runnable x = new Runnable() {
         //     @Override
         //     public void run() {
-        //         System.out.println("ÎÒÊÇÄäÃûÄÚ²¿Àà");
+        //         System.out.println("æˆ‘æ˜¯åŒ¿åå†…éƒ¨ç±»");
         //     }
         // };
         // Thread x1=new Thread(x);
-        // ±¾ÖÊÉÏ£¬ÄäÃûÄÚ²¿Àà¾ÍÊÇÒ»¸ö¶ÔÏó
-        // ¶øÎÒÊµÏÖÀà¹¹ÔìµÄÏß³Ì£¬Ò²Ö»ÊÇĞèÒªÒ»¸öÄ¿±ê¶ÔÏó¶øÒÑ
-        // Òò´Ë£¬ÎÒÖ±½Ó½«Ä¿±ê¶ÔÏó·Åµ½Ïß³ÌÖĞ£¬¾Í¿ÉÒÔÍê³É¹¹Ôì¹ı³Ì
-        // ÉÏÃæµÄ·½·¨¶¼Ì«Âé·³------------------------------
+        // æœ¬è´¨ä¸Šï¼ŒåŒ¿åå†…éƒ¨ç±»å°±æ˜¯ä¸€ä¸ªå¯¹è±¡
+        // è€Œæˆ‘å®ç°ç±»æ„é€ çš„çº¿ç¨‹ï¼Œä¹Ÿåªæ˜¯éœ€è¦ä¸€ä¸ªç›®æ ‡å¯¹è±¡è€Œå·²
+        // å› æ­¤ï¼Œæˆ‘ç›´æ¥å°†ç›®æ ‡å¯¹è±¡æ”¾åˆ°çº¿ç¨‹ä¸­ï¼Œå°±å¯ä»¥å®Œæˆæ„é€ è¿‡ç¨‹
+        // ä¸Šé¢çš„æ–¹æ³•éƒ½å¤ªéº»çƒ¦------------------------------
         Thread x1 = new Thread(new Runnable() {
             @Override
             public void run() {
-                System.out.println("ÎÒÊÇÄäÃûÄÚ²¿Àà");
+                System.out.println("æˆ‘æ˜¯åŒ¿åå†…éƒ¨ç±»");
             }
         });
         x1.start();

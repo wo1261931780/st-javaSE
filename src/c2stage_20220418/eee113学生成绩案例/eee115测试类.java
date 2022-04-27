@@ -1,19 +1,19 @@
-package c2stage_20220418.eee113Ñ§Éú³É¼¨°¸Àı;
+package c2stage_20220418.eee113å­¦ç”Ÿæˆç»©æ¡ˆä¾‹;
 /*
-    ĞèÇó£º¼üÅÌÂ¼Èë5¸öÑ§ÉúĞÅÏ¢(ĞÕÃû,ÓïÎÄ³É¼¨,ÊıÑ§³É¼¨,Ó¢Óï³É¼¨)¡£ÒªÇó°´ÕÕ³É¼¨×Ü·Ö´Ó¸ßµ½µÍĞ´ÈëÎÄ±¾ÎÄ¼ş
-          ¸ñÊ½£ºĞÕÃû,ÓïÎÄ³É¼¨,ÊıÑ§³É¼¨,Ó¢Óï³É¼¨	¾ÙÀı£ºÁÖÇàÏ¼,98,99,100
+    éœ€æ±‚ï¼šé”®ç›˜å½•å…¥5ä¸ªå­¦ç”Ÿä¿¡æ¯(å§“å,è¯­æ–‡æˆç»©,æ•°å­¦æˆç»©,è‹±è¯­æˆç»©)ã€‚è¦æ±‚æŒ‰ç…§æˆç»©æ€»åˆ†ä»é«˜åˆ°ä½å†™å…¥æ–‡æœ¬æ–‡ä»¶
+          æ ¼å¼ï¼šå§“å,è¯­æ–‡æˆç»©,æ•°å­¦æˆç»©,è‹±è¯­æˆç»©	ä¸¾ä¾‹ï¼šæ—é’éœ,98,99,100
 
-    Ë¼Â·£º
-        1:¶¨ÒåÑ§ÉúÀà
-        2:´´½¨TreeSet¼¯ºÏ£¬Í¨¹ı±È½ÏÆ÷ÅÅĞò½øĞĞÅÅĞò
-        3:¼üÅÌÂ¼ÈëÑ§ÉúÊı¾İ
-        4:´´½¨Ñ§Éú¶ÔÏó£¬°Ñ¼üÅÌÂ¼ÈëµÄÊı¾İ¶ÔÓ¦¸³Öµ¸øÑ§Éú¶ÔÏóµÄ³ÉÔ±±äÁ¿
-        5:°ÑÑ§Éú¶ÔÏóÌí¼Óµ½TreeSet¼¯ºÏ
-        6:´´½¨×Ö·û»º³åÊä³öÁ÷¶ÔÏó
-        7:±éÀú¼¯ºÏ£¬µÃµ½Ã¿Ò»¸öÑ§Éú¶ÔÏó
-        8:°ÑÑ§Éú¶ÔÏóµÄÊı¾İÆ´½Ó³ÉÖ¸¶¨¸ñÊ½µÄ×Ö·û´®
-        9:µ÷ÓÃ×Ö·û»º³åÊä³öÁ÷¶ÔÏóµÄ·½·¨Ğ´Êı¾İ
-        10:ÊÍ·Å×ÊÔ´
+    æ€è·¯ï¼š
+        1:å®šä¹‰å­¦ç”Ÿç±»
+        2:åˆ›å»ºTreeSeté›†åˆï¼Œé€šè¿‡æ¯”è¾ƒå™¨æ’åºè¿›è¡Œæ’åº
+        3:é”®ç›˜å½•å…¥å­¦ç”Ÿæ•°æ®
+        4:åˆ›å»ºå­¦ç”Ÿå¯¹è±¡ï¼ŒæŠŠé”®ç›˜å½•å…¥çš„æ•°æ®å¯¹åº”èµ‹å€¼ç»™å­¦ç”Ÿå¯¹è±¡çš„æˆå‘˜å˜é‡
+        5:æŠŠå­¦ç”Ÿå¯¹è±¡æ·»åŠ åˆ°TreeSeté›†åˆ
+        6:åˆ›å»ºå­—ç¬¦ç¼“å†²è¾“å‡ºæµå¯¹è±¡
+        7:éå†é›†åˆï¼Œå¾—åˆ°æ¯ä¸€ä¸ªå­¦ç”Ÿå¯¹è±¡
+        8:æŠŠå­¦ç”Ÿå¯¹è±¡çš„æ•°æ®æ‹¼æ¥æˆæŒ‡å®šæ ¼å¼çš„å­—ç¬¦ä¸²
+        9:è°ƒç”¨å­—ç¬¦ç¼“å†²è¾“å‡ºæµå¯¹è±¡çš„æ–¹æ³•å†™æ•°æ®
+        10:é‡Šæ”¾èµ„æº
  */
 
 import java.io.BufferedWriter;
@@ -23,14 +23,14 @@ import java.util.Comparator;
 import java.util.Scanner;
 import java.util.TreeSet;
 
-public class eee115²âÊÔÀà {
+public class eee115æµ‹è¯•ç±» {
     public static void main(String[] args) throws IOException {
-        // ArrayList<eee114¶ÔÏóÀà> xx = new ArrayList<>();
-        // ĞèÒª±È½Ï£¬ËùÒÔÅÅĞòÊ¹ÓÃtreeset¼¯ºÏ£¬
-        // ÕâÀïĞèÒªÖØĞ´·½·¨£¬Ê¹ÓÃÄäÃûÄÚ²¿ÀàµÄ·½Ê½¶¨Òå
-        TreeSet<eee114¶ÔÏóÀà> xx = new TreeSet<>(new Comparator<eee114¶ÔÏóÀà>() {
+        // ArrayList<eee114å¯¹è±¡ç±»> xx = new ArrayList<>();
+        // éœ€è¦æ¯”è¾ƒï¼Œæ‰€ä»¥æ’åºä½¿ç”¨treeseté›†åˆï¼Œ
+        // è¿™é‡Œéœ€è¦é‡å†™æ–¹æ³•ï¼Œä½¿ç”¨åŒ¿åå†…éƒ¨ç±»çš„æ–¹å¼å®šä¹‰
+        TreeSet<eee114å¯¹è±¡ç±»> xx = new TreeSet<>(new Comparator<eee114å¯¹è±¡ç±»>() {
             @Override
-            public int compare(eee114¶ÔÏóÀà o1, eee114¶ÔÏóÀà o2) {
+            public int compare(eee114å¯¹è±¡ç±» o1, eee114å¯¹è±¡ç±» o2) {
                 int num = o1.getScore_all() - o2.getScore_all();
                 int num2 = num == 0 ? o1.getScore_yw() - o2.getScore_yw() : num;
                 int num3 = num2 == 0 ? o1.getScore_math() - o2.getScore_math() : num2;
@@ -49,31 +49,31 @@ public class eee115²âÊÔÀà {
 
     }
 
-    public static void wri(TreeSet<eee114¶ÔÏóÀà> xx) {
+    public static void wri(TreeSet<eee114å¯¹è±¡ç±»> xx) {
         Scanner x = new Scanner(System.in);
-        System.out.println("ÇëÊäÈëĞÕÃû£º");
+        System.out.println("è¯·è¾“å…¥å§“åï¼š");
         String x2 = x.nextLine();
-        System.out.println("ÇëÊäÈëÑ§ºÅ£º");
+        System.out.println("è¯·è¾“å…¥å­¦å·ï¼š");
         String x3 = x.nextLine();
-        System.out.println("ÇëÊäÈëÓïÎÄ³É¼¨£º");
+        System.out.println("è¯·è¾“å…¥è¯­æ–‡æˆç»©ï¼š");
         int x4 = x.nextInt();
-        System.out.println("ÇëÊäÈëÊıÑ§³É¼¨£º");
+        System.out.println("è¯·è¾“å…¥æ•°å­¦æˆç»©ï¼š");
         int x5 = x.nextInt();
-        System.out.println("ÇëÊäÈëÓ¢Óï³É¼¨£º");
+        System.out.println("è¯·è¾“å…¥è‹±è¯­æˆç»©ï¼š");
         int x6 = x.nextInt();
         int sum = x4 + x5 + x6;
-        eee114¶ÔÏóÀà x1 = new eee114¶ÔÏóÀà(x2, x3, x4, x5, x6, sum);
-        // System.out.println(x1.getName() + "£¬" + x1.getNum() + "£¬" + x1.getScore_yw() + "£¬" + x1.getScore_math() + "£¬" + x1.getScore_en());
+        eee114å¯¹è±¡ç±» x1 = new eee114å¯¹è±¡ç±»(x2, x3, x4, x5, x6, sum);
+        // System.out.println(x1.getName() + "ï¼Œ" + x1.getNum() + "ï¼Œ" + x1.getScore_yw() + "ï¼Œ" + x1.getScore_math() + "ï¼Œ" + x1.getScore_en());
         xx.add(x1);
     }
 
-    public static void filewri(TreeSet<eee114¶ÔÏóÀà> xx) throws IOException {
+    public static void filewri(TreeSet<eee114å¯¹è±¡ç±»> xx) throws IOException {
         BufferedWriter x = new BufferedWriter(new FileWriter("l:\\java\\demo.txt"));
-        for (eee114¶ÔÏóÀà i : xx) {
+        for (eee114å¯¹è±¡ç±» i : xx) {
             StringBuilder x1 = new StringBuilder();
             x1.append(i.getName()).append(",").append(i.getNum()).append(",").append(i.getScore_yw()).append(",").append(i.getScore_math()).append(",").append(i.getScore_en()).append(",").append(i.getScore_all());
             // x.write(String.valueOf(x1));
-            // ¹Ù·½ÍÆ¼öÊ¹ÓÃtostring·½·¨Ğ´Èë
+            // å®˜æ–¹æ¨èä½¿ç”¨tostringæ–¹æ³•å†™å…¥
             x.write(x1.toString());
             x.newLine();
             x.flush();

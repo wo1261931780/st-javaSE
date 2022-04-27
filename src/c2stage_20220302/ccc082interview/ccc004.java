@@ -5,7 +5,7 @@ package c2stage_20220302.ccc082interview;
  * Project:index.pb
  * Package:c2stage_20220302.ccc082interview
  * User:  wo1261931780@gmail.com
- * Time:  2022-03-09-30  ĞÇÆÚÎå
+ * Time:  2022-03-09-30  æ˜ŸæœŸäº”
  */
 public class ccc004 {
     public static void main(String[] args) {
@@ -16,11 +16,11 @@ public class ccc004 {
     }
 
     public static int show1(int[] x) {
-        // 1.ÔªËØ¸öÊı
-        // 2.¹ÉÆ±¼Û¸ñ
-        // 3.Ó¯Àû¼ÆËã
-        // 4.ÊÖĞø·Ñ¼ÆËã
-        // 5.·µ»Ø½á¹û
+        // 1.å…ƒç´ ä¸ªæ•°
+        // 2.è‚¡ç¥¨ä»·æ ¼
+        // 3.ç›ˆåˆ©è®¡ç®—
+        // 4.æ‰‹ç»­è´¹è®¡ç®—
+        // 5.è¿”å›ç»“æœ
 
         if (x.length > 2) {
             int profit = 0;
@@ -44,7 +44,7 @@ public class ccc004 {
     }
 
     public static int show2(int x) {
-        x = Math.abs(x);// ¾ø¶ÔÖµ
+        x = Math.abs(x);// ç»å¯¹å€¼
         if (x < 89) {
             x = 89;
         }

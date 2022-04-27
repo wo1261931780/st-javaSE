@@ -1,32 +1,32 @@
-package abÍùÆÚÑ§Ï°2021Äê10ÔÂ2ÈÕ.aaa001³õÆÚÑ§Ï°¼¯ºÏ;
+package abå¾€æœŸå­¦ä¹ 2021å¹´10æœˆ2æ—¥.aaa001åˆæœŸå­¦ä¹ é›†åˆ;
 
 import java.util.Scanner;
 import java.util.Random;
 
-public class aaa021ÊäÈëÊý¾ÝÓÃ·½·¨ÅÐ¶Ï´óÐ¡ {
+public class aaa021è¾“å…¥æ•°æ®ç”¨æ–¹æ³•åˆ¤æ–­å¤§å° {
     public static void main(String[] args) {
-        //mmµÄÖµÊÇ¶àÉÙ¶¼²»ÖØÒª£¬×îºó»¹ÊÇx1ºÍz1½øÐÐ±È½Ï
+        //mmçš„å€¼æ˜¯å¤šå°‘éƒ½ä¸é‡è¦ï¼Œæœ€åŽè¿˜æ˜¯x1å’Œz1è¿›è¡Œæ¯”è¾ƒ
         max(10);
     }
 
     public static void max(double mm) {
         Scanner xx = new Scanner(System.in);
         Random zz = new Random();
-        System.out.println("ÇëÊäÈë±È½ÏÖµ£º");
+        System.out.println("è¯·è¾“å…¥æ¯”è¾ƒå€¼ï¼š");
         // double x1 = xx.nextInt();
         int x1 = xx.nextInt();
         // double z1 = zz.nextInt(1000);
         int z1 = zz.nextInt(1000);
-        //ÉÏÃæÉèÖÃ¶Ô±ÈÊý¾ÝÎªintÀàÐÍ£¬µ«ÊÇ×îÖÕÕ¹Ê¾µÄÊÇdoubleÀàÐÍµÄmm
-        //ËùÒÔ½á¹û´øÉÏÐ¡Êýµã
-        // Ð§¹ûÎª£ºÁ½¸öintÀàÐÍµÄÊý¾Ý±È½Ïºó£¬µÃµ½doubleÀàÐÍµÄÊý¾Ý½á¹û
+        //ä¸Šé¢è®¾ç½®å¯¹æ¯”æ•°æ®ä¸ºintç±»åž‹ï¼Œä½†æ˜¯æœ€ç»ˆå±•ç¤ºçš„æ˜¯doubleç±»åž‹çš„mm
+        //æ‰€ä»¥ç»“æžœå¸¦ä¸Šå°æ•°ç‚¹
+        // æ•ˆæžœä¸ºï¼šä¸¤ä¸ªintç±»åž‹çš„æ•°æ®æ¯”è¾ƒåŽï¼Œå¾—åˆ°doubleç±»åž‹çš„æ•°æ®ç»“æžœ
 
         if (x1 > z1) {
             mm = x1;
-            System.out.println("½Ï´óÖµÎª£º" + mm);
+            System.out.println("è¾ƒå¤§å€¼ä¸ºï¼š" + mm);
         } else {
             mm = z1;
-            System.out.println("½Ï´óÖµÎª£º" + mm);
+            System.out.println("è¾ƒå¤§å€¼ä¸ºï¼š" + mm);
         }
     }
 }

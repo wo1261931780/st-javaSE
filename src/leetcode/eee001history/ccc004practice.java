@@ -31,7 +31,7 @@ public class ccc004practice {
     }
 
 }
-//�Ȳ����У�
+//µÈ²îÊýÁÐ£º
 //
 //import java.util.Scanner;
 //

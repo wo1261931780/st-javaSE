@@ -1,8 +1,8 @@
-package abÍùÆÚÑ§Ï°2021Äê10ÔÂ2ÈÕ.bbb032¼¯ºÏÁ·Ï°;
+package abå¾€æœŸå­¦ä¹ 2021å¹´10æœˆ2æ—¥.bbb032é›†åˆç»ƒä¹ ;
 
 import java.util.ArrayList;
 
-public class bbb001±éÀúÉ¾³ıÔªËØ {
+public class bbb001éå†åˆ é™¤å…ƒç´  {
     public static void main(String[] args) {
         ArrayList<Integer> x = new ArrayList<>();
         x.add(97);
@@ -24,8 +24,8 @@ public class bbb001±éÀúÉ¾³ıÔªËØ {
         //         x.remove(i);
         //     }
         // }
-        // ¼¯ºÏµÄ´óĞ¡¿É±ä£¬´ÓÇ°É¾³ı»á³öÏÖÊı×é³¤¶ÈËõĞ¡ºÍindex·¢Éú±ä»¯µÄÎÊÌâ
-        // Ö±½Óµ¹×ÅÉ¾³ı¼´¿É
+        // é›†åˆçš„å¤§å°å¯å˜ï¼Œä»å‰åˆ é™¤ä¼šå‡ºç°æ•°ç»„é•¿åº¦ç¼©å°å’Œindexå‘ç”Ÿå˜åŒ–çš„é—®é¢˜
+        // ç›´æ¥å€’ç€åˆ é™¤å³å¯
 
         for (int i = x.size() - 1; i > 0; i--) {
             if (x.get(i) < 80) {

@@ -1,4 +1,4 @@
-package ab¶ş½×¶ÎÇ¿»¯¿Î³Ì2022Äê1ÔÂ11ÈÕ.ccc018Ã¨¹·¶àÌ¬°¸Àı;
+package abäºŒé˜¶æ®µå¼ºåŒ–è¯¾ç¨‹2022å¹´1æœˆ11æ—¥.ccc018çŒ«ç‹—å¤šæ€æ¡ˆä¾‹;
 
 public class ccc001test_animal {
     public int age;
@@ -13,7 +13,7 @@ public class ccc001test_animal {
     }
 
     public void eat(ccc001test_animal x) {
-        System.out.println("ÎÒÊÇanimalÖĞµÄeat·½·¨");
+        System.out.println("æˆ‘æ˜¯animalä¸­çš„eatæ–¹æ³•");
     }
 
     public int getAge() {

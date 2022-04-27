@@ -1,6 +1,6 @@
 package c2stage_20220220.ccc060collection_iterator_case;
-// Ê¹ÓÃµü´úÆ÷ºÍÑ­»·£¬ÊÕ¼¯ÊäÈëµÄĞÅÏ¢£¬È»ºó´¢´æµ½¼¯ºÏÖĞ
-// ÊäÈëÈı¸öĞÅÏ¢ÒÔºó£¬½«¼¯ºÏÖĞµÄĞÅÏ¢È«²¿±éÀú³öÀ´
+// ä½¿ç”¨è¿­ä»£å™¨å’Œå¾ªç¯ï¼Œæ”¶é›†è¾“å…¥çš„ä¿¡æ¯ï¼Œç„¶åå‚¨å­˜åˆ°é›†åˆä¸­
+// è¾“å…¥ä¸‰ä¸ªä¿¡æ¯ä»¥åï¼Œå°†é›†åˆä¸­çš„ä¿¡æ¯å…¨éƒ¨éå†å‡ºæ¥
 
 
 import java.util.ArrayList;
@@ -8,18 +8,18 @@ import java.util.Collection;
 import java.util.Iterator;
 import java.util.Scanner;
 
-public class ddd038Ñ­»·¸Ä½ø {
+public class ddd038å¾ªç¯æ”¹è¿› {
     public static void main(String[] args) {
         Collection<ddd036student> x = new ArrayList<>();
         for (int i = 0; i < 3; i++) {
-            System.out.println("ÇëÊäÈëµÚ" + (i + 1) + "Î»ĞÅÏ¢£º");
-            ddd036student x2 = showdemo();// Ö±½Óµ÷ÓÃ·½·¨´´½¨¶ÔÏó
+            System.out.println("è¯·è¾“å…¥ç¬¬" + (i + 1) + "ä½ä¿¡æ¯ï¼š");
+            ddd036student x2 = showdemo();// ç›´æ¥è°ƒç”¨æ–¹æ³•åˆ›å»ºå¯¹è±¡
             x.add(x2);
         }
         Iterator<ddd036student> xx = x.iterator();
         while (xx.hasNext()) {
             ddd036student x5 = xx.next();
-            System.out.println(x5.getName() + "," + x5.getAge());// ÎÒÕâÀïÒ²¿ÉÒÔÖ±½ÓÁ´Ê½±à³Ì£¬ÒòÎª·µ»ØµÄ¾ÍÊÇ¶ÔÏó£¬¶ÔÏóµ÷ÓÃgetset·½·¨Ö±½ÓÕ¹Ê¾½á¹û
+            System.out.println(x5.getName() + "," + x5.getAge());// æˆ‘è¿™é‡Œä¹Ÿå¯ä»¥ç›´æ¥é“¾å¼ç¼–ç¨‹ï¼Œå› ä¸ºè¿”å›çš„å°±æ˜¯å¯¹è±¡ï¼Œå¯¹è±¡è°ƒç”¨getsetæ–¹æ³•ç›´æ¥å±•ç¤ºç»“æœ
         }
     }
 

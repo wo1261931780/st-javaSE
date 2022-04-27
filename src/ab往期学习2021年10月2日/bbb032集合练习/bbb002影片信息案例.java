@@ -1,24 +1,24 @@
-package abÍùÆÚÑ§Ï°2021Äê10ÔÂ2ÈÕ.bbb032¼¯ºÏÁ·Ï°;
+package abå¾€æœŸå­¦ä¹ 2021å¹´10æœˆ2æ—¥.bbb032é›†åˆç»ƒä¹ ;
 
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class bbb002Ó°Æ¬ĞÅÏ¢°¸Àı {
+public class bbb002å½±ç‰‡ä¿¡æ¯æ¡ˆä¾‹ {
     public static void main(String[] args) {
-        ArrayList<bbb002µçÓ°Àà> x = new ArrayList<>();
+        ArrayList<bbb002ç”µå½±ç±»> x = new ArrayList<>();
         x.add(show());
         x.add(show());
         x.add(show());
-        x.add(new bbb002µçÓ°Àà("²âÊÔ", 10, 9));//Ò²¿ÉÒÔÕâÑùÖ±½ÓĞÂ½¨Ò»¸ö¶ÔÏó
+        x.add(new bbb002ç”µå½±ç±»("æµ‹è¯•", 10, 9));//ä¹Ÿå¯ä»¥è¿™æ ·ç›´æ¥æ–°å»ºä¸€ä¸ªå¯¹è±¡
 
         for (int i = 0; i < x.size(); i++) {
-            System.out.println("Ãû³Æ£º" + x.get(i).getName() + "£¬¼Û¸ñ£º" + x.get(i).getPrice() + "£¬·ÖÊı£º" + x.get(i).getScore());
+            System.out.println("åç§°ï¼š" + x.get(i).getName() + "ï¼Œä»·æ ¼ï¼š" + x.get(i).getPrice() + "ï¼Œåˆ†æ•°ï¼š" + x.get(i).getScore());
         }
 
     }
 
-    public static bbb002µçÓ°Àà show() {
-        bbb002µçÓ°Àà x = new bbb002µçÓ°Àà();
+    public static bbb002ç”µå½±ç±» show() {
+        bbb002ç”µå½±ç±» x = new bbb002ç”µå½±ç±»();
         Scanner x1 = new Scanner(System.in);
         Scanner x2 = new Scanner(System.in);
         x.setName(x1.nextLine());

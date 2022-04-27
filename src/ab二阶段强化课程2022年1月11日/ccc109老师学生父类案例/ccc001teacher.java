@@ -1,4 +1,4 @@
-package ab¶ş½×¶ÎÇ¿»¯¿Î³Ì2022Äê1ÔÂ11ÈÕ.ccc109ÀÏÊ¦Ñ§Éú¸¸Àà°¸Àı;
+package abäºŒé˜¶æ®µå¼ºåŒ–è¯¾ç¨‹2022å¹´1æœˆ11æ—¥.ccc109è€å¸ˆå­¦ç”Ÿçˆ¶ç±»æ¡ˆä¾‹;
 
 public class ccc001teacher extends ccc003sample {
 
@@ -9,7 +9,7 @@ public class ccc001teacher extends ccc003sample {
 
 //    public void teacher(String name,int age) {
 ////        this.name=name;
-//        //ÕâÀï²»ÄÜÖ±½Ó½øĞĞ¸³Öµ²Ù×÷¡£
+//        //è¿™é‡Œä¸èƒ½ç›´æ¥è¿›è¡Œèµ‹å€¼æ“ä½œã€‚
 //        super();
 //    }
 

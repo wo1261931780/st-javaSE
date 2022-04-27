@@ -1,23 +1,0 @@
-
-S	java:S106"9Replace this use of System.out or System.err by a logger.(şú±Ÿûÿÿÿÿ
-W
-java:S1075"ARefactor your code to get this URI from a customizable parameter.(ÿÅËÜ
-N	java:S106"9Replace this use of System.out or System.err by a logger.(¸¬é’
-S	java:S106"9Replace this use of System.out or System.err by a logger.(í’…¯ÿÿÿÿÿ
-S	java:S106"9Replace this use of System.out or System.err by a logger.(´‡¨àıÿÿÿÿ
-S	java:S106"9Replace this use of System.out or System.err by a logger.(è×”àşÿÿÿÿ
-N	java:S106"9Replace this use of System.out or System.err by a logger.(Å™æ³
-N	java:S106"9Replace this use of System.out or System.err by a logger.(²ØÛ¸
-N	java:S106"9Replace this use of System.out or System.err by a logger.(’å¾É
-N	java:S106"9Replace this use of System.out or System.err by a logger.(ºç¸ì
-M	java:S106"9Replace this use of System.out or System.err by a logger.(¥ÖC
-U	java:S106""9Replace this use of System.out or System.err by a logger.(¸¬é’8 çÎÿ/
-Z	java:S106%"9Replace this use of System.out or System.err by a logger.(é£ıÿÿÿÿ8¡çÎÿ/
-Z	java:S106&"9Replace this use of System.out or System.err by a logger.(¦ÏÆ´üÿÿÿÿ8¡çÎÿ/
-T	java:S106'"9Replace this use of System.out or System.err by a logger.(Şˆ° 8¡çÎÿ/
-U	java:S106("9Replace this use of System.out or System.err by a logger.(‚´Ñ8¢çÎÿ/
-Z	java:S106*"9Replace this use of System.out or System.err by a logger.(šşŠ½ıÿÿÿÿ8¢çÎÿ/
-U	java:S106+"9Replace this use of System.out or System.err by a logger.(’å¾É8¢çÎÿ/
-U	java:S106,"9Replace this use of System.out or System.err by a logger.(ùŞ×¥8±ò‘Îÿ/
-b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ÊîÎå
-o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(²Ã…Ò

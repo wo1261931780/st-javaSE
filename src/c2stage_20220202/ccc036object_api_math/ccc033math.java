@@ -1,81 +1,81 @@
 package c2stage_20220202.ccc036object_api_math;
-//public static int abs?(int a)£º·µ»Ø²ÎÊıµÄ¾ø¶ÔÖµ
+//public static int abs?(int a)ï¼šè¿”å›å‚æ•°çš„ç»å¯¹å€¼
 
-//public static double ceil?(double a)£º·µ»Ø´óÓÚ»òµÈÓÚ²ÎÊıµÄ×îĞ¡doubleÖµ£¬µÈÓÚÒ»¸öÕûÊı
+//public static double ceil?(double a)ï¼šè¿”å›å¤§äºæˆ–ç­‰äºå‚æ•°çš„æœ€å°doubleå€¼ï¼Œç­‰äºä¸€ä¸ªæ•´æ•°
 
-//public static double floor?(double a)£º·µ»ØĞ¡ÓÚ»òµÈÓÚ²ÎÊıµÄ×î´ódoubleÖµ£¬µÈÓÚÒ»¸öÕûÊı
+//public static double floor?(double a)ï¼šè¿”å›å°äºæˆ–ç­‰äºå‚æ•°çš„æœ€å¤§doubleå€¼ï¼Œç­‰äºä¸€ä¸ªæ•´æ•°
 
-//public static int round?(float a)£º°´ÕÕËÄÉáÎåÈë·µ»Ø×î½Ó½ü²ÎÊıµÄint
+//public static int round?(float a)ï¼šæŒ‰ç…§å››èˆäº”å…¥è¿”å›æœ€æ¥è¿‘å‚æ•°çš„int
 
-//public static int max?(int a,int b)£º·µ»ØÁ½¸öintÖµÖĞµÄ½Ï´óÖµ
+//public static int max?(int a,int b)ï¼šè¿”å›ä¸¤ä¸ªintå€¼ä¸­çš„è¾ƒå¤§å€¼
 
-//public static int min?(int a,int b)£º·µ»ØÁ½¸öintÖµÖĞµÄ½ÏĞ¡Öµ(×ÔÑ§)
+//public static int min?(int a,int b)ï¼šè¿”å›ä¸¤ä¸ªintå€¼ä¸­çš„è¾ƒå°å€¼(è‡ªå­¦)
 
-//public static double pow?(double a,double b)£º·µ»ØaµÄb´ÎÃİµÄÖµ
+//public static double pow?(double a,double b)ï¼šè¿”å›açš„bæ¬¡å¹‚çš„å€¼
 
-//public static double random?()£º·µ»ØÖµÎªdoubleµÄÕıÖµ£¬[0.0,1.0)
+//public static double random?()ï¼šè¿”å›å€¼ä¸ºdoubleçš„æ­£å€¼ï¼Œ[0.0,1.0)
 
 /**
- Ä¿±ê£ºMathÀàµÄÊ¹ÓÃ¡£
- MathÓÃÓÚ×öÊıÑ§ÔËËã¡£
- MathÀàÖĞµÄ·½·¨È«²¿ÊÇ¾²Ì¬·½·¨£¬Ö±½ÓÓÃÀàÃûµ÷ÓÃ¼´¿É¡£
- ·½·¨£º
- ·½·¨Ãû                                          ËµÃ÷
- public static int abs(int a)                   »ñÈ¡²ÎÊıaµÄ¾ø¶ÔÖµ£º
- public static double ceil(double a)            ÏòÉÏÈ¡Õû
- public static double floor(double a)           ÏòÏÂÈ¡Õû
- public static double pow(double a, double b)   »ñÈ¡aµÄb´ÎÃİ
- public static long round(double a)             ËÄÉáÎåÈëÈ¡Õû
- Ğ¡½á£º
- ¼Ç×¡¡£
+ ç›®æ ‡ï¼šMathç±»çš„ä½¿ç”¨ã€‚
+ Mathç”¨äºåšæ•°å­¦è¿ç®—ã€‚
+ Mathç±»ä¸­çš„æ–¹æ³•å…¨éƒ¨æ˜¯é™æ€æ–¹æ³•ï¼Œç›´æ¥ç”¨ç±»åè°ƒç”¨å³å¯ã€‚
+ æ–¹æ³•ï¼š
+ æ–¹æ³•å                                          è¯´æ˜
+ public static int abs(int a)                   è·å–å‚æ•°açš„ç»å¯¹å€¼ï¼š
+ public static double ceil(double a)            å‘ä¸Šå–æ•´
+ public static double floor(double a)           å‘ä¸‹å–æ•´
+ public static double pow(double a, double b)   è·å–açš„bæ¬¡å¹‚
+ public static long round(double a)             å››èˆäº”å…¥å–æ•´
+ å°ç»“ï¼š
+ è®°ä½ã€‚
  */
 
 public class ccc033math {
     public static void main(String[] args) {
-        //12£¬·µ»Ø¾ø¶ÔÖµ
+        //12ï¼Œè¿”å›ç»å¯¹å€¼
         System.out.println(Math.abs(12));
         System.out.println(Math.abs(-12));
         System.out.println("----");
-        //13£¬·µ»Ø¡·=x
+        //13ï¼Œè¿”å›ã€‹=x
         System.out.println(Math.ceil(12.1));
-        //-12·µ»Ø¡¶=x
+        //-12è¿”å›ã€Š=x
         System.out.println(Math.ceil(-12.1));
         System.out.println("----");
-        //12£¬·µ»Ø¡¶=x
+        //12ï¼Œè¿”å›ã€Š=x
         System.out.println(Math.floor(12.1));
-        //-13£¬·µ»Ø¡¶=x
+        //-13ï¼Œè¿”å›ã€Š=x
         System.out.println(Math.floor(-12.1));
         System.out.println("----");
-        //12.0£¬ËÄÉáÎåÈë
+        //12.0ï¼Œå››èˆäº”å…¥
         System.out.println(Math.round(12.1));
-        //-13.0£¬ËÄÉáÎåÈë
+        //-13.0ï¼Œå››èˆäº”å…¥
         System.out.println(Math.round(-12.1));
-        //-13£¬F±íÊ¾ÊÇfloatÀàĞÍ
+        //-13ï¼ŒFè¡¨ç¤ºæ˜¯floatç±»å‹
         System.out.println(Math.round(-12.1F));
         System.out.println("----");
-        //12.2£¬½Ï´óÖµ
+        //12.2ï¼Œè¾ƒå¤§å€¼
         System.out.println(Math.max(12.1, 12.2));
-        //12.1£¬½ÏĞ¡Öµ
+        //12.1ï¼Œè¾ƒå°å€¼
         System.out.println(Math.min(12.1, 12.2));
         System.out.println("----");
-        //8£¬·µ»Ø2µÄ3´Î·½
+        //8ï¼Œè¿”å›2çš„3æ¬¡æ–¹
         System.out.println(Math.pow(2, 3));
         System.out.println("----");
-        //[0.0-1.0)Ö®¼äµÄËæ»úÊı,¿ÉÒÔ0.0£¬²»¿ÉÒÔ1.0
+        //[0.0-1.0)ä¹‹é—´çš„éšæœºæ•°,å¯ä»¥0.0ï¼Œä¸å¯ä»¥1.0
         System.out.println(Math.random());
-        //È¡Õû
+        //å–æ•´
         System.out.println((int) (Math.random() * 100));
         //System.out.println(Math.abs(-55));
 
-        // ÏÖÔÚÒª3-9µÄËæ»úÊı£º
-        // Ê×ÏÈ-3£¬¾ÍµÃµ½0-6µÄËæ»úÊı
-        // µ«ÊÇÖ±½ÓrandomÊÇ×ó±ÕÓÒ¿ª
-        // Math.random()*7;µÃµ½Ò»¸ö0-7µÄ×ó±ÕÓÒ¿ª
-        // ÎªÁËµÃµ½0-6£¬ĞèÒªintÀàĞÍ£¬ËùÒÔ½øĞĞÒ»´ÎÇ¿×ª
+        // ç°åœ¨è¦3-9çš„éšæœºæ•°ï¼š
+        // é¦–å…ˆ-3ï¼Œå°±å¾—åˆ°0-6çš„éšæœºæ•°
+        // ä½†æ˜¯ç›´æ¥randomæ˜¯å·¦é—­å³å¼€
+        // Math.random()*7;å¾—åˆ°ä¸€ä¸ª0-7çš„å·¦é—­å³å¼€
+        // ä¸ºäº†å¾—åˆ°0-6ï¼Œéœ€è¦intç±»å‹ï¼Œæ‰€ä»¥è¿›è¡Œä¸€æ¬¡å¼ºè½¬
         // (int) Math.random()*7
-        // ÏÖÔÚ¾ÍÄÜµÃµ½0-6
+        // ç°åœ¨å°±èƒ½å¾—åˆ°0-6
         // int i = (int) Math.random() * 7 + 3;
-        // i¾ÍÊÇ3-9
+        // iå°±æ˜¯3-9
     }
 
 }

@@ -1,11 +1,11 @@
-package abÍùÆÚÑ§Ï°2021Äê10ÔÂ2ÈÕ.bbb035Ñ§Éú´¢´æÈ»ºó±éÀú;
+package abå¾€æœŸå­¦ä¹ 2021å¹´10æœˆ2æ—¥.bbb035å­¦ç”Ÿå‚¨å­˜ç„¶åéå†;
 
-public class bbb001Ñ§ÉúÀà {
+public class bbb001å­¦ç”Ÿç±» {
     private String name;
     private int age;
     private String address;
 
-    public bbb001Ñ§ÉúÀà() {
+    public bbb001å­¦ç”Ÿç±»() {
     }
 
     public String getName() {
@@ -32,7 +32,7 @@ public class bbb001Ñ§ÉúÀà {
         this.address = address;
     }
 
-    public bbb001Ñ§ÉúÀà(String name, int age, String address) {
+    public bbb001å­¦ç”Ÿç±»(String name, int age, String address) {
         this.name = name;
         this.age = age;
         this.address = address;

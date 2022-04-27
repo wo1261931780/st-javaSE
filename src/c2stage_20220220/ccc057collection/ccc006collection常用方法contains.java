@@ -3,9 +3,9 @@ package c2stage_20220220.ccc057collection;
 import java.util.ArrayList;
 import java.util.Collection;
 
-public class ccc006collection³£ÓÃ·½·¨contains {
+public class ccc006collectionå¸¸ç”¨æ–¹æ³•contains {
     public static void main(String[] args) {
-        System.out.println("¿ªÊ¼");
+        System.out.println("å¼€å§‹");
         Collection<String> x = new ArrayList<>();
         x.add("aaa");
         x.add("aaa");
@@ -14,7 +14,7 @@ public class ccc006collection³£ÓÃ·½·¨contains {
         x.contains("bbb");
         System.out.println(x.contains("bbb"));
         // false
-        // ÅĞ¶ÏÔªËØÊÇ·ñ´æÔÚ
+        // åˆ¤æ–­å…ƒç´ æ˜¯å¦å­˜åœ¨
         x.add("bbb");
         System.out.println(x.contains("bbb"));
     }

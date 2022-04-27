@@ -1,4 +1,4 @@
-package ab¶ş½×¶ÎÇ¿»¯¿Î³Ì2022Äê1ÔÂ11ÈÕ.ccc023Ã¨¹·½Ó¿Ú°æ;
+package abäºŒé˜¶æ®µå¼ºåŒ–è¯¾ç¨‹2022å¹´1æœˆ11æ—¥.ccc023çŒ«ç‹—æ¥å£ç‰ˆ;
 
 import java.util.Scanner;
 
@@ -6,20 +6,20 @@ public class ccc027demo {
     public static void main(String[] args) {
         System.out.println("please type name of your cat");
         Scanner name1 = new Scanner(System.in);
-        // ÊäÈëÃ¨µÄĞÕÃû
+        // è¾“å…¥çŒ«çš„å§“å
         String namecat = name1.nextLine();
         System.out.println("please type age of your cat");
         Scanner age1 = new Scanner(System.in);
-        // ÊäÈëÃ¨µÄÄêÁä
+        // è¾“å…¥çŒ«çš„å¹´é¾„
         int agecat = age1.nextInt();
-        // ´ø²Î¹¹ÔìÃ¨¶ÔÏó
-        ccc026½Ó¿Ú cat = new ccc024cat(agecat, namecat);
-        System.out.println(namecat + "ÒÑ¾­" + agecat + "ËêÁË");
-        // Ã¨µÄjump·½·¨
+        // å¸¦å‚æ„é€ çŒ«å¯¹è±¡
+        ccc026æ¥å£ cat = new ccc024cat(agecat, namecat);
+        System.out.println(namecat + "å·²ç»" + agecat + "å²äº†");
+        // çŒ«çš„jumpæ–¹æ³•
         cat.jump();
-        //ÏòÏÂ×ªĞÍ£¬°Ñ¸¸Àà¶ÔÏócat¸ø×ÓÀà¶ÔÏóa
+        //å‘ä¸‹è½¬å‹ï¼ŒæŠŠçˆ¶ç±»å¯¹è±¡catç»™å­ç±»å¯¹è±¡a
         ccc024cat a = (ccc024cat) cat;
-        //Ïàµ±ÓÚa.eat
+        //ç›¸å½“äºa.eat
         ((ccc024cat) cat).eat();
         System.out.println("-----------------stripe");
         System.out.println("-----------------stripe");
@@ -30,8 +30,8 @@ public class ccc027demo {
         System.out.println("please type age of your dog");
         Scanner age2 = new Scanner(System.in);
         int agedog = age2.nextInt();
-        ccc026½Ó¿Ú dog = new ccc025dog(agedog, namedog);
-        System.out.println(namedog + "ÒÑ¾­" + agedog + "ËêÁË");
+        ccc026æ¥å£ dog = new ccc025dog(agedog, namedog);
+        System.out.println(namedog + "å·²ç»" + agedog + "å²äº†");
         dog.jump();
         ccc025dog b = (ccc025dog) dog;
         // ((ccc025dog) dog).eat();

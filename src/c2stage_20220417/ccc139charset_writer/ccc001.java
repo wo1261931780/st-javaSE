@@ -8,16 +8,16 @@ import java.nio.charset.StandardCharsets;
  * Project:index.pb
  * Package:c2stage_20220417.ccc139charset_writer
  * User:  wo1261931780@gmail.com
- * Time:  2022-04-22-26  ĞÇÆÚÈÕ
+ * Time:  2022-04-22-26  æ˜ŸæœŸæ—¥
  */
 public class ccc001 {
     public static void main(String[] args) throws IOException {
         File x = new File("src/c2stage_20220417/ccc139charset_writer/demo.txt");
         OutputStream x1 = new FileOutputStream(x);
         Writer x2 = new OutputStreamWriter(x1, StandardCharsets.UTF_8);
-        // ÕâÀïÃ»ÓĞÔÚÔ´ÂëÖĞ¿´µ½»º³åÇø£¬ËùÒÔÒª×ªÒ»µÀ£¬Ê¹ÓÃ»º³åÊäÈëÁ÷È¥Ğ´Êı¾İ
+        // è¿™é‡Œæ²¡æœ‰åœ¨æºç ä¸­çœ‹åˆ°ç¼“å†²åŒºï¼Œæ‰€ä»¥è¦è½¬ä¸€é“ï¼Œä½¿ç”¨ç¼“å†²è¾“å…¥æµå»å†™æ•°æ®
         BufferedWriter x3 = new BufferedWriter(x2);
-        x3.write("²âÊÔ£¬demo");
-        x3.close();// Ò»¶¨Òª¼ÇµÃ¹Ø±Õ
+        x3.write("æµ‹è¯•ï¼Œdemo");
+        x3.close();// ä¸€å®šè¦è®°å¾—å…³é—­
     }
 }

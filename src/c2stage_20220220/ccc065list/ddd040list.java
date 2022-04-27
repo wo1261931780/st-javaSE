@@ -1,8 +1,8 @@
 package c2stage_20220220.ccc065list;
 /*
-    List¼¯ºÏÌØµã
-        ÓĞĞò£º´æ´¢ºÍÈ¡³öµÄÔªËØË³ĞòÒ»ÖÂ
-        ¿ÉÖØ¸´£º´æ´¢µÄÔªËØ¿ÉÒÔÖØ¸´
+    Listé›†åˆç‰¹ç‚¹
+        æœ‰åºï¼šå­˜å‚¨å’Œå–å‡ºçš„å…ƒç´ é¡ºåºä¸€è‡´
+        å¯é‡å¤ï¼šå­˜å‚¨çš„å…ƒç´ å¯ä»¥é‡å¤
  */
 
 import java.util.ArrayList;
@@ -17,11 +17,11 @@ public class ddd040list {
         x.add("a3");
         x.add("a4");
         x.add("a5");
-        // µü´úÆ÷µÄ·½Ê½±éÀú
-        // listÊôÓÚcollectionµÄ×ÓÀà£¬
-        // ËùÒÔÍ¬Ñù¿ÉÒÔµ÷ÓÃcollectionµÄ·½·¨
-        // listÊôÓÚcollectionµÄ×ÓÀà£¬ÓÖÊôÓÚarraylistµÄ¸¸Àà
-        // ËùÒÔlistµÄÌØÓĞ·½·¨£¬collectionÖĞÃ»ÓĞ£¬µ«ÊÇArrayListÖĞ´æÔÚ
+        // è¿­ä»£å™¨çš„æ–¹å¼éå†
+        // listå±äºcollectionçš„å­ç±»ï¼Œ
+        // æ‰€ä»¥åŒæ ·å¯ä»¥è°ƒç”¨collectionçš„æ–¹æ³•
+        // listå±äºcollectionçš„å­ç±»ï¼Œåˆå±äºarraylistçš„çˆ¶ç±»
+        // æ‰€ä»¥listçš„ç‰¹æœ‰æ–¹æ³•ï¼Œcollectionä¸­æ²¡æœ‰ï¼Œä½†æ˜¯ArrayListä¸­å­˜åœ¨
         Iterator<String> x1 = x.listIterator();
         while (x1.hasNext()) {
             System.out.println(x1.next());

@@ -1,4 +1,4 @@
-package leetcode.eee118自己出题1;
+package leetcode.eee118鑷繁鍑洪1;
 
 import java.util.Arrays;
 import java.util.Scanner;
@@ -6,12 +6,12 @@ import java.util.Scanner;
 public class demo_jiecheng {
     public static void main(String[] args) {
         jc1();
-        System.out.println("结束");
+        System.out.println("缁撴潫");
     }
 
     public static void jc1() {
         Scanner x = new Scanner(System.in);
-        System.out.println("请输入数字：");
+        System.out.println("璇疯緭鍏ユ暟瀛楋細");
         int x3 = x.nextInt();
         // ArrayList<Object> xx = new ArrayList<>();
         int[] xx = new int[x3];

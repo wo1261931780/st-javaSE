@@ -1,14 +1,14 @@
-package abÍùÆÚÑ§Ï°2021Äê10ÔÂ2ÈÕ.aaa001³õÆÚÑ§Ï°¼¯ºÏ;
+package abå¾€æœŸå­¦ä¹ 2021å¹´10æœˆ2æ—¥.aaa001åˆæœŸå­¦ä¹ é›†åˆ;
 
 import java.util.Scanner;
 
-public class aaa018e´òÓ¡Êý×éÄÚÈÝ {
+public class aaa018eæ‰“å°æ•°ç»„å†…å®¹ {
     public static void main(String[] args) {
         int[] xx = {11, 22, 33, 44, 55};
         show(xx);
         System.out.println("end");
         Scanner x1 = new Scanner(System.in);
-        System.out.println("ÇëÊäÈëqueryµÄÊý¾Ý£º");
+        System.out.println("è¯·è¾“å…¥queryçš„æ•°æ®ï¼š");
         int x2 = x1.nextInt();
         System.out.println(show2(xx, x2));
         System.out.println("end");
@@ -20,9 +20,9 @@ public class aaa018e´òÓ¡Êý×éÄÚÈÝ {
 
     public static void show(int[] x) {
         if (x != null && x.length > 0) {
-            //ÕâÀï&&±Èµ¥¸ö&Òª¸ßÐ§£¬
-            //&&¾ßÓÐ¶ÌÂ·Ð§¹û£¬×ó±ßÎª¼Ù£¬ÓÒ±ß²»Ö´ÐÐ
-            System.out.print("Êý×éÄÚÈÝÎª£º");
+            //è¿™é‡Œ&&æ¯”å•ä¸ª&è¦é«˜æ•ˆï¼Œ
+            //&&å…·æœ‰çŸ­è·¯æ•ˆæžœï¼Œå·¦è¾¹ä¸ºå‡ï¼Œå³è¾¹ä¸æ‰§è¡Œ
+            System.out.print("æ•°ç»„å†…å®¹ä¸ºï¼š");
             for (int i = 0; i < x.length; i++) {
                 //     if (i == (x.length - 1)) {
                 //         System.out.println(x[i] + "]");
@@ -34,9 +34,9 @@ public class aaa018e´òÓ¡Êý×éÄÚÈÝ {
         }
     }
 
-    public static int show2(int[] x, int data) {// ÎÒÖ±½ÓÉèÖÃÒ»¸ö¶ÔÓ¦µÄÊý¾ÝÓÃÀ´×ö·µ»ØÖµ
+    public static int show2(int[] x, int data) {// æˆ‘ç›´æŽ¥è®¾ç½®ä¸€ä¸ªå¯¹åº”çš„æ•°æ®ç”¨æ¥åšè¿”å›žå€¼
         // Scanner x1=new Scanner(System.in);
-        // System.out.println("ÇëÊäÈëqueryµÄÊý¾Ý£º");
+        // System.out.println("è¯·è¾“å…¥queryçš„æ•°æ®ï¼š");
         // int x2 = x1.nextInt();
         // int xx=-1;
         for (int i = 0; i < x.length; i++) {
@@ -45,9 +45,9 @@ public class aaa018e´òÓ¡Êý×éÄÚÈÝ {
                 System.out.println("index:" + i);
                 // xx=i;
                 // break;
-                //ÕâÀïÍêÈ«²»ÐèÒªbreak£¬Ö±½Ó´ò¶Ï¾Í¿ÉÒÔ¡£
-                //returnÒ»¸öÊý¾Ý£¬Ö±½Ó¾Í½áÊøÁË³ÌÐò
-                // Òò´ËÉÏÃæµÄxxÒ²²»ÐèÒª¶¨Òå
+                //è¿™é‡Œå®Œå…¨ä¸éœ€è¦breakï¼Œç›´æŽ¥æ‰“æ–­å°±å¯ä»¥ã€‚
+                //returnä¸€ä¸ªæ•°æ®ï¼Œç›´æŽ¥å°±ç»“æŸäº†ç¨‹åº
+                // å› æ­¤ä¸Šé¢çš„xxä¹Ÿä¸éœ€è¦å®šä¹‰
                 return i;
             }
         }
@@ -55,7 +55,7 @@ public class aaa018e´òÓ¡Êý×éÄÚÈÝ {
         return -1;
     }
 
-    public static void que(int[] xx, int[] x1) {//2022Äê1ÔÂ2ÈÕ17:08:13£¬µÚÒ»´ÎÐ´
+    public static void que(int[] xx, int[] x1) {//2022å¹´1æœˆ2æ—¥17:08:13ï¼Œç¬¬ä¸€æ¬¡å†™
         if (xx.length == x1.length) {
             OUT:
             for (int i = 0; i < xx.length; i++) {
@@ -72,7 +72,7 @@ public class aaa018e´òÓ¡Êý×éÄÚÈÝ {
         }
         System.out.println("****");
     }
-    public static boolean que2(int[] xx, int[] x1){//2022Äê1ÔÂ2ÈÕ17:08:23£¬¸Ä½øÒÔºó
+    public static boolean que2(int[] xx, int[] x1){//2022å¹´1æœˆ2æ—¥17:08:23ï¼Œæ”¹è¿›ä»¥åŽ
         if (xx.length==x1.length){
             for (int i = 0; i < xx.length; i++) {
                 if (xx[i]!=x1[i]){
@@ -84,7 +84,7 @@ public class aaa018e´òÓ¡Êý×éÄÚÈÝ {
             return false;
         }
     }
-    // 2022Äê1ÔÂ4ÈÕ18:27:45£¬³ö²îÍ¾ÖÐ£¬×òÌìÃ»´ò¿¨
+    // 2022å¹´1æœˆ4æ—¥18:27:45ï¼Œå‡ºå·®é€”ä¸­ï¼Œæ˜¨å¤©æ²¡æ‰“å¡
 
 
 

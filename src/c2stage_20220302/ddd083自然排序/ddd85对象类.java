@@ -1,15 +1,15 @@
-package c2stage_20220302.ddd083×ÔÈ»ÅÅĞò;
+package c2stage_20220302.ddd083è‡ªç„¶æ’åº;
 
 //import org.jetbrains.annotations.NotNull;
 
-public class ddd85¶ÔÏóÀà implements Comparable<ddd85¶ÔÏóÀà> {
+public class ddd85å¯¹è±¡ç±» implements Comparable<ddd85å¯¹è±¡ç±»> {
     private String name;
     private int age;
 
-    public ddd85¶ÔÏóÀà() {
+    public ddd85å¯¹è±¡ç±»() {
     }
 
-    public ddd85¶ÔÏóÀà(String name, int age) {
+    public ddd85å¯¹è±¡ç±»(String name, int age) {
         this.name = name;
         this.age = age;
     }
@@ -31,23 +31,23 @@ public class ddd85¶ÔÏóÀà implements Comparable<ddd85¶ÔÏóÀà> {
     }
 
     @Override
-    public int compareTo( ddd85¶ÔÏóÀà o) {
-        // ×¢ÒâÒ»ÏÂÕâÀïµÄ¶ÔÏóÀàĞÍ
+    public int compareTo( ddd85å¯¹è±¡ç±» o) {
+        // æ³¨æ„ä¸€ä¸‹è¿™é‡Œçš„å¯¹è±¡ç±»å‹
         // return 0;
         // return 1;
-        // ·µ»Ø0£¬±íÊ¾Ìí¼Ó²»³É¹¦£¬Ò²¾Í²»´æÔÚ±È½Ï
-        // ·µ»Ø1£¬±íÊ¾Ò»¶¨±ÈÇ°¸öÊı¾İ´ó
-        // ÕâÊ±°´ÕÕÊı¾İµÄÌí¼ÓË³ĞòÈ¥´¢´æ
+        // è¿”å›0ï¼Œè¡¨ç¤ºæ·»åŠ ä¸æˆåŠŸï¼Œä¹Ÿå°±ä¸å­˜åœ¨æ¯”è¾ƒ
+        // è¿”å›1ï¼Œè¡¨ç¤ºä¸€å®šæ¯”å‰ä¸ªæ•°æ®å¤§
+        // è¿™æ—¶æŒ‰ç…§æ•°æ®çš„æ·»åŠ é¡ºåºå»å‚¨å­˜
         // return -1;
-        // ±íÊ¾Ò»¶¨±ÈÇ°¸öÊı¾İĞ¡¡£½á¹ûµ¹ĞòÊä³ö
+        // è¡¨ç¤ºä¸€å®šæ¯”å‰ä¸ªæ•°æ®å°ã€‚ç»“æœå€’åºè¾“å‡º
         int num = this.age - o.age;
-        // ±È½ÏÁ½¸öÊı¾İµÄ´óĞ¡£¬ÕıÊı¾Í°´ÕÕÉıĞòÅÅÁĞ
+        // æ¯”è¾ƒä¸¤ä¸ªæ•°æ®çš„å¤§å°ï¼Œæ­£æ•°å°±æŒ‰ç…§å‡åºæ’åˆ—
         int num2 = num == 0 ? this.name.compareTo(o.name) : num;
         // num == 0
-        // 1.ÅĞ¶ÏÄêÁäÊÇ·ñÏàµÈ£¬ÏàµÈ¾Í¸ù¾İĞÕÃûË³ĞòÅĞ¶Ï
+        // 1.åˆ¤æ–­å¹´é¾„æ˜¯å¦ç›¸ç­‰ï¼Œç›¸ç­‰å°±æ ¹æ®å§“åé¡ºåºåˆ¤æ–­
         // this.name.compareTo(o.name)
-        // 2.ÓÃnameºÍ¶ÔÏóname¶Ô±ÈÄÚÈİÊÇ·ñÏàÍ¬
-        // 3.name²»ÏàÍ¬µÄÊ±ºò£¬¸ù¾İÄêÁä²î¾àÅÅĞò
+        // 2.ç”¨nameå’Œå¯¹è±¡nameå¯¹æ¯”å†…å®¹æ˜¯å¦ç›¸åŒ
+        // 3.nameä¸ç›¸åŒçš„æ—¶å€™ï¼Œæ ¹æ®å¹´é¾„å·®è·æ’åº
         return num2;
     }
 }

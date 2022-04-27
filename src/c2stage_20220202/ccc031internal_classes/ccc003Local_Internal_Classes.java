@@ -13,7 +13,7 @@ public class ccc003Local_Internal_Classes {
     }
 
     public void showinn() {
-        System.out.println("ÎÒÊÇ³ÉÔ±ÄÚ²¿Àà");
+        System.out.println("æˆ‘æ˜¯æˆå‘˜å†…éƒ¨ç±»");
         inn x1 = new inn();
         x1.show0();
     }
@@ -21,7 +21,7 @@ public class ccc003Local_Internal_Classes {
     public void show() {
         class demo {
             public void showin() {
-                System.out.println("ÎÒÊÇ¾Ö²¿ÄÚ²¿Àà");
+                System.out.println("æˆ‘æ˜¯å±€éƒ¨å†…éƒ¨ç±»");
                 System.out.println(name + age);
             }
         }
@@ -47,7 +47,7 @@ public class ccc003Local_Internal_Classes {
 
     public class inn {
         public void show0() {
-            System.out.println("ÎÒÊÇ³ÉÔ±ÄÚ²¿Àà");
+            System.out.println("æˆ‘æ˜¯æˆå‘˜å†…éƒ¨ç±»");
             System.out.println(name + age);
         }
     }

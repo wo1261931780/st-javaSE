@@ -8,7 +8,7 @@ import java.util.Map;
  * Project:index.pb
  * Package:c2stage_20220326.ccc096linkedhashmap
  * User:  wo1261931780@gmail.com
- * Time:  2022-03-20-55  ĞÇÆÚÈÕ
+ * Time:  2022-03-20-55  æ˜ŸæœŸæ—¥
  */
 public class ccc001demo {
     public static void main(String[] args) {
@@ -19,6 +19,6 @@ public class ccc001demo {
         x.put("demo5", 555);
         x.put("demo4", 444);
         System.out.println(x);// {demo1=111, demo3=333, demo2=222, demo5=555, demo4=444}
-        // °´ÕÕÌí¼ÓË³Ğò½øĞĞ´òÓ¡
+        // æŒ‰ç…§æ·»åŠ é¡ºåºè¿›è¡Œæ‰“å°
     }
 }

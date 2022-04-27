@@ -1,15 +1,15 @@
-package c2stage_20220213.ccc051ÕıÔò±í´ïÊ½;
+package c2stage_20220213.ccc051æ­£åˆ™è¡¨è¾¾å¼;
 
 /**
  * Created by Intellij IDEA.
  * Project:index.pb
- * Package:c2stage_20220213.ccc051ÕıÔò±í´ïÊ½
+ * Package:c2stage_20220213.ccc051æ­£åˆ™è¡¨è¾¾å¼
  * User:  wo1261931780@gmail.com
- * Time:  2022-02-16-54  ĞÇÆÚÈÕ
+ * Time:  2022-02-16-54  æ˜ŸæœŸæ—¥
  */
-public class ccc004×Ö·û´®·Ö¸î {
+public class ccc004å­—ç¬¦ä¸²åˆ†å‰² {
     public static void main(String[] args) {
-        String x = "Áõ¼Ñ¬B111Áõ¼Ñ¬BasdÁõ¼Ñ¬Badasdasd111asdadas1a1sda32";
+        String x = "åˆ˜ä½³çº111åˆ˜ä½³çºasdåˆ˜ä½³çºadasdasd111asdadas1a1sda32";
         String[] demo = x.split("\\w+");
         for (int i = 0; i < demo.length; i++) {
             System.out.println(demo[i]);

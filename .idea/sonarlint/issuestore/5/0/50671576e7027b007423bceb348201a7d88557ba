@@ -1,21 +1,0 @@
-
-u
-java:S1104"SMake balance a static final constant or non-public and provide accessors if needed.(à”‘øÿÿÿÿ8Ç€çğ0
-t
-java:S1104"RMake button a static final constant or non-public and provide accessors if needed.(à†áçúÿÿÿÿ8Ç€çğ0
-l
-java:S1104"PMake tops a static final constant or non-public and provide accessors if needed.(Ì¯è8È€çğ0
-p
-java:S1104"SMake seconds a static final constant or non-public and provide accessors if needed.(õÀÒæ8È€çğ0
-O
-java:S1444"-Make this "public static balance" field final(à”‘øÿÿÿÿ8È€çğ0
-N
-java:S1444",Make this "public static button" field final(à†áçúÿÿÿÿ8È€çğ0
-F
-java:S1444"*Make this "public static tops" field final(Ì¯è8È€çğ0
-J
-java:S1444"-Make this "public static seconds" field final(õÀÒæ8É€çğ0
-b	java:S101
-"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(éÅÈØ
-o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(»™±
-N	java:S106)"9Replace this use of System.out or System.err by a logger.(Ÿ×çÅ

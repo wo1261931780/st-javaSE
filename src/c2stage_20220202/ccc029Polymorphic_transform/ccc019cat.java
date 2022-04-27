@@ -3,10 +3,10 @@ package c2stage_20220202.ccc029Polymorphic_transform;
 public class ccc019cat extends ccc018animal {
     @Override
     public void run() {
-        System.out.println("cat类中的run方法");
+        System.out.println("cat绫讳腑鐨剅un鏂规硶");
     }
 
     public void coach() {
-        System.out.println("cat类中的catch方法");
+        System.out.println("cat绫讳腑鐨刢atch鏂规硶");
     }
 }

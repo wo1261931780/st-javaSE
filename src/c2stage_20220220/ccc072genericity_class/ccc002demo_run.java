@@ -5,20 +5,20 @@ package c2stage_20220220.ccc072genericity_class;
  * Project:index.pb
  * Package:c2stage_20220220.ccc072genericity_case2
  * User:  wo1261931780@gmail.com
- * Time:  2022-02-11-23  ĞÇÆÚÈÕ
+ * Time:  2022-02-11-23  æ˜ŸæœŸæ—¥
  */
 public class ccc002demo_run {
     public static void main(String[] args) {
         ccc001myarraylist<String> x=new ccc001myarraylist<>();
-        // Ïàµ±ÓÚÎÒÉèÖÃÁËÒ»¸ö²âÊÔÀà
-        // Õâ¸ö²âÊÔÀàÃ»ÓĞÖ¸¶¨µÄ¶ÔÏóÀàĞÍ£¬¿ÉÒÔÊ¹ÓÃstringºÍintµÈµÈ
-        // °´ÕÕÉÏÃæµÄStringÀàĞÍÈ¥Ìí¼Ó¶ÔÏóÒÔºó
+        // ç›¸å½“äºæˆ‘è®¾ç½®äº†ä¸€ä¸ªæµ‹è¯•ç±»
+        // è¿™ä¸ªæµ‹è¯•ç±»æ²¡æœ‰æŒ‡å®šçš„å¯¹è±¡ç±»å‹ï¼Œå¯ä»¥ä½¿ç”¨stringå’Œintç­‰ç­‰
+        // æŒ‰ç…§ä¸Šé¢çš„Stringç±»å‹å»æ·»åŠ å¯¹è±¡ä»¥å
         x.add("11");
         x.add("22");
         x.add("33");
         x.add("44");
-        System.out.println(x);//ÎÒÔÚÄÚ²¿¶Ôtostring·½·¨Ö´ĞĞÁËÖØĞ´
-        // ËùÒÔ¿ÉÒÔÖ±½Ó´òÓ¡½á¹û
-        // µ«ÊÇ±¾ÖÊÉÏ£¬ÎÒ»¹ÊÇÔÚÊ¹ÓÃArrayListµÄapi
+        System.out.println(x);//æˆ‘åœ¨å†…éƒ¨å¯¹tostringæ–¹æ³•æ‰§è¡Œäº†é‡å†™
+        // æ‰€ä»¥å¯ä»¥ç›´æ¥æ‰“å°ç»“æœ
+        // ä½†æ˜¯æœ¬è´¨ä¸Šï¼Œæˆ‘è¿˜æ˜¯åœ¨ä½¿ç”¨ArrayListçš„api
     }
 }

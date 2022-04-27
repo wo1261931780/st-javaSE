@@ -1,23 +1,23 @@
-package c2stage_20220113.ccc004static×¢ÒâÊÂÏî;
+package c2stage_20220113.ccc004staticæ³¨æ„äº‹é¡¹;
 
-public class ccc008×¢ÒâÊÂÏî {
+public class ccc008æ³¨æ„äº‹é¡¹ {
     public static String name1;
     String name2;
 
     public static void show1() {
         System.out.println(name1);
-        // System.out.println(name2);//Ö±½Ó±¨´í£¬¾²Ì¬·½·¨²»ÄÜÖ±½Ó·ÃÎÊ³ÉÔ±±äÁ¿
+        // System.out.println(name2);//ç›´æ¥æŠ¥é”™ï¼Œé™æ€æ–¹æ³•ä¸èƒ½ç›´æ¥è®¿é—®æˆå‘˜å˜é‡
 
-        ccc008×¢ÒâÊÂÏî x = new ccc008×¢ÒâÊÂÏî();
-        System.out.println(x.name2);//Ö»ÄÜÏÈ´´½¨Ò»¸ö¶ÔÏó£¬Í¨¹ı¼ä½ÓµÄ·½Ê½·ÃÎÊname
+        ccc008æ³¨æ„äº‹é¡¹ x = new ccc008æ³¨æ„äº‹é¡¹();
+        System.out.println(x.name2);//åªèƒ½å…ˆåˆ›å»ºä¸€ä¸ªå¯¹è±¡ï¼Œé€šè¿‡é—´æ¥çš„æ–¹å¼è®¿é—®name
 
-        show2();//¾²Ì¬·½·¨¿ÉÒÔ·ÃÎÊ¾²Ì¬·½·¨
-        // show3();//¾²Ì¬·½·¨²»ÄÜÖ±½Ó·ÃÎÊÊµÀı·½·¨
-        // System.out.println(this);//Í¬ÑùµÄ£¬²»ÄÜÖ±½Ó·ÃÎÊthis£¬ÒòÎªthisÖ¸ÏòµÄ¾ÍÊÇ¶ÔÏó
+        show2();//é™æ€æ–¹æ³•å¯ä»¥è®¿é—®é™æ€æ–¹æ³•
+        // show3();//é™æ€æ–¹æ³•ä¸èƒ½ç›´æ¥è®¿é—®å®ä¾‹æ–¹æ³•
+        // System.out.println(this);//åŒæ ·çš„ï¼Œä¸èƒ½ç›´æ¥è®¿é—®thisï¼Œå› ä¸ºthisæŒ‡å‘çš„å°±æ˜¯å¯¹è±¡
     }
 
     public static void show2() {
-        System.out.println("ÎÒÊÇshow2");
+        System.out.println("æˆ‘æ˜¯show2");
     }
 
     public void show3() {

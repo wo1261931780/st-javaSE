@@ -3,10 +3,10 @@ package c2stage_20220220.ccc065list;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ddd041listÌØÓĞ·½·¨ {
+public class ddd041listç‰¹æœ‰æ–¹æ³• {
     public static void main(String[] args) {
         List<String> x = new ArrayList<>();
-        // list»¹ÊÇÒ»¸ö½Ó¿Ú£¬ËùÒÔ±¾ÖÊÉÏ¶¼ÊÇÍ¨¹ı¶àÌ¬µÄ·½Ê½À´´´½¨¶ÔÏó
+        // listè¿˜æ˜¯ä¸€ä¸ªæ¥å£ï¼Œæ‰€ä»¥æœ¬è´¨ä¸Šéƒ½æ˜¯é€šè¿‡å¤šæ€çš„æ–¹å¼æ¥åˆ›å»ºå¯¹è±¡
         x.add("a1");
         x.add("a2");
         x.add("a3");
@@ -14,20 +14,20 @@ public class ddd041listÌØÓĞ·½·¨ {
         x.add("a5");
         x.add(2, "xx");
         // x.add(20, "xx");
-        // ³¬³ö·¶Î§µÄ²åÈë£¬Ò²ÊÇ±¨´í
-        System.out.println(x);// ½á¹û£º[a1, a2, xx, a3, a4, a5]
+        // è¶…å‡ºèŒƒå›´çš„æ’å…¥ï¼Œä¹Ÿæ˜¯æŠ¥é”™
+        System.out.println(x);// ç»“æœï¼š[a1, a2, xx, a3, a4, a5]
         // ---------------------------------------------
         System.out.println(x.remove("a1"));
-        System.out.println(x.remove("aa"));// É¾³ıÖ¸¶¨ÔªËØ£¬Ö»»á·µ»ØÉ¾³ıÊÇ·ñ³É¹¦
-        System.out.println(x.remove(2));// É¾³ıÖ¸¶¨Î»ÖÃ£¬·µ»ØÉ¾³ıµÄÔªËØ
+        System.out.println(x.remove("aa"));// åˆ é™¤æŒ‡å®šå…ƒç´ ï¼Œåªä¼šè¿”å›åˆ é™¤æ˜¯å¦æˆåŠŸ
+        System.out.println(x.remove(2));// åˆ é™¤æŒ‡å®šä½ç½®ï¼Œè¿”å›åˆ é™¤çš„å…ƒç´ 
         // ---------------------------------------------
         System.out.println(x);// [a2, xx, a4, a5]
-        System.out.println(x.set(1, "a3"));// ÉèÖÃÖ¸¶¨Î»ÖÃµÄÔªËØÎªÖ¸¶¨ÄÚÈİ£¬·µ»ØÔ­Ê¼Êı¾İ
+        System.out.println(x.set(1, "a3"));// è®¾ç½®æŒ‡å®šä½ç½®çš„å…ƒç´ ä¸ºæŒ‡å®šå†…å®¹ï¼Œè¿”å›åŸå§‹æ•°æ®
         System.out.println(x);// [a2, a3, a4, a5]
         // ---------------------------------------------
-        System.out.println(x.get(1));// Êä³öa3£¬»ñÈ¡Ö¸¶¨Î»ÖÃµÄÔªËØ
+        System.out.println(x.get(1));// è¾“å‡ºa3ï¼Œè·å–æŒ‡å®šä½ç½®çš„å…ƒç´ 
         // x.get(i);
-        // »ñÈ¡Ö¸¶¨Î»ÖÃµÄÔªËØ
-        // forÑ­»·¶Ô¼¯ºÏ½øĞĞ²Ù×÷£¬x.size()±íÊ¾¼¯ºÏµÄ´óĞ¡
+        // è·å–æŒ‡å®šä½ç½®çš„å…ƒç´ 
+        // forå¾ªç¯å¯¹é›†åˆè¿›è¡Œæ“ä½œï¼Œx.size()è¡¨ç¤ºé›†åˆçš„å¤§å°
     }
 }

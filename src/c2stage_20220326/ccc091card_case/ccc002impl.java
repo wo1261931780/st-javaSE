@@ -10,7 +10,7 @@ import java.util.List;
  * Project:index.pb
  * Package:c2stage_20220326.ccc091card_case
  * User:  wo1261931780@gmail.com
- * Time:  2022-03-22-12  ĞÇÆÚÁù
+ * Time:  2022-03-22-12  ÃÃ‡Ã†ÃšÃÃ¹
  */
 public class ccc002impl {
     public static List<ccc001card> demo3 = new ArrayList<>();
@@ -26,7 +26,7 @@ public class ccc002impl {
                 demo3.add(x);
             }
         }
-        System.out.println("ĞÂÅÆ£º" + demo3);
+        System.out.println("ÃÃ‚Ã…Ã†Â£Âº" + demo3);
     }
 
     public static void main(String[] args) {

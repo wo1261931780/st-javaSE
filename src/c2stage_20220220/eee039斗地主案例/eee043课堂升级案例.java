@@ -1,4 +1,4 @@
-package c2stage_20220220.eee039¶·µØÖ÷°¸Àı;
+package c2stage_20220220.eee039æ–—åœ°ä¸»æ¡ˆä¾‹;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -6,31 +6,31 @@ import java.util.HashMap;
 import java.util.TreeSet;
 
 /**
- * ĞèÇó£º
- * Í¨¹ı³ÌĞòÊµÏÖ¶·µØÖ÷¹ı³ÌÖĞµÄÏ´ÅÆ£¬·¢ÅÆºÍ¿´ÅÆ¡£ÒªÇó£º¶ÔÅÆ½øĞĞÅÅĞò
- * Ë¼Â·£º
- * 1:´´½¨HashMap£¬¼üÊÇ±àºÅ£¬ÖµÊÇÅÆ
- * 2:´´½¨ArrayList£¬´æ´¢±àºÅ
- * 3:´´½¨»¨É«Êı×éºÍµãÊıÊı×é
- * 4:´Ó0¿ªÊ¼ÍùHashMapÀïÃæ´æ´¢±àºÅ£¬²¢´æ´¢¶ÔÓ¦µÄÅÆ¡£Í¬Ê±ÍùArrayListÀïÃæ´æ´¢±àºÅ
- * 5:Ï´ÅÆ(Ï´µÄÊÇ±àºÅ)£¬ÓÃCollectionsµÄshuffle()·½·¨ÊµÏÖ
- * 6:·¢ÅÆ(·¢µÄÒ²ÊÇ±àºÅ£¬ÎªÁË±£Ö¤±àºÅÊÇÅÅĞòµÄ£¬´´½¨TreeSet¼¯ºÏ½ÓÊÕ)
- * 7:¶¨Òå·½·¨¿´ÅÆ(±éÀúTreeSet¼¯ºÏ£¬»ñÈ¡±àºÅ£¬µ½HashMap¼¯ºÏÕÒ¶ÔÓ¦µÄÅÆ)
- * 8:µ÷ÓÃ¿´ÅÆ·½·¨
+ * éœ€æ±‚ï¼š
+ * é€šè¿‡ç¨‹åºå®ç°æ–—åœ°ä¸»è¿‡ç¨‹ä¸­çš„æ´—ç‰Œï¼Œå‘ç‰Œå’Œçœ‹ç‰Œã€‚è¦æ±‚ï¼šå¯¹ç‰Œè¿›è¡Œæ’åº
+ * æ€è·¯ï¼š
+ * 1:åˆ›å»ºHashMapï¼Œé”®æ˜¯ç¼–å·ï¼Œå€¼æ˜¯ç‰Œ
+ * 2:åˆ›å»ºArrayListï¼Œå­˜å‚¨ç¼–å·
+ * 3:åˆ›å»ºèŠ±è‰²æ•°ç»„å’Œç‚¹æ•°æ•°ç»„
+ * 4:ä»0å¼€å§‹å¾€HashMapé‡Œé¢å­˜å‚¨ç¼–å·ï¼Œå¹¶å­˜å‚¨å¯¹åº”çš„ç‰Œã€‚åŒæ—¶å¾€ArrayListé‡Œé¢å­˜å‚¨ç¼–å·
+ * 5:æ´—ç‰Œ(æ´—çš„æ˜¯ç¼–å·)ï¼Œç”¨Collectionsçš„shuffle()æ–¹æ³•å®ç°
+ * 6:å‘ç‰Œ(å‘çš„ä¹Ÿæ˜¯ç¼–å·ï¼Œä¸ºäº†ä¿è¯ç¼–å·æ˜¯æ’åºçš„ï¼Œåˆ›å»ºTreeSeté›†åˆæ¥æ”¶)
+ * 7:å®šä¹‰æ–¹æ³•çœ‹ç‰Œ(éå†TreeSeté›†åˆï¼Œè·å–ç¼–å·ï¼Œåˆ°HashMapé›†åˆæ‰¾å¯¹åº”çš„ç‰Œ)
+ * 8:è°ƒç”¨çœ‹ç‰Œæ–¹æ³•
  */
-public class eee043¿ÎÌÃÉı¼¶°¸Àı {
+public class eee043è¯¾å ‚å‡çº§æ¡ˆä¾‹ {
     public static void main(String[] args) {
-        //´´½¨HashMap£¬¼üÊÇ±àºÅ£¬ÖµÊÇÅÆ
+        //åˆ›å»ºHashMapï¼Œé”®æ˜¯ç¼–å·ï¼Œå€¼æ˜¯ç‰Œ
         HashMap<Integer, String> hm = new HashMap<Integer, String>();
 
-        //´´½¨ArrayList£¬´æ´¢±àºÅ
+        //åˆ›å»ºArrayListï¼Œå­˜å‚¨ç¼–å·
         ArrayList<Integer> array = new ArrayList<Integer>();
 
-        //´´½¨»¨É«Êı×éºÍµãÊıÊı×é
-        String[] colors = {"·½Æ¬", "Ã·»¨", "ºìÌÒ", "ºÚÌÒ"};
+        //åˆ›å»ºèŠ±è‰²æ•°ç»„å’Œç‚¹æ•°æ•°ç»„
+        String[] colors = {"æ–¹ç‰‡", "æ¢…èŠ±", "çº¢æ¡ƒ", "é»‘æ¡ƒ"};
         String[] numbers = {"3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K", "A", "2"};
 
-        //´Ó0¿ªÊ¼ÍùHashMapÀïÃæ´æ´¢±àºÅ£¬²¢´æ´¢¶ÔÓ¦µÄÅÆ¡£Í¬Ê±ÍùArrayListÀïÃæ´æ´¢±àºÅ
+        //ä»0å¼€å§‹å¾€HashMapé‡Œé¢å­˜å‚¨ç¼–å·ï¼Œå¹¶å­˜å‚¨å¯¹åº”çš„ç‰Œã€‚åŒæ—¶å¾€ArrayListé‡Œé¢å­˜å‚¨ç¼–å·
         int index = 0;
 
         for (String number : numbers) {
@@ -40,16 +40,16 @@ public class eee043¿ÎÌÃÉı¼¶°¸Àı {
                 index++;
             }
         }
-        hm.put(index, "Ğ¡Íõ");
+        hm.put(index, "å°ç‹");
         array.add(index);
         index++;
-        hm.put(index, "´óÍõ");
+        hm.put(index, "å¤§ç‹");
         array.add(index);
         // --------------------------------------------------------------------------------------------------------------
-        //Ï´ÅÆ(Ï´µÄÊÇ±àºÅ)£¬ÓÃCollectionsµÄshuffle()·½·¨ÊµÏÖ
+        //æ´—ç‰Œ(æ´—çš„æ˜¯ç¼–å·)ï¼Œç”¨Collectionsçš„shuffle()æ–¹æ³•å®ç°
         Collections.shuffle(array);
 
-        //·¢ÅÆ(·¢µÄÒ²ÊÇ±àºÅ£¬ÎªÁË±£Ö¤±àºÅÊÇÅÅĞòµÄ£¬´´½¨TreeSet¼¯ºÏ½ÓÊÕ)
+        //å‘ç‰Œ(å‘çš„ä¹Ÿæ˜¯ç¼–å·ï¼Œä¸ºäº†ä¿è¯ç¼–å·æ˜¯æ’åºçš„ï¼Œåˆ›å»ºTreeSeté›†åˆæ¥æ”¶)
         TreeSet<Integer> lqxSet = new TreeSet<Integer>();
         TreeSet<Integer> lySet = new TreeSet<Integer>();
         TreeSet<Integer> fqySet = new TreeSet<Integer>();
@@ -68,18 +68,18 @@ public class eee043¿ÎÌÃÉı¼¶°¸Àı {
             }
         }
         // --------------------------------------------------------------------------------------------------------------
-        //µ÷ÓÃ¿´ÅÆ·½·¨
-        lookPoker("ÁÖÇàÏ¼", lqxSet, hm);
-        lookPoker("ÁøÑÒ", lySet, hm);
-        lookPoker("·çÇåÑï", fqySet, hm);
-        lookPoker("µ×ÅÆ", dpSet, hm);
+        //è°ƒç”¨çœ‹ç‰Œæ–¹æ³•
+        lookPoker("æ—é’éœ", lqxSet, hm);
+        lookPoker("æŸ³å²©", lySet, hm);
+        lookPoker("é£æ¸…æ‰¬", fqySet, hm);
+        lookPoker("åº•ç‰Œ", dpSet, hm);
     }
 
     /**
-     * ¶¨Òå·½·¨¿´ÅÆ(±éÀúTreeSet¼¯ºÏ£¬»ñÈ¡±àºÅ£¬µ½HashMap¼¯ºÏÕÒ¶ÔÓ¦µÄÅÆ)
+     * å®šä¹‰æ–¹æ³•çœ‹ç‰Œ(éå†TreeSeté›†åˆï¼Œè·å–ç¼–å·ï¼Œåˆ°HashMapé›†åˆæ‰¾å¯¹åº”çš„ç‰Œ)
      */
     public static void lookPoker(String name, TreeSet<Integer> ts, HashMap<Integer, String> hm) {
-        System.out.print(name + "µÄÅÆÊÇ£º");
+        System.out.print(name + "çš„ç‰Œæ˜¯ï¼š");
         for (Integer key : ts) {
             String poker = hm.get(key);
             System.out.print(poker + " ");

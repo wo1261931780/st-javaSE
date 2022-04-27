@@ -1,11 +1,11 @@
-package ab¶þ½×¶ÎÇ¿»¯¿Î³Ì2022Äê1ÔÂ11ÈÕ.ccc008Ñ§Éú°¸Àý;
+package abäºŒé˜¶æ®µå¼ºåŒ–è¯¾ç¨‹2022å¹´1æœˆ11æ—¥.ccc008å­¦ç”Ÿæ¡ˆä¾‹;
 
-public class ccc001¸¸Àà {
+public class ccc001çˆ¶ç±» {
     private String name;
     private int age;
 
     public static void search_class() {
-        System.out.println("¿´¿Î±í");
+        System.out.println("çœ‹è¯¾è¡¨");
     }
 
     public String getName() {

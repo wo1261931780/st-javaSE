@@ -1,11 +1,11 @@
-package leetcode.eee118自己出题2;
+package leetcode.eee118鑷繁鍑洪2;
 
 import java.util.Arrays;
 import java.util.Random;
 
 public class demo_max_min {
     /**
-     * 随机生成五个数字，自动判断最值，然后输出
+     * 闅忔満鐢熸垚浜斾釜鏁板瓧锛岃嚜鍔ㄥ垽鏂渶鍊硷紝鐒跺悗杈撳嚭
      */
     public static void main(String[] args) {
         Random x = new Random();

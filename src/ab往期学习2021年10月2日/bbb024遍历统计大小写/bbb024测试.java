@@ -1,15 +1,15 @@
-package abÍùÆÚÑ§Ï°2021Äê10ÔÂ2ÈÕ.bbb024±éÀúÍ³¼Æ´óĞ¡Ğ´;
+package abå¾€æœŸå­¦ä¹ 2021å¹´10æœˆ2æ—¥.bbb024éå†ç»Ÿè®¡å¤§å°å†™;
 
 import java.util.Scanner;
 
-public class bbb024²âÊÔ {
+public class bbb024æµ‹è¯• {
     public static void main(String[] args) {
         Scanner xx = new Scanner(System.in);
-        System.out.println("ÊäÈëÊı¾İ£º");
+        System.out.println("è¾“å…¥æ•°æ®ï¼š");
         //String x1=xx.nextLine();
-        //ÏÈĞ´ºóÃæµÄ£¬È»ºóÓÃctrl+alt+v²¹Æë
+        //å…ˆå†™åé¢çš„ï¼Œç„¶åç”¨ctrl+alt+vè¡¥é½
         String x1 = xx.nextLine();
         int x2 = xx.nextInt();
-        System.out.println("ÄãÊäÈëµÄÊı¾İÊÇ£º" + x1);
+        System.out.println("ä½ è¾“å…¥çš„æ•°æ®æ˜¯ï¼š" + x1);
     }
 }

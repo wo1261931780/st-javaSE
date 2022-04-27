@@ -9,21 +9,21 @@ import java.net.DatagramSocket;
  * Project:index.pb
  * Package:c2stage_20220306.ccc85duofa
  * User:  wo1261931780@gmail.com
- * Time:  2022-03-10-42  ĞÇÆÚÒ»
+ * Time:  2022-03-10-42  æ˜ŸæœŸä¸€
  */
 public class ccc002service {
     public static void main(String[] args) throws IOException {
-        DatagramSocket demo_s = new DatagramSocket(18959);//1.½¨Á¢Í¨ĞÅ£¬ÉèÖÃ¶Ë¿Ú
-        byte[] demo_st = new byte[1024 * 64];// 2.ÉèÖÃÊı×éµÄ³¤¶È
-        int st_length = demo_st.length;// 3.ÉèÖÃÊµ¼ÊµÄ³¤¶È
+        DatagramSocket demo_s = new DatagramSocket(18959);//1.å»ºç«‹é€šä¿¡ï¼Œè®¾ç½®ç«¯å£
+        byte[] demo_st = new byte[1024 * 64];// 2.è®¾ç½®æ•°ç»„çš„é•¿åº¦
+        int st_length = demo_st.length;// 3.è®¾ç½®å®é™…çš„é•¿åº¦
 
-        String show_st = "";// 6.Õ¹Ê¾½á¹û£¬³¤¶ÈÎª0-×Ü³¤¶È
+        String show_st = "";// 6.å±•ç¤ºç»“æœï¼Œé•¿åº¦ä¸º0-æ€»é•¿åº¦
         while (true) {
-            DatagramPacket demo_p = new DatagramPacket(demo_st, st_length);// 4.½ÓÊÕ×Ö·û£¬ÉèÖÃºÃ½ÓÊÕµÄ³¤¶È
-            demo_s.receive(demo_p);// 5.½ÓÊÕ
+            DatagramPacket demo_p = new DatagramPacket(demo_st, st_length);// 4.æ¥æ”¶å­—ç¬¦ï¼Œè®¾ç½®å¥½æ¥æ”¶çš„é•¿åº¦
+            demo_s.receive(demo_p);// 5.æ¥æ”¶
             // show_st = new String(demo_st, 0, st_length);
-            show_st = new String(demo_st, 0, demo_p.getLength());// ÒªÈ¥»ñÈ¡³¤¶È£¬²»ÊÇÖ±½ÓµÃµ½³¤¶È
-            System.out.println("½ÓÊÕµ½µÄ½á¹ûÎª£º" + show_st + "£¬¶Ô·½µØÖ·£º" + demo_p.getAddress() + "£¬¶Ô·½¶Ë¿Ú£º" + demo_p.getPort());
+            show_st = new String(demo_st, 0, demo_p.getLength());// è¦å»è·å–é•¿åº¦ï¼Œä¸æ˜¯ç›´æ¥å¾—åˆ°é•¿åº¦
+            System.out.println("æ¥æ”¶åˆ°çš„ç»“æœä¸ºï¼š" + show_st + "ï¼Œå¯¹æ–¹åœ°å€ï¼š" + demo_p.getAddress() + "ï¼Œå¯¹æ–¹ç«¯å£ï¼š" + demo_p.getPort());
         }
 
     }

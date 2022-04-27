@@ -1,26 +1,26 @@
-package abÍùÆÚÑ§Ï°2021Äê10ÔÂ2ÈÕ.aaa001³õÆÚÑ§Ï°¼¯ºÏ;
+package abå¾€æœŸå­¦ä¹ 2021å¹´10æœˆ2æ—¥.aaa001åˆæœŸå­¦ä¹ é›†åˆ;
 
 import java.util.Scanner;
 import java.util.Random;
 
-public class aaa020²âÊÔÊı¾İÀàĞÍ {
+public class aaa020æµ‹è¯•æ•°æ®ç±»å‹ {
     public static void main(String[] args) {
         Scanner xx = new Scanner(System.in);
         Random zz = new Random();
-        System.out.println("ÇëÊäÈëÊı×Ö£º");
+        System.out.println("è¯·è¾“å…¥æ•°å­—ï¼š");
         int x1 = xx.nextInt();
         int z1 = zz.nextInt(1000);
-        //ÕâÀïµ÷ÓÃ·½·¨µÃµ½µÄÊı¾İ£¬ÒòÎªĞÎ²ÎÒÑ¾­×ª»»ÁËË«¸¡µã£¬ËùÒÔÓĞĞ¡Êıµã
+        //è¿™é‡Œè°ƒç”¨æ–¹æ³•å¾—åˆ°çš„æ•°æ®ï¼Œå› ä¸ºå½¢å‚å·²ç»è½¬æ¢äº†åŒæµ®ç‚¹ï¼Œæ‰€ä»¥æœ‰å°æ•°ç‚¹
         jo(z1);
-        System.out.println("ÊäÈëµÄÊı¾İÊÇ£º" + x1 + ";Ëæ»úµÃµ½µÄÊı¾İÊÇ:" + z1);
-        //ÕâÀïÖ±½Ó»ñÈ¡µÄÊı¾İÊÇÖ÷³ÌĞòµÃµ½µÄ£¬ËùÒÔÊÇintÀàĞÍ
+        System.out.println("è¾“å…¥çš„æ•°æ®æ˜¯ï¼š" + x1 + ";éšæœºå¾—åˆ°çš„æ•°æ®æ˜¯:" + z1);
+        //è¿™é‡Œç›´æ¥è·å–çš„æ•°æ®æ˜¯ä¸»ç¨‹åºå¾—åˆ°çš„ï¼Œæ‰€ä»¥æ˜¯intç±»å‹
     }
 
     public static void jo(double z1) {
         if (z1 % 2 == 0) {
-            System.out.println("·½·¨Êä³öµÄÊı¾İÊÇ£º" + z1);
+            System.out.println("æ–¹æ³•è¾“å‡ºçš„æ•°æ®æ˜¯ï¼š" + z1);
         } else {
-            System.out.println("·½·¨Êä³öµÄÊı¾İÊÇ£º" + z1);
+            System.out.println("æ–¹æ³•è¾“å‡ºçš„æ•°æ®æ˜¯ï¼š" + z1);
         }
     }
 }

@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class ccc003test_run {
     public static void main(String[] args) {
-        System.out.println("¿ªÊ¼ÔËĞĞ");
+        System.out.println("å¼€å§‹è¿è¡Œ");
         ccc001test_animal x = new ccc002test_dog();
         Scanner x1 = new Scanner(System.in);
         String xx = x1.nextLine();

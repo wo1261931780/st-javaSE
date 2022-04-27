@@ -1,72 +1,72 @@
-package c2stage_20220220.ccc064arraylistºÍlinklist;
+package c2stage_20220220.ccc064arraylistå’Œlinklist;
 /*
-    List¼¯ºÏ³£ÓÃ×ÓÀà£ºArrayList£¬LinkedList
-        ArrayList£ºµ×²ãÊı¾İ½á¹¹ÊÇÊı×é£¬²éÑ¯¿ì£¬ÔöÉ¾Âı
-        LinkedList£ºµ×²ãÊı¾İ½á¹¹ÊÇÁ´±í£¬²éÑ¯Âı£¬ÔöÉ¾¿ì
+    Listé›†åˆå¸¸ç”¨å­ç±»ï¼šArrayListï¼ŒLinkedList
+        ArrayListï¼šåº•å±‚æ•°æ®ç»“æ„æ˜¯æ•°ç»„ï¼ŒæŸ¥è¯¢å¿«ï¼Œå¢åˆ æ…¢
+        LinkedListï¼šåº•å±‚æ•°æ®ç»“æ„æ˜¯é“¾è¡¨ï¼ŒæŸ¥è¯¢æ…¢ï¼Œå¢åˆ å¿«
 
-    Á·Ï°£º
-        ·Ö±ğÊ¹ÓÃArrayListºÍLinkedListÍê³É´æ´¢×Ö·û´®²¢±éÀú
+    ç»ƒä¹ ï¼š
+        åˆ†åˆ«ä½¿ç”¨ArrayListå’ŒLinkedListå®Œæˆå­˜å‚¨å­—ç¬¦ä¸²å¹¶éå†
  */
 /*
-    ĞèÇó£º
-        ´´½¨Ò»¸ö´æ´¢Ñ§Éú¶ÔÏóµÄ¼¯ºÏ£¬´æ´¢3¸öÑ§Éú¶ÔÏó£¬Ê¹ÓÃ³ÌĞòÊµÏÖÔÚ¿ØÖÆÌ¨±éÀú¸Ã¼¯ºÏ
+    éœ€æ±‚ï¼š
+        åˆ›å»ºä¸€ä¸ªå­˜å‚¨å­¦ç”Ÿå¯¹è±¡çš„é›†åˆï¼Œå­˜å‚¨3ä¸ªå­¦ç”Ÿå¯¹è±¡ï¼Œä½¿ç”¨ç¨‹åºå®ç°åœ¨æ§åˆ¶å°éå†è¯¥é›†åˆ
 
-    Ë¼Â·£º
-        1:¶¨ÒåÑ§ÉúÀà
-        2:´´½¨ArrayList¼¯ºÏ¶ÔÏó
-        3:´´½¨Ñ§Éú¶ÔÏó
-        4:°ÑÑ§ÉúÌí¼Óµ½¼¯ºÏ
-        5:±éÀú¼¯ºÏ
-            µü´úÆ÷£º¼¯ºÏÌØÓĞµÄ±éÀú·½Ê½
-            ÆÕÍ¨for£º´øÓĞË÷ÒıµÄ±éÀú·½Ê½
-            ÔöÇ¿for£º×î·½±ãµÄ±éÀú·½Ê½
+    æ€è·¯ï¼š
+        1:å®šä¹‰å­¦ç”Ÿç±»
+        2:åˆ›å»ºArrayListé›†åˆå¯¹è±¡
+        3:åˆ›å»ºå­¦ç”Ÿå¯¹è±¡
+        4:æŠŠå­¦ç”Ÿæ·»åŠ åˆ°é›†åˆ
+        5:éå†é›†åˆ
+            è¿­ä»£å™¨ï¼šé›†åˆç‰¹æœ‰çš„éå†æ–¹å¼
+            æ™®é€šforï¼šå¸¦æœ‰ç´¢å¼•çš„éå†æ–¹å¼
+            å¢å¼ºforï¼šæœ€æ–¹ä¾¿çš„éå†æ–¹å¼
  */
 
 import java.util.*;
 
-public class ddd062Á½¸ö¼¯ºÏÈı¸ö·½Ê½±éÀú°¸Àı {
+public class ddd062ä¸¤ä¸ªé›†åˆä¸‰ä¸ªæ–¹å¼éå†æ¡ˆä¾‹ {
     public static void main(String[] args) {
-        ArrayList<ddd061¶ÔÏóÀà> x = new ArrayList<>();
-        ddd061¶ÔÏóÀà x2 = new ddd061¶ÔÏóÀà("a1", 11);
-        ddd061¶ÔÏóÀà x3 = new ddd061¶ÔÏóÀà("a2", 22);
-        ddd061¶ÔÏóÀà x4 = new ddd061¶ÔÏóÀà("a3", 33);
+        ArrayList<ddd061å¯¹è±¡ç±»> x = new ArrayList<>();
+        ddd061å¯¹è±¡ç±» x2 = new ddd061å¯¹è±¡ç±»("a1", 11);
+        ddd061å¯¹è±¡ç±» x3 = new ddd061å¯¹è±¡ç±»("a2", 22);
+        ddd061å¯¹è±¡ç±» x4 = new ddd061å¯¹è±¡ç±»("a3", 33);
         x.add(x2);
         x.add(x3);
         x.add(x4);
         System.out.println("----------------------------------");
         for (int i = 0; i < x.size(); i++) {
-            ddd061¶ÔÏóÀà xx = x.get(i);
+            ddd061å¯¹è±¡ç±» xx = x.get(i);
             System.out.println(xx.getName() + "," + xx.getAge());
         }
         System.out.println("----------------------------------");
-        Iterator<ddd061¶ÔÏóÀà> x5 = x.iterator();
+        Iterator<ddd061å¯¹è±¡ç±»> x5 = x.iterator();
         while (x5.hasNext()) {
-            ddd061¶ÔÏóÀà x6 = x5.next();
+            ddd061å¯¹è±¡ç±» x6 = x5.next();
             System.out.println(x6.getName() + "--" + x6.getAge());
         }
         System.out.println("----------------------------------");
-        for (ddd061¶ÔÏóÀà i : x) {
+        for (ddd061å¯¹è±¡ç±» i : x) {
             System.out.println(i.getName() + "**" + i.getAge());
         }
         System.out.println("----------------------------------");
         // System.out.println("----------------------------------");
         // System.out.println("----------------------------------");
-        LinkedList<ddd061¶ÔÏóÀà> x1 = new LinkedList<>();
+        LinkedList<ddd061å¯¹è±¡ç±»> x1 = new LinkedList<>();
         x1.add(x2);
         x1.add(x3);
         x1.add(x4);
         for (int i = 0; i < x1.size(); i++) {
-            ddd061¶ÔÏóÀà xx = x1.get(i);
+            ddd061å¯¹è±¡ç±» xx = x1.get(i);
             System.out.println(xx.getName() + "," + xx.getAge());
         }
         System.out.println("----------------------------------");
-        Iterator<ddd061¶ÔÏóÀà> x7 = x1.iterator();
+        Iterator<ddd061å¯¹è±¡ç±»> x7 = x1.iterator();
         while (x7.hasNext()) {
-            ddd061¶ÔÏóÀà x8 = x7.next();
+            ddd061å¯¹è±¡ç±» x8 = x7.next();
             System.out.println(x8.getName() + "--" + x8.getAge());
         }
         System.out.println("----------------------------------");
-        for (ddd061¶ÔÏóÀà i : x1) {
+        for (ddd061å¯¹è±¡ç±» i : x1) {
             System.out.println(i.getName() + "**" + i.getAge());
         }
     }

@@ -1,33 +1,33 @@
 package c2stage_20220202.ccc037object_api_system;
 
 /**
- * Ä¿±ê£ºSystemÏµÍ³ÀàµÄÊ¹ÓÃ¡£
- * System´ú±íµ±Ç°ÏµÍ³¡££¨ĞéÄâ»úÏµÍ³£©
- * ¾²Ì¬·½·¨£º
- * 1.public static void exit(int status):ÖÕÖ¹JVMĞéÄâ»ú£¬·Ç0ÊÇÒì³£ÖÕÖ¹¡£
- * 2.public static long currentTimeMillis():»ñÈ¡µ±Ç°ÏµÍ³´Ë¿ÌÊ±¼äºÁÃëÖµ¡£(ÖØµã)
- * 3.¿ÉÒÔ×öÊı×éµÄ¿½±´¡£
+ * ç›®æ ‡ï¼šSystemç³»ç»Ÿç±»çš„ä½¿ç”¨ã€‚
+ * Systemä»£è¡¨å½“å‰ç³»ç»Ÿã€‚ï¼ˆè™šæ‹Ÿæœºç³»ç»Ÿï¼‰
+ * é™æ€æ–¹æ³•ï¼š
+ * 1.public static void exit(int status):ç»ˆæ­¢JVMè™šæ‹Ÿæœºï¼Œé0æ˜¯å¼‚å¸¸ç»ˆæ­¢ã€‚
+ * 2.public static long currentTimeMillis():è·å–å½“å‰ç³»ç»Ÿæ­¤åˆ»æ—¶é—´æ¯«ç§’å€¼ã€‚(é‡ç‚¹)
+ * 3.å¯ä»¥åšæ•°ç»„çš„æ‹·è´ã€‚
  * arraycopy(Object var0, int var1, Object var2, int var3, int var4);
- * ²ÎÊıÒ»£ºÔ­Êı×é
- * ²ÎÊı¶ş£º´ÓÔ­Êı×éµÄÄÄ¸öÎ»ÖÃ¿ªÊ¼¸³Öµ¡£
- * ²ÎÊıÈı£ºÄ¿±êÊı×é
- * ²ÎÊıËÄ£º¸³Öµµ½Ä¿±êÊı×éµÄÄÄ¸öÎ»ÖÃ
- * ²ÎÊıÎå£º¸³Öµ¼¸¸ö¡£
+ * å‚æ•°ä¸€ï¼šåŸæ•°ç»„
+ * å‚æ•°äºŒï¼šä»åŸæ•°ç»„çš„å“ªä¸ªä½ç½®å¼€å§‹èµ‹å€¼ã€‚
+ * å‚æ•°ä¸‰ï¼šç›®æ ‡æ•°ç»„
+ * å‚æ•°å››ï¼šèµ‹å€¼åˆ°ç›®æ ‡æ•°ç»„çš„å“ªä¸ªä½ç½®
+ * å‚æ•°äº”ï¼šèµ‹å€¼å‡ ä¸ªã€‚
  */
 public class ccc034system {
     /**
-     * ²»ÄÜ±»ÊµÀı»¯==²»ÄÜnewÒ»¸öĞÂµÄ¶ÔÏó
+     * ä¸èƒ½è¢«å®ä¾‹åŒ–==ä¸èƒ½newä¸€ä¸ªæ–°çš„å¯¹è±¡
      */
     public static void main(String[] args) {
         System.out.println("----------------");
         // System.exit(0);
-        // ÖÕÖ¹javaĞéÄâ»ú£¬·Ç0ÔòÒì³£ÍË³ö
-        //systemÃüÁîÊÇ¶ÔĞéÄâ»úµÄÃüÁî£¬System.ÃüÁî¼´¿É
+        // ç»ˆæ­¢javaè™šæ‹Ÿæœºï¼Œé0åˆ™å¼‚å¸¸é€€å‡º
+        //systemå‘½ä»¤æ˜¯å¯¹è™šæ‹Ÿæœºçš„å‘½ä»¤ï¼ŒSystem.å‘½ä»¤å³å¯
         System.out.println(System.currentTimeMillis());
-        //Õâ¸öÊÇºÍ1970ÄêÖ®¼äµÄºÁÃëÖµ
-        System.out.println(System.currentTimeMillis() * 1.0 / 60 / 3600 / 24 / 30 / 365 + "Äê");
+        //è¿™ä¸ªæ˜¯å’Œ1970å¹´ä¹‹é—´çš„æ¯«ç§’å€¼
+        System.out.println(System.currentTimeMillis() * 1.0 / 60 / 3600 / 24 / 30 / 365 + "å¹´");
         double x = System.currentTimeMillis() * 1.0 / 60 / 3600 / 24 / 30 / 365;
-        System.out.println(x + "Äê");
+        System.out.println(x + "å¹´");
 
         System.out.println("****************");
         long x1 = System.currentTimeMillis();
@@ -36,9 +36,9 @@ public class ccc034system {
         }
         long x2 = System.currentTimeMillis();
         System.out.println("total:" + (x2 - x1) + "ms");
-        // ¼òµ¥ËµÃ÷£º
-        // System.out.println();Ò²ÊÇsystemµÄÊä³öÓï¾ä
-        // System.currentTimeMillis();ÊÇÀàËÆÓï¾ä
-        // SystemÊôÓÚ²»ĞèÒªµ¼°üµÄÀàĞÍ
+        // ç®€å•è¯´æ˜ï¼š
+        // System.out.println();ä¹Ÿæ˜¯systemçš„è¾“å‡ºè¯­å¥
+        // System.currentTimeMillis();æ˜¯ç±»ä¼¼è¯­å¥
+        // Systemå±äºä¸éœ€è¦å¯¼åŒ…çš„ç±»å‹
     }
 }

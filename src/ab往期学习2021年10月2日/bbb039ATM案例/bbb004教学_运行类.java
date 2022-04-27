@@ -1,120 +1,120 @@
-package abÍùÆÚÑ§Ï°2021Äê10ÔÂ2ÈÕ.bbb039ATM°¸Àı;
+package abå¾€æœŸå­¦ä¹ 2021å¹´10æœˆ2æ—¥.bbb039ATMæ¡ˆä¾‹;
 
 import java.util.ArrayList;
 import java.util.Random;
 import java.util.Scanner;
 
-public class bbb004½ÌÑ§_ÔËĞĞÀà {
+public class bbb004æ•™å­¦_è¿è¡Œç±» {
     public static void main(String[] args) {
-        // 2¡¢´´½¨Ò»¸ö¼¯ºÏ¶ÔÏó£¬ÓÃÓÚºóÆÚ´æÈëÕË»§¶ÔÏó¡£
-        ArrayList<bbb003½ÌÑ§_Àà> accounts = new ArrayList<>();
+        // 2ã€åˆ›å»ºä¸€ä¸ªé›†åˆå¯¹è±¡ï¼Œç”¨äºåæœŸå­˜å…¥è´¦æˆ·å¯¹è±¡ã€‚
+        ArrayList<bbb003æ•™å­¦_ç±»> accounts = new ArrayList<>();
 
-        // 3¡¢Õ¹Ê¾ÏµÍ³»¶Ó­Ò³Ãæ
-        System.out.println("======»¶Ó­Äú½øÈëµ½ºÚÂíATMÏµÍ³===============");
+        // 3ã€å±•ç¤ºç³»ç»Ÿæ¬¢è¿é¡µé¢
+        System.out.println("======æ¬¢è¿æ‚¨è¿›å…¥åˆ°é»‘é©¬ATMç³»ç»Ÿ===============");
         while (true) {
-            System.out.println("1¡¢µÇÂ¼ÕË»§");
-            System.out.println("2¡¢×¢²áÕË»§");
-            System.out.println("ÇëÄúÑ¡Ôñ²Ù×÷£º");
+            System.out.println("1ã€ç™»å½•è´¦æˆ·");
+            System.out.println("2ã€æ³¨å†Œè´¦æˆ·");
+            System.out.println("è¯·æ‚¨é€‰æ‹©æ“ä½œï¼š");
             Scanner sc = new Scanner(System.in);
             int command = sc.nextInt();
             switch (command) {
                 case 1:
-                    // µÇÂ¼²Ù×÷
+                    // ç™»å½•æ“ä½œ
                     login(accounts, sc);
                     break;
                 case 2:
-                    // ×¢²áÕË»§
+                    // æ³¨å†Œè´¦æˆ·
                     register(accounts, sc);
                     break;
                 default:
-                    System.out.println("µ±Ç°ÊäÈëµÄ²Ù×÷²»´æÔÚ£¡");
+                    System.out.println("å½“å‰è¾“å…¥çš„æ“ä½œä¸å­˜åœ¨ï¼");
             }
         }
     }
 
     /**
-     * ÓÃ»§µÇÂ¼¹¦ÄÜ
+     * ç”¨æˆ·ç™»å½•åŠŸèƒ½
      */
-    private static void login(ArrayList<bbb003½ÌÑ§_Àà> accounts, Scanner sc) {
-        System.out.println("==================»¶Ó­Äú½øÈëµ½µÇÂ¼²Ù×÷======================");
+    private static void login(ArrayList<bbb003æ•™å­¦_ç±»> accounts, Scanner sc) {
+        System.out.println("==================æ¬¢è¿æ‚¨è¿›å…¥åˆ°ç™»å½•æ“ä½œ======================");
         if (accounts.size() > 0) {
             while (true) {
-                System.out.println("ÇëÄúÊäÈëµÇÂ¼µÄ¿¨ºÅ£º");
+                System.out.println("è¯·æ‚¨è¾“å…¥ç™»å½•çš„å¡å·ï¼š");
                 String cardId = sc.next();
-                // 2¡¢¸ù¾İ¿¨ºÅÈ¥¼¯ºÏÖĞ²éÑ¯ÊÇ·ñ´æÔÚÕË»§¶ÔÏó
-                bbb003½ÌÑ§_Àà acc = getAccountByCardId(cardId, accounts);
-                // ÅĞ¶ÏÕË»§¶ÔÏóÊÇ·ñ´æÔÚ£¬´æÔÚËµÃ÷¿¨ºÅÕıÈ·
+                // 2ã€æ ¹æ®å¡å·å»é›†åˆä¸­æŸ¥è¯¢æ˜¯å¦å­˜åœ¨è´¦æˆ·å¯¹è±¡
+                bbb003æ•™å­¦_ç±» acc = getAccountByCardId(cardId, accounts);
+                // åˆ¤æ–­è´¦æˆ·å¯¹è±¡æ˜¯å¦å­˜åœ¨ï¼Œå­˜åœ¨è¯´æ˜å¡å·æ­£ç¡®
                 if (acc != null) {
                     while (true) {
-                        // 3¡¢ÅĞ¶ÏÃÜÂëÊÇ·ñÕıÈ·
-                        System.out.println("ÇëÄúÊäÈëµÇÂ¼µÄÃÜÂë£º");
+                        // 3ã€åˆ¤æ–­å¯†ç æ˜¯å¦æ­£ç¡®
+                        System.out.println("è¯·æ‚¨è¾“å…¥ç™»å½•çš„å¯†ç ï¼š");
                         String passWord = sc.next();
                         if (acc.getPassWord().equals(passWord)) {
-                            // µÇÂ¼³É¹¦ÁË£¡
-                            System.out.println("»¶Ó­Äã£º" + acc.getUserName() + "ÏÈÉú/Å®Ê¿½øÈëÏµÍ³£¬Äú¿É¿ªÊ¼°ìÀíÄãµÄÒµÎñÁË!");
-                            // Õ¹Ê¾µÇÂ¼³É¹¦ºóµÄ²Ù×÷½çÃæ¡£
+                            // ç™»å½•æˆåŠŸäº†ï¼
+                            System.out.println("æ¬¢è¿ä½ ï¼š" + acc.getUserName() + "å…ˆç”Ÿ/å¥³å£«è¿›å…¥ç³»ç»Ÿï¼Œæ‚¨å¯å¼€å§‹åŠç†ä½ çš„ä¸šåŠ¡äº†!");
+                            // å±•ç¤ºç™»å½•æˆåŠŸåçš„æ“ä½œç•Œé¢ã€‚
                             showCommand(sc, acc, accounts);
                             return;
                         } else {
-                            System.out.println("ÄúµÄÃÜÂë²»ÕıÈ·£¡");
+                            System.out.println("æ‚¨çš„å¯†ç ä¸æ­£ç¡®ï¼");
                         }
                     }
                 } else {
-                    System.out.println("¿¨ºÅ²»´æÔÚ£¬ÇëÈ·ÈÏ£¡");
+                    System.out.println("å¡å·ä¸å­˜åœ¨ï¼Œè¯·ç¡®è®¤ï¼");
                 }
             }
         } else {
-            System.out.println("µ±Ç°ÏµÍ³ÎŞÈÎºÎÕË»§£¬ÇëÏÈ×¢²áÔÙµÇÂ¼£¡");
+            System.out.println("å½“å‰ç³»ç»Ÿæ— ä»»ä½•è´¦æˆ·ï¼Œè¯·å…ˆæ³¨å†Œå†ç™»å½•ï¼");
         }
     }
 
     /**
-     * µÇÂ¼ºóÕ¹Ê¾µÄ½çÃæ
+     * ç™»å½•åå±•ç¤ºçš„ç•Œé¢
      */
-    private static void showCommand(Scanner sc, bbb003½ÌÑ§_Àà acc, ArrayList<bbb003½ÌÑ§_Àà> accounts) {
+    private static void showCommand(Scanner sc, bbb003æ•™å­¦_ç±» acc, ArrayList<bbb003æ•™å­¦_ç±»> accounts) {
         while (true) {
-            System.out.println("==================»¶Ó­Äú½øÈëµ½²Ù×÷½çÃæ======================");
-            System.out.println("1¡¢²éÑ¯");
-            System.out.println("2¡¢´æ¿î");
-            System.out.println("3¡¢È¡¿î");
-            System.out.println("4¡¢×ªÕË");
-            System.out.println("5¡¢ĞŞ¸ÄÃÜÂë");
-            System.out.println("6¡¢ÍË³ö");
-            System.out.println("7¡¢×¢ÏúÕË»§");
-            System.out.println("ÇëÄúÊäÈë²Ù×÷ÃüÁî£º");
+            System.out.println("==================æ¬¢è¿æ‚¨è¿›å…¥åˆ°æ“ä½œç•Œé¢======================");
+            System.out.println("1ã€æŸ¥è¯¢");
+            System.out.println("2ã€å­˜æ¬¾");
+            System.out.println("3ã€å–æ¬¾");
+            System.out.println("4ã€è½¬è´¦");
+            System.out.println("5ã€ä¿®æ”¹å¯†ç ");
+            System.out.println("6ã€é€€å‡º");
+            System.out.println("7ã€æ³¨é”€è´¦æˆ·");
+            System.out.println("è¯·æ‚¨è¾“å…¥æ“ä½œå‘½ä»¤ï¼š");
             int command = sc.nextInt();
             switch (command) {
                 case 1:
-                    // ²éÑ¯ÕË»§ĞÅÏ¢Õ¹Ê¾
+                    // æŸ¥è¯¢è´¦æˆ·ä¿¡æ¯å±•ç¤º
                     showAccount(acc);
                     break;
                 case 2:
-                    // ´æ¿î
+                    // å­˜æ¬¾
                     depositMoney(acc, sc);
                     break;
                 case 3:
-                    // È¡¿î
+                    // å–æ¬¾
                     drawMoney(acc, sc);
                     break;
                 case 4:
-                    // ×ªÕË
+                    // è½¬è´¦
                     transferMoney(acc, accounts, sc);
                     break;
                 case 5:
-                    // ĞŞ¸ÄÃÜÂë
+                    // ä¿®æ”¹å¯†ç 
                     updatePassWord(acc, sc);
-                    return; // Ìø³öµ±Ç°²Ù×÷µÄ·½·¨£¬×îÖÕ»Øµ½Ê×Ò³
+                    return; // è·³å‡ºå½“å‰æ“ä½œçš„æ–¹æ³•ï¼Œæœ€ç»ˆå›åˆ°é¦–é¡µ
                 case 6:
-                    // ÍË³ö »Øµ½Ê×Ò³
-                    System.out.println("»¶Ó­ÏÂ´Î¼ÌĞø¹âÁÙ£¡£¡");
-                    return; // ½áÊøµÇÂ¼ºóµÄÈ«²¿²Ù×÷
+                    // é€€å‡º å›åˆ°é¦–é¡µ
+                    System.out.println("æ¬¢è¿ä¸‹æ¬¡ç»§ç»­å…‰ä¸´ï¼ï¼");
+                    return; // ç»“æŸç™»å½•åçš„å…¨éƒ¨æ“ä½œ
                 case 7:
-                    // ×¢ÏúÕË»§
-                    accounts.remove(acc); // ´Ó¼¯ºÏ¶ÔÏóÖĞÉ¾³ıµ±Ç°ÕË»§¶ÔÏó¡£
-                    System.out.println("ÄúµÄÕË»§ÒÑ¾­Íê³ÉÁËÏú»Ù£¬Äú½«²»¿ÉÒÔ½øĞĞµÇÂ¼ÁË£¡");
+                    // æ³¨é”€è´¦æˆ·
+                    accounts.remove(acc); // ä»é›†åˆå¯¹è±¡ä¸­åˆ é™¤å½“å‰è´¦æˆ·å¯¹è±¡ã€‚
+                    System.out.println("æ‚¨çš„è´¦æˆ·å·²ç»å®Œæˆäº†é”€æ¯ï¼Œæ‚¨å°†ä¸å¯ä»¥è¿›è¡Œç™»å½•äº†ï¼");
                     return;
                 default:
-                    System.out.println("ÄúµÄ²Ù×÷ÃüÁîÓĞÎó£¡");
+                    System.out.println("æ‚¨çš„æ“ä½œå‘½ä»¤æœ‰è¯¯ï¼");
             }
         }
 
@@ -122,203 +122,203 @@ public class bbb004½ÌÑ§_ÔËĞĞÀà {
 
 
     /**
-     * ĞŞ¸Äµ±Ç°ÕË»§¶ÔÏóµÄÃÜÂë
+     * ä¿®æ”¹å½“å‰è´¦æˆ·å¯¹è±¡çš„å¯†ç 
      *
      * @param acc
      */
-    private static void updatePassWord(bbb003½ÌÑ§_Àà acc, Scanner sc) {
-        // 1¡¢ÅĞ¶Ï¾ÉÃÜÂëÊÇ·ñÕıÈ·
+    private static void updatePassWord(bbb003æ•™å­¦_ç±» acc, Scanner sc) {
+        // 1ã€åˆ¤æ–­æ—§å¯†ç æ˜¯å¦æ­£ç¡®
         while (true) {
-            System.out.println("ÇëÄúÊäÈëµ±Ç°ÃÜÂëÈÏÖ¤£º");
+            System.out.println("è¯·æ‚¨è¾“å…¥å½“å‰å¯†ç è®¤è¯ï¼š");
             String passWord = sc.next();
             if (acc.getPassWord().equals(passWord)) {
                 while (true) {
-                    // 2¡¢ÊäÈëĞÂÃÜÂë
-                    System.out.println("ÇëÄúÊäÈëĞÂÃÜÂë£º");
+                    // 2ã€è¾“å…¥æ–°å¯†ç 
+                    System.out.println("è¯·æ‚¨è¾“å…¥æ–°å¯†ç ï¼š");
                     String newPassWord = sc.next();
-                    System.out.println("ÇëÄúÈ·ÈÏĞÂÃÜÂë£º");
+                    System.out.println("è¯·æ‚¨ç¡®è®¤æ–°å¯†ç ï¼š");
                     String okPassWord = sc.next();
-                    // 3¡¢±È¶ÔÁ½´ÎÃÜÂëÊÇ·ñÒ»ÖÂ
+                    // 3ã€æ¯”å¯¹ä¸¤æ¬¡å¯†ç æ˜¯å¦ä¸€è‡´
                     if (newPassWord.equals(okPassWord)) {
                         acc.setPassWord(okPassWord);
-                        System.out.println("ÃÜÂëÒÑ¾­ĞŞ¸Ä³É¹¦£¬ÇëÖØĞÂµÇÂ¼£¡");
+                        System.out.println("å¯†ç å·²ç»ä¿®æ”¹æˆåŠŸï¼Œè¯·é‡æ–°ç™»å½•ï¼");
                         return;
                     } else {
-                        System.out.println("Á½´ÎÃÜÂë²»Ò»ÖÂ£¡");
+                        System.out.println("ä¸¤æ¬¡å¯†ç ä¸ä¸€è‡´ï¼");
                     }
                 }
             } else {
-                System.out.println("ÄúÊäÈëµÄÃÜÂëÓĞÎó¡£ÇëÖØĞÂÈ·ÈÏÃÜÂë£¡");
+                System.out.println("æ‚¨è¾“å…¥çš„å¯†ç æœ‰è¯¯ã€‚è¯·é‡æ–°ç¡®è®¤å¯†ç ï¼");
             }
         }
     }
 
     /**
-     * ´Óµ±Ç°ÕË»§¶ÔÏóÖĞ°Ñ½ğ¶î×ª¸øÆäËûÕË»§¶ÔÏó¡£
+     * ä»å½“å‰è´¦æˆ·å¯¹è±¡ä¸­æŠŠé‡‘é¢è½¬ç»™å…¶ä»–è´¦æˆ·å¯¹è±¡ã€‚
      *
      * @param acc
      * @param accounts
      * @param sc
      */
-    private static void transferMoney(bbb003½ÌÑ§_Àà acc, ArrayList<bbb003½ÌÑ§_Àà> accounts, Scanner sc) {
-        // 1¡¢ÅĞ¶Ï×Ô¼ºµÄÕË»§ÖĞÊÇ·ñÓĞÇ®
+    private static void transferMoney(bbb003æ•™å­¦_ç±» acc, ArrayList<bbb003æ•™å­¦_ç±»> accounts, Scanner sc) {
+        // 1ã€åˆ¤æ–­è‡ªå·±çš„è´¦æˆ·ä¸­æ˜¯å¦æœ‰é’±
         if (acc.getMoney() <= 0) {
-            System.out.println("Äú×Ô¼º¶¼Ã»Ç®£¬¾Í±ğ×ªÁË°É£¡");
+            System.out.println("æ‚¨è‡ªå·±éƒ½æ²¡é’±ï¼Œå°±åˆ«è½¬äº†å§ï¼");
             return;
         }
 
-        // 2¡¢ÅĞ¶Ï×ÜÕË»§ÊıÁ¿ÊÇ·ñ´óÓÚµÈÓÚ2¸ö¡£
+        // 2ã€åˆ¤æ–­æ€»è´¦æˆ·æ•°é‡æ˜¯å¦å¤§äºç­‰äº2ä¸ªã€‚
         if (accounts.size() >= 2) {
             while (true) {
-                // 3¡¢ÈÃµ±Ç°ÓÃ»§ÊäÈë¶Ô·½µÄÕËºÅ½øĞĞ×ªÕË
-                System.out.println("ÇëÄúÊäÈë¶Ô·½¿¨ºÅ£º");
+                // 3ã€è®©å½“å‰ç”¨æˆ·è¾“å…¥å¯¹æ–¹çš„è´¦å·è¿›è¡Œè½¬è´¦
+                System.out.println("è¯·æ‚¨è¾“å…¥å¯¹æ–¹å¡å·ï¼š");
                 String cardId = sc.next();
 
-                // 4¡¢¸ù¾İ¿¨ºÅ²éÑ¯³ö¼¯ºÏÖĞµÄÕË»§¶ÔÏó
-                bbb003½ÌÑ§_Àà otherAcc = getAccountByCardId(cardId, accounts);
-                // 5¡¢ÅĞ¶ÏÕË»§¶ÔÏóÊÇ·ñ´æÔÚ£¬¶øÇÒÕâ¸öÕË»§¶ÔÏó²»ÄÜÊÇ×Ô¼º¡£
+                // 4ã€æ ¹æ®å¡å·æŸ¥è¯¢å‡ºé›†åˆä¸­çš„è´¦æˆ·å¯¹è±¡
+                bbb003æ•™å­¦_ç±» otherAcc = getAccountByCardId(cardId, accounts);
+                // 5ã€åˆ¤æ–­è´¦æˆ·å¯¹è±¡æ˜¯å¦å­˜åœ¨ï¼Œè€Œä¸”è¿™ä¸ªè´¦æˆ·å¯¹è±¡ä¸èƒ½æ˜¯è‡ªå·±ã€‚
                 if (otherAcc != null) {
-                    // 6¡¢ÅĞ¶Ïµ±Ç°ÕË»§ÊÇ·ñÊÇ×Ô¼º¡£
+                    // 6ã€åˆ¤æ–­å½“å‰è´¦æˆ·æ˜¯å¦æ˜¯è‡ªå·±ã€‚
                     if (acc.getCardId().equals(otherAcc.getCardId())) {
-                        System.out.println("²»ÄÜ¸ø×Ô¼ºÕË»§×ªÕË£¡");
+                        System.out.println("ä¸èƒ½ç»™è‡ªå·±è´¦æˆ·è½¬è´¦ï¼");
                     } else {
-                        // 7¡¢ÕıÊ½½øÈëµ½×ªÕËÂß¼­ÁË
-                        // ºÚÂíÁõµÂ»ª
+                        // 7ã€æ­£å¼è¿›å…¥åˆ°è½¬è´¦é€»è¾‘äº†
+                        // é»‘é©¬åˆ˜å¾·å
                         String rs = "*" + otherAcc.getUserName().substring(1);
-                        System.out.println("ÇëÄúÈ·ÈÏ[" + rs + "]µÄĞÕÊÏÀ´È·ÈÏ£¡");
-                        System.out.println("ÇëÄúÊäÈë¶Ô·½µÄĞÕÊÏ£º");
+                        System.out.println("è¯·æ‚¨ç¡®è®¤[" + rs + "]çš„å§“æ°æ¥ç¡®è®¤ï¼");
+                        System.out.println("è¯·æ‚¨è¾“å…¥å¯¹æ–¹çš„å§“æ°ï¼š");
                         String preName = sc.next();
                         if (otherAcc.getUserName().startsWith(preName)) {
-                            // ÈÏÖ¤Í¨¹ı
+                            // è®¤è¯é€šè¿‡
                             while (true) {
-                                System.out.println("ÇëÄúÊäÈë×ªÕËµÄ½ğ¶î£¨Äú×î¶à¿ÉÒÔ×ªÕË£º" + acc.getMoney() + "Ôª£©£º");
+                                System.out.println("è¯·æ‚¨è¾“å…¥è½¬è´¦çš„é‡‘é¢ï¼ˆæ‚¨æœ€å¤šå¯ä»¥è½¬è´¦ï¼š" + acc.getMoney() + "å…ƒï¼‰ï¼š");
                                 double money = sc.nextDouble();
                                 if (money > acc.getMoney()) {
-                                    System.out.println("Äã²»Ìı»°£¬Ã»ÓĞÕâÃ´¶àÇ®¿ÉÒÔ×ª£¡");
+                                    System.out.println("ä½ ä¸å¬è¯ï¼Œæ²¡æœ‰è¿™ä¹ˆå¤šé’±å¯ä»¥è½¬ï¼");
                                 } else {
-                                    // ¿ªÊ¼×ª
-                                    acc.setMoney(acc.getMoney() - money); // ¸üĞÂ×Ô¼ºÕË»§
+                                    // å¼€å§‹è½¬
+                                    acc.setMoney(acc.getMoney() - money); // æ›´æ–°è‡ªå·±è´¦æˆ·
                                     otherAcc.setMoney(otherAcc.getMoney() + money);
-                                    System.out.println("ÄúÒÑ¾­Íê³É×ªÕË£¡Äúµ±Ç°»¹Ê£Óà£º" + acc.getMoney());
+                                    System.out.println("æ‚¨å·²ç»å®Œæˆè½¬è´¦ï¼æ‚¨å½“å‰è¿˜å‰©ä½™ï¼š" + acc.getMoney());
                                     return;
                                 }
                             }
 
                         } else {
-                            System.out.println("ÄúÊäÈë¶Ô·½µÄĞÅÏ¢ÓĞÎó£¡");
+                            System.out.println("æ‚¨è¾“å…¥å¯¹æ–¹çš„ä¿¡æ¯æœ‰è¯¯ï¼");
                         }
                     }
                 } else {
-                    System.out.println("ÄúÊäÈëµÄ×ªÕË¿¨ºÅ²»´æÔÚ£¡");
+                    System.out.println("æ‚¨è¾“å…¥çš„è½¬è´¦å¡å·ä¸å­˜åœ¨ï¼");
                 }
             }
         } else {
-            System.out.println("µ±Ç°ÏµÍ³ÖĞÃ»ÓĞÆäËûÕË»§¿ÉÒÔ×ªÕË£¬È¥×¢²áÒ»¸öÕË»§°É£¡");
+            System.out.println("å½“å‰ç³»ç»Ÿä¸­æ²¡æœ‰å…¶ä»–è´¦æˆ·å¯ä»¥è½¬è´¦ï¼Œå»æ³¨å†Œä¸€ä¸ªè´¦æˆ·å§ï¼");
         }
 
     }
 
-    private static void drawMoney(bbb003½ÌÑ§_Àà acc, Scanner sc) {
-        System.out.println("==================»¶Ó­½øÈëÕË»§È¡¿î²Ù×÷======================");
-        // 1¡¢ÅĞ¶ÏÕË»§µÄÓà¶îÊÇ·ñ¸ßÓÚµÈÓÚ100
+    private static void drawMoney(bbb003æ•™å­¦_ç±» acc, Scanner sc) {
+        System.out.println("==================æ¬¢è¿è¿›å…¥è´¦æˆ·å–æ¬¾æ“ä½œ======================");
+        // 1ã€åˆ¤æ–­è´¦æˆ·çš„ä½™é¢æ˜¯å¦é«˜äºç­‰äº100
         double money = acc.getMoney();
         if (money >= 100) {
             while (true) {
-                // 2¡¢ÊäÈëÈ¡Ç®µÄ½ğ¶î
-                System.out.println("ÇëÄúÊäÈëÈ¡Ç®µÄ½ğ¶î£º");
+                // 2ã€è¾“å…¥å–é’±çš„é‡‘é¢
+                System.out.println("è¯·æ‚¨è¾“å…¥å–é’±çš„é‡‘é¢ï¼š");
                 double drawMoney = sc.nextDouble();
-                // 3¡¢ÅĞ¶ÏÈ¡Ç®½ğ¶îÊÇ·ñ³¬¹ıÁËµ±´ÎÏŞ¶î
+                // 3ã€åˆ¤æ–­å–é’±é‡‘é¢æ˜¯å¦è¶…è¿‡äº†å½“æ¬¡é™é¢
                 if (drawMoney > acc.getQuotaMoney()) {
-                    System.out.println("Äúµ±Ç°È¡¿î½ğ¶î³¬¹ıÁËÃ¿´ÎÏŞ¶î£¡");
+                    System.out.println("æ‚¨å½“å‰å–æ¬¾é‡‘é¢è¶…è¿‡äº†æ¯æ¬¡é™é¢ï¼");
                 } else {
-                    // 4¡¢ÅĞ¶Ïµ±Ç°È¡Ç®½ğ¶îÊÇ³¬¹ıÁËÕË»§µÄÓà¶î
+                    // 4ã€åˆ¤æ–­å½“å‰å–é’±é‡‘é¢æ˜¯è¶…è¿‡äº†è´¦æˆ·çš„ä½™é¢
                     if (drawMoney > money) {
-                        System.out.println("µ±Ç°Óà¶î²»×ã£¡µ±Ç°Óà¶îÊÇ£º" + money);
+                        System.out.println("å½“å‰ä½™é¢ä¸è¶³ï¼å½“å‰ä½™é¢æ˜¯ï¼š" + money);
                     } else {
-                        // ¸üĞÂÕË»§Óà¶î
+                        // æ›´æ–°è´¦æˆ·ä½™é¢
                         acc.setMoney(money - drawMoney);
-                        System.out.println("Äúµ±Ç°È¡Ç®Íê³É£¬ÇëÄÃ×ßÄãµÄÇ®£¬µ±Ç°Ê£ÓàÓà¶îÊÇ£º" + acc.getMoney());
+                        System.out.println("æ‚¨å½“å‰å–é’±å®Œæˆï¼Œè¯·æ‹¿èµ°ä½ çš„é’±ï¼Œå½“å‰å‰©ä½™ä½™é¢æ˜¯ï¼š" + acc.getMoney());
                         break;
                     }
                 }
             }
         } else {
-            System.out.println("Äúµ±Ç°ÕË»§Óà¶î²»×ã100Ôª£¬´æÇ®È¥°É£¡");
+            System.out.println("æ‚¨å½“å‰è´¦æˆ·ä½™é¢ä¸è¶³100å…ƒï¼Œå­˜é’±å»å§ï¼");
         }
     }
 
-    private static void depositMoney(bbb003½ÌÑ§_Àà acc, Scanner sc) {
-        System.out.println("==================»¶Ó­½øÈëÕË»§´æ¿î²Ù×÷======================");
-        System.out.println("ÇëÄúÊäÈë´æ¿î½ğ¶î£º");
+    private static void depositMoney(bbb003æ•™å­¦_ç±» acc, Scanner sc) {
+        System.out.println("==================æ¬¢è¿è¿›å…¥è´¦æˆ·å­˜æ¬¾æ“ä½œ======================");
+        System.out.println("è¯·æ‚¨è¾“å…¥å­˜æ¬¾é‡‘é¢ï¼š");
         double money = sc.nextDouble();
         acc.setMoney(acc.getMoney() + money);
         showAccount(acc);
     }
 
-    private static void showAccount(bbb003½ÌÑ§_Àà acc) {
-        System.out.println("==================Äúµ±Ç°ÕË»§ÏêÇéĞÅÏ¢ÈçÏÂ======================");
-        System.out.println("¿¨ºÅ£º" + acc.getCardId());
-        System.out.println("»§Ö÷£º" + acc.getUserName());
-        System.out.println("Óà¶î£º" + acc.getMoney());
-        System.out.println("µ±´ÎÈ¡ÏÖ¶î¶È£º" + acc.getQuotaMoney());
+    private static void showAccount(bbb003æ•™å­¦_ç±» acc) {
+        System.out.println("==================æ‚¨å½“å‰è´¦æˆ·è¯¦æƒ…ä¿¡æ¯å¦‚ä¸‹======================");
+        System.out.println("å¡å·ï¼š" + acc.getCardId());
+        System.out.println("æˆ·ä¸»ï¼š" + acc.getUserName());
+        System.out.println("ä½™é¢ï¼š" + acc.getMoney());
+        System.out.println("å½“æ¬¡å–ç°é¢åº¦ï¼š" + acc.getQuotaMoney());
     }
 
     /**
-     * ¿ª»§¹¦ÄÜ
+     * å¼€æˆ·åŠŸèƒ½
      */
-    private static void register(ArrayList<bbb003½ÌÑ§_Àà> accounts, Scanner sc) {
-        System.out.println("==================»¶Ó­Äú½øÈëµ½¿ª»§²Ù×÷======================");
-        // 2¡¢´´½¨Ò»¸öÕË»§¶ÔÏó·â×°ÕË»§ĞÅÏ¢
-        bbb003½ÌÑ§_Àà acc = new bbb003½ÌÑ§_Àà();
-        // 1¡¢Â¼ÈëÓÃ»§ÕË»§ĞÅÏ¢
-        System.out.println("ÇëÄúÊäÈëÕË»§Ãû³Æ£º");
+    private static void register(ArrayList<bbb003æ•™å­¦_ç±»> accounts, Scanner sc) {
+        System.out.println("==================æ¬¢è¿æ‚¨è¿›å…¥åˆ°å¼€æˆ·æ“ä½œ======================");
+        // 2ã€åˆ›å»ºä¸€ä¸ªè´¦æˆ·å¯¹è±¡å°è£…è´¦æˆ·ä¿¡æ¯
+        bbb003æ•™å­¦_ç±» acc = new bbb003æ•™å­¦_ç±»();
+        // 1ã€å½•å…¥ç”¨æˆ·è´¦æˆ·ä¿¡æ¯
+        System.out.println("è¯·æ‚¨è¾“å…¥è´¦æˆ·åç§°ï¼š");
         String userName = sc.next();
         acc.setUserName(userName);
 
         while (true) {
-            System.out.println("ÇëÄúÊäÈëÕË»§ÃÜÂë£º");
+            System.out.println("è¯·æ‚¨è¾“å…¥è´¦æˆ·å¯†ç ï¼š");
             String passWord = sc.next();
-            System.out.println("ÇëÄúÊäÈëÈ·ÈÏÃÜÂë£º");
+            System.out.println("è¯·æ‚¨è¾“å…¥ç¡®è®¤å¯†ç ï¼š");
             String okPassWord = sc.next();
             if (okPassWord.equals(passWord)) {
-                // ÃÜÂëÎŞÎÊÌâ
+                // å¯†ç æ— é—®é¢˜
                 acc.setPassWord(okPassWord);
                 break;
             } else {
-                System.out.println("Á½´ÎÊäÈëµÄÃÜÂë²»Ò»ÖÂ£¡");
+                System.out.println("ä¸¤æ¬¡è¾“å…¥çš„å¯†ç ä¸ä¸€è‡´ï¼");
             }
         }
-        System.out.println("ÇëÄúÉèÖÃµ±´ÎÈ¡ÏÖ¶î¶È£º");
+        System.out.println("è¯·æ‚¨è®¾ç½®å½“æ¬¡å–ç°é¢åº¦ï¼š");
         double quataMoney = sc.nextDouble();
         acc.setQuotaMoney(quataMoney);
-        // ¹Ø¼üµã£ºÎªµ±Ç°ÕË»§Éú³ÉÒ»¸öËæ»úµÄ8Î»Êı×Ö×÷Îª¿¨ºÅ£¬¿¨ºÅ²»ÄÜÓëÆäËûÓÃ»§µÄ¿¨ºÅÖØ¸´¡£
+        // å…³é”®ç‚¹ï¼šä¸ºå½“å‰è´¦æˆ·ç”Ÿæˆä¸€ä¸ªéšæœºçš„8ä½æ•°å­—ä½œä¸ºå¡å·ï¼Œå¡å·ä¸èƒ½ä¸å…¶ä»–ç”¨æˆ·çš„å¡å·é‡å¤ã€‚
         String cardId = createCardId(accounts);
         acc.setCardId(cardId);
 
-        // 3¡¢°ÑÕË»§¶ÔÏó´æÈëµ½¼¯ºÏÈİÆ÷¶ÔÏóÖĞÈ¥
+        // 3ã€æŠŠè´¦æˆ·å¯¹è±¡å­˜å…¥åˆ°é›†åˆå®¹å™¨å¯¹è±¡ä¸­å»
         accounts.add(acc);
-        System.out.println("¹§Ï²Äú," + acc.getUserName() + "ÏÈÉú/Å®Ê¿£¬Äú¿ª»§Íê³É£¬ÄúµÄ¿¨ºÅÊÇ£º" + acc.getCardId());
+        System.out.println("æ­å–œæ‚¨," + acc.getUserName() + "å…ˆç”Ÿ/å¥³å£«ï¼Œæ‚¨å¼€æˆ·å®Œæˆï¼Œæ‚¨çš„å¡å·æ˜¯ï¼š" + acc.getCardId());
     }
 
-    public static String createCardId(ArrayList<bbb003½ÌÑ§_Àà> accounts) {
+    public static String createCardId(ArrayList<bbb003æ•™å­¦_ç±»> accounts) {
         while (true) {
             String cardId = "";
-            // Ëæ»ú8¸öÊı×Ö
+            // éšæœº8ä¸ªæ•°å­—
             Random r = new Random();
             for (int i = 1; i <= 8; i++) {
                 cardId += r.nextInt(10);
             }
-            // ÅĞ¶ÏÕâ¸ö¿¨ºÅÊÇ·ñÖØ¸´£º¸ù¾İ¿¨ºÅÈ¥²éÑ¯ÕË»§¶ÔÏó
-            bbb003½ÌÑ§_Àà account = getAccountByCardId(cardId, accounts);
+            // åˆ¤æ–­è¿™ä¸ªå¡å·æ˜¯å¦é‡å¤ï¼šæ ¹æ®å¡å·å»æŸ¥è¯¢è´¦æˆ·å¯¹è±¡
+            bbb003æ•™å­¦_ç±» account = getAccountByCardId(cardId, accounts);
             if (account == null) {
                 return cardId;
             }
         }
     }
 
-    public static bbb003½ÌÑ§_Àà getAccountByCardId(String cardId, ArrayList<bbb003½ÌÑ§_Àà> accounts) {
+    public static bbb003æ•™å­¦_ç±» getAccountByCardId(String cardId, ArrayList<bbb003æ•™å­¦_ç±»> accounts) {
         for (int i = 0; i < accounts.size(); i++) {
-            bbb003½ÌÑ§_Àà acc = accounts.get(i);
+            bbb003æ•™å­¦_ç±» acc = accounts.get(i);
             if (acc.getCardId().equals(cardId)) {
                 return acc;
             }

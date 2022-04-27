@@ -1,11 +1,11 @@
-package leetcode.eee118×Ô¼º³öÌâ2;
+package leetcode.eee118è‡ªå·±å‡ºé¢˜2;
 
 import java.util.Arrays;
 import java.util.Random;
 
-public class demo_ÇóºÍ {
+public class demo_æ±‚å’Œ {
     public static void main(String[] args) {
-        // Êı×éÖĞ£¬²»°üº¬7µÄËùÓĞÔªËØÇóºÍ
+        // æ•°ç»„ä¸­ï¼Œä¸åŒ…å«7çš„æ‰€æœ‰å…ƒç´ æ±‚å’Œ
         // int[] x = {1, 7, 9, 10};
         int[] x = new int[10];
         sub(x);

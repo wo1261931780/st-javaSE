@@ -1,13 +1,13 @@
-package c2stage_20220213.ccc051ÕıÔò±í´ïÊ½;
+package c2stage_20220213.ccc051æ­£åˆ™è¡¨è¾¾å¼;
 
 /**
  * Created by Intellij IDEA.
  * Project:index.pb
- * Package:c2stage_20220213.ccc051ÕıÔò±í´ïÊ½
+ * Package:c2stage_20220213.ccc051æ­£åˆ™è¡¨è¾¾å¼
  * User:  wo1261931780@gmail.com
- * Time:  2022-02-13-23  ĞÇÆÚÈÕ
+ * Time:  2022-02-13-23  æ˜ŸæœŸæ—¥
  */
-public class ccc001¸ÅÊö {
+public class ccc001æ¦‚è¿° {
     public static void main(String[] args) {
         // String xx;
         System.out.println(show("123"));
@@ -20,22 +20,22 @@ public class ccc001¸ÅÊö {
         if (x == null || x.length() < 6 || x.length() > 20) {
             return false;
         }
-        //ÅĞ¶Ï³¤¶ÈÊÇ·ñ·ûºÏÒªÇó
+        //åˆ¤æ–­é•¿åº¦æ˜¯å¦ç¬¦åˆè¦æ±‚
         for (int i = 0; i < x.length(); i++) {
             if (x.charAt(i) < '0' || x.charAt(i) > '9') {
                 return false;
             }
-        }//ÅĞ¶Ï×Ö·ûÊÇ·ñÈ«²¿ÕûÊı
+        }//åˆ¤æ–­å­—ç¬¦æ˜¯å¦å…¨éƒ¨æ•´æ•°
         return true;
     }
 
     public static boolean check(String x) {
         return x != null && x.matches("\\d{6,20}");
-        //ÕâÀïËµÃ÷\\dµÄº¬Òå
-        //Ê×ÏÈ£¬Ò»¸ö·´Ğ±¸Ü±íÊ¾×ªÒå·û£¬×ª»»ÒâÒå
-        //±¾Éí\d¾Í±íÊ¾È«²¿ÊÇÊı×Ö£¬µ«ÊÇjava»áÈÏÎª¡°\d¡±ÊÇÒ»¸ö×Ö·û£¬
-        //ËùÒÔĞèÒª\\dÀ´ËµÃ÷ºóÃæÒ»¸ö\dÊÇÒ»¸öÕûÌå
-        // {6,20}±íÊ¾×îÉÙ6Î»£¬×î¶à20Î»
+        //è¿™é‡Œè¯´æ˜\\dçš„å«ä¹‰
+        //é¦–å…ˆï¼Œä¸€ä¸ªåæ–œæ è¡¨ç¤ºè½¬ä¹‰ç¬¦ï¼Œè½¬æ¢æ„ä¹‰
+        //æœ¬èº«\då°±è¡¨ç¤ºå…¨éƒ¨æ˜¯æ•°å­—ï¼Œä½†æ˜¯javaä¼šè®¤ä¸ºâ€œ\dâ€æ˜¯ä¸€ä¸ªå­—ç¬¦ï¼Œ
+        //æ‰€ä»¥éœ€è¦\\dæ¥è¯´æ˜åé¢ä¸€ä¸ª\dæ˜¯ä¸€ä¸ªæ•´ä½“
+        // {6,20}è¡¨ç¤ºæœ€å°‘6ä½ï¼Œæœ€å¤š20ä½
 
     }
 }

@@ -1,22 +1,22 @@
-package c2stage_20220113.ccc001staticĞŞÊÎ³ÉÔ±±äÁ¿;
+package c2stage_20220113.ccc001staticä¿®é¥°æˆå‘˜å˜é‡;
 
-public class ccc004staticĞŞ¸Ä±äÁ¿ {
+public class ccc004staticä¿®æ”¹å˜é‡ {
     public static void main(String[] args) {
-        ccc003static¶¨Òå x = new ccc003static¶¨Òå();
-        //½«aaaĞŞ¸ÄÎªjunw
+        ccc003staticå®šä¹‰ x = new ccc003staticå®šä¹‰();
+        //å°†aaaä¿®æ”¹ä¸ºjunw
         x.name = "junw";
-        //½«10ĞŞ¸ÄÎª20
+        //å°†10ä¿®æ”¹ä¸º20
         x.age = 20;
-        //ÕâÀïÊÇ¾²Ì¬±äÁ¿£¬½«huaweiĞŞ¸ÄÎªhw
+        //è¿™é‡Œæ˜¯é™æ€å˜é‡ï¼Œå°†huaweiä¿®æ”¹ä¸ºhw
         x.college = "hw";
-        //½«±äÁ¿±ä³É¾²Ì¬Ö®ºó£¬Ò»´ÎĞŞ¸Ä£¬ÓÀÔ¶ÉúĞ§
+        //å°†å˜é‡å˜æˆé™æ€ä¹‹åï¼Œä¸€æ¬¡ä¿®æ”¹ï¼Œæ°¸è¿œç”Ÿæ•ˆ
         x.show();
         //junw,20,hw
         System.out.println("finish");
-        ccc003static¶¨Òå x2 = new ccc003static¶¨Òå();
+        ccc003staticå®šä¹‰ x2 = new ccc003staticå®šä¹‰();
         x2.age = 30;
         x2.show();
         //aaa,30,hw
-        //ÕâÀïx2Ö»ĞŞ¸ÄÁËÄêÁä£¬½á¹ûÊÇaaa+30+hw£¬ÒòÎªcollegeÊÇ¾²Ì¬±äÁ¿
+        //è¿™é‡Œx2åªä¿®æ”¹äº†å¹´é¾„ï¼Œç»“æœæ˜¯aaa+30+hwï¼Œå› ä¸ºcollegeæ˜¯é™æ€å˜é‡
     }
 }

@@ -1,9 +1,9 @@
 package c2stage_20220202.ccc030Polymorphic_case;
 /**
- Ŀ�꣺USB�豸ģ��
- 1������USB�ӿڣ����� �γ�
- 2������2��USB��ʵ���ࣺ��ꡢ���̡�
- 3������һ�����Զ��󣬴���USB�豸���󣬰�װ������
+ 目标：USB设备模拟
+ 1、定义USB接口：接入 拔出
+ 2、定义2个USB的实现类：鼠标、键盘。
+ 3、创建一个电脑对象，创建USB设备对象，安装启动。
  */
 public class ccc001computer {
     public static void main(String[] args) {
@@ -20,8 +20,8 @@ public class ccc001computer {
         choose(x);
         System.out.println("**************************");
     }
-    // �������Լ�д�Ĵ��룬��ʵ��ȫû��Ҫ����Ϊ�������ڣ�����Ҫ��������
-    // ֻ��Ҫ�ڴ����ö����Ժ󣬴��ݹ����Ϳ���
+    // 下面是自己写的代码，其实完全没必要，因为方法体内，不需要创建对象
+    // 只需要在创建好对象以后，传递过来就可以
     // public static void install() {
     //     System.out.println("computer install");
     //     ccc002usb x = new ccc003mouse();

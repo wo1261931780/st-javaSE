@@ -1,30 +1,30 @@
-package abÍùÆÚÑ§Ï°2021Äê10ÔÂ2ÈÕ.bbb018string¹¹Ôì·½·¨;
+package abå¾€æœŸå­¦ä¹ 2021å¹´10æœˆ2æ—¥.bbb018stringæ„é€ æ–¹æ³•;
 
-public class bbb001string¹¹Ôì {
+public class bbb001stringæ„é€  {
     public static void main(String[] args) {
-        char[] xx = {'a', 'b', '²â', 'ÊÔ'};
+        char[] xx = {'a', 'b', 'æµ‹', 'è¯•'};
         String s = new String(xx);
         System.out.println(s);
-        //½á¹û£¬ab²âÊÔ
+        //ç»“æœï¼Œabæµ‹è¯•
 
         byte[] x1 = {97, 98, 99, 65, 66};
         String s2 = new String(x1);
         System.out.println(s2);
-        //½á¹û£¬abcAB
+        //ç»“æœï¼ŒabcAB
 
 
-        // ÃæÊÔÌâ
-        // Ö±½Ó´´½¨×Ö·û´®ºÍÍ¨¹ınewµÄ·½Ê½ĞÂ½¨¶ÔÏó×Ö·û´®,
-        // ¶şÕßµÃµ½µÄ½á¹û²»Í¬£¬ÒòÎªÒ»¸öÊÇ³£Á¿³Ø£¬Ò»¸öÊÇ¶ÑÄÚ´æµÄ¶ÔÏó
+        // é¢è¯•é¢˜
+        // ç›´æ¥åˆ›å»ºå­—ç¬¦ä¸²å’Œé€šè¿‡newçš„æ–¹å¼æ–°å»ºå¯¹è±¡å­—ç¬¦ä¸²,
+        // äºŒè€…å¾—åˆ°çš„ç»“æœä¸åŒï¼Œå› ä¸ºä¸€ä¸ªæ˜¯å¸¸é‡æ± ï¼Œä¸€ä¸ªæ˜¯å †å†…å­˜çš„å¯¹è±¡
         String q = "aaa";
         String q2 = "aaa";
         System.out.println(q == q2);
-        //½á¹ûÎªtrue
+        //ç»“æœä¸ºtrue
         System.out.println("******************");
         String q3 = new String(x1);
         String q4 = new String(x1);
         System.out.println(q3 == q4);
-        //½á¹ûÎªfalse
+        //ç»“æœä¸ºfalse
     }
 
 

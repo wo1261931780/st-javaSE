@@ -9,10 +9,10 @@ public class ccc003bank_dingqi extends ccc001bank_abstract {
     public double caculate_rates() {
         double profits = getBalances() * 1.75 / 100;
         if (getBalances()<=100000){
-            System.out.println("定期账户");
-            System.out.println("收益为：" + profits);
+            System.out.println("瀹氭湡璐︽埛");
+            System.out.println("鏀剁泭涓猴細" + profits);
         }else{
-            System.out.println("收益为：" + profits);
+            System.out.println("鏀剁泭涓猴細" + profits);
         }
         return profits;
     }

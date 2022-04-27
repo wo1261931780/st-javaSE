@@ -5,7 +5,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Scanner;
 
-public class ddd019throwsÒì³£ {
+public class ddd019throwså¼‚å¸¸ {
     public static void main(String[] args) {
         werror();
         Scanner x = new Scanner(System.in);
@@ -17,13 +17,13 @@ public class ddd019throwsÒì³£ {
         } catch (ParseException e) {
             e.printStackTrace();
         }
-        // ×Ô¶¯ÕâÀïÒ²¿ÉÒÔÖØĞÂÅ×³öÒì³££¬Ò²¿ÉÒÔÖ±½Ótry...catchÌø¹ı
+        // è‡ªåŠ¨è¿™é‡Œä¹Ÿå¯ä»¥é‡æ–°æŠ›å‡ºå¼‚å¸¸ï¼Œä¹Ÿå¯ä»¥ç›´æ¥try...catchè·³è¿‡
 
     }
 
     /**
-     * ÔËĞĞÒì³££¬Ò²³ÆÎª·ÇÊÜ¼ìÒì³£
-     * Ğ´´úÂëµÄÊ±ºòÃ»ÎÊÌâ£¬µ«ÊÇÖ´ĞĞ³ÌĞòµÄÊ±ºò³öÏÖ´íÎóĞÅÏ¢
+     * è¿è¡Œå¼‚å¸¸ï¼Œä¹Ÿç§°ä¸ºéå—æ£€å¼‚å¸¸
+     * å†™ä»£ç çš„æ—¶å€™æ²¡é—®é¢˜ï¼Œä½†æ˜¯æ‰§è¡Œç¨‹åºçš„æ—¶å€™å‡ºç°é”™è¯¯ä¿¡æ¯
      */
     public static void werror() {
         int[] x = {1, 2, 3};
@@ -31,14 +31,14 @@ public class ddd019throwsÒì³£ {
     }
 
     /**
-     * ±àÒëÒì³££¬Ò²³ÆÎªÊÜ¼ìÒì³£
-     * Ğ´´úÂëµÄÊ±ºò£¬parse¾ÍÌáÊ¾´íÎóĞÅÏ¢
+     * ç¼–è¯‘å¼‚å¸¸ï¼Œä¹Ÿç§°ä¸ºå—æ£€å¼‚å¸¸
+     * å†™ä»£ç çš„æ—¶å€™ï¼Œparseå°±æç¤ºé”™è¯¯ä¿¡æ¯
      */
     public static void dddx(String x) throws ParseException {
-        // ÕâÀï£¬¹Ù·½¸ø³öµÄ¶¨Òå£ºthrows ParseException
-        // Ìí¼ÓÒì³£µ½·½·¨ÉùÃ÷
-        // ÕâÀïÖ»ÊÇÌí¼ÓÒ»¸ö´ı°ì£¬Êµ¼ÊÉÏÃ»ÓĞ½â¾öÎÊÌâ
-        // ÑÓ»ºÁË±àÒëÒì³££¬µ«ÊÇmain·½·¨ÖĞÒÀÈ»»á±¨´í
+        // è¿™é‡Œï¼Œå®˜æ–¹ç»™å‡ºçš„å®šä¹‰ï¼šthrows ParseException
+        // æ·»åŠ å¼‚å¸¸åˆ°æ–¹æ³•å£°æ˜
+        // è¿™é‡Œåªæ˜¯æ·»åŠ ä¸€ä¸ªå¾…åŠï¼Œå®é™…ä¸Šæ²¡æœ‰è§£å†³é—®é¢˜
+        // å»¶ç¼“äº†ç¼–è¯‘å¼‚å¸¸ï¼Œä½†æ˜¯mainæ–¹æ³•ä¸­ä¾ç„¶ä¼šæŠ¥é”™
         SimpleDateFormat x1 = new SimpleDateFormat("YYYY-MM-dd");
         Date x2 = x1.parse(x);
         System.out.println(x2);

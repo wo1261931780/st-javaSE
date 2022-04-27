@@ -7,22 +7,22 @@ import java.util.Scanner;
  * Project:index.pb
  * Package:leetcode.eee002deke_code.aaa004_20220305
  * User:  wo1261931780@gmail.com
- * Time:  2022-03-12-48  ĞÇÆÚÁù
+ * Time:  2022-03-12-48  æ˜ŸæœŸå…­
  */
 public class ccc001 {
     public static void main(String[] args) {
         int[] x = {987, 1, 564, 8, 7, 8, 9, 54};
-        // ¼¸¸ö×¢Òâµã£º
-        // 1.out£ººóÃæ²»¿ÉÒÔ½ÓÓï¾ä
-        // 2.outÒÔºó£¬¾Í²»ÔÙ½øĞĞÑ­»·
+        // å‡ ä¸ªæ³¨æ„ç‚¹ï¼š
+        // 1.outï¼šåé¢ä¸å¯ä»¥æ¥è¯­å¥
+        // 2.outä»¥åï¼Œå°±ä¸å†è¿›è¡Œå¾ªç¯
         OUT:
         for (int i = 0; i < x.length; i++) {
             if (x[i] == 8) {
-                System.out.println(i + "£¬Ñ­»·ÖĞ");
+                System.out.println(i + "ï¼Œå¾ªç¯ä¸­");
                 break OUT;
             }
         }
-        System.out.println("½áÊø");
+        System.out.println("ç»“æŸ");
         show1();
     }
 

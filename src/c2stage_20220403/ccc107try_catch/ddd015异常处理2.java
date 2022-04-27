@@ -1,15 +1,15 @@
 package c2stage_20220403.ccc107try_catch;
 /*
-    public String getMessage():·µ»Ø´Ë throwable µÄÏêÏ¸ÏûÏ¢×Ö·û´®
-    public String toString():·µ»Ø´Ë¿ÉÅ×³öµÄ¼ò¶ÌÃèÊö
-    public void printStackTrace():°ÑÒì³£µÄ´íÎóĞÅÏ¢Êä³öÔÚ¿ØÖÆÌ¨
+    public String getMessage():è¿”å›æ­¤ throwable çš„è¯¦ç»†æ¶ˆæ¯å­—ç¬¦ä¸²
+    public String toString():è¿”å›æ­¤å¯æŠ›å‡ºçš„ç®€çŸ­æè¿°
+    public void printStackTrace():æŠŠå¼‚å¸¸çš„é”™è¯¯ä¿¡æ¯è¾“å‡ºåœ¨æ§åˆ¶å°
  */
 
-public class ddd015Òì³£´¦Àí2 {
+public class ddd015å¼‚å¸¸å¤„ç†2 {
     public static void main(String[] args) {
-        System.out.println("¿ªÊ¼");
+        System.out.println("å¼€å§‹");
         method();
-        System.out.println("½áÊø");
+        System.out.println("ç»“æŸ");
     }
 
     public static void method() {
@@ -17,34 +17,34 @@ public class ddd015Òì³£´¦Àí2 {
             int[] x = {1, 1, 2};
             System.out.println(x[3]);
         } catch (ArrayIndexOutOfBoundsException x) {
-            // ÔÚÔ´´úÂëÖĞ£¬catchÄÚ²¿Ïàµ±ÓÚÒ»¸ö¹¹Ôì·½·¨£º
+            // åœ¨æºä»£ç ä¸­ï¼Œcatchå†…éƒ¨ç›¸å½“äºä¸€ä¸ªæ„é€ æ–¹æ³•ï¼š
             // new ArrayIndexOutOfBoundsException("x");
-            // x¾ÍÊÇÏÂÃæ¹¹Ôì²ÎÊıÖĞµÄ¶ÔÏó
+            // xå°±æ˜¯ä¸‹é¢æ„é€ å‚æ•°ä¸­çš„å¯¹è±¡
             // ----------------------------------------------
-            // Òì³£µÄÊä³öÓï¾äÒ»¹²Èı¸ö£º
+            // å¼‚å¸¸çš„è¾“å‡ºè¯­å¥ä¸€å…±ä¸‰ä¸ªï¼š
             // getmessage
             // tostring
             // printstacktrace
-            // Èı¸öÓï¾ä´òÓ¡µÄ½á¹û²»Í¬
+            // ä¸‰ä¸ªè¯­å¥æ‰“å°çš„ç»“æœä¸åŒ
             // ----------------------------------------------
             System.out.println(x.getMessage());
-            // 1.Óï¾äÊä³ö£º
+            // 1.è¯­å¥è¾“å‡ºï¼š
             // Index 3 out of bounds for length 3
             // ----------------------------------------------
             System.out.println(x);
-            // 2.Óï¾äÊä³ö£º
+            // 2.è¯­å¥è¾“å‡ºï¼š
             // java.lang.ArrayIndexOutOfBoundsException: Index 3 out of bounds for length 3
             // ----------------------------------------------
             x.printStackTrace();
-            // 3.Óï¾äÊä³ö£º
+            // 3.è¯­å¥è¾“å‡ºï¼š
             // java.lang.ArrayIndexOutOfBoundsException: Index 3 out of bounds for length 3
-            // at c2stage_20220403.ddd013Òì³£´¦Àí.ddd014Òì³£´¦Àí2.method(ddd014Òì³£´¦Àí2.java:20)
-            // at c2stage_20220403.ddd013Òì³£´¦Àí.ddd014Òì³£´¦Àí2.main(ddd014Òì³£´¦Àí2.java:13)
+            // at c2stage_20220403.ddd013å¼‚å¸¸å¤„ç†.ddd014å¼‚å¸¸å¤„ç†2.method(ddd014å¼‚å¸¸å¤„ç†2.java:20)
+            // at c2stage_20220403.ddd013å¼‚å¸¸å¤„ç†.ddd014å¼‚å¸¸å¤„ç†2.main(ddd014å¼‚å¸¸å¤„ç†2.java:13)
             // ----------------------------------------------
-            // ĞèÒª×¢ÒâµÄÊÇ£º
-            // ÉÏÃæÁ½¸öÃüÁî¶¼¿ÉÒÔÓÃ¶ÔÏóÀ´½ÓÊÜ½á¹û£¬µ«ÊÇprintstacktrace²»¿ÉÒÔ£¬µ«ÊÇĞÅÏ¢×îÈ«£¬ÓÃµÃ×î¶à
+            // éœ€è¦æ³¨æ„çš„æ˜¯ï¼š
+            // ä¸Šé¢ä¸¤ä¸ªå‘½ä»¤éƒ½å¯ä»¥ç”¨å¯¹è±¡æ¥æ¥å—ç»“æœï¼Œä½†æ˜¯printstacktraceä¸å¯ä»¥ï¼Œä½†æ˜¯ä¿¡æ¯æœ€å…¨ï¼Œç”¨å¾—æœ€å¤š
         }
-        // Ô´´úÂë£º
+        // æºä»£ç ï¼š
         // public class Throwable {
 
         // private String detailMessage;
@@ -56,9 +56,9 @@ public class ddd015Òì³£´¦Àí2 {
         //     return detailMessage;
         //     }
         // }
-        // Íâ²¿Ê×ÏÈ´«µİÒ»¸ö¶ÔÏóx¹ıÀ´£¬
-        // xµ÷ÓÃgetmessage·½·¨£¬»ñµÃ·µ»ØµÄdetailMessage£¬
-        // ÔÚ¹¹Ôì·½·¨ÖĞ£¬detailMessageµÄÊı¾İÀ´Ô´ÓÚmessage£¬
-        // 2021Äê10ÔÂ3ÈÕ15:09:08£¬ÕâÀï×Ü¸Ğ¾õÓĞÎÊÌâ
+        // å¤–éƒ¨é¦–å…ˆä¼ é€’ä¸€ä¸ªå¯¹è±¡xè¿‡æ¥ï¼Œ
+        // xè°ƒç”¨getmessageæ–¹æ³•ï¼Œè·å¾—è¿”å›çš„detailMessageï¼Œ
+        // åœ¨æ„é€ æ–¹æ³•ä¸­ï¼ŒdetailMessageçš„æ•°æ®æ¥æºäºmessageï¼Œ
+        // 2021å¹´10æœˆ3æ—¥15:09:08ï¼Œè¿™é‡Œæ€»æ„Ÿè§‰æœ‰é—®é¢˜
     }
 }

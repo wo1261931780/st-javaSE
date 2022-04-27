@@ -7,7 +7,7 @@ import java.util.Arrays;
  * Project:index.pb
  * Package:leetcode.eee002deke_code.aaa007_20220311
  * User:  wo1261931780@gmail.com
- * Time:  2022-03-16-56  –«∆⁄»’
+ * Time:  2022-03-16-56  √ê√á√Ü√ö√à√ï
  */
 public class practice002 {
     public static void main(String[] args) {

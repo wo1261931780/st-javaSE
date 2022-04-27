@@ -2,19 +2,19 @@ package c2stage_20220113.ccc024implements;
 
 public class ccc023demo {
     public static void main(String[] args) {
-        //ÔÚ×ÓÀàcatÖĞ´´½¨¶ÔÏóx£¬xÊ¹ÓÃ¸¸ÀàjumpÖĞµÄ·½·¨¡£
+        //åœ¨å­ç±»catä¸­åˆ›å»ºå¯¹è±¡xï¼Œxä½¿ç”¨çˆ¶ç±»jumpä¸­çš„æ–¹æ³•ã€‚
         ccc026jump x = new ccc024cat();
-        //½á¹ûÊÇcatÀàÖĞµÄjump·½·¨
+        //ç»“æœæ˜¯catç±»ä¸­çš„jumpæ–¹æ³•
         x.jump();
         ccc026jump cc = new ccc027jumpimpl();
-        //½á¹ûÊÇjumpimplÖĞµÄjump·½·¨
+        //ç»“æœæ˜¯jumpimplä¸­çš„jumpæ–¹æ³•
         cc.jump();
-        //½á¹ûÊÇ10
-        System.out.println("jumpÊµÏÖÀà£¬ÎÒÊÇ¶àÌ¬¶ÔÏóccµÄnumÊı¾İ£º" + cc.num);
-        //½á¹ûÊÇ20
-        System.out.println("jumpÊµÏÖÀà£¬ÎÒÊÇ¶àÌ¬¶ÔÏóccµÄnum2Êı¾İ£º" + cc.num2);
-        //½á¹ûÊÇ10
-        System.out.println("´æÔÚ½Ó¿ÚÖĞ£¬ÎÒÊÇnumÊı¾İ£º" + ccc026jump.num);
-        //¿ÉÒÔÖ±½Ó·ÃÎÊ£¬Ò²ËµÃ÷ÕâÊÇÍ¨¹ı¾²Ì¬ĞŞÊÎµÄ
+        //ç»“æœæ˜¯10
+        System.out.println("jumpå®ç°ç±»ï¼Œæˆ‘æ˜¯å¤šæ€å¯¹è±¡ccçš„numæ•°æ®ï¼š" + cc.num);
+        //ç»“æœæ˜¯20
+        System.out.println("jumpå®ç°ç±»ï¼Œæˆ‘æ˜¯å¤šæ€å¯¹è±¡ccçš„num2æ•°æ®ï¼š" + cc.num2);
+        //ç»“æœæ˜¯10
+        System.out.println("å­˜åœ¨æ¥å£ä¸­ï¼Œæˆ‘æ˜¯numæ•°æ®ï¼š" + ccc026jump.num);
+        //å¯ä»¥ç›´æ¥è®¿é—®ï¼Œä¹Ÿè¯´æ˜è¿™æ˜¯é€šè¿‡é™æ€ä¿®é¥°çš„
     }
 }

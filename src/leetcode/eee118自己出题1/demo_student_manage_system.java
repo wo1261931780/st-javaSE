@@ -1,4 +1,4 @@
-package leetcode.eee118×Ô¼º³öÌâ1;
+package leetcode.eee118è‡ªå·±å‡ºé¢˜1;
 
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -35,7 +35,7 @@ public class demo_student_manage_system {
         //         break;
         //     }
         // } while (show(0) != 5);
-        System.out.println("³ÌĞò½áÊø");
+        System.out.println("ç¨‹åºç»“æŸ");
         // -------------------------------------------------
 
 
@@ -43,13 +43,13 @@ public class demo_student_manage_system {
 
     public static int show(int s) {
         Scanner x = new Scanner(System.in);
-        System.out.println("-----------Ñ§Éú¹ÜÀíÏµÍ³-----------");
-        System.out.println("1.Ìí¼ÓÑ§Éú");
-        System.out.println("2.É¾³ıÑ§Éú");
-        System.out.println("3.ĞŞ¸ÄÑ§Éú");
-        System.out.println("4.²é¿´ËùÓĞÑ§Éú");
-        System.out.println("5.ÍË³ö");
-        System.out.println("ÇëÊäÈëÄãµÄÑ¡Ôñ£º");
+        System.out.println("-----------å­¦ç”Ÿç®¡ç†ç³»ç»Ÿ-----------");
+        System.out.println("1.æ·»åŠ å­¦ç”Ÿ");
+        System.out.println("2.åˆ é™¤å­¦ç”Ÿ");
+        System.out.println("3.ä¿®æ”¹å­¦ç”Ÿ");
+        System.out.println("4.æŸ¥çœ‹æ‰€æœ‰å­¦ç”Ÿ");
+        System.out.println("5.é€€å‡º");
+        System.out.println("è¯·è¾“å…¥ä½ çš„é€‰æ‹©ï¼š");
         int x1 = x.nextInt();
         return x1;
     }
@@ -57,60 +57,60 @@ public class demo_student_manage_system {
     public static void add_student(ArrayList<demo_student_obj> xx) {
         Scanner x1 = new Scanner(System.in);
         Scanner xx1 = new Scanner(System.in);
-        System.out.println("ÇëÊäÈëÑ§ºÅ£º");
+        System.out.println("è¯·è¾“å…¥å­¦å·ï¼š");
         int num = x1.nextInt();
         // String num=x1.nextLine();
-        System.out.println("ÇëÊäÈëĞÕÃû£º");
+        System.out.println("è¯·è¾“å…¥å§“åï¼š");
         String name = xx1.nextLine();
-        System.out.println("ÇëÊäÈëÄêÁä£º");
+        System.out.println("è¯·è¾“å…¥å¹´é¾„ï¼š");
         int age = x1.nextInt();
-        System.out.println("ÇëÊäÈëµØÖ·£º");
+        System.out.println("è¯·è¾“å…¥åœ°å€ï¼š");
         String addr = xx1.nextLine();
         demo_student_obj x = new demo_student_obj(num, name, age, addr);
         xx.add(x);
-        System.out.println("Ìí¼ÓÍê³É");
+        System.out.println("æ·»åŠ å®Œæˆ");
     }
 
     public static void remove_student(ArrayList<demo_student_obj> xx) {
         Scanner x = new Scanner(System.in);
-        System.out.println("ÇëÊäÈëÑ§ºÅ£º");
+        System.out.println("è¯·è¾“å…¥å­¦å·ï¼š");
         int x1 = x.nextInt();
         for (demo_student_obj x2 : xx) {
             if (x1 == x2.getNumber()) {
                 xx.remove(x2);
-                System.out.println("É¾³ı³É¹¦");
+                System.out.println("åˆ é™¤æˆåŠŸ");
             }
         }
-        System.out.println("É¾³ı½áÊø");
+        System.out.println("åˆ é™¤ç»“æŸ");
     }
 
     public static void change_student(ArrayList<demo_student_obj> xx) {
         Scanner x = new Scanner(System.in);
         Scanner xx1 = new Scanner(System.in);
-        System.out.println("ÇëÊäÈëÑ§ºÅ£º");
+        System.out.println("è¯·è¾“å…¥å­¦å·ï¼š");
         int x1 = x.nextInt();
         for (demo_student_obj x2 : xx) {
             if (x1 == x2.getNumber()) {
-                System.out.println("ÇëÊäÈëĞÕÃû£º");
+                System.out.println("è¯·è¾“å…¥å§“åï¼š");
                 String x3 = xx1.nextLine();
                 x2.setName(x3);
-                System.out.println("ÇëÊäÈëÄêÁä£º");
+                System.out.println("è¯·è¾“å…¥å¹´é¾„ï¼š");
                 int x4 = x.nextInt();
                 x2.setAge(x4);
-                System.out.println("ÇëÊäÈë×¡Ö·£º");
+                System.out.println("è¯·è¾“å…¥ä½å€ï¼š");
                 String x5 = xx1.nextLine();
                 x2.setAddress(x5);
-                System.out.println("ÉèÖÃ³É¹¦");
+                System.out.println("è®¾ç½®æˆåŠŸ");
             }
         }
-        System.out.println("ĞŞ¸Ä½áÊø");
+        System.out.println("ä¿®æ”¹ç»“æŸ");
     }
 
     public static void show_student(ArrayList<demo_student_obj> xx) {
-        System.out.println("Ñ§ºÅ" + "\t\t" + "ĞÕÃû" + "\t\t" + "ÄêÁä" + "\t\t" + "×¡Ö·");
+        System.out.println("å­¦å·" + "\t\t" + "å§“å" + "\t\t" + "å¹´é¾„" + "\t\t" + "ä½å€");
         for (demo_student_obj x : xx) {
             System.out.println(x.getNumber() + "\t\t" + x.getName() + "\t\t" + x.getAge() + "\t\t" + x.getAddress());
         }
-        System.out.println("±éÀú½áÊø");
+        System.out.println("éå†ç»“æŸ");
     }
 }

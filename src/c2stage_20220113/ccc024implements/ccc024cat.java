@@ -1,20 +1,20 @@
 package c2stage_20220113.ccc024implements;
 
 public class ccc024cat implements ccc026jump {
-    //类是继承extends，接口是implements，翻译为实现
+    //绫绘槸缁ф壙extends锛屾帴鍙ｆ槸implements锛岀炕璇戜负瀹炵幇
 
     @Override
     public void jump() {
-        System.out.println("cat类中的jump方法");
+        System.out.println("cat绫讳腑鐨刯ump鏂规硶");
     }
 
     @Override
     public void eat() {
-        System.out.println("cat类中的eat方法");
+        System.out.println("cat绫讳腑鐨別at鏂规硶");
     }
 
     @Override
     public void run() {
-        System.out.println("cat类中的run方法");
+        System.out.println("cat绫讳腑鐨剅un鏂规硶");
     }
 }

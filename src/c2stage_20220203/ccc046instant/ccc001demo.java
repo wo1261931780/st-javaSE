@@ -7,17 +7,17 @@ import java.time.ZoneId;
 public class ccc001demo {
     public static void main(String[] args) {
         Instant x = Instant.now();
-        System.out.println("Ä¬ÈÏ¹ú¼Ê±ê×¼Ê±¼ä£º" + x);// 2022-02-06T06:45:00.892641100Z
-        System.out.println("µ±Ç°Ê±Çø±ê×¼Ê±¼ä£º" + x.atZone(ZoneId.systemDefault()));// 2022-02-06T14:45:00.892641100+08:00[Asia/Shanghai]
-        // Ä¬ÈÏ¹ú¼Ê±ê×¼Ê±¼ä£º2022-02-06T06:45:00.892641100Z
-        // µ±Ç°Ê±Çø±ê×¼Ê±¼ä£º2022-02-06T14:45:00.892641100+08:00[Asia/Shanghai]
-        // ¶şÕß²î±ğÔÚÓÚÊ±Çø£¬ºÍÊ±¼ä´ÁºóÃæ¸úµÄºÁÃëÖµ
+        System.out.println("é»˜è®¤å›½é™…æ ‡å‡†æ—¶é—´ï¼š" + x);// 2022-02-06T06:45:00.892641100Z
+        System.out.println("å½“å‰æ—¶åŒºæ ‡å‡†æ—¶é—´ï¼š" + x.atZone(ZoneId.systemDefault()));// 2022-02-06T14:45:00.892641100+08:00[Asia/Shanghai]
+        // é»˜è®¤å›½é™…æ ‡å‡†æ—¶é—´ï¼š2022-02-06T06:45:00.892641100Z
+        // å½“å‰æ—¶åŒºæ ‡å‡†æ—¶é—´ï¼š2022-02-06T14:45:00.892641100+08:00[Asia/Shanghai]
+        // äºŒè€…å·®åˆ«åœ¨äºæ—¶åŒºï¼Œå’Œæ—¶é—´æˆ³åé¢è·Ÿçš„æ¯«ç§’å€¼
         // ******************************************
-        // Date x1 = Date.from(x);//Ö±½ÓĞ´»á±¨´í
-        java.util.Date date_transf = Date.from(x);//½«instantÇ¨ÒÆµ½dateÀàĞÍ
-        System.out.println("instantÇ¨ÒÆµ½date£º" + date_transf);// Sun Feb 06 14:53:10 CST 2022
-        Instant inst_transf = date_transf.toInstant();//dateÇ¨ÒÆµ½instantÀàĞÍ
-        System.out.println("dateÇ¨ÒÆµ½instant£º" + inst_transf);// 2022-02-06T06:53:10.203Z
+        // Date x1 = Date.from(x);//ç›´æ¥å†™ä¼šæŠ¥é”™
+        java.util.Date date_transf = Date.from(x);//å°†instantè¿ç§»åˆ°dateç±»å‹
+        System.out.println("instantè¿ç§»åˆ°dateï¼š" + date_transf);// Sun Feb 06 14:53:10 CST 2022
+        Instant inst_transf = date_transf.toInstant();//dateè¿ç§»åˆ°instantç±»å‹
+        System.out.println("dateè¿ç§»åˆ°instantï¼š" + inst_transf);// 2022-02-06T06:53:10.203Z
 
     }
 }

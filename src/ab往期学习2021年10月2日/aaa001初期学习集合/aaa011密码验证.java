@@ -1,14 +1,14 @@
-package abÍùÆÚÑ§Ï°2021Äê10ÔÂ2ÈÕ.aaa001³õÆÚÑ§Ï°¼¯ºÏ;
+package abå¾€æœŸå­¦ä¹ 2021å¹´10æœˆ2æ—¥.aaa001åˆæœŸå­¦ä¹ é›†åˆ;
 
 import java.util.Scanner;
 
-public class aaa011ÃÜÂëÑéÖ¤ {
+public class aaa011å¯†ç éªŒè¯ {
     public static void main(String[] args) {
         int x = 520;
         Scanner x1 = new Scanner(System.in);
         int x2 = x1.nextInt();
         while (x2 != x) {
-            System.out.println("ÇëÖØĞÂÊäÈë");
+            System.out.println("è¯·é‡æ–°è¾“å…¥");
             x2 = x1.nextInt();
         }
         System.out.println("right number");

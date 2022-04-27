@@ -1,27 +1,27 @@
-package abÍùÆÚÑ§Ï°2021Äê10ÔÂ2ÈÕ.aaa001³õÆÚÑ§Ï°¼¯ºÏ;
+package abå¾€æœŸå­¦ä¹ 2021å¹´10æœˆ2æ—¥.aaa001åˆæœŸå­¦ä¹ é›†åˆ;
 
 import java.util.Scanner;
 
-public class aaa010¼ÆËãË®ÏÉ»¨Êı {
+public class aaa010è®¡ç®—æ°´ä»™èŠ±æ•° {
     public static void main(String[] args) {
-        System.out.println("ÊäÈëµÄÊı¾İÎª£º");
+        System.out.println("è¾“å…¥çš„æ•°æ®ä¸ºï¼š");
         Scanner b11 = new Scanner(System.in);
         int xx = b11.nextInt();
 
         int count = 0;
-        for (System.out.println("Ñ­»·¿ªÊ¼ÓÚ:" + xx); xx < 1000; xx++) {
-            //ÏÂÃæ·Ö±ğ»ñÈ¡Ã¿¸öÊıÎ»ÉÏµÄÊı×Ö£¬2021Äê9ÔÂ7ÈÕ14:28:49
+        for (System.out.println("å¾ªç¯å¼€å§‹äº:" + xx); xx < 1000; xx++) {
+            //ä¸‹é¢åˆ†åˆ«è·å–æ¯ä¸ªæ•°ä½ä¸Šçš„æ•°å­—ï¼Œ2021å¹´9æœˆ7æ—¥14:28:49
             int x1 = xx / 100;
             int x2 = xx / 10 % 10;
             int x3 = xx % 10;
             if (xx == x1 * x1 * x1 + x2 * x2 * x2 + x3 * x3 * x3) {
-                //Ë®ÏÉ»¨Êı£º¸öÎ»Ê®Î»°ÙÎ»Êı×ÖµÄÁ¢·½Ö®ºÍÎªÔ­Êı
-                //ÀıÈç153£¬1+125+27=153
+                //æ°´ä»™èŠ±æ•°ï¼šä¸ªä½åä½ç™¾ä½æ•°å­—çš„ç«‹æ–¹ä¹‹å’Œä¸ºåŸæ•°
+                //ä¾‹å¦‚153ï¼Œ1+125+27=153
                 System.out.println(xx);
                 count++;
             } else {
             }
         }
-        System.out.println("Ë®ÏÉ»¨Êı¹²ÓĞ" + count + "¸ö£¬³ÌĞò½áÊø¡£");
+        System.out.println("æ°´ä»™èŠ±æ•°å…±æœ‰" + count + "ä¸ªï¼Œç¨‹åºç»“æŸã€‚");
     }
 }

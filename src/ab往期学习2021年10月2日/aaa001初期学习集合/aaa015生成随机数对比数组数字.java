@@ -1,42 +1,42 @@
-package abÍùÆÚÑ§Ï°2021Äê10ÔÂ2ÈÕ.aaa001³õÆÚÑ§Ï°¼¯ºÏ;
+package abå¾€æœŸå­¦ä¹ 2021å¹´10æœˆ2æ—¥.aaa001åˆæœŸå­¦ä¹ é›†åˆ;
 
 import java.util.Arrays;
 import java.util.Random;
 
 @SuppressWarnings("NonAsciiCharacters")
-public class aaa015Éú³ÉËæ»úÊı¶Ô±ÈÊı×éÊı×Ö {
+public class aaa015ç”Ÿæˆéšæœºæ•°å¯¹æ¯”æ•°ç»„æ•°å­— {
     //    public static void main(String[] args){
-    //        System.out.println("xxxxxxxxÖÕÓÚÀ´À²");
+    //        System.out.println("xxxxxxxxç»ˆäºæ¥å•¦");
     public static void main(String[] args) {
-        //Éè¶¨Êı×é³¤¶È(ÔªËØ¸öÊı12)
+        //è®¾å®šæ•°ç»„é•¿åº¦(å…ƒç´ ä¸ªæ•°12)
         int[] arr = new int[12];
-        //[I@16b98e56ÕâÊÇµØÖ·
+        //[I@16b98e56è¿™æ˜¯åœ°å€
         System.out.println(Arrays.toString(arr));
-        //Arrays.toString(arr)°ÑÊı×éµÄµØÖ·×ª»¯³ÉstringÀàĞÍµÄÊı×é
-        //ÕâÊÇÀïÃæµÄÊıÖµ£¬ÒòÎªÊÇ¶¯Ì¬£¬ËùÒÔÊÇËæ»úµÄ¡£
+        //Arrays.toString(arr)æŠŠæ•°ç»„çš„åœ°å€è½¬åŒ–æˆstringç±»å‹çš„æ•°ç»„
+        //è¿™æ˜¯é‡Œé¢çš„æ•°å€¼ï¼Œå› ä¸ºæ˜¯åŠ¨æ€ï¼Œæ‰€ä»¥æ˜¯éšæœºçš„ã€‚
         System.out.println(arr[0]);
         System.out.println(arr[1]);
         System.out.println(arr[2]);
         arr[0] = 112;
         System.out.println(arr[0] + arr[5]);
-        // ²»Õ¹Ê¾Ä¬ÈÏÊı¾İ£¬arr[0]=112£¬¶øarr[5]=0,
-        // ÉÏÃæ½á¹ûÎª112
+        // ä¸å±•ç¤ºé»˜è®¤æ•°æ®ï¼Œarr[0]=112ï¼Œè€Œarr[5]=0,
+        // ä¸Šé¢ç»“æœä¸º112
         System.out.println(arr[0] + "" + arr[5]);
-        // ¼ÓÈë×Ö·û´®ÒÔºó£¬½«¶şÕßÆ´½Óµ½Ò»Æğ£¬½á¹ûÎª1120
+        // åŠ å…¥å­—ç¬¦ä¸²ä»¥åï¼Œå°†äºŒè€…æ‹¼æ¥åˆ°ä¸€èµ·ï¼Œç»“æœä¸º1120
         Random b1 = new Random();
         arr[5] = b1.nextInt(100);
         int xx = b1.nextInt(100);
         if (xx > arr[5]) {
-            System.out.println("Ëæ»úÊıÎª£º" + xx + "ºÍ" + arr[5]);
-            System.out.println("Ëæ»úÊı½Ï´ó");
+            System.out.println("éšæœºæ•°ä¸ºï¼š" + xx + "å’Œ" + arr[5]);
+            System.out.println("éšæœºæ•°è¾ƒå¤§");
         } else if (xx < arr[5]) {
-            System.out.println("Ëæ»úÊıÎª£º" + xx + "ºÍ" + arr[5]);
-            System.out.println("Ëæ»úÊı½ÏĞ¡");
+            System.out.println("éšæœºæ•°ä¸ºï¼š" + xx + "å’Œ" + arr[5]);
+            System.out.println("éšæœºæ•°è¾ƒå°");
         } else {
-            System.out.println("Ëæ»úÊıÎª£º" + xx + "ºÍ" + arr[5]);
-            System.out.println("Êı¾İÏàµÈ");
+            System.out.println("éšæœºæ•°ä¸ºï¼š" + xx + "å’Œ" + arr[5]);
+            System.out.println("æ•°æ®ç›¸ç­‰");
         }
-        //ÏÂÃæ¶¼ÊÇ²âÊÔ¡£
+        //ä¸‹é¢éƒ½æ˜¯æµ‹è¯•ã€‚
         //        System.out.println("12323165465");
         //        System.out.println("12323165465");
         //        System.out.println("12323165465");

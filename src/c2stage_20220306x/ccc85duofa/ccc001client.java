@@ -11,27 +11,27 @@ import java.util.Scanner;
  * Project:index.pb
  * Package:c2stage_20220306.ccc85duofa
  * User:  wo1261931780@gmail.com
- * Time:  2022-03-10-34  ĞÇÆÚÒ»
+ * Time:  2022-03-10-34  æ˜ŸæœŸä¸€
  */
 public class ccc001client {
     public static void main(String[] args) throws IOException {
-        // udpÍ¨ĞÅ£¬²»¶Ï·¢ËÍ£¬Ö±µ½exit
-        DatagramSocket demo_s = new DatagramSocket(7777);// ÕâÀï¿ÉÒÔÖ¸¶¨ÎÒµÄ¶Ë¿ÚÊÇ¶àÉÙ
-        // Ö¸¶¨ÒÔºó£¬¶Ô·½½ÓÊÕ¾ÍÊÇ¶àÉÙ£¬²»Ö¸¶¨µÄÇé¿öÏÂ£¬Ä¬ÈÏ°ïÄã·ÖÅä£¬
-        // µ«ÊÇÖ¸¶¨µÄÇé¿öÏÂ£¬¶à¿ª¿Í»§¶Ë¾ÍĞèÒªÉèÖÃºÃ£¬±ÜÃâ³åÍ»
+        // udpé€šä¿¡ï¼Œä¸æ–­å‘é€ï¼Œç›´åˆ°exit
+        DatagramSocket demo_s = new DatagramSocket(7777);// è¿™é‡Œå¯ä»¥æŒ‡å®šæˆ‘çš„ç«¯å£æ˜¯å¤šå°‘
+        // æŒ‡å®šä»¥åï¼Œå¯¹æ–¹æ¥æ”¶å°±æ˜¯å¤šå°‘ï¼Œä¸æŒ‡å®šçš„æƒ…å†µä¸‹ï¼Œé»˜è®¤å¸®ä½ åˆ†é…ï¼Œ
+        // ä½†æ˜¯æŒ‡å®šçš„æƒ…å†µä¸‹ï¼Œå¤šå¼€å®¢æˆ·ç«¯å°±éœ€è¦è®¾ç½®å¥½ï¼Œé¿å…å†²çª
         Scanner x = new Scanner(System.in);
         while (true) {
-            System.out.println("ÊäÈë£º");
+            System.out.println("è¾“å…¥ï¼š");
             String s = x.nextLine();
             // if (s.equals("exit")) {
-            if ("exit".equals(s)) {// °¢Àï°Í°Í¿ª·¢¹æÔò
+            if ("exit".equals(s)) {// é˜¿é‡Œå·´å·´å¼€å‘è§„åˆ™
                 // System.exit(0);
                 demo_s.close();
                 break;
             }
             byte[] demo_st = s.getBytes();
             DatagramPacket demo_p = new DatagramPacket(demo_st, demo_st.length, InetAddress.getLocalHost(), 18959);
-            // ÕâÀïÊÇ¶Ô·½µÄ¶Ë¿Ú
+            // è¿™é‡Œæ˜¯å¯¹æ–¹çš„ç«¯å£
             demo_s.send(demo_p);
         }
         // demo_s.close();

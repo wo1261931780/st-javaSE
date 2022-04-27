@@ -10,7 +10,7 @@ import java.util.Set;
  * Project:index.pb
  * Package:c2stage_20220329.ccc001
  * User:  wo1261931780@gmail.com
- * Time:  2022-03-21-32  ĞÇÆÚ¶ş
+ * Time:  2022-03-21-32  æ˜ŸæœŸäºŒ
  */
 public class ccc001 {
     public static void main(String[] args) {
@@ -33,14 +33,14 @@ public class ccc001 {
 
     public static void show1(List<String> demo) {
         demo.stream().filter(s -> s.startsWith("a")).filter(s -> s.length() < 3).forEach(System.out::println);
-        // ½âÊÍÒ»ÏÂÉÏÃæµÄ´úÂë£¬
-        // Ê×ÏÈÊÇÁ´Ê½±à³Ì£¬Ã¿´Î½á¹û¶¼·µ»ØÒ»¸ö¶ÔÏó
-        // ½«ÒÔstreamÁ÷µÄĞÎÊ½¿ªÊ¼Ğ´£¬Ìí¼ÓÒ»¸öÉ¸Ñ¡Æ÷£¬É¸Ñ¡Æ÷ÄÚ²¿Ê¹ÓÃlambda±í´ïÊ½½øĞĞ²Ù×÷
-        // È»ºó½øĞĞ±éÀú£¬ÄÚ²¿foreach¼ÓÉÏlambda±í´ïÊ½½øĞĞÊä³ö
+        // è§£é‡Šä¸€ä¸‹ä¸Šé¢çš„ä»£ç ï¼Œ
+        // é¦–å…ˆæ˜¯é“¾å¼ç¼–ç¨‹ï¼Œæ¯æ¬¡ç»“æœéƒ½è¿”å›ä¸€ä¸ªå¯¹è±¡
+        // å°†ä»¥streamæµçš„å½¢å¼å¼€å§‹å†™ï¼Œæ·»åŠ ä¸€ä¸ªç­›é€‰å™¨ï¼Œç­›é€‰å™¨å†…éƒ¨ä½¿ç”¨lambdaè¡¨è¾¾å¼è¿›è¡Œæ“ä½œ
+        // ç„¶åè¿›è¡Œéå†ï¼Œå†…éƒ¨foreachåŠ ä¸Šlambdaè¡¨è¾¾å¼è¿›è¡Œè¾“å‡º
     }
 
     public static void show2() {
-        // 1¡¢²»¿É±äµÄList¼¯ºÏ
+        // 1ã€ä¸å¯å˜çš„Listé›†åˆ
         List<Double> lists = List.of(569.5, 700.5, 523.0, 570.5);
         // lists.add(689.0);
         // lists.set(2, 698.5);
@@ -48,14 +48,14 @@ public class ccc001 {
         double score = lists.get(1);
         System.out.println(score);
 
-        // 2¡¢²»¿É±äµÄSet¼¯ºÏ
-        Set<String> names = Set.of("µÏÀöÈÈ°Í", "µÏÀöÈÈ¾Å", "Âí¶ûÔú¹ş", "¿¨¶ûÕ£°Í");
-        // names.add("ÈıÉÙÒ¯");
+        // 2ã€ä¸å¯å˜çš„Seté›†åˆ
+        Set<String> names = Set.of("è¿ªä¸½çƒ­å·´", "è¿ªä¸½çƒ­ä¹", "é©¬å°”æ‰å“ˆ", "å¡å°”çœ¨å·´");
+        // names.add("ä¸‰å°‘çˆ·");
         System.out.println(names);
 
-        // 3¡¢²»¿É±äµÄMap¼¯ºÏ
-        Map<String, Integer> maps = Map.of("huawei", 2, "Java¿ª·¢", 1, "ÊÖ±í", 1);
-        // maps.put("ÒÂ·ş", 3);
+        // 3ã€ä¸å¯å˜çš„Mapé›†åˆ
+        Map<String, Integer> maps = Map.of("huawei", 2, "Javaå¼€å‘", 1, "æ‰‹è¡¨", 1);
+        // maps.put("è¡£æœ", 3);
         System.out.println(maps);
     }
 }

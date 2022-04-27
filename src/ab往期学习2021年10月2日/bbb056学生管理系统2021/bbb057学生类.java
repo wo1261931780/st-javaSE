@@ -1,9 +1,9 @@
-package abÍùÆÚÑ§Ï°2021Äê10ÔÂ2ÈÕ.bbb056Ñ§Éú¹ÜÀíÏµÍ³2021;
+package abå¾€æœŸå­¦ä¹ 2021å¹´10æœˆ2æ—¥.bbb056å­¦ç”Ÿç®¡ç†ç³»ç»Ÿ2021;
 
 /**
- * Ñ§ºÅ£¬ÄêÁä£¬ĞÕÃû£¬¾Ó×¡µØ
+ * å­¦å·ï¼Œå¹´é¾„ï¼Œå§“åï¼Œå±…ä½åœ°
  */
-public class bbb057Ñ§ÉúÀà {
+public class bbb057å­¦ç”Ÿç±» {
     private int nun;
     private int age;
     private String name;

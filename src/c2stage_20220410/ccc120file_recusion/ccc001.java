@@ -5,7 +5,7 @@ package c2stage_20220410.ccc120file_recusion;
  * Project:index.pb
  * Package:c2stage_20220410.ccc120file_recusion
  * User:  wo1261931780@gmail.com
- * Time:  2022-04-10-51  ÐÇÆÚÈÕ
+ * Time:  2022-04-10-51  æ˜ŸæœŸæ—¥
  */
 public class ccc001 {
     public static void main(String[] args) {
@@ -14,30 +14,30 @@ public class ccc001 {
     }
 
     public static void show() {
-        System.out.println("½øÈë·½·¨1");
+        System.out.println("è¿›å…¥æ–¹æ³•1");
         // show();
-        // ·½·¨µ÷ÓÃ±¾Éí£¬¾ÍÊÇµÝ¹é£¬
-        // ³öÏÖµÝ¹éµÄÊ±ºò£¬×ó±ß»á¸ø³öÌáÊ¾
-        // Èç¹ûµÝ¹éÃ»ÓÐ³ö¿Ú£¬¾Í»á±¨´í£¬ÒòÎªµÝ¹éÌ«Éî
-        // Õâ¸öÊ±ºò±¨´íÐÅÏ¢£¬¾ÍÊÇÕ»ÄÚ´æÒç³ö£¬ÒòÎª·½·¨¶¼ÊÇÔÚÕ»ÄÚ´æÖÐ¼ÓÔØ
+        // æ–¹æ³•è°ƒç”¨æœ¬èº«ï¼Œå°±æ˜¯é€’å½’ï¼Œ
+        // å‡ºçŽ°é€’å½’çš„æ—¶å€™ï¼Œå·¦è¾¹ä¼šç»™å‡ºæç¤º
+        // å¦‚æžœé€’å½’æ²¡æœ‰å‡ºå£ï¼Œå°±ä¼šæŠ¥é”™ï¼Œå› ä¸ºé€’å½’å¤ªæ·±
+        // è¿™ä¸ªæ—¶å€™æŠ¥é”™ä¿¡æ¯ï¼Œå°±æ˜¯æ ˆå†…å­˜æº¢å‡ºï¼Œå› ä¸ºæ–¹æ³•éƒ½æ˜¯åœ¨æ ˆå†…å­˜ä¸­åŠ è½½
         show2();
-        System.out.println("·½·¨Ö´ÐÐ½áÊø");
+        System.out.println("æ–¹æ³•æ‰§è¡Œç»“æŸ");
     }
 
     private static void show2() {
-        System.out.println("show2±»µ÷ÓÃ");
-        show3();// ·½·¨ÄÚ£¬µ÷ÓÃÆäËûµÄ·½·¨£¬ÕâÖÖ½Ð¼ä½ÓµÝ¹é
+        System.out.println("show2è¢«è°ƒç”¨");
+        show3();// æ–¹æ³•å†…ï¼Œè°ƒç”¨å…¶ä»–çš„æ–¹æ³•ï¼Œè¿™ç§å«é—´æŽ¥é€’å½’
     }
 
     private static void show3() {
-        System.out.println("show3±»µ÷ÓÃ");
-        show();//ÔÙ»Øµ½·½·¨1£¬³öÏÖËÀÑ­»·
+        System.out.println("show3è¢«è°ƒç”¨");
+        show();//å†å›žåˆ°æ–¹æ³•1ï¼Œå‡ºçŽ°æ­»å¾ªçŽ¯
     }
-    // ÕûÌåµÄÖ´ÐÐÁ÷³ÌÊÇ£º
-    // ·½·¨1³öÏÖ£¬¼ÓÔØ·½·¨2
-    // ·½·¨2Ö´ÐÐ£¬µ÷ÓÃ·½·¨3
-    // ·½·¨3³öÏÖ£¬»Øµ½·½·¨1£¬Èç¹ûÕâÀïÃ»ÓÐ½á¹û£¬¾ÍÖ±½Ó½áÊø
-    // È»ºó½áÊøµÄË³Ðò£º3-2-1
-    // ×îºó»Øµ½·½·¨1£¬Êä³ö£º·½·¨½áÊø
+    // æ•´ä½“çš„æ‰§è¡Œæµç¨‹æ˜¯ï¼š
+    // æ–¹æ³•1å‡ºçŽ°ï¼ŒåŠ è½½æ–¹æ³•2
+    // æ–¹æ³•2æ‰§è¡Œï¼Œè°ƒç”¨æ–¹æ³•3
+    // æ–¹æ³•3å‡ºçŽ°ï¼Œå›žåˆ°æ–¹æ³•1ï¼Œå¦‚æžœè¿™é‡Œæ²¡æœ‰ç»“æžœï¼Œå°±ç›´æŽ¥ç»“æŸ
+    // ç„¶åŽç»“æŸçš„é¡ºåºï¼š3-2-1
+    // æœ€åŽå›žåˆ°æ–¹æ³•1ï¼Œè¾“å‡ºï¼šæ–¹æ³•ç»“æŸ
 
 }

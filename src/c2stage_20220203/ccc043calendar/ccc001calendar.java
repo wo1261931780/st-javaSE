@@ -5,31 +5,31 @@ import java.util.Date;
 
 public class ccc001calendar {
     public static void main(String[] args) {
-        Calendar x = Calendar.getInstance();//Ïàµ±ÓÚÎÒĞÂ½¨ÁËÒ»¸öÈÕÀú¶ÔÏóx
-        // ÈÕÀúµÄ±¾ÖÊÊÇ£¬¿É±äÈÕÆÚ¶ÔÏó
+        Calendar x = Calendar.getInstance();//ç›¸å½“äºæˆ‘æ–°å»ºäº†ä¸€ä¸ªæ—¥å†å¯¹è±¡x
+        // æ—¥å†çš„æœ¬è´¨æ˜¯ï¼Œå¯å˜æ—¥æœŸå¯¹è±¡
         System.out.println(x);//time=1644037567997,areFieldsSet=true,areAllFieldsSet=true,lenient=true,zone=sun.util.calendar.ZoneInfo[id="Asia/Shanghai",offset=28800000,dstSavings=0,useDaylight=false,transitions=31,lastRule=null],firstDayOfWeek=1,minimalDaysInFirstWeek=1,ERA=1,YEAR=2022,MONTH=1,WEEK_OF_YEAR=6,WEEK_OF_MONTH=1,DAY_OF_MONTH=5,DAY_OF_YEAR=36,DAY_OF_WEEK=7,DAY_OF_WEEK_IN_MONTH=1,AM_PM=1,HOUR=1,HOUR_OF_DAY=13,MINUTE=6,SECOND=7,MILLISECOND=997,ZONE_OFFSET=28800000,DST_OFFSET=0
-        // Ö±½ÓÊä³ö£¬»áµÃµ½ÈÕÀúÖĞµÄËùÓĞĞÅÏ¢£¬µ«ÊÇÎÒÃÇÖ»ĞèÒªÆäÖĞµÄÒ»²¿·Ö
+        // ç›´æ¥è¾“å‡ºï¼Œä¼šå¾—åˆ°æ—¥å†ä¸­çš„æ‰€æœ‰ä¿¡æ¯ï¼Œä½†æ˜¯æˆ‘ä»¬åªéœ€è¦å…¶ä¸­çš„ä¸€éƒ¨åˆ†
 
-        int c_yaer = x.get(Calendar.YEAR);//»ñÈ¡ÈÕÀúÖĞµÄyearÊı¾İ
-        // È»ºó½«intÀàĞÍµÄyearÊı¾İ¸³Öµ¸øc_yearÕâ¸ö±äÁ¿
-        System.out.println("½ñÄê:" + c_yaer);
-        System.out.println("Î´ĞŞ¸ÄÊ±¼ä£º" + x.getTimeInMillis());
+        int c_yaer = x.get(Calendar.YEAR);//è·å–æ—¥å†ä¸­çš„yearæ•°æ®
+        // ç„¶åå°†intç±»å‹çš„yearæ•°æ®èµ‹å€¼ç»™c_yearè¿™ä¸ªå˜é‡
+        System.out.println("ä»Šå¹´:" + c_yaer);
+        System.out.println("æœªä¿®æ”¹æ—¶é—´ï¼š" + x.getTimeInMillis());
         // boolean xx = x.getTimeInMillis() == x.get(Calendar.time());
-        // Ô´´úÂë£º
+        // æºä»£ç ï¼š
         // protected long time;
-        // time±¾ÉíÊÇ´æÔÚÈÕÀúÖĞµÄ£¬µ«ÊÇĞŞÊÎ·ûÎªprotect£¬ÎŞ·¨Ö±½Ó·ÃÎÊ
-        // ×î¹Ø¼üµÄÊÇ£¬Ô´´úÂëÃ»¿´Ã÷°×
+        // timeæœ¬èº«æ˜¯å­˜åœ¨æ—¥å†ä¸­çš„ï¼Œä½†æ˜¯ä¿®é¥°ç¬¦ä¸ºprotectï¼Œæ— æ³•ç›´æ¥è®¿é—®
+        // æœ€å…³é”®çš„æ˜¯ï¼Œæºä»£ç æ²¡çœ‹æ˜ç™½
         // System.out.println(xx);
 
-        x.add(Calendar.MONTH, 55);//¶ÔÈÕÆÚ½øĞĞÔö¼Ó²Ù×÷
+        x.add(Calendar.MONTH, 55);//å¯¹æ—¥æœŸè¿›è¡Œå¢åŠ æ“ä½œ
 
-        System.out.println(x.get(Calendar.YEAR));//¼´Ê¹Ôö¼ÓÁËÊ±¼ä£¬Ç°ÃæÕ¹Ê¾µÄÊ±¼äÈÔÈ»ÊÇ²»±äµÄ
-        System.out.println(x.get(Calendar.YEAR));//µ«ÊÇºóÃæµÄËùÓĞÊ±¼ä£¬ÒòÎª»ùÓÚÍ¬Ò»¸ö¶ÔÏó£¬ËùÒÔ»á·¢Éú¸Ä±ä
+        System.out.println(x.get(Calendar.YEAR));//å³ä½¿å¢åŠ äº†æ—¶é—´ï¼Œå‰é¢å±•ç¤ºçš„æ—¶é—´ä»ç„¶æ˜¯ä¸å˜çš„
+        System.out.println(x.get(Calendar.YEAR));//ä½†æ˜¯åé¢çš„æ‰€æœ‰æ—¶é—´ï¼Œå› ä¸ºåŸºäºåŒä¸€ä¸ªå¯¹è±¡ï¼Œæ‰€ä»¥ä¼šå‘ç”Ÿæ”¹å˜
 
-        Date demo_date = x.getTime();//gettime·½·¨£¬µÃµ½µÄÊÇÒ»¸öfinal³£Á¿
-        System.out.println(demo_date);//Õâ¸ö³£Á¿
+        Date demo_date = x.getTime();//gettimeæ–¹æ³•ï¼Œå¾—åˆ°çš„æ˜¯ä¸€ä¸ªfinalå¸¸é‡
+        System.out.println(demo_date);//è¿™ä¸ªå¸¸é‡
         long demo_ss = x.getTimeInMillis();
-        System.out.println("Ê±¼äºÁÃëÖµ£º" + demo_ss);
+        System.out.println("æ—¶é—´æ¯«ç§’å€¼ï¼š" + demo_ss);
 
 
     }

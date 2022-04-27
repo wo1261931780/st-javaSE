@@ -6,21 +6,21 @@ import java.util.Date;
 
 public class ccc002parse {
     public static void main(String[] args) throws ParseException {
-        String x = "2022Äê2ÔÂ4ÈÕ20:40:48";
-        SimpleDateFormat x1 = new SimpleDateFormat("yyyyÄêMMÔÂddÈÕHH:mm:ss");
+        String x = "2022å¹´2æœˆ4æ—¥20:40:48";
+        SimpleDateFormat x1 = new SimpleDateFormat("yyyyå¹´MMæœˆddæ—¥HH:mm:ss");
         // Date x1=new Date();
-        Date x2 = x1.parse(x);//parse±íÊ¾½âÎöÃüÁî£¬À¨ºÅÄÚ¾ÍÊÇĞèÒª½âÎöµÄÓï¾ä
-        //Ö±½ÓÊ¹ÓÃparse»á·¢Éú±¨´í£¬ËùÒÔÒ»°ãÒªÅ×³öÒì³££¨Ìí¼ÓÒì³£µ½·½·¨Ç©Ãû£©
-        //Å×³öÒì³££¬Êµ¼ÊÉÏ¾ÍÊÇ±ÜÃâ³öÏÖ
+        Date x2 = x1.parse(x);//parseè¡¨ç¤ºè§£æå‘½ä»¤ï¼Œæ‹¬å·å†…å°±æ˜¯éœ€è¦è§£æçš„è¯­å¥
+        //ç›´æ¥ä½¿ç”¨parseä¼šå‘ç”ŸæŠ¥é”™ï¼Œæ‰€ä»¥ä¸€èˆ¬è¦æŠ›å‡ºå¼‚å¸¸ï¼ˆæ·»åŠ å¼‚å¸¸åˆ°æ–¹æ³•ç­¾åï¼‰
+        //æŠ›å‡ºå¼‚å¸¸ï¼Œå®é™…ä¸Šå°±æ˜¯é¿å…å‡ºç°
         System.out.println(x2);//Fri Feb 04 20:40:48 CST 2022
         System.out.println("*******************************************");
-        // SimpleDateFormat x3 = new SimpleDateFormat("yyyyÄêMMÔÂdd+2ÈÕ HHÊ±mm·ÖssÃë");
+        // SimpleDateFormat x3 = new SimpleDateFormat("yyyyå¹´MMæœˆdd+2æ—¥ HHæ—¶mmåˆ†ssç§’");
         // String x4 = x3.format(x2);
         Date x3 = new Date();
-        // long x4 = x2.getTime() + 1111*1000;//gettime²Ù×÷£¬Ïàµ±ÓÚÈ¥»ñÈ¡ÁËÒ»´ÎºÁÃëÖµ£¬µÃµ½ÒÔºó£¬·½±ãÎÒÃÇ½øĞĞ¼ÆËã
-        long x4 = x2.getTime() + (2L*24*3600+19*60)*1000;//ÕâÀï¼ÓÉÏL£¬½øĞĞlongÀàĞÍµÄ¼ÆËã£¬±ÜÃâint³¬ÏŞ
+        // long x4 = x2.getTime() + 1111*1000;//gettimeæ“ä½œï¼Œç›¸å½“äºå»è·å–äº†ä¸€æ¬¡æ¯«ç§’å€¼ï¼Œå¾—åˆ°ä»¥åï¼Œæ–¹ä¾¿æˆ‘ä»¬è¿›è¡Œè®¡ç®—
+        long x4 = x2.getTime() + (2L*24*3600+19*60)*1000;//è¿™é‡ŒåŠ ä¸ŠLï¼Œè¿›è¡Œlongç±»å‹çš„è®¡ç®—ï¼Œé¿å…intè¶…é™
         x3.setTime(x4);
-        System.out.println("×îÖÕÊ±¼ä£º" + x3);
+        System.out.println("æœ€ç»ˆæ—¶é—´ï¼š" + x3);
 
 
     }

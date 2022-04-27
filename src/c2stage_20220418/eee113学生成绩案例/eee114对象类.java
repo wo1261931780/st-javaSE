@@ -1,7 +1,7 @@
-package c2stage_20220418.eee113Ñ§Éú³É¼¨°¸Àı;
+package c2stage_20220418.eee113å­¦ç”Ÿæˆç»©æ¡ˆä¾‹;
 
 
-public class eee114¶ÔÏóÀà {
+public class eee114å¯¹è±¡ç±» {
     private String name;
     private String num;
     private int score_yw;
@@ -9,7 +9,7 @@ public class eee114¶ÔÏóÀà {
     private int score_en;
     private int score_all;
 
-    public eee114¶ÔÏóÀà(String name, String num, int score_yw, int score_math, int score_en, int score_all) {
+    public eee114å¯¹è±¡ç±»(String name, String num, int score_yw, int score_math, int score_en, int score_all) {
         this.name = name;
         this.num = num;
         this.score_yw = score_yw;
@@ -18,7 +18,7 @@ public class eee114¶ÔÏóÀà {
         this.score_all = score_all;
     }
 
-    public eee114¶ÔÏóÀà() {
+    public eee114å¯¹è±¡ç±»() {
     }
 
     public String getName() {
@@ -70,7 +70,7 @@ public class eee114¶ÔÏóÀà {
     }
 
     // @Override
-    // public int compareTo(eee114¶ÔÏóÀà o) {
+    // public int compareTo(eee114å¯¹è±¡ç±» o) {
     //     int num = this.score_all - o.score_all;
     //     int num2 = num == 0 ? (this.name.compareTo(o.name)) : num;
     //     return num2;

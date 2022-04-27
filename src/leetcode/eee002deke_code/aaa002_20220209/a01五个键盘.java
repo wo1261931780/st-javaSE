@@ -2,44 +2,44 @@ package leetcode.eee002deke_code.aaa002_20220209;
 
 import java.util.Scanner;
 
-public class a01Îå¸ö¼üÅÌ {
-    /*ÌâÄ¿85
-      ÓÐÒ»¸öÌØÊâµÄÎå¼ü¼üÅÌ
-      ÉÏÃæÓÐA¡¢Ctrl-C¡¢Ctrl-X¡¢Ctrl-V¡¢Ctrl-A
-      A¼üÔÚÆÁÄ»ÉÏÊä³öÒ»¸ö×ÖÄ¸A
-      Ctrl-C½«µ±Ç°ËùÑ¡µÄ×ÖÄ¸¸´ÖÆµ½¼ôÌù°å
-      Ctrl-X½«µ±Ç°Ñ¡ÔñµÄ×ÖÄ¸¸´ÖÆµ½¼ôÌù°å²¢Çå¿ÕËùÑ¡ÔñµÄ×ÖÄ¸
-      Ctrl-V½«µ±Ç°¼ôÌù°åµÄ×ÖÄ¸Êä³öµ½ÆÁÄ»
-      Ctrl-AÑ¡Ôñµ±Ç°ÆÁÄ»ÖÐËùÓÐ×ÖÄ¸
-      ×¢Òâ£º
-        1. ¼ôÌù°å³õÊ¼Îª¿Õ
-        2. ÐÂµÄÄÚÈÝ¸´ÖÆµ½¼ôÌù°å»á¸²¸ÇÔ­ÓÐÄÚÈÝ
-        3. µ±ÆÁÄ»ÖÐÃ»ÓÐ×ÖÄ¸Ê±,Ctrl-AÎÞÐ§
-        4. µ±Ã»ÓÐÑ¡Ôñ×ÖÄ¸Ê±Ctrl-C¡¢Ctrl-XÎÞÐ§
-        5. µ±ÓÐ×ÖÄ¸±»Ñ¡ÔñÊ±AºÍCtrl-VÕâÁ½¸öÊä³ö¹¦ÄÜµÄ¼ü,
-           »áÏÈÇå¿ÕËùÑ¡µÄ×ÖÄ¸ÔÙ½øÐÐÊä³ö
+public class a01äº”ä¸ªé”®ç›˜ {
+    /*é¢˜ç›®85
+      æœ‰ä¸€ä¸ªç‰¹æ®Šçš„äº”é”®é”®ç›˜
+      ä¸Šé¢æœ‰Aã€Ctrl-Cã€Ctrl-Xã€Ctrl-Vã€Ctrl-A
+      Aé”®åœ¨å±å¹•ä¸Šè¾“å‡ºä¸€ä¸ªå­—æ¯A
+      Ctrl-Cå°†å½“å‰æ‰€é€‰çš„å­—æ¯å¤åˆ¶åˆ°å‰ªè´´æ¿
+      Ctrl-Xå°†å½“å‰é€‰æ‹©çš„å­—æ¯å¤åˆ¶åˆ°å‰ªè´´æ¿å¹¶æ¸…ç©ºæ‰€é€‰æ‹©çš„å­—æ¯
+      Ctrl-Vå°†å½“å‰å‰ªè´´æ¿çš„å­—æ¯è¾“å‡ºåˆ°å±å¹•
+      Ctrl-Aé€‰æ‹©å½“å‰å±å¹•ä¸­æ‰€æœ‰å­—æ¯
+      æ³¨æ„ï¼š
+        1. å‰ªè´´æ¿åˆå§‹ä¸ºç©º
+        2. æ–°çš„å†…å®¹å¤åˆ¶åˆ°å‰ªè´´æ¿ä¼šè¦†ç›–åŽŸæœ‰å†…å®¹
+        3. å½“å±å¹•ä¸­æ²¡æœ‰å­—æ¯æ—¶,Ctrl-Aæ— æ•ˆ
+        4. å½“æ²¡æœ‰é€‰æ‹©å­—æ¯æ—¶Ctrl-Cã€Ctrl-Xæ— æ•ˆ
+        5. å½“æœ‰å­—æ¯è¢«é€‰æ‹©æ—¶Aå’ŒCtrl-Vè¿™ä¸¤ä¸ªè¾“å‡ºåŠŸèƒ½çš„é”®,
+           ä¼šå…ˆæ¸…ç©ºæ‰€é€‰çš„å­—æ¯å†è¿›è¡Œè¾“å‡º
 
-      ¸ø¶¨Ò»ÏµÁÐ¼üÅÌÊäÈë,
-      Êä³ö×îÖÕÆÁÄ»ÉÏ×ÖÄ¸µÄÊýÁ¿
+      ç»™å®šä¸€ç³»åˆ—é”®ç›˜è¾“å…¥,
+      è¾“å‡ºæœ€ç»ˆå±å¹•ä¸Šå­—æ¯çš„æ•°é‡
 
-      ÊäÈëÃèÊö:
-         ÊäÈëÎªÒ»ÐÐ
-         Îª¼ò»¯½âÎöÓÃÊý×Ö12345·Ö±ð´úÌæA¡¢Ctrl-C¡¢Ctrl-X¡¢Ctrl-V¡¢Ctrl-AµÄÊäÈë
-         Êý×ÖÓÃ¿Õ¸ñ·Ö¸î
+      è¾“å…¥æè¿°:
+         è¾“å…¥ä¸ºä¸€è¡Œ
+         ä¸ºç®€åŒ–è§£æžç”¨æ•°å­—12345åˆ†åˆ«ä»£æ›¿Aã€Ctrl-Cã€Ctrl-Xã€Ctrl-Vã€Ctrl-Açš„è¾“å…¥
+         æ•°å­—ç”¨ç©ºæ ¼åˆ†å‰²
 
-      Êä³öÃèÊö:
-          Êä³öÒ»¸öÊý×ÖÎªÆÁÄ»ÉÏ×ÖÄ¸µÄ×ÜÊýÁ¿
+      è¾“å‡ºæè¿°:
+          è¾“å‡ºä¸€ä¸ªæ•°å­—ä¸ºå±å¹•ä¸Šå­—æ¯çš„æ€»æ•°é‡
 
-      Ê¾ÀýÒ»:
-          ÊäÈë:
+      ç¤ºä¾‹ä¸€:
+          è¾“å…¥:
             1 1 1
-          Êä³ö:
+          è¾“å‡º:
             3
 
-     Ê¾Àý¶þ:
-          ÊäÈë:
+     ç¤ºä¾‹äºŒ:
+          è¾“å…¥:
             1 1 5 1 5 2 4 4
-          Êä³ö:
+          è¾“å‡º:
             2
 
      */

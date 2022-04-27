@@ -1,7 +1,7 @@
 package c2stage_20220203.ccc040api_date;
 /*
-    public Date()£º·ÖÅäÒ»¸ö Date¶ÔÏó£¬²¢³õÊ¼»¯£¬ÒÔ±ãËü´ú±íËü±»·ÖÅäµÄÊ±¼ä£¬¾«È·µ½ºÁÃë
-    public Date(long date)£º·ÖÅäÒ»¸ö Date¶ÔÏó£¬²¢½«Æä³õÊ¼»¯Îª±íÊ¾´Ó±ê×¼»ù×¼Ê±¼äÆðÖ¸¶¨µÄºÁÃëÊý
+    public Date()ï¼šåˆ†é…ä¸€ä¸ª Dateå¯¹è±¡ï¼Œå¹¶åˆå§‹åŒ–ï¼Œä»¥ä¾¿å®ƒä»£è¡¨å®ƒè¢«åˆ†é…çš„æ—¶é—´ï¼Œç²¾ç¡®åˆ°æ¯«ç§’
+    public Date(long date)ï¼šåˆ†é…ä¸€ä¸ª Dateå¯¹è±¡ï¼Œå¹¶å°†å…¶åˆå§‹åŒ–ä¸ºè¡¨ç¤ºä»Žæ ‡å‡†åŸºå‡†æ—¶é—´èµ·æŒ‡å®šçš„æ¯«ç§’æ•°
  */
 
 import java.util.Date;
@@ -9,24 +9,24 @@ import java.util.Date;
 public class ccc038date {
     public static void main(String[] args) {
         Date x = new Date();
-        // Ê¹ÓÃdateµÄ¹¹Ôì·½·¨£¬
-        // ¹¹Ôì·½·¨µÄÆÕ±é¸ñÊ½ÊÇÒ»¸öµØÖ·Êý¾Ý
-        // ÕâÀïtostring·½·¨½øÐÐÁËÒ»´ÎÖØÐ´²Ù×÷
-        // Êä³ö½á¹ûÎª£º
+        // ä½¿ç”¨dateçš„æž„é€ æ–¹æ³•ï¼Œ
+        // æž„é€ æ–¹æ³•çš„æ™®éæ ¼å¼æ˜¯ä¸€ä¸ªåœ°å€æ•°æ®
+        // è¿™é‡Œtostringæ–¹æ³•è¿›è¡Œäº†ä¸€æ¬¡é‡å†™æ“ä½œ
+        // è¾“å‡ºç»“æžœä¸ºï¼š
         // Mon May 10 15:49:00 CST 2021
         System.out.println(x);
         // -------------------------------------------------
         // -------------------------------------------------
         // -------------------------------------------------
-        // ²»Í¬ÓÚÉÏÃæµÄÐÂ½¨Ò»¸ödate¶ÔÏó£¬Ö¸ÏòÏÖÔÚµÄÊ±¼ä
-        // ÕâÀïÊÇÏÈÖ¸¶¨Ò»¸ölongÀàÐÍµÄÊý¾Ý£¬¸ø³ö¾ßÌåµÄºÁÃëÊý¾Ý
-        // È»ºó¸ù¾ÝºÁÃëÊý¾Ý£¬¼ÆËãµÃµ½£¬´Ó1970Äê±ê×¼Ê±¼äÍùºóµÄ¾ßÌåÊ±¼ä
+        // ä¸åŒäºŽä¸Šé¢çš„æ–°å»ºä¸€ä¸ªdateå¯¹è±¡ï¼ŒæŒ‡å‘çŽ°åœ¨çš„æ—¶é—´
+        // è¿™é‡Œæ˜¯å…ˆæŒ‡å®šä¸€ä¸ªlongç±»åž‹çš„æ•°æ®ï¼Œç»™å‡ºå…·ä½“çš„æ¯«ç§’æ•°æ®
+        // ç„¶åŽæ ¹æ®æ¯«ç§’æ•°æ®ï¼Œè®¡ç®—å¾—åˆ°ï¼Œä»Ž1970å¹´æ ‡å‡†æ—¶é—´å¾€åŽçš„å…·ä½“æ—¶é—´
         long x1 = 1564651 * 56 * 461 * 354635 * 5;
         Date x2 = new Date(x1);
-        // ×îÖÕµÃµ½½á¹ûÎª£º
+        // æœ€ç»ˆå¾—åˆ°ç»“æžœä¸ºï¼š
         // Tue Jan 20 07:00:41 CST 1970
-        // ±íÊ¾´Ó±ê×¼Ê±¼ä£¬ÇÐ»»Ê±Çø£¬¼ÓÉÏÊ±¼ä²îµÄÊ±¼ä½á¹û
-        // ÆäÊµ£¬ÕâÀï¿ÉÒÔÀí½âÎª£¬Ò»¸ö´ø²Î¹¹ÔìËùµÃ³öµÄ½á¹û
+        // è¡¨ç¤ºä»Žæ ‡å‡†æ—¶é—´ï¼Œåˆ‡æ¢æ—¶åŒºï¼ŒåŠ ä¸Šæ—¶é—´å·®çš„æ—¶é—´ç»“æžœ
+        // å…¶å®žï¼Œè¿™é‡Œå¯ä»¥ç†è§£ä¸ºï¼Œä¸€ä¸ªå¸¦å‚æž„é€ æ‰€å¾—å‡ºçš„ç»“æžœ
         System.out.println(x2);
     }
 }

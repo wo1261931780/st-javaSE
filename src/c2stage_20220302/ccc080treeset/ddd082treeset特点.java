@@ -1,32 +1,32 @@
 package c2stage_20220302.ccc080treeset;
 /*
-    TreeSet¼¯ºÏÌØµã
-        1:ÔªËØÓÐÐò£¬ÕâÀïµÄË³Ðò²»ÊÇÖ¸´æ´¢ºÍÈ¡³öµÄË³Ðò£¬¶øÊÇ°´ÕÕÒ»¶¨µÄ¹æÔò½øÐÐÅÅÐò£¬¾ßÌåÅÅÐò·½Ê½È¡¾öÓÚ¹¹Ôì·½·¨
-            TreeSet()£º¸ù¾ÝÆäÔªËØµÄ×ÔÈ»ÅÅÐò½øÐÐÅÅÐò
-            TreeSet(Comparator comparator) £º¸ù¾ÝÖ¸¶¨µÄ±È½ÏÆ÷½øÐÐÅÅÐò
-        2:Ã»ÓÐ´øË÷ÒýµÄ·½·¨£¬ËùÒÔ²»ÄÜÊ¹ÓÃÆÕÍ¨forÑ­»·±éÀú
-        3:ÓÉÓÚÊÇSet¼¯ºÏ£¬ËùÒÔ²»°üº¬ÖØ¸´ÔªËØµÄ¼¯ºÏ
+    TreeSeté›†åˆç‰¹ç‚¹
+        1:å…ƒç´ æœ‰åºï¼Œè¿™é‡Œçš„é¡ºåºä¸æ˜¯æŒ‡å­˜å‚¨å’Œå–å‡ºçš„é¡ºåºï¼Œè€Œæ˜¯æŒ‰ç…§ä¸€å®šçš„è§„åˆ™è¿›è¡ŒæŽ’åºï¼Œå…·ä½“æŽ’åºæ–¹å¼å–å†³äºŽæž„é€ æ–¹æ³•
+            TreeSet()ï¼šæ ¹æ®å…¶å…ƒç´ çš„è‡ªç„¶æŽ’åºè¿›è¡ŒæŽ’åº
+            TreeSet(Comparator comparator) ï¼šæ ¹æ®æŒ‡å®šçš„æ¯”è¾ƒå™¨è¿›è¡ŒæŽ’åº
+        2:æ²¡æœ‰å¸¦ç´¢å¼•çš„æ–¹æ³•ï¼Œæ‰€ä»¥ä¸èƒ½ä½¿ç”¨æ™®é€šforå¾ªçŽ¯éåŽ†
+        3:ç”±äºŽæ˜¯Seté›†åˆï¼Œæ‰€ä»¥ä¸åŒ…å«é‡å¤å…ƒç´ çš„é›†åˆ
  */
 
 import java.util.TreeSet;
 
-public class ddd082treesetÌØµã {
+public class ddd082treesetç‰¹ç‚¹ {
     public static void main(String[] args) {
         System.out.println("showdemo");
         TreeSet<Integer> x = new TreeSet<>();
-        // ¼¯ºÏÄÚ²¿´æ´¢µÄÊÇÒýÓÃÀàÐÍ
-        // »ù±¾ÀàÐÍ´æ´¢µÄÊ±ºò£¬ÓÃ»ù±¾ÀàµÄ°ü×°ÀàÀàÐÍ
-        // Èç¹û´æÕûÊý£¬¾ÍÓÃintÀàÐÍµÄ°ü×°Ààinteger
+        // é›†åˆå†…éƒ¨å­˜å‚¨çš„æ˜¯å¼•ç”¨ç±»åž‹
+        // åŸºæœ¬ç±»åž‹å­˜å‚¨çš„æ—¶å€™ï¼Œç”¨åŸºæœ¬ç±»çš„åŒ…è£…ç±»ç±»åž‹
+        // å¦‚æžœå­˜æ•´æ•°ï¼Œå°±ç”¨intç±»åž‹çš„åŒ…è£…ç±»integer
         x.add(11);
         x.add(33);
         x.add(22);
         x.add(22);
         for (Integer i : x) {
             System.out.println(i);
-            // ¼´Ê¹ÉÏÃæµ÷»»Ë³Ðò£¬ÕâÀïÒ²»á°´ÕÕ×ÔÈ»ÅÅÐò×ö´¦Àí
-            // Êä³ö½á¹û11-22-33
-            // Êµ¼ÊÒµÎñÖÐ£¬²Ù×÷µÄ²»ÊÇÕâÖÖÀàÐÍ£¬ÊÇ´ø²ÎÊýµÄ¶ÔÏóÀà£¬
-            // Èç¹ûÐèÒª°´ÕÕÖ¸¶¨²ÎÊý½øÐÐ×ÔÈ»ÅÅÐò£¬ÄÇÃ´¾ÍÐèÒª×öÖØÐ´²Ù×÷
+            // å³ä½¿ä¸Šé¢è°ƒæ¢é¡ºåºï¼Œè¿™é‡Œä¹Ÿä¼šæŒ‰ç…§è‡ªç„¶æŽ’åºåšå¤„ç†
+            // è¾“å‡ºç»“æžœ11-22-33
+            // å®žé™…ä¸šåŠ¡ä¸­ï¼Œæ“ä½œçš„ä¸æ˜¯è¿™ç§ç±»åž‹ï¼Œæ˜¯å¸¦å‚æ•°çš„å¯¹è±¡ç±»ï¼Œ
+            // å¦‚æžœéœ€è¦æŒ‰ç…§æŒ‡å®šå‚æ•°è¿›è¡Œè‡ªç„¶æŽ’åºï¼Œé‚£ä¹ˆå°±éœ€è¦åšé‡å†™æ“ä½œ
         }
     }
 }

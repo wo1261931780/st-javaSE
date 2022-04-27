@@ -1,6 +1,6 @@
-package ab¶ş½×¶ÎÇ¿»¯¿Î³Ì2022Äê1ÔÂ11ÈÕ.ccc008Ñ§Éú°¸Àı;
+package abäºŒé˜¶æ®µå¼ºåŒ–è¯¾ç¨‹2022å¹´1æœˆ11æ—¥.ccc008å­¦ç”Ÿæ¡ˆä¾‹;
 
-public class ccc002Ñ§ÉúÀà extends ccc001¸¸Àà {
+public class ccc002å­¦ç”Ÿç±» extends ccc001çˆ¶ç±» {
     private int classnum;
 
     public int getClassnum() {
@@ -12,8 +12,8 @@ public class ccc002Ñ§ÉúÀà extends ccc001¸¸Àà {
     }
 
     public void class_retire() {
-        System.out.println("ÌîĞ´Ìı¿Î·´À¡");
+        System.out.println("å¡«å†™å¬è¯¾åé¦ˆ");
     }
 
-    // ×ÓÀà¿ÉÒÔ¶à²ã¼Ì³Ğ£¬Í¬Ê±±£Áô×Ô¼ºµÄ³ÉÔ±±äÁ¿
+    // å­ç±»å¯ä»¥å¤šå±‚ç»§æ‰¿ï¼ŒåŒæ—¶ä¿ç•™è‡ªå·±çš„æˆå‘˜å˜é‡
 }

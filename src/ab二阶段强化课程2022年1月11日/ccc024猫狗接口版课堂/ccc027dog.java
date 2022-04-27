@@ -1,6 +1,6 @@
-package ab¶ş½×¶ÎÇ¿»¯¿Î³Ì2022Äê1ÔÂ11ÈÕ.ccc024Ã¨¹·½Ó¿Ú°æ¿ÎÌÃ;
+package abäºŒé˜¶æ®µå¼ºåŒ–è¯¾ç¨‹2022å¹´1æœˆ11æ—¥.ccc024çŒ«ç‹—æ¥å£ç‰ˆè¯¾å ‚;
 
-public class ccc027dog extends ccc029animal implements ccc025½Ó¿Ú {//ÕâÀï¿ÉÒÔÍ¬Ê±¼Ì³ĞºÍÊµÏÖ
+public class ccc027dog extends ccc029animal implements ccc025æ¥å£ {//è¿™é‡Œå¯ä»¥åŒæ—¶ç»§æ‰¿å’Œå®ç°
     private int age;
     private String name;
 

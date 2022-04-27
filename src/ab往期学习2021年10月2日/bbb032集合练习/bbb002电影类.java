@@ -1,11 +1,11 @@
-package abÍùÆÚÑ§Ï°2021Äê10ÔÂ2ÈÕ.bbb032¼¯ºÏÁ·Ï°;
+package abå¾€æœŸå­¦ä¹ 2021å¹´10æœˆ2æ—¥.bbb032é›†åˆç»ƒä¹ ;
 
-public class bbb002µçÓ°Àà {
+public class bbb002ç”µå½±ç±» {
     private String name;
     private int score;
     private int price;
 
-    public bbb002µçÓ°Àà() {
+    public bbb002ç”µå½±ç±»() {
     }
 
     public String getName() {
@@ -32,7 +32,7 @@ public class bbb002µçÓ°Àà {
         this.price = price;
     }
 
-    public bbb002µçÓ°Àà(String name, int score, int price) {
+    public bbb002ç”µå½±ç±»(String name, int score, int price) {
         this.name = name;
         this.score = score;
         this.price = price;

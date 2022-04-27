@@ -1,9 +1,9 @@
-package abÍùÆÚÑ§Ï°2021Äê10ÔÂ2ÈÕ.bbb014ÊäÈëĞÕÃûºÍ³É¼¨;
+package abå¾€æœŸå­¦ä¹ 2021å¹´10æœˆ2æ—¥.bbb014è¾“å…¥å§“åå’Œæˆç»©;
 
-public class bbb013b¹Ø¼ü×Ö²âÊÔÀà {
+public class bbb013bå…³é”®å­—æµ‹è¯•ç±» {
     public static void main(String[] args) {
         System.out.println("--------------------");
-        bbb013a¹Ø¼ü×Öprivate x1 = new bbb013a¹Ø¼ü×Öprivate();
+        bbb013aå…³é”®å­—private x1 = new bbb013aå…³é”®å­—private();
         // x1.getAge();
         x1.setAge(1);
         System.out.println(x1.getAge());
@@ -13,7 +13,7 @@ public class bbb013b¹Ø¼ü×Ö²âÊÔÀà {
 
         // x1.setAge(1);
         // x1.getAge();
-        // ¶ÑÄÚ´æºÍÕ»ÄÚ´æµÄÊı¾İĞŞ¸Ä
+        // å †å†…å­˜å’Œæ ˆå†…å­˜çš„æ•°æ®ä¿®æ”¹
 
     }
 }

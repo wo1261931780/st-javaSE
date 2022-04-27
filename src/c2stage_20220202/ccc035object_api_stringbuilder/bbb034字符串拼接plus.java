@@ -1,6 +1,6 @@
 package c2stage_20220202.ccc035object_api_stringbuilder;
 
-public class bbb034×Ö·û´®Æ´½Óplus {
+public class bbb034å­—ç¬¦ä¸²æ‹¼æŽ¥plus {
     public static void main(String[] args) {
         //         int[] arr={1,5,41,32,154,564,654,86};
         //         StringBuilder xx=new StringBuilder("[");
@@ -16,7 +16,7 @@ public class bbb034×Ö·û´®Æ´½Óplus {
         //         System.out.println(xx);
         //         String a=xx.toString();
         //         System.out.println(a);
-        System.out.println("¿ªÊ¼Ö´ÐÐ");
+        System.out.println("å¼€å§‹æ‰§è¡Œ");
         int[] x = {1, 2, 2, 13, 1, 2, 5, 4, 5};
         StringBuilder x1 = new StringBuilder();
         x1.append("[");

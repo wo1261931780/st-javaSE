@@ -1,10 +1,0 @@
-
-Z
-java:S1854"8Remove this useless assignment to local variable "demo".(¸‚éıÿÿÿÿ8•ßš˜ÿ/
-U	java:S106"9Replace this use of System.out or System.err by a logger.(´¯İ³8˜ßš˜ÿ/
-K
-java:S1481")Remove this unused "demo" local variable.(¸‚éıÿÿÿÿ8˜ßš˜ÿ/
-b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(éÅÈØ
-t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÚÜ„ßşÿÿÿÿ
-D
-java:S2189""Add an end condition to this loop.(˜ïˆÿÿÿÿÿ8©ßš˜ÿ/

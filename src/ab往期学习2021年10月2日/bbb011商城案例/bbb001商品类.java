@@ -1,15 +1,15 @@
-package abÍùÆÚÑ§Ï°2021Äê10ÔÂ2ÈÕ.bbb011ÉÌ³Ç°¸Àı;
+package abå¾€æœŸå­¦ä¹ 2021å¹´10æœˆ2æ—¥.bbb011å•†åŸæ¡ˆä¾‹;
 
-public class bbb001ÉÌÆ·Àà {
+public class bbb001å•†å“ç±» {
     String name;
     int price;
     int num;
     int id;
 
-    public bbb001ÉÌÆ·Àà() {
+    public bbb001å•†å“ç±»() {
     }
 
-    public bbb001ÉÌÆ·Àà(String name, int price, int num, int id) {
+    public bbb001å•†å“ç±»(String name, int price, int num, int id) {
         this.name = name;
         this.price = price;
         this.num = num;

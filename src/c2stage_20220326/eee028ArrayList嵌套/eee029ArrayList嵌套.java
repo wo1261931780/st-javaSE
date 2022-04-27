@@ -1,37 +1,37 @@
-package c2stage_20220326.eee028ArrayListÇ¶Ì×;
+package c2stage_20220326.eee028ArrayListåµŒå¥—;
 /*
-    ĞèÇó£º
-        ´´½¨Ò»¸öArrayList¼¯ºÏ£¬´æ´¢Èı¸öÔªËØ£¬Ã¿Ò»¸öÔªËØ¶¼ÊÇHashMap£¬Ã¿Ò»¸öHashMapµÄ¼üºÍÖµ¶¼ÊÇString£¬²¢±éÀú
+    éœ€æ±‚ï¼š
+        åˆ›å»ºä¸€ä¸ªArrayListé›†åˆï¼Œå­˜å‚¨ä¸‰ä¸ªå…ƒç´ ï¼Œæ¯ä¸€ä¸ªå…ƒç´ éƒ½æ˜¯HashMapï¼Œæ¯ä¸€ä¸ªHashMapçš„é”®å’Œå€¼éƒ½æ˜¯Stringï¼Œå¹¶éå†
 
-    Ë¼Â·£º
-        1:´´½¨ArrayList¼¯ºÏ
-        2:´´½¨HashMap¼¯ºÏ£¬²¢Ìí¼Ó¼üÖµ¶ÔÔªËØ
-        3:°ÑHashMap×÷ÎªÔªËØÌí¼Óµ½ArrayList¼¯ºÏ
-        4:±éÀúArrayList¼¯ºÏ
+    æ€è·¯ï¼š
+        1:åˆ›å»ºArrayListé›†åˆ
+        2:åˆ›å»ºHashMapé›†åˆï¼Œå¹¶æ·»åŠ é”®å€¼å¯¹å…ƒç´ 
+        3:æŠŠHashMapä½œä¸ºå…ƒç´ æ·»åŠ åˆ°ArrayListé›†åˆ
+        4:éå†ArrayListé›†åˆ
 
-    ¸ø³öÈçÏÂµÄÊı¾İ:
-        µÚÒ»¸öHashMap¼¯ºÏµÄÔªËØ£º
-  		    Ëï²ß		´óÇÇ
-  		    ÖÜè¤		Ğ¡ÇÇ
-        µÚ¶ş¸öHashMap¼¯ºÏµÄÔªËØ£º
-  		    ¹ù¾¸		»ÆÈØ
-  		    Ñî¹ı		Ğ¡ÁúÅ®
-        µÚÈı¸öHashMap¼¯ºÏµÄÔªËØ£º
-  		    Áîºü³å	ÈÎÓ¯Ó¯
-  		    ÁÖÆ½Ö®	ÔÀÁéÉº
+    ç»™å‡ºå¦‚ä¸‹çš„æ•°æ®:
+        ç¬¬ä¸€ä¸ªHashMapé›†åˆçš„å…ƒç´ ï¼š
+  		    å­™ç­–		å¤§ä¹”
+  		    å‘¨ç‘œ		å°ä¹”
+        ç¬¬äºŒä¸ªHashMapé›†åˆçš„å…ƒç´ ï¼š
+  		    éƒ­é–		é»„è“‰
+  		    æ¨è¿‡		å°é¾™å¥³
+        ç¬¬ä¸‰ä¸ªHashMapé›†åˆçš„å…ƒç´ ï¼š
+  		    ä»¤ç‹å†²	ä»»ç›ˆç›ˆ
+  		    æ—å¹³ä¹‹	å²³çµçŠ
  */
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Set;
 
-public class eee029ArrayListÇ¶Ì× {
+public class eee029ArrayListåµŒå¥— {
     public static void main(String[] args) {
         ArrayList<HashMap<String, String>> x = new ArrayList<>();
         // ArrayList<String> x=new ArrayList<>();
-        // Ïàµ±ÓÚÎÒµÄx£¬¾ÍÊÇÒ»¸öhashmapÀàĞÍµÄ¶ÔÏó
-        // Ò²¾ÍÊÇËµ£¬
-        // ÔÚºóÃæ½øĞĞÈÎÒâaddÃüÁîÊ±£¬ĞÂÔöµÄ¶¼ÊÇhashmap¼¯ºÏ
+        // ç›¸å½“äºæˆ‘çš„xï¼Œå°±æ˜¯ä¸€ä¸ªhashmapç±»å‹çš„å¯¹è±¡
+        // ä¹Ÿå°±æ˜¯è¯´ï¼Œ
+        // åœ¨åé¢è¿›è¡Œä»»æ„addå‘½ä»¤æ—¶ï¼Œæ–°å¢çš„éƒ½æ˜¯hashmapé›†åˆ
 
         HashMap<String, String> x1 = new HashMap<>();
         x1.put("11", "a1");
@@ -46,12 +46,12 @@ public class eee029ArrayListÇ¶Ì× {
         x.add(x2);
         x.add(x3);
         for (HashMap<String, String> x4 : x) {
-            // ÉèÖÃÒ»¸öx4È¥±éÀúxÖĞµÄËùÓĞhashmap
+            // è®¾ç½®ä¸€ä¸ªx4å»éå†xä¸­çš„æ‰€æœ‰hashmap
             Set<String> x5 = x4.keySet();
-            // È»ºóÊ¹ÓÃx5È¥»ñÈ¡x4ÖĞµÄkey¼ü
+            // ç„¶åä½¿ç”¨x5å»è·å–x4ä¸­çš„keyé”®
             for (String q : x5) {
                 System.out.println(x4.get(q));
-                // ¶Ôkey½øĞĞ±éÀú£¬get»ñÈ¡Öµ
+                // å¯¹keyè¿›è¡Œéå†ï¼Œgetè·å–å€¼
             }
         }
 

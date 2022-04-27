@@ -2,13 +2,13 @@ package c2stage_20220202.ccc035object_api_stringbuilder;
 
 import java.util.Scanner;
 
-public class bbb035×Ö·û´®·´×ªplus {
+public class bbb035å­—ç¬¦ä¸²åè½¬plus {
     public static void main(String[] args) {
         Scanner xx = new Scanner(System.in);
-        System.out.println("ÇëÊäÈë×Ö·û´®£º");
+        System.out.println("è¯·è¾“å…¥å­—ç¬¦ä¸²ï¼š");
         String x2 = xx.nextLine();
         String z = fz(x2);
-        //½ÓÊÕ½á¹ûÒ»¶¨ÒªÓĞ£¬²»È»ÎŞ·¨Ö´ĞĞºóÃæµÄsoutÓï¾ä¡£
+        //æ¥æ”¶ç»“æœä¸€å®šè¦æœ‰ï¼Œä¸ç„¶æ— æ³•æ‰§è¡Œåé¢çš„soutè¯­å¥ã€‚
         System.out.println(z);
     }
 
@@ -17,12 +17,12 @@ public class bbb035×Ö·û´®·´×ªplus {
         //        x1.reverse();
         //        x=x1.toString();
         //        return x;
-        //ÏÂÃæÊÇº¯ÊıÊ½±à³Ì
+        //ä¸‹é¢æ˜¯å‡½æ•°å¼ç¼–ç¨‹
         return new StringBuilder(x).reverse().toString();
-        // ÕâÀïÓÃnew StringBuilder(x)ÆäÊµÒ²ÊÇÔìÁËÒ»¸ö¶ÔÏó£¬
-        // ÒòÎª¶ÔÏóÃ»ÓĞÃû×Ö£¬ËùÒÔ³ÆÎªÄäÃû¶ÔÏó
-        // Í¬Ê±£¬¼´Ê¹ÊÇÄäÃû¶ÔÏó£¬Ò²¿ÉÒÔ¶ÔÆäÊ¹ÓÃ·½·¨
-        // ÎªÊ²Ã´Ò»¶¨Òª½«stringbuilder×ª»¯ÎªstringÀàĞÍ£¿2021Äê9ÔÂ18ÈÕ15:42:21
+        // è¿™é‡Œç”¨new StringBuilder(x)å…¶å®ä¹Ÿæ˜¯é€ äº†ä¸€ä¸ªå¯¹è±¡ï¼Œ
+        // å› ä¸ºå¯¹è±¡æ²¡æœ‰åå­—ï¼Œæ‰€ä»¥ç§°ä¸ºåŒ¿åå¯¹è±¡
+        // åŒæ—¶ï¼Œå³ä½¿æ˜¯åŒ¿åå¯¹è±¡ï¼Œä¹Ÿå¯ä»¥å¯¹å…¶ä½¿ç”¨æ–¹æ³•
+        // ä¸ºä»€ä¹ˆä¸€å®šè¦å°†stringbuilderè½¬åŒ–ä¸ºstringç±»å‹ï¼Ÿ2021å¹´9æœˆ18æ—¥15:42:21
 
     }
 }

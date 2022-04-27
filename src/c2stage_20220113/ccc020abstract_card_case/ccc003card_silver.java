@@ -3,6 +3,6 @@ package c2stage_20220113.ccc020abstract_card_case;
 public class ccc003card_silver extends ccc001card {
     @Override
     public void pay(double prices) {
-        System.out.println(getName() + "µÄÒø¿¨£¬µ±Ç°Óà¶î" + getBalance() + "Ïû·Ñ" + prices*0.85 + "Ê£Óà£º" + (getBalance() - prices*0.85));
+        System.out.println(getName() + "çš„é“¶å¡ï¼Œå½“å‰ä½™é¢" + getBalance() + "æ¶ˆè´¹" + prices*0.85 + "å‰©ä½™ï¼š" + (getBalance() - prices*0.85));
     }
 }

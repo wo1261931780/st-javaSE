@@ -5,7 +5,7 @@ package c2stage_20220220.ccc074genericity_impl;
  * Project:index.pb
  * Package:c2stage_20220220.ccc074genericity_impl
  * User:  wo1261931780@gmail.com
- * Time:  2022-02-12-38  –«∆⁄»’
+ * Time:  2022-02-12-38  √ê√á√Ü√ö√à√ï
  */
 public class ccc002student {
     private String name;

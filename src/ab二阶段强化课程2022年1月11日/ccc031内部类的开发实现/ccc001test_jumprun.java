@@ -1,21 +1,21 @@
-package ab¶ş½×¶ÎÇ¿»¯¿Î³Ì2022Äê1ÔÂ11ÈÕ.ccc031ÄÚ²¿ÀàµÄ¿ª·¢ÊµÏÖ;
+package abäºŒé˜¶æ®µå¼ºåŒ–è¯¾ç¨‹2022å¹´1æœˆ11æ—¥.ccc031å†…éƒ¨ç±»çš„å¼€å‘å®ç°;
 
 public class ccc001test_jumprun {
     public static void main(String[] args) {
-        System.out.println("ÎÒÊÇÖ÷Àà£¬Ö´ĞĞ²âÊÔ");
+        System.out.println("æˆ‘æ˜¯ä¸»ç±»ï¼Œæ‰§è¡Œæµ‹è¯•");
         ccc001test_jumpint x = new ccc001test_jumpimp();
         ccc001test_jumpopt x1 = new ccc001test_jumpopt();
         x1.method(x);
         System.out.println("------------------------");
-        System.out.println("ÏÂÃæÊÇÄäÃûÄÚ²¿ÀàµÄ×÷ÓÃ");
+        System.out.println("ä¸‹é¢æ˜¯åŒ¿åå†…éƒ¨ç±»çš„ä½œç”¨");
         x1.method(new ccc001test_jumpint() {
             @Override
             public void jump() {
-                System.out.println("¹·¿ÉÒÔÌø¸ßÁË");
+                System.out.println("ç‹—å¯ä»¥è·³é«˜äº†");
             }
         });
-        // ÕâÀï£¬ÄäÃûÄÚ²¿ÀàÖ±½ÓÌæ´úÁËx¶ÔÏó£¬
-        // ºÃ´¦ÊÇ¼õÉÙÁË½Ó¿ÚÊµÏÖÀàµÄ´´½¨
+        // è¿™é‡Œï¼ŒåŒ¿åå†…éƒ¨ç±»ç›´æ¥æ›¿ä»£äº†xå¯¹è±¡ï¼Œ
+        // å¥½å¤„æ˜¯å‡å°‘äº†æ¥å£å®ç°ç±»çš„åˆ›å»º
 
     }
 }

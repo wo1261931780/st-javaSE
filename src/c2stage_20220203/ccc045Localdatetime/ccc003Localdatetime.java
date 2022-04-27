@@ -6,22 +6,22 @@ import java.time.LocalTime;
 
 public class ccc003Localdatetime {
     public static void main(String[] args) {
-        // ÈÕÆÚ Ê±¼ä
+        // æ—¥æœŸ æ—¶é—´
         LocalDateTime nowDateTime = LocalDateTime.now();
-        System.out.println("½ñÌìÊÇ£º" + nowDateTime);//½ñÌìÊÇ£º
-        System.out.println(nowDateTime.getYear());//Äê
-        System.out.println(nowDateTime.getMonthValue());//ÔÂ
-        System.out.println(nowDateTime.getDayOfMonth());//ÈÕ
-        System.out.println(nowDateTime.getHour());//Ê±
-        System.out.println(nowDateTime.getMinute());//·Ö
-        System.out.println(nowDateTime.getSecond());//Ãë
-        System.out.println(nowDateTime.getNano());//ÄÉÃë
-        //ÈÕ£ºµ±ÄêµÄµÚ¼¸Ìì
-        System.out.println("dayOfYear£º" + nowDateTime.getDayOfYear());//dayOfYear£º249
-        //ÐÇÆÚ
+        System.out.println("ä»Šå¤©æ˜¯ï¼š" + nowDateTime);//ä»Šå¤©æ˜¯ï¼š
+        System.out.println(nowDateTime.getYear());//å¹´
+        System.out.println(nowDateTime.getMonthValue());//æœˆ
+        System.out.println(nowDateTime.getDayOfMonth());//æ—¥
+        System.out.println(nowDateTime.getHour());//æ—¶
+        System.out.println(nowDateTime.getMinute());//åˆ†
+        System.out.println(nowDateTime.getSecond());//ç§’
+        System.out.println(nowDateTime.getNano());//çº³ç§’
+        //æ—¥ï¼šå½“å¹´çš„ç¬¬å‡ å¤©
+        System.out.println("dayOfYearï¼š" + nowDateTime.getDayOfYear());//dayOfYearï¼š249
+        //æ˜ŸæœŸ
         System.out.println(nowDateTime.getDayOfWeek());//THURSDAY
         System.out.println(nowDateTime.getDayOfWeek().getValue());//4
-        //ÔÂ·Ý
+        //æœˆä»½
         System.out.println(nowDateTime.getMonth());//SEPTEMBER
         System.out.println(nowDateTime.getMonth().getValue());//9
 

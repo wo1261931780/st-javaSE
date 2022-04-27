@@ -2,16 +2,16 @@ package c2stage_20220113.ccc010override;
 
 public class ccc001fu {
     /**
-     * ·½·¨Ò²¿ÉÒÔË½ÓĞ»¯
-     * Í¬Ê±£¬Ë½ÓĞµÄ·½·¨ÊÇ²»ÄÜ±»×ÓÀà¼Ì³ĞµÄ
+     * æ–¹æ³•ä¹Ÿå¯ä»¥ç§æœ‰åŒ–
+     * åŒæ—¶ï¼Œç§æœ‰çš„æ–¹æ³•æ˜¯ä¸èƒ½è¢«å­ç±»ç»§æ‰¿çš„
      */
-    private void show() {//´øÓĞprivateµÄ±äÁ¿ÎŞ·¨½øĞĞÖØĞ´²Ù×÷
-        System.out.println("¸¸Ààshow·½·¨-----------");
+    private void show() {//å¸¦æœ‰privateçš„å˜é‡æ— æ³•è¿›è¡Œé‡å†™æ“ä½œ
+        System.out.println("çˆ¶ç±»showæ–¹æ³•-----------");
     }
 
 
     // public void start() {
     void start() {
-        System.out.println("¸¸Ààstart·½·¨++++++++++++++++");
+        System.out.println("çˆ¶ç±»startæ–¹æ³•++++++++++++++++");
     }
 }

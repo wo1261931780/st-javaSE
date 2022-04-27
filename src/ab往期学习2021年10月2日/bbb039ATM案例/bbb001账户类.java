@@ -1,16 +1,16 @@
-package abÍùÆÚÑ§Ï°2021Äê10ÔÂ2ÈÕ.bbb039ATM°¸Àı;
+package abå¾€æœŸå­¦ä¹ 2021å¹´10æœˆ2æ—¥.bbb039ATMæ¡ˆä¾‹;
 
-public class bbb001ÕË»§Àà {
+public class bbb001è´¦æˆ·ç±» {
     private int accountNumber;
     private String accountName;
     private int accountbalance;
     private String accountpassword;
     private int accountcashlimit;
 
-    public bbb001ÕË»§Àà() {
+    public bbb001è´¦æˆ·ç±»() {
     }
 
-    public bbb001ÕË»§Àà(int accountNumber, String accountName, int accountbalance, String accountpassword, int accountcashlimit) {
+    public bbb001è´¦æˆ·ç±»(int accountNumber, String accountName, int accountbalance, String accountpassword, int accountcashlimit) {
         this.accountNumber = accountNumber;
         this.accountName = accountName;
         this.accountbalance = accountbalance;

@@ -1,57 +1,57 @@
-package c2stage_20220302.ddd089³É¼¨ÅÅĞò°¸Àı;
+package c2stage_20220302.ddd089æˆç»©æ’åºæ¡ˆä¾‹;
 
 import java.util.Comparator;
 import java.util.Scanner;
 import java.util.TreeSet;
 
-public class ddd091³É¼¨ÊµÏÖÀà {
+public class ddd091æˆç»©å®ç°ç±» {
     public static void main(String[] args) {
-        System.out.println("¿ªÊ¼ÔËĞĞ");
-        TreeSet<ddd090¶ÔÏóÀà> x = new TreeSet<>(new Comparator<ddd090¶ÔÏóÀà>() {
+        System.out.println("å¼€å§‹è¿è¡Œ");
+        TreeSet<ddd090å¯¹è±¡ç±»> x = new TreeSet<>(new Comparator<ddd090å¯¹è±¡ç±»>() {
             @Override
-            public int compare(ddd090¶ÔÏóÀà o1, ddd090¶ÔÏóÀà o2) {
+            public int compare(ddd090å¯¹è±¡ç±» o1, ddd090å¯¹è±¡ç±» o2) {
                 int num = o1.getTotalscore() - o2.getTotalscore();
                 // System.out.println(o1.getName().compareTo(o2.getName()));
-                // ½âÎöÒ»ÏÂÈıÔªÔËËã·û£º
-                // 1.ÅĞ¶ÏnumÊÇ·ñÎª0£¬Ò²¾ÍÊÇ·ÖÊıÊÇ·ñÏàÍ¬
-                // ÏàÍ¬µÄÇé¿öÏÂ£¬½á¹ûÎªtrue£¬Ö´ĞĞo1.getName().compareTo(o2.getName())
-                // 2.o1.getName().compareTo(o2.getName())ÅĞ¶ÏĞÕÃûÊÇ·ñÏàÍ¬
-                // ÏàÍ¬Ôò·µ»Ø0£¬·ñÔò·µ»ØÆäËûÊı¾İ£¬ÆäËûÊı¾İ¾Í±íÊ¾»áÌí¼Óµ½Êı×éÖĞ
-                // 3.Èç¹û·ÖÊı²»ÏàÍ¬£¬¾ÍÖ±½Ó·µ»Ø¶şÕßµÄ·ÖÊı²îÖµnum£¬È»ºóÖ±½ÓÌí¼Ó¶ÔÏó
+                // è§£æä¸€ä¸‹ä¸‰å…ƒè¿ç®—ç¬¦ï¼š
+                // 1.åˆ¤æ–­numæ˜¯å¦ä¸º0ï¼Œä¹Ÿå°±æ˜¯åˆ†æ•°æ˜¯å¦ç›¸åŒ
+                // ç›¸åŒçš„æƒ…å†µä¸‹ï¼Œç»“æœä¸ºtrueï¼Œæ‰§è¡Œo1.getName().compareTo(o2.getName())
+                // 2.o1.getName().compareTo(o2.getName())åˆ¤æ–­å§“åæ˜¯å¦ç›¸åŒ
+                // ç›¸åŒåˆ™è¿”å›0ï¼Œå¦åˆ™è¿”å›å…¶ä»–æ•°æ®ï¼Œå…¶ä»–æ•°æ®å°±è¡¨ç¤ºä¼šæ·»åŠ åˆ°æ•°ç»„ä¸­
+                // 3.å¦‚æœåˆ†æ•°ä¸ç›¸åŒï¼Œå°±ç›´æ¥è¿”å›äºŒè€…çš„åˆ†æ•°å·®å€¼numï¼Œç„¶åç›´æ¥æ·»åŠ å¯¹è±¡
                 int num2 = num == 0 ? o1.getYwscore() - o2.getYwscore() : num;
                 int num3 = num == 0 ? o1.getName().compareTo(o2.getName()) : num2;
-                // ÕâÀïµÄÑ¡Ôñ¹ı³ÌÊÇ£º
-                // 1.ÏÈ¿´×Ü³É¼¨ÊÇ·ñÏàÍ¬£¬
-                // 2.¿´ÓïÎÄ³É¼¨ÊÇ·ñÏàÍ¬£¬È¥³ıÏàÍ¬³É¼¨
-                // 3.¿´ĞÕÃûÊÇ·ñÏàÍ¬£¬È¥³ıÏàÍ¬ÈËÔ±
+                // è¿™é‡Œçš„é€‰æ‹©è¿‡ç¨‹æ˜¯ï¼š
+                // 1.å…ˆçœ‹æ€»æˆç»©æ˜¯å¦ç›¸åŒï¼Œ
+                // 2.çœ‹è¯­æ–‡æˆç»©æ˜¯å¦ç›¸åŒï¼Œå»é™¤ç›¸åŒæˆç»©
+                // 3.çœ‹å§“åæ˜¯å¦ç›¸åŒï¼Œå»é™¤ç›¸åŒäººå‘˜
                 return num3;
                 // int compareTo(T o)
-                // ½«´Ë¶ÔÏóÓëÖ¸¶¨µÄ¶ÔÏó½øĞĞ±È½ÏÒÔ½øĞĞÅÅĞò¡£ ·µ»ØÒ»¸ö¸ºÕûÊı£¬Áã»òÕıÕûÊı£¬ÒòÎª¸Ã¶ÔÏóĞ¡ÓÚ£¬µÈÓÚ»ò´óÓÚÖ¸¶¨¶ÔÏó¡£
+                // å°†æ­¤å¯¹è±¡ä¸æŒ‡å®šçš„å¯¹è±¡è¿›è¡Œæ¯”è¾ƒä»¥è¿›è¡Œæ’åºã€‚ è¿”å›ä¸€ä¸ªè´Ÿæ•´æ•°ï¼Œé›¶æˆ–æ­£æ•´æ•°ï¼Œå› ä¸ºè¯¥å¯¹è±¡å°äºï¼Œç­‰äºæˆ–å¤§äºæŒ‡å®šå¯¹è±¡ã€‚
             }
-            // Ê¹ÓÃ±È½ÏÆ÷ÅÅĞò£¬¾ÍĞèÒª±È½ÏÆ÷½Ó¿ÚµÄÊµÏÖÀà¶ÔÏó
+            // ä½¿ç”¨æ¯”è¾ƒå™¨æ’åºï¼Œå°±éœ€è¦æ¯”è¾ƒå™¨æ¥å£çš„å®ç°ç±»å¯¹è±¡
         });
-        ddd090¶ÔÏóÀà x1 = addst();
-        ddd090¶ÔÏóÀà x2 = addst();
-        ddd090¶ÔÏóÀà x3 = addst();
+        ddd090å¯¹è±¡ç±» x1 = addst();
+        ddd090å¯¹è±¡ç±» x2 = addst();
+        ddd090å¯¹è±¡ç±» x3 = addst();
         x.add(x1);
         x.add(x2);
         x.add(x3);
-        for (ddd090¶ÔÏóÀà i : x) {
-            System.out.println("Í¬Ñ§£º" + i.getName() + ",×Ü³É¼¨Îª£º" + i.getTotalscore() + "£¬ÓïÎÄ³É¼¨£º" + i.getYwscore() + "£¬ÊıÑ§³É¼¨£º" + i.getMathscore());
+        for (ddd090å¯¹è±¡ç±» i : x) {
+            System.out.println("åŒå­¦ï¼š" + i.getName() + ",æ€»æˆç»©ä¸ºï¼š" + i.getTotalscore() + "ï¼Œè¯­æ–‡æˆç»©ï¼š" + i.getYwscore() + "ï¼Œæ•°å­¦æˆç»©ï¼š" + i.getMathscore());
         }
-        // ddd090¶ÔÏóÀà x1 = new ddd090¶ÔÏóÀà("a1", 98, 99, 197);
+        // ddd090å¯¹è±¡ç±» x1 = new ddd090å¯¹è±¡ç±»("a1", 98, 99, 197);
     }
 
-    public static ddd090¶ÔÏóÀà addst() {
+    public static ddd090å¯¹è±¡ç±» addst() {
         Scanner x = new Scanner(System.in);
-        ddd090¶ÔÏóÀà x1 = new ddd090¶ÔÏóÀà();
-        System.out.println("ÇëÊäÈëĞÕÃû");
+        ddd090å¯¹è±¡ç±» x1 = new ddd090å¯¹è±¡ç±»();
+        System.out.println("è¯·è¾“å…¥å§“å");
         String x2 = x.nextLine();
         x1.setName(x2);
-        System.out.println("ÇëÊäÈëÓïÎÄ³É¼¨");
+        System.out.println("è¯·è¾“å…¥è¯­æ–‡æˆç»©");
         int x3 = x.nextInt();
         x1.setYwscore(x3);
-        System.out.println("ÇëÊäÈëÊıÑ§³É¼¨");
+        System.out.println("è¯·è¾“å…¥æ•°å­¦æˆç»©");
         int x4 = x.nextInt();
         x1.setMathscore(x4);
         x1.setTotalscore(x1.getYwscore() + x1.getMathscore());

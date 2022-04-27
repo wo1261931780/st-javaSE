@@ -8,7 +8,7 @@ import java.util.Arrays;
  * Project:index.pb
  * Package:c2stage_20220302.demo
  * User:  wo1261931780@gmail.com
- * Time:  2022-03-18-44  ĞÇÆÚËÄ
+ * Time:  2022-03-18-44  æ˜ŸæœŸå››
  */
 public class ccc002 {
     public static void main(String[] args) {
@@ -25,11 +25,11 @@ public class ccc002 {
     }
 
     public static int show1(int[] x) {
-        // 1.ÔªËØ¸öÊı
-        // 2.¹ÉÆ±¼Û¸ñ
-        // 3.Ó¯Àû¼ÆËã
-        // 4.ÊÖĞø·Ñ¼ÆËã
-        // 5.·µ»Ø½á¹û
+        // 1.å…ƒç´ ä¸ªæ•°
+        // 2.è‚¡ç¥¨ä»·æ ¼
+        // 3.ç›ˆåˆ©è®¡ç®—
+        // 4.æ‰‹ç»­è´¹è®¡ç®—
+        // 5.è¿”å›ç»“æœ
 
         if (x.length > 2) {
             // int start=0;
@@ -55,9 +55,9 @@ public class ccc002 {
     }
 
     public static int show2(int x) {
-        // 1.¾ø¶ÔÖµ´¦Àí
-        // 2.Ïà¼Ó£¬·µ»Ø½á¹û
-        // 3.¼ÌĞøÏà¼Ó
+        // 1.ç»å¯¹å€¼å¤„ç†
+        // 2.ç›¸åŠ ï¼Œè¿”å›ç»“æœ
+        // 3.ç»§ç»­ç›¸åŠ 
         // if (x - 2 < 0) {
         //     x = 2;
         // } else {
@@ -80,10 +80,10 @@ public class ccc002 {
     }
 
     public static void show3(int x) {
-        // 1.»ñÈ¡¾ø¶ÔÖµ
-        // 2.¼ÆËã½×³Ë
-        // 3.¼ÆËãÔ¼Êı
-        // 4.´æÈëÊı×é
+        // 1.è·å–ç»å¯¹å€¼
+        // 2.è®¡ç®—é˜¶ä¹˜
+        // 3.è®¡ç®—çº¦æ•°
+        // 4.å­˜å…¥æ•°ç»„
         int num = 1;
         for (int i = 1; i <= x; i++) {
             num *= i;

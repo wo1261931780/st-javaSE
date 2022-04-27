@@ -1,10 +1,10 @@
 package c2stage_20220220.ccc070genericity;
 
-public class eee001·ºĞÍ·½·¨<T> {
+public class eee001æ³›å‹æ–¹æ³•<T> {
     public void show(String x) {
         System.out.println(x);
     }
-    // ·½·¨ÃûÏàÍ¬£¬·½·¨²»Í¬£¬³ÆÎª·½·¨ÖØÔØ
+    // æ–¹æ³•åç›¸åŒï¼Œæ–¹æ³•ä¸åŒï¼Œç§°ä¸ºæ–¹æ³•é‡è½½
 
     public void show(Integer x) {
         System.out.println(x);
@@ -19,11 +19,11 @@ public class eee001·ºĞÍ·½·¨<T> {
     // }
 
     /**
-     * ±ØĞëÉèÖÃÎª·Çstatic·½·¨²Å¿ÉÒÔÔËĞĞ
-     * Èç¹ûÊ¹ÓÃÁËstaticĞŞÊÎ£¬ÄÇÃ´¿ÉÒÔÔÚ²»´´½¨¶ÔÏóµÄÇé¿öÏÂÔËĞĞ
+     * å¿…é¡»è®¾ç½®ä¸ºéstaticæ–¹æ³•æ‰å¯ä»¥è¿è¡Œ
+     * å¦‚æœä½¿ç”¨äº†staticä¿®é¥°ï¼Œé‚£ä¹ˆå¯ä»¥åœ¨ä¸åˆ›å»ºå¯¹è±¡çš„æƒ…å†µä¸‹è¿è¡Œ
      */
     public <T> void show(T x) {
-        // ÕâÀï¾ÍÊÇ·ºĞÍ·½·¨
+        // è¿™é‡Œå°±æ˜¯æ³›å‹æ–¹æ³•
         System.out.println(x);
     }
 }

@@ -7,11 +7,11 @@ public class ccc002instance {
     public static final int MOVE_DOWN = 2;
     public static final int MOVE_LEFT = 3;
     public static final int MOVE_RIGHT = 4;
-    // Ê¹ÓÃ³£Á¿£¬ÊµÏÖÊäÈëºÍÊä³öµÄ°´¼üÓ³Éä
+    // ä½¿ç”¨å¸¸é‡ï¼Œå®ç°è¾“å…¥å’Œè¾“å‡ºçš„æŒ‰é”®æ˜ å°„
 
     public static void main(String[] args) {
         Scanner x=new Scanner(System.in);
-        System.out.println("ÊäÈë");
+        System.out.println("è¾“å…¥");
         int xx = x.nextInt();
         show(xx);
     }
