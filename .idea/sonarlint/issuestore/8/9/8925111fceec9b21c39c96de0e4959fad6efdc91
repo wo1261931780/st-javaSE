@@ -1,12 +1,0 @@
-
-b	java:S101
-"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(éÅÈØ
-g	java:S101 "MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(àÈöÌùÿÿÿÿ
-t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ôüÉıÿÿÿÿ
-V	java:S125"<This block of commented-out lines of code should be removed.(ñ™ ‘ùÿÿÿÿ
-N	java:S106"9Replace this use of System.out or System.err by a logger.(÷ÿ—‚
-N	java:S106"9Replace this use of System.out or System.err by a logger.(¤­î
-v
-java:S1217"`Call the method Thread.start() to execute the content of the run() method in a dedicated thread.(½ğĞ®
-V	java:S125"<This block of commented-out lines of code should be removed.(ñ™ ‘ùÿÿÿÿ
-S	java:S106$"9Replace this use of System.out or System.err by a logger.(ÉÏËİøÿÿÿÿ

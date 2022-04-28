@@ -25,6 +25,8 @@ public class ccc002 {
             public void run() {
                 System.out.println("我是匿名内部类");
             }
+            // 主要原因是run方法为void，没有返回值，所以不能拿到结果
+            // 简单来说，只有执行的功能
         });
         x1.start();
     }

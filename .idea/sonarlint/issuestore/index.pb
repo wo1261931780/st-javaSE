@@ -253,10 +253,6 @@ a
 1src/c2stage_20220418/ccc143properties/ccc001.java,e\a\ea79f4cc58245e74b28a45b013dcc50636b32640
 e
 5src/c2stage_20220418/ccc144IO_constructor/ccc001.java,3\a\3ad0ad480395ae3da8d5de86eb12414d96000ccd
-e
-5src/c2stage_20220421/ccc145thread_extends/ccc001.java,8\9\8925111fceec9b21c39c96de0e4959fad6efdc91
-f
-6src/c2stage_20220421/ccc146thread_runnable/ccc001.java,5\a\5aab0630136b7a55ae71329babc7166b0d1d49f9
 _
 /src/c2stage_20220421/ccc148analysis/ccc001.java,b\6\b6eada577ecd252a30f1bc6b6e4d4ef2d98a3a7e
 h
@@ -447,8 +443,6 @@ h
 0src/c2stage_20220416/ccc134file_read/ccc002.java,b\8\b87a324b2523c9b41677a2098ec48905561a0bf1
 a
 1src/c2stage_20220418/ccc143properties/ccc002.java,b\3\b37fbb80d4a392115dbf59d1cdbdd4bbbbd7eebe
-f
-6src/c2stage_20220421/ccc146thread_runnable/ccc002.java,f\4\f400f7c185c8889a5618329ee62e51ebac2f07c5
 h
 8src/leetcode/eee002deke_code/aaa003_20220304/ccc002.java,9\7\97e2267f00f5dde6bd1ebe8c4c13e44e7d19bf04
 h
@@ -555,8 +549,6 @@ l
 Ksrc/c2stage_20220113/ccc006单例设计模式/ccc002饿汉设计模式.java,8\4\84e97b54527bf9c78e83b89ebdfd045cc1b67f4c
 `
 0src/c2stage_20220302/ccc082interview/ccc003.java,1\b\1b6d7289bac677a5723b0836d02c557f3446bf00
-f
-6src/c2stage_20220421/ccc146thread_runnable/ccc003.java,9\f\9f6f36dd4549ad79b71b7186c8d61dda7b5e44a4
 h
 8src/leetcode/eee002deke_code/aaa003_20220304/ccc003.java,8\1\81b28e15247f8a7c8e460ff8942ca861a6ae8f5d
 h
