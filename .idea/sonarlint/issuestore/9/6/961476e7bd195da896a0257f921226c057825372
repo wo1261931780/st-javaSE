@@ -1,0 +1,22 @@
+
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(¦ÜÜªúÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¦ÿ¼Ò
+S	java:S106	"9Replace this use of System.out or System.err by a logger.(Æì° úÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(³ÕÔ¥
+N	java:S106"9Replace this use of System.out or System.err by a logger.(»šğ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Æì° úÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ø´é
+S	java:S106 "9Replace this use of System.out or System.err by a logger.(Ç¢‹îşÿÿÿÿ
+Q	java:S125"<This block of commented-out lines of code should be removed.(æıƒ»
+V	java:S125&"<This block of commented-out lines of code should be removed.(ö¹°…ÿÿÿÿÿ
+V	java:S125+"<This block of commented-out lines of code should be removed.(’µñ¬ûÿÿÿÿ
+S	java:S106-"9Replace this use of System.out or System.err by a logger.(ì‡àÖüÿÿÿÿ
+V	java:S125."<This block of commented-out lines of code should be removed.(ŒêÁïÿÿÿÿÿ
+Q	java:S1256"<This block of commented-out lines of code should be removed.(‚èü
+Q
+java:S1119<";Refactor the code to remove this label and the need for it.(öÍå¸
+S	java:S106?"9Replace this use of System.out or System.err by a logger.(©àãûüÿÿÿÿ
+S	java:S106A"9Replace this use of System.out or System.err by a logger.(™‹Ò¹ÿÿÿÿÿ
+Q	java:S125E"<This block of commented-out lines of code should be removed.(Ñıª®
+N	java:S106G"9Replace this use of System.out or System.err by a logger.(öØÈ¢
+M	java:S106I"9Replace this use of System.out or System.err by a logger.(áÃø

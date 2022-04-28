@@ -1,0 +1,12 @@
+
+m	java:S127$"XRefactor the code in order to not assign to this loop counter from within the loop body.(‰·áü
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Þ©Â×øÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¦ÿ¼Ò
+S	java:S106
+"9Replace this use of System.out or System.err by a logger.(Æì° úÿÿÿÿ
+P	java:S125"<This block of commented-out lines of code should be removed.(·´÷
+Q	java:S125"<This block of commented-out lines of code should be removed.(ùÿ°Ù
+B
+java:S1125""'Remove the unnecessary boolean literal.(º”÷÷þÿÿÿÿ
+S	java:S106#"9Replace this use of System.out or System.err by a logger.(´‹¹öþÿÿÿÿ
+N	java:S106$"9Replace this use of System.out or System.err by a logger.(‰·áü

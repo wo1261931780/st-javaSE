@@ -1,0 +1,13 @@
+
+b	java:S101
+"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Í‡ö¨
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(©¡Ôªûÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Ëéÿ˜ùÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(Ñ™÷õ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(’‡ò—
+O
+java:S2130"9Use "Integer.parseInt" for this string-to-int conversion.(¡ÑÓ—
+=
+java:S1481"'Remove this unused "x6" local variable.(¡ÑÓ—
+=
+java:S1481"'Remove this unused "x7" local variable.(˜µø

@@ -1,0 +1,15 @@
+
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ï¸ä
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÔØÏûøÿÿÿÿ
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(±àüÖüÿÿÿÿ
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(‹˜ÃÇüÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ª¿‚…øÿÿÿÿ
+N	java:S106
+"9Replace this use of System.out or System.err by a logger.(—ÅÍ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(Å«±º
+S	java:S106"9Replace this use of System.out or System.err by a logger.(×½ÿªÿÿÿÿÿ
+V	java:S125"<This block of commented-out lines of code should be removed.(è›Èÿÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ç´Âœûÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(à™¤¡ıÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ºçãıÿÿÿÿ
+N	java:S106 "9Replace this use of System.out or System.err by a logger.(š»›Ã

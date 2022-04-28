@@ -1,0 +1,16 @@
+
+g	java:S1018"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ŠÔ€ùûÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ó˜ ğÿÿÿÿÿ
+Y
+java:S3518Q"CMake sure this expression can't be zero before doing this division.(Š³ ©
+—
+java:S11869"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Çµí‘
+N	java:S106?"9Replace this use of System.out or System.err by a logger.(ƒ¶û­
+S	java:S106@"9Replace this use of System.out or System.err by a logger.(ûÙµÛşÿÿÿÿ
+S	java:S106A"9Replace this use of System.out or System.err by a logger.(æ¡äİÿÿÿÿÿ
+S	java:S106G"9Replace this use of System.out or System.err by a logger.(½‹ ıÿÿÿÿ
+=
+java:S1481M"'Remove this unused "x2" local variable.(¾ê©
+<
+java:S1481Q"&Remove this unused "x" local variable.(Š³ ©
+N	java:S106T"9Replace this use of System.out or System.err by a logger.(Øåá§

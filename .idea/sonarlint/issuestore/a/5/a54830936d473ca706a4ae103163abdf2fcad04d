@@ -1,0 +1,16 @@
+
+x
+java:S1319"bThe type of "xx" should be an interface such as "List" rather than the implementation "ArrayList".(‹Ò£ã
+|
+java:S1319("aThe type of "x" should be an interface such as "List" rather than the implementation "ArrayList".(€¾³’şÿÿÿÿ
+|
+java:S1319/"aThe type of "x" should be an interface such as "List" rather than the implementation "ArrayList".(õ¬ü®ıÿÿÿÿ
+a	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(’ÂÊU
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(­½Ö›
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(¬¶Ê€
+N	java:S106!"9Replace this use of System.out or System.err by a logger.(„ùÛË
+N	java:S106#"9Replace this use of System.out or System.err by a logger.(ğ ¿
+N	java:S106)"9Replace this use of System.out or System.err by a logger.(¸õä¢
+S	java:S106+"9Replace this use of System.out or System.err by a logger.(®ííèúÿÿÿÿ
+S	java:S1064"9Replace this use of System.out or System.err by a logger.(®ííèúÿÿÿÿ

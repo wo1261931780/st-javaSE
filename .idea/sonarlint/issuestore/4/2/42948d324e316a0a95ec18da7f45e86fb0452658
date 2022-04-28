@@ -1,0 +1,13 @@
+
+>
+java:S1604*"(Make this anonymous inner class a lambda(®Èèú
+a	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(žÌÕd
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(‰Øì‘
+d
+java:S3824."OReplace this "Map.get()" and condition with a call to "Map.computeIfPresent()".(Èžæ:
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ÓÁ’ù
+S	java:S106"9Replace this use of System.out or System.err by a logger.(¬±÷³øÿÿÿÿ
+c	java:S100("NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‘þó‡
+V	java:S125)"<This block of commented-out lines of code should be removed.(ŸÕ™¿üÿÿÿÿ
+M	java:S106-"9Replace this use of System.out or System.err by a logger.(÷åæQ
+N	java:S1065"9Replace this use of System.out or System.err by a logger.(ŠãÇú

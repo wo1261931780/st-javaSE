@@ -1,0 +1,66 @@
+
+€
+java:S1319*"eThe type of "ceshi" should be an interface such as "List" rather than the implementation "ArrayList".(³Â²¥ÿÿÿÿÿ
+{
+java:S13197"eThe type of "ceshi" should be an interface such as "List" rather than the implementation "ArrayList".(È›¼ú
+{
+java:S1319T"eThe type of "ceshi" should be an interface such as "List" rather than the implementation "ArrayList".(Íàé„
+€
+java:S1319c"eThe type of "ceshi" should be an interface such as "List" rather than the implementation "ArrayList".(ß§úªûÿÿÿÿ
+{
+java:S1319t"eThe type of "ceshi" should be an interface such as "List" rather than the implementation "ArrayList".(¸Ÿã‹
+|
+java:S1319’"eThe type of "ceshi" should be an interface such as "List" rather than the implementation "ArrayList".(è¬‚
+b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(¥–Ò°
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ñ™ˆ“
+=
+java:S1481	"'Remove this unused "cs" local variable.(»î†á
+@
+java:S1481"*Remove this unused "cishu" local variable.(ùæû
+S	java:S106 "9Replace this use of System.out or System.err by a logger.(ÚÑí¼ÿÿÿÿÿ
+S	java:S106#"9Replace this use of System.out or System.err by a logger.(çÜ¡ùÿÿÿÿ
+N	java:S106'"9Replace this use of System.out or System.err by a logger.(Úíş‡
+G
+java:S1172*",Remove this unused method parameter "ceshi".(³Â²¥ÿÿÿÿÿ
+@
+java:S1481+"*Remove this unused "shuru" local variable.(©¹ûŒ
+S	java:S106,"9Replace this use of System.out or System.err by a logger.(Œ¦©İúÿÿÿÿ
+S	java:S106-"9Replace this use of System.out or System.err by a logger.(ÿ‡üïüÿÿÿÿ
+N	java:S106."9Replace this use of System.out or System.err by a logger.(–ĞÇ†
+S	java:S106/"9Replace this use of System.out or System.err by a logger.(àÏö£ùÿÿÿÿ
+N	java:S1060"9Replace this use of System.out or System.err by a logger.(ûŠìº
+M	java:S1061"9Replace this use of System.out or System.err by a logger.(öïÖk
+S	java:S1062"9Replace this use of System.out or System.err by a logger.(£ó˜ıÿÿÿÿ
+P	java:S1253"<This block of commented-out lines of code should be removed.(ÖÍ@
+N	java:S106<"9Replace this use of System.out or System.err by a logger.(áÀ¡
+S	java:S106@"9Replace this use of System.out or System.err by a logger.(É“æıÿÿÿÿ
+S	java:S106G"9Replace this use of System.out or System.err by a logger.(ªºûşÿÿÿÿ
+S	java:S106I"9Replace this use of System.out or System.err by a logger.(¡šµ¸ıÿÿÿÿ
+S	java:S106K"9Replace this use of System.out or System.err by a logger.(’Î¯–úÿÿÿÿ
+P	java:S125N"<This block of commented-out lines of code should be removed.(šºÖ
+S	java:S106P"9Replace this use of System.out or System.err by a logger.(ğÌ†¦øÿÿÿÿ
+S	java:S106Q"9Replace this use of System.out or System.err by a logger.(Ê¶àŠüÿÿÿÿ
+N	java:S106Y"9Replace this use of System.out or System.err by a logger.(íÔğ²
+>	java:S108\")Either remove or fill this block of code.(å¥‡
+N	java:S106e"9Replace this use of System.out or System.err by a logger.(›»¢ü
+S	java:S106j"9Replace this use of System.out or System.err by a logger.(ªØØñüÿÿÿÿ
+N	java:S106m"9Replace this use of System.out or System.err by a logger.(Í‘‹Ú
+N	java:S106p"9Replace this use of System.out or System.err by a logger.(õ»‰÷
+P	java:S125s"<This block of commented-out lines of code should be removed.(„¹ã&
+N	java:S106v"9Replace this use of System.out or System.err by a logger.(°›¼¶
+S	java:S106y"9Replace this use of System.out or System.err by a logger.(ÁÛ”Äøÿÿÿÿ
+N	java:S106|"9Replace this use of System.out or System.err by a logger.(£Œò
+S	java:S106}"9Replace this use of System.out or System.err by a logger.(ˆíçûşÿÿÿÿ
+N	java:S106€"9Replace this use of System.out or System.err by a logger.(…·ÍN
+O	java:S106ƒ"9Replace this use of System.out or System.err by a logger.(×Å‘ï
+T	java:S106†"9Replace this use of System.out or System.err by a logger.(ªŞÜ¾ıÿÿÿÿ
+O	java:S106‹"9Replace this use of System.out or System.err by a logger.(Í‘‹Ú
+T	java:S106"9Replace this use of System.out or System.err by a logger.(Ÿ©é£úÿÿÿÿ
+A
+java:S1481“"*Remove this unused "shuru" local variable.(©¹ûŒ
+W	java:S125”"<This block of commented-out lines of code should be removed.(Œ®¥ãûÿÿÿÿ
+Z
+java:S1155•">Use isEmpty() to check whether the collection is empty or not.(À™õüÿÿÿÿ
+T	java:S106—"9Replace this use of System.out or System.err by a logger.(ÁÛ”Äøÿÿÿÿ
+T	java:S106™"9Replace this use of System.out or System.err by a logger.(Œ€ßıÿÿÿÿ
+O	java:S106œ"9Replace this use of System.out or System.err by a logger.(´ñ’•

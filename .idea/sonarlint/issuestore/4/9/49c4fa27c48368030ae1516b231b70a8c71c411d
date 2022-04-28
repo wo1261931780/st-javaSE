@@ -1,0 +1,10 @@
+
+h
+java:S1104"SMake college a static final constant or non-public and provide accessors if needed.(›û_
+e
+java:S1104"OMake age a static final constant or non-public and provide accessors if needed.(†ï†Å
+B
+java:S1444"-Make this "public static college" field final(›û_
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(éÑÄÈüÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ã›°ÿÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(Ù§Ÿÿ

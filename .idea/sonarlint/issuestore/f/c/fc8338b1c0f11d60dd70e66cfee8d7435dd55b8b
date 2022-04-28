@@ -1,0 +1,16 @@
+
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(úüİùÿÿÿÿ
+n	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ñªæq
+h
+java:S2095	"RUse try-with-resources or close this "BufferedOutputStream" in a "finally" clause.(ß¸É£
+l
+java:S2095""QUse try-with-resources or close this "BufferedInputStream" in a "finally" clause.(®¾®´ûÿÿÿÿ
+\
+java:S1075"ARefactor your code to get this URI from a customizable parameter.(ˆ–çğûÿÿÿÿ
+Q	java:S125"<This block of commented-out lines of code should be removed.(àæı£
+V	java:S125"<This block of commented-out lines of code should be removed.(È¿›§ùÿÿÿÿ
+S	java:S106 "9Replace this use of System.out or System.err by a logger.(ÀÏ°ıÿÿÿÿ
+V	java:S125"<This block of commented-out lines of code should be removed.(œÃææøÿÿÿÿ
+S	java:S106%"9Replace this use of System.out or System.err by a logger.(ÇÃ§åşÿÿÿÿ
+S	java:S106'"9Replace this use of System.out or System.err by a logger.(ÀÏ°ıÿÿÿÿ
+N	java:S106/"9Replace this use of System.out or System.err by a logger.(Ã°³

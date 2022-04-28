@@ -1,0 +1,28 @@
+
+\
+java:S1192"FDefine a constant instead of duplicating this literal "*****" 3 times.(Íºíã
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(‹–ÈÄûÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¦ÿ¼Ò
+œ
+java:S1186""€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ú›¥Ëıÿÿÿÿ
+—
+java:S1186&"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(§âæÆ
+—
+java:S1186*"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(û»…
+—
+java:S1186."€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ò¥¹
+œ
+java:S11863"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(á€óøÿÿÿÿ
+œ
+java:S1186:"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(õğï‰úÿÿÿÿ
+i
+java:S1845:"NRename method "OPEN" to prevent any misunderstanding/clash with method "open".(õğï‰úÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(Íºíã
+N	java:S106"9Replace this use of System.out or System.err by a logger.(Íºíã
+N	java:S106
+"9Replace this use of System.out or System.err by a logger.(Íºíã
+V	java:S125"<This block of commented-out lines of code should be removed.(ÍåÖşÿÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ŸØôŠ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(©ºœ–
+h	java:S100:"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(õğï‰úÿÿÿÿ
+V	java:S1257"<This block of commented-out lines of code should be removed.(Íì‘ıÿÿÿÿ

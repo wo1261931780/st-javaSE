@@ -1,0 +1,7 @@
+
+l	java:S1278"XRefactor the code in order to not assign to this loop counter from within the loop body.(¨…ÄK
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Ò»Õûûÿÿÿÿ
+W
+java:S49735"<Strings and Boxed types should be compared using "equals()".(µëàýÿÿÿÿ
+S	java:S106("9Replace this use of System.out or System.err by a logger.(óŠÕÎÿÿÿÿÿ
+N	java:S106="9Replace this use of System.out or System.err by a logger.(å¢×á

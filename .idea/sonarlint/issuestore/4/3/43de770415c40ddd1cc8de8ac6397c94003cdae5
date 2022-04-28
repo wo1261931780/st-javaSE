@@ -1,0 +1,15 @@
+
+g	java:S101	"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(±³Ú³þÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¦ÿ¼Ò
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Ì™áýûÿÿÿÿ
+V	java:S125"<This block of commented-out lines of code should be removed.(¶¾ó”úÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Æì° úÿÿÿÿ
+P	java:S125"<This block of commented-out lines of code should be removed.(À²ÎS
+4
+java:S2119"Save and re-use this "Random".(²œêú
+Q	java:S125"<This block of commented-out lines of code should be removed.(óäŠß
+N	java:S106#"9Replace this use of System.out or System.err by a logger.(¨ˆÍå
+S	java:S106%"9Replace this use of System.out or System.err by a logger.(Ë™ŒÙüÿÿÿÿ
+t
+java:S3012,"YUse "Arrays.copyOf", "Arrays.asList", "Collections.addAll" or "System.arraycopy" instead.(þ…®íúÿÿÿÿ
+S	java:S106."9Replace this use of System.out or System.err by a logger.(ã…úåøÿÿÿÿ

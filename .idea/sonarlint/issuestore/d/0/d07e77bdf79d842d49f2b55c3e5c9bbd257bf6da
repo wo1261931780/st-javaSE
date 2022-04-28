@@ -1,0 +1,9 @@
+
+g	java:S101
+"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(é–íòýÿÿÿÿ
+Q
+java:S1610
+"6Convert the abstract class "ccc002" into an interface.(é–íòýÿÿÿÿ
+]
+java:S2094
+"BRemove this empty class, write its code or make it an "interface".(é–íòýÿÿÿÿ

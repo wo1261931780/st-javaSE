@@ -1,0 +1,24 @@
+
+b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(“Ë×Ù
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¦ÿ¼Ò
+M
+java:S2589Q"7Remove this expression which always evaluates to "true"(¯úŸõ
+V	java:S125"<This block of commented-out lines of code should be removed.(èøÉ›ùÿÿÿÿ
+C
+java:S1481"(Remove this unused "xx2" local variable.(ê©óÊùÿÿÿÿ
+S	java:S106!"9Replace this use of System.out or System.err by a logger.(¤È£µýÿÿÿÿ
+=
+java:S1481#"'Remove this unused "xs" local variable.(¢ÏÕ
+V	java:S125$"<This block of commented-out lines of code should be removed.(µ·ûÝþÿÿÿÿ
+N	java:S106&"9Replace this use of System.out or System.err by a logger.(´“¸Á
+N	java:S106("9Replace this use of System.out or System.err by a logger.(º¨ã³
+N	java:S106*"9Replace this use of System.out or System.err by a logger.(˜‹½´
+V	java:S1252"<This block of commented-out lines of code should be removed.(»ž•ûÿÿÿÿ
+4
+java:S2119F"Save and re-use this "Random".(²œêú
+N	java:S106L"9Replace this use of System.out or System.err by a logger.(±êöÊ
+S	java:S106O"9Replace this use of System.out or System.err by a logger.(ðœÃÜûÿÿÿÿ
+4
+java:S2119W"Save and re-use this "Random".(²œêú
+<
+java:S1481X"&Remove this unused "i" local variable.(¬Û¥Ò

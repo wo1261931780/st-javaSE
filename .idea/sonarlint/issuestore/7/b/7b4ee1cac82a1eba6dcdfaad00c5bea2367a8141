@@ -1,0 +1,22 @@
+
+w
+java:S1192"\Define a constant instead of duplicating this literal "***************************" 4 times.(®ÚİÓşÿÿÿÿ
+>
+java:S1604"(Make this anonymous inner class a lambda(ÀğÕØ
+>
+java:S1604"(Make this anonymous inner class a lambda(íêğ
+C
+java:S1604"(Make this anonymous inner class a lambda(ÑçåÓıÿÿÿÿ
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(¨µá½ÿÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Å«öæ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(¢­ÊÈ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(®ÚİÓşÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ë¨§Šúÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(®ÚİÓşÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ßöü‡
+S	java:S106"9Replace this use of System.out or System.err by a logger.(®ÚİÓşÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(œ€ÿÿÿÿÿÿ
+S	java:S106!"9Replace this use of System.out or System.err by a logger.(®ÚİÓşÿÿÿÿ
+S	java:S106""9Replace this use of System.out or System.err by a logger.(¹¤·Õıÿÿÿÿ
+M	java:S106("9Replace this use of System.out or System.err by a logger.(Æñ|
+S	java:S106*"9Replace this use of System.out or System.err by a logger.(Ğì¶øÿÿÿÿ

@@ -1,0 +1,17 @@
+
+l
+java:S1104"QMake money a static final constant or non-public and provide accessors if needed.(æÒê•øÿÿÿÿ
+F
+java:S1444"+Make this "public static money" field final(æÒê•øÿÿÿÿ
+b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(î®·
+Y
+java:S2184/"CCast one of the operands of this subtraction operation to a "long".(´ø
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(“ß‘
+k
+java:S3655("PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(ğ³à§øÿÿÿÿ
+M	java:S106""9Replace this use of System.out or System.err by a logger.(Å»’
+N	java:S106-"9Replace this use of System.out or System.err by a logger.(åç»Ç
+B
+java:S1602/",Remove useless curly braces around statement(´ø
+S	java:S106:"9Replace this use of System.out or System.err by a logger.(é‡¯µşÿÿÿÿ
+N	java:S106D"9Replace this use of System.out or System.err by a logger.(Ôªä

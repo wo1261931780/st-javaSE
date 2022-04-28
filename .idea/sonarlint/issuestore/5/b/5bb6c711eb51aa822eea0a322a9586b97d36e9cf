@@ -1,0 +1,20 @@
+
+m	java:S127-"XRefactor the code in order to not assign to this loop counter from within the loop body.(Ü®ºÔ
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«îˆş
+e	java:S117%"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹‰¾z
+k	java:S117("QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯î§ûÿÿÿÿ
+f	java:S117,"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(É…ú»
+f	java:S117-"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ü®ºÔ
+f	java:S117/"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿıÑí
+k	java:S1178"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ÿğÿ›ùÿÿÿÿ
+f	java:S117@"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿıÑí
+b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Ş«Íå
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¤Üì÷ÿÿÿÿÿ
+h
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 23 to the 15 allowed.(Çµí‘
+S	java:S106&"9Replace this use of System.out or System.err by a logger.(ŒŒ†äøÿÿÿÿ
+^
+java:S2175/"HA "TreeMap<String, Integer>" cannot contain a "char" in a "String" type.(ÿıÑí
+^
+java:S2175@"HA "TreeMap<String, Integer>" cannot contain a "char" in a "String" type.(ÿıÑí
+S	java:S106M"9Replace this use of System.out or System.err by a logger.(‘† øÿÿÿÿ

@@ -1,0 +1,13 @@
+
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Ι€‰Τψÿÿÿÿ
+X
+java:S4977"=Rename "T" which hides a type parameter from the outer scope.(ύρΏϋÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(²Πκÿÿÿÿÿ
+6
+java:S2326"T is not used in the class.(Ι€‰Τψÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(µΟ…θωÿÿÿÿ
+S	java:S106
+"9Replace this use of System.out or System.err by a logger.(µΟ…θωÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(µΟ…θωÿÿÿÿ
+V	java:S125"<This block of commented-out lines of code should be removed.(‡Β¨µύÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(µΟ…θωÿÿÿÿ

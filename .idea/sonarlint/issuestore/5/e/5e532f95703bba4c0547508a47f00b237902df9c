@@ -1,0 +1,22 @@
+
+b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(œÇ—§
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¦ÿ¼Ò
+V	java:S125"<This block of commented-out lines of code should be removed.(ØÀ±ùþÿÿÿÿ
+V	java:S125"<This block of commented-out lines of code should be removed.(‰õ£€þÿÿÿÿ
+4
+java:S2119"Save and re-use this "Random".(²œêú
+Q
+java:S1119";Refactor the code to remove this label and the need for it.(Ã‡•­
+Q	java:S125 "<This block of commented-out lines of code should be removed.(‚ðØ´
+N	java:S106$"9Replace this use of System.out or System.err by a logger.(¶š†ä
+4
+java:S2119)"Save and re-use this "Random".(²œêú
+Q	java:S125?"<This block of commented-out lines of code should be removed.(ˆ¸´
+N	java:S106H"9Replace this use of System.out or System.err by a logger.(¶š†ä
+S	java:S106Q"9Replace this use of System.out or System.err by a logger.(äàý±ýÿÿÿÿ
+S	java:S106`"9Replace this use of System.out or System.err by a logger.(æã ³þÿÿÿÿ
+N	java:S106b"9Replace this use of System.out or System.err by a logger.(¶š†ä
+S	java:S106c"9Replace this use of System.out or System.err by a logger.(­Ç‘òþÿÿÿÿ
+Q	java:S125k"<This block of commented-out lines of code should be removed.(Æ¿æë
+Q	java:S125q"<This block of commented-out lines of code should be removed.(Êþÿò
+N	java:S106{"9Replace this use of System.out or System.err by a logger.(Ä•ç¼

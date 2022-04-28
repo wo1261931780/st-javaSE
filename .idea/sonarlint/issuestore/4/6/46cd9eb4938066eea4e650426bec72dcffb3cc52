@@ -1,0 +1,17 @@
+
+C
+java:S16042"(Make this anonymous inner class a lambda(Ù†Ø“üÿÿÿÿ
+b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(öÅõ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(©Ò“‡úÿÿÿÿ
+b
+java:S39592"GRefactor this code so that this consumed stream pipeline is not reused.(Ù†Ø“üÿÿÿÿ
+m
+java:S6204"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ŸÎª üÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ñæ°Æşÿÿÿÿ
+N	java:S106("9Replace this use of System.out or System.err by a logger.(ˆˆ×Ù
+E
+java:S1481/"*Remove this unused "demo2" local variable.(ãşÔ›úÿÿÿÿ
+E
+java:S14812"*Remove this unused "demo3" local variable.(Ù†Ø“üÿÿÿÿ
+E
+java:S1481:"*Remove this unused "demo4" local variable.(œ™‡Šøÿÿÿÿ

@@ -1,0 +1,20 @@
+
+`	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
+`	java:S112+"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
+b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(¢»¶Á
+X
+java:S1163+"=Refactor this code to not throw exceptions in finally blocks.(Ò‚Òéüÿÿÿÿ
+O
+java:S1143+"4Remove this throw statement from this finally block.(Ò‚Òéüÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(µ¶Âßþÿÿÿÿ
+1
+java:S3626"Remove this redundant jump.(¹øùš
+W
+java:S1075"ARefactor your code to get this URI from a customizable parameter.(–±§§
+\
+java:S1075"ARefactor your code to get this URI from a customizable parameter.(¼ï¢Úüÿÿÿÿ
+P	java:S125"<This block of commented-out lines of code should be removed.(»¿Ó
+S	java:S106!"9Replace this use of System.out or System.err by a logger.(Ðœç‹øÿÿÿÿ
+S	java:S106-"9Replace this use of System.out or System.err by a logger.(Ðì¶øÿÿÿÿ
+E
+java:S2093"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ

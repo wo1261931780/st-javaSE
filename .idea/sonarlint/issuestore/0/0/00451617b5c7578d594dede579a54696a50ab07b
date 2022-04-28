@@ -1,0 +1,65 @@
+
+n	java:S135"YReduce the total number of break and continue statements in this loop to use at most one.(ğÂÃÅ
+}
+java:S1319/"gThe type of "student" should be an interface such as "List" rather than the implementation "ArrayList".(îâÇ
+}
+java:S1319="gThe type of "student" should be an interface such as "List" rather than the implementation "ArrayList".(®òÌ¼
+}
+java:S1319N"gThe type of "student" should be an interface such as "List" rather than the implementation "ArrayList".(ƒÓ»Ì
+}
+java:S1319l"gThe type of "student" should be an interface such as "List" rather than the implementation "ArrayList".(±êºŞ
+ƒ
+java:S1319‚"gThe type of "student" should be an interface such as "List" rather than the implementation "ArrayList".(îÜÇÿıÿÿÿÿ
+ƒ
+java:S1319"gThe type of "student" should be an interface such as "List" rather than the implementation "ArrayList".(ÌÈœøÿÿÿÿ
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ë½õÆüÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(´ƒÊİ
+V	java:S125"<This block of commented-out lines of code should be removed.(µü¶ºıÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ğÂÃÅ
+V	java:S125"<This block of commented-out lines of code should be removed.(çŒÏÿÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(±úÛä
+Q	java:S125"<This block of commented-out lines of code should be removed.(ÂéÜˆ
+S	java:S106""9Replace this use of System.out or System.err by a logger.(­õÑ“ÿÿÿÿÿ
+N	java:S106+"9Replace this use of System.out or System.err by a logger.(ŠÍ´Ë
+D
+java:S1172/".Remove this unused method parameter "student".(îâÇ
+N	java:S1060"9Replace this use of System.out or System.err by a logger.(Á¡Ã¶
+N	java:S1061"9Replace this use of System.out or System.err by a logger.(×ÿÆÌ
+S	java:S1062"9Replace this use of System.out or System.err by a logger.(ŞïĞ¿ûÿÿÿÿ
+N	java:S1063"9Replace this use of System.out or System.err by a logger.(Öˆ†å
+M	java:S1064"9Replace this use of System.out or System.err by a logger.(Ë®î
+S	java:S1065"9Replace this use of System.out or System.err by a logger.( ĞĞõùÿÿÿÿ
+S	java:S1066"9Replace this use of System.out or System.err by a logger.(Õ¬°´şÿÿÿÿ
+Q	java:S1257"<This block of commented-out lines of code should be removed.(­Ùº•
+S	java:S106?"9Replace this use of System.out or System.err by a logger.(ÌĞÅÍıÿÿÿÿ
+N	java:S106E"9Replace this use of System.out or System.err by a logger.(æØ±¸
+Q	java:S125F"<This block of commented-out lines of code should be removed.(Êşÿò
+>	java:S108G")Either remove or fill this block of code.(å¥‡
+S	java:S106P"9Replace this use of System.out or System.err by a logger.(Ÿ£éûÿÿÿÿ
+N	java:S106W"9Replace this use of System.out or System.err by a logger.(æØ±¸
+>	java:S108Y")Either remove or fill this block of code.(å¥‡
+S	java:S106]"9Replace this use of System.out or System.err by a logger.(õ¿¿úÿÿÿÿ
+N	java:S106_"9Replace this use of System.out or System.err by a logger.(„ç‰
+M	java:S106a"9Replace this use of System.out or System.err by a logger.(Ğñ–
+S	java:S106c"9Replace this use of System.out or System.err by a logger.(šÙ¼Çúÿÿÿÿ
+Q	java:S125h"<This block of commented-out lines of code should be removed.(·Ñ¯Ç
+S	java:S106n"9Replace this use of System.out or System.err by a logger.(Œ˜şûÿÿÿÿ
+V	java:S125r"<This block of commented-out lines of code should be removed.(­÷‹©ÿÿÿÿÿ
+N	java:S106w"9Replace this use of System.out or System.err by a logger.(İ”ş
+Q	java:S125v"<This block of commented-out lines of code should be removed.(ØÆ™ğ
+N	java:S106y"9Replace this use of System.out or System.err by a logger.(Í‘‹Ú
+P	java:S125|"<This block of commented-out lines of code should be removed.(á¦M
+T	java:S106„"9Replace this use of System.out or System.err by a logger.(Ìëº–ıÿÿÿÿ
+O	java:S106Š"9Replace this use of System.out or System.err by a logger.(É‚¦ü
+T	java:S106‹"9Replace this use of System.out or System.err by a logger.(õ¿¿úÿÿÿÿ
+O	java:S106"9Replace this use of System.out or System.err by a logger.(„ç‰
+N	java:S106"9Replace this use of System.out or System.err by a logger.(Ğñ–
+T	java:S106‘"9Replace this use of System.out or System.err by a logger.(Ÿ©é£úÿÿÿÿ
+O	java:S106—"9Replace this use of System.out or System.err by a logger.(èøÔİ
+U
+java:S1155">Use isEmpty() to check whether the collection is empty or not.(…Ê„Ş
+N	java:S106Ÿ"9Replace this use of System.out or System.err by a logger.(”Çán
+O	java:S106£"9Replace this use of System.out or System.err by a logger.(ø²—Ñ
+R	java:S125¤"<This block of commented-out lines of code should be removed.(Û¥¡•
+T	java:S106­"9Replace this use of System.out or System.err by a logger.(£õÊúÿÿÿÿ
+R	java:S125®"<This block of commented-out lines of code should be removed.(çÌÏ

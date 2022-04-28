@@ -1,0 +1,12 @@
+
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(¯ÇéÇøÿÿÿÿ
+b	java:S101	"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ÔÓµ
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ğ§…æøÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¯‚¬Åûÿÿÿÿ
+—
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Çµí‘
+M
+java:S1117"7Rename "age" which hides the field declared at line 13.(ÈÒÓ®
+N	java:S106"9Replace this use of System.out or System.err by a logger.(£ä‡©
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ŠÎ‘
+S	java:S106"9Replace this use of System.out or System.err by a logger.(×·Ûøÿÿÿÿ

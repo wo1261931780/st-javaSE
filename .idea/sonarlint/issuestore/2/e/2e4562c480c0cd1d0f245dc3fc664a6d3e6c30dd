@@ -1,0 +1,8 @@
+
+b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(î®·
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¢ˆÅ
+i
+java:S2095"NUse try-with-resources or close this "FileOutputStream" in a "finally" clause.(ªÉÇéûÿÿÿÿ
+f
+java:S2095"PUse try-with-resources or close this "ObjectOutputStream" in a "finally" clause.(Éç¹£
+N	java:S106"9Replace this use of System.out or System.err by a logger.(¨³Ë

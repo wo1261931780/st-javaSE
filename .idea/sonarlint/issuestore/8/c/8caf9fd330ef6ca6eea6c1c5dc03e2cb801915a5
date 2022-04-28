@@ -1,0 +1,49 @@
+
+i
+java:S1192<"SDefine a constant instead of duplicating this literal "è¯·è¾“å…¥å­¦å·ï¼š" 3 times.(·Õû¦
+}
+java:S13199"bThe type of "xx" should be an interface such as "List" rather than the implementation "ArrayList".(ÄºÈ™ùÿÿÿÿ
+x
+java:S1319J"bThe type of "xx" should be an interface such as "List" rather than the implementation "ArrayList".(‹¬ °
+x
+java:S1319W"bThe type of "xx" should be an interface such as "List" rather than the implementation "ArrayList".(šÓ¶Ì
+}
+java:S1319m"bThe type of "xx" should be an interface such as "List" rather than the implementation "ArrayList".(¬“Ò¯úÿÿÿÿ
+u
+java:S14885"ZImmediately return this expression instead of assigning it to the temporary variable "x1".(ƒßîúÿÿÿÿ
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(êÆİşùÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(àùçÛûÿÿÿÿ
+V	java:S125"<This block of commented-out lines of code should be removed.(Àª÷øúÿÿÿÿ
+S	java:S106&"9Replace this use of System.out or System.err by a logger.(’ü×òıÿÿÿÿ
+V	java:S125"<This block of commented-out lines of code should be removed.(ÍãµÀøÿÿÿÿ
+C
+java:S1172,"(Remove this unused method parameter "s".(­Ÿêáøÿÿÿÿ
+N	java:S106."9Replace this use of System.out or System.err by a logger.(èÒèì
+S	java:S106/"9Replace this use of System.out or System.err by a logger.(ÿ‡üïüÿÿÿÿ
+N	java:S1060"9Replace this use of System.out or System.err by a logger.(–ĞÇ†
+S	java:S1061"9Replace this use of System.out or System.err by a logger.(àÏö£ùÿÿÿÿ
+N	java:S1062"9Replace this use of System.out or System.err by a logger.(ûŠìº
+M	java:S1063"9Replace this use of System.out or System.err by a logger.(öïÖk
+S	java:S1064"9Replace this use of System.out or System.err by a logger.(£ó˜ıÿÿÿÿ
+h	java:S1009"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÄºÈ™ùÿÿÿÿ
+N	java:S106<"9Replace this use of System.out or System.err by a logger.(·Õû¦
+N	java:S106?"9Replace this use of System.out or System.err by a logger.(ÓÁ’ù
+Q	java:S125>"<This block of commented-out lines of code should be removed.(¡†ïò
+S	java:S106A"9Replace this use of System.out or System.err by a logger.(ìéÅ°ıÿÿÿÿ
+S	java:S106C"9Replace this use of System.out or System.err by a logger.(œ¶Ú“ÿÿÿÿÿ
+N	java:S106G"9Replace this use of System.out or System.err by a logger.(‹şõ‰
+c	java:S100J"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‹¬ °
+N	java:S106L"9Replace this use of System.out or System.err by a logger.(·Õû¦
+N	java:S106Q"9Replace this use of System.out or System.err by a logger.(İ”ş
+N	java:S106T"9Replace this use of System.out or System.err by a logger.(å°Ñ
+c	java:S100W"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(šÓ¶Ì
+N	java:S106Z"9Replace this use of System.out or System.err by a logger.(·Õû¦
+N	java:S106^"9Replace this use of System.out or System.err by a logger.(ÓÁ’ù
+S	java:S106a"9Replace this use of System.out or System.err by a logger.(ìéÅ°ıÿÿÿÿ
+N	java:S106d"9Replace this use of System.out or System.err by a logger.(Şó
+N	java:S106g"9Replace this use of System.out or System.err by a logger.(Ø‹ı®
+S	java:S106j"9Replace this use of System.out or System.err by a logger.(ÉÛÔ˜øÿÿÿÿ
+h	java:S100m"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¬“Ò¯úÿÿÿÿ
+N	java:S106n"9Replace this use of System.out or System.err by a logger.(Ó«¼ª
+S	java:S106p"9Replace this use of System.out or System.err by a logger.(ıÿ›­üÿÿÿÿ
+S	java:S106r"9Replace this use of System.out or System.err by a logger.(ƒŸ’ßüÿÿÿÿ

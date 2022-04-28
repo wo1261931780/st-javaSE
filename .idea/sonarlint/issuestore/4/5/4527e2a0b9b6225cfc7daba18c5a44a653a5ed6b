@@ -1,0 +1,25 @@
+
+f	java:S117+"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŠÛµ 
+f	java:S117."QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(îæÈõ
+7
+java:S1643/"Use a StringBuilder instead.(õçæøÿÿÿÿÿ
+2
+java:S1643L"Use a StringBuilder instead.(¶æ‚á
+2
+java:S1643P"Use a StringBuilder instead.(¶‘¨¸
+i
+java:S1104"NMake xx a static final constant or non-public and provide accessors if needed.(ÑÛþ¢úÿÿÿÿ
+C
+java:S1444"(Make this "public static xx" field final(ÑÛþ¢úÿÿÿÿ
+b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(¢»¶Á
+8
+java:S2386"Make this member "protected".(ÑÛþ¢úÿÿÿÿ
+S	java:S1062"9Replace this use of System.out or System.err by a logger.(¸šñÙüÿÿÿÿ
+O
+java:S28647"4Iterate over the "entrySet" instead of the "keySet".(Çîí®ùÿÿÿÿ
+V	java:S1256"<This block of commented-out lines of code should be removed.(ÏÎõûÿÿÿÿ
+Q	java:S125@"<This block of commented-out lines of code should be removed.(ëäÌâ
+Q	java:S125F"<This block of commented-out lines of code should be removed.(è¼´
+Q	java:S125S"<This block of commented-out lines of code should be removed.(œ˜Í€
+V	java:S125Z"<This block of commented-out lines of code should be removed.(Ùá¦îùÿÿÿÿ
+N	java:S106`"9Replace this use of System.out or System.err by a logger.(àÓ¨¨

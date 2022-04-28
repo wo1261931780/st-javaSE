@@ -1,0 +1,12 @@
+
+r	java:S127""XRefactor the code in order to not assign to this loop counter from within the loop body.(èßœøÿÿÿÿ
+w
+java:S1319"aThe type of "x" should be an interface such as "List" rather than the implementation "ArrayList".(Ë²Ø™
+7
+java:S1643"Use a StringBuilder instead.(©©ô¼øÿÿÿÿ
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ğ§…æøÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(µÏ…èùÿÿÿÿ
+E
+java:S1128"*Remove this unused import 'java.util.Set'.(ö²„¤şÿÿÿÿ
+C
+java:S1128".Remove this unused import 'java.util.TreeSet'.(½îB
