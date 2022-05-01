@@ -1,9 +1,0 @@
-
-f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›Ý³¦
-f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¥Ù¡›
-k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ð¤›øÿÿÿÿÿ
-b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(‰ÿâÇ
-t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(°™¯„úÿÿÿÿ
-b
-java:S2095"LUse try-with-resources or close this "DatagramSocket" in a "finally" clause.(›Ý³¦
-V	java:S125"<This block of commented-out lines of code should be removed.(É‘àÀúÿÿÿÿ
