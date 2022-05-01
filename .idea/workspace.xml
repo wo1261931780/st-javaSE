@@ -5,35 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="92262de5-e372-4bdc-99f8-c27ceec6dfd1" name="变更" comment="转换编码格式为UTF-8">
-      <change afterPath="$PROJECT_DIR$/src/c2stage_20220501/ccc161udp/ccc003.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/c2stage_20220501/ccc161udp/ccc004.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/5/259ca4ef0f624063d604df9751b3042a715b8039" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/9/3986cf5e1f545853e396d85dde38ed3b96b70ff4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/c/3c5126219837c48111c9c03e31ec6f1bba147ed6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/4/74c3771a0e4da9f17a8531c50dda469ad2166046" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/2/824afdce3920b949d744bf8b03a6b2cf5c5011a0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/b/bbeafa904c30af4af8d83b6dadef43d154191cf8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/5/d5dfacfa454e896ea75c3047220238136893a3fa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/f/ef8d2cd5f3e7abe4f82565a03d63c64a9c435dcc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/st-java.github.io/c2stage_20220430/ccc160tcpudp/ccc001gethostname.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/st-java.github.io/c2stage_20220430/ccc160tcpudp/ccc001gethostname.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/st-java.github.io/c2stage_20220430/ccc161udp/ccc001client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/st-java.github.io/c2stage_20220430/ccc161udp/ccc002service.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/st-java.github.io/c2stage_20220430/ccc162duofa/ccc001client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/st-java.github.io/c2stage_20220430/ccc162duofa/ccc002service.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/st-java.github.io/c2stage_20220430/ccc163broadcast/ccc001client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/st-java.github.io/c2stage_20220430/ccc163broadcast/ccc002service.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/st-java.github.io/c2stage_20220430/ccc164Multicast/ccc001client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/st-java.github.io/c2stage_20220430/ccc164Multicast/ccc002service.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/c2stage_20220430/ccc161udp/ccc001client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/c2stage_20220501/ccc161udp/ccc001client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/c2stage_20220430/ccc161udp/ccc002service.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/c2stage_20220501/ccc161udp/ccc002service.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/c2stage_20220430/ccc162duofa/ccc001client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/c2stage_20220501/ccc162duofa/ccc001client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/c2stage_20220430/ccc162duofa/ccc002service.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/c2stage_20220501/ccc162duofa/ccc002service.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/c2stage_20220430/ccc163broadcast/ccc001client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/c2stage_20220501/ccc163broadcast/ccc001client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/c2stage_20220430/ccc163broadcast/ccc002service.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/c2stage_20220501/ccc163broadcast/ccc002service.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/c2stage_20220430/ccc164Multicast/ccc001client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/c2stage_20220501/ccc164Multicast/ccc001client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/c2stage_20220430/ccc164Multicast/ccc002service.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/c2stage_20220501/ccc164Multicast/ccc002service.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/st-java.github.io/c2stage_20220501/ccc163broadcast/ccc001client.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/st-java.github.io/c2stage_20220501/ccc163broadcast/ccc001client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/c2stage_20220501/ccc165tcp/ccc001.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/c2stage_20220501/ccc165tcp/ccc001.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/c2stage_20220501/ccc165tcp/ccc002.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/c2stage_20220501/ccc165tcp/ccc002.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +74,20 @@
       <recent name="C:\Users\1\Documents\GitHub\st-java.github.io\src\c2stage_20220113\ccc014package" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.ccc002service">
+  <component name="RunManager" selected="应用程序.ccc001">
+    <configuration name="ccc001" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="c2stage_20220501.ccc165tcp.ccc001" />
+      <module name="st-java.github.io" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="c2stage_20220501.ccc165tcp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ccc001client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="c2stage_20220501.ccc162duofa.ccc001client" />
       <module name="st-java.github.io" />
@@ -113,12 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ccc001gethostname" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="c2stage_20220430.ccc160tcpudp.ccc001gethostname" />
+    <configuration name="ccc002" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="c2stage_20220501.ccc165tcp.ccc002" />
       <module name="st-java.github.io" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="c2stage_20220430.ccc160tcpudp.*" />
+          <option name="PATTERN" value="c2stage_20220501.ccc165tcp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -152,26 +140,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ccc004" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="c2stage_20220501.ccc161udp.ccc004" />
-      <module name="st-java.github.io" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="c2stage_20220501.ccc161udp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.ccc001" />
+        <item itemvalue="应用程序.ccc002" />
         <item itemvalue="应用程序.ccc002service" />
         <item itemvalue="应用程序.ccc001client" />
         <item itemvalue="应用程序.ccc003" />
-        <item itemvalue="应用程序.ccc004" />
-        <item itemvalue="应用程序.ccc001gethostname" />
       </list>
     </recent_temporary>
   </component>
@@ -191,7 +166,7 @@
       <workItem from="1651222534790" duration="3635000" />
       <workItem from="1651237350405" duration="2909000" />
       <workItem from="1651283110696" duration="15352000" />
-      <workItem from="1651384507837" duration="7654000" />
+      <workItem from="1651384507837" duration="10312000" />
     </task>
     <task id="LOCAL-00001" summary="转换编码格式为UTF-8">
       <created>1651067987923</created>
