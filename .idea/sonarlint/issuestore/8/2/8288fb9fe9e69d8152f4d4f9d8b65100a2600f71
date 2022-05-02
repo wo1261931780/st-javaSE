@@ -1,0 +1,5 @@
+
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ó¿Óçûÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.( »—±üÿÿÿÿ
+b
+java:S2095"LUse try-with-resources or close this "DatagramSocket" in a "finally" clause.(¸´Í…

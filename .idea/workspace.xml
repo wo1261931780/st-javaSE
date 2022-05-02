@@ -5,10 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="92262de5-e372-4bdc-99f8-c27ceec6dfd1" name="变更" comment="转换编码格式为UTF-8">
+      <change afterPath="$PROJECT_DIR$/src/c2stage_20220501/ccc166tcp_duofa/ccc002.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/c2stage_20220501/ccc167tcp_diff_client/ccc001.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/c2stage_20220501/ccc167tcp_diff_client/ccc002.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/c2stage_20220501/ccc167tcp_diff_client/ccc003operator_thread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/c2stage_20220502/ccc168tcp_thread_pool/ccc001client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/c2stage_20220502/ccc168tcp_thread_pool/ccc002service.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/c2stage_20220502/ccc168tcp_thread_pool/ccc003runnable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/c2stage_20220502/ccc169tcp_Instant_Messaging/ccc001client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/c2stage_20220502/ccc169tcp_Instant_Messaging/ccc002service.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/c2stage_20220502/ccc169tcp_Instant_Messaging/ccc003runnable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/c2stage_20220502/ccc169tcp_Instant_Messaging/ccc004getmessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/c2stage_20220502/ccc170tcp_browser/ccc001.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/c2stage_20220502/ccc170tcp_browser/ccc002thread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/6/16862fc32d09fd89c1880ed9c01e56deb8b6d5d9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/5/45f8b1cd5fc547e3c704783491c00fb7ada41161" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/e/4e964c8e65edc2632d9a315fd2ea9cc034f917f7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/st-java.github.io/c2stage_20220501/ccc163broadcast/ccc001client.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/st-java.github.io/c2stage_20220501/ccc163broadcast/ccc001client.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/c2stage_20220501/ccc165tcp/ccc001.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/c2stage_20220501/ccc165tcp/ccc001.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/c2stage_20220501/ccc165tcp/ccc002.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/c2stage_20220501/ccc165tcp/ccc002.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/c2stage_20220501/ccc166tcp_duofa/ccc001.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/c2stage_20220501/ccc166tcp_duofa/ccc001.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,38 +90,40 @@
     </key>
   </component>
   <component name="RunManager" selected="应用程序.ccc001">
+    <configuration name="c2stage_20220502.ccc169tcp_Instant_Messaging.ccc001client" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="c2stage_20220502.ccc169tcp_Instant_Messaging.ccc001client" />
+      <module name="st-java.github.io" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="c2stage_20220502.ccc169tcp_Instant_Messaging.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <extension name="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" />
+        </ENTRIES>
+      </extension>
+      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
+        <option name="credential" />
+        <option name="region" />
+        <option name="useCurrentConnection" value="false" />
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ccc001" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="c2stage_20220501.ccc165tcp.ccc001" />
+      <option name="MAIN_CLASS_NAME" value="c2stage_20220502.ccc170tcp_browser.ccc001" />
       <module name="st-java.github.io" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="c2stage_20220501.ccc165tcp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ccc001client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="c2stage_20220501.ccc162duofa.ccc001client" />
-      <module name="st-java.github.io" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="c2stage_20220501.ccc162duofa.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ccc002" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="c2stage_20220501.ccc165tcp.ccc002" />
-      <module name="st-java.github.io" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="c2stage_20220501.ccc165tcp.*" />
+          <option name="PATTERN" value="c2stage_20220502.ccc170tcp_browser.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,11 +132,11 @@
       </method>
     </configuration>
     <configuration name="ccc002service" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="c2stage_20220501.ccc162duofa.ccc002service" />
+      <option name="MAIN_CLASS_NAME" value="c2stage_20220502.ccc169tcp_Instant_Messaging.ccc002service" />
       <module name="st-java.github.io" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="c2stage_20220501.ccc162duofa.*" />
+          <option name="PATTERN" value="c2stage_20220502.ccc169tcp_Instant_Messaging.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,26 +144,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ccc003" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="c2stage_20220501.ccc161udp.ccc003" />
-      <module name="st-java.github.io" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="c2stage_20220501.ccc161udp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+    <list>
+      <item itemvalue="应用程序.ccc001" />
+      <item itemvalue="应用程序.c2stage_20220502.ccc169tcp_Instant_Messaging.ccc001client" />
+      <item itemvalue="应用程序.ccc002service" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="应用程序.ccc001" />
-        <item itemvalue="应用程序.ccc002" />
+        <item itemvalue="应用程序.c2stage_20220502.ccc169tcp_Instant_Messaging.ccc001client" />
         <item itemvalue="应用程序.ccc002service" />
-        <item itemvalue="应用程序.ccc001client" />
-        <item itemvalue="应用程序.ccc003" />
       </list>
     </recent_temporary>
   </component>
@@ -166,7 +173,9 @@
       <workItem from="1651222534790" duration="3635000" />
       <workItem from="1651237350405" duration="2909000" />
       <workItem from="1651283110696" duration="15352000" />
-      <workItem from="1651384507837" duration="10312000" />
+      <workItem from="1651384507837" duration="15236000" />
+      <workItem from="1651452998049" duration="276000" />
+      <workItem from="1651454148420" duration="10634000" />
     </task>
     <task id="LOCAL-00001" summary="转换编码格式为UTF-8">
       <created>1651067987923</created>

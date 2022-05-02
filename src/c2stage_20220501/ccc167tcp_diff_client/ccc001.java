@@ -1,4 +1,4 @@
-package c2stage_20220501.ccc166tcp_duofa;
+package c2stage_20220501.ccc167tcp_diff_client;
 
 import java.io.IOException;
 import java.io.OutputStream;
@@ -9,22 +9,26 @@ import java.util.Scanner;
 /**
  * Created by Intellij IDEA.
  * Project:st-java.github.io
- * Package:c2stage_20220501.ccc166tcp_duofa
+ * Package:c2stage_20220501.ccc167tcp_diff_client
  * User:  wo1261931780@gmail.com
- * Time:  2022-05-17-29  星期日
+ * Time:  2022-05-19-59  星期日
  */
 public class ccc001 {
     public static void main(String[] args) throws IOException {
         Socket x = new Socket("127.0.0.1", 7777);
-        OutputStream x1 = x.getOutputStream();
-        PrintStream demo = new PrintStream(x1);
+        OutputStream otp = x.getOutputStream();
+
+        PrintStream demoprint = new PrintStream(otp);
         Scanner sc = new Scanner(System.in);
         while (true) {
-            System.out.println("展示结果：");
-            String msg = sc.nextLine();
-            demo.println(msg);
-            demo.flush();
-
+            String s = sc.nextLine();
+            demoprint.println(s);
+            if (s.equals("exit")) {
+                x.close();
+                break;
+            }
+            demoprint.flush();
         }
+
     }
 }
