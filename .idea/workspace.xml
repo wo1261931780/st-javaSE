@@ -5,25 +5,58 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="92262de5-e372-4bdc-99f8-c27ceec6dfd1" name="变更" comment="转换编码格式为UTF-8">
-      <change afterPath="$PROJECT_DIR$/src/c2stage_20220501/ccc166tcp_duofa/ccc002.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/c2stage_20220501/ccc167tcp_diff_client/ccc001.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/c2stage_20220501/ccc167tcp_diff_client/ccc002.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/c2stage_20220501/ccc167tcp_diff_client/ccc003operator_thread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/c2stage_20220502/ccc168tcp_thread_pool/ccc001client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/c2stage_20220502/ccc168tcp_thread_pool/ccc002service.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/c2stage_20220502/ccc168tcp_thread_pool/ccc003runnable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/c2stage_20220502/ccc169tcp_Instant_Messaging/ccc001client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/c2stage_20220502/ccc169tcp_Instant_Messaging/ccc002service.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/c2stage_20220502/ccc169tcp_Instant_Messaging/ccc003runnable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/c2stage_20220502/ccc169tcp_Instant_Messaging/ccc004getmessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/c2stage_20220502/ccc170tcp_browser/ccc001.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/c2stage_20220502/ccc170tcp_browser/ccc002thread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/6/16862fc32d09fd89c1880ed9c01e56deb8b6d5d9" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/5/45f8b1cd5fc547e3c704783491c00fb7ada41161" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/e/4e964c8e65edc2632d9a315fd2ea9cc034f917f7" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/junitgenerator-prj-settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/setting.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/apiguardian-api-1.1.2-javadoc.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/apiguardian-api-1.1.2-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/apiguardian-api-1.1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/junit-jupiter-5.8.1-javadoc.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/junit-jupiter-5.8.1-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/junit-jupiter-5.8.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/junit-jupiter-api-5.8.1-javadoc.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/junit-jupiter-api-5.8.1-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/junit-jupiter-api-5.8.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/junit-jupiter-engine-5.8.1-javadoc.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/junit-jupiter-engine-5.8.1-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/junit-jupiter-engine-5.8.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/junit-jupiter-params-5.8.1-javadoc.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/junit-jupiter-params-5.8.1-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/junit-jupiter-params-5.8.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/junit-platform-commons-1.8.1-javadoc.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/junit-platform-commons-1.8.1-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/junit-platform-commons-1.8.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/junit-platform-engine-1.8.1-javadoc.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/junit-platform-engine-1.8.1-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/junit-platform-engine-1.8.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/opentest4j-1.2.0-javadoc.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/opentest4j-1.2.0-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/opentest4j-1.2.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/c2stage_20220502/ccc171Junit_test/ccc001.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/c2stage_20220502/ccc171Junit_test/ccc002test_showres.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/c2stage_20220502/ccc172reflect/ccc001object.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/c2stage_20220502/ccc172reflect/ccc002.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/c2stage_20220502/ccc173reflect_class/ccc001object.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/c2stage_20220502/ccc173reflect_class/ccc002.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/c2stage_20220502/ccc174reflect_variable/ccc001.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/c2stage_20220502/ccc174reflect_variable/ccc002.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/c2stage_20220502/ccc175reflect_methods/ccc001dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/c2stage_20220502/ccc175reflect_methods/ccc002.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/c2stage_20220502/ccc176operator_class/ccc001.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/c2stage_20220502/ccc176operator_class/ccc002.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/c2stage_20220502/ccc177reflect_framework/ccc001.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/c2stage_20220502/ccc177reflect_framework/ccc002.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/c2stage_20220502/ccc177reflect_framework/demo.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/c2stage_20220502/ccc178definition/ccc001.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/c2stage_20220502/ccc178definition/ccc002.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/c2stage_20220502/ccc178definition/ccc003.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/c2stage_20220502/ccc179origin_definition/ccc001.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/c2stage_20220502/ccc179origin_definition/ccc002.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/c2stage_20220502/ccc180definition_analysis/ccc001.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/c2stage_20220502/ccc180definition_analysis/ccc002.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/c2stage_20220502/ccc180definition_analysis/ccc003.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/c2stage_20220501/ccc166tcp_duofa/ccc001.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/c2stage_20220501/ccc166tcp_duofa/ccc001.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/st-java.github.io/c2stage_20220502/ccc170tcp_browser/ccc002thread.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/st-java.github.io/c2stage_20220502/ccc170tcp_browser/ccc002thread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/st-java.github.io.iml" beforeDir="false" afterPath="$PROJECT_DIR$/st-java.github.io.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +69,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
@@ -45,6 +79,11 @@
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
+  </component>
+  <component name="JavaAutoRunManager">
+    <enabled-run-configurations>
+      <run-configuration type="JUnit" name="ccc002.show_v3" />
+    </enabled-run-configurations>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -57,26 +96,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/1/Documents/GitHub/st-java.github.io/src/leetcode/eee118机试题目&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;工件&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2551724&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor.code.editing&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Downloaded.Files.Path.Enabled": "true",
+    "Repository.Attach.Annotations": "true",
+    "Repository.Attach.JavaDocs": "true",
+    "Repository.Attach.Sources": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/1/Documents/GitHub/st-java.github.io/src/leetcode/eee118机试题目",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "工件",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2551724",
+    "settings.editor.selected.configurable": "plugins.junitgenerator.application",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RebelAgentSelection">
     <selection>jxr</selection>
   </component>
@@ -89,41 +133,13 @@
       <recent name="C:\Users\1\Documents\GitHub\st-java.github.io\src\c2stage_20220113\ccc014package" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.ccc001">
-    <configuration name="c2stage_20220502.ccc169tcp_Instant_Messaging.ccc001client" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="c2stage_20220502.ccc169tcp_Instant_Messaging.ccc001client" />
-      <module name="st-java.github.io" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="c2stage_20220502.ccc169tcp_Instant_Messaging.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <extension name="net.ashald.envfile">
-        <option name="IS_ENABLED" value="false" />
-        <option name="IS_SUBST" value="false" />
-        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
-        <option name="IS_IGNORE_MISSING_FILES" value="false" />
-        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
-        <ENTRIES>
-          <ENTRY IS_ENABLED="true" PARSER="runconfig" />
-        </ENTRIES>
-      </extension>
-      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
-        <option name="credential" />
-        <option name="region" />
-        <option name="useCurrentConnection" value="false" />
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.ccc002.show">
     <configuration name="ccc001" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="c2stage_20220502.ccc170tcp_browser.ccc001" />
+      <option name="MAIN_CLASS_NAME" value="c2stage_20220502.ccc176operator_class.ccc001" />
       <module name="st-java.github.io" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="c2stage_20220502.ccc170tcp_browser.*" />
+          <option name="PATTERN" value="c2stage_20220502.ccc176operator_class.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,29 +147,81 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ccc002service" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="c2stage_20220502.ccc169tcp_Instant_Messaging.ccc002service" />
+    <configuration name="ccc002" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="c2stage_20220502.ccc177reflect_framework.ccc002" />
       <module name="st-java.github.io" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="c2stage_20220502.ccc169tcp_Instant_Messaging.*" />
+          <option name="PATTERN" value="c2stage_20220502.ccc177reflect_framework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ccc002.show" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="st-java.github.io" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="c2stage_20220502.ccc180definition_analysis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="c2stage_20220502.ccc180definition_analysis" />
+      <option name="MAIN_CLASS_NAME" value="c2stage_20220502.ccc180definition_analysis.ccc002" />
+      <option name="METHOD_NAME" value="show" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ccc002.show_invoke" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="st-java.github.io" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="c2stage_20220502.ccc175reflect_methods.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="c2stage_20220502.ccc175reflect_methods" />
+      <option name="MAIN_CLASS_NAME" value="c2stage_20220502.ccc175reflect_methods.ccc002" />
+      <option name="METHOD_NAME" value="show_invoke" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ccc002.show_method" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="st-java.github.io" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="c2stage_20220502.ccc175reflect_methods.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="c2stage_20220502.ccc175reflect_methods" />
+      <option name="MAIN_CLASS_NAME" value="c2stage_20220502.ccc175reflect_methods.ccc002" />
+      <option name="METHOD_NAME" value="show_method" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
+      <item itemvalue="JUnit.ccc002.show" />
+      <item itemvalue="JUnit.ccc002.show_invoke" />
+      <item itemvalue="JUnit.ccc002.show_method" />
       <item itemvalue="应用程序.ccc001" />
-      <item itemvalue="应用程序.c2stage_20220502.ccc169tcp_Instant_Messaging.ccc001client" />
-      <item itemvalue="应用程序.ccc002service" />
+      <item itemvalue="应用程序.ccc002" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ccc002.show" />
+        <item itemvalue="应用程序.ccc002" />
         <item itemvalue="应用程序.ccc001" />
-        <item itemvalue="应用程序.c2stage_20220502.ccc169tcp_Instant_Messaging.ccc001client" />
-        <item itemvalue="应用程序.ccc002service" />
+        <item itemvalue="JUnit.ccc002.show_invoke" />
+        <item itemvalue="JUnit.ccc002.show_method" />
       </list>
     </recent_temporary>
   </component>
@@ -175,7 +243,7 @@
       <workItem from="1651283110696" duration="15352000" />
       <workItem from="1651384507837" duration="15236000" />
       <workItem from="1651452998049" duration="276000" />
-      <workItem from="1651454148420" duration="10634000" />
+      <workItem from="1651454148420" duration="31885000" />
     </task>
     <task id="LOCAL-00001" summary="转换编码格式为UTF-8">
       <created>1651067987923</created>
@@ -216,6 +284,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="转换编码格式为UTF-8" />
     <option name="LAST_COMMIT_MESSAGE" value="转换编码格式为UTF-8" />
   </component>
