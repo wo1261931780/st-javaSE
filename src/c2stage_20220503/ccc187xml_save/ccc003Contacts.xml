@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <contactList>
     <contact id="1" vip="true">
-        <name>   潘金莲  </name>
+        <name>潘金莲</name>
         <gender>女</gender>
         <email>panpan@itcast.cn</email>
     </contact>
