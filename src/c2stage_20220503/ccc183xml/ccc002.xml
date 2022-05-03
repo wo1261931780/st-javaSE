@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--我是注释-->
+<demo>
+    <!--注释可以存在任意位置-->
+    
+    <test>子标签</test>
+    <test2>子标签2</test2>
+    <sql>
+        <!--select * from demo where age<18;-->
+        <!--这里的小于号，xml默认为一个左边的标签，所以会报错-->
+        select * from demo where age &lt; 18;
+        <![CDATA[
+            select * from demo where age < 18 ;
+        ]]>
+        <!--直接大写的CD，就可以新建一个数据区-->
+        <!--数据区内的所有内容都会被作为数据-->
+    </sql>
+
+</demo>

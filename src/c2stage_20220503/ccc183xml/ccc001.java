@@ -1,4 +1,4 @@
-package c2stage_20220503.ccc183Dynamic_Proxy2;
+package c2stage_20220503.ccc183xml;
 
 /**
  * Created by Intellij IDEA.
@@ -8,4 +8,7 @@ package c2stage_20220503.ccc183Dynamic_Proxy2;
  * Time:  2022-05-08-25  星期二
  */
 public class ccc001 {
+    public static void main(String[] args) {
+
+    }
 }

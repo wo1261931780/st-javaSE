@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="ccc0185xml_xsd" elementFormDefault="qualified">
+    <!--target就是包名-->
+    <element name="书架">
+        <!--元素名-->
+        <complexType>
+            <sequence maxOccurs="unbounded">
+                <element name="书">
+                    <complexType>
+                        <sequence>
+                            <element name="测试1" type="string"/>
+                            <element name="测试2" type="string"/>
+                            <element name="测试3" type="string"/>
+                            <element name="测试4" type="string"/>
+                        </sequence>
+                    </complexType>
+                </element>
+            </sequence>
+        </complexType>
+    </element>
+</schema>
