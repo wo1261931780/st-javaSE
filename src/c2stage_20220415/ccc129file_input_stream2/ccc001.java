@@ -22,7 +22,6 @@ public class ccc001 {
         // System.out.println(new String(x1, 0, demo2));
         // 中文还是读不出来
         byte[] demobyte = x.readAllBytes();// 输入流，直接读取所有的字节文件
-        System.out.println("--" + new String(demobyte, 0, demobyte.length) + "--");//
-
+        System.out.println("--" + new String(demobyte, 0, demobyte.length) + "--");
     }
 }

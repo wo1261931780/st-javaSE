@@ -10,7 +10,6 @@ package c2stage_20220410.ccc120file_recusion;
 public class ccc001 {
     public static void main(String[] args) {
         show();
-
     }
 
     public static void show() {

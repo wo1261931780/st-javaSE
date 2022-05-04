@@ -26,7 +26,5 @@ public class ccc001 {
 
         String x2 = new String(DEMO2);// 这里，如果修改字符集以后，字符串会乱码
         System.out.println(DEMO2);
-
-
     }
 }

@@ -12,7 +12,6 @@ public class ccc001 {
         System.out.println("方法开始");
         System.out.println(f_show(3));
         // System.out.println();
-
     }
 
     public static int f_show(int x) {

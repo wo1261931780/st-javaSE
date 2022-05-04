@@ -10,6 +10,13 @@ import java.text.SimpleDateFormat;
  * User:  wo1261931780@gmail.com
  * Time:  2022-04-20-40  星期二
  */
+/**
+ 目标：File类的获取功能的API
+ - public String getAbsolutePath()  ：返回此File的绝对路径名字符串。
+ - public String getPath()  ： 获取创建文件对象的时候用的路径
+ - public String getName()  ： 返回由此File表示的文件或目录的名称。
+ - public long length()  ：    返回由此File表示的文件的长度。
+ */
 public class ccc001file {
     public static void main(String[] args) {
         System.out.println("------");

@@ -37,8 +37,7 @@ public class ccc001 {
     }
 }
 
-class demoresource implements AutoCloseable {
-
+class demoresource implements AutoCloseable {// 继承了autocloseable接口的都被认定为资源——因为可以关闭
     @Override
     public void close() throws Exception {
         System.out.println("我是资源，我被释放了");

@@ -1,14 +1,0 @@
-
-f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»²ÁÚ
-b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(éÅÈØ
-t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(­æú ÿÿÿÿÿ
-˜
-java:S1130"}Remove the declaration of thrown exception 'java.io.UnsupportedEncodingException', as it cannot be thrown from method's body.(Ô‰‚õùÿÿÿÿ
-M	java:S106"9Replace this use of System.out or System.err by a logger.(øÂ¾
-N	java:S106"9Replace this use of System.out or System.err by a logger.(µ…üŠ
-N	java:S106"9Replace this use of System.out or System.err by a logger.(úêåÂ
-L	java:S106"9Replace this use of System.out or System.err by a logger.(û‡
-
-B
-java:S1481"'Remove this unused "x2" local variable.(éøñ˜ùÿÿÿÿ
-S	java:S106"9Replace this use of System.out or System.err by a logger.(ßÓ²¦øÿÿÿÿ

@@ -7,11 +7,17 @@ package c2stage_20220412.ccc124beer_case;
  * User:  wo1261931780@gmail.com
  * Time:  2022-04-21-39  星期二
  */
+/*
+ 目标：啤酒2元1瓶，4个盖子可以换一瓶，2个空瓶可以换一瓶，
+ 请问10元钱可以喝多少瓶酒，剩余多少空瓶和盖子。
+ 答案：15瓶 3盖子 1瓶子
+ */
 public class ccc001 {
     public static int balance = 10;
     public static int button = 0;
     public static int tops = 0;
     public static int seconds = 0;
+    // 我这里的解法和课堂解法不一样
 
     public static void main(String[] args) {
         // 啤酒问题，
@@ -41,5 +47,4 @@ public class ccc001 {
             System.out.println(seconds + "**" + balance + "**" + button + "**" + tops);
         }
     }
-
 }

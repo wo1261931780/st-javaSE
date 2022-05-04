@@ -19,6 +19,5 @@ public class ccc002 {
             System.out.println((char) demo);
         }
         // 这里其实还是每个字节每个字节读取，只不过
-
     }
 }

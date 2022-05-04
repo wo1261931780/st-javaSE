@@ -5,27 +5,69 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="92262de5-e372-4bdc-99f8-c27ceec6dfd1" name="变更" comment="转换编码格式为UTF-8">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/xom_1_3_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/c2stage_20220503/ccc187xml_save/ccc001.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/c2stage_20220503/ccc187xml_save/ccc002bean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/c2stage_20220503/ccc188xml_search/ccc001.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/c2stage_20220503/ccc188xml_search/xom-1.3.7.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/c2stage_20220503/ccc189Design_Patterns/ccc001computer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/c2stage_20220503/ccc189Design_Patterns/ccc002mac.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/c2stage_20220503/ccc189Design_Patterns/ccc003Alienware.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/c2stage_20220503/ccc189Design_Patterns/ccc004factorypattern.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/c2stage_20220503/ccc189Design_Patterns/ccc005rundemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/c2stage_20220503/ccc190Decoration_pattern/ccc001inputstream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/c2stage_20220503/ccc190Decoration_pattern/ccc001rundemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/c2stage_20220503/ccc190Decoration_pattern/ccc002fileinputstream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/c2stage_20220503/ccc190Decoration_pattern/ccc003bufferfileinputstream.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/c2stage_20220412/ccc124del_dictionary/ccc001.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/1/018e622440ba4eb5b1c86e601f95d9cd19f584aa" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/4/045a1353fe6aaf4a71fcd156a67c1eb55902b90b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/8/08f599540c0f3c93bea76482e774f5e687a20ee3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/7/176bbeff73ad140af24ec85b35d917fd968d06ee" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/0/205c4ee7b1efb9962e126248d58dc75025ab12f6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/4/24004638a3499e40450de9fcba444cb9dc05f768" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/4/34036867f4755d76f35bc66b50dd3918e435a6e5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/6/36f8a581c51369899e39bfbc366e1a51f7c25957" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/b/3bc1e228d7482be74216790ef4c6efaa1bb425ec" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/b/3bc1e228d7482be74216790ef4c6efaa1bb425ec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/0/40da6d90eedf4fb6e12f07465cbcf3be6c44a80b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/3/4336da98071de6f3b5abadad9df7b860e387986b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/0/50671576e7027b007423bceb348201a7d88557ba" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/7/5720f657859b5bdd16b38ca2a7f319c2c7f6941b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/a/5afb69c4ba11ae4fca7aa0be8ecec5ba127cf009" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/3/6366a31656ae5f34fffd31edb9b02b670f0fd0f6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/a/6a672aafb79a9284d9c6213311b2c95884297b29" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/c/6c377a097289a3e1889536b39271a0919158d2f8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/2/720fb99d0b23ce22c109502dada215656d71de59" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/a/7a0dbe97d32f1872c37f1b1addb107c99f872f72" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/7/87362df20e586aaf65143c948869794e6ce0a7f8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/2/920e7382de7fb0bfbe9211ebed05809ea717a458" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/3/93fcdc415d672a12afeae02a994ff9ac9572b7eb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/c/9c3e18ae80f76c1dd9ab2f0b5fa308f8c34e164d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/c/9c44bbd50abb9bf65c080e538a2300b0cf2d851c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/1/a189954591c2e9857aa9e881123ce2b9717880d0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/8/a8d8b352659bed4d82dfe44c2478f377ff2a7523" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/d/ad78d03e3d65b267b24d69024daba9e814229ed5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/5/b5e57847983557236ceef4423bce6cdd750ce865" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/6/b6a4a7b0e6fb9cba401ecf13cede14eef05ce05b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/6/b6f6c10434c124b6d6ba9b3030f0ccff934fecdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/a/baf53f51706d1f52034a97bbdd4739055330195b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/7/c7c817c399a0bbd81f9ac9a942b855a7bb4bf1f1" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/7/c7c817c399a0bbd81f9ac9a942b855a7bb4bf1f1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/b/cb42a508e5b3ba89baca610a4cd2ec932feab59e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/b/cb61b2eb4b81723f5c7a35b7442896850c0de76f" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/b/cb61b2eb4b81723f5c7a35b7442896850c0de76f" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/b/cb945bf5b7fe3283978cbb7d405d17ad663892a2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/4/d4c45b97368b4a05a753bd26d29262bce094f9ef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/c/dcafd1dd65ceae5845785afb5dc194ceedcac450" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/0/e0cd66343312eed5b0b72c20e1258ebbac0899e9" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/6/e656072155d755f4735a98a106ff6fbffde1d3cb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/6/e69fbc8f1f8ff55ba0929bc793d547a715c88049" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/a/ea70998d6f8a07b8d4f17e65658cbcc4e4064fbf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/c/fc2fa6b3188945b8ca94c4a0bc6d7b49432e65b5" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/c/fc2fa6b3188945b8ca94c4a0bc6d7b49432e65b5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/e/fe6a6e818ca6f2a57b16d538d39ba436422e4260" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/st-java.github.io/c2stage_20220503/ccc186xml_dom4J/ccc003Contacts.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/st-java.github.io/c2stage_20220503/ccc186xml_dom4J/ccc004Contacts2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/c2stage_20220503/ccc186xml_dom4J/ccc003Contacts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/c2stage_20220503/ccc187xml_save/ccc003Contacts.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/c2stage_20220503/ccc186xml_dom4J/ccc004Contacts2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/c2stage_20220503/ccc188xml_search/ccc004Contacts2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/st-java.github.io.iml" beforeDir="false" afterPath="$PROJECT_DIR$/st-java.github.io.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/c2stage_20220405/ccc115file_api/ccc001file.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/c2stage_20220405/ccc115file_api/ccc001file.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/c2stage_20220405/ccc116file_create/ccc001.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/c2stage_20220405/ccc116file_create/ccc001.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/c2stage_20220410/ccc118delete/eee051删除和注意事项.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/c2stage_20220410/ccc118delete/eee051删除和注意事项.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/c2stage_20220410/ccc120file_recusion/ccc001.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/c2stage_20220410/ccc120file_recusion/ccc001.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/c2stage_20220410/ccc121file_recusion_case/ccc001.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/c2stage_20220410/ccc121file_recusion_case/ccc001.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/c2stage_20220410/ccc123file_recusion_search/ccc002bear_case.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/c2stage_20220412/ccc124beer_case/ccc001.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/c2stage_20220412/ccc124beer_case/ccc001.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/c2stage_20220412/ccc125charset/ccc001.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/c2stage_20220412/ccc125charset/ccc001.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/c2stage_20220412/ccc126IO/ccc001.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/c2stage_20220412/ccc126IO/ccc001.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/c2stage_20220412/ccc127file_io/ccc001.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/c2stage_20220412/ccc127file_io/ccc001.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/c2stage_20220412/ccc127file_io/ccc002.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/c2stage_20220412/ccc127file_io/ccc002.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/c2stage_20220415/ccc128file_input_stream/ccc001.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/c2stage_20220415/ccc128file_input_stream/ccc001.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/c2stage_20220415/ccc129file_input_stream2/ccc001.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/c2stage_20220415/ccc129file_input_stream2/ccc001.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/c2stage_20220416/ccc130file_output_stream/ccc001.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/c2stage_20220416/ccc130file_output_stream/ccc001.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/c2stage_20220416/ccc131file_output_stream2/eee079编码格式.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/c2stage_20220416/ccc131file_output_stream2/eee079编码格式.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/c2stage_20220416/ccc132try_catch_finally/ccc002.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/c2stage_20220416/ccc132try_catch_finally/ccc002.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/c2stage_20220416/ccc133try_with_resource/ccc001.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/c2stage_20220416/ccc133try_with_resource/ccc001.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,32 +104,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "Downloaded.Files.Path.Enabled": "true",
-    "Repository.Attach.Annotations": "true",
-    "Repository.Attach.JavaDocs": "true",
-    "Repository.Attach.Sources": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/1/Documents/GitHub/st-java.github.io/src/c2stage_20220503/ccc188xml_search",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "工件",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2551724",
-    "settings.editor.selected.configurable": "preferences.sourceCode.HTML",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;true&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;true&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;true&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/1/Documents/GitHub/st-java.github.io/src/c2stage_20220503/ccc188xml_search&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;工件&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2551724&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.HTML&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RebelAgentSelection">
     <selection>jxr</selection>
   </component>
@@ -191,11 +233,11 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="应用程序.ccc001rundemo" />
+        <item itemvalue="JUnit.ccc001.show" />
         <item itemvalue="JUnit.ccc001.show4" />
         <item itemvalue="JUnit.ccc001.show3" />
         <item itemvalue="JUnit.ccc001.show2" />
-        <item itemvalue="JUnit.ccc001.show" />
+        <item itemvalue="应用程序.ccc001rundemo" />
       </list>
     </recent_temporary>
   </component>
@@ -219,6 +261,9 @@
       <workItem from="1651452998049" duration="276000" />
       <workItem from="1651454148420" duration="34386000" />
       <workItem from="1651537398449" duration="22084000" />
+      <workItem from="1651575972268" duration="1069000" />
+      <workItem from="1651624695229" duration="4983000" />
+      <workItem from="1651645142535" duration="8547000" />
     </task>
     <task id="LOCAL-00001" summary="转换编码格式为UTF-8">
       <created>1651067987923</created>

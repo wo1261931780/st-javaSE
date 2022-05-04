@@ -26,6 +26,5 @@ public class ccc001 {
 
         int demo2 = x.read();// read方法，底层是stream流的形式，所以读取是按照顺序往前走的
         System.out.println((char) demo2);// 因为是中文，一个汉字占用两个字节，所以会乱码
-
     }
 }
