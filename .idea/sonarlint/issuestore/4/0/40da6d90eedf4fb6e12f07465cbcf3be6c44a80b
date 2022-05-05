@@ -1,0 +1,10 @@
+
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(È ë¢ÿÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ƒéÈû
+c
+java:S2095"NUse try-with-resources or close this "FileOutputStream" in a "finally" clause.(’•/
+\
+java:S1075"ARefactor your code to get this URI from a customizable parameter.(‚¿ˆ“ÿÿÿÿÿ
+A
+java:S1481"&Remove this unused "x" local variable.(‚¿ˆ“ÿÿÿÿÿ
+V	java:S125"<This block of commented-out lines of code should be removed.(ƒÜÕ‘ÿÿÿÿÿ

@@ -1,0 +1,16 @@
+
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ÒŸ°Çÿÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(™úý³
+W
+java:S1075"ARefactor your code to get this URI from a customizable parameter.(Î¤²ü
+S	java:S106"9Replace this use of System.out or System.err by a logger.(°ß¼œúÿÿÿÿ
+W
+java:S1075!"ARefactor your code to get this URI from a customizable parameter.(µ€Öú
+N	java:S106""9Replace this use of System.out or System.err by a logger.(ÍòÎë
+\
+java:S1075'"ARefactor your code to get this URI from a customizable parameter.(ˆüÏÆúÿÿÿÿ
+N	java:S106("9Replace this use of System.out or System.err by a logger.(Ùç÷‹
+\
+java:S1075+"ARefactor your code to get this URI from a customizable parameter.(ÀËÕ™üÿÿÿÿ
+N	java:S106."9Replace this use of System.out or System.err by a logger.(õ»Ò­
+Q	java:S125,"<This block of commented-out lines of code should be removed.(ˆ·¡û
