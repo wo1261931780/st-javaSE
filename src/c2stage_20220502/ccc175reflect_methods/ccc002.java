@@ -13,7 +13,6 @@ import java.lang.reflect.Method;
  * Time:  2022-05-16-03  星期一
  */
 public class ccc002 {
-
     @Test
     public void show_method() {
         Class x = ccc001dog.class;
@@ -36,5 +35,4 @@ public class ccc002 {
         Object res = eat.invoke(demo, "123");// 反射的意义，是将方法/参数的调用反转，让方法使用对象，而不是对象使用方法
         System.out.println(res);
     }
-
 }

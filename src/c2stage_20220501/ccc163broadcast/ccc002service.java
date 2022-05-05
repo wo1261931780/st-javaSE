@@ -21,6 +21,5 @@ public class ccc002service {
         String x = new String(demo_st, 0, demo_p.getLength());
         System.out.println(x);
         demo_s.close();
-
     }
 }

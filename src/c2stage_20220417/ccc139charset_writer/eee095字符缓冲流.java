@@ -38,5 +38,4 @@ public class eee095字符缓冲流 {
         }
         System.out.println("读取结束");
     }
-
 }

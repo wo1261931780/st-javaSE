@@ -33,7 +33,5 @@ public class ccc001 {
         x4.add(true);
         x4.add("555");
         System.out.println(x3);//[123, 123, 测试, true, 555]
-
-
     }
 }

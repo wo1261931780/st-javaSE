@@ -22,6 +22,5 @@ public class ccc002fileinputstream extends ccc001inputstream {
         buffer[2]=1;
         System.out.println("我读取了字节数组"+ Arrays.toString(buffer));
         return buffer.length;
-
     }
 }

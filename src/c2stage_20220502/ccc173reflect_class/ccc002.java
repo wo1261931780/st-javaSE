@@ -13,7 +13,6 @@ import java.lang.reflect.InvocationTargetException;
  * Time:  2022-05-14-37  星期一
  */
 public class ccc002 {
-
     @Test
     public void showcons() {
         Class x = ccc001object.class;
@@ -22,7 +21,6 @@ public class ccc002 {
             System.out.println(constructor.getName() + "----内部的参数数量：" + constructor.getParameterCount());
         }
     }
-
     @Test
     public void showallcons() {
         Class x = ccc001object.class;
@@ -31,7 +29,6 @@ public class ccc002 {
             System.out.println(constructor.getName() + "----内部的参数数量：" + constructor.getParameterCount());
         }
     }
-
     @Test
     public void showsinglecons() throws NoSuchMethodException {
         Class x = ccc001object.class;
@@ -39,7 +36,6 @@ public class ccc002 {
         // 这里默认获取public修饰的
         System.out.println(demo.getName() + "----内部的参数数量：" + demo.getParameterCount());
     }
-
     @Test
     public void showparticularcons() throws NoSuchMethodException, InvocationTargetException, InstantiationException, IllegalAccessException {
         Class x = ccc001object.class;
@@ -57,5 +53,4 @@ public class ccc002 {
         ccc001object o1 = (ccc001object) demo1.newInstance("111", "111", 123);
         System.out.println(o1);// ccc001{name='111', address='111', age=123}
     }
-
 }

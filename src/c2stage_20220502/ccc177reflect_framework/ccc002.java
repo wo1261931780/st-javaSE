@@ -20,7 +20,6 @@ public class ccc002 {
         x.setAddress("333");
         show(x);
     }
-
     public static void show(Object obj) {
         Class x = ccc001.class;
         Field[] variable = x.getDeclaredFields();

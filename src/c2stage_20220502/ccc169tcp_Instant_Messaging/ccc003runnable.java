@@ -13,11 +13,9 @@ import java.util.Scanner;
  */
 public class ccc003runnable implements Runnable {
     private Socket socket;
-
     public ccc003runnable(Socket socket) {
         this.socket = socket;
     }
-
     @Override
     public void run() {
         try {
@@ -34,7 +32,6 @@ public class ccc003runnable implements Runnable {
             System.out.println(socket.getRemoteSocketAddress() + "已经下线");
             throw new RuntimeException(e);
         }
-
     }
 
     private void mredirection(String str) throws IOException {

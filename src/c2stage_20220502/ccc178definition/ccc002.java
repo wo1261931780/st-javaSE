@@ -11,17 +11,13 @@ package c2stage_20220502.ccc178definition;
 public class ccc002 {
     @ccc001(name = "aa", authors = {"123", "12"}, price = 12.22)
     private int age;
-
     public ccc002() {
     }
-
     @ccc001(name = "aa", authors = {"123", "12"}, price = 12.22)
     public static void show() {
-
     }
 
     @ccc003(price = 123.33)// 单个属性的注解可以省略变量
     // 如果两个变量，有一个有默认值，也只需要写一个注解
     private int prices;
-
 }

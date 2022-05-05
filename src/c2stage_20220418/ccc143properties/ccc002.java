@@ -22,7 +22,5 @@ public class ccc002 {
         System.out.println(demo);//输出，得到结果
         String demo2 = x.getProperty("222");
         System.out.println(demo2);// 没有对应键，就是null
-
-
     }
 }

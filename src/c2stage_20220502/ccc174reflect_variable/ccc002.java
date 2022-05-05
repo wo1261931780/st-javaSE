@@ -13,7 +13,6 @@ import java.lang.reflect.InvocationTargetException;
  * Time:  2022-05-15-06  星期一
  */
 public class ccc002 {
-
     @Test
     public void show_v() throws NoSuchMethodException, InvocationTargetException, InstantiationException, IllegalAccessException {
         Class x = ccc001.class;
@@ -24,7 +23,6 @@ public class ccc002 {
             System.out.println(field.getName() + "-----" + field.getType());
         }
     }
-
     @Test
     public void show_v2() {
         Class x = ccc001.class;
@@ -33,7 +31,6 @@ public class ccc002 {
             System.out.println(field.getName() + "-----" + field.getType());
         }
     }
-
     @Test
     public void show_v3() throws NoSuchFieldException, IllegalAccessException {
         Class x = ccc001.class;
@@ -48,7 +45,5 @@ public class ccc002 {
         // private int c2stage_20220502.ccc174reflect_variable.ccc001.age------int
         int res = (Integer) age.get(demo);// 根据变量，得到值
         System.out.println(res);
-
     }
-
 }

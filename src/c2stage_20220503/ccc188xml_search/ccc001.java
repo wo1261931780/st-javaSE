@@ -71,7 +71,5 @@ public class ccc001 {
         Node res = doc.selectSingleNode("//name[@id]");// 查询，这个是查询单个元素，有多个返回第一条
         // List<Node> res = doc.selectNodes("//name[@id]");// 查询，name中包含id的元素
         // List<Node> res = doc.selectNodes("//name[@id=888]");// 定位id为888的元素
-
-
     }
 }

@@ -24,7 +24,6 @@ public class ccc001 {
             String msg = sc.nextLine();
             demo.println(msg);
             demo.flush();
-
         }
     }
 }

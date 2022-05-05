@@ -22,14 +22,11 @@ public class ccc001client {
 
         while (true) {
             String str = sc.nextLine();
-
             printStream.println(str);
-
             if (str.equals("exit")) {
                 x.close();
                 break;
             }
-
             printStream.flush();
         }
     }

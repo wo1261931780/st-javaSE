@@ -104,6 +104,4 @@ public class ccc001 {
         int during = (int) (endtime - sttime);
         System.out.println("写入结束" + (during / 60) + "秒");
     }
-
-
 }

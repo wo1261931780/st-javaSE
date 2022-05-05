@@ -3,10 +3,10 @@ w
 java:S1319"aThe type of "x" should be an interface such as "List" rather than the implementation "ArrayList".(®“³ë
 g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(„„¸èûÿÿÿÿ
 n	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(þõï
-b
-java:S2095"LUse try-with-resources or close this "BufferedWriter" in a "finally" clause.(÷ñÅ‘
 g
 java:S2095"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(¨ÏÈ—þÿÿÿÿ
+b
+java:S2095"LUse try-with-resources or close this "BufferedWriter" in a "finally" clause.(÷ñÅ‘
 B
 java:S1481"'Remove this unused "x2" local variable.(¨ÏÈ—þÿÿÿÿ
 V	java:S125 "<This block of commented-out lines of code should be removed.(š¹¥´ùÿÿÿÿ

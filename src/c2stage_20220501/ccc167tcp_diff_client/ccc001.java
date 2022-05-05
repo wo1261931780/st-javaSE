@@ -17,7 +17,6 @@ public class ccc001 {
     public static void main(String[] args) throws IOException {
         Socket x = new Socket("127.0.0.1", 7777);
         OutputStream otp = x.getOutputStream();
-
         PrintStream demoprint = new PrintStream(otp);
         Scanner sc = new Scanner(System.in);
         while (true) {
@@ -29,6 +28,5 @@ public class ccc001 {
             }
             demoprint.flush();
         }
-
     }
 }

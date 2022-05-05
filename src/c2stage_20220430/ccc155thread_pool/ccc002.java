@@ -19,6 +19,5 @@ public class ccc002 implements Runnable {
                 throw new RuntimeException(e);
             }
         }
-
     }
 }

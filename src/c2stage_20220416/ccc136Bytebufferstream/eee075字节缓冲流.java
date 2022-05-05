@@ -46,6 +46,5 @@ public class eee075字节缓冲流 {
             // 当读取尚未结束的时候，
             System.out.println(new String(xx, 0, x4));
         }
-
     }
 }

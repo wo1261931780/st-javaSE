@@ -26,8 +26,6 @@ public class ccc002 {
         while ((str=br.readLine())!=null){
             // 这里读取的是整行消息，如果不是整行，就会报错
             System.out.println(x.getInetAddress()+"传输的内容是："+str);
-
         }
-
     }
 }

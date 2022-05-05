@@ -16,7 +16,6 @@ public class ccc003operator_thread extends Thread {
     private Socket demosoc;
 
     public ccc003operator_thread() {
-
     }
 
     public ccc003operator_thread(Socket demosoc) {

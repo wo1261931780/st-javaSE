@@ -16,6 +16,5 @@ public class ccc002 {
 
         ccc001object x3 = new ccc001object();
         Class x4 = x3.getClass();
-
     }
 }

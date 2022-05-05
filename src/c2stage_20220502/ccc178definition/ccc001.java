@@ -9,9 +9,6 @@ package c2stage_20220502.ccc178definition;
  */
 public @interface ccc001 {
     String name();
-
     String[] authors();
-
     double price();
-
 }

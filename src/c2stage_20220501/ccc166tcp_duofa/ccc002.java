@@ -24,7 +24,5 @@ public class ccc002 {
         while ((sendm = br.readLine()) != null) {
             System.out.println(sendm);
         }
-
-
     }
 }

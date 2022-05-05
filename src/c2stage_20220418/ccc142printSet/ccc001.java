@@ -17,6 +17,5 @@ public class ccc001 {
         System.setOut(x);// 设置重定向，将打印流的位置输出到文件中
         System.out.println("2022年4月19日21:25:07");
         System.out.println("测试");
-
     }
 }

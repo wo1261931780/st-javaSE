@@ -24,7 +24,6 @@ public class ccc004 {
 
         System.out.println(dap.getSocketAddress());// 获得对方的地址和端口--192.168.3.132:51332
         System.out.println(dap.getPort());// 对方端口51332
-
         soc.close();
     }
 }

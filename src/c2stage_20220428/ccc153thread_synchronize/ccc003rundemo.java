@@ -15,6 +15,5 @@ public class ccc003rundemo {
         // t1.start();
         new ccc002thread(x).start();
         new ccc002thread(x).start();
-
     }
 }

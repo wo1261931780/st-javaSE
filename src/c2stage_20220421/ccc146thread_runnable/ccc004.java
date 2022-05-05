@@ -22,8 +22,6 @@ public class ccc004 {
         // new Thread(s -> System.out.println("匿名内部类")).start();
         new Thread(() -> System.out.println("匿名内部类")).start();
         // 上面，相当于括号内就是重写方法
-
-
     }
 }
 

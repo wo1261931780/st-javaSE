@@ -12,6 +12,5 @@ public class ccc001object {
     }
 
     public static void main(String[] args) {
-
     }
 }

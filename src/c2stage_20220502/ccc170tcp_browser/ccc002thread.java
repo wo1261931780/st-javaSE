@@ -12,11 +12,9 @@ import java.net.Socket;
  */
 public class ccc002thread implements Runnable {
     private Socket socket;
-
     public ccc002thread(Socket socket) {
         this.socket = socket;
     }
-
     @Override
     public void run() {
         try {
@@ -36,7 +34,5 @@ public class ccc002thread implements Runnable {
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
-
-
     }
 }

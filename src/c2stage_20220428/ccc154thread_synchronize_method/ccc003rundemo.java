@@ -13,6 +13,5 @@ public class ccc003rundemo {
         x.setBalance(10000);
         ccc002thread t1 = new ccc002thread(x);
         t1.start();
-
     }
 }

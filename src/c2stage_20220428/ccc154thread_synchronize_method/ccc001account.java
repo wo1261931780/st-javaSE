@@ -15,8 +15,6 @@ public class ccc001account {
 
     private final Lock x = new ReentrantLock();
     // 将其设置为不可修改的常量
-
-
     public double getBalance() {
         return balance;
     }
@@ -40,7 +38,5 @@ public class ccc001account {
         // x.unlock();
         // 这里有个问题，
         // 如果代码运行过程中报错，可能程序死亡，导致后续的进程无法解锁，出现死锁的情况
-
-
     }
 }

@@ -13,5 +13,4 @@ public interface ccc001service {
     void deleteuser();
 
     boolean deleteuser(String acc, String paw);
-
 }

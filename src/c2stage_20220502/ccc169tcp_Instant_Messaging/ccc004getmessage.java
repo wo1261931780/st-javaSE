@@ -15,11 +15,9 @@ import java.net.Socket;
  */
 public class ccc004getmessage extends Thread {
     private Socket socket;
-
     public ccc004getmessage(Socket socket) {
         this.socket = socket;
     }
-
     @Override
     public void run() {
         try {
@@ -34,7 +32,5 @@ public class ccc004getmessage extends Thread {
             ccc002service.allonlinesoc.remove(socket);// 删除对应的管道
             throw new RuntimeException(e);
         }
-
-
     }
 }

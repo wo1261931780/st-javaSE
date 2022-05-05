@@ -21,7 +21,6 @@ public class ccc002test_showres {
         // 平时不需要这样
         Assertions.assertEquals("登录成功", res, "账号密码错误");
     }
-
     @Test
     public void test_caculat() {
         ccc001 x = new ccc001();
@@ -29,7 +28,6 @@ public class ccc002test_showres {
 
         x.showres();// java.lang.ArithmeticException: / by zero
     }
-
     @BeforeEach
     public void beforem() {
         System.out.println("我在方法以后执行一次");
@@ -46,13 +44,9 @@ public class ccc002test_showres {
         System.out.println("我在类加载之前执行---------");
 
     }
-
     @AfterAll
     public static void AfterAll() {// 在类之前执行，因为类之前不存在实例，所以一定是静态的
         // public void AfterAll() {
         System.out.println("我在类加载之后执行---------");
-
     }
-
-
 }

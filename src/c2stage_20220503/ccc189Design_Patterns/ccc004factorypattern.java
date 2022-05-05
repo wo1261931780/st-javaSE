@@ -8,8 +8,6 @@ package c2stage_20220503.ccc189Design_Patterns;
  * Time:  2022-05-17-26  星期二
  */
 public class ccc004factorypattern {
-
-
     public static ccc001computer creatcomputer(String info) {
         switch (info) {
             case "mac":

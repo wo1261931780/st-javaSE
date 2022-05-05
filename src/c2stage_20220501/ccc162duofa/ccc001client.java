@@ -49,7 +49,5 @@ public class ccc001client {
             DatagramPacket p = new DatagramPacket(demo, demo.length, InetAddress.getLocalHost(), 8888);
             x.send(p);
         }
-
-
     }
 }

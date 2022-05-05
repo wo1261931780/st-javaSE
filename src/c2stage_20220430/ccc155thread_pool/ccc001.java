@@ -44,8 +44,5 @@ public class ccc001 {
 
         x.shutdownNow();// 直接关闭线程池，如果有睡眠的线程，也会丢失
         x.shutdown();// 等待所有线程执行完毕再关掉
-
-
     }
-
 }

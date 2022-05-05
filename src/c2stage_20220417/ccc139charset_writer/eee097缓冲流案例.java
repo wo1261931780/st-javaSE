@@ -29,6 +29,5 @@ public class eee097缓冲流案例 {
         x1.close();
         x2.close();
         System.out.println("结束");
-
     }
 }

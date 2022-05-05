@@ -8,8 +8,6 @@ package c2stage_20220503.ccc189Design_Patterns;
  * Time:  2022-05-17-17  星期二
  */
 public class ccc002mac extends ccc001computer{
-
-
     @Override
     public void wakeup() {
         System.out.println("mac图标出现了");

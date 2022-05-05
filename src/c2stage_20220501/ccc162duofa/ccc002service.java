@@ -38,10 +38,6 @@ public class ccc002service {
                 break;
             }
             System.out.println(str);
-
-
         }
-
-
     }
 }

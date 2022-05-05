@@ -27,6 +27,5 @@ public class ccc001 {
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
-
     }
 }

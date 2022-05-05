@@ -1,7 +1,6 @@
 package c2stage_20220428.ccc149callable;
 
 import java.util.concurrent.Callable;
-import java.util.concurrent.ExecutionException;
 import java.util.concurrent.FutureTask;
 
 /**
@@ -29,8 +28,6 @@ public class ccc001 {
             // throw new RuntimeException(e);
             e.printStackTrace();// 打印异常结果
         }
-
-
     }
 }
 

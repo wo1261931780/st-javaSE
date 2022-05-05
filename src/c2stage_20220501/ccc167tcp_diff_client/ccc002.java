@@ -25,7 +25,5 @@ public class ccc002 {
         // while ((str = xx.readLine()) != null) {
         //     System.out.println(demosoc.getRemoteSocketAddress() + "传输内容：" + str);
         // }
-
-
     }
 }
