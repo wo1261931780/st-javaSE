@@ -1,0 +1,7 @@
+
+n	java:S101
+"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ÿèòüÿÿÿÿ8©“¬Êˆ0
+n	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ƒÃ±Y
+c
+java:S1610
+"AConvert the abstract class "ccc001inputstream" into an interface.(ÿèòüÿÿÿÿ8×®Ëˆ0

@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="92262de5-e372-4bdc-99f8-c27ceec6dfd1" name="变更" comment="转换编码格式为UTF-8">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/b/3bc1e228d7482be74216790ef4c6efaa1bb425ec" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/8/480ceda39761b783d6bad41ab74024670d91d357" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/c/fc2fa6b3188945b8ca94c4a0bc6d7b49432e65b5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/d/fda9cd40cbddca39848fda36a8f54077ccf18bdf" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -210,7 +207,8 @@
       <workItem from="1651717773841" duration="966000" />
       <workItem from="1651750661882" duration="8635000" />
       <workItem from="1651797998058" duration="467000" />
-      <workItem from="1651835600533" duration="710000" />
+      <workItem from="1651835600533" duration="1307000" />
+      <workItem from="1651884171645" duration="21000" />
     </task>
     <task id="LOCAL-00001" summary="转换编码格式为UTF-8">
       <created>1651067987923</created>

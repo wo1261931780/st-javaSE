@@ -1655,3 +1655,11 @@ t
 Dsrc/c2stage_20220503/ccc189Design_Patterns/ccc004factorypattern.java,e\6\e692f5519d77262ec40d78a286953aa78cbe99fb
 m
 =src/c2stage_20220503/ccc189Design_Patterns/ccc005rundemo.java,5\e\5ec0056542725adc0b7e72895aa54407e9cd77ad
+t
+Dsrc/c2stage_20220503/ccc190Decoration_pattern/ccc001inputstream.java,f\d\fda9cd40cbddca39848fda36a8f54077ccf18bdf
+p
+@src/c2stage_20220503/ccc190Decoration_pattern/ccc001rundemo.java,f\c\fc2fa6b3188945b8ca94c4a0bc6d7b49432e65b5
+x
+Hsrc/c2stage_20220503/ccc190Decoration_pattern/ccc002fileinputstream.java,4\8\480ceda39761b783d6bad41ab74024670d91d357
+~
+Nsrc/c2stage_20220503/ccc190Decoration_pattern/ccc003bufferfileinputstream.java,3\b\3bc1e228d7482be74216790ef4c6efaa1bb425ec
