@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="92262de5-e372-4bdc-99f8-c27ceec6dfd1" name="变更" comment="转换编码格式为UTF-8">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/b/3bc1e228d7482be74216790ef4c6efaa1bb425ec" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/8/480ceda39761b783d6bad41ab74024670d91d357" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/c/fc2fa6b3188945b8ca94c4a0bc6d7b49432e65b5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/d/fda9cd40cbddca39848fda36a8f54077ccf18bdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-    </list>
+    <list default="true" id="92262de5-e372-4bdc-99f8-c27ceec6dfd1" name="变更" comment="转换编码格式为UTF-8" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,6 +12,9 @@
   </component>
   <component name="CodeInsightWorkspaceSettings">
     <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -35,8 +32,19 @@
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
   </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="a0dbd5ad-5e18-4a02-b667-51be44a4c739" />
+        <option name="url" value="https://github.com/wo1261931780/st-java.github.io.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
   </component>
   <component name="ProjectId" id="28NqmHv5QyaPQjY75k1AvB6YkqK" />
   <component name="ProjectLevelVcsManager">
@@ -60,7 +68,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/1/Documents/GitHub/st-java.github.io/src/c2stage_20220503/ccc188xml_search&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/1/Documents/GitHub/st-java.github.io&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -68,7 +76,7 @@
     &quot;project.structure.last.edited&quot;: &quot;工件&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2551724&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.HTML&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -88,7 +96,7 @@
       <recent name="C:\Users\1\Documents\GitHub\st-java.github.io\src\c2stage_20220503\ccc187xml_case" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.ccc001rundemo">
+  <component name="RunManager" selected="JUnit.ccc001.show">
     <configuration name="ccc001rundemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="c2stage_20220503.ccc190Decoration_pattern.ccc001rundemo" />
       <module name="st-java.github.io" />
@@ -179,7 +187,6 @@
         <item itemvalue="JUnit.ccc001.show4" />
         <item itemvalue="JUnit.ccc001.show3" />
         <item itemvalue="JUnit.ccc001.show2" />
-        <item itemvalue="应用程序.ccc001rundemo" />
       </list>
     </recent_temporary>
   </component>
@@ -216,6 +223,13 @@
       <workItem from="1651835600533" duration="1307000" />
       <workItem from="1651884171645" duration="21000" />
       <workItem from="1652101719704" duration="43000" />
+      <workItem from="1652894595110" duration="30000" />
+      <workItem from="1652894631207" duration="69000" />
+      <workItem from="1652894709492" duration="101000" />
+      <workItem from="1652895269623" duration="297000" />
+      <workItem from="1652895594520" duration="19000" />
+      <workItem from="1652896513749" duration="44000" />
+      <workItem from="1652896569527" duration="53000" />
     </task>
     <task id="LOCAL-00001" summary="转换编码格式为UTF-8">
       <created>1651067987923</created>
