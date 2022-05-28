@@ -3,7 +3,7 @@
   <br>st-java.github.io<br>
 </h1>
 
-<p align="center">A note-taking project developed using jdk17. To record my course notes on learning java and to help zero-based developers start on the path to code.</p>
+<p align="center">一个用jdk17开发的记事本项目。用来记录我学习java的课程笔记，并帮助零基础的开发者开始走上代码之路。</p>
 
 <div align="center">
 
@@ -15,9 +15,9 @@
 <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/wo1261931780/st-java.github.io?color=%23ca3e47&style=for-the-badge">
 
 <p align="center">
-    <a href="README.md">English</a>
+    <a href="profile_temple.md">English</a>
     ·
-    <a href="./README_cn.md">简体中文</a>    
+    <a href="./profile_temple_cn.md">简体中文</a>    
 <p/>
 
 ![Alt](https://repobeats.axiom.co/api/embed/45a614ea242e2cdb9bb06d089e86d2784c4fa8c8.svg "Repobeats analytics image")
@@ -29,12 +29,12 @@
 
 ## Features
 
-- [x] Support the latest jdk17
-- [x] No need to install any dependencies, ready to use
-- [x] use GPL-3 open source certificate
-- [ ] io stream after the content is not yet finished
+- [x] 支持最新的jdk17
+- [x] 不需要安装任何依赖，即开即用
+- [x] 使用GPL-3开源证书
+- [ ] io流以后的内容暂未整理完成
 
-## Constructing tools
+## 构造工具
 
 <p>
 <img src="https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white" style="margin-bottom: 4px;" height="30px">
@@ -42,7 +42,7 @@
 <img src="https://img.shields.io/badge/IntelliJ%20IDEA-fd266a.svg?&style=for-the-badge&logo=IntelliJ%20IDEA&logoColor=white" style="margin-bottom: 4px;" height="30px">
 </p>
 
-## Follow me
+## 关注我
 
 <p>
 <a href="https://weibo.com/u/6511079715"><img src="https://img.shields.io/badge/佳珺不谈恋爱-%181717.svg?&style=for-the-badge&logo=sina-weibo&logoColor=white&color=d52c2b" style="margin-bottom: 4px;" height="30px" target="_blank"></a>
@@ -58,7 +58,7 @@
 <a href="https://leetcode.com/junw"><img src="https://img.shields.io/badge/LeetCode-000000?style=for-the-badge&logo=LeetCode&logoColor=#d16c06" style="margin-bottom: 4px;" height="30px" target="_blank"></a>
 </p>
 
-## Donation
+## 捐献
 
 [//]: # (捐献，这里还没有绑定账号)
 <div>
@@ -73,8 +73,8 @@
 
 ## Thanks
 
-Thanks to everyone who has submitted issues on and off Github, made suggestions, and generally helped make this a better
-project. Special thanks to
+感谢所有在Github上和Github外提交问题、提出建议，以及帮助使这个项目变得更好的人。
+特别感谢：
 
 <div align="center">
 <a href="https://github.com/wo1261931780/st-java.github.io/graphs/contributors">
@@ -90,9 +90,7 @@ project. Special thanks to
     <img src="https://resources.jetbrains.com/storage/products/company/brand/logos/jb_beam.svg" height="150">
 </p>
 </a>
-<h3 align="center"><a href="https://jb.gg/OpenSourceSupport">Supported by JetBrains</a></h3>
-<div align="center">Every aspect of IntelliJ IDEA has been designed to maximize developer productivity. Together, intelligent coding assistance and ergonomic design make development not only productive but also enjoyable.</div>
-
-
-<h2 align="center"></h2>
- <p align="center"></p>
+<h3 align="center">
+<a href="https://jb.gg/OpenSourceSupport">JetBrains提供证书支持</a>
+</h3>
+<div align="center">IntelliJ IDEA 的每个方面都旨在最大化开发者生产力。结合智能编码辅助与符合人体工程学的设计，让开发不仅高效，更成为一种享受。</div>
