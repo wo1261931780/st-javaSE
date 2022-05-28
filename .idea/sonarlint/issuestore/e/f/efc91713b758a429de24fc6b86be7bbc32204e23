@@ -1,10 +1,0 @@
-
-r	java:S127;"XRefactor the code in order to not assign to this loop counter from within the loop body.(äòÄ­øÿÿÿÿ
-b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(éÅÈØ
-S	java:S106"9Replace this use of System.out or System.err by a logger.(Ç‘¦Õþÿÿÿÿ
-S	java:S106*"9Replace this use of System.out or System.err by a logger.(Ç‘¦Õþÿÿÿÿ
-S	java:S1062"9Replace this use of System.out or System.err by a logger.(½‰¢þøÿÿÿÿ
-V	java:S1257"<This block of commented-out lines of code should be removed.(î£ˆäýÿÿÿÿ
-S	java:S106A"9Replace this use of System.out or System.err by a logger.(Ç‘¦Õþÿÿÿÿ
-C
-java:S1128".Remove this unused import 'java.util.HashSet'.(Ê‚êX

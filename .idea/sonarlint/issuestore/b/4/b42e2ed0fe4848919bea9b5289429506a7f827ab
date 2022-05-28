@@ -1,7 +1,0 @@
-
-m	java:S127"XRefactor the code in order to not assign to this loop counter from within the loop body.(Ì‚ˆÌ
-g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Áò§àùÿÿÿÿ
-t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(äèýµþÿÿÿÿ
-Q	java:S125"<This block of commented-out lines of code should be removed.(ÏŠÒÃ
-B
-java:S1481"'Remove this unused "x1" local variable.(ƒßîúÿÿÿÿ

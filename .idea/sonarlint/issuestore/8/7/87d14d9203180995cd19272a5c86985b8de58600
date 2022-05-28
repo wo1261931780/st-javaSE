@@ -1,11 +1,0 @@
-
-r	java:S1272"XRefactor the code in order to not assign to this loop counter from within the loop body.(™¡ÀÛúÿÿÿÿ
-f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.( ¼Í
-k	java:S117#"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(èŠØşÿÿÿÿ
-g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(®Ëæôüÿÿÿÿ
-V	java:S125"<This block of commented-out lines of code should be removed.(ú“÷¼ÿÿÿÿÿ
-V	java:S125"<This block of commented-out lines of code should be removed.(ú“÷¼ÿÿÿÿÿ
-=	java:S108%")Either remove or fill this block of code.(ğ«ºC
-S	java:S1069"9Replace this use of System.out or System.err by a logger.(±­¨ùÿÿÿÿ
-F
-java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ

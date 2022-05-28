@@ -1,10 +1,0 @@
-
-f	java:S117
-"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‡žøâ
-f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ûï†Â
-a	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(àí÷b
-c	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ýÂ³°
-Q	java:S125"<This block of commented-out lines of code should be removed.(…ÄÂÇ
-V	java:S125"<This block of commented-out lines of code should be removed.(º–±àþÿÿÿÿ
-Q	java:S125!"<This block of commented-out lines of code should be removed.(×ŠÔà
-S	java:S106&"9Replace this use of System.out or System.err by a logger.(í Âõøÿÿÿÿ

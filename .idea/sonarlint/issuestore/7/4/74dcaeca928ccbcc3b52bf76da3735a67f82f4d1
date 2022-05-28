@@ -1,7 +1,0 @@
-
-k	java:S117G"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Œõ¸Ðùÿÿÿÿ
->
-java:S1604M"(Make this anonymous inner class a lambda(ËËŒ‘
-g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(á–Ø¼úÿÿÿÿ
-N	java:S106T"9Replace this use of System.out or System.err by a logger.(†Ÿ÷œ
-7	java:S131a""Add a default case to this switch.(Æ Å¿
