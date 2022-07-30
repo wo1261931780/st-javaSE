@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="92262de5-e372-4bdc-99f8-c27ceec6dfd1" name="变更" comment="转换编码格式为UTF-8">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/_2022_5_28_11_46____.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2022_5_28_11_46_取消提交了变更_[变更]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/st-java.github.io.iml" beforeDir="false" afterPath="$PROJECT_DIR$/st-java.github.io.iml" afterDir="false" />
-    </list>
+    <list default="true" id="92262de5-e372-4bdc-99f8-c27ceec6dfd1" name="变更" comment="转换编码格式为UTF-8" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,6 +31,13 @@
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
+  </component>
+  <component name="GithubProjectSettings">
+    <option name="branchProtectionPatterns">
+      <list>
+        <option value="main" />
+      </list>
+    </option>
   </component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
@@ -243,6 +246,7 @@
       <workItem from="1653912621917" duration="20000" />
       <workItem from="1653997679979" duration="28000" />
       <workItem from="1659143192357" duration="82000" />
+      <workItem from="1659149154897" duration="527000" />
     </task>
     <task id="LOCAL-00001" summary="转换编码格式为UTF-8">
       <created>1651067987923</created>
