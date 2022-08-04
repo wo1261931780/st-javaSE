@@ -8,16 +8,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="92262de5-e372-4bdc-99f8-c27ceec6dfd1" name="变更" comment="转换编码格式为UTF-8">
-      <change beforePath="$PROJECT_DIR$/src/ab往期学习2021年10月2日/aaa001初期学习集合/aaa012计时器.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ab往期学习2021年10月2日/aaa001初期学习集合/aaa012计时器.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ab往期学习2021年10月2日/aaa001初期学习集合/aaa015a数组和栈内存堆内存.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ab往期学习2021年10月2日/aaa001初期学习集合/aaa015a数组和栈内存堆内存.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ab往期学习2021年10月2日/aaa001初期学习集合/aaa023e方法重载的练习.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ab往期学习2021年10月2日/aaa001初期学习集合/aaa023e方法重载的练习.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ab往期学习2021年10月2日/bbb011商城案例/bbb002bag.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ab往期学习2021年10月2日/bbb011商城案例/bbb002bag.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ab往期学习2021年10月2日/bbb011商城案例/bbb004shopcar_getset.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ab往期学习2021年10月2日/bbb011商城案例/bbb004shopcar_getset.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ab往期学习2021年10月2日/bbb018string构造方法/bbb005string案例.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ab往期学习2021年10月2日/bbb018string构造方法/bbb005string案例.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ab往期学习2021年10月2日/bbb039ATM案例/bbb002运行.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ab往期学习2021年10月2日/bbb039ATM案例/bbb002运行.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ab往期学习2021年10月2日/bbb054学生管理系统/bbb056测试类.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ab往期学习2021年10月2日/bbb054学生管理系统/bbb056测试类.java" afterDir="false" />
-    </list>
+    <list default="true" id="92262de5-e372-4bdc-99f8-c27ceec6dfd1" name="变更" comment="转换编码格式为UTF-8" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -264,7 +255,7 @@
       <workItem from="1659143192357" duration="82000" />
       <workItem from="1659149154897" duration="527000" />
       <workItem from="1659160880017" duration="20000" />
-      <workItem from="1659618830820" duration="493000" />
+      <workItem from="1659618830820" duration="599000" />
     </task>
     <task id="LOCAL-00001" summary="转换编码格式为UTF-8">
       <created>1651067987923</created>
