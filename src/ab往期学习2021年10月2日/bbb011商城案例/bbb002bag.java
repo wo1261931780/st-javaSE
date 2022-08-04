@@ -6,7 +6,7 @@ public class bbb002bag {
     public static void main(String[] args) {
         bbb001商品类[] x = new bbb001商品类[100];
         while (true) {
-            int i = Interface_root();
+            int i = interfaceRoot();
             switch (i) {
                 case 1:
                     add(x);
@@ -20,10 +20,10 @@ public class bbb002bag {
                 case 4:
                     show(x);
                     settlement(x);
-                    cls_all(x);
+                    clsAll(x);
                     break;
                 case 5:
-                    cls_all(x);
+                    clsAll(x);
                     break;
                 default:
                     show(x);
@@ -35,8 +35,8 @@ public class bbb002bag {
 // 这里也可以将方法设置在main中
 // 这样方法内部出现的scanner等指令，直接可以传递给后续的方法
 
-    public static int Interface_root() {
-        Scanner x = new Scanner(System.in);
+    public static int interfaceRoot() {
+        Scanner scanner = new Scanner(System.in);
         System.out.println("欢迎进入");
         System.out.println("1--添加商品");
         System.out.println("2--删除商品");
@@ -44,7 +44,7 @@ public class bbb002bag {
         System.out.println("4--全部结算");
         System.out.println("5--清空购物车");
         System.out.println("--请输入对应指令--");
-        int command = x.nextInt();
+        int command = scanner.nextInt();
         System.out.println("*****************************");
         return command;
     }
@@ -111,7 +111,7 @@ public class bbb002bag {
         System.out.println("总价格是：" + tol);
     }
 
-    public static void cls_all(bbb001商品类[] s) {
+    public static void clsAll(bbb001商品类[] s) {
         for (int i = 0; i < s.length; i++) {
             s[i] = null;
         }

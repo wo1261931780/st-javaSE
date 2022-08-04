@@ -11,32 +11,32 @@ public class bbb002运行 {
 // 也没有做转账系统，
         while (true) {
 
-            int choose_result = interface_start(scanner1);
-            if (choose_result == 1) {
-                bbb001账户类 account_info = interface_login(scanner1, a1);
+            int chooseResult = interfaceStart(scanner1);
+            if (chooseResult == 1) {
+                bbb001账户类 accountInfo = interfaceLogin(scanner1, a1);
                 out:
                 while (true) {
-                    int login_choose = interface_account_operate(scanner1, a1, account_info);
-                    switch (login_choose) {
+                    int loginChoose = interfaceAccountOperate(scanner1, a1, accountInfo);
+                    switch (loginChoose) {
                         case 1:
-                            querydemo(scanner1, a1, account_info);
+                            querydemo(scanner1, a1, accountInfo);
                             break;
                         case 2:
-                            deposit(scanner1, a1, account_info);
+                            deposit(scanner1, a1, accountInfo);
                             break;
                         case 3:
-                            interface_cash(scanner1, a1, account_info);
+                            interfaceCash(scanner1, a1, accountInfo);
                             break;
                         case 4:
-                            transferdemo(scanner1, a1, account_info);
+                            transferdemo(scanner1, a1, accountInfo);
                             break;
                         case 5:
-                            change_account_detail(scanner1, a1, account_info);
+                            changeAccountDetail(scanner1, a1, accountInfo);
                             break;
                         case 6:
                             break out;
                         case 7:
-                            logout_account(scanner1, a1, account_info);
+                            logoutAccount(scanner1, a1, accountInfo);
                             // break out;
                             return;//直接返回就可以，不需要break
                         default:
@@ -44,34 +44,34 @@ public class bbb002运行 {
 
                     }
                 }
-            } else if (choose_result == 2) {
-                interface_register(scanner1, a1);
+            } else if (chooseResult == 2) {
+                interfaceRegister(scanner1, a1);
             } else {
                 break;
             }
         }
     }
 
-    public static int interface_start(Scanner scanner1) {
+    public static int interfaceStart(Scanner scanner1) {
         System.out.println("=====================请输入命令=====================");
         System.out.println("1.登录账户");
         System.out.println("2.注册账户");
         System.out.println("请选择操作：");
-        int start_int = scanner1.nextInt();
-        return start_int;
+        int startInt = scanner1.nextInt();
+        return startInt;
     }
 
-    public static bbb001账户类 interface_login(Scanner scanner1, ArrayList<bbb001账户类> a) {
+    public static bbb001账户类 interfaceLogin(Scanner scanner1, ArrayList<bbb001账户类> a) {
         // bbb001账户类 account_demo = new bbb001账户类();
         Scanner x1 = new Scanner(System.in);
         System.out.println("=====================欢迎进入登录页面=====================");
         for (int i1 = 0; i1 < 3; i1++) {
             System.out.println("请输入账户名称：");
-            String login_account = x1.nextLine();
+            String loginAccount = x1.nextLine();
             System.out.println("请输入账户密码：");
-            String login_password = x1.nextLine();
+            String loginPassword = x1.nextLine();
             for (int i = 0; i < a.size(); i++) {
-                if (a.get(i).getAccountName().equals(login_account) && a.get(i).getAccountpassword().equals(login_password)) {
+                if (a.get(i).getAccountName().equals(loginAccount) && a.get(i).getAccountpassword().equals(loginPassword)) {
                     System.out.println("登录成功");
                     return a.get(i);
                 }
@@ -82,29 +82,29 @@ public class bbb002运行 {
         return null;
     }
 
-    public static void interface_register(Scanner scanner1, ArrayList<bbb001账户类> a) {
-        bbb001账户类 account_demo = new bbb001账户类();
+    public static void interfaceRegister(Scanner scanner1, ArrayList<bbb001账户类> a) {
+        bbb001账户类 accountDemo = new bbb001账户类();
         System.out.println("=====================欢迎进入开户操作=====================");
         Scanner xx = new Scanner(System.in);
         System.out.println("请输入账户名称：");
         String s1 = xx.nextLine();
-        account_demo.setAccountName(s1);
+        accountDemo.setAccountName(s1);
         Scanner xx2 = new Scanner(System.in);
 
         System.out.println("请输入账户密码：");
         String s2 = xx2.nextLine();
-        account_demo.setAccountpassword(s2);
+        accountDemo.setAccountpassword(s2);
         // System.out.println("请设置取现额度：");
 
         // int s3 = xx2.nextInt();
         // account_demo.setAccountcashlimit(s3);
-        account_demo.setAccountcashlimit(3000);
-        a.add(account_demo);
+        accountDemo.setAccountcashlimit(3000);
+        a.add(accountDemo);
         System.out.println("创建完毕，请重新登陆");
         // return account_demo;
     }
 
-    public static int interface_account_operate(Scanner scanner1, ArrayList<bbb001账户类> a, bbb001账户类 info) {
+    public static int interfaceAccountOperate(Scanner scanner1, ArrayList<bbb001账户类> a, bbb001账户类 info) {
         // String account_info = "";
         // for (int i = 0; i < a.size(); i++) {
         //     if (info == a.get(i).getAccountNumber()) {
@@ -122,8 +122,8 @@ public class bbb002运行 {
         System.out.println("6.退出");
         System.out.println("7.注销账户");
         System.out.println("请选择操作：");
-        int account_operate_int = scanner1.nextInt();
-        return account_operate_int;
+        int accountOperateInt = scanner1.nextInt();
+        return accountOperateInt;
     }
 
     public static void querydemo(Scanner scanner1, ArrayList<bbb001账户类> a, bbb001账户类 info) {
@@ -151,8 +151,8 @@ public class bbb002运行 {
             String i1 = scanner1.nextLine();
             if (info.getAccountpassword().equals(i1)) {
                 System.out.println("请输入金额：");//这里必须是正数,也需要做判断，不过小项目暂时不考虑这么多
-                int cash_balance = scanner1.nextInt() + info.getAccountbalance();
-                info.setAccountbalance(cash_balance);
+                int cashBalance = scanner1.nextInt() + info.getAccountbalance();
+                info.setAccountbalance(cashBalance);
                 System.out.println("账号名称：" + info.getAccountName());
                 System.out.println("账号索引：" + info.getAccountNumber());
                 System.out.println("账号余额：" + info.getAccountbalance());
@@ -167,15 +167,15 @@ public class bbb002运行 {
 
     }
 
-    public static void interface_cash(Scanner scanner1, ArrayList<bbb001账户类> a, bbb001账户类 info) {
+    public static void interfaceCash(Scanner scanner1, ArrayList<bbb001账户类> a, bbb001账户类 info) {
         System.out.println("=====================请输入取款命令=====================");
         System.out.println("请输入取款金额：");
-        int cash_out_num = scanner1.nextInt();
-        if (cash_out_num > info.getAccountcashlimit() || cash_out_num > info.getAccountbalance()) {
+        int cashOutNum = scanner1.nextInt();
+        if (cashOutNum > info.getAccountcashlimit() || cashOutNum > info.getAccountbalance()) {
             System.out.println("超过额度，请重新输入");
         } else {
-            int cash_now = info.getAccountbalance() - cash_out_num;
-            info.setAccountbalance(cash_now);
+            int cashNow = info.getAccountbalance() - cashOutNum;
+            info.setAccountbalance(cashNow);
             System.out.println("cash success,当前余额" + info.getAccountbalance());
         }
         // return cash_out_num;
@@ -195,7 +195,7 @@ public class bbb002运行 {
         System.out.println("无对应账户，请重新输入");
     }
 
-    public static void change_account_detail(Scanner scanner1, ArrayList<bbb001账户类> a, bbb001账户类 info) {
+    public static void changeAccountDetail(Scanner scanner1, ArrayList<bbb001账户类> a, bbb001账户类 info) {
         System.out.println("=====================请输入修改信息=====================");
         Scanner x1 = new Scanner(System.in);
         System.out.println("请输入账户名：");
@@ -206,7 +206,7 @@ public class bbb002运行 {
         // System.out.println("请输入账户名：");
     }
 
-    public static void logout_account(Scanner scanner1, ArrayList<bbb001账户类> a, bbb001账户类 info) {
+    public static void logoutAccount(Scanner scanner1, ArrayList<bbb001账户类> a, bbb001账户类 info) {
         System.out.println("=====================请输入账号密码=====================");
         Scanner x1 = new Scanner(System.in);
         while (true) {

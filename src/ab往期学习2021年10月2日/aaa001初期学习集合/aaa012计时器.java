@@ -35,14 +35,14 @@ public class aaa012计时器 {
         int minute = b11.nextInt();
         //int minute = 0;
         int hours = 0;
-        int twenty_four = 1;
+        int twentyFour = 1;
         //如果没有定义24的来源，直接写24，那么24会变成一个魔法值（数据被写死）
         //定义后可以寻找来源，代码健壮
         int sixty = 61;
         if (minute > sixty) {
             System.out.println("时间错误，请重新输入");
         } else {
-            for (System.out.println("开始计时---------"); hours < twenty_four; minute++) {
+            for (System.out.println("开始计时---------"); hours < twentyFour; minute++) {
                 if (minute == 60) {
                     hours++;
                     minute = 0;

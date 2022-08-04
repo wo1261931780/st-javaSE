@@ -6,7 +6,7 @@ public class bbb004shopcar_getset {
     public static void main(String[] args) {
         bbb003商品类getset[] x = new bbb003商品类getset[100];
         while (true) {
-            int i = Interface_root();
+            int i = interfaceRoot();
             switch (i) {
                 case 1:
                     add(x);
@@ -20,10 +20,10 @@ public class bbb004shopcar_getset {
                 case 4:
                     show(x);
                     settlement(x);
-                    cls_all(x);
+                    clsAll(x);
                     break;
                 case 5:
-                    cls_all(x);
+                    clsAll(x);
                     break;
                 default:
                     show(x);
@@ -34,7 +34,7 @@ public class bbb004shopcar_getset {
     }
 
 
-    public static int Interface_root() {
+    public static int interfaceRoot() {
         Scanner x = new Scanner(System.in);
         System.out.println("欢迎进入");
         System.out.println("1--添加商品");
@@ -110,7 +110,7 @@ public class bbb004shopcar_getset {
         System.out.println("总价格是：" + tol);
     }
 
-    public static void cls_all(bbb003商品类getset[] s) {
+    public static void clsAll(bbb003商品类getset[] s) {
         for (int i = 0; i < s.length; i++) {
             s[i] = null;
         }

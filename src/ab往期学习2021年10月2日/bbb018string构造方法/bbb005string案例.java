@@ -43,10 +43,10 @@ public class bbb005string案例 {
         // 2、定义一个循环，循环3次，让用户登录
         for (int i = 0; i < 3; i++) {
             System.out.println("请输入账号：");
-            String login_name = x.nextLine();
+            String loginName = x.nextLine();
             System.out.println("请输入密码：");
-            String login_paw = x.nextLine();
-            if (login_name.equals(name) && login_paw.equals(paw)) {
+            String loginPaw = x.nextLine();
+            if (loginName.equals(name) && loginPaw.equals(paw)) {
                 System.out.println("correct");
                 return;
             }

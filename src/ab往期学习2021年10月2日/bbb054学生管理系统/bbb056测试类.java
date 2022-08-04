@@ -33,7 +33,7 @@ public class bbb056测试类 {
                 Scanner x1 = new Scanner(System.in);
                 System.out.println("指令错误，是否重新输入？yes/no");
                 String z = x1.nextLine();
-                if (z.equals("yes")) {
+                if ("yes".equals(z)) {
                     jm(student);
                 } else {
                     break;

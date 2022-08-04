@@ -55,7 +55,7 @@ public class aaa023e方法重载的练习 {
     // public void open(int i, double d) { }
 
     // 新方法,java是区分大小写的
-    public static void OPEN() {
+    public static void open2() {
     }
 
     // ************************************************
