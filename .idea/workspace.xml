@@ -8,11 +8,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="92262de5-e372-4bdc-99f8-c27ceec6dfd1" name="变更" comment="转换编码格式为UTF-8">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/st-java.github.io.iml" beforeDir="false" afterPath="$PROJECT_DIR$/st-java.github.io.iml" afterDir="false" />
-    </list>
+    <list default="true" id="92262de5-e372-4bdc-99f8-c27ceec6dfd1" name="变更" comment="复习java语言" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -253,7 +249,7 @@
       <workItem from="1659149154897" duration="527000" />
       <workItem from="1659160880017" duration="20000" />
       <workItem from="1659618830820" duration="599000" />
-      <workItem from="1671587112751" duration="3386000" />
+      <workItem from="1671587112751" duration="3701000" />
     </task>
     <task id="LOCAL-00001" summary="转换编码格式为UTF-8">
       <created>1651067987923</created>
@@ -276,7 +272,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651068787632</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="复习java语言">
+      <created>1671620606776</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1671620606776</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -296,7 +299,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="转换编码格式为UTF-8" />
-    <option name="LAST_COMMIT_MESSAGE" value="转换编码格式为UTF-8" />
+    <MESSAGE value="复习java语言" />
+    <option name="LAST_COMMIT_MESSAGE" value="复习java语言" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
