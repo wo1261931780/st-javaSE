@@ -6,14 +6,14 @@ package d_review_20221221;
  * Package:d_review_20221221
  *
  * @author liujiajun_junw
- * @Date 2022-12-20-41  星期四
+ * @Date 2022-12-16-55  星期五
  * @description
  */
-public class ddd010 {
+public class ddd014 {
 	public static void main(String[] args) {
-		ddd009 demo = new ddd009();
-		demo.name = "123";
-		demo.age = 11;
-		demo.show();
+		String demo = "123456";
+		for (int i = 0; i < demo.length(); i++) {
+			System.out.println(demo.charAt(i));
+		}
 	}
 }

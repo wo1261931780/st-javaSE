@@ -6,14 +6,12 @@ package d_review_20221221;
  * Package:d_review_20221221
  *
  * @author liujiajun_junw
- * @Date 2022-12-20-41  星期四
+ * @Date 2022-12-16-38  星期五
  * @description
  */
-public class ddd010 {
+public class ddd013 {
 	public static void main(String[] args) {
-		ddd009 demo = new ddd009();
-		demo.name = "123";
-		demo.age = 11;
-		demo.show();
+		String tel = "18959297292";
+		System.out.println(tel.replace(tel.substring(3, 7), "****"));
 	}
 }

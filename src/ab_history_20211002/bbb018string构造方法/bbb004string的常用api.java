@@ -67,14 +67,14 @@ public class bbb004string的常用api {
 
     public static void tihuanst(String x) {
         // [0, 1, 2, 3, 4, 5, 6, 7, 8]
-        System.out.println("替换后的结果是：：" + x.replace("4", "**"));//0123**5
+        System.out.println("替换后的结果是：：" + x.replace("4", "**"));// 0123**5
     }
 
     // 7、public boolean contains(CharSequence s)
 
     public static void containst(String x) {
         // [0, 1, 2, 3, 4, 5, 6, 7, 8]
-        System.out.println("包含的内容：" + x.contains("4"));//结果返回true和false
+        System.out.println("包含的内容：" + x.contains("4"));// 结果返回true和false
     }
 
     // 8、public boolean startsWith(String prefix)
