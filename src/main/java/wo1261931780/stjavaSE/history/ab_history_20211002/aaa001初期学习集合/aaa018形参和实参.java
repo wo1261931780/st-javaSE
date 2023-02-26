@@ -1,4 +1,4 @@
-package ab_history_20211002.aaa001初期学习集合;
+package wo1261931780.stjavaSE.history.ab_history_20211002.aaa001初期学习集合;
 /*
     方法：是将具有独立功能的代码块组织成为一个整体，使其具有特殊功能的代码集
     定义格式：

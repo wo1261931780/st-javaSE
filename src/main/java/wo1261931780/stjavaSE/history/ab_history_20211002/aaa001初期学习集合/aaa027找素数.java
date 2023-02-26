@@ -1,4 +1,4 @@
-package ab_history_20211002.aaa001初期学习集合;
+package wo1261931780.stjavaSE.history.ab_history_20211002.aaa001初期学习集合;
 
 /**
  * 需求：找出101-200之间的素数输出：

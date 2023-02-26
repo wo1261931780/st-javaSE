@@ -1,4 +1,4 @@
-package ab_history_20211002.aaa001初期学习集合;
+package wo1261931780.stjavaSE.history.ab_history_20211002.aaa001初期学习集合;
 
 //这里主要学习不同的方法，根数据类型，需要设置不同的返回值
 //比如数据是布尔类型的，那么返回true/false

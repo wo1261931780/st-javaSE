@@ -1,4 +1,4 @@
-package ab_history_20211002.aaa001初期学习集合;
+package wo1261931780.stjavaSE.history.ab_history_20211002.aaa001初期学习集合;
 
 public class aaa015c静态和动态初始化 {
     public static void main(String[] args) {
