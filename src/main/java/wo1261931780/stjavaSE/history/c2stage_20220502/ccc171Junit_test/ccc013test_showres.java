@@ -1,6 +1,6 @@
-package c2stage_20220502.ccc171Junit_test;
+package wo1261931780.stjavaSE.history.c2stage_20220502.ccc171Junit_test;
 
-import org.junit.jupiter.api.*;
+
 
 /**
  * Created by Intellij IDEA.
@@ -9,11 +9,11 @@ import org.junit.jupiter.api.*;
  * User:  wo1261931780@gmail.com
  * Time:  2022-05-13-51  星期一
  */
-public class ccc002test_showres {
+public class ccc013test_showres {
     @Test
     // public static void test_showres() {// 不能是static静态的，因为需要创建实例来测试结果
     public void test_showres() {
-        ccc001 x = new ccc001();
+        ccc012 x = new ccc012();
         System.out.println("我执行了------------");
 
         String res = x.login("admin", "123");
@@ -23,7 +23,7 @@ public class ccc002test_showres {
     }
     @Test
     public void test_caculat() {
-        ccc001 x = new ccc001();
+        ccc012 x = new ccc012();
         System.out.println("我执行了------------");
 
         x.showres();// java.lang.ArithmeticException: / by zero

@@ -1,4 +1,4 @@
-package c2stage_20220502.ccc173reflect_class;
+package wo1261931780.stjavaSE.history.c2stage_20220502.ccc173reflect_class;
 
 /**
  * Created by Intellij IDEA.
@@ -7,12 +7,12 @@ package c2stage_20220502.ccc173reflect_class;
  * User:  wo1261931780@gmail.com
  * Time:  2022-05-14-35  星期一
  */
-public class ccc001object {
+public class ccc016object {
     private String name;
     private String address;
     private int age;
 
-    private ccc001object() {
+    private ccc016object() {
     }
 
     @Override
@@ -36,7 +36,7 @@ public class ccc001object {
         this.age = age;
     }
 
-    public ccc001object(String name, String address, int age) {
+    public ccc016object(String name, String address, int age) {
         this.name = name;
         this.address = address;
         this.age = age;

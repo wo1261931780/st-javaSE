@@ -1,4 +1,4 @@
-package c2stage_20220502.ccc169tcp_Instant_Messaging;
+package wo1261931780.stjavaSE.history.c2stage_20220502.ccc169tcp_Instant_Messaging;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -29,7 +29,7 @@ public class ccc004getmessage extends Thread {
             }
         } catch (IOException e) {
             System.out.println(Thread.currentThread().getName() + "线程结束");
-            ccc002service.allonlinesoc.remove(socket);// 删除对应的管道
+            ccc005service.allonlinesoc.remove(socket);// 删除对应的管道
             throw new RuntimeException(e);
         }
     }

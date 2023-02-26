@@ -1,4 +1,4 @@
-package c2stage_20220502.ccc169tcp_Instant_Messaging;
+package wo1261931780.stjavaSE.history.c2stage_20220502.ccc169tcp_Instant_Messaging;
 
 import java.io.*;
 import java.net.Socket;
@@ -11,9 +11,9 @@ import java.util.Scanner;
  * User:  wo1261931780@gmail.com
  * Time:  2022-05-10-53  星期一
  */
-public class ccc003runnable implements Runnable {
+public class ccc006runnable implements Runnable {
     private Socket socket;
-    public ccc003runnable(Socket socket) {
+    public ccc006runnable(Socket socket) {
         this.socket = socket;
     }
     @Override
@@ -35,7 +35,7 @@ public class ccc003runnable implements Runnable {
     }
 
     private void mredirection(String str) throws IOException {
-        for (Socket socket1 : ccc002service.allonlinesoc) {
+        for (Socket socket1 : ccc005service.allonlinesoc) {
             PrintStream printStream = new PrintStream(socket1.getOutputStream());
             printStream.println(str);
             printStream.flush();

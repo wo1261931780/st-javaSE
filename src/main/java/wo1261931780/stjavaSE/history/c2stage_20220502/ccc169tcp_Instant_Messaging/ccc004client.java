@@ -1,4 +1,4 @@
-package c2stage_20220502.ccc169tcp_Instant_Messaging;
+package wo1261931780.stjavaSE.history.c2stage_20220502.ccc169tcp_Instant_Messaging;
 
 import java.io.IOException;
 import java.io.OutputStream;
@@ -13,7 +13,7 @@ import java.util.Scanner;
  * User:  wo1261931780@gmail.com
  * Time:  2022-05-10-38  星期一
  */
-public class ccc001client {
+public class ccc004client {
     public static void main(String[] args) {
         try {
             Socket x = new Socket("127.0.0.1", 7777);

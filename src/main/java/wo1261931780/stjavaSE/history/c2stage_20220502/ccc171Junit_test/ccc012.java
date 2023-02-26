@@ -1,4 +1,4 @@
-package c2stage_20220502.ccc171Junit_test;
+package wo1261931780.stjavaSE.history.c2stage_20220502.ccc171Junit_test;
 
 /**
  * Created by Intellij IDEA.
@@ -7,7 +7,7 @@ package c2stage_20220502.ccc171Junit_test;
  * User:  wo1261931780@gmail.com
  * Time:  2022-05-13-50  星期一
  */
-public class ccc001 {
+public class ccc012 {
     public static void main(String[] args) {
         showres();
     }

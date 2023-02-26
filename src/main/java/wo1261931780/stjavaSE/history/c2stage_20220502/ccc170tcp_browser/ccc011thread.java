@@ -1,4 +1,4 @@
-package c2stage_20220502.ccc170tcp_browser;
+package wo1261931780.stjavaSE.history.c2stage_20220502.ccc170tcp_browser;
 
 import java.io.*;
 import java.net.Socket;
@@ -10,9 +10,9 @@ import java.net.Socket;
  * User:  wo1261931780@gmail.com
  * Time:  2022-05-12-28  星期一
  */
-public class ccc002thread implements Runnable {
+public class ccc011thread implements Runnable {
     private Socket socket;
-    public ccc002thread(Socket socket) {
+    public ccc011thread(Socket socket) {
         this.socket = socket;
     }
     @Override
