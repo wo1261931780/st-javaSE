@@ -1,19 +1,19 @@
-package ab_history_20211002.bbb039ATM案例;
+package wo1261931780.stjavaSE.history.ab_history_20211002.bbb039ATM案例;
 
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class bbb002运行 {
+public class bbb075运行 {
     public static void main(String[] args) {
         Scanner scanner1 = new Scanner(System.in);
-        ArrayList<bbb001账户类> a1 = new ArrayList();
+        ArrayList<bbb074账户类> a1 = new ArrayList();
 // 相比正式的系统来说，还是有很多问题，比如没有做极限情况的设置
 // 也没有做转账系统，
         while (true) {
 
             int chooseResult = interfaceStart(scanner1);
             if (chooseResult == 1) {
-                bbb001账户类 accountInfo = interfaceLogin(scanner1, a1);
+                bbb074账户类 accountInfo = interfaceLogin(scanner1, a1);
                 out:
                 while (true) {
                     int loginChoose = interfaceAccountOperate(scanner1, a1, accountInfo);
@@ -61,8 +61,8 @@ public class bbb002运行 {
         return startInt;
     }
 
-    public static bbb001账户类 interfaceLogin(Scanner scanner1, ArrayList<bbb001账户类> a) {
-        // bbb001账户类 account_demo = new bbb001账户类();
+    public static bbb074账户类 interfaceLogin(Scanner scanner1, ArrayList<bbb074账户类> a) {
+        // bbb074账户类 account_demo = new bbb074账户类();
         Scanner x1 = new Scanner(System.in);
         System.out.println("=====================欢迎进入登录页面=====================");
         for (int i1 = 0; i1 < 3; i1++) {
@@ -82,8 +82,8 @@ public class bbb002运行 {
         return null;
     }
 
-    public static void interfaceRegister(Scanner scanner1, ArrayList<bbb001账户类> a) {
-        bbb001账户类 accountDemo = new bbb001账户类();
+    public static void interfaceRegister(Scanner scanner1, ArrayList<bbb074账户类> a) {
+        bbb074账户类 accountDemo = new bbb074账户类();
         System.out.println("=====================欢迎进入开户操作=====================");
         Scanner xx = new Scanner(System.in);
         System.out.println("请输入账户名称：");
@@ -104,7 +104,7 @@ public class bbb002运行 {
         // return account_demo;
     }
 
-    public static int interfaceAccountOperate(Scanner scanner1, ArrayList<bbb001账户类> a, bbb001账户类 info) {
+    public static int interfaceAccountOperate(Scanner scanner1, ArrayList<bbb074账户类> a, bbb074账户类 info) {
         // String account_info = "";
         // for (int i = 0; i < a.size(); i++) {
         //     if (info == a.get(i).getAccountNumber()) {
@@ -126,7 +126,7 @@ public class bbb002运行 {
         return accountOperateInt;
     }
 
-    public static void querydemo(Scanner scanner1, ArrayList<bbb001账户类> a, bbb001账户类 info) {
+    public static void querydemo(Scanner scanner1, ArrayList<bbb074账户类> a, bbb074账户类 info) {
         System.out.println("=====================请输入账号密码=====================");
         // 这里合理的逻辑是，输入密码，校验是否正确，正确就给出信息
         // 但问题在于，要获取密码就必须得到对应的对象地址，集合才能校验
@@ -145,7 +145,7 @@ public class bbb002运行 {
         return;
     }
 
-    public static void deposit(Scanner scanner1, ArrayList<bbb001账户类> a, bbb001账户类 info) {
+    public static void deposit(Scanner scanner1, ArrayList<bbb074账户类> a, bbb074账户类 info) {
         System.out.println("=====================请输入存款信息=====================");
         for (int i = 0; i < 3; i++) {
             String i1 = scanner1.nextLine();
@@ -167,7 +167,7 @@ public class bbb002运行 {
 
     }
 
-    public static void interfaceCash(Scanner scanner1, ArrayList<bbb001账户类> a, bbb001账户类 info) {
+    public static void interfaceCash(Scanner scanner1, ArrayList<bbb074账户类> a, bbb074账户类 info) {
         System.out.println("=====================请输入取款命令=====================");
         System.out.println("请输入取款金额：");
         int cashOutNum = scanner1.nextInt();
@@ -181,7 +181,7 @@ public class bbb002运行 {
         // return cash_out_num;
     }
 
-    public static void transferdemo(Scanner scanner1, ArrayList<bbb001账户类> a, bbb001账户类 info) {
+    public static void transferdemo(Scanner scanner1, ArrayList<bbb074账户类> a, bbb074账户类 info) {
         System.out.println("=====================请输入转账信息=====================");
         int i = scanner1.nextInt();
         for (int i1 = 0; i1 < a.size(); i1++) {
@@ -195,7 +195,7 @@ public class bbb002运行 {
         System.out.println("无对应账户，请重新输入");
     }
 
-    public static void changeAccountDetail(Scanner scanner1, ArrayList<bbb001账户类> a, bbb001账户类 info) {
+    public static void changeAccountDetail(Scanner scanner1, ArrayList<bbb074账户类> a, bbb074账户类 info) {
         System.out.println("=====================请输入修改信息=====================");
         Scanner x1 = new Scanner(System.in);
         System.out.println("请输入账户名：");
@@ -206,7 +206,7 @@ public class bbb002运行 {
         // System.out.println("请输入账户名：");
     }
 
-    public static void logoutAccount(Scanner scanner1, ArrayList<bbb001账户类> a, bbb001账户类 info) {
+    public static void logoutAccount(Scanner scanner1, ArrayList<bbb074账户类> a, bbb074账户类 info) {
         System.out.println("=====================请输入账号密码=====================");
         Scanner x1 = new Scanner(System.in);
         while (true) {

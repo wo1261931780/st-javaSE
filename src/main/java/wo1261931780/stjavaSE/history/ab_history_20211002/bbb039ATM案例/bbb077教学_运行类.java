@@ -1,13 +1,13 @@
-package ab_history_20211002.bbb039ATM案例;
+package wo1261931780.stjavaSE.history.ab_history_20211002.bbb039ATM案例;
 
 import java.util.ArrayList;
 import java.util.Random;
 import java.util.Scanner;
 
-public class bbb004教学_运行类 {
+public class bbb077教学_运行类 {
     public static void main(String[] args) {
         // 2、创建一个集合对象，用于后期存入账户对象。
-        ArrayList<bbb003教学_类> accounts = new ArrayList<>();
+        ArrayList<bbb076教学_类> accounts = new ArrayList<>();
 
         // 3、展示系统欢迎页面
         System.out.println("======欢迎您进入到黑马ATM系统===============");
@@ -35,14 +35,14 @@ public class bbb004教学_运行类 {
     /**
      * 用户登录功能
      */
-    private static void login(ArrayList<bbb003教学_类> accounts, Scanner sc) {
+    private static void login(ArrayList<bbb076教学_类> accounts, Scanner sc) {
         System.out.println("==================欢迎您进入到登录操作======================");
         if (accounts.size() > 0) {
             while (true) {
                 System.out.println("请您输入登录的卡号：");
                 String cardId = sc.next();
                 // 2、根据卡号去集合中查询是否存在账户对象
-                bbb003教学_类 acc = getAccountByCardId(cardId, accounts);
+                bbb076教学_类 acc = getAccountByCardId(cardId, accounts);
                 // 判断账户对象是否存在，存在说明卡号正确
                 if (acc != null) {
                     while (true) {
@@ -71,7 +71,7 @@ public class bbb004教学_运行类 {
     /**
      * 登录后展示的界面
      */
-    private static void showCommand(Scanner sc, bbb003教学_类 acc, ArrayList<bbb003教学_类> accounts) {
+    private static void showCommand(Scanner sc, bbb076教学_类 acc, ArrayList<bbb076教学_类> accounts) {
         while (true) {
             System.out.println("==================欢迎您进入到操作界面======================");
             System.out.println("1、查询");
@@ -126,7 +126,7 @@ public class bbb004教学_运行类 {
      *
      * @param acc
      */
-    private static void updatePassWord(bbb003教学_类 acc, Scanner sc) {
+    private static void updatePassWord(bbb076教学_类 acc, Scanner sc) {
         // 1、判断旧密码是否正确
         while (true) {
             System.out.println("请您输入当前密码认证：");
@@ -160,7 +160,7 @@ public class bbb004教学_运行类 {
      * @param accounts
      * @param sc
      */
-    private static void transferMoney(bbb003教学_类 acc, ArrayList<bbb003教学_类> accounts, Scanner sc) {
+    private static void transferMoney(bbb076教学_类 acc, ArrayList<bbb076教学_类> accounts, Scanner sc) {
         // 1、判断自己的账户中是否有钱
         if (acc.getMoney() <= 0) {
             System.out.println("您自己都没钱，就别转了吧！");
@@ -175,7 +175,7 @@ public class bbb004教学_运行类 {
                 String cardId = sc.next();
 
                 // 4、根据卡号查询出集合中的账户对象
-                bbb003教学_类 otherAcc = getAccountByCardId(cardId, accounts);
+                bbb076教学_类 otherAcc = getAccountByCardId(cardId, accounts);
                 // 5、判断账户对象是否存在，而且这个账户对象不能是自己。
                 if (otherAcc != null) {
                     // 6、判断当前账户是否是自己。
@@ -218,7 +218,7 @@ public class bbb004教学_运行类 {
 
     }
 
-    private static void drawMoney(bbb003教学_类 acc, Scanner sc) {
+    private static void drawMoney(bbb076教学_类 acc, Scanner sc) {
         System.out.println("==================欢迎进入账户取款操作======================");
         // 1、判断账户的余额是否高于等于100
         double money = acc.getMoney();
@@ -247,7 +247,7 @@ public class bbb004教学_运行类 {
         }
     }
 
-    private static void depositMoney(bbb003教学_类 acc, Scanner sc) {
+    private static void depositMoney(bbb076教学_类 acc, Scanner sc) {
         System.out.println("==================欢迎进入账户存款操作======================");
         System.out.println("请您输入存款金额：");
         double money = sc.nextDouble();
@@ -255,7 +255,7 @@ public class bbb004教学_运行类 {
         showAccount(acc);
     }
 
-    private static void showAccount(bbb003教学_类 acc) {
+    private static void showAccount(bbb076教学_类 acc) {
         System.out.println("==================您当前账户详情信息如下======================");
         System.out.println("卡号：" + acc.getCardId());
         System.out.println("户主：" + acc.getUserName());
@@ -266,10 +266,10 @@ public class bbb004教学_运行类 {
     /**
      * 开户功能
      */
-    private static void register(ArrayList<bbb003教学_类> accounts, Scanner sc) {
+    private static void register(ArrayList<bbb076教学_类> accounts, Scanner sc) {
         System.out.println("==================欢迎您进入到开户操作======================");
         // 2、创建一个账户对象封装账户信息
-        bbb003教学_类 acc = new bbb003教学_类();
+        bbb076教学_类 acc = new bbb076教学_类();
         // 1、录入用户账户信息
         System.out.println("请您输入账户名称：");
         String userName = sc.next();
@@ -300,7 +300,7 @@ public class bbb004教学_运行类 {
         System.out.println("恭喜您," + acc.getUserName() + "先生/女士，您开户完成，您的卡号是：" + acc.getCardId());
     }
 
-    public static String createCardId(ArrayList<bbb003教学_类> accounts) {
+    public static String createCardId(ArrayList<bbb076教学_类> accounts) {
         while (true) {
             String cardId = "";
             // 随机8个数字
@@ -309,16 +309,16 @@ public class bbb004教学_运行类 {
                 cardId += r.nextInt(10);
             }
             // 判断这个卡号是否重复：根据卡号去查询账户对象
-            bbb003教学_类 account = getAccountByCardId(cardId, accounts);
+            bbb076教学_类 account = getAccountByCardId(cardId, accounts);
             if (account == null) {
                 return cardId;
             }
         }
     }
 
-    public static bbb003教学_类 getAccountByCardId(String cardId, ArrayList<bbb003教学_类> accounts) {
+    public static bbb076教学_类 getAccountByCardId(String cardId, ArrayList<bbb076教学_类> accounts) {
         for (int i = 0; i < accounts.size(); i++) {
-            bbb003教学_类 acc = accounts.get(i);
+            bbb076教学_类 acc = accounts.get(i);
             if (acc.getCardId().equals(cardId)) {
                 return acc;
             }

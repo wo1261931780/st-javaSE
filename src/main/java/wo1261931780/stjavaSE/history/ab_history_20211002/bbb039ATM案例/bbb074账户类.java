@@ -1,16 +1,16 @@
-package ab_history_20211002.bbb039ATM案例;
+package wo1261931780.stjavaSE.history.ab_history_20211002.bbb039ATM案例;
 
-public class bbb001账户类 {
+public class bbb074账户类 {
     private int accountNumber;
     private String accountName;
     private int accountbalance;
     private String accountpassword;
     private int accountcashlimit;
 
-    public bbb001账户类() {
+    public bbb074账户类() {
     }
 
-    public bbb001账户类(int accountNumber, String accountName, int accountbalance, String accountpassword, int accountcashlimit) {
+    public bbb074账户类(int accountNumber, String accountName, int accountbalance, String accountpassword, int accountcashlimit) {
         this.accountNumber = accountNumber;
         this.accountName = accountName;
         this.accountbalance = accountbalance;

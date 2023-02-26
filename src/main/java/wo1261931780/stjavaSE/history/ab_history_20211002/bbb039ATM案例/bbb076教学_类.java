@@ -1,6 +1,6 @@
-package ab_history_20211002.bbb039ATM案例;
+package wo1261931780.stjavaSE.history.ab_history_20211002.bbb039ATM案例;
 
-public class bbb003教学_类 {
+public class bbb076教学_类 {
     private String cardId; // 卡号
     private String userName; // 用户名称
     private String passWord; // 密码
