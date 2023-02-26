@@ -1,8 +1,8 @@
-package ab_history_20211002.bbb018string构造方法;
+package wo1261931780.stjavaSE.history.ab_history_20211002.bbb018string构造方法;
 
 import java.util.Scanner;
 
-public class bbb003string的双等和equals {
+public class bbb035string的双等和equals {
     public static void main(String[] args) {
         String name = "11A";
         String paw = "22A";

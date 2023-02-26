@@ -1,6 +1,6 @@
-package ab_history_20211002.bbb014输入姓名和成绩;
+package wo1261931780.stjavaSE.history.ab_history_20211002.bbb014输入姓名和成绩;
 
-public class bbb013a关键字private {
+public class bbb022a关键字private {
     private int age;
     private String name;
 

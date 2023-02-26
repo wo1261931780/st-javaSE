@@ -1,4 +1,4 @@
-package ab_history_20211002.bbb017默认类和对象;
+package wo1261931780.stjavaSE.history.ab_history_20211002.bbb017默认类和对象;
 
 /**
  * 成员变量
@@ -10,11 +10,11 @@ package ab_history_20211002.bbb017默认类和对象;
  * 提供每一个成员变量对应的setXxx()/getXxx()
  * 提供一个显示对象信息的show()
  */
-public class bbb018b标准类的制作2 {
+public class bbb031b标准类的制作2 {
     public static void main(String[] args) {
         System.out.println("开始------------");
-        bbb018a标准类的制作_javabean x1 = new bbb018a标准类的制作_javabean();
-        bbb018a标准类的制作_javabean x2 = new bbb018a标准类的制作_javabean(11, "s");
+        bbb030a标准类的制作_javabean x1 = new bbb030a标准类的制作_javabean();
+        bbb030a标准类的制作_javabean x2 = new bbb030a标准类的制作_javabean(11, "s");
         x1.show1();
         x1.setAge(11);
         x1.setName("x111111");

@@ -1,6 +1,6 @@
-package ab_history_20211002.bbb015this构造方法封装;
+package wo1261931780.stjavaSE.history.ab_history_20211002.bbb015this构造方法封装;
 
-public class bbb015this {
+public class bbb025this {
     private String name;
     private int age;
 

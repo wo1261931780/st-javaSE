@@ -1,10 +1,10 @@
-package ab_history_20211002.bbb015this构造方法封装;
+package wo1261931780.stjavaSE.history.ab_history_20211002.bbb015this构造方法封装;
 
-public class bbb016构造方法 {
+public class bbb026构造方法 {
     public static void main(String[] args) {
         // 不同于show()和demo()，bbb015()也是一种方法
         //其实bbb015也是一种方法，称为构造方法。
-        bbb015this x = new bbb015this();
+        bbb025this x = new bbb025this();
         x.setName("junw");
         x.setAge(11);
         x.show();

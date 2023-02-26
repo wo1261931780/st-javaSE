@@ -1,6 +1,6 @@
-package ab_history_20211002.bbb018string构造方法;
+package wo1261931780.stjavaSE.history.ab_history_20211002.bbb018string构造方法;
 
-public class bbb002string面试题 {
+public class bbb034string面试题 {
     public static void main(String[] args) {
 
         show1();

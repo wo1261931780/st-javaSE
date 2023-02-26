@@ -1,10 +1,10 @@
-package ab_history_20211002.bbb012构造器和this;
+package wo1261931780.stjavaSE.history.ab_history_20211002.bbb012构造器和this;
 
-public class bbb001构造器 {
+public class bbb019构造器 {
     String name;
     int price;
 
-    public bbb001构造器(String name, int price) {
+    public bbb019构造器(String name, int price) {
         this.name = name;
         this.price = price;
     }

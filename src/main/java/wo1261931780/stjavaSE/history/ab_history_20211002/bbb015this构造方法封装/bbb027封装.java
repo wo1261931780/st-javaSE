@@ -1,6 +1,6 @@
-package ab_history_20211002.bbb015this构造方法封装;
+package wo1261931780.stjavaSE.history.ab_history_20211002.bbb015this构造方法封装;
 
-public class bbb017封装 {
+public class bbb027封装 {
     /*
     将类的某些信息隐藏在类内部，不允许外部程序直接访问，而是通过该类提供的方法来实现对隐藏信息的操作和访问
     成员变量 private,提供对应的 getxxx（）/ setxxx(方法

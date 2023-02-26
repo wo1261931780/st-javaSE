@@ -1,9 +1,9 @@
-package ab_history_20211002.bbb018string构造方法;
+package wo1261931780.stjavaSE.history.ab_history_20211002.bbb018string构造方法;
 
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class bbb004string的常用api {
+public class bbb036string的常用api {
     public static void main(String[] args) {
         Scanner x = new Scanner(System.in);
         System.out.println("请输入对应的字符串：");

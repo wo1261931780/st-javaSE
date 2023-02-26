@@ -1,9 +1,9 @@
-package ab_history_20211002.bbb014输入姓名和成绩;
+package wo1261931780.stjavaSE.history.ab_history_20211002.bbb014输入姓名和成绩;
 // 成员变量和局部变量
 
 import java.util.Scanner;
 
-public class bbb013 {
+public class bbb021 {
     Scanner xx = new Scanner(System.in);
     int ss = 0;
     // ss属于013这个大类中，show方法以外的变量，一般称为成员变量

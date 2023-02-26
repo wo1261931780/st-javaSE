@@ -1,9 +1,9 @@
-package ab_history_20211002.bbb018string构造方法;
+package wo1261931780.stjavaSE.history.ab_history_20211002.bbb018string构造方法;
 
 import java.util.Random;
 import java.util.Scanner;
 
-public class bbb005string案例 {
+public class bbb037string案例 {
     public static void main(String[] args) {
         // 验证码案例
         // String x = "aA0";

@@ -1,10 +1,10 @@
-package ab_history_20211002.bbb011商城案例;
+package wo1261931780.stjavaSE.history.ab_history_20211002.bbb011商城案例;
 
 import java.util.Scanner;
 
-public class bbb002bag {
+public class bbb018shopcar_getset {
     public static void main(String[] args) {
-        bbb001商品类[] x = new bbb001商品类[100];
+        bbb017商品类getset[] x = new bbb017商品类getset[100];
         while (true) {
             int i = interfaceRoot();
             switch (i) {
@@ -32,11 +32,10 @@ public class bbb002bag {
             }
         }
     }
-// 这里也可以将方法设置在main中
-// 这样方法内部出现的scanner等指令，直接可以传递给后续的方法
+
 
     public static int interfaceRoot() {
-        Scanner scanner = new Scanner(System.in);
+        Scanner x = new Scanner(System.in);
         System.out.println("欢迎进入");
         System.out.println("1--添加商品");
         System.out.println("2--删除商品");
@@ -44,12 +43,12 @@ public class bbb002bag {
         System.out.println("4--全部结算");
         System.out.println("5--清空购物车");
         System.out.println("--请输入对应指令--");
-        int command = scanner.nextInt();
+        int command = x.nextInt();
         System.out.println("*****************************");
         return command;
     }
 
-    public static void add(bbb001商品类[] s) {
+    public static void add(bbb017商品类getset[] s) {
         Scanner goods = new Scanner(System.in);
         System.out.println("请输入商品名称：");
         String addname = goods.nextLine();
@@ -59,7 +58,7 @@ public class bbb002bag {
         int addnum = goods.nextInt();
         System.out.println("请输入商品id：");
         int addid = goods.nextInt();
-        bbb001商品类 x = new bbb001商品类(addname, addprice, addnum, addid);
+        bbb017商品类getset x = new bbb017商品类getset(addname, addprice, addnum, addid);
         for (int i = 0; i < s.length; i++) {
             if (s[i] == null) {
                 s[i] = x;
@@ -69,11 +68,11 @@ public class bbb002bag {
         }
     }
 
-    public static void del(bbb001商品类[] s) {
+    public static void del(bbb017商品类getset[] s) {
         Scanner x = new Scanner(System.in);
         String delname = x.nextLine();
         for (int i = 0; i < s.length; i++) {
-            if (s[i].name.equals(delname)) {
+            if (s[i].getName().equals(delname)) {
                 s[i] = null;
                 System.out.println("删除成功");
                 return;
@@ -82,50 +81,50 @@ public class bbb002bag {
         System.out.println("没有该商品，请重新输入");
     }
 
-    public static void change(bbb001商品类[] s) {
+    public static void change(bbb017商品类getset[] s) {
         Scanner x = new Scanner(System.in);
         int chid = x.nextInt();
         for (int i = 0; i < s.length; i++) {
-            if (s[i].id == chid) {
+            if (s[i].getId() == chid) {
                 System.out.println("请输入name：");
-                s[i].name = x.nextLine();
+                s[i].setName(x.nextLine());
                 System.out.println("请输入price：");
-                s[i].price = x.nextInt();
+                s[i].setPrice(x.nextInt());
                 System.out.println("请输入num：");
-                s[i].num = x.nextInt();
+                s[i].setNum(x.nextInt());
                 return;
             }
         }
         System.out.println("没有该商品，请重新输入");
     }
 
-    public static void settlement(bbb001商品类[] s) {
+    public static void settlement(bbb017商品类getset[] s) {
         int tol = 0;
         for (int i = 0; i < s.length; i++) {
             if (s[i] == null) {
                 break;
             } else {
-                tol += s[i].price * s[i].num;
+                tol += s[i].getPrice() * s[i].getNum();
             }
         }
         System.out.println("总价格是：" + tol);
     }
 
-    public static void clsAll(bbb001商品类[] s) {
+    public static void clsAll(bbb017商品类getset[] s) {
         for (int i = 0; i < s.length; i++) {
             s[i] = null;
         }
         System.out.println("清空完成");
     }
 
-    public static void show(bbb001商品类[] s) {
+    public static void show(bbb017商品类getset[] s) {
         System.out.println("id名" + "\t" + "名称" + "\t" + "价格" + "\t" + "数量");
         for (int i = 0; i < s.length; i++) {
             if (s[i] == null) {
                 System.out.println("查询结束");
                 return;
             } else {
-                System.out.println(s[i].id + "\t\t" + s[i].name + "\t" + s[i].price + "\t" + s[i].num);
+                System.out.println(s[i].getId() + "\t\t" + s[i].getName() + "\t" + s[i].getPrice() + "\t" + s[i].getNum());
             }
         }
         // System.out.println("清空完成");

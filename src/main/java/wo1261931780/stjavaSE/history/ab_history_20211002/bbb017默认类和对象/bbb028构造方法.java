@@ -1,4 +1,4 @@
-package ab_history_20211002.bbb017默认类和对象;
+package wo1261931780.stjavaSE.history.ab_history_20211002.bbb017默认类和对象;
 
 /**
  * 构造方法：
@@ -18,14 +18,14 @@ package ab_history_20211002.bbb017默认类和对象;
  * }
  * 修饰符一般用：public
  */
-public class bbb017构造方法 {
+public class bbb028构造方法 {
     private int age;
     private String name;
 
     /**
      * 如果括号内没有参数，那么就是一个无参构造方法
      */
-    public bbb017构造方法() {
+    public bbb028构造方法() {
         // 这里如果不给出类的构造方法，也会自动生成默认方法
         System.out.println("show------------");
         // 和下面的show方法不同，类名为主的构造方法不需要指定void返回类型

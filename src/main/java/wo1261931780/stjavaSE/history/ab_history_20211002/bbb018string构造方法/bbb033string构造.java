@@ -1,6 +1,6 @@
-package ab_history_20211002.bbb018string构造方法;
+package wo1261931780.stjavaSE.history.ab_history_20211002.bbb018string构造方法;
 
-public class bbb001string构造 {
+public class bbb033string构造 {
     public static void main(String[] args) {
         char[] xx = {'a', 'b', '测', '试'};
         String s = new String(xx);

@@ -1,9 +1,9 @@
-package ab_history_20211002.bbb014输入姓名和成绩;
+package wo1261931780.stjavaSE.history.ab_history_20211002.bbb014输入姓名和成绩;
 
-public class bbb013b关键字测试类 {
+public class bbb023b关键字测试类 {
     public static void main(String[] args) {
         System.out.println("--------------------");
-        bbb013a关键字private x1 = new bbb013a关键字private();
+        bbb022a关键字private x1 = new bbb022a关键字private();
         // x1.getAge();
         x1.setAge(1);
         System.out.println(x1.getAge());

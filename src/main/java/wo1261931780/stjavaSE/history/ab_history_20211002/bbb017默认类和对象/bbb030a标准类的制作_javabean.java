@@ -1,4 +1,4 @@
-package ab_history_20211002.bbb017默认类和对象;
+package wo1261931780.stjavaSE.history.ab_history_20211002.bbb017默认类和对象;
 
 /**
  * 成员变量
@@ -10,11 +10,11 @@ package ab_history_20211002.bbb017默认类和对象;
  * 提供每一个成员变量对应的setXxx()/getXxx()
  * 提供一个显示对象信息的show()
  */
-public class bbb018a标准类的制作_javabean {
+public class bbb030a标准类的制作_javabean {
     private int age;
     private String name;
 
-    public bbb018a标准类的制作_javabean() {
+    public bbb030a标准类的制作_javabean() {
         System.out.println("我是无参构造方法");
     }
 
@@ -22,7 +22,7 @@ public class bbb018a标准类的制作_javabean {
      * public void bbb017b标准类的制作(int age, String name) {}
      * 上面的方法不算构造方法，因为设定了返回值void
      */
-    public bbb018a标准类的制作_javabean(int age, String name) {
+    public bbb030a标准类的制作_javabean(int age, String name) {
         System.out.println("带参构造");
         this.age = age;
         this.name = name;
