@@ -1,8 +1,8 @@
-package ab_history_20211002.bbb024遍历统计大小写;
+package wo1261931780.stjavaSE.history.ab_history_20211002.bbb024遍历统计大小写;
 
 import java.util.Scanner;
 
-public class bbb024测试 {
+public class bbb046测试 {
     public static void main(String[] args) {
         Scanner xx = new Scanner(System.in);
         System.out.println("输入数据：");

@@ -1,6 +1,6 @@
-package ab_history_20211002.bbb020输入学校人数;
+package wo1261931780.stjavaSE.history.ab_history_20211002.bbb020输入学校人数;
 
-public class bbb020string字符串的几种构造方式 {
+public class bbb038string字符串的几种构造方式 {
     public static void main(String[] args) {
         char[] chars = {'a', 'b', 'c'};
         String x = new String(chars);

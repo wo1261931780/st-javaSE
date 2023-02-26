@@ -1,4 +1,4 @@
-package ab_history_20211002.bbb028Stringuild相关;
+package wo1261931780.stjavaSE.history.ab_history_20211002.bbb028Stringuild相关;
 
 /**
  * 需求：
@@ -12,21 +12,14 @@ package ab_history_20211002.bbb028Stringuild相关;
  * 4:调用方法，用一个变量接收结果
  * 5:输出结果
  */
-public class bbb029 {
-    /**
-     * 这里没有做类的带参构造，只是在类的内部，增加了一个xh方法来完成功能
-     */
-    public void xh(int[] xx) {
-        System.out.print("[");
-        for (int x = 0; x < xx.length; x++) {
-            String x1 = "";
-            //字符串原来可以这样拼接
-            x1 += xx[x];
-            if (x < xx.length - 1) {
-                System.out.print(x1 + ",");
-            } else {
-                System.out.print(x1 + "]");
-            }
-        }
+public class bbb051字符串拼接 {
+    public static void main(String[] args) {
+        // 无参构造
+        bbb050 x = new bbb050();
+        int[] xx = {11, 22, 33, 44, 55};
+        //        int x1=0;
+        x.xh(xx);
+        // 这里xh方法，可以是类内部方法
+        // 也可以是同一个包下，其他类中的方法
     }
 }

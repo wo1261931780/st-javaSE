@@ -1,6 +1,6 @@
-package ab_history_20211002.bbb024遍历统计大小写;
+package wo1261931780.stjavaSE.history.ab_history_20211002.bbb024遍历统计大小写;
 
-public class bbb025string学习 {
+public class bbb047string学习 {
     public static void main(String[] args) {
         char[] cha={'a','b','c'};
         String x1=new String(cha);

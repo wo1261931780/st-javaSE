@@ -1,8 +1,8 @@
-package ab_history_20211002.bbb020输入学校人数;
+package wo1261931780.stjavaSE.history.ab_history_20211002.bbb020输入学校人数;
 
 import java.util.Scanner;
 
-public class bbb021b用户登录标准类 {
+public class bbb041b用户登录标准类 {
     Scanner x0 = new Scanner(System.in);
     Scanner x1 = new Scanner(System.in);
     String name1;
@@ -10,7 +10,7 @@ public class bbb021b用户登录标准类 {
     private String name = "name";
     private String password = "123";
 
-    public bbb021b用户登录标准类() {
+    public bbb041b用户登录标准类() {
         System.out.println("欢迎");
         for (int i = 0; this.name != name1 || this.password != pw; i++) {
             System.out.println("输入账号：");

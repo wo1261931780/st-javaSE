@@ -1,8 +1,8 @@
-package ab_history_20211002.bbb020输入学校人数;
+package wo1261931780.stjavaSE.history.ab_history_20211002.bbb020输入学校人数;
 
 import java.util.Scanner;
 
-public class bbb021a练习string构造方法 {
+public class bbb040a练习string构造方法 {
     public static void main(String[] args) {
         Scanner xx = new Scanner(System.in);
         System.out.println("请输入字符串：");

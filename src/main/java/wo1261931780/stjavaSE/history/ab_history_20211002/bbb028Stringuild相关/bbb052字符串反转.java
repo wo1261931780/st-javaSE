@@ -1,13 +1,13 @@
-package ab_history_20211002.bbb028Stringuild相关;
+package wo1261931780.stjavaSE.history.ab_history_20211002.bbb028Stringuild相关;
 
 import java.util.Scanner;
 
-public class bbb031字符串反转 {
+public class bbb052字符串反转 {
     public static void main(String[] args) {
         Scanner zz = new Scanner(System.in);
         System.out.println("请输入字符串：");
         String z1 = zz.nextLine();
-        bbb031字符串反转 ff = new bbb031字符串反转();
+        bbb052字符串反转 ff = new bbb052字符串反转();
         ff.fz(z1);
         /*下面是数列实现反转，但是还不够完善
         int[] xx={1,2,3};

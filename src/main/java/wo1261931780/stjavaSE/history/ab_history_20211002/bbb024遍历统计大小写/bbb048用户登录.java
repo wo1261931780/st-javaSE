@@ -1,9 +1,9 @@
-package ab_history_20211002.bbb024遍历统计大小写;
+package wo1261931780.stjavaSE.history.ab_history_20211002.bbb024遍历统计大小写;
 
 import java.util.Scanner;
 //功能：模拟登陆三次，三次错误之后系统退出
 
-public class bbb026用户登录 {
+public class bbb048用户登录 {
     public static void main(String[] args) {
         String x1 = "1";
         String x2 = "2";

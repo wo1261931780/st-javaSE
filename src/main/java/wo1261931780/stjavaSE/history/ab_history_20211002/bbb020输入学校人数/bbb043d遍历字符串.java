@@ -1,9 +1,9 @@
-package ab_history_20211002.bbb020输入学校人数;
+package wo1261931780.stjavaSE.history.ab_history_20211002.bbb020输入学校人数;
 
 
 import java.util.Scanner;
 
-public class bbb021d遍历字符串 {
+public class bbb043d遍历字符串 {
     public static void main(String[] args) {
         // 这里是把方法直接封起来，需要的时候调用即可
         // bl();

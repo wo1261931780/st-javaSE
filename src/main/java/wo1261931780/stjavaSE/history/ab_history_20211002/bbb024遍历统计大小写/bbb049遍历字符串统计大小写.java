@@ -1,8 +1,8 @@
-package ab_history_20211002.bbb024遍历统计大小写;
+package wo1261931780.stjavaSE.history.ab_history_20211002.bbb024遍历统计大小写;
 
 import java.util.Scanner;
 
-public class bbb027遍历字符串统计大小写 {
+public class bbb049遍历字符串统计大小写 {
     public static void main(String[] args) {
         Scanner xx = new Scanner(System.in);
         System.out.println("请输入字符串，大小写和数字不限");
