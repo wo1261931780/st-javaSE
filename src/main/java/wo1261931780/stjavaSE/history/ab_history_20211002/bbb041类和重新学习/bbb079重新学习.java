@@ -1,8 +1,8 @@
-package ab_history_20211002.bbb041类和重新学习;
+package wo1261931780.stjavaSE.history.ab_history_20211002.bbb041类和重新学习;
 
-public class bbb043重新学习 {
+public class bbb079重新学习 {
     public static void main(String[] args) {//测试类都有main方法
-        bbb042测试类 x = new bbb042测试类();
+        bbb078测试类 x = new bbb078测试类();
         //在类中创建了x作为对象
         x.pay("asd", 456);
         //调用类中的pay方法，并按照格式，对对象x进行了定义。

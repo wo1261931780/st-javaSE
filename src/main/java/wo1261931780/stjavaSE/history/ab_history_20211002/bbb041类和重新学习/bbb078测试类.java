@@ -1,6 +1,6 @@
 package wo1261931780.stjavaSE.history.ab_history_20211002.bbb041类和重新学习;
 
-public class bbb042测试类 {
+public class bbb078测试类 {
     String brand = "";
     int price = 0;
     private String id;

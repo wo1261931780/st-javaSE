@@ -1,26 +1,26 @@
-package ab_history_20211002.bbb046开始收尾;
+package wo1261931780.stjavaSE.history.ab_history_20211002.bbb046开始收尾;
 
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class bbb048测试类 {
+public class bbb083测试类 {
     public static void main(String[] args) {
         Scanner zz = new Scanner(System.in);
         System.out.println("请输入姓名：");
         String z1 = zz.nextLine();
         System.out.println("请输入年龄：");
         int z2 = zz.nextInt();
-        ArrayList<bbb047类> xx = new ArrayList<>();
-        bbb047类 x1 = new bbb047类("name", 11);
+        ArrayList<bbb082类> xx = new ArrayList<>();
+        bbb082类 x1 = new bbb082类("name", 11);
         //以前创建不了，因为x1不是一个对象，只是一个单独的变量
         xx.add(x1);
-        bbb047类 x2 = new bbb047类(z1, z2);
+        bbb082类 x2 = new bbb082类(z1, z2);
         xx.add(x2);
-        bbb047类 x3 = new bbb047类(z1, z2);
+        bbb082类 x3 = new bbb082类(z1, z2);
         xx.add(x3);
         System.out.println("开始遍历操作：");
         for (int s = 0; s < xx.size(); s++) {
-            bbb047类 z = xx.get(s);
+            bbb082类 z = xx.get(s);
             System.out.println(z.getName() + z.getAge());
         }
 
