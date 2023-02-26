@@ -1,8 +1,8 @@
-package c2stage_20220202.ccc033Anonymous_internal_classe;
+package wo1261931780.stjavaSE.history.c2stage_20220202.ccc033Anonymous_internal_classe;
 
-public class aaa002test_匿名内部类 extends aaa001内部类 {
+public class aaa002test_匿名内部类 extends c2stage_20220202.ccc033Anonymous_internal_classe.aaa001内部类 {
     public void insm() {
-        new aaa001内部类() {
+        new c2stage_20220202.ccc033Anonymous_internal_classe.aaa001内部类() {
             @Override
             public void find() {
                 // super.find();
@@ -15,7 +15,7 @@ public class aaa002test_匿名内部类 extends aaa001内部类 {
         // 但是这个对象，不是”内部类“的对象
         // 而是重写了”内部类“的，作为”内部类“的继承类的对象
         // 会产生class文件，也说明了它本质上是一个类
-        new ccc031inside(){}.show(new ccc031inside(){});
+        new c2stage_20220202.ccc033Anonymous_internal_classe.ccc031inside(){}.show(new c2stage_20220202.ccc033Anonymous_internal_classe.ccc031inside(){});
         // 上面的意思是，
         // 我新建了一个对象，然后对象调用了show方法
         // 因为show方法需要传递对象，所以我又传了一个对象进去
