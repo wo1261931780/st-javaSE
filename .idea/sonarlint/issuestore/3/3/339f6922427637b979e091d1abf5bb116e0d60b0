@@ -1,17 +1,0 @@
-
-|
-java:S1192"fDefine a constant instead of duplicating this literal "-------------------------------------" 4 times.(²”Áã
-b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Á”ßá
-t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Â¿—Ýþÿÿÿÿ
-Q	java:S125"<This block of commented-out lines of code should be removed.(ŒòëÉ
-S	java:S106"9Replace this use of System.out or System.err by a logger.(´‹¹öþÿÿÿÿ
-N	java:S106"9Replace this use of System.out or System.err by a logger.(²”Áã
-S	java:S106"9Replace this use of System.out or System.err by a logger.(´‹¹öþÿÿÿÿ
-N	java:S106"9Replace this use of System.out or System.err by a logger.(²”Áã
-S	java:S106""9Replace this use of System.out or System.err by a logger.(´‹¹öþÿÿÿÿ
-N	java:S106$"9Replace this use of System.out or System.err by a logger.(²”Áã
-S	java:S106&"9Replace this use of System.out or System.err by a logger.(´‹¹öþÿÿÿÿ
-N	java:S106-"9Replace this use of System.out or System.err by a logger.(²”Áã
-B
-java:S1481."'Remove this unused "x4" local variable.(Æ‚É‘ÿÿÿÿÿ
-Q	java:S1250"<This block of commented-out lines of code should be removed.(ÂÖÓØ

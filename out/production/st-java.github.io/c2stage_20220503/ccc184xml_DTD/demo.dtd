@@ -1,4 +1,0 @@
-<!ELEMENT 123测试 (书+)>
-        <!ELEMENT 书 (名称,ID)>
-        <!ELEMENT 名称 (#PCDATA)>
-        <!ELEMENT ID (#PCDATA)>

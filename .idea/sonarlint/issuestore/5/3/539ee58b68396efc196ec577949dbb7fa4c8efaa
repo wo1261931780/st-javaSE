@@ -1,20 +1,0 @@
-
-J
-java:S3740"/Provide the parametrized type for this generic.(¥ë§øÿÿÿÿ
-Q
-java:S3740"/Provide the parametrized type for this generic.(´¯¼õşÿÿÿÿ8™÷Ö›ˆ0
-L
-java:S3740"/Provide the parametrized type for this generic.(Ëåï£8ëÙ›ˆ0
-b	java:S101
-"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(¢»¶Á
-t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(»›µÌÿÿÿÿÿ
-A
-java:S1481"&Remove this unused "x" local variable.(¥ë§øÿÿÿÿ
-I
-java:S1481"'Remove this unused "x2" local variable.(´¯¼õşÿÿÿÿ8÷Ö›ˆ0
-I
-java:S2440",Remove this instantiation of "ccc001object".(’Œ¶8Êœˆ0
-c
-java:S2133"FRemove this object instantiation and use "ccc001object.class" instead.(’Œ¶8Êœˆ0
-D
-java:S1481"'Remove this unused "x4" local variable.(Ëåï£8ÁÁÙ›ˆ0

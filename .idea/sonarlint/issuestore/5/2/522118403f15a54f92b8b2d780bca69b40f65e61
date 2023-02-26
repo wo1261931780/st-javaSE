@@ -1,22 +1,0 @@
-
-b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(þ°£®
-t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¸éÀÔúÿÿÿÿ
-h	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÎéÐ¢ùÿÿÿÿ
-<
-java:S2440"&Remove this instantiation of "ccc001".(°Â‘ì
-N	java:S106"9Replace this use of System.out or System.err by a logger.(›â¯æ
-K
-java:S2209"5Change this instance-reference to a static reference.(©Þ®ª
-h	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¦ÙÛÕþÿÿÿÿ
-<
-java:S2440"&Remove this instantiation of "ccc001".(°Â‘ì
-N	java:S106"9Replace this use of System.out or System.err by a logger.(›â¯æ
-P
-java:S2209"5Change this instance-reference to a static reference.(¨ãÆèøÿÿÿÿ
-N	java:S106!"9Replace this use of System.out or System.err by a logger.(æµ€®
-S	java:S106&"9Replace this use of System.out or System.err by a logger.(ô‰¬æþÿÿÿÿ
-U	java:S106,"9Replace this use of System.out or System.err by a logger.(Ó¿Þ‘8¯¦›ˆ0
-X	java:S125+"<This block of commented-out lines of code should be removed.(—¦¢8¿­©›ˆ0
-j	java:S1000"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÎþŠì8Ò©›ˆ0
-Z	java:S1062"9Replace this use of System.out or System.err by a logger.(‡ò¼Ûþÿÿÿÿ8²Š§›ˆ0
-X	java:S1251"<This block of commented-out lines of code should be removed.(ûÀš8¿­©›ˆ0

@@ -1,5 +1,0 @@
-
-i	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(‰ÿâÇ8¸¸©”ˆ0
-o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ì—Ùë
-f
-java:S2095"DUse try-with-resources or close this "Socket" in a "finally" clause.(ó€öºüÿÿÿÿ8­ô©”ˆ0

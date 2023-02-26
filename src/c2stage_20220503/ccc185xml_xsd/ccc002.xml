@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-
-<element xmlns="http://www.w3.org/1999/XSL/Transform" name="ces">
-    <!--<element xmlns="http://www.w3.org/1999/XSL/Transform" name="123" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"-->
-    <!--         xsi:schemaLocation="ccc185xml_xsd ccc001.xsd">-->
-    
-    <!--</element>-->
-    <!--一般dtd和schema文件都不需要自己去写，直接用框架现成的就可以-->
-</element>

@@ -1,15 +1,0 @@
-
-k	java:S117
-"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ãïõäþÿÿÿÿ
-k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÐïÇ½øÿÿÿÿ
-k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŸËã‘üÿÿÿÿ
-k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŸËã‘üÿÿÿÿ
-q
-java:S1488&"[Immediately return this expression instead of assigning it to the temporary variable "m1s".(Öçå’
-g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Æºã¡øÿÿÿÿ
-o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.( ¶ã¢
-Q	java:S125"<This block of commented-out lines of code should be removed.(ÉíÐ¯
-Q	java:S125"<This block of commented-out lines of code should be removed.(žŒÌò
-S	java:S106"9Replace this use of System.out or System.err by a logger.(®ŽÖÐùÿÿÿÿ
-S	java:S106"9Replace this use of System.out or System.err by a logger.(º×¦Ïùÿÿÿÿ
-h	java:S100#"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ûò¼Žÿÿÿÿÿ

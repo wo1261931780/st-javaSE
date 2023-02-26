@@ -1,8 +1,0 @@
-
-g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ó¿Óçûÿÿÿÿ
-o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ýƒº¨
-Q	java:S125"<This block of commented-out lines of code should be removed.(‚¼«
-N	java:S106f"9Replace this use of System.out or System.err by a logger.(óüÎ
-V	java:S125e"<This block of commented-out lines of code should be removed.(ƒ”Ãçÿÿÿÿÿ
-I
-java:S1128".Remove this unused import 'java.util.Scanner'.(ÒÜÅ¸úÿÿÿÿ

@@ -1,11 +1,0 @@
-
-o
-java:S1488'"YImmediately return this expression instead of assigning it to the temporary variable "s".(¶€¿é
-b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ÀÒÀÙ
-o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¼Šˆ‹
-S	java:S106"9Replace this use of System.out or System.err by a logger.(‹òÕÔûÿÿÿÿ
-V	java:S125"<This block of commented-out lines of code should be removed.(°þ­êüÿÿÿÿ
-Q	java:S125"<This block of commented-out lines of code should be removed.(—¹÷ý
->	java:S108")Either remove or fill this block of code.(å¥ž‡
-S	java:S106"9Replace this use of System.out or System.err by a logger.(ˆšÙßùÿÿÿÿ
-V	java:S125&"<This block of commented-out lines of code should be removed.(ýÅ°×ýÿÿÿÿ

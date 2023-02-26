@@ -1,7 +1,0 @@
-
-n	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Î„‰ûþÿÿÿÿ8š¤Ëõ‡0
-t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(•¨ñ¼ýÿÿÿÿ
-n
-java:S2095"LUse try-with-resources or close this "DatagramSocket" in a "finally" clause.(»ÕÒòýÿÿÿÿ8ž¤Ëõ‡0
-X	java:S125"<This block of commented-out lines of code should be removed.(î¯ÔÉ8 ¤Ëõ‡0
-T	java:S106("9Replace this use of System.out or System.err by a logger.(ƒÚáB8¦êçõ‡0

@@ -1,14 +1,0 @@
-
-k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(©Åôƒûÿÿÿÿ
-k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(©Åôƒûÿÿÿÿ
-f	java:S117."QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(óÆèÌ
-k	java:S1176"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ä¼¸üÿÿÿÿ
-g	java:S101
-"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ÎÉ’©şÿÿÿÿ
-t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ï÷ëƒüÿÿÿÿ
-f	java:S116"QRename this field "te_num" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(˜û§Ã
-f	java:S116"RRename this field "te_info" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(´ıÒy
-h	java:S100*"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Í‘ßÀùÿÿÿÿ
-c	java:S100."NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(óÆèÌ
-h	java:S1002"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ÿ†Î¢ûÿÿÿÿ
-h	java:S1006"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ä¼¸üÿÿÿÿ

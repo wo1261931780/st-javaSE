@@ -1,14 +1,0 @@
-
-p
-java:S1488"ZImmediately return this expression instead of assigning it to the temporary variable "x3".(æ÷¡õ
-b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ÿ‹Œ
-o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¦ÿ¼Ò
-N	java:S106"9Replace this use of System.out or System.err by a logger.(È©ƒ«
-N	java:S106"9Replace this use of System.out or System.err by a logger.(Æúˆ¿
-S	java:S106"9Replace this use of System.out or System.err by a logger.(´ŸÀ”ùÿÿÿÿ
-S	java:S106"9Replace this use of System.out or System.err by a logger.(ö«·°şÿÿÿÿ
-9
-java:S2119"Save and re-use this "Random".(â²ƒ†úÿÿÿÿ
-N	java:S106"9Replace this use of System.out or System.err by a logger.(•çİ£
-M	java:S106"9Replace this use of System.out or System.err by a logger.(šâŒ*
-Q	java:S125!"<This block of commented-out lines of code should be removed.(Ó›¶Ş

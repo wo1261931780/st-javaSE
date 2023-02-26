@@ -1,15 +1,0 @@
-
-g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Ý²ãøüÿÿÿÿ
-R
-java:S4973"<Strings and Boxed types should be compared using "equals()".(äöÉÙ
-W
-java:S4973"<Strings and Boxed types should be compared using "equals()".(”äÂùÿÿÿÿ
-R
-java:S4973$"<Strings and Boxed types should be compared using "equals()".(äöÉÙ
-t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(÷É¥Üúÿÿÿÿ
-;
-java:S2129" Remove this "String" constructor(¦¹¡Äúÿÿÿÿ
-N	java:S106"9Replace this use of System.out or System.err by a logger.(äöÉÙ
-S	java:S106"9Replace this use of System.out or System.err by a logger.(”äÂùÿÿÿÿ
-N	java:S106$"9Replace this use of System.out or System.err by a logger.(äöÉÙ
-Q	java:S125#"<This block of commented-out lines of code should be removed.(²êƒ”

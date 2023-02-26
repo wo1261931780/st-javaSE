@@ -1,17 +1,0 @@
-
-n
-java:S1192"XDefine a constant instead of duplicating this literal "-----------------stripe" 3 times.(ÎÃ†¯
-g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(×ãüûÿÿÿÿ
-o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(„£³¾
-S	java:S106"9Replace this use of System.out or System.err by a logger.(Ïñ´ºüÿÿÿÿ
-N	java:S106"9Replace this use of System.out or System.err by a logger.(æå£¦
-S	java:S106"9Replace this use of System.out or System.err by a logger.(Şë‡Ùÿÿÿÿÿ
-<
-java:S1481"&Remove this unused "a" local variable.(”ğ‡
-N	java:S106"9Replace this use of System.out or System.err by a logger.(ÎÃ†¯
-N	java:S106"9Replace this use of System.out or System.err by a logger.(ÎÃ†¯
-N	java:S106"9Replace this use of System.out or System.err by a logger.(ÎÃ†¯
-N	java:S106"9Replace this use of System.out or System.err by a logger.(óğ†Å
-S	java:S106"9Replace this use of System.out or System.err by a logger.(œˆ´¸øÿÿÿÿ
-N	java:S106""9Replace this use of System.out or System.err by a logger.(¯àêµ
-Q	java:S125%"<This block of commented-out lines of code should be removed.(ğÃØ“

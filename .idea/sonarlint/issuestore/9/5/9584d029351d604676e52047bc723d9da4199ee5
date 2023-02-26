@@ -1,16 +1,0 @@
-
-p
-java:S1488%"[Immediately return this expression instead of assigning it to the temporary variable "ave".(ýýÔ3
-b	java:S101
-"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Â»Ô›
-o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¦ÿ¼Ò
-S	java:S106"9Replace this use of System.out or System.err by a logger.(å°Ë€ûÿÿÿÿ
-[
-java:S1659"@Declare "max" and all following declarations on a separate line.(š¤Å®úÿÿÿÿ
-4
-java:S2119"Save and re-use this "Random".(²œêú
-P	java:S125"<This block of commented-out lines of code should be removed.(éõ¹#
-P	java:S125"<This block of commented-out lines of code should be removed.(éõ¹#
-P	java:S125"<This block of commented-out lines of code should be removed.(éõ¹#
-N	java:S106 "9Replace this use of System.out or System.err by a logger.(¡•ú’
-V	java:S125!"<This block of commented-out lines of code should be removed.(©ä¯ùÿÿÿÿ

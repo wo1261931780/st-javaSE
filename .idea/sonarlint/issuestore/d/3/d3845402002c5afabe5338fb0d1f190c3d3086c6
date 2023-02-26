@@ -1,23 +1,0 @@
-
-m	java:S127"XRefactor the code in order to not assign to this loop counter from within the loop body.(Ì‚ˆÌ
-f	java:S117."QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñŽÉø
-f	java:S1170"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ý©úÊ
-1
-java:S1643"Use a StringBuilder instead.(ó¿™
-g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Þ­éßúÿÿÿÿ
-t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(÷É¥Üúÿÿÿÿ
-V	java:S125	"<This block of commented-out lines of code should be removed.(¯öøæýÿÿÿÿ
-B
-java:S1481
-"'Remove this unused "x1" local variable.(Ø¼ê„øÿÿÿÿ
-V	java:S125"<This block of commented-out lines of code should be removed.(íý€ëûÿÿÿÿ
->	java:S108")Either remove or fill this block of code.(¶™Ë¯
-S	java:S106 "9Replace this use of System.out or System.err by a logger.(Ëéÿ˜ùÿÿÿÿ
-S	java:S106-"9Replace this use of System.out or System.err by a logger.(Á¨ì¨þÿÿÿÿ
-S	java:S106/"9Replace this use of System.out or System.err by a logger.(Ÿ±ÆÑúÿÿÿÿ
-N	java:S1062"9Replace this use of System.out or System.err by a logger.(‹ðÒŒ
-S	java:S1065"9Replace this use of System.out or System.err by a logger.(Þ»©‹üÿÿÿÿ
-N	java:S106>"9Replace this use of System.out or System.err by a logger.(Þ¸™‹
-S	java:S106A"9Replace this use of System.out or System.err by a logger.(¤šò€ýÿÿÿÿ
-V	java:S125C"<This block of commented-out lines of code should be removed.(”æòˆþÿÿÿÿ
-N	java:S106G"9Replace this use of System.out or System.err by a logger.(™¿ß¡

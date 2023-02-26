@@ -1,8 +1,0 @@
-
-b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(¢»¶Á
-t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÀÌÂåşÿÿÿÿ
-`
-java:S2095"JUse try-with-resources or close this "ServerSocket" in a "finally" clause.(®é
-=
-java:S2189""Add an end condition to this loop.(˜ïˆÿÿÿÿÿ
-P	java:S125"<This block of commented-out lines of code should be removed.(‡†Û\

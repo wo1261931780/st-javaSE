@@ -1,15 +1,0 @@
-
-2
-java:S16436"Use a StringBuilder instead.(ß¸²Ÿ
-2
-java:S16439"Use a StringBuilder instead.(ß¸²Ÿ
-2
-java:S1643<"Use a StringBuilder instead.(ß¸²Ÿ
-g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Ž°žéûÿÿÿÿ
-o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¦ÿ¼Ò
-N	java:S106
-"9Replace this use of System.out or System.err by a logger.(€èçÿ
-S	java:S106"9Replace this use of System.out or System.err by a logger.(Æì° úÿÿÿÿ
-V	java:S125"<This block of commented-out lines of code should be removed.(Àýäúÿÿÿÿ
-4
-java:S21191"Save and re-use this "Random".(ˆÅ

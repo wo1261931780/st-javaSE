@@ -1,11 +1,0 @@
-
-J
-java:S3740""/Provide the parametrized type for this generic.(–½Ãÿÿÿÿÿ
-b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(éÅÈØ
-g	java:S101""MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(–½Ãÿÿÿÿÿ
-t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(µé“çşÿÿÿÿ
-{
-java:S2142"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(”ı¾8é¨—‡0
-U	java:S106"9Replace this use of System.out or System.err by a logger.(Ÿ‡ÕÑ8â† ‡0
-]	java:S125"<This block of commented-out lines of code should be removed.(şĞåäúÿÿÿÿ8³Ä˜‡0
-V	java:S125%"<This block of commented-out lines of code should be removed.(œ˜£şÿÿÿÿ

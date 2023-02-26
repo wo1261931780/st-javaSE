@@ -1,21 +1,0 @@
-
-g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(±ûĞ¡ûÿÿÿÿ
-t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÕçÍûùÿÿÿÿ
-S	java:S106"9Replace this use of System.out or System.err by a logger.(Ä€Ì…şÿÿÿÿ
-S	java:S106"9Replace this use of System.out or System.err by a logger.(Ö““Ìúÿÿÿÿ
-S	java:S106"9Replace this use of System.out or System.err by a logger.(–ÏÍñøÿÿÿÿ
-S	java:S106"9Replace this use of System.out or System.err by a logger.(Øì»üÿÿÿÿ
-N	java:S106"9Replace this use of System.out or System.err by a logger.(Å¹Ï
-N	java:S106"9Replace this use of System.out or System.err by a logger.(Å¸Ş
-S	java:S106"9Replace this use of System.out or System.err by a logger.(Œ§™Šüÿÿÿÿ
-S	java:S106"9Replace this use of System.out or System.err by a logger.(æ¯óÿÿÿÿÿ
-N	java:S106"9Replace this use of System.out or System.err by a logger.(•¸Ö
-@
-java:S1481"*Remove this unused "mTime" local variable.(§ß­Å
-N	java:S106!"9Replace this use of System.out or System.err by a logger.(ĞÛâï
-S	java:S106""9Replace this use of System.out or System.err by a logger.(İ°¹÷ùÿÿÿÿ
-S	java:S106#"9Replace this use of System.out or System.err by a logger.(œèšİüÿÿÿÿ
-N	java:S106$"9Replace this use of System.out or System.err by a logger.(ïô÷
-N	java:S106%"9Replace this use of System.out or System.err by a logger.(êÙŸó
-N	java:S106&"9Replace this use of System.out or System.err by a logger.(É§£ˆ
-S	java:S106'"9Replace this use of System.out or System.err by a logger.(«œéÈùÿÿÿÿ

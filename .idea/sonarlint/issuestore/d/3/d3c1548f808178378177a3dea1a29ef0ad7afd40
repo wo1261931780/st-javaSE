@@ -1,10 +1,0 @@
-
-2
-java:S1643"Use a StringBuilder instead.(Îì´þ
-g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Š§ôŽùÿÿÿÿ
-o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(’ªöþ
-U
-java:S1118":Add a private constructor to hide the implicit public one.(Š§ôŽùÿÿÿÿ
-9
-java:S2119"Save and re-use this "Random".(Ø¼ê„øÿÿÿÿ
-S	java:S106"9Replace this use of System.out or System.err by a logger.(µÏ…èùÿÿÿÿ
