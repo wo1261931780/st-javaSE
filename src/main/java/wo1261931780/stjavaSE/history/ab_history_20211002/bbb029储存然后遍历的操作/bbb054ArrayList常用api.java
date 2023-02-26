@@ -1,4 +1,4 @@
-package ab_history_20211002.bbb029储存然后遍历的操作;
+package wo1261931780.stjavaSE.history.ab_history_20211002.bbb029储存然后遍历的操作;
 
 import java.util.ArrayList;
 
@@ -9,7 +9,7 @@ import java.util.ArrayList;
  * public boolean add(E e)：将指定的元素追加到此集合的末尾
  * public void add(int index,E element)：在此集合中的指定位置插入指定的元素
  */
-public class bbb030ArrayList常用api {
+public class bbb054ArrayList常用api {
     public static void main(String[] args) {
         // 需要导包
         ArrayList<String> xx = new ArrayList<>();

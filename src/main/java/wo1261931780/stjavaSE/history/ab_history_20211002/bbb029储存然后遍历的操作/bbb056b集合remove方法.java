@@ -1,8 +1,8 @@
-package ab_history_20211002.bbb029储存然后遍历的操作;
+package wo1261931780.stjavaSE.history.ab_history_20211002.bbb029储存然后遍历的操作;
 
 import java.util.ArrayList;
 
-public class bbb030b集合remove方法 {
+public class bbb056b集合remove方法 {
     public static void main(String[] args) {
         ArrayList<String> x = new ArrayList<>();
         System.out.println("开始执行");

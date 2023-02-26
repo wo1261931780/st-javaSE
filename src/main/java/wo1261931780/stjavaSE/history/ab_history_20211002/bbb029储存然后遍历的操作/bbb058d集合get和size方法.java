@@ -1,8 +1,8 @@
-package ab_history_20211002.bbb029储存然后遍历的操作;
+package wo1261931780.stjavaSE.history.ab_history_20211002.bbb029储存然后遍历的操作;
 
 import java.util.ArrayList;
 
-public class bbb030d集合get和size方法 {
+public class bbb058d集合get和size方法 {
     public static void main(String[] args) {
         System.out.println("------------------------");
         ArrayList<String> x1 = new ArrayList<>();

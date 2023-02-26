@@ -1,9 +1,9 @@
-package ab_history_20211002.bbb038储存学生对象后遍历;
+package wo1261931780.stjavaSE.history.ab_history_20211002.bbb038储存学生对象后遍历;
 
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class bbb040对象测试类 {
+public class bbb073对象测试类 {
     /*
     public static void main(String[] args) {
         ArrayList<bbb040测试> zz = new ArrayList<>();
@@ -66,7 +66,7 @@ public class bbb040对象测试类 {
         String x0 = xx.nextLine();
         System.out.println("请输入第同学的成绩：");
         int x1 = xx.nextInt();
-        bbb039对象类 zx = new bbb039对象类(x0, x1);
+        bbb072对象类 zx = new bbb072对象类(x0, x1);
         // 这里每次zx都新建了一个对象，也获得了一个新的内存地址
         // System.out.println(zx);
         // System.out.println("---------------");

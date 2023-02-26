@@ -1,11 +1,11 @@
-package ab_history_20211002.bbb032集合练习;
+package wo1261931780.stjavaSE.history.ab_history_20211002.bbb032集合练习;
 
-public class bbb002电影类 {
+public class bbb062电影类 {
     private String name;
     private int score;
     private int price;
 
-    public bbb002电影类() {
+    public bbb062电影类() {
     }
 
     public String getName() {
@@ -32,7 +32,7 @@ public class bbb002电影类 {
         this.price = price;
     }
 
-    public bbb002电影类(String name, int score, int price) {
+    public bbb062电影类(String name, int score, int price) {
         this.name = name;
         this.score = score;
         this.price = price;

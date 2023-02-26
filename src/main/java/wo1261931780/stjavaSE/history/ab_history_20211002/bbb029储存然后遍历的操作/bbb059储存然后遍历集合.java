@@ -1,8 +1,8 @@
-package ab_history_20211002.bbb029储存然后遍历的操作;
+package wo1261931780.stjavaSE.history.ab_history_20211002.bbb029储存然后遍历的操作;
 
 import java.util.ArrayList;
 
-public class bbb031储存然后遍历集合 {
+public class bbb059储存然后遍历集合 {
     public static void main(String[] args) {
         //         Random zz=new Random();
         //         int z1=zz.nextInt(1000);

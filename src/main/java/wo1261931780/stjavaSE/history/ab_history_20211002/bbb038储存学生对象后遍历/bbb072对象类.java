@@ -1,13 +1,13 @@
-package ab_history_20211002.bbb038储存学生对象后遍历;
+package wo1261931780.stjavaSE.history.ab_history_20211002.bbb038储存学生对象后遍历;
 
-public class bbb039对象类 {
+public class bbb072对象类 {
     private String name;
     private int age;
 
-    public bbb039对象类() {
+    public bbb072对象类() {
     }
 
-    public bbb039对象类(String name, int age) {
+    public bbb072对象类(String name, int age) {
         this.name = name;
         this.age = age;
     }

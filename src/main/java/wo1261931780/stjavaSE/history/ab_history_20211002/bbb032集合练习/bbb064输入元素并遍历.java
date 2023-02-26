@@ -1,4 +1,4 @@
-package ab_history_20211002.bbb032集合练习;
+package wo1261931780.stjavaSE.history.ab_history_20211002.bbb032集合练习;
 
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -8,7 +8,7 @@ import java.util.Scanner;
  * 最后对集合中的元素进行遍历操作
  */
 
-public class bbb035输入元素并遍历 {
+public class bbb064输入元素并遍历 {
     public static void main(String[] args) {
         ArrayList<String> xx = new ArrayList<>();
         Scanner zz = new Scanner(System.in);

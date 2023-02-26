@@ -1,8 +1,8 @@
-package ab_history_20211002.bbb032集合练习;
+package wo1261931780.stjavaSE.history.ab_history_20211002.bbb032集合练习;
 
 import java.util.ArrayList;
 
-public class bbb001遍历删除元素 {
+public class bbb060遍历删除元素 {
     public static void main(String[] args) {
         ArrayList<Integer> x = new ArrayList<>();
         x.add(97);

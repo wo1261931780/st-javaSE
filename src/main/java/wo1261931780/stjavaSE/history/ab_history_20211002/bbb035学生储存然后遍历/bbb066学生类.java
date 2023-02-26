@@ -1,11 +1,11 @@
-package ab_history_20211002.bbb035学生储存然后遍历;
+package wo1261931780.stjavaSE.history.ab_history_20211002.bbb035学生储存然后遍历;
 
-public class bbb001学生类 {
+public class bbb066学生类 {
     private String name;
     private int age;
     private String address;
 
-    public bbb001学生类() {
+    public bbb066学生类() {
     }
 
     public String getName() {
@@ -32,7 +32,7 @@ public class bbb001学生类 {
         this.address = address;
     }
 
-    public bbb001学生类(String name, int age, String address) {
+    public bbb066学生类(String name, int age, String address) {
         this.name = name;
         this.age = age;
         this.address = address;

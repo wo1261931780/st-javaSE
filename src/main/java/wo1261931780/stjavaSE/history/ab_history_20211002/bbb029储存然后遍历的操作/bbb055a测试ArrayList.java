@@ -1,8 +1,8 @@
-package ab_history_20211002.bbb029储存然后遍历的操作;
+package wo1261931780.stjavaSE.history.ab_history_20211002.bbb029储存然后遍历的操作;
 
 import java.util.ArrayList;
 
-public class bbb030a测试ArrayList {
+public class bbb055a测试ArrayList {
     public static void main(String[] args) {
         System.out.println("开始测试");
         ArrayList<String> x = new ArrayList<>();

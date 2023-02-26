@@ -1,9 +1,9 @@
-package ab_history_20211002.bbb032集合练习;
+package wo1261931780.stjavaSE.history.ab_history_20211002.bbb032集合练习;
 
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class bbb034存储然后遍历 {
+public class bbb063存储然后遍历 {
     public static void main(String[] args) {
         // ArrayList<bbb033> arr=new ArrayList<>();
         // //这里相当于，<>中间是类，arr是对象，意思是，我在bbb033这个类中，创建了arr这个集合，集合是新创建的对象。

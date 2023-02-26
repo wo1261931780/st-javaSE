@@ -1,11 +1,11 @@
-package ab_history_20211002.bbb035学生储存然后遍历;
+package wo1261931780.stjavaSE.history.ab_history_20211002.bbb035学生储存然后遍历;
 
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class bbb002测试类 {
+public class bbb067测试类 {
     public static void main(String[] args) {
-        ArrayList<bbb001学生类> x = new ArrayList<>();
+        ArrayList<bbb066学生类> x = new ArrayList<>();
         Scanner x1 = new Scanner(System.in);
         while (true) {
             int i = x1.nextInt();
@@ -23,8 +23,8 @@ public class bbb002测试类 {
 
     }
 
-    public static void addshow(ArrayList<bbb001学生类> xx) {
-        bbb001学生类 x1 = new bbb001学生类();
+    public static void addshow(ArrayList<bbb066学生类> xx) {
+        bbb066学生类 x1 = new bbb066学生类();
         System.out.println();
         Scanner x = new Scanner(System.in);
         Scanner x2 = new Scanner(System.in);
@@ -37,14 +37,14 @@ public class bbb002测试类 {
         xx.add(x1);
     }
 
-    public static void show(ArrayList<bbb001学生类> x) {
+    public static void show(ArrayList<bbb066学生类> x) {
         System.out.println("姓名：" + "\t" + "地址" + "\t" + "年龄");
         for (int i = 0; i < x.size(); i++) {
             System.out.println(x.get(i).getName() + "\t" + x.get(i).getAddress() + "\t" + x.get(i).getAge());
         }
     }
 
-    public static void query(ArrayList<bbb001学生类> x) {
+    public static void query(ArrayList<bbb066学生类> x) {
         Scanner x1 = new Scanner(System.in);
         String s = x1.nextLine();
         for (int i = 0; i < x.size(); i++) {
