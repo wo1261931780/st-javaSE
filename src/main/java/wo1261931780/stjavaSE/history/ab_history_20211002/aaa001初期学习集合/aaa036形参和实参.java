@@ -12,43 +12,43 @@ package wo1261931780.stjavaSE.history.ab_history_20211002.aaa001初期学习集�
 import java.util.Scanner;
 
 public class aaa036形参和实参 {
-    public static void main(String[] args) {
-        // 可以不传递参数，直接调用方法
-        showdemo();
-        //但是要注意，不带参数的方法，括号内部为空
-        System.out.println("------------------------------------------------");
-        //调用方法的时候是实参
-        max(10, 20);
-        // max方法中，传递的两个数字10和20就是实参
-        // 如果调用方法中，传递的是number这个变量，那么number也算实参
-        // ------------------------------------------------
+	public static void main(String[] args) {
+		// 可以不传递参数，直接调用方法
+		showdemo();
+		// 但是要注意，不带参数的方法，括号内部为空
+		System.out.println("------------------------------------------------");
+		// 调用方法的时候是实参
+		max(10, 20);
+		// max方法中，传递的两个数字10和20就是实参
+		// 如果调用方法中，传递的是number这个变量，那么number也算实参
+		// ------------------------------------------------
 
-        // 调用方法，直接使用方法名，然后括号内传递参数即可
-        //传参的时候，参数的类型和数量必须一致，否则会出错
-        Scanner xx = new Scanner(System.in);
-        System.out.println("请输入具体数字：");
-        int pn = xx.nextInt();
-        divides(pn);
-        System.out.println("执行完毕");
-    }
+		// 调用方法，直接使用方法名，然后括号内传递参数即可
+		// 传参的时候，参数的类型和数量必须一致，否则会出错
+		Scanner xx = new Scanner(System.in);
+		System.out.println("请输入具体数字：");
+		int pn = xx.nextInt();
+		divides(pn);
+		System.out.println("执行完毕");
+	}
 
-    public static void showdemo() {
-        int a = 11;
-        String b = "我是不带参数的方法";
-        System.out.println(a + b);
-    }
+	public static void showdemo() {
+		int a = 11;
+		String b = "我是不带参数的方法";
+		System.out.println(a + b);
+	}
 
-    /**
-     * 下面定义方法int xx的时候是形参
-     */
-    public static void max(int xx, int x2) {
-        System.out.println("我是带参数的方法，比较大小");
-        if (xx > x2) {
-            System.out.println("最大值为" + xx);
-        } else {
-            System.out.println("最大值为" + x2);
-        }
-        //定义方法，方法的名称可以随便改
+	/**
+	 * 下面定义方法int xx的时候是形参
+	 */
+	public static void max(int xx, int x2) {
+		System.out.println("我是带参数的方法，比较大小");
+		if (xx > x2) {
+			System.out.println("最大值为" + xx);
+		} else {
+			System.out.println("最大值为" + x2);
+		}
+		// 定义方法，方法的名称可以随便改
         /*
         Scanner xx = new Scanner(System.in);
         System.out.println("请输入数字：");
@@ -69,21 +69,21 @@ public class aaa036形参和实参 {
                 max = arr[x];
             }
         System.out.println("最大值为：" + max);*/
-    }
+	}
 
-    /**
-     * 方法中的参数，就是形参，例如下面的number
-     */
-    public static void divides(int number) {
-        if (number % 2 == 0 && number > 0) {
-            System.out.println(number + "为偶数");
-        } else if (number % 2 == 1 && number > 0) {
-            System.out.println(number + "为奇数");
-        } else {
-            // while (number < 0) {
-            System.out.println("数据错误，请重新输入");
-            // break;
-            // }
-        }
-    }
+	/**
+	 * 方法中的参数，就是形参，例如下面的number
+	 */
+	public static void divides(int number) {
+		if (number % 2 == 0 && number > 0) {
+			System.out.println(number + "为偶数");
+		} else if (number % 2 == 1 && number > 0) {
+			System.out.println(number + "为奇数");
+		} else {
+			// while (number < 0) {
+			System.out.println("数据错误，请重新输入");
+			// break;
+			// }
+		}
+	}
 }
