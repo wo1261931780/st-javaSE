@@ -1,6 +1,9 @@
 package wo1261931780.stjavaSE.history.ab_history_20211002.aaa001初期学习集合;
 
-public class aaa030方法的参数传递 {
+/**
+ * @author junw
+ */
+public class aaa031方法的参数传递 {
 	public static void main(String[] args) {
 		// 这里是实参
 		int x = 100;

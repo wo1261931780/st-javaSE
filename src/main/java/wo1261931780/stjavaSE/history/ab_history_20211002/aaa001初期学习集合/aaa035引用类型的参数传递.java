@@ -1,6 +1,6 @@
 package wo1261931780.stjavaSE.history.ab_history_20211002.aaa001初期学习集合;
 
-public class aaa034引用类型的参数传递 {
+public class aaa035引用类型的参数传递 {
 	public static void main(String[] args) {
 		System.out.println("--------------------------");
 		int[] arr = {1, 1, 12, 1, 3, 12};

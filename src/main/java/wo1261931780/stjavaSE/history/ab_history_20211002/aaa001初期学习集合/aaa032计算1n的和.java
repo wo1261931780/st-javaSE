@@ -3,7 +3,7 @@ package wo1261931780.stjavaSE.history.ab_history_20211002.aaa001初期学习集�
 import java.util.Random;
 import java.util.Scanner;
 
-public class aaa031计算1n的和 {
+public class aaa032计算1n的和 {
 	public static void main(String[] args) {
 		Scanner x = new Scanner(System.in);
 		System.out.println("type in");

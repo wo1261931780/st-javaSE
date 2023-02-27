@@ -2,7 +2,7 @@ package wo1261931780.stjavaSE.history.ab_history_20211002.aaa001初期学习集�
 
 import java.util.Scanner;
 
-public class aaa035打印数组内容 {
+public class aaa036打印数组内容 {
 	public static void main(String[] args) {
 		int[] xx = {11, 22, 33, 44, 55};
 		show(xx);

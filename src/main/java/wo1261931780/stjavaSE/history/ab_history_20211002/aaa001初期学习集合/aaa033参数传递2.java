@@ -1,6 +1,6 @@
 package wo1261931780.stjavaSE.history.ab_history_20211002.aaa001初期学习集合;
 
-public class aaa032参数传递2 {
+public class aaa033参数传递2 {
 	public static void main(String[] args) {
 		// 下面是引用类型的参数传递
 		// 静态初始化
@@ -13,7 +13,12 @@ public class aaa032参数传递2 {
 		System.out.println("调用后" + x[2]);
 	}
 
-	public static void show(int[] x) {// 这里是引用类型的参数传递
+	/**
+	 * 查看是引用类型的参数传递
+	 *
+	 * @param x 形参
+	 */
+	public static void show(int[] x) {
 		// 通过内存地址，找到堆内存中的数据，然后进行赋值
 		x[2] = 200;
 		// 最终修改的是堆内存中的数据

@@ -9,7 +9,7 @@ package wo1261931780.stjavaSE.history.ab_history_20211002.aaa001初期学习集�
  * @Date 2023-02-16-20  星期一
  * @description
  */
-public class aaa036比价数组 {
+public class aaa038比价数组 {
 	public static void main(String[] args) {
 		System.out.println("测试");
 	}
@@ -20,7 +20,7 @@ public class aaa036比价数组 {
 	 * @param xx 数组1
 	 * @param x1 数组2
 	 */
-	public static void que(int[] xx, int[] x1) {// 2022年1月2日17:08:13，第一次写
+	public static void que(int[] xx, int[] x1) {
 		if (xx.length == x1.length) {
 			OUT:
 			for (int i = 0; i < xx.length; i++) {
@@ -46,7 +46,7 @@ public class aaa036比价数组 {
 	 * @param x1 数组2
 	 * @return tf
 	 */
-	public static boolean que2(int[] xx, int[] x1) {//
+	public static boolean que2(int[] xx, int[] x1) {
 		if (xx.length == x1.length) {
 			for (int i = 0; i < xx.length; i++) {
 				if (xx[i] != x1[i]) {

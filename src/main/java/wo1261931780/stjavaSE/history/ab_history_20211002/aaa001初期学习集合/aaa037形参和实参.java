@@ -11,7 +11,7 @@ package wo1261931780.stjavaSE.history.ab_history_20211002.aaa001初期学习集�
 
 import java.util.Scanner;
 
-public class aaa036形参和实参 {
+public class aaa037形参和实参 {
 	public static void main(String[] args) {
 		// 可以不传递参数，直接调用方法
 		showdemo();
