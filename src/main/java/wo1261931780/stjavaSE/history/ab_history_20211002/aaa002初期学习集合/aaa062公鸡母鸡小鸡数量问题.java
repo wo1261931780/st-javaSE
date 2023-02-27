@@ -1,6 +1,6 @@
-package wo1261931780.stjavaSE.history.ab_history_20211002.aaa003初期学习集合;
+package wo1261931780.stjavaSE.history.ab_history_20211002.aaa002初期学习集合;
 
-public class bbb004公鸡母鸡小鸡数量问题 {
+public class aaa062公鸡母鸡小鸡数量问题 {
     public static void main(String[] args) {
         for (int x = 0; x <= 20; x++) {
             for (int y = 0; y <= 33; y++) {
@@ -11,5 +11,4 @@ public class bbb004公鸡母鸡小鸡数量问题 {
             }
         }
     }
-
 }

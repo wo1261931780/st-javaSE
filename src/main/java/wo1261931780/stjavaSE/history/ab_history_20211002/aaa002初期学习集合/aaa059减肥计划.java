@@ -1,4 +1,4 @@
-package wo1261931780.stjavaSE.history.ab_history_20211002.aaa003初期学习集合;
+package wo1261931780.stjavaSE.history.ab_history_20211002.aaa002初期学习集合;
 
 import java.util.Scanner;
 
@@ -16,7 +16,7 @@ import java.util.Scanner;
  * <p>
  * 不导包，直接输入scanner，会自动导包+创建对象
  */
-public class bbb001减肥计划 {
+public class aaa059减肥计划 {
 	public static void main(String[] args) {
 		Scanner b11 = new Scanner(System.in);
 		System.out.println("请输入时间：");
