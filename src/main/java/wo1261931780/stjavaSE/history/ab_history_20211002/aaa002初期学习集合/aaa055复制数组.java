@@ -6,7 +6,7 @@ import java.util.Random;
 /**
  * 需求：把一个数组中的元素复制到另一个新数组中去。
  */
-public class aaa053复制数组 {
+public class aaa055复制数组 {
     public static void main(String[] args) {
         // show();
         System.out.println("**********************");

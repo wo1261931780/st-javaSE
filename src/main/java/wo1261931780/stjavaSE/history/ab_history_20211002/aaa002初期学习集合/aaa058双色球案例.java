@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.Random;
 import java.util.Scanner;
 
-public class aaa056双色球案例 {
+public class aaa058双色球案例 {
     public static void main(String[] args) {
         int[] x = new int[7];
         int[] x1 = new int[7];

@@ -1,10 +1,10 @@
-package wo1261931780.stjavaSE.history.ab_history_20211002.aaa002初期学习集合;
+package wo1261931780.stjavaSE.history.ab_history_20211002.aaa001初期学习集合;
 
 //这里主要学习不同的方法，根数据类型，需要设置不同的返回值
 //比如数据是布尔类型的，那么返回true/false
 
 
-public class aaa041带返回值的方法调用 {
+public class aaa044带返回值的方法调用 {
     public static void main(String[] args) {
         // public static void mmmm(){}
         // public公开

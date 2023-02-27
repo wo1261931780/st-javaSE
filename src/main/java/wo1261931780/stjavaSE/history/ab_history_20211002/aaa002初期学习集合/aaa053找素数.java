@@ -4,7 +4,7 @@ package wo1261931780.stjavaSE.history.ab_history_20211002.aaa002初期学习集�
  * 需求：找出101-200之间的素数输出：
  * 素数是什么：如果除了1和它本身以外，不能被其他正整数整除，就叫素数。
  */
-public class aaa051找素数 {
+public class aaa053找素数 {
     public static void main(String[] args) {
         show();
         System.out.println("end");

@@ -5,7 +5,7 @@ import java.util.Random;
 /**
  * 需求：定义方法实现随机产生一个5位的验证码，每位可能是数字、大写字母、小写字母。
  */
-public class aaa052验证码 {
+public class aaa054验证码 {
     public static void main(String[] args) {
         System.out.println(show(5));
         System.out.println("end");

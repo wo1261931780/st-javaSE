@@ -1,4 +1,4 @@
-package wo1261931780.stjavaSE.history.ab_history_20211002.aaa002初期学习集合;
+package wo1261931780.stjavaSE.history.ab_history_20211002.aaa003初期学习集合;
 
 public class bbb005数组元素求和 {
     // public static void main(String[] args) {
