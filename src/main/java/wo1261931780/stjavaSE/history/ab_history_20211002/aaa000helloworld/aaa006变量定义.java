@@ -45,7 +45,5 @@ public class aaa006变量定义 {
 		System.out.println(x2);// 结果89，八进制转化为二进制，然后转化为十进制输出
 		int x3 = 0x123;// 16进制0x开头，输入16进制数字123，
 		System.out.println(x3);// 结果291，十六进制转化为2进制，然后转化为十进制输出
-
-
 	}
 }
