@@ -13,7 +13,7 @@ import java.lang.reflect.InvocationTargetException;
  * Time:  2022-05-15-06  星期一
  */
 public class ccc002 {
-    @Test
+    // @Test
     public void show_v() throws NoSuchMethodException, InvocationTargetException, InstantiationException, IllegalAccessException {
         Class x = ccc001.class;
         // Constructor constructor = x.getConstructor();
@@ -23,7 +23,7 @@ public class ccc002 {
             System.out.println(field.getName() + "-----" + field.getType());
         }
     }
-    @Test
+    // @Test
     public void show_v2() {
         Class x = ccc001.class;
         Field[] fields = x.getFields();// 只能拿到公开变量
@@ -31,7 +31,7 @@ public class ccc002 {
             System.out.println(field.getName() + "-----" + field.getType());
         }
     }
-    @Test
+    // @Test
     public void show_v3() throws NoSuchFieldException, IllegalAccessException {
         Class x = ccc001.class;
         // Field age = x.getField("age");

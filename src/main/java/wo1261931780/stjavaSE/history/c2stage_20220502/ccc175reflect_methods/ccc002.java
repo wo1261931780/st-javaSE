@@ -1,6 +1,5 @@
 package wo1261931780.stjavaSE.history.c2stage_20220502.ccc175reflect_methods;
 
-import org.junit.jupiter.api.Test;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
@@ -13,7 +12,7 @@ import java.lang.reflect.Method;
  * Time:  2022-05-16-03  星期一
  */
 public class ccc002 {
-    @Test
+    // @Test
     public void show_method() {
         Class x = ccc001dog.class;
         Method[] declaredMethods = x.getDeclaredMethods();
@@ -25,7 +24,7 @@ public class ccc002 {
         }
     }
 
-    @Test
+    // @Test
     public void show_invoke() throws NoSuchMethodException, InvocationTargetException, IllegalAccessException {
         Class x = ccc001dog.class;
         Method eat = x.getDeclaredMethod("eat", String.class);

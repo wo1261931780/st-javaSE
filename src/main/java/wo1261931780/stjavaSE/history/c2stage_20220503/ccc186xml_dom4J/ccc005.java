@@ -5,7 +5,6 @@ import org.dom4j.Document;
 import org.dom4j.DocumentException;
 import org.dom4j.Element;
 import org.dom4j.io.SAXReader;
-import org.junit.jupiter.api.Test;
 
 import java.io.File;
 import java.util.List;
@@ -18,7 +17,7 @@ import java.util.List;
  * Time:  2022-05-12-47  星期二
  */
 public class ccc005 {
-    @Test
+    // @Test
     public void show() throws DocumentException {
         SAXReader x = new SAXReader();
         Document read = x.read(new File("src/c2stage_20220503/ccc186xml_dom4J/ccc002books.xml"));

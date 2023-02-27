@@ -12,7 +12,7 @@ import java.util.Arrays;
  */
 @ccc001(name = "123", prices = 123.23, authors = {"11", "22"})
 public class ccc002 {
-    @Test
+    // @Test
     public void show() {
         Class<ccc003> x = ccc003.class;
         if (x.isAnnotationPresent(ccc001.class)) {// 判断注解是否存在

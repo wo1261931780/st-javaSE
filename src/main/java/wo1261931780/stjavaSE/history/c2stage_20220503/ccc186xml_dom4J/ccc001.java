@@ -4,7 +4,6 @@ import org.dom4j.Document;
 import org.dom4j.DocumentException;
 import org.dom4j.Element;
 import org.dom4j.io.SAXReader;
-import org.junit.jupiter.api.Test;
 
 import java.io.File;
 
@@ -16,7 +15,7 @@ import java.io.File;
  * Time:  2022-05-10-39  星期二
  */
 public class ccc001 {
-    @Test
+    // @Test
     public void analysis() throws DocumentException {
         SAXReader x = new SAXReader();
         // try {

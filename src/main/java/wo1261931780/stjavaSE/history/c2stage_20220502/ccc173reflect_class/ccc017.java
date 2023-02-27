@@ -1,6 +1,5 @@
 package wo1261931780.stjavaSE.history.c2stage_20220502.ccc173reflect_class;
 
-import org.junit.jupiter.api.Test;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
@@ -13,7 +12,7 @@ import java.lang.reflect.InvocationTargetException;
  * Time:  2022-05-14-37  星期一
  */
 public class ccc017 {
-    @Test
+    // @Test
     public void showcons() {
         Class x = ccc016object.class;
         Constructor[] demo = x.getConstructors();
@@ -21,7 +20,7 @@ public class ccc017 {
             System.out.println(constructor.getName() + "----内部的参数数量：" + constructor.getParameterCount());
         }
     }
-    @Test
+    // @Test
     public void showallcons() {
         Class x = ccc016object.class;
         Constructor[] demo = x.getDeclaredConstructors();
@@ -29,14 +28,14 @@ public class ccc017 {
             System.out.println(constructor.getName() + "----内部的参数数量：" + constructor.getParameterCount());
         }
     }
-    @Test
+    // @Test
     public void showsinglecons() throws NoSuchMethodException {
         Class x = ccc016object.class;
         Constructor demo = x.getConstructor();// 注意这里，尾巴没有s，只能获得单个构造器
         // 这里默认获取public修饰的
         System.out.println(demo.getName() + "----内部的参数数量：" + demo.getParameterCount());
     }
-    @Test
+    // @Test
     public void showparticularcons() throws NoSuchMethodException, InvocationTargetException, InstantiationException, IllegalAccessException {
         Class x = ccc016object.class;
         Constructor demo = x.getDeclaredConstructor();// 只要构造器存在，就可以获得

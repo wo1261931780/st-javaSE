@@ -2,7 +2,6 @@ package wo1261931780.stjavaSE.history.c2stage_20220503.ccc188xml_search;
 
 import org.dom4j.*;
 import org.dom4j.io.SAXReader;
-import org.junit.jupiter.api.Test;
 
 import java.io.File;
 import java.util.List;
@@ -16,7 +15,7 @@ import java.util.List;
  */
 public class ccc001 {
 
-    @Test
+    // @Test
     public void show() throws Exception {
         SAXReader x = new SAXReader();
         // Document doc = x.read(new File("src/c2stage_20220503/ccc188xml_search/ccc004Contacts2.xml"));
@@ -31,7 +30,7 @@ public class ccc001 {
         // }
     }
 
-    @Test
+    // @Test
     public void show2() throws DocumentException {
         SAXReader x = new SAXReader();
         Document doc = x.read(new File("src/c2stage_20220503/ccc188xml_search/ccc004Contacts2.xml"));
@@ -45,7 +44,7 @@ public class ccc001 {
         }
     }
 
-    @Test
+    // @Test
     public void show3() throws DocumentException {
         SAXReader x = new SAXReader();
         Document doc = x.read(new File("src/c2stage_20220503/ccc188xml_search/ccc004Contacts2.xml"));
@@ -58,7 +57,7 @@ public class ccc001 {
         }
     }
 
-    @Test
+    // @Test
     public void show4() throws DocumentException {
         SAXReader x = new SAXReader();
         Document doc = x.read(new File("src/c2stage_20220503/ccc188xml_search/ccc004Contacts2.xml"));
