@@ -1,6 +1,6 @@
-package ab_Reinforcement_20220111.ccc018猫狗多态案例;
+package wo1261931780.stjavaSE.history.ab_Reinforcement_20220111.ccc018猫狗多态案例;
 
-public class ccc021animal {
+public class ccc018animal {
     private int age;
     private String name;
 
@@ -8,10 +8,10 @@ public class ccc021animal {
         System.out.println("animal类中的run----------------");
     }
 
-    public ccc021animal() {
+    public ccc018animal() {
     }
 
-    public ccc021animal(int age, String name) {
+    public ccc018animal(int age, String name) {
         this.age = age;
         this.name = name;
     }

@@ -1,4 +1,4 @@
-package ab_history_20211002.bbb049学生对象来自录入;
+package wo1261931780.stjavaSE.history.ab_history_20211002.bbb049学生对象来自录入;
 
 public class bbb050类教程 {
     private String name = "";

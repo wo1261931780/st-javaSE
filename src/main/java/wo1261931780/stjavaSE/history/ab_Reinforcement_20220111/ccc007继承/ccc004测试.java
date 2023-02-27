@@ -1,13 +1,13 @@
-package ab_Reinforcement_20220111.ccc007继承;
+package wo1261931780.stjavaSE.history.ab_Reinforcement_20220111.ccc007继承;
 
-public class ccc003测试 {
+public class ccc004测试 {
     public static void main(String[] args) {
         ccc002fu x1 = new ccc002fu();
         // 使用了类中默认存在的无参构造方法
         // 在类中的对象，可以使用类中存在的方法
         //如果fu里面有static就无法调用
         x1.show();
-        ccc002zi x2 = new ccc002zi();
+        ccc003zi x2 = new ccc003zi();
         // 如果子类继承了父类，那么就可以使用父类中的方法
 
         x2.zi();

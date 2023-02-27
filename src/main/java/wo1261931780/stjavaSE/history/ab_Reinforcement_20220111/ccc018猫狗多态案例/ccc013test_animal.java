@@ -1,18 +1,18 @@
-package ab_Reinforcement_20220111.ccc018猫狗多态案例;
+package wo1261931780.stjavaSE.history.ab_Reinforcement_20220111.ccc018猫狗多态案例;
 
-public class ccc001test_animal {
+public class ccc013test_animal {
     public int age;
     public String name;
 
-    public ccc001test_animal(int age, String name) {
+    public ccc013test_animal(int age, String name) {
         this.age = age;
         this.name = name;
     }
 
-    public ccc001test_animal() {
+    public ccc013test_animal() {
     }
 
-    public void eat(ccc001test_animal x) {
+    public void eat(ccc013test_animal x) {
         System.out.println("我是animal中的eat方法");
     }
 

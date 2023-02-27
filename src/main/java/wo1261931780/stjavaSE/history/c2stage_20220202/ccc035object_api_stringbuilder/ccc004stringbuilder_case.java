@@ -1,31 +1,31 @@
-package c2stage_20220202.ccc035object_api_stringbuilder;
+package wo1261931780.stjavaSE.history.c2stage_20220202.ccc035object_api_stringbuilder;
 
 public class ccc004stringbuilder_case {
-    public static void main(String[] args) {
-        int[] x = {1, 21, 231, 5, 156};
-        show(x);
-    }
+	public static void main(String[] args) {
+		int[] x = {1, 21, 231, 5, 156};
+		show(x);
+	}
 
-    public static String show(int[] x) {
-        StringBuilder x1 = new StringBuilder("¸ÃÊı×éÄÚÈİÎª£º[");
-        // Ê×ÏÈÒªÅĞ¶ÏÊı×éÊÇ·ñÎª¿Õ
+	public static String show(int[] x) {
+		StringBuilder x1 = new StringBuilder("è¯¥æ•°ç»„å†…å®¹ä¸ºï¼š[");
+		// é¦–å…ˆè¦åˆ¤æ–­æ•°ç»„æ˜¯å¦ä¸ºç©º
 
-        for (int i = 0; i < x.length; i++) {
-            // if (i==x.length - 1) {
-            //     x1.append(x[i]);
-            // }else{
-            //     x1.append(x[i]).append(",");
-            // }
-            // ÉÏÃæµÄÌ«†ªàÂ
-            // StringBuilder xx = i == x.length - 1 ? x1.append(x[i]) : x1.append(x[i]).append(",");
-            // ÕâÀïxxÃ»ÓĞÊ¹ÓÃ
-            x1.append(x[i]).append(i==x.length - 1 ?"":",");
+		for (int i = 0; i < x.length; i++) {
+			// if (i==x.length - 1) {
+			//     x1.append(x[i]);
+			// }else{
+			//     x1.append(x[i]).append(",");
+			// }
+			// ä¸Šé¢çš„å¤ªå•°å—¦
+			// StringBuilder xx = i == x.length - 1 ? x1.append(x[i]) : x1.append(x[i]).append(",");
+			// è¿™é‡Œxxæ²¡æœ‰ä½¿ç”¨
+			x1.append(x[i]).append(i == x.length - 1 ? "" : ",");
 
-        }
-        x1.append("]");
-        // System.out.println(x1);
-        // String s = x1.toString();
-        // return s;
-        return x1.toString();
-    }
+		}
+		x1.append("]");
+		// System.out.println(x1);
+		// String s = x1.toString();
+		// return s;
+		return x1.toString();
+	}
 }

@@ -1,9 +1,9 @@
-package ab_Reinforcement_20220111.ccc008三代人;
+package wo1261931780.stjavaSE.history.ab_Reinforcement_20220111.ccc008三代人;
 
-public class ccc005测试 {
+public class ccc009测试 {
     public static void main(String[] args) {
         System.out.println("开始---------------");
-        ccc003son x1 = new ccc003son();
+        ccc007son x1 = new ccc007son();
         //儿子自带的方法
         x1.skating();
         //因为儿子继承了父亲，所以可以使用父亲的方法

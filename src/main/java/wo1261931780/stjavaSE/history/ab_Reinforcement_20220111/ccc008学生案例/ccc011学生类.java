@@ -1,6 +1,6 @@
-package ab_Reinforcement_20220111.ccc008学生案例;
+package wo1261931780.stjavaSE.history.ab_Reinforcement_20220111.ccc008学生案例;
 
-public class ccc002学生类 extends ccc001父类 {
+public class ccc011学生类 extends ccc010父类 {
     private int classnum;
 
     public int getClassnum() {

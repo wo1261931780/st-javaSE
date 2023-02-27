@@ -3,28 +3,28 @@ package wo1261931780.stjavaSE.history.ab_history_20211002.bbb028Stringuild相关
 import java.util.Scanner;
 
 public class bbb052字符串反转 {
-    public static void main(String[] args) {
-        Scanner zz = new Scanner(System.in);
-        System.out.println("请输入字符串：");
-        String z1 = zz.nextLine();
-        bbb052字符串反转 ff = new bbb052字符串反转();
-        ff.fz(z1);
+	public static void main(String[] args) {
+		Scanner zz = new Scanner(System.in);
+		System.out.println("请输入字符串：");
+		String z1 = zz.nextLine();
+		bbb052字符串反转 ff = new bbb052字符串反转();
+		ff.fz(z1);
         /*下面是数列实现反转，但是还不够完善
         int[] xx={1,2,3};
         bbb031字符串反转 x1=new bbb031字符串反转();
         x1.fz(xx);*/
-    }
+	}
 
-    public void fz(String z1) {
-        System.out.println(z1);
-        // String s="";
-        //通过反向遍历的方法获取字符串，然后拼接即可
-        for (int z = z1.length() - 1; z >= 0; z--) {
-            System.out.print(z1.charAt(z) + "-");
-            // s+=z1.charAt(z);
-            // 这里官方的方法多了一步自定义变量。
-        }
-        System.out.println("反转结束");
+	public void fz(String z1) {
+		System.out.println(z1);
+		// String s="";
+		// 通过反向遍历的方法获取字符串，然后拼接即可
+		for (int z = z1.length() - 1; z >= 0; z--) {
+			System.out.print(z1.charAt(z) + "-");
+			// s+=z1.charAt(z);
+			// 这里官方的方法多了一步自定义变量。
+		}
+		System.out.println("反转结束");
 
         /*
         String x2="";
@@ -39,5 +39,5 @@ public class bbb052字符串反转 {
                 System.out.print(x2+=xx[x]+",");
             }
         }*/
-    }
+	}
 }

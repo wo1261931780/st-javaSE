@@ -13,13 +13,13 @@ package wo1261931780.stjavaSE.history.ab_history_20211002.bbb028Stringuild相关
  * 5:输出结果
  */
 public class bbb051字符串拼接 {
-    public static void main(String[] args) {
-        // 无参构造
-        bbb050 x = new bbb050();
-        int[] xx = {11, 22, 33, 44, 55};
-        //        int x1=0;
-        x.xh(xx);
-        // 这里xh方法，可以是类内部方法
-        // 也可以是同一个包下，其他类中的方法
-    }
+	public static void main(String[] args) {
+		// 无参构造
+		bbb050 x = new bbb050();
+		int[] xx = {11, 22, 33, 44, 55};
+		//        int x1=0;
+		x.xh(xx);
+		// 这里xh方法，可以是类内部方法
+		// 也可以是同一个包下，其他类中的方法
+	}
 }

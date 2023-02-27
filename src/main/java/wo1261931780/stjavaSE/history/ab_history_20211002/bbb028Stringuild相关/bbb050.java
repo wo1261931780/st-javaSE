@@ -13,20 +13,20 @@ package wo1261931780.stjavaSE.history.ab_history_20211002.bbb028Stringuild相关
  * 5:输出结果
  */
 public class bbb050 {
-    /**
-     * 这里没有做类的带参构造，只是在类的内部，增加了一个xh方法来完成功能
-     */
-    public void xh(int[] xx) {
-        System.out.print("[");
-        for (int x = 0; x < xx.length; x++) {
-            String x1 = "";
-            //字符串原来可以这样拼接
-            x1 += xx[x];
-            if (x < xx.length - 1) {
-                System.out.print(x1 + ",");
-            } else {
-                System.out.print(x1 + "]");
-            }
-        }
-    }
+	/**
+	 * 这里没有做类的带参构造，只是在类的内部，增加了一个xh方法来完成功能
+	 */
+	public void xh(int[] xx) {
+		System.out.print("[");
+		for (int x = 0; x < xx.length; x++) {
+			String x1 = "";
+			// 字符串原来可以这样拼接
+			x1 += xx[x];
+			if (x < xx.length - 1) {
+				System.out.print(x1 + ",");
+			} else {
+				System.out.print(x1 + "]");
+			}
+		}
+	}
 }

@@ -1,21 +1,21 @@
 package wo1261931780.stjavaSE.history.ab_history_20211002.bbb014输入姓名和成绩;
 
 public class bbb022a关键字private {
-    private int age;
-    private String name;
+	private int age;
+	private String name;
 
-    public void showdemo() {
-        System.out.println("showdemo---------");
-    }
+	public void showdemo() {
+		System.out.println("showdemo---------");
+	}
 
-    public int getAge() {
-        System.out.println(age);
-        return age;
+	public int getAge() {
+		System.out.println(age);
+		return age;
 
-    }
+	}
 
-    public void setAge(int age) {
-        this.age = age;
+	public void setAge(int age) {
+		this.age = age;
         /*
         age = 1;
         this.age = 1;
@@ -24,16 +24,16 @@ public class bbb022a关键字private {
         this.age指向的是堆内存中的成员变量。
         只有将数据赋值给堆内存中的变量，才有可能实现数据修改――get方法才会生效
         */
-        // System.out.println(age);
-    }
+		// System.out.println(age);
+	}
 
-    public String getName() {
-        return name;
-    }
+	public String getName() {
+		return name;
+	}
 
-    public void setName(String name) {
-        // this.name = name;
-        name = "naasd";
-        // System.out.println(name);
-    }
+	public void setName(String name) {
+		// this.name = name;
+		name = "naasd";
+		// System.out.println(name);
+	}
 }

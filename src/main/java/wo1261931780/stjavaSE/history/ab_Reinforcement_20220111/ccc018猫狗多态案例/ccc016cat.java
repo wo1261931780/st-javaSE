@@ -1,10 +1,10 @@
-package ab_Reinforcement_20220111.ccc018猫狗多态案例;
+package wo1261931780.stjavaSE.history.ab_Reinforcement_20220111.ccc018猫狗多态案例;
 
-public class ccc019cat extends ccc021animal {
-    public ccc019cat() {
+public class ccc016cat extends ccc018animal {
+    public ccc016cat() {
     }
 
-    public ccc019cat(int age, String name) {
+    public ccc016cat(int age, String name) {
         super(age, name);
     }
 

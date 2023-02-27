@@ -1,6 +1,6 @@
-package ab_Reinforcement_20220111.ccc008学生案例;
+package wo1261931780.stjavaSE.history.ab_Reinforcement_20220111.ccc008学生案例;
 
-public class ccc001父类 {
+public class ccc010父类 {
     private String name;
     private int age;
 

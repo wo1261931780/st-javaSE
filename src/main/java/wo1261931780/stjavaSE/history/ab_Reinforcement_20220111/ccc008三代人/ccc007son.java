@@ -1,6 +1,6 @@
-package ab_Reinforcement_20220111.ccc008三代人;
+package wo1261931780.stjavaSE.history.ab_Reinforcement_20220111.ccc008三代人;
 
-public class ccc003son extends ccc001father {
+public class ccc007son extends ccc005father {
     /**
      * 类只能进行单个继承，但是可以进行多层继承
      */
