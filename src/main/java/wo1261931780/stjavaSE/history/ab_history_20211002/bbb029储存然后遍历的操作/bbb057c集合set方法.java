@@ -18,6 +18,5 @@ public class bbb057c集合set方法 {
 		// 得到的结果为被修改的元素1111
 		// String x1 = x.set(0, "000");
 		// System.out.println(x1);
-
 	}
 }

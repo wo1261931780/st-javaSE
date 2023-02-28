@@ -14,6 +14,5 @@ public class bbb023b关键字测试类 {
 		// x1.setAge(1);
 		// x1.getAge();
 		// 堆内存和栈内存的数据修改
-
 	}
 }

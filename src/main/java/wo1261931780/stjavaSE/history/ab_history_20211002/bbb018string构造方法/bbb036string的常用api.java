@@ -1,5 +1,7 @@
 package wo1261931780.stjavaSE.history.ab_history_20211002.bbb018string构造方法;
 
+import org.jetbrains.annotations.TestOnly;
+
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -41,7 +43,7 @@ public class bbb036string的常用api {
 
 	public static void arrst(String x) {
 		char[] democh = x.toCharArray();
-		System.out.println("返回一个字符数组：" + Arrays.toString(democh));
+		System.out.println("返回一个字符数组：" + Arrays.toString(democh));// [a, b, d]
 	}
 
 	// 4、public String substring(int beginIndex, int endIndex) ：截取内容，(包前不包后的)

@@ -1,5 +1,8 @@
 package wo1261931780.stjavaSE.history.ab_history_20211002.bbb055自己写的学生管理系统;
 
+import lombok.extern.slf4j.Slf4j;
+
+@Slf4j
 public class bbb066lei {
 	private String number;
 	private String name;

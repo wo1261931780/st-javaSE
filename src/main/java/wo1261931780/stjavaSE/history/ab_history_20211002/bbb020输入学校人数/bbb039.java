@@ -27,14 +27,7 @@ public class bbb039 {
 		this.abound = abound;
 	}
 
-	/*
-		public String getSchool() {
-			return school;
-		}
-		public int getAbound() {
-			return abound;
-		}
-	*/
+
 	public void show() {
 		System.out.println("执行show成功:" + school + "的人数为：" + abound);
 	}

@@ -2,12 +2,19 @@ package wo1261931780.stjavaSE.history.ab_history_20211002.bbb017默认类和对�
 
 /**
  * 成员变量
+ * <p>
  * 使用private修饰
+ * <p>
  * 构造方法
+ * <p>
  * 提供一个无参构造方法，实际开发中，无参构造方法更加重要
+ * <p>
  * 提供一个带多个参数的构造方法
+ * <p>
  * 成员方法
+ * <p>
  * 提供每一个成员变量对应的setXxx()/getXxx()
+ * <p>
  * 提供一个显示对象信息的show()
  */
 public class bbb030a标准类的制作_javabean {

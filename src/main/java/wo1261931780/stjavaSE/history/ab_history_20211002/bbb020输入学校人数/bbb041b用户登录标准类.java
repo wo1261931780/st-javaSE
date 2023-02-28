@@ -23,7 +23,6 @@ public class bbb041b用户登录标准类 {
 			} else {
 				System.out.println("账号/密码错误，请重新输入");
 			}
-
 		}
 		//----------------------------------------------------------------
 		// if (this.name.equals(name) && this.password.equals(password)) {

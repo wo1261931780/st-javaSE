@@ -1,5 +1,8 @@
 package wo1261931780.stjavaSE.history.ab_history_20211002.bbb024遍历统计大小写;
 
+import lombok.extern.slf4j.Slf4j;
+
+@Slf4j
 public class bbb047string学习 {
 	public static void main(String[] args) {
 		char[] cha = {'a', 'b', 'c'};
@@ -11,6 +14,7 @@ public class bbb047string学习 {
 		String x2 = new String(by);// 这里会把数据转化为字符串，字母的底层还是数字，所以数字会转化为字母。
 		System.out.println("[" + x2 + "]");
 		// 结果：[_^]nop]
+		log.info("我是结果");
 
 		String x3 = "asdasdasdasdas";
 		System.out.println(x3);

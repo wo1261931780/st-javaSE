@@ -1,13 +1,16 @@
 package wo1261931780.stjavaSE.history.ab_history_20211002.bbb041类和重新学习;
 
+import lombok.extern.slf4j.Slf4j;
+
 import java.util.Scanner;
 
+@Slf4j
 public class bbb081学生测试类 {
 	public static void main(String[] args) {
 		Scanner xx = new Scanner(System.in);
-		System.out.println("请输入学生的姓名:");
+		log.info("请输入学生的姓名:");
 		String x1 = xx.nextLine();
-		System.out.println("请输入学生的年龄:");
+		log.info("请输入学生的年龄:");
 		int x2 = xx.nextInt();
 		//-------------------------------------
 		// 上面和学生类没有太大关系，菜鸡阶段的学习...

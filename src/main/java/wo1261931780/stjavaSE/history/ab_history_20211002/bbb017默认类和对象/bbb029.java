@@ -4,7 +4,8 @@ public class bbb029 {
 	private String name;
 	private int age;
 
-	// 构造方法一定要用类的名称吗？2021年9月15日17:17:42，是的
+	// 构造方法一定要用类的名称
+
 	public bbb029() {
 		System.out.println("测试结果");
 	}
