@@ -11,7 +11,7 @@ import java.io.*;
  */
 public class ccc001 {
     public static void main(String[] args) {
-        File x = new File("src/c2stage_20220416/ccc136Bytebufferstream/demo.txt");
+        File x = new File("src/c2stage_20220416/ccc136Bytebufferstream/ccc038demo.txt");
         File xx = new File("src/c2stage_20220416/ccc136Bytebufferstream/demo2.txt");
         try (
                 InputStream x1 = new BufferedInputStream(new FileInputStream(x));

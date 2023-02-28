@@ -1,6 +1,6 @@
 package wo1261931780.stjavaSE.history.c2stage_20220113.ccc016final;
 
-public class ccc015zi extends ccc014fu {
+public class ccc034zi extends ccc033fu {
 	int age = 10;
 
 	/**

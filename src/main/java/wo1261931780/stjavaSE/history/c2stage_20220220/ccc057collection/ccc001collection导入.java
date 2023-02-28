@@ -21,7 +21,7 @@ public class ccc001collection导入 {
         x.add(11);
         x.add(true);
         // 集合打印内容，因为内部已经将方法进行了一次重写
-        System.out.println(x);// [demo, demo, 11, 11, true]
+        System.out.println(x);// [ccc038demo, ccc038demo, 11, 11, true]
 
         // 无序，不重复，无索引
         // 由于多态可解耦，所以直接添加即可
@@ -38,7 +38,7 @@ public class ccc001collection导入 {
         x1.add(11);
         x1.add(11);
         x1.add(true);
-        System.out.println(x1);//[run, 11, demo, true]
+        System.out.println(x1);//[run, 11, ccc038demo, true]
         // 这里自动清除内部的重复内容，同时未按照添加顺序排序
     }
 }

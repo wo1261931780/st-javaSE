@@ -30,7 +30,7 @@ public class eee105文件到集合 {
     }
 
     public static void readshow(ArrayList<String> xx) throws IOException {
-        BufferedReader x = new BufferedReader(new FileReader("l:\\java\\demo.txt"));
+        BufferedReader x = new BufferedReader(new FileReader("l:\\java\\ccc038demo.txt"));
         String x1 = "";
         while ((x1 = x.readLine()) != null) {
             // xx.add(x1 + "\r\n");

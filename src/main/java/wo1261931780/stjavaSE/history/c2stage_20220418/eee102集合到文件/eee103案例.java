@@ -26,8 +26,8 @@ public class eee103案例 {
     }
 
     public static void show(ArrayList<String> x) throws IOException {
-        BufferedWriter x1 = new BufferedWriter(new FileWriter("l:\\java\\demo.txt"));
-        BufferedReader x2 = new BufferedReader(new FileReader("l:\\java\\demo.txt"));
+        BufferedWriter x1 = new BufferedWriter(new FileWriter("l:\\java\\ccc038demo.txt"));
+        BufferedReader x2 = new BufferedReader(new FileReader("l:\\java\\ccc038demo.txt"));
         String x3;
         // while ((x3 = x2.readLine()) != null) {
         for (int i = 0; i < x.size(); i++) {

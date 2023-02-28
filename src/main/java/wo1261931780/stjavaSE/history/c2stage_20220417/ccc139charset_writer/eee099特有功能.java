@@ -4,7 +4,7 @@ import java.io.*;
 
 public class eee099特有功能 {
     public static void main(String[] args) throws IOException {
-        File xx = new File("l:\\java\\demo.txt");
+        File xx = new File("l:\\java\\ccc038demo.txt");
         BufferedWriter x = new BufferedWriter(new FileWriter(xx));
         for (int i = 0; i < 10; i++) {
             x.write("java" + i);

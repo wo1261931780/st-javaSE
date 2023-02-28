@@ -15,11 +15,11 @@ public class eee059字节流 {
         // --
         // 今天应该完成的，是day9-10的进度
 
-        FileOutputStream x = new FileOutputStream("l:demo.txt");
+        FileOutputStream x = new FileOutputStream("l:ccc038demo.txt");
         System.out.println(x);
         // java.io.FileOutputStream@4eec7777
         // 输出一个内存地址
-        // 这里，即使不用"l:\\demo.txt"，一样可以创建具体对象
+        // 这里，即使不用"l:\\ccc038demo.txt"，一样可以创建具体对象
         // 执行的实际上是写入操作，这里写入一个文件
         x.write(97);
         // 记事本中的文字是a，对应的字符串中的97=a

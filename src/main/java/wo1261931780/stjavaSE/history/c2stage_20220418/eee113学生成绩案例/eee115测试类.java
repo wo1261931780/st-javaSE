@@ -68,7 +68,7 @@ public class eee115测试类 {
     }
 
     public static void filewri(TreeSet<eee114对象类> xx) throws IOException {
-        BufferedWriter x = new BufferedWriter(new FileWriter("l:\\java\\demo.txt"));
+        BufferedWriter x = new BufferedWriter(new FileWriter("l:\\java\\ccc038demo.txt"));
         for (eee114对象类 i : xx) {
             StringBuilder x1 = new StringBuilder();
             x1.append(i.getName()).append(",").append(i.getNum()).append(",").append(i.getScore_yw()).append(",").append(i.getScore_math()).append(",").append(i.getScore_en()).append(",").append(i.getScore_all());

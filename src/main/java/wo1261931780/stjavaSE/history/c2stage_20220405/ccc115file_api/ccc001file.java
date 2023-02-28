@@ -20,10 +20,10 @@ import java.text.SimpleDateFormat;
 public class ccc001file {
     public static void main(String[] args) {
         System.out.println("------");
-        File x = new File("C:\\Users\\1\\Documents\\GitHub\\st-java.github.io\\src\\c2stage_20220405\\ccc114IO\\demo.txt");
+        File x = new File("C:\\Users\\1\\Documents\\GitHub\\st-java.github.io\\src\\c2stage_20220405\\ccc114IO\\ccc038demo.txt");
         // 上面获取的是绝对路径
         System.out.println(x.getAbsolutePath());
-        // 获取绝对路径，C:\Users\1\Documents\GitHub\st-java.github.io\src\c2stage_20220405\ccc114IO\demo.txt
+        // 获取绝对路径，C:\Users\1\Documents\GitHub\st-java.github.io\src\c2stage_20220405\ccc114IO\ccc038demo.txt
         System.out.println("相对路径：" + x.getPath());
         System.out.println(x.getName());
         System.out.println(x.length());
@@ -37,12 +37,12 @@ public class ccc001file {
     }
 
     public static void show2() {
-        File x = new File("st-java.github.io\\src\\c2stage_20220405\\ccc114IO\\demo.txt");
+        File x = new File("st-java.github.io\\src\\c2stage_20220405\\ccc114IO\\ccc038demo.txt");
         System.out.println(x.getAbsolutePath());
         // 在同一个项目下，即使是相对路径的file对象，
         // 调用api去获得绝对路径时，还是会得到一个绝对路径
         System.out.println("相对路径：" + x.getPath());//但是相对路径是绝对不会发生变化的
-        System.out.println(x.getName());// demo.txt
+        System.out.println(x.getName());// ccc038demo.txt
         System.out.println(x.length());// 0
         System.out.println(x.lastModified());// 最后修改时间，0
         SimpleDateFormat x1 = new SimpleDateFormat("yyyy-MM-dd HH:mm:SS");// 0

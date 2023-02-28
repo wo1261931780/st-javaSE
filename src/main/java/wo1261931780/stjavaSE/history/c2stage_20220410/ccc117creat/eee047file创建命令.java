@@ -30,7 +30,7 @@ public class eee047file创建命令 {
         // 意思是，我可以用x来替代实际的目录，同时做目录的创建工作
         // 将目录理解为一个变量
         // ------------------------------------------------------------------
-        File x1 = new File("l:\\java\\demo");
+        File x1 = new File("l:\\java\\ccc038demo");
         System.out.println(x1.mkdir());
         // 同样返回true/false，表示目录创建成功
         // 目录已经存在，就会创建失败，

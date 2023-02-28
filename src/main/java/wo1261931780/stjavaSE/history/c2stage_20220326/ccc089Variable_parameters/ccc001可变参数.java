@@ -33,11 +33,11 @@ public class ccc001可变参数 {
         // 但是可变参数不影响单个参数的存在
     }
 
-    // public static void show2(int... demo,int x2) {
+    // public static void show2(int... ccc038demo,int x2) {
     // 可变参数放到前面没影响，但是放到后面不可以，
     // 所有的参数都会默认被可变参数接收
     // }
-    // public static void show2(int x, int... demo,int x2) {
+    // public static void show2(int x, int... ccc038demo,int x2) {
     // 同理，这里也不能放到后面
     // }
     public static void show2(int x, int x2, int... demo) {

@@ -31,7 +31,7 @@ public class eee093复制案例 {
         FileReader x1 = new FileReader(x);
         // 代码更加简洁
         // OutputStreamWriter x2 = new OutputStreamWriter(new FileOutputStream("l:\\java\\33.java"));
-        FileWriter x2 = new FileWriter("l:\\java\\demo\\22.java");
+        FileWriter x2 = new FileWriter("l:\\java\\ccc038demo\\22.java");
         char[] xx = new char[1024];
         int i;
         while ((i = x1.read(xx)) != -1) {

@@ -34,7 +34,7 @@ public class ccc001 {
 class demo implements Callable {
     private int n;
 
-    // private demo() {
+    // private ccc038demo() {
     // }
 
     demo x = new demo();

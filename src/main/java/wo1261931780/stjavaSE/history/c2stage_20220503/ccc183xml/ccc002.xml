@@ -2,11 +2,11 @@
 <!--我是注释-->
 <demo>
     <!--注释可以存在任意位置-->
-    
+
     <test>子标签</test>
     <test2>子标签2</test2>
     <sql>
-        <!--select * from demo where age<18;-->
+        <!--select * from ccc038demo where age<18;-->
         <!--这里的小于号，xml默认为一个左边的标签，所以会报错-->
         select * from demo where age &lt; 18;
         <![CDATA[

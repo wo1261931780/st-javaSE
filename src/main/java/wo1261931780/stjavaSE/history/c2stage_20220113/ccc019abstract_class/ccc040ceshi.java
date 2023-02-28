@@ -3,7 +3,7 @@ package wo1261931780.stjavaSE.history.c2stage_20220113.ccc019abstract_class;
 /**
  * 抽象类
  */
-public abstract class ccc020ceshi {
+public abstract class ccc040ceshi {
 	/**
 	 * public void eat(){
 	 * System.out.println("11111");

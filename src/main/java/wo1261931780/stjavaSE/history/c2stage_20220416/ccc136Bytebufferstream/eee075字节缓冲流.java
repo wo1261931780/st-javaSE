@@ -4,7 +4,7 @@ import java.io.*;
 
 public class eee075字节缓冲流 {
     public static void main(String[] args) throws IOException {
-        File x = new File("L:\\java\\demo.txt");
+        File x = new File("L:\\java\\ccc038demo.txt");
         // FileOutputStream x1 = new FileOutputStream(x);
         BufferedOutputStream x1 = new BufferedOutputStream(new FileOutputStream(x));
         // 上面的代码合并了两个命令

@@ -2,7 +2,7 @@ package wo1261931780.stjavaSE.history.c2stage_20220113.ccc017Constants;
 
 import java.util.Scanner;
 
-public class ccc002instance {
+public class ccc037instance {
 	public static final int MOVE_UP = 1;
 	public static final int MOVE_DOWN = 2;
 	public static final int MOVE_LEFT = 3;

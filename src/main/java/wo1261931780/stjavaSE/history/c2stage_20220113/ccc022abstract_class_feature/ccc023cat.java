@@ -1,8 +1,8 @@
-package c2stage_20220113.ccc022abstract_class_feature;
+package wo1261931780.stjavaSE.history.c2stage_20220113.ccc022abstract_class_feature;
 
 public class ccc023cat extends ccc021animal {
-    @Override
-    public void eat() {
-        System.out.println("cat中的eat方法");
-    }
+	@Override
+	public void eat() {
+		System.out.println("cat中的eat方法");
+	}
 }

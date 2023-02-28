@@ -24,7 +24,7 @@ public class ccc001genericity {
         x1.add("demo");
         x1.add(true);
         for (Object i : x1) {
-            // String demo = (String) x1;// 强转失败
+            // String ccc038demo = (String) x1;// 强转失败
             // 泛型比较灵活
         }
     }

@@ -41,7 +41,7 @@ import java.io.IOException;
  */
 public class ccc001 {
     public static void main(String[] args) throws IOException {
-        File x = new File("C:\\Users\\1\\Documents\\GitHub\\st-java.github.io\\src\\c2stage_20220416\\ccc130file_output_stream\\demo.txt");
+        File x = new File("C:\\Users\\1\\Documents\\GitHub\\st-java.github.io\\src\\c2stage_20220416\\ccc130file_output_stream\\ccc038demo.txt");
         // FileOutputStream x1 = new FileOutputStream(x);// 创建的时候清空所有的数据
         FileOutputStream x1 = new FileOutputStream(x, true);// 添加一个true，表示追加数据
         x1.write(123);

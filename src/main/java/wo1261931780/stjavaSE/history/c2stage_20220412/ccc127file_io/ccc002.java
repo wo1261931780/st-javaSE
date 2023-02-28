@@ -13,7 +13,7 @@ import java.io.InputStream;
  */
 public class ccc002 {
     public static void main(String[] args) throws IOException {
-        InputStream x = new FileInputStream("C:\\Users\\1\\Documents\\GitHub\\st-java.github.io\\src\\c2stage_20220412\\ccc127file_io\\demo.txt");
+        InputStream x = new FileInputStream("C:\\Users\\1\\Documents\\GitHub\\st-java.github.io\\src\\c2stage_20220412\\ccc127file_io\\ccc038demo.txt");
         int demo = 0;
         while ((demo = x.read()) != -1) {
             System.out.println((char) demo);

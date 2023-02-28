@@ -51,8 +51,8 @@ public class ccc001list分析 {
         LinkedList<String> x = new LinkedList<>();
         x.addFirst("1a");
         x.push("demo");// 源代码就是addfirst
-        System.out.println(x);// [demo, 1a]
-        System.out.println(x.pop());// demo，源代码就是removefirst
+        System.out.println(x);// [ccc038demo, 1a]
+        System.out.println(x.pop());// ccc038demo，源代码就是removefirst
 
         System.out.println(x.offerLast("lll"));//返回有没有成功，源代码就是addlast
     }

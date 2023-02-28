@@ -21,7 +21,7 @@ public class ccc001demo {
         // x.add("a5");
         Collections.addAll(x, "a1", "a2", "a3", "a4", "a5");
         System.out.println(x);// [a1, a2, a3, a4, a5]
-        // Collections<? super cat,cat... x> demo=new eee035collections()
+        // Collections<? super cat,cat... x> ccc038demo=new eee035collections()
         // 解释一下上面的代码
         // 首先有一个可变参数cat... x，cat就是对象类
         // 这里就是collections通过api，进行批量添加数据

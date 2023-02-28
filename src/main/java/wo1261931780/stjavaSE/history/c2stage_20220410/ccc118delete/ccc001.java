@@ -11,7 +11,7 @@ import java.io.File;
  */
 public class ccc001 {
     public static void main(String[] args) {
-        File x = new File("C:\\Users\\1\\Documents\\GitHub\\st-java.github.io\\src\\c2stage_20220410\\demo");
+        File x = new File("C:\\Users\\1\\Documents\\GitHub\\st-java.github.io\\src\\c2stage_20220410\\ccc038demo");
         // 在绝对路径存在的情况下，直接执行删除操作，即使是文件夹也可以顺利删除
         // 如果文件被占用，删除操作也可以顺利执行，而且文件的访问不受影响
         // 但是上面的删除都是不走win回收站的，所以执行删除还是要慎重

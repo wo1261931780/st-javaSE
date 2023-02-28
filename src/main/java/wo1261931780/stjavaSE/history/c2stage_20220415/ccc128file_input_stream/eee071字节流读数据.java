@@ -21,7 +21,7 @@ public class eee071字节流读数据 {
         // 1024及其整数倍
         // 这里的核心功能在于，
         // 一次读取一个字节的数据
-        File xx1 = new File("l:\\java\\demo.txt");
+        File xx1 = new File("l:\\java\\ccc038demo.txt");
         FileInputStream xx2 = new FileInputStream(xx1);
         int xx3 = 0;
         if (xx2 != null) {
@@ -34,7 +34,7 @@ public class eee071字节流读数据 {
     }
 
     public static void mm() throws IOException {
-        File x = new File("l:\\java\\demo.txt");
+        File x = new File("l:\\java\\ccc038demo.txt");
         FileInputStream x1 = new FileInputStream(x);
         byte[] x2 = new byte[5];
         int x3 = x1.read(x2);

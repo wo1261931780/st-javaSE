@@ -22,7 +22,7 @@ import java.io.IOException;
 
 public class eee069案例 {
     public static void main(String[] args) throws IOException {
-        File x = new File("l:\\java\\demo.txt");
+        File x = new File("l:\\java\\ccc038demo.txt");
         FileInputStream x1 = new FileInputStream(x);
         FileOutputStream x2 = new FileOutputStream("l:\\java\\demo2.txt");
         int x3;

@@ -12,7 +12,7 @@ public class eee091复制案例 {
 
     public static void copy(File x) throws IOException {
         InputStreamReader x1 = new InputStreamReader(new FileInputStream(x));
-        OutputStreamWriter x2 = new OutputStreamWriter(new FileOutputStream("l:\\java\\demo\\22.java"));
+        OutputStreamWriter x2 = new OutputStreamWriter(new FileOutputStream("l:\\java\\ccc038demo\\22.java"));
         int i;
         while ((i = x1.read()) != -1) {
             x2.write(i);

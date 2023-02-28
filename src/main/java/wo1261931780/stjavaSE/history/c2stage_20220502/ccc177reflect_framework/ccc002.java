@@ -26,7 +26,7 @@ public class ccc002 {
         Method[] demo_m = x.getDeclaredMethods();
         for (Field field : variable) {
             try (
-                    PrintStream pr = new PrintStream(new FileOutputStream("src/c2stage_20220502/ccc177reflect_framework/demo.txt", true));
+                    PrintStream pr = new PrintStream(new FileOutputStream("src/c2stage_20220502/ccc177reflect_framework/ccc038demo.txt", true));
             ) {
                 // pr.println(field.getName() + "------" + field.getType());
                 // pr.println("全限名：" + x.getName());

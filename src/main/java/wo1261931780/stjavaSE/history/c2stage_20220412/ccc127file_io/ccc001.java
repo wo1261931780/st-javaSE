@@ -12,7 +12,7 @@ import java.io.IOException;
  */
 public class ccc001 {
     public static void main(String[] args) throws IOException {
-        FileInputStream x = new FileInputStream("src/c2stage_20220412/ccc127file_io/demo.txt");
+        FileInputStream x = new FileInputStream("src/c2stage_20220412/ccc127file_io/ccc038demo.txt");
         // 上面是简化写法，就算直接写路径，内部还是根据结果，新建了一个file类
         // 看一下源码：
         //     public FileInputStream(String name) throws FileNotFoundException {

@@ -44,13 +44,13 @@ public class ccc001 {
         //     System.out.println(roote.getName());
         //     List<Element> e_list = roote.elements();
         //     List<String> show = new ArrayList<>();
-        //     for (Element demo : e_list) {
-        //         // System.out.println(demo);
-        //         List<Element> inner_e = demo.elements();
+        //     for (Element ccc038demo : e_list) {
+        //         // System.out.println(ccc038demo);
+        //         List<Element> inner_e = ccc038demo.elements();
         //         for (Element element : inner_e) {
         //             System.out.println(element);
         //         }
-        //         // show.add("名称：" + demo.getName() + "，内容：" + demo.attributeValue());
+        //         // show.add("名称：" + ccc038demo.getName() + "，内容：" + ccc038demo.attributeValue());
         //     }
         //     System.out.println(show);
         // } catch (Exception e) {

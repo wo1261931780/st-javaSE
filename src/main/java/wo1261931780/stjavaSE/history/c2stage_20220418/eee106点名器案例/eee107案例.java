@@ -22,7 +22,7 @@ import java.util.Random;
 
 public class eee107案例 {
     public static void main(String[] args) throws IOException {
-        BufferedReader x = new BufferedReader(new FileReader("l:\\java\\demo.txt"));
+        BufferedReader x = new BufferedReader(new FileReader("l:\\java\\ccc038demo.txt"));
         String x1;
         ArrayList<String> x2 = new ArrayList<>();
         while ((x1 = x.readLine()) != null) {

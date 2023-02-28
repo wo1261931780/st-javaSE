@@ -1,6 +1,6 @@
 package wo1261931780.stjavaSE.history.c2stage_20220113.ccc019abstract_class;
 
-public class ccc022子类 extends ccc021抽象 {
+public class ccc042子类 extends ccc041抽象 {
 
 	@Override
 	public void test() {

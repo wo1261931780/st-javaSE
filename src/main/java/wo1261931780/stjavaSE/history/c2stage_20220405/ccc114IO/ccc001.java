@@ -29,7 +29,7 @@ public class ccc001 {
 
     public static void show() {
         // 支持绝对路径和相对路径
-        File x = new File("st-java.github.io/src/c2stage_20220405/ccc114IO/demo.txt");
+        File x = new File("st-java.github.io/src/c2stage_20220405/ccc114IO/ccc038demo.txt");
         System.out.println(x.length());//0
         // 相对路径必须在一个项目下
         // 如果file的结果是一个文件夹，那么结果也是0，因为文件夹的大小没有意义

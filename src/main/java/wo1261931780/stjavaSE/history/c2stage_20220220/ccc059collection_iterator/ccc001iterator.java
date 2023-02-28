@@ -21,10 +21,10 @@ public class ccc001iterator {
         Iterator<String> demo = x.iterator();
         System.out.println(x);// 本身就进行过一次重写，所以直接展示结果
         // [c1, c4, c3, c2]
-        // System.out.println(demo.hasNext());//返回是否有结果，true/false
-        // System.out.println(demo.next());//返回具体的结果，c1
+        // System.out.println(ccc038demo.hasNext());//返回是否有结果，true/false
+        // System.out.println(ccc038demo.next());//返回具体的结果，c1
         while (demo.hasNext()) {// 是否有结果，true/false
-            // String xx= demo.next();// 将元素取出来，然后赋值给xx
+            // String xx= ccc038demo.next();// 将元素取出来，然后赋值给xx
             //同时，移动到下一个元素
             System.out.println(demo.next());
         }

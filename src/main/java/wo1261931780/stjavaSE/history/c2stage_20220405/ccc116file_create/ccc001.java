@@ -20,7 +20,7 @@ import java.io.IOException;
  */
 public class ccc001 {
     public static void main(String[] args) throws IOException {
-        File x = new File("C:\\Users\\1\\Documents\\GitHub\\st-java.github.io\\src\\c2stage_20220405\\ccc116file_create\\demo.txt");
+        File x = new File("C:\\Users\\1\\Documents\\GitHub\\st-java.github.io\\src\\c2stage_20220405\\ccc116file_create\\ccc038demo.txt");
         System.out.println(x.createNewFile());// 创建文件一般用不到，因为实际开发中都是自动创建文件
         File x1 = new File("C:\\Users\\1\\Documents\\GitHub\\st-java.github.io\\src\\c2stage_20220405\\ccc116file_create\\demo2");
         System.out.println(x1.mkdir());// 创建目录

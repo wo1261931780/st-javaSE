@@ -17,7 +17,7 @@ import java.io.IOException;
 
 public class eee063写数据 {
     public static void main(String[] args) throws IOException {
-        File x = new File("l:\\java\\demo.txt");
+        File x = new File("l:\\java\\ccc038demo.txt");
         // FileOutputStream x1 = new FileOutputStream(x);
         FileOutputStream x1 = new FileOutputStream(x, true);
         // 上面，二者的不同在于，后续的参数支持追加写入

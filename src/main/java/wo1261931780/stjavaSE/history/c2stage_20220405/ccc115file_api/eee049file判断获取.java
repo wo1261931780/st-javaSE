@@ -17,9 +17,9 @@ import java.io.File;
 
 public class eee049file判断获取 {
     public static void main(String[] args) {
-        File x = new File("l:java\\demo");
+        File x = new File("l:java\\ccc038demo");
         System.out.println(x);
-        // l:java\demo
+        // l:java\ccc038demo
         // 运行时，该目录存在
         System.out.println(x.isDirectory());// 判断是否为目录，true
 
@@ -28,12 +28,12 @@ public class eee049file判断获取 {
         System.out.println(x.exists());// 判断file是否存在，true
 
         // ------------------------------------------------------------
-        System.out.println(x.getAbsolutePath());// l:\\java\demo,绝对路径名，形式为字符串
+        System.out.println(x.getAbsolutePath());// l:\\java\ccc038demo,绝对路径名，形式为字符串
 
-        System.out.println(x.getPath());// l:java\demo，路径字符串
+        System.out.println(x.getPath());// l:java\ccc038demo，路径字符串
 
         System.out.println(x.getName());
-        // demo，路径的文件和目录名称，
+        // ccc038demo，路径的文件和目录名称，
         // 这里只展示末位的文件夹名
         // ------------------------------------------------------------
         System.out.println("-------------------");

@@ -26,7 +26,7 @@ public class ccc001demo {
         // 中途可以添加int类型的数据，如果直接转化，会报错
         // 这样做的好处是兼容性更强
         // 把集合转化为数组
-        System.out.println(Arrays.toString(x1));// [a, b, c, demo, java]
+        System.out.println(Arrays.toString(x1));// [a, b, c, ccc038demo, java]
         // *****************************************
         ArrayList<String> x2 = new ArrayList<>();
         x2.add("demo1");
@@ -34,7 +34,7 @@ public class ccc001demo {
         x2.add("aaa");
         System.out.println(x2);// [demo1, demo2, aaa]
         x.addAll(x2);
-        System.out.println(x);// [a, b, c, demo, java, demo1, demo2, aaa]
+        System.out.println(x);// [a, b, c, ccc038demo, java, demo1, demo2, aaa]
         // 这里是按顺序往后添加的
     }
 }

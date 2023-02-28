@@ -14,7 +14,7 @@ import java.io.InputStream;
  */
 public class ccc001 {
     public static void main(String[] args) throws IOException {
-        File demo = new File("src/c2stage_20220415/ccc128file_input_stream2/demo.txt");
+        File demo = new File("src/c2stage_20220415/ccc128file_input_stream2/ccc038demo.txt");
         InputStream x = new FileInputStream(demo);
         System.out.println(demo.length());//343,这里是long类型的
         byte[] x1 = new byte[(int) demo.length()];// 所以要转化为int类型

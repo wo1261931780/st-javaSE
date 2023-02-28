@@ -14,7 +14,7 @@ public class ccc004 {
     public static void main(String[] args) throws IOException {
         DatagramSocket soc = new DatagramSocket(999);
         byte[] demo = new byte[1024 * 64];
-        // DatagramPacket dap=new DatagramPacket(demo, demo.length, InetAddress.getLocalHost(),999);
+        // DatagramPacket dap=new DatagramPacket(ccc038demo, ccc038demo.length, InetAddress.getLocalHost(),999);
         DatagramPacket dap = new DatagramPacket(demo, demo.length);
         soc.receive(dap);// 首先接收数据，然后再去获得数据的长度
         int total_length = dap.getLength();

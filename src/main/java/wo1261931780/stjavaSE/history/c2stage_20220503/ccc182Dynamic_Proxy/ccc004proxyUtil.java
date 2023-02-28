@@ -12,7 +12,7 @@ import java.lang.reflect.Proxy;
  * Time:  2022-05-08-55  星期二
  */
 public class ccc004proxyUtil {
-    // public static ccc001service getproxy(ccc001service demo) {
+    // public static ccc001service getproxy(ccc001service ccc038demo) {
     public static <T> T getproxy(T demo) {
         // public static Object newProxyInstance(ClassLoader loader,
         //                                           Class<?>[] interfaces,

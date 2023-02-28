@@ -25,7 +25,7 @@ public class eee110测试类 {
     public static void main(String[] args) throws IOException {
         ArrayList<eee109对象类> x = addway();
 
-        BufferedWriter xx = new BufferedWriter(new FileWriter("l:\\java\\demo.txt"));
+        BufferedWriter xx = new BufferedWriter(new FileWriter("l:\\java\\ccc038demo.txt"));
         for (eee109对象类 i : x) {
             String x1 = "学号：" + i.getNum() + "\t姓名：" + i.getName() + "\t年龄：" + i.getAge() + "\t地址：" + i.getAddress();
             xx.write(x1);

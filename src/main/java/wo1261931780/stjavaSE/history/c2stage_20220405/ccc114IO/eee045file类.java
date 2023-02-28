@@ -14,17 +14,17 @@ import java.io.File;
  */
 public class eee045file类 {
     public static void main(String[] args) {
-        File x = new File("l:\\demo");
+        File x = new File("l:\\ccc038demo");
         System.out.println(x);
-        // l:\demo
+        // l:\ccc038demo
         System.out.println("---------------------");
-        File x1 = new File("l:\\demo", "\\java");
+        File x1 = new File("l:\\ccc038demo", "\\java");
         System.out.println(x1);
-        // l:\demo\java
+        // l:\ccc038demo\java
         System.out.println("---------------------");
         File x2 = new File(x1, "\\demo2");
         System.out.println(x2);
-        // l:\demo\java\demo2
+        // l:\ccc038demo\java\demo2
         // 路径下的文件，可以存在，也可以不存在，只是作为一个代表
         // 上面的父类，一般是用路径作为代表
     }

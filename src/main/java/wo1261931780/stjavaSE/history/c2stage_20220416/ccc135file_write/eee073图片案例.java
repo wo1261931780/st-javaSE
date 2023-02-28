@@ -17,9 +17,9 @@ import java.io.IOException;
 
 public class eee073图片案例 {
     public static void main(String[] args) throws IOException {
-        File x = new File("l:\\java\\demo.png");
+        File x = new File("l:\\java\\ccc038demo.png");
         FileInputStream x1 = new FileInputStream(x);
-        FileOutputStream x2 = new FileOutputStream("l:\\java\\demo\\xx.png");
+        FileOutputStream x2 = new FileOutputStream("l:\\java\\ccc038demo\\xx.png");
         // 第一次运行的时候没有指定对象xx.png，以后需要注意
         byte[] x3 = new byte[1024];
         // 这个1024是数据的存储格式，默认1024及其整数倍

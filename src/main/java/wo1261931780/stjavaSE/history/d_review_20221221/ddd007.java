@@ -15,7 +15,7 @@ public class ddd007 {
 		int min = 0;
 		int[] demo = {0, 1, 2, 3, 456, 47, 98};
 		for (int i = 0; i < demo.length; i++) {
-			// max = max > demo[i] ? max : demo[i];
+			// max = max > ccc038demo[i] ? max : ccc038demo[i];
 			max = Math.max(max, demo[i]);
 			// 直接通过math获取数组中的最值
 			min = Math.min(min, demo[i]);

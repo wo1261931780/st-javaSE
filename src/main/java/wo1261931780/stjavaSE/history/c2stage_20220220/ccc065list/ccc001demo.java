@@ -20,9 +20,9 @@ public class ccc001demo {
         x.add("55555");
         // ********************************
         // ********************************
-        System.out.println(x);// [demo, 22222, 33333, 44444, 55555]
+        System.out.println(x);// [ccc038demo, 22222, 33333, 44444, 55555]
         x.add(2, "0000");
-        System.out.println(x);// [demo, 22222, 0000, 33333, 44444, 55555]
+        System.out.println(x);// [ccc038demo, 22222, 0000, 33333, 44444, 55555]
         // ********************************
         System.out.println(x.get(1));
         System.out.println(x.set(0, "1111"));

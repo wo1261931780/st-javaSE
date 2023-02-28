@@ -14,11 +14,11 @@ import java.util.Scanner;
 public class ccc003 {
     public static void main(String[] args) {
         // int[] x = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26};
-        // int[] demo = show1(x);
-        // System.out.println(Arrays.toString(demo));
+        // int[] ccc038demo = show1(x);
+        // System.out.println(Arrays.toString(ccc038demo));
         // int[] x1 = {3, 6, 9, 1, 2, 6};
-        // int demo = show2(x1);
-        // System.out.println(demo);
+        // int ccc038demo = show2(x1);
+        // System.out.println(ccc038demo);
         int[] x={343,846,489,661,295,422,774,525,345};
         int[] result1 = show1(x);
         int result2 = show2(result1);

@@ -38,7 +38,7 @@ import java.io.InputStream;
 public class ccc001 {
     public static void main(String[] args) throws IOException {
         // 同样是读取数据，这次使用数组作为基本单位读取
-        InputStream x = new FileInputStream("src/c2stage_20220415/ccc128file_input_stream/demo.txt");
+        InputStream x = new FileInputStream("src/c2stage_20220415/ccc128file_input_stream/ccc038demo.txt");
         // byte[] x1 = new byte[3];
         // int demo1 = x.read(x1);// 这里得到我读取的长度
         // String str = new String(demo1);

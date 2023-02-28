@@ -11,7 +11,7 @@ import java.io.*;
  */
 public class ccc001 {
     public static void main(String[] args) throws IOException {
-        File demo = new File("src/c2stage_20220417/ccc138charset/demo.txt");
+        File demo = new File("src/c2stage_20220417/ccc138charset/ccc038demo.txt");
         InputStream x = new FileInputStream(demo);
         // 阅读器，必须以输入流作为对象才能使用
         Reader x1 = new InputStreamReader(x, "GBK");

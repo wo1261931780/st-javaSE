@@ -17,7 +17,7 @@ import java.io.IOException;
 
 public class eee067字节流读数据 {
     public static void main(String[] args) throws IOException {
-        FileInputStream x = new FileInputStream("l:\\java\\demo.txt");
+        FileInputStream x = new FileInputStream("l:\\java\\ccc038demo.txt");
         // int x1 = x.read();
         // System.out.println(x1);
         // System.out.println((char) x1);

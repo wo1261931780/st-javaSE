@@ -36,7 +36,7 @@ public class eee077四种方式复制视频 {
         long t1 = System.currentTimeMillis();
         File x = new File("l:\\java\\11.mp4");
         FileInputStream x1 = new FileInputStream(x);
-        FileOutputStream x2 = new FileOutputStream("l:\\java\\demo\\onecopy.mp4");
+        FileOutputStream x2 = new FileOutputStream("l:\\java\\ccc038demo\\onecopy.mp4");
         int i;
         while ((i = x1.read()) != -1) {
             x2.write(i);
@@ -57,7 +57,7 @@ public class eee077四种方式复制视频 {
         long t1 = System.currentTimeMillis();
         File x = new File("l:\\java\\11.mp4");
         FileInputStream x1 = new FileInputStream(x);
-        FileOutputStream x2 = new FileOutputStream("l:\\java\\demo\\onesz.mp4");
+        FileOutputStream x2 = new FileOutputStream("l:\\java\\ccc038demo\\onesz.mp4");
         byte[] xx = new byte[1024];
         int x3;
         // while ((x3 = x1.read()) != -1) {
@@ -86,7 +86,7 @@ public class eee077四种方式复制视频 {
         long t1 = System.currentTimeMillis();
         File x = new File("l:\\java\\11.mp4");
         BufferedInputStream x1 = new BufferedInputStream(new FileInputStream(x));
-        BufferedOutputStream x2 = new BufferedOutputStream(new FileOutputStream("l:\\java\\demo\\cc_onebyte.mp4"));
+        BufferedOutputStream x2 = new BufferedOutputStream(new FileOutputStream("l:\\java\\ccc038demo\\cc_onebyte.mp4"));
         int i;
         while ((i = x1.read()) != -1) {
             x2.write(i);
@@ -106,7 +106,7 @@ public class eee077四种方式复制视频 {
         long t1 = System.currentTimeMillis();
         File x = new File("l:\\java\\11.mp4");
         BufferedInputStream x1 = new BufferedInputStream(new FileInputStream(x));
-        BufferedOutputStream x2 = new BufferedOutputStream(new FileOutputStream("l:\\java\\demo\\cc_onesz.mp4"));
+        BufferedOutputStream x2 = new BufferedOutputStream(new FileOutputStream("l:\\java\\ccc038demo\\cc_onesz.mp4"));
         int i;
         byte[] x3 = new byte[1024];
         while ((i = x1.read(x3)) != -1) {

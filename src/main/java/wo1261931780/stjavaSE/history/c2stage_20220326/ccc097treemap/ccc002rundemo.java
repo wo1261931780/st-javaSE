@@ -23,7 +23,7 @@ public class ccc002rundemo {
         demo.put(x2, 123);
         demo.put(x1, 123);
         demo.put(x4, 123);
-        // System.out.println(demo);
+        // System.out.println(ccc038demo);
         // c2stage_20220326.ccc097treemap.ccc001object@4eec7777=123
         // 没有对对象进行重写的情况下，只会得到对象的地址
         // ******************************************************************************

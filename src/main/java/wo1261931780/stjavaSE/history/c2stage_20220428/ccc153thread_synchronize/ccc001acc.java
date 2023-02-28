@@ -34,7 +34,7 @@ public class ccc001acc {
     }
 
     public void drawmoney(int i) {
-        // synchronized ("demo") {
+        // synchronized ("ccc038demo") {
         // 这个是同步代码块，默认一把锁，不同的人都被同样的锁限制
         synchronized (this) {// this代表当前调用的对象，不同的账号，就可以同步操作
             if (this.balance >= i) {

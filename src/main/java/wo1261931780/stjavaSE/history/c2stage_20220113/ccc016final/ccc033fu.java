@@ -1,9 +1,9 @@
 package wo1261931780.stjavaSE.history.c2stage_20220113.ccc016final;
 
 /**
- * public final class ccc014fu {}最终状态后，无法被继承。
+ * public final class ccc033fu {}最终状态后，无法被继承。
  */
-public class ccc014fu {
+public class ccc033fu {
     /**
      * public final void way(){}被定义后，无法被重写
      */

@@ -15,7 +15,7 @@ public interface ccc001interface {
 
     // 私有方法
     private void show2() {
-        System.out.println("demo show2");
+        System.out.println("ccc038demo show2");
     }
     // 上面这种方法属于私有，只能在类的内部被调用，
     // 但问题是，接口本身不具备构造的能力

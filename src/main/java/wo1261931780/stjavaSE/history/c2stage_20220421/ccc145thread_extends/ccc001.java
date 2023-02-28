@@ -9,7 +9,7 @@ package c2stage_20220421.ccc145thread_extends;
  */
 public class ccc001 {
     public static void main(String[] args) {
-        // demo x = new demo();
+        // ccc038demo x = new ccc038demo();
         Thread x = new demo();// 这样才是创建了线程对象，通过多态的方式
         System.out.println("线程开始执行");
         x.start();
@@ -17,7 +17,7 @@ public class ccc001 {
         for (int i = 0; i < 5; i++) {
             System.out.println("我是主线程----------------");
         }
-        // demo x = new demo();
+        // ccc038demo x = new ccc038demo();
         // System.out.println("线程开始执行");
         // x.start();
         // 按照上下的创建顺序，最终线程也就会按照从上到下的执行顺序进行

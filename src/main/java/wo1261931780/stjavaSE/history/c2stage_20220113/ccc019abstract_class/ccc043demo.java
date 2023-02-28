@@ -1,11 +1,11 @@
 package wo1261931780.stjavaSE.history.c2stage_20220113.ccc019abstract_class;
 
-public class ccc023demo {
+public class ccc043demo {
 	public static void main(String[] args) {
 		System.out.println("start---------------");
-		ccc021抽象 a = new ccc022子类();
+		ccc041抽象 a = new ccc042子类();
 		// 抽象类不能直接创建对象，
-		// 类似ccc021抽象 a=new ccc021抽象();这样创建对象，是不允许的
+		// 类似ccc021抽象 a=new ccc041抽象();这样创建对象，是不允许的
 		// 只能这样通过多态的方式创建
 		a.test();
 		// 子类继承了父类抽象类，并且重写了test方法，所以可以直接调用

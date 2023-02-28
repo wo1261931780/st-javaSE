@@ -11,7 +11,7 @@ import java.io.*;
  */
 public class ccc001 {
     public static void main(String[] args) throws IOException {
-        File x = new File("C:\\Users\\1\\Documents\\GitHub\\st-java.github.io\\src\\c2stage_20220416\\ccc130file_output_stream\\demo.txt");
+        File x = new File("C:\\Users\\1\\Documents\\GitHub\\st-java.github.io\\src\\c2stage_20220416\\ccc130file_output_stream\\ccc038demo.txt");
         InputStream x1 = new FileInputStream(x);
         byte[] x2 = new byte[1024];
         int lenth;// 一般都要给出读取的长度，方便后面操作

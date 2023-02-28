@@ -13,7 +13,7 @@ public class ccc001 {
     }
 
     public static int show(int x) {
-        // int demo = x == 1 ? 1 : x - 1;
+        // int ccc038demo = x == 1 ? 1 : x - 1;
         // x += x == 1 ? 1 : x - 1;
         if (x != 1) {
             x += show(x - 1);
