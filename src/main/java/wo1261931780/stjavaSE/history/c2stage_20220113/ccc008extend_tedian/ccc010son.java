@@ -1,8 +1,8 @@
 package wo1261931780.stjavaSE.history.c2stage_20220113.ccc008extend_tedian;
 
-public class ccc002son extends ccc001father {
+public class ccc010son extends ccc009father {
 	public static void main(String[] args) {
-		ccc002son x = new ccc002son();
+		ccc010son x = new ccc010son();
 		x.run();
 		x.run2();
 	}

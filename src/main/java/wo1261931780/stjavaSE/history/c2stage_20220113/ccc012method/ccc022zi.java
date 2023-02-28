@@ -1,15 +1,15 @@
-package c2stage_20220113.ccc012method;
+package wo1261931780.stjavaSE.history.c2stage_20220113.ccc012method;
 
-public class ccc007zi extends ccc006fu {
+public class ccc022zi extends ccc021fu {
     public void zizi() {
         // super.show();
         // 如果直接使用super中的方法，那么一定会出现
         System.out.println("zizi-----------");
     }
-    // public ccc007zi(){}
+    // public ccc022zi(){}
 
 
-    public ccc007zi(String address) {
+    public ccc022zi(String address) {
         //还是上面的问题，
         // 如果父类只有带参构造，子类会因为没有无参构造，从而无法完成数据初始化
         // 在代码中，子类的构造方法，默认会访问super.xx

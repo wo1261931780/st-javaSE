@@ -1,4 +1,4 @@
-package c2stage_20220113.ccc016final;
+package wo1261931780.stjavaSE.history.c2stage_20220113.ccc016final;
 
 /**
  * public final class ccc014fu {}最终状态后，无法被继承。

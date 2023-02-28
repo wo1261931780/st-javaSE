@@ -1,8 +1,8 @@
 package wo1261931780.stjavaSE.history.c2stage_20220113.ccc008extend_standard;
 
-public class ccc003run {
+public class ccc008run {
     public static void main(String[] args) {
-        ccc002student x=new ccc002student();
+        ccc007student x=new ccc007student();
         x.setName("aa");
         x.setAge(11);
         x.setClassnum("22");

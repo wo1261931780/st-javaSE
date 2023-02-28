@@ -1,6 +1,6 @@
-package c2stage_20220113.ccc012method;
+package wo1261931780.stjavaSE.history.c2stage_20220113.ccc012method;
 
-public class ccc006fu {
+public class ccc021fu {
     String name;
     public void show() {
         System.out.println("show--------------");
@@ -14,7 +14,7 @@ public class ccc006fu {
         this.name = name;
     }
 
-    public ccc006fu(String name) {
+    public ccc021fu(String name) {
         this.name = name;
     }
 }

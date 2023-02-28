@@ -1,18 +1,18 @@
-package c2stage_20220113.ccc013brother_constructor;
+package wo1261931780.stjavaSE.history.c2stage_20220113.ccc013brother_constructor;
 
-public class ccc001father {
+public class ccc024father {
     private String name;
     private int age;
 
-    public ccc001father() {
+    public ccc024father() {
     }
 
-    public ccc001father(String name, int age) {
+    public ccc024father(String name, int age) {
         this.name = name;
         this.age = age;
         // this(name,11);
     }
-    public ccc001father(String name) {//兄弟构造器
+    public ccc024father(String name) {//兄弟构造器
         this(name,11);
         // 在构造的时候，默认设置了age的初试值为11
         // 需要说明的是，

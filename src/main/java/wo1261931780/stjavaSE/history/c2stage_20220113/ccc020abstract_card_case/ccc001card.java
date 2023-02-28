@@ -1,4 +1,4 @@
-package c2stage_20220113.ccc020abstract_card_case;
+package wo1261931780.stjavaSE.history.c2stage_20220113.ccc020abstract_card_case;
 
 public abstract class ccc001card {
     private String name;

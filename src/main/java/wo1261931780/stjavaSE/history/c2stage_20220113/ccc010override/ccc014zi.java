@@ -1,6 +1,6 @@
-package c2stage_20220113.ccc010override;
+package wo1261931780.stjavaSE.history.c2stage_20220113.ccc010override;
 
-public class ccc002zi extends ccc001fu {
+public class ccc014zi extends ccc013fu {
     /*
     @Override
     //带有private的变量无法进行重写操作
