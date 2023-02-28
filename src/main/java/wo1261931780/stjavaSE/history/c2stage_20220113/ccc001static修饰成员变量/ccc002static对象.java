@@ -1,4 +1,4 @@
-package c2stage_20220113.ccc001static修饰成员变量;
+package wo1261931780.stjavaSE.history.c2stage_20220113.ccc001static修饰成员变量;
 
 public class ccc002static对象 {
     public static void main(String[] args) {

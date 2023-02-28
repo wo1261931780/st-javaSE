@@ -1,4 +1,4 @@
-package c2stage_20220113.ccc001static修饰成员变量;
+package wo1261931780.stjavaSE.history.c2stage_20220113.ccc001static修饰成员变量;
 
 public class ccc004static修改变量 {
     public static void main(String[] args) {
@@ -8,7 +8,7 @@ public class ccc004static修改变量 {
         //将10修改为20
         x.age = 20;
         //这里是静态变量，将huawei修改为hw
-        x.college = "hw";
+        ccc003static定义.college = "hw";
         //将变量变成静态之后，一次修改，永远生效
         x.show();
         //junw,20,hw
