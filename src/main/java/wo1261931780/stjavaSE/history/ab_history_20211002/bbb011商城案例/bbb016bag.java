@@ -29,11 +29,12 @@ public class bbb016bag {
 					show(x);
 					System.out.println("请重新输入");
 					System.out.println("*****************************");
+					return;
 			}
 		}
 	}
-// 这里也可以将方法设置在main中
-// 这样方法内部出现的scanner等指令，直接可以传递给后续的方法
+	// 这里也可以将方法设置在main中
+	// 这样方法内部出现的scanner等指令，直接可以传递给后续的方法
 
 	public static int interfaceRoot() {
 		Scanner scanner = new Scanner(System.in);
