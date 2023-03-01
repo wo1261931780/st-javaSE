@@ -1,8 +1,8 @@
 package wo1261931780.stjavaSE.history.c2stage_20220113.ccc022abstract_class_feature;
 
-public class ccc022test {
+public class ccc054test {
 	public static void main(String[] args) {
-		ccc021animal a = new ccc023cat();
+		ccc053animal a = new ccc055cat();
 		// 这里一直报错，已经解决，当时是setting里面class的配置路径出错
 		a.eat();
 		a.show();

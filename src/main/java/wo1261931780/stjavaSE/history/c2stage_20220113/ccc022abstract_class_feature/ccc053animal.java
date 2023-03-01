@@ -1,6 +1,6 @@
 package wo1261931780.stjavaSE.history.c2stage_20220113.ccc022abstract_class_feature;
 
-public abstract class ccc021animal {
+public abstract class ccc053animal {
 	/**
 	 * final后，一般就称为常量
 	 */
@@ -10,13 +10,13 @@ public abstract class ccc021animal {
 	/**
 	 * 默认存在的构造方法
 	 */
-	public ccc021animal() {
+	public ccc053animal() {
 	}
 
 	/**
 	 * 可以选择存在的带参构造
 	 */
-	public ccc021animal(int age) {
+	public ccc053animal(int age) {
 		// 抽象类可以进行构造，这样子类才能实现对父类的访问
 		// 这种构造主要为了实现数据的初始化
 		this.age = age;

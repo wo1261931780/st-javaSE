@@ -37,7 +37,7 @@ public class ccc027demo {
 		log.info(namedog + "已经" + agedog + "岁了");
 		dog.jump();
 		ccc025dog b = (ccc025dog) dog;
-		// ((ccc025dog) dog).eat();
+		// ((ccc062dog) dog).eat();
 		b.eat();
 	}
 }

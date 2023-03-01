@@ -1,6 +1,6 @@
-package c2stage_20220113.ccc024implements;
+package wo1261931780.stjavaSE.history.c2stage_20220113.ccc024implements;
 
-public interface ccc026jump {
+public interface ccc063jump {
     /**
      * 方法是抽象的，但是接口自带抽象属性
      * 接口使用interface修饰

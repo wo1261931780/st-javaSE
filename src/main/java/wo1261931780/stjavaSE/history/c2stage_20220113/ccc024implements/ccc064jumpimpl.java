@@ -1,9 +1,9 @@
-package c2stage_20220113.ccc024implements;
+package wo1261931780.stjavaSE.history.c2stage_20220113.ccc024implements;
 
 /**
  * 接口名+impl=接口后面的实现类
  */
-public class ccc027jumpimpl implements ccc026jump {
+public class ccc064jumpimpl implements ccc063jump {
 
     @Override
     public void jump() {

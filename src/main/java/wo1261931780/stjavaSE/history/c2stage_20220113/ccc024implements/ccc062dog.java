@@ -1,6 +1,6 @@
-package c2stage_20220113.ccc024implements;
+package wo1261931780.stjavaSE.history.c2stage_20220113.ccc024implements;
 
-public abstract class ccc025dog implements ccc026jump {
+public abstract class ccc062dog implements ccc063jump {
     // 抽象之后可以直接使用接口，不需要重写操作
     // 猫类和狗类的差别在于，
     // 狗类是抽象类，实现接口的时候不需要重写接口内部的方法

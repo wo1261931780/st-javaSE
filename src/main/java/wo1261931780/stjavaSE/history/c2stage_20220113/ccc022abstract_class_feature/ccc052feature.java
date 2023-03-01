@@ -1,6 +1,6 @@
 package wo1261931780.stjavaSE.history.c2stage_20220113.ccc022abstract_class_feature;
 
-public class ccc001feature {
+public class ccc052feature {
 	// 抽象类为什么不能创建对象
 	// 抽象类存在构造器，因为存在子类继承
 	// 如果没有构造器，子类无法完成数据初始化的过程
