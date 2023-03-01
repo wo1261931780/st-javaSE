@@ -14,9 +14,9 @@ import java.io.PrintWriter;
  */
 public class ccc001 {
     public static void main(String[] args) throws FileNotFoundException {
-        // PrintStream x = new PrintStream("src/c2stage_20220418/ccc141printstream/ccc001.txt");
+        // PrintStream x = new PrintStream("src/c2stage_20220418/ccc141printstream/ddd050做数组拷贝.txt");
         // 二者的差别在于下面的打印流可以实现写入数据的追加操作
-        PrintStream x = new PrintStream(new FileOutputStream("src/c2stage_20220418/ccc141printstream/ccc001.txt", true));
+        PrintStream x = new PrintStream(new FileOutputStream("src/c2stage_20220418/ccc141printstream/ddd050做数组拷贝.txt", true));
         x.print("测试");
         x.print("123");
         x.print("abc");
@@ -26,7 +26,7 @@ public class ccc001 {
         // 打印流也是刷新数据，然后重写，会对文本内容执行清空操作
         // 底层还是使用了缓冲输出流
         // 在打印结果上面，printwriter
-        PrintWriter x1 = new PrintWriter("src/c2stage_20220418/ccc141printstream/ccc001.txt");
+        PrintWriter x1 = new PrintWriter("src/c2stage_20220418/ccc141printstream/ddd050做数组拷贝.txt");
         x1.println("demo");
         x1.close();
         // 在jdk16中，一开始打印流只支持字节写入

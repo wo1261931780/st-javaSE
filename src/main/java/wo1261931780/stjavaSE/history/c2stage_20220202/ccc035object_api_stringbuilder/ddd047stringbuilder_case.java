@@ -1,6 +1,6 @@
 package wo1261931780.stjavaSE.history.c2stage_20220202.ccc035object_api_stringbuilder;
 
-public class ccc004stringbuilder_case {
+public class ddd047stringbuilder_case {
 	public static void main(String[] args) {
 		int[] x = {1, 21, 231, 5, 156};
 		show(x);
@@ -20,7 +20,6 @@ public class ccc004stringbuilder_case {
 			// StringBuilder xx = i == x.length - 1 ? x1.append(x[i]) : x1.append(x[i]).append(",");
 			// 这里xx没有使用
 			x1.append(x[i]).append(i == x.length - 1 ? "" : ",");
-
 		}
 		x1.append("]");
 		// System.out.println(x1);

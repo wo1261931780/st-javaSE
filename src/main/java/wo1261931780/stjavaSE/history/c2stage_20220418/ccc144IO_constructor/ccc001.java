@@ -18,7 +18,7 @@ import java.nio.file.Path;
  */
 public class ccc001 {
     public static void main(String[] args) throws IOException {
-        IOUtils.copy(new FileInputStream("src/c2stage_20220418/ccc144IO_constructor/ccc001thread_extends.java"), new FileOutputStream("src/c2stage_20220418/ccc144IO_constructor/ccc001.txt"));
+        IOUtils.copy(new FileInputStream("src/c2stage_20220418/ccc144IO_constructor/ccc001thread_extends.java"), new FileOutputStream("src/c2stage_20220418/ccc144IO_constructor/ddd050做数组拷贝.txt"));
         // 一行代码完成复制和粘贴，
         // 同时不需要创建指定的管道
         // FileUtils.copyFileToDirectory(new File("src/c2stage_20220418/ccc144IO_constructor/ccc001thread_extends.java"), new File("src/c2stage_20220418/ccc144IO_constructor2/ccc002.java"));
@@ -27,7 +27,7 @@ public class ccc001 {
         // FileUtils.copyDirectoryToDirectory(new File("src/c2stage_20220418/ccc144IO_constructor"), new File("src/c2stage_20220418/ccc144IO_constructo2"));
         // FileUtils.delete(new File("src/c2stage_20220418/ccc144IO_constructo2"));
         // Files.copy(Path.of("src/c2stage_20220418/ccc144IO_constructor/lib"),Path.of("src/c2stage_20220418/ccc144IO_constructor2"));
-        Files.copy(Path.of("src/c2stage_20220418/ccc144IO_constructor/ccc001.txt"), Path.of("src/c2stage_20220418/ccc144IO_constructor/lib2/ccc001.txt"));
+        Files.copy(Path.of("src/c2stage_20220418/ccc144IO_constructor/ddd050做数组拷贝.txt"), Path.of("src/c2stage_20220418/ccc144IO_constructor/lib2/ddd050做数组拷贝.txt"));
         // 这里不能复制文件夹，只能复制文件
     }
 }

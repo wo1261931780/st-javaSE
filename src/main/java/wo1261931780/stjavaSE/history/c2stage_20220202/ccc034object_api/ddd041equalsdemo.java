@@ -1,10 +1,10 @@
 package wo1261931780.stjavaSE.history.c2stage_20220202.ccc034object_api;
 
 public class ddd041equalsdemo {
-    public static void main(String[] args) {
-        ddd040equals x=new ddd040equals("ss",10);
-        ddd040equals xx=new ddd040equals("ss",10);
-        System.out.println(x.equals(xx));
+	public static void main(String[] args) {
+		ddd040equals x = new ddd040equals("ss", 10);
+		ddd040equals xx = new ddd040equals("ss", 10);
+		System.out.println(x.equals(xx));
         /*
         System.out.println("----------------------------------");
             public boolean equals(Object obj) {
@@ -15,5 +15,5 @@ public class ddd041equalsdemo {
             }think you
         System.out.println("----------------------------------");
         */
-    }
+	}
 }

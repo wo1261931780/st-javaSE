@@ -25,7 +25,7 @@ public class ccc001 {
 
     @Override
     public String toString() {
-        return "ccc001{" + "name='" + name + '\'' + ", address='" + address + '\'' + ", age=" + age + '}';
+        return "ddd050做数组拷贝{" + "name='" + name + '\'' + ", address='" + address + '\'' + ", age=" + age + '}';
     }
 
     public String getAddress() {

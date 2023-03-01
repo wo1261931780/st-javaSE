@@ -20,7 +20,7 @@ public class ccc001 {
         x.setProperty("ceshi2", "222");
         x.setProperty("ceshi2", "222");
         System.out.println(x);// {ceshi=123, ceshi2=222, ccc038demo=ccc038demo}
-        x.store(new FileWriter("src/c2stage_20220418/ccc143properties/ccc001.properties"), "我是配置文件，give me 100RMB");
+        x.store(new FileWriter("src/c2stage_20220418/ccc143properties/ddd050做数组拷贝.properties"), "我是配置文件，give me 100RMB");
         // 资源会被自动关闭，不需要手动设置
         // #Tue Apr 19 21:45:03 CST 2022内部会自动设置创建时间，
         // 如果每次都是写入，那么时间会自动更新

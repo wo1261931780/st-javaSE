@@ -1,6 +1,5 @@
 package wo1261931780.stjavaSE.history.c2stage_20220220.ccc070genericity;
 
-import c2stage_20220220.ccc070genericity.eee001泛型方法;
 
 public class eee002测试类 {
     public static void main(String[] args) {

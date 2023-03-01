@@ -15,7 +15,7 @@ public class ccc002 {
     public static void main(String[] args) throws IOException {
         Properties x = new Properties();// 首先新建一个配置文件对象
         System.out.println(x);// 直接输出，对象内部没有得到相关信息，所以是空的
-        x.load(new FileReader("src/c2stage_20220418/ccc143properties/ccc001.properties"));
+        x.load(new FileReader("src/c2stage_20220418/ccc143properties/ddd050做数组拷贝.properties"));
         // 使用fileread以后，载入相关资源，得到内部的信息
         System.out.println(x);// 然后展示，就能看到结果
         String demo = x.getProperty("ceshi");// 获取指定的键，将值存到一个字符串中

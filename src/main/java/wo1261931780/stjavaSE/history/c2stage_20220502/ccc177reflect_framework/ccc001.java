@@ -23,7 +23,7 @@ public class ccc001 {
 
     @Override
     public String toString() {
-        return "ccc001{" + "name='" + name + '\'' + ", age='" + age + '\'' + ", address='" + address + '\'' + '}';
+        return "ddd050做数组拷贝{" + "name='" + name + '\'' + ", age='" + age + '\'' + ", address='" + address + '\'' + '}';
     }
 
     public String getAddress() {

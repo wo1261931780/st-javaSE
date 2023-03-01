@@ -19,7 +19,7 @@ public abstract class ccc001computer {
 
     @Override
     public String toString() {
-        return "ccc001{" +
+        return "ddd050做数组拷贝{" +
                 "name='" + name + '\'' +
                 ", price=" + price +
                 '}';

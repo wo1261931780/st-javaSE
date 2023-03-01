@@ -17,7 +17,7 @@ public class ccc016object {
 
     @Override
     public String toString() {
-        return "ccc001{" +
+        return "ddd050做数组拷贝{" +
                 "name='" + name + '\'' +
                 ", address='" + address + '\'' +
                 ", age=" + age +

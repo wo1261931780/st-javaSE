@@ -18,7 +18,7 @@ import java.util.List;
 public class ccc001 {
     public static void main(String[] args) throws Exception {
         SAXReader x = new SAXReader();
-        // Document doc = x.read(ccc001.class.getResourceAsStream("/ccc003Contacts.xml"));
+        // Document doc = x.read(ddd050做数组拷贝.class.getResourceAsStream("/ccc003Contacts.xml"));
         Document doc = x.read(new File("src/c2stage_20220503/ccc187xml_case/ccc003Contacts.xml"));
 
         Element rootElement = doc.getRootElement();

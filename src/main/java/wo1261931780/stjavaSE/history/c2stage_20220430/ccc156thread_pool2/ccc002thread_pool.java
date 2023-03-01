@@ -13,7 +13,7 @@ public class ccc002thread_pool {
     public static void main(String[] args) throws ExecutionException, InterruptedException {
         ExecutorService x = new ThreadPoolExecutor(3, 5, 6, TimeUnit.SECONDS,
                 new ArrayBlockingQueue<>(5), new ThreadPoolExecutor.AbortPolicy());
-        // ccc001 c1=new ccc001(100);
+        // ddd050做数组拷贝 c1=new ddd050做数组拷贝(100);
         // Future<String> f1=new CompletableFuture<>();
         Future res = x.submit(new ccc001(10));
         System.out.println(res.get());

@@ -17,7 +17,7 @@ public class ccc002 {
     public void show_v() throws NoSuchMethodException, InvocationTargetException, InstantiationException, IllegalAccessException {
         Class x = ccc001.class;
         // Constructor constructor = x.getConstructor();
-        // ccc001 o = (ccc001) constructor.newInstance();
+        // ddd050做数组拷贝 o = (ddd050做数组拷贝) constructor.newInstance();
         Field[] fields = x.getDeclaredFields();// 可以拿所有变量
         for (Field field : fields) {
             System.out.println(field.getName() + "-----" + field.getType());
@@ -40,9 +40,9 @@ public class ccc002 {
         // 本身private是不会变化的，可以照常访问，但是无法修改
         ccc001 demo = new ccc001();
         age.set(demo, 123);// 赋值
-        System.out.println(demo);// ccc001{name='null', address='null', age=123}
+        System.out.println(demo);// ddd050做数组拷贝{name='null', address='null', age=123}
         System.out.println(age + "------" + age.getType());
-        // private int c2stage_20220502.ccc174reflect_variable.ccc001.age------int
+        // private int c2stage_20220502.ccc174reflect_variable.ddd050做数组拷贝.age------int
         int res = (Integer) age.get(demo);// 根据变量，得到值
         System.out.println(res);
     }

@@ -44,12 +44,12 @@ public class ccc017 {
         ccc016object o = (ccc016object) demo.newInstance();
         // 根据获得的构造器，直接新建一个对象
         // 这里新建的对象都是被默认初始化的，需要自己赋值
-        System.out.println(o);// ccc001{name='null', address='null', age=0}
+        System.out.println(o);// ddd050做数组拷贝{name='null', address='null', age=0}
         System.out.println(demo.getName() + "----内部的参数数量：" + demo.getParameterCount());
         System.out.println("-----------------------------");
         Constructor demo1 = x.getDeclaredConstructor(String.class, String.class, int.class);// 根据参数的类型去获得对应的构造器
         System.out.println(demo1.getName() + "----内部的参数数量：" + demo1.getParameterCount());
         ccc016object o1 = (ccc016object) demo1.newInstance("111", "111", 123);
-        System.out.println(o1);// ccc001{name='111', address='111', age=123}
+        System.out.println(o1);// ddd050做数组拷贝{name='111', address='111', age=123}
     }
 }

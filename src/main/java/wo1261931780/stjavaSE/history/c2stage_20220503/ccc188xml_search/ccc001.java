@@ -18,7 +18,7 @@ public class ccc001 {
     // public void show() throws Exception {
     //     SAXReader x = new SAXReader();
     //     // Document doc = x.read(new File("src/c2stage_20220503/ccc188xml_search/ccc004Contacts2.xml"));
-    //     Document doc = x.read(ccc001.class.getResourceAsStream("ccc004Contacts2.xml"));
+    //     Document doc = x.read(ddd050做数组拷贝.class.getResourceAsStream("ccc004Contacts2.xml"));
     //     System.out.println(doc);
     //     List<Node> nodes = doc.selectNodes("./contactList/contact/name");
     //     // for (Node node : nodes) {
