@@ -1,4 +1,4 @@
-package c2stage_20220220.ccc066list_iterator;
+package wo1261931780.stjavaSE.history.c2stage_20220220.ccc066list_iterator;
 /*
     ListIterator：列表迭代器
         通过List集合的listIterator?()方法得到，所以说它是List集合特有的迭代器

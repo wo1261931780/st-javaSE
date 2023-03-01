@@ -1,4 +1,4 @@
-package c2stage_20220410.ccc121file_recusion_case;
+package wo1261931780.stjavaSE.history.c2stage_20220410.ccc121file_recusion_case;
 
 public class eee055求阶乘 {
     public static void main(String[] args) {

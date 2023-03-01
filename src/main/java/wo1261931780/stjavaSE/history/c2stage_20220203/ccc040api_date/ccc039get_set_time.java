@@ -1,4 +1,4 @@
-package c2stage_20220203.ccc040api_date;
+package wo1261931780.stjavaSE.history.c2stage_20220203.ccc040api_date;
 import java.util.Date;
 /*
     public long getTime():获取的是日期对象从1970年1月1日 00:00:00到现在的毫秒值

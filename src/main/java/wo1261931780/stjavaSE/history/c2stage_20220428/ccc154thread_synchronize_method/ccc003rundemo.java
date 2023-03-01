@@ -1,4 +1,4 @@
-package c2stage_20220428.ccc154thread_synchronize_method;
+package wo1261931780.stjavaSE.history.c2stage_20220428.ccc154thread_synchronize_method;
 
 /**
  * Created by Intellij IDEA.

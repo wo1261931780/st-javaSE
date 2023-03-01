@@ -1,4 +1,4 @@
-package c2stage_20220410.ccc117creat;
+package wo1261931780.stjavaSE.history.c2stage_20220410.ccc117creat;
 /*
     File类创建功能：
         public boolean createNewFile()：当具有该名称的文件不存在时，创建一个由该抽象路径名命名的新空文件

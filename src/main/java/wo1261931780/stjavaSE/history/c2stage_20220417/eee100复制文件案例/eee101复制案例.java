@@ -1,4 +1,4 @@
-package c2stage_20220417.eee100复制文件案例;
+package wo1261931780.stjavaSE.history.c2stage_20220417.eee100复制文件案例;
 /*
     需求：
         把模块目录下的ConversionStreamDemo.java 复制到模块目录下的 Copy.java

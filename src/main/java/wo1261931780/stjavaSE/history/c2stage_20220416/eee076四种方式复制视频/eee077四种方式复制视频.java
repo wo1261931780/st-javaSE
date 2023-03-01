@@ -1,4 +1,4 @@
-package c2stage_20220416.eee076四种方式复制视频;
+package wo1261931780.stjavaSE.history.c2stage_20220416.eee076四种方式复制视频;
 /*
     需求：
         把E:\\itcast\\字节流复制图片.avi 复制到模块目录下的 字节流复制图片.avi

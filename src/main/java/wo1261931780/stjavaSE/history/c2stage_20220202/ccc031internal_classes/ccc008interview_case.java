@@ -1,4 +1,4 @@
-package c2stage_20220202.ccc031internal_classes;
+package wo1261931780.stjavaSE.history.c2stage_20220202.ccc031internal_classes;
 
 public class ccc008interview_case {
     public static void main(String[] args) {

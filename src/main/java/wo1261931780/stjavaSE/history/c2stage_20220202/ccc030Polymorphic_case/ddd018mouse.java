@@ -1,6 +1,6 @@
-package c2stage_20220202.ccc030Polymorphic_case;
+package wo1261931780.stjavaSE.history.c2stage_20220202.ccc030Polymorphic_case;
 
-public class ccc003mouse extends ccc002usb{
+public class ddd018mouse extends ddd017usb {
     @Override
     void get_out() {
         System.out.println("mouse get out");

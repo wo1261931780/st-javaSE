@@ -1,4 +1,4 @@
-package c2stage_20220403.ccc107try_catch;
+package wo1261931780.stjavaSE.history.c2stage_20220403.ccc107try_catch;
 /*
     public String getMessage():返回此 throwable 的详细消息字符串
     public String toString():返回此可抛出的简短描述

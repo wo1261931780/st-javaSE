@@ -1,4 +1,4 @@
-package c2stage_20220202.ccc035object_api_stringbuilder;
+package wo1261931780.stjavaSE.history.c2stage_20220202.ccc035object_api_stringbuilder;
 // 2021年9月18日14:38:56
 // 使用stringbuilder类的意义在于：
 // 每次使用string设置字符串，都会因为新字符串，出现一个新的内存地址

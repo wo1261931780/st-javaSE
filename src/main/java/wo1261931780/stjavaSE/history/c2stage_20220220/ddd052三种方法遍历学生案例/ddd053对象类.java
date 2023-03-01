@@ -1,4 +1,4 @@
-package c2stage_20220220.ddd052三种方法遍历学生案例;
+package wo1261931780.stjavaSE.history.c2stage_20220220.ddd052三种方法遍历学生案例;
 
 public class ddd053对象类 {
     private String name;

@@ -1,4 +1,4 @@
-package c2stage_20220220.ccc057collection;
+package wo1261931780.stjavaSE.history.c2stage_20220220.ccc057collection;
 /*
     Collection集合常用方法:
         boolean add(E e):添加元素

@@ -1,4 +1,4 @@
-package c2stage_20220326.ccc089Variable_parameters;
+package wo1261931780.stjavaSE.history.c2stage_20220326.ccc089Variable_parameters;
 
 public class eee010可变参数和参数混合 {
     public static void main(String[] args) {

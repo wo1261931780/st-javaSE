@@ -1,4 +1,4 @@
-package c2stage_20220418.eee106点名器案例;
+package wo1261931780.stjavaSE.history.c2stage_20220418.eee106点名器案例;
 /*
     需求：
         我有一个文件里面存储了班级同学的姓名，每一个姓名占一行，要求通过程序实现随点名器

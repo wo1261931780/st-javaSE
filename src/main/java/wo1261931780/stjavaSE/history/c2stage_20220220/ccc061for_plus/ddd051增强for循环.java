@@ -1,4 +1,4 @@
-package c2stage_20220220.ccc061for_plus;
+package wo1261931780.stjavaSE.history.c2stage_20220220.ccc061for_plus;
 /*
     增强for：简化数组和Collection集合的遍历
         实现Iterable接口的类允许其对象成为增强型 for语句的目标

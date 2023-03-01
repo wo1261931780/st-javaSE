@@ -1,4 +1,4 @@
-package c2stage_20220412.ccc125charset;
+package wo1261931780.stjavaSE.history.c2stage_20220412.ccc125charset;
 /*
     编码：
         byte[] getBytes()：使用平台的默认字符集将该 String编码为一系列字节，将结果存储到新的字节数组中

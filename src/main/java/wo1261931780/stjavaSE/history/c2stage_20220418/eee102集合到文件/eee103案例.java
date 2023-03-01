@@ -1,4 +1,4 @@
-package c2stage_20220418.eee102集合到文件;
+package wo1261931780.stjavaSE.history.c2stage_20220418.eee102集合到文件;
 /*
     需求：
         把ArrayList集合中的字符串数据写入到文本文件。要求：每一个字符串元素作为文件中的一行数据

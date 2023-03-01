@@ -1,4 +1,4 @@
-package c2stage_20220220.ccc064Data_structure;
+package wo1261931780.stjavaSE.history.c2stage_20220220.ccc064Data_structure;
 
 public class ddd057数据结构_数组 {
     // 数组的查询快，增删慢

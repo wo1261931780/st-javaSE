@@ -1,4 +1,4 @@
-package c2stage_20220404.ccc113stage_project.src.java.bean;
+package wo1261931780.stjavaSE.history.c2stage_20220404.ccc113stage_project.src.java.bean;
 
 /**
  * Created by Intellij IDEA.

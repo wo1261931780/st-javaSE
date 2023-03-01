@@ -1,4 +1,4 @@
-package c2stage_20220418.eee108集合到文件改进案例;
+package wo1261931780.stjavaSE.history.c2stage_20220418.eee108集合到文件改进案例;
 /*
     需求：
         把ArrayList集合中的学生数据写入到文本文件。要求：每一个学生对象的数据作为文件中的一行数据

@@ -1,4 +1,4 @@
-package c2stage_20220326.ccc090collections;
+package wo1261931780.stjavaSE.history.c2stage_20220326.ccc090collections;
 /*
     Collections类的概述
         是针对集合操作的工具类

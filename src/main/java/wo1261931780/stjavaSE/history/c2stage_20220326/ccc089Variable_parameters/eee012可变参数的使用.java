@@ -1,4 +1,4 @@
-package c2stage_20220326.ccc089Variable_parameters;
+package wo1261931780.stjavaSE.history.c2stage_20220326.ccc089Variable_parameters;
 /*
     Arrays工具类中有一个静态方法：
         public static <T> List<T> asList?(T... a)：返回由指定数组支持的固定大小的列表

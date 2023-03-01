@@ -1,4 +1,4 @@
-package c2stage_20220416.ccc131file_output_stream2;
+package wo1261931780.stjavaSE.history.c2stage_20220416.ccc131file_output_stream2;
 /*
     InputStreamReader：是从字节流到字符流的桥梁
         它读取字节，并使用指定的编码将其解码为字符

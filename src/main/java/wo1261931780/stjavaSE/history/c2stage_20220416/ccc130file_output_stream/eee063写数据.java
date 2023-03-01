@@ -1,4 +1,4 @@
-package c2stage_20220416.ccc130file_output_stream;
+package wo1261931780.stjavaSE.history.c2stage_20220416.ccc130file_output_stream;
 /*
     字节流写数据的两个小问题:
         1:字节流写数据如何实现换行呢？

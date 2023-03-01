@@ -1,4 +1,4 @@
-package c2stage_20220326.eee028ArrayList嵌套;
+package wo1261931780.stjavaSE.history.c2stage_20220326.eee028ArrayList嵌套;
 /*
     需求：
         创建一个ArrayList集合，存储三个元素，每一个元素都是HashMap，每一个HashMap的键和值都是String，并遍历

@@ -1,4 +1,4 @@
-package c2stage_20220326.eee025hashmap案例2;
+package wo1261931780.stjavaSE.history.c2stage_20220326.eee025hashmap案例2;
 /*
     需求：
         创建一个HashMap集合，键是学生对象(Student)，值是居住地 (String)。存储多个键值对元素，并遍历。

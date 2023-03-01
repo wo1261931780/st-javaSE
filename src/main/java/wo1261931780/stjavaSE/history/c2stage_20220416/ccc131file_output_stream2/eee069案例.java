@@ -1,4 +1,4 @@
-package c2stage_20220416.ccc131file_output_stream2;
+package wo1261931780.stjavaSE.history.c2stage_20220416.ccc131file_output_stream2;
 /*
     需求：
         把“E:\\itcast\\窗里窗外.txt”复制到模块目录下的“窗里窗外.txt”

@@ -1,4 +1,4 @@
-package c2stage_20220302.ddd089成绩排序案例;
+package wo1261931780.stjavaSE.history.c2stage_20220302.ddd089成绩排序案例;
 
 import java.util.Comparator;
 import java.util.Scanner;

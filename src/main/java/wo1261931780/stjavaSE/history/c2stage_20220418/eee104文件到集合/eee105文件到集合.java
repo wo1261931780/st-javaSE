@@ -1,4 +1,4 @@
-package c2stage_20220418.eee104文件到集合;
+package wo1261931780.stjavaSE.history.c2stage_20220418.eee104文件到集合;
 /*
     需求：
         把文本文件中的数据读取到集合中，并遍历集合。要求：文件中每一行数据是一个集合元素

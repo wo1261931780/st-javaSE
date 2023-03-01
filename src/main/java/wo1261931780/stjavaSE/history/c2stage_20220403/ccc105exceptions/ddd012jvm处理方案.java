@@ -1,4 +1,4 @@
-package c2stage_20220403.ccc105exceptions;
+package wo1261931780.stjavaSE.history.c2stage_20220403.ccc105exceptions;
 
 /**
  * 目标：常见的编译时异常认识。

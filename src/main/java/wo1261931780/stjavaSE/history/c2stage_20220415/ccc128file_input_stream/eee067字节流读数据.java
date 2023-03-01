@@ -1,4 +1,4 @@
-package c2stage_20220415.ccc128file_input_stream;
+package wo1261931780.stjavaSE.history.c2stage_20220415.ccc128file_input_stream;
 /*
     需求：
         把文件fos.txt中的内容读取出来在控制台输出

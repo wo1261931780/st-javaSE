@@ -1,4 +1,4 @@
-package c2stage_20220302.ddd092随机数案例;
+package wo1261931780.stjavaSE.history.c2stage_20220302.ddd092随机数案例;
 
 
 import java.util.Random;

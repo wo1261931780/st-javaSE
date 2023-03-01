@@ -1,4 +1,4 @@
-package c2stage_20220503.ccc182Dynamic_Proxy;
+package wo1261931780.stjavaSE.history.c2stage_20220503.ccc182Dynamic_Proxy;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;

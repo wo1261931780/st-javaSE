@@ -1,4 +1,4 @@
-package c2stage_20220417.ccc139charset_writer;
+package wo1261931780.stjavaSE.history.c2stage_20220417.ccc139charset_writer;
 /*
     字符缓冲流：
         BufferedWriter：将文本写入字符输出流，缓冲字符，以提供单个字符，数组和字符串的高效写入，可以指定缓冲区大小，或者可以接受默认大小。默认值足够大，可用于大多数用途

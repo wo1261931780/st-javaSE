@@ -1,4 +1,4 @@
-package c2stage_20220326.eee025hashmap案例2;
+package wo1261931780.stjavaSE.history.c2stage_20220326.eee025hashmap案例2;
 
 public class eee026学生类 {
     private String age;

@@ -1,4 +1,4 @@
-package c2stage_20220202.ccc036object_api_math;
+package wo1261931780.stjavaSE.history.c2stage_20220202.ccc036object_api_math;
 //public static int abs?(int a)：返回参数的绝对值
 
 //public static double ceil?(double a)：返回大于或等于参数的最小double值，等于一个整数

@@ -1,4 +1,4 @@
-package c2stage_20220220.ccc065list;
+package wo1261931780.stjavaSE.history.c2stage_20220220.ccc065list;
 /*
     List集合特点
         有序：存储和取出的元素顺序一致

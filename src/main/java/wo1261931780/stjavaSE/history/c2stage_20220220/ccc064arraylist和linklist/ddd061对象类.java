@@ -1,4 +1,4 @@
-package c2stage_20220220.ccc064arraylist和linklist;
+package wo1261931780.stjavaSE.history.c2stage_20220220.ccc064arraylist和linklist;
 
 public class ddd061对象类 {
     private String name;
