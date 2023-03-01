@@ -6,11 +6,17 @@ package wo1261931780.stjavaSE.history.c2stage_20220203.ccc044calendar_case;
  * <p>
  * 思路：
  * 1:键盘录入任意的年份
+ * <p>
  * 2:设置日历对象的年、月、日
+ * <p>
  * 年：来自于键盘录入
+ * <p>
  * 月：设置为3月，月份是从0开始的，所以设置的值是2
+ * <p>
  * 日：设置为1日
+ * <p>
  * 3:3月1日往前推一天，就是2月的最后一天
+ * <p>
  * 4:获取这一天输出即可
  */
 
@@ -24,7 +30,7 @@ public class ddd066获取二月天数 {
 	public static void main(String[] args) {
 		Calendar x = Calendar.getInstance();
 		Scanner x1 = new Scanner(System.in);
-		log.info("请输入具体时间：");
+		log.info("请输入具体年份：");
 		int x2 = x1.nextInt();
 		x.set(x2, Calendar.MARCH, 1);
 		// 设置具体年月日
