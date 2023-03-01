@@ -1,13 +1,13 @@
 package wo1261931780.stjavaSE.history.c2stage_20220202.ccc031internal_classes;
 
-public class ccc003Local_Internal_Classes {
+public class ddd022Local_Internal_Classes {
     public String name;
     public int age;
 
-    public ccc003Local_Internal_Classes() {
+    public ddd022Local_Internal_Classes() {
     }
 
-    public ccc003Local_Internal_Classes(String name, int age) {
+    public ddd022Local_Internal_Classes(String name, int age) {
         this.name = name;
         this.age = age;
     }

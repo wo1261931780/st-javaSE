@@ -2,7 +2,7 @@ package wo1261931780.stjavaSE.history.c2stage_20220113.ccc018Enumeration;
 
 public enum ccc038demo {
 	// 1,2,3,4;
-	demo1, demo2, demo3, demo4;
+	demo1, demo2, demo3, demo4
 	// 枚举的第一行必须罗列枚举类的对象名称，建议全部大写。
 }
 // 枚举之前没学过

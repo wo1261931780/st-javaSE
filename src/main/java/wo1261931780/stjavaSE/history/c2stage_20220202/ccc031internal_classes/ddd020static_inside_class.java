@@ -1,6 +1,6 @@
 package wo1261931780.stjavaSE.history.c2stage_20220202.ccc031internal_classes;
 
-public class ccc001static_inside_class {
+public class ddd020static_inside_class {
 	// 外部类，一般都是public或者缺省
 	// public表示任何地方都可以访问
 	// 但是缺省，表示只能在同个包下面访问
@@ -24,7 +24,7 @@ public class ccc001static_inside_class {
 		// 可以构造方法，可以getset，甚至可以有方法体
 		// 内部类无法访问外部的私有变量
 		public void show2() {
-			ccc001static_inside_class x = new ccc001static_inside_class();
+			ddd020static_inside_class x = new ddd020static_inside_class();
 			System.out.println(x.name);
 			// 但是可以通过构造对象的方式，来访问
 		}
@@ -60,7 +60,7 @@ public class ccc001static_inside_class {
 		}
 	}
 
-	public ccc001static_inside_class() {
+	public ddd020static_inside_class() {
 	}
 
 	public String getName() {
@@ -71,7 +71,7 @@ public class ccc001static_inside_class {
 		this.name = name;
 	}
 
-	public ccc001static_inside_class(String name) {
+	public ddd020static_inside_class(String name) {
 		this.name = name;
 	}
 }

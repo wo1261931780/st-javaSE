@@ -22,7 +22,7 @@ public class ccc001 {
                 // int xxxx=0;
                 // 但是这里，只能设置资源，其他的命令会报错
                 // 所有的资源，其实都继承了closeable接口
-                demoresource demoresource = new demoresource();
+                demoresource demoresource = new demoresource()
 
         ) {
             byte[] demo = new byte[1024];

@@ -27,7 +27,7 @@ public class ccc001 {
         System.out.println(sttime);
         try (
                 InputStream x1 = new FileInputStream(x);
-                OutputStream x2 = new FileOutputStream(xx1);
+                OutputStream x2 = new FileOutputStream(xx1)
                 // 定义也必须在内部
         ) {
             int len;
@@ -48,7 +48,7 @@ public class ccc001 {
         System.out.println(sttime);
         try (
                 InputStream x1 = new FileInputStream(x);
-                OutputStream x2 = new FileOutputStream(xx2);
+                OutputStream x2 = new FileOutputStream(xx2)
         ) {
             byte[] demo = new byte[1024];
             int len;
@@ -69,7 +69,7 @@ public class ccc001 {
         System.out.println(sttime);
         try (
                 InputStream x1 = new BufferedInputStream(new FileInputStream(x));
-                OutputStream x2 = new BufferedOutputStream(new FileOutputStream(xx3));
+                OutputStream x2 = new BufferedOutputStream(new FileOutputStream(xx3))
         ) {
             int len;
             while ((len = x1.read()) != -1) {
@@ -90,7 +90,7 @@ public class ccc001 {
         System.out.println(sttime);
         try (
                 InputStream x1 = new BufferedInputStream(new FileInputStream(x));
-                OutputStream x2 = new BufferedOutputStream(new FileOutputStream(xx4));
+                OutputStream x2 = new BufferedOutputStream(new FileOutputStream(xx4))
         ) {
             int len;
             byte[] demo = new byte[1024];

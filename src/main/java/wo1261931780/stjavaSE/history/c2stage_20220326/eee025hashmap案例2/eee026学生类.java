@@ -30,12 +30,18 @@ public class eee026学生类 {
 
     @Override
     public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
+        if (this == o) {
+	        return true;
+        }
+        if (o == null || getClass() != o.getClass()) {
+	        return false;
+        }
 
         eee026学生类 eee026学生类 = (eee026学生类) o;
 
-        if (age != null ? !age.equals(eee026学生类.age) : eee026学生类.age != null) return false;
+        if (age != null ? !age.equals(eee026学生类.age) : eee026学生类.age != null) {
+	        return false;
+        }
         return city != null ? city.equals(eee026学生类.city) : eee026学生类.city == null;
     }
 

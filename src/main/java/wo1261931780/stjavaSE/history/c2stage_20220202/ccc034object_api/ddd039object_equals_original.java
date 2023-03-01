@@ -1,6 +1,6 @@
 package wo1261931780.stjavaSE.history.c2stage_20220202.ccc034object_api;
 
-public class ccc004object_equals_original {
+public class ddd039object_equals_original {
     public static void main(String[] args) {
         String x = null;
         String x1 = "123";

@@ -17,7 +17,7 @@ public class ccc003outputstream {
         ccc001object demo = (ccc001object) x.readObject();// 这里java为了避免强制类型转换，即使我们做了强转，也会给出提醒
         // 所以需要抛出异常
         x.close();// 资源关闭的先后，对反序列化没有太大的影响
-        System.out.println(demo);// ccc001object{name='a1', age=11, address='null'}
+        System.out.println(demo);// ddd036object{name='a1', age=11, address='null'}
         // 这里必须保持路径的一致，否则容易报错
     }
 }

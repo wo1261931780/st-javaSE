@@ -1,9 +1,9 @@
 package wo1261931780.stjavaSE.history.c2stage_20220202.ccc034object_api;
 
-public class ccc038equalsdemo {
+public class ddd041equalsdemo {
     public static void main(String[] args) {
-        ccc037equals x=new ccc037equals("ss",10);
-        ccc037equals xx=new ccc037equals("ss",10);
+        ddd040equals x=new ddd040equals("ss",10);
+        ddd040equals xx=new ddd040equals("ss",10);
         System.out.println(x.equals(xx));
         /*
         System.out.println("----------------------------------");

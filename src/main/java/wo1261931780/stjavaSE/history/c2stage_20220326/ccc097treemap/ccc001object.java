@@ -21,7 +21,7 @@ public class ccc001object implements Comparable<ccc001object> {
 
     @Override
     public String toString() {
-        return "ccc001object{" +
+        return "ddd036object{" +
                 "name='" + name + '\'' +
                 ", price=" + price +
                 '}';

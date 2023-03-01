@@ -1,13 +1,13 @@
 package wo1261931780.stjavaSE.history.c2stage_20220202.ccc034object_api;
 
-public class ccc037equals {
+public class ddd040equals {
     public String name;
     public int age;
 
-    public ccc037equals() {
+    public ddd040equals() {
     }
 
-    public ccc037equals(String name, int age) {
+    public ddd040equals(String name, int age) {
         this.name = name;
         this.age = age;
     }
@@ -41,7 +41,7 @@ public class ccc037equals {
         }
         //先比较o(也就是xx)是否为null，为null则直接为false
         //然后比较两个的class是否是同一个，不是则false
-        ccc037equals that = (ccc037equals) o;
+        ddd040equals that = (ddd040equals) o;
         //向下转型，把o(也就是xx)给that，现在that为xx
 
         if (age != that.age) {

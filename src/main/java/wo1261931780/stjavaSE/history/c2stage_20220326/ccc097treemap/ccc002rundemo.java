@@ -24,24 +24,24 @@ public class ccc002rundemo {
         demo.put(x1, 123);
         demo.put(x4, 123);
         // System.out.println(ccc038demo);
-        // c2stage_20220326.ccc097treemap.ccc001object@4eec7777=123
+        // c2stage_20220326.ccc097treemap.ddd036object@4eec7777=123
         // 没有对对象进行重写的情况下，只会得到对象的地址
         // ******************************************************************************
         System.out.println(demo);
-        //ccc001object{name='123', price=123}=46578
+        //ddd036object{name='123', price=123}=46578
         // 即使对象的内容相同，也会因为地址的差异，打印重复结果
         // 但是treemap的不同之处在于，可以对结果进行排序，
         // 这里默认按照price进行排序
 
         // ******************************************************************************
         // 也可以在这里对排序规则进行一次重写
-        // Map<ccc001object, String> demo2 = new TreeMap<>(new Comparator<ccc001object>() {
+        // Map<ddd036object, String> demo2 = new TreeMap<>(new Comparator<ddd036object>() {
         //     @Override
-        //     public int compare(ccc001object o1, ccc001object o2) {
+        //     public int compare(ddd036object o1, ddd036object o2) {
         //         return Double.compare(o1.getPrice(), o2.getPrice());
         //     }
         // });
-        // Map<ccc001object, String> demo2 = new TreeMap<>((o1, o2) -> Double.compare(o1.getPrice(), o2.getPrice()));
+        // Map<ddd036object, String> demo2 = new TreeMap<>((o1, o2) -> Double.compare(o1.getPrice(), o2.getPrice()));
         Map<ccc001object, String> demo2 = new TreeMap<>(Comparator.comparingDouble(ccc001object::getPrice));
     }
 }

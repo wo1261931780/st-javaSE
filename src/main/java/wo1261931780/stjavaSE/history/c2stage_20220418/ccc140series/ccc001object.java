@@ -56,7 +56,7 @@ public class ccc001object implements Serializable {
 
     @Override
     public String toString() {
-        return "ccc001object{" +
+        return "ddd036object{" +
                 "name='" + name + '\'' +
                 ", age=" + age +
                 ", address='" + address + '\'' +

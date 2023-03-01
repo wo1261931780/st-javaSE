@@ -21,7 +21,7 @@ public class ccc001 {
         // System.out.println("线程开始执行");
         // x.start();
         // 按照上下的创建顺序，最终线程也就会按照从上到下的执行顺序进行
-        x.run();
+        x.start();
         // 如果直接调用run方法，那么就是调用普通方法，没有使用到线程的特性
         // start和run其实都是执行了run方法，只不过走的路径不一样
     }

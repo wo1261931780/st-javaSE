@@ -14,8 +14,8 @@ public class ccc001 {
         File x = new File("src/c2stage_20220416/ccc136Bytebufferstream/ccc038demo.txt");
         File xx = new File("src/c2stage_20220416/ccc136Bytebufferstream/demo2.txt");
         try (
-                InputStream x1 = new BufferedInputStream(new FileInputStream(x));
-                OutputStream x2 = new BufferedOutputStream(new FileOutputStream(xx));//内部还是需要使用file类型的变量
+		        InputStream x1 = new BufferedInputStream(new FileInputStream(x));
+		        OutputStream x2 = new BufferedOutputStream(new FileOutputStream(xx))//内部还是需要使用file类型的变量
         ) {
             int len;
             byte[] x4 = new byte[1024];
