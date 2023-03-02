@@ -5,7 +5,7 @@ public interface List<E> {
 
 public abstract class AbstractList<E> {
     protected int modCount = 0;
-    // Ä¬ÈÏÉèÖÃÐÞ¸Ä´ÎÊýÎª0
+    // Ä¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Þ¸Ä´ï¿½ï¿½ï¿½Îª0
 }
 
 public class ArrayList<E> extends AbstractList<E> implements List<E> {
@@ -14,8 +14,8 @@ public class ArrayList<E> extends AbstractList<E> implements List<E> {
         Objects.checkIndex(index, size);
         return elementData(index);
     }
-    // ÕâÀïµ÷ÓÃadd·½·¨ÒÔºó£¬»á¶ÔÐÞ¸Ä´ÎÊý½øÐÐÔö¼Ó£¬
-    // ´Ó¶øµ¼ÖÂÐÞ¸Ä´ÎÊýºÍÔ¤ÆÚ´ÎÊý·¢Éú³åÍ»£¬µ¼ÖÂ±¨´í
+    // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½addï¿½ï¿½ï¿½ï¿½ï¿½Ôºó£¬»ï¿½ï¿½ï¿½Þ¸Ä´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ó£ï¿½
+    // ï¿½Ó¶ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Þ¸Ä´ï¿½ï¿½ï¿½ï¿½ï¿½Ô¤ï¿½Ú´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í»ï¿½ï¿½ï¿½ï¿½ï¿½Â±ï¿½ï¿½ï¿½
     public boolean add(E e) {
         modCount++;
         add(e, elementData, size);
@@ -28,11 +28,11 @@ public class ArrayList<E> extends AbstractList<E> implements List<E> {
 
     private class Itr implements Iterator<E> {
         int expectedModCount = modCount;
-        // ×ÓÀà¼Ì³Ð£¬Ä¬ÈÏÖµÒ²ÊÇ0;
+        // ï¿½ï¿½ï¿½ï¿½Ì³Ð£ï¿½Ä¬ï¿½ï¿½ÖµÒ²ï¿½ï¿½0;
 
         // ----------------------------------------------------------------
-            modCount:Êµ¼ÊÐÞ¸Ä¼¯ºÏµÄ´ÎÊý
-            expectedModCount:Ô¤ÆÚÐÞ¸Ä¼¯ºÏµÄ´ÎÊý
+            modCount:Êµï¿½ï¿½ï¿½Þ¸Ä¼ï¿½ï¿½ÏµÄ´ï¿½ï¿½ï¿½
+            expectedModCount:Ô¤ï¿½ï¿½ï¿½Þ¸Ä¼ï¿½ï¿½ÏµÄ´ï¿½ï¿½ï¿½
         // ----------------------------------------------------------------
 
         public E next() {
@@ -47,7 +47,7 @@ public class ArrayList<E> extends AbstractList<E> implements List<E> {
             return (E) elementData[lastRet = i];
         }
 
-        // Ã¿´Îµ÷ÓÃ·½·¨£¬¶¼»áÖ´ÐÐÏÂÃæµÄÅÐ¶ÏÓï¾ä
+        // Ã¿ï¿½Îµï¿½ï¿½Ã·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð¶ï¿½ï¿½ï¿½ï¿½
         final void checkForComodification() {
             if (modCount != expectedModCount)
                 throw new ConcurrentModificationException();

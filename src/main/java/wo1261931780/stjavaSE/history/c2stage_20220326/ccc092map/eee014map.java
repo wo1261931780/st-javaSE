@@ -17,22 +17,22 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class eee014map {
-    public static void main(String[] args) {
-        // interface Map<K,V>
-        // K表示键的类型，V表示值的类型
-        Map<String, String> x = new HashMap<>();
-        x.put("aaaaaaa", "a1");
-        x.put("bbbbbbb", "a2");
-        x.put("ccccccc", "a3");
-        x.put("ddddddd", "a4");
-        x.put("eeeeeee", "a5");
+	public static void main(String[] args) {
+		// interface Map<K,V>
+		// K表示键的类型，V表示值的类型
+		Map<String, String> x = new HashMap<>();
+		x.put("aaaaaaa", "a1");
+		x.put("bbbbbbb", "a2");
+		x.put("ccccccc", "a3");
+		x.put("ddddddd", "a4");
+		x.put("eeeeeee", "a5");
 
-        System.out.println(x);
-        // 结果为：
-        // {bbbbbbb=a2, aaaaaaa=a1, ddddddd=a4, eeeeeee=a5, ccccccc=a3}
-        // 相当于hashmap重写了tostring方法，
-        // 这里是无序的展示结果
-        // 同时，这里的键值都是唯一的，如果重复，那么就会出现替换
-        // 例如aaa已经出现，这时重新添加一个一样的键值，会将原来的对象替换掉
-    }
+		System.out.println(x);
+		// 结果为：
+		// {bbbbbbb=a2, aaaaaaa=a1, ddddddd=a4, eeeeeee=a5, ccccccc=a3}
+		// 相当于hashmap重写了tostring方法，
+		// 这里是无序的展示结果
+		// 同时，这里的键值都是唯一的，如果重复，那么就会出现替换
+		// 例如aaa已经出现，这时重新添加一个一样的键值，会将原来的对象替换掉
+	}
 }

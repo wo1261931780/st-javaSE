@@ -26,7 +26,7 @@ public class ccc002impl {
                 demo3.add(x);
             }
         }
-        System.out.println("ÐÂÅÆ£º" + demo3);
+        System.out.println("卡牌：" + demo3);
     }
 
     public static void main(String[] args) {

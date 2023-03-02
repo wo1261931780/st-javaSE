@@ -8,43 +8,43 @@ package wo1261931780.stjavaSE.history.c2stage_20220326.ccc097treemap;
  * Time:  2022-03-20-58  ÐÇÆÚÈÕ
  */
 public class ccc001object implements Comparable<ccc001object> {
-    private String name;
-    private int price;
+	private String name;
+	private int price;
 
-    public ccc001object() {
-    }
+	public ccc001object() {
+	}
 
-    public ccc001object(String name, int price) {
-        this.name = name;
-        this.price = price;
-    }
+	public ccc001object(String name, int price) {
+		this.name = name;
+		this.price = price;
+	}
 
-    @Override
-    public String toString() {
-        return "ddd036object{" +
-                "name='" + name + '\'' +
-                ", price=" + price +
-                '}';
-    }
+	@Override
+	public String toString() {
+		return "ddd036object{" +
+				       "name='" + name + '\'' +
+				       ", price=" + price +
+				       '}';
+	}
 
-    public String getName() {
-        return name;
-    }
+	public String getName() {
+		return name;
+	}
 
-    public void setName(String name) {
-        this.name = name;
-    }
+	public void setName(String name) {
+		this.name = name;
+	}
 
-    public int getPrice() {
-        return price;
-    }
+	public int getPrice() {
+		return price;
+	}
 
-    public void setPrice(int price) {
-        this.price = price;
-    }
+	public void setPrice(int price) {
+		this.price = price;
+	}
 
-    @Override
-    public int compareTo(ccc001object o) {
-        return this.price - o.price >= 0 ? 1 : -1;
-    }
+	@Override
+	public int compareTo(ccc001object o) {
+		return this.price - o.price >= 0 ? 1 : -1;
+	}
 }

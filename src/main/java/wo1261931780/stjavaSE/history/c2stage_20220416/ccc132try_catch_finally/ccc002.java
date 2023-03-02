@@ -11,8 +11,8 @@ import java.io.*;
  */
 public class ccc002 {
     public static void main(String[] args) throws IOException {
-        File x = new File("C:\\Users\\1\\Documents\\GitHub\\st-java.github.io\\src\\c2stage_20220416\\ccc132try_catch_finally\\ccc002.java");
-        File xx = new File("C:\\Users\\1\\Documents\\GitHub\\st-java.github.io\\src\\c2stage_20220416\\ccc132try_catch_finally\\ccc002.txt");
+        File x = new File("C:\\Users\\1\\Documents\\GitHub\\st-java.github.io\\src\\c2stage_20220416\\ccc132try_catch_finally\\eee006.java");
+        File xx = new File("C:\\Users\\1\\Documents\\GitHub\\st-java.github.io\\src\\c2stage_20220416\\ccc132try_catch_finally\\eee006.txt");
         InputStream x1 = null;
         OutputStream x2 = null;
         int len = 0;

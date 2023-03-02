@@ -1,41 +1,40 @@
 package wo1261931780.stjavaSE.history.c2stage_20220228.ccc077hash_principle;
 
-import java.util.HashSet;
-
 public class ddd069对象类 {
-    private String name;
-    private int age;
+	private String name;
+	private int age;
 
-    public ddd069对象类() {
-    }
+	public ddd069对象类() {
+	}
 
-    public ddd069对象类(String name, int age) {
-        this.name = name;
-        this.age = age;
-    }
+	public ddd069对象类(String name, int age) {
+		this.name = name;
+		this.age = age;
+	}
 
-    public String getName() {
-        return name;
-    }
+	public String getName() {
+		return name;
+	}
 
-    public void setName(String name) {
-        this.name = name;
-    }
+	public void setName(String name) {
+		this.name = name;
+	}
 
-    public int getAge() {
-        return age;
-    }
+	public int getAge() {
+		return age;
+	}
 
-    public void setAge(int age) {
-        this.age = age;
-    }
+	public void setAge(int age) {
+		this.age = age;
+	}
 
-    /**
-     * 默认情况下，哈希数据之间不重复
-     * 可以进行重写操作，使得返回的所有hashcode都等于0
-     */
-    // @Override
-    // public int hashCode() {
-    //     return 0;
-    // }
+	/**
+	 * 默认情况下，哈希数据之间不重复
+	 *
+	 * 可以进行重写操作，使得返回的所有hashcode都等于0
+	 */
+	// @Override
+	// public int hashCode() {
+	//     return 0;
+	// }
 }

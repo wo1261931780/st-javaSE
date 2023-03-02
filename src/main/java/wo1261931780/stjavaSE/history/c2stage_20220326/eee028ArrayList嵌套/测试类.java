@@ -24,30 +24,29 @@ import java.util.Set;
  * 林平之	岳灵珊
  */
 public class 测试类 {
-    /**
-     * 2021年10月10日09:58:24，复习内容
-     */
-    public static void main(String[] args) {
-        ArrayList<HashMap<String, String>> x = new ArrayList<>();
-        HashMap<String, String> x1 = new HashMap<>();
-        x1.put("111", "a1");
-        x1.put("222", "a2");
-        HashMap<String, String> x2 = new HashMap<>();
-        x1.put("333", "a3");
-        x1.put("444", "a4");
-        HashMap<String, String> x3 = new HashMap<>();
-        x1.put("555", "a5");
-        x1.put("666", "a6");
-        x.add(x1);
-        x.add(x2);
-        x.add(x3);
-        System.out.println("开始执行");
-        for (HashMap<String, String> x4 : x) {
-            Set<String> x5 = x4.keySet();
-            for (String x6 : x5) {
-                System.out.println(x6 + "--" + x4.get(x6));
-            }
-        }
-
-    }
+	/**
+	 * 2021年10月10日09:58:24，复习内容
+	 */
+	public static void main(String[] args) {
+		ArrayList<HashMap<String, String>> x = new ArrayList<>();
+		HashMap<String, String> x1 = new HashMap<>();
+		x1.put("111", "a1");
+		x1.put("222", "a2");
+		HashMap<String, String> x2 = new HashMap<>();
+		x1.put("333", "a3");
+		x1.put("444", "a4");
+		HashMap<String, String> x3 = new HashMap<>();
+		x1.put("555", "a5");
+		x1.put("666", "a6");
+		x.add(x1);
+		x.add(x2);
+		x.add(x3);
+		System.out.println("开始执行");
+		for (HashMap<String, String> x4 : x) {
+			Set<String> x5 = x4.keySet();
+			for (String x6 : x5) {
+				System.out.println(x6 + "--" + x4.get(x6));
+			}
+		}
+	}
 }

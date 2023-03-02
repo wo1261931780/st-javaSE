@@ -26,33 +26,33 @@ import java.util.HashMap;
 import java.util.Set;
 
 public class eee031hashmap嵌套 {
-    public static void main(String[] args) {
-        HashMap<String, ArrayList<String>> x = new HashMap<>();
-        ArrayList<String> x1 = new ArrayList<>();
-        x1.add("x1-a1");
-        x1.add("x1-a2");
-        ArrayList<String> x2 = new ArrayList<>();
-        x2.add("x2-a1");
-        x2.add("x2-a2");
-        ArrayList<String> x3 = new ArrayList<>();
-        x3.add("x3-a1");
-        x3.add("x3-a2");
-        x.put("11", x1);
-        x.put("22", x2);
-        x.put("33", x3);
-        Set<String> x4 = x.keySet();
-        for (String i : x4) {
-            // for (String i : x) {
-            // 这里不能直接遍历x，因为x属于hashmap，
-            // 遍历必须针对单一元素的集合
-            // 这里的单一元素指的是，专门储存x键集合的x4
-            ArrayList<String> x5 = x.get(i);
-            // x5得到的是3个ArrayList
-            System.out.println(i + "---------------------");
-            for (String i2 : x5) {
-                System.out.println(i2);
-            }
-        }
+	public static void main(String[] args) {
+		HashMap<String, ArrayList<String>> x = new HashMap<>();
+		ArrayList<String> x1 = new ArrayList<>();
+		x1.add("x1-a1");
+		x1.add("x1-a2");
+		ArrayList<String> x2 = new ArrayList<>();
+		x2.add("x2-a1");
+		x2.add("x2-a2");
+		ArrayList<String> x3 = new ArrayList<>();
+		x3.add("x3-a1");
+		x3.add("x3-a2");
+		x.put("11", x1);
+		x.put("22", x2);
+		x.put("33", x3);
+		Set<String> x4 = x.keySet();
+		for (String i : x4) {
+			// for (String i : x) {
+			// 这里不能直接遍历x，因为x属于hashmap，
+			// 遍历必须针对单一元素的集合
+			// 这里的单一元素指的是，专门储存x键集合的x4
+			ArrayList<String> x5 = x.get(i);
+			// x5得到的是3个ArrayList
+			System.out.println(i + "---------------------");
+			for (String i2 : x5) {
+				System.out.println(i2);
+			}
+		}
 
-    }
+	}
 }

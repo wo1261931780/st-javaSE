@@ -8,40 +8,40 @@ package wo1261931780.stjavaSE.history.c2stage_20220220.ccc063for_case;
  * Time:  2022-02-13-42  ÐÇÆÚÎå
  */
 public class ccc001object {
-    private String name;
-    private int age;
-    private int price;
+	private String name;
+	private int age;
+	private int price;
 
-    public ccc001object() {
-    }
+	public ccc001object() {
+	}
 
-    public ccc001object(String name, int age, int price) {
-        this.name = name;
-        this.age = age;
-        this.price = price;
-    }
+	public ccc001object(String name, int age, int price) {
+		this.name = name;
+		this.age = age;
+		this.price = price;
+	}
 
-    public String getName() {
-        return name;
-    }
+	public String getName() {
+		return name;
+	}
 
-    public void setName(String name) {
-        this.name = name;
-    }
+	public void setName(String name) {
+		this.name = name;
+	}
 
-    public int getAge() {
-        return age;
-    }
+	public int getAge() {
+		return age;
+	}
 
-    public void setAge(int age) {
-        this.age = age;
-    }
+	public void setAge(int age) {
+		this.age = age;
+	}
 
-    public int getPrice() {
-        return price;
-    }
+	public int getPrice() {
+		return price;
+	}
 
-    public void setPrice(int price) {
-        this.price = price;
-    }
+	public void setPrice(int price) {
+		this.price = price;
+	}
 }

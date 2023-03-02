@@ -21,9 +21,9 @@ public class ccc002entryset {
         x.put("a5", 55);
         Set<Map.Entry<String, Integer>> demoset = x.entrySet();
         for (Map.Entry<String, Integer> result : demoset) {
-            String re_string = result.getKey();
-            Integer re_int = result.getValue();
-            System.out.println(re_string + "---------" + re_int);
+            String reString = result.getKey();
+            Integer reInt = result.getValue();
+            System.out.println(reString + "---------" + reInt);
         }
     }
 }

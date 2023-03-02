@@ -21,7 +21,7 @@ public class ccc001 {
         IOUtils.copy(new FileInputStream("src/c2stage_20220418/ccc144IO_constructor/ccc001thread_extends.java"), new FileOutputStream("src/c2stage_20220418/ccc144IO_constructor/ddd050做数组拷贝.txt"));
         // 一行代码完成复制和粘贴，
         // 同时不需要创建指定的管道
-        // FileUtils.copyFileToDirectory(new File("src/c2stage_20220418/ccc144IO_constructor/ccc001thread_extends.java"), new File("src/c2stage_20220418/ccc144IO_constructor2/ccc002.java"));
+        // FileUtils.copyFileToDirectory(new File("src/c2stage_20220418/ccc144IO_constructor/ccc001thread_extends.java"), new File("src/c2stage_20220418/ccc144IO_constructor2/eee006.java"));
         // 这里会默认将前面的作为文件，后面的xx.java作为文件夹
         // 然后复制的结果，是出现一个同名的文件
         // FileUtils.copyDirectoryToDirectory(new File("src/c2stage_20220418/ccc144IO_constructor"), new File("src/c2stage_20220418/ccc144IO_constructo2"));

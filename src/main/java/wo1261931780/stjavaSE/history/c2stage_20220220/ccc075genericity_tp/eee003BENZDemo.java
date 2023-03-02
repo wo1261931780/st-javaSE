@@ -5,8 +5,7 @@ package wo1261931780.stjavaSE.history.c2stage_20220220.ccc075genericity_tp;
  * Project:index.pb
  * Package:c2stage_20220220.ccc075genericity_tp
  * User:  wo1261931780@gmail.com
- * Time:  2022-02-12-50  ĞÇÆÚÈÕ
+ * Time:  2022-02-12-51  ÐÇÆÚÈÕ
  */
-public class ccc002BMW extends ccc001{
-
+public class eee003BENZDemo extends eee001demo {
 }
