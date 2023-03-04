@@ -31,7 +31,6 @@ public class ccc001MapOf {
 		log.info(demo.toString());// [a1, fg2, awq3, rqwr4]
 		log.info(demo2.toString());// [a1]
 		show1(demo);// a1
-
 	}
 
 	public static void show1(List<String> demo) {
