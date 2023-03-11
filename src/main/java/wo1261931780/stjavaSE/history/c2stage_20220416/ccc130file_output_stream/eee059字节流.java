@@ -7,13 +7,11 @@ public class eee059字节流 {
     public static void main(String[] args) throws IOException {
         // 需要对字节流和字符流做分类解释
         // 简单来说，
-        // 能使用记事本直接打开的文件吗，同时我们可以读懂内容的，一般作为字符流
+        // 能使用记事本直接打开的文件，同时我们可以读懂内容的，一般作为字符流
         // 类似图片webp文件，我们打开以后是“乱码”的形式，
         // 我们就作为字节流处理
         // 同时，如果无法判断一个文件的类型，就直接作为字节流处理
         // 因为字节流是万能类型
-        // --
-        // 今天应该完成的，是day9-10的进度
 
         FileOutputStream x = new FileOutputStream("l:ccc038demo.txt");
         System.out.println(x);
@@ -43,6 +41,4 @@ public class eee059字节流 {
     //     B:创建了字节输出流对象
     //     C:让字节输出流对象指向创建好的文件
     // 整体流程：new对象--write内容--close关闭
-
-
 }
